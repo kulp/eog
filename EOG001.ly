@@ -57,7 +57,7 @@ aes,4 aes aes aes des4. des8 aes4 aes | aes aes des4. des8 ees4 ees aes2
 <<
 \relative c' \new Staff {
 \override Staff.TimeSignature #'style = #'() \time 4/4
-%\tempo 4 = 90
+\tempo 4 = 90
 \key aes \major
 \clef treble << \notesSoprano \notesAlto >> }
 \addlyrics {
@@ -104,7 +104,8 @@ Heav’n it -- self re -- ech -- oes “Come!”
 }
 \relative c, \new Staff { \override Staff.TimeSignature #'style = #'() \time 4/4 \key aes \major \clef bass << \notesTenor \notesBass >> }
 >>
-%\midi{}
+\midi{}
+\layout{}
 }
 
 \version "2.14.1"  % necessary for upgrading to future LilyPond versions.

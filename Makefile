@@ -1,12 +1,30 @@
-LYS  = $(wildcard *.ly)
-PDFS = $(LYS:.ly=.pdf)
+LYS   = $(wildcard *.ly)
+PDFS  = $(LYS:.ly=.pdf)
+MIDIS = $(LYS:.ly=.midi)
+
+LYOPTS = -dno-point-and-click -ddelete-intermediate-files
+
+vpath %.mid MIDI
+vpath %.pdf PDF
+
+.SUFFIXES:
+.SUFFIXES: .ly .ily .pdf .midi
 
 .DEFAULT_GOAL = all
 
-all: $(PDFS)
+.PHONY: all pdf midi
+all: pdf midi
+pdf: $(PDFS)
+midi: $(MIDIS)
 
-$(PDFS): %.pdf: %.ly
-	lilypond --pdf --output=$* $<
+%.pdf %.midi: %.ly
+	lilypond $(LYOPTS) --pdf --output=$* $<
+	-mv $*.pdf PDF/
+	-mv $*.midi MIDI/
 
 clean:
-	$(RM) $(PDFS) *.log
+	$(RM) *.log
+
+clobber: clean
+	$(RM) PDF/*.pdf MIDI/*.midi
+
