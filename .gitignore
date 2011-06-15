@@ -1,3 +1,6 @@
 *.log
 *.pdf
 .DS_Store
+PDF
+MIDI
+.*.sw?
