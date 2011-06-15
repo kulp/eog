@@ -80,7 +80,7 @@ All to you may now be -- long.
 From sin’s dis -- tant land of fam -- ine,
 Toil -- ing ’neath the mid -- day sun,
 To a Fa -- ther’s house of plen -- ty,
-And a Fa -- ther's wel -- come, “Come!”
+And a Fa -- ther’s wel -- come, “Come!”
 } \addlyrics {
 \set stanza = "3."
 “Come!” for night is gath -- ’ring quick -- ly
