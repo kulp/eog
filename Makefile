@@ -4,8 +4,8 @@ MIDIS = $(LYS:.ly=.midi)
 
 LYOPTS = -dno-point-and-click -ddelete-intermediate-files
 
-vpath %.mid MIDI
-vpath %.pdf PDF
+vpath .midi MIDI
+vpath .pdf PDF
 
 .SUFFIXES:
 .SUFFIXES: .ly .ily .pdf .midi
