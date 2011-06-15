@@ -49,7 +49,7 @@ notesTenor = {
 
 a bes | c c c c | c c c c | bes a bes c | a
 a bes | c c c c | c c c c | bes a c bes | a
-a a | bes bes d bes | a c c c | c e d d | c % TODO slur
+a a | bes bes d bes | a c c c | c e d d | s \insert { \new Voice { \stemUp c4.( bes8) } } % slur
 a bes | c c c c | c c c c | bes a c bes | a
 
 }
@@ -60,7 +60,7 @@ notesBass = {
 
 f f | f f bes a | g g e f | c c c c | f
 f f | f f bes a | g g e f | c c c c | f
-f f | bes bes, bes bes | f' f f f | g g g g | c,
+f f | bes bes, bes bes | f' f f f | g g g g | \new Voice \with { \override NoteSpacing #'same-direction-correction = #0.0 \override Stem #'direction = #down } { \stemDown c, } % TODO direction on stem
 f f | f f bes a | g g e f | c c c c | f
 
 }
