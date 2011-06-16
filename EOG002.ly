@@ -9,7 +9,6 @@
 
 \include "inc/changePitch.ly"
 
-
 \header{
   title = "As the Serpent Raised by Moses"
   subsubtitle = "(Take The World But Give Me Jesus. 8. 7. 8. 7. D.)"
@@ -117,9 +116,10 @@ VerseThree = \lyricmode {
 
 \score {
   \new ChoirStaff <<
+    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
     \new Staff <<
       \clef "treble"
-      \new Voice = "Soprano"  { \voiceOne \global \changePitch \pattern \notesSoprano }
+      \new Voice = "Soprano"  { \voiceOne \global \changePitch \pattern \notesSoprano \bar "|" }
       \new Voice = "Alto" { \voiceTwo \global \changePitch \pattern \notesAlto }
       \new Lyrics \lyricsto "Soprano" { \VerseOne }
       \new Lyrics \lyricsto "Soprano" { \VerseTwo }
