@@ -68,7 +68,8 @@ notesBass = {
 global = {
   \autoBeamOff
   \override Staff.TimeSignature #'style = #'() \time 3/4
-  %\tempo 4 = 90
+  \once \override Score.MetronomeMark #'transparent = ##t
+  \tempo 4 = 90
   \key f \major
   \partial 4
 }
