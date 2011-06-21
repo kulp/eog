@@ -54,7 +54,8 @@ aes,4 aes aes aes des4. des8 aes4 aes | aes aes des4. des8 ees4 ees aes2
 }
 
 \score {
-<<
+  \new ChoirStaff <<
+    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
 \relative c' \new Staff {
 \override Staff.TimeSignature #'style = #'() \time 4/4
 \once \override Score.MetronomeMark #'transparent = ##t
