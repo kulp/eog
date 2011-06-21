@@ -69,7 +69,7 @@ global = {
   \autoBeamOff
   \override Staff.TimeSignature #'style = #'() \time 3/4
   \once \override Score.MetronomeMark #'transparent = ##t
-  \tempo 4 = 90
+  \tempo 4 = 70
   \key f \major
   \partial 4
 }
