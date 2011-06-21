@@ -1,8 +1,10 @@
-LYS   = $(wildcard *.ly)
-PDFS  = $(LYS:.ly=.pdf)
-MIDIS = $(LYS:.ly=.midi)
+LYS   = $(wildcard EOG???.ly)
+PDFS  = $(addprefix PDF/,$(LYS:.ly=.pdf))
+MIDIS = $(addprefix MIDI/,$(LYS:.ly=.midi))
 
-LYOPTS = -dno-point-and-click -ddelete-intermediate-files
+ifneq ($(DEBUG),1)
+LYOPTS += -dno-point-and-click -ddelete-intermediate-files
+endif
 
 vpath .midi MIDI
 vpath .pdf PDF
@@ -17,7 +19,7 @@ all: pdf midi
 pdf: $(PDFS)
 midi: $(MIDIS)
 
-%.pdf %.midi: %.ly
+PDF/%.pdf MIDI/%.midi: %.ly
 	lilypond $(LYOPTS) --pdf --output=$* $<
 	-mv $*.pdf PDF/
 	-mv $*.midi MIDI/
