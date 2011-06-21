@@ -3,8 +3,11 @@
   indent        = 0\cm
   top-margin    = 1\cm
   bottom-margin = 1\cm
-  left-margin   = 2\cm
-  right-margin  = 2\cm
+  left-margin   = 1\cm
+  right-margin  = 1\cm
+    %annotate-spacing = ##t
+    %systems-per-page = 4
+    page-count = 1
 }
 
 \include "inc/changePitch.ly"
@@ -26,10 +29,10 @@ patternThree = { c4. | c4 c8 c4 c8 c4 c8 | c4.( c4.) c4 c8 | c4.( c4.) c4 c8 | c
 notesSoprano = {
 \relative c' {
 
-	\changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
-	\changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
-	\changePitch \patternTwo { c' | c bes g d' d c | a a c | c bes g d' d c | a a }
-	\changePitch \patternOne { c bes | a a a a a bes c | d c c bes a | g bes a g | f f }
+    \changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
+    \changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
+    \changePitch \patternTwo { c' | c bes g d' d c | a a c | c bes g d' d c | a a }
+    \changePitch \patternOne { c bes | a a a a a bes c | d c c bes a | g bes a g | f f }
 
 }
 }
@@ -37,10 +40,10 @@ notesSoprano = {
 notesAlto = {
 \relative e' {
 
-	\changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
-	\changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
-	\changePitch \patternTwo { f | e g e e f f | f f f | e g e e f f | f f }
-	\changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
+    \changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
+    \changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
+    \changePitch \patternTwo { f | e g e e f f | f f f | e g e e f f | f f }
+    \changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
 
 }
 }
@@ -48,10 +51,10 @@ notesAlto = {
 notesTenor = {
 \relative a {
 
-	\changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
-	\changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
-	\changePitch \patternTwo   { a | g c c bes bes a | c c a | g c c bes bes a | c c }
-	\changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
+    \changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
+    \changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
+    \changePitch \patternTwo   { a | g c c bes bes a | c c a | g c c bes bes a | c c }
+    \changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
 
 }
 }
@@ -59,10 +62,10 @@ notesTenor = {
 notesBass = {
 \relative a {
 
-	\changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
-	\changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
-	\changePitch \patternTwo   { f | c c c c f f | f f | f c c c c f f | f f }
-	\changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
+    \changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
+    \changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
+    \changePitch \patternTwo   { f | c c c c f f | f f | f c c c c f f | f f }
+    \changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
 
 }
 }
@@ -80,29 +83,56 @@ global = {
 VerseOne = \lyricmode {
 \set stanza = "1."
 
-	Be -- hold, be -- hold the Lamb _ of God \bar "|"
-	On _ the cross! On the cross! \bar "|" \break
-	For us He shed his Pre -- _ cious blood \bar "|"
-	On _ the cross! On the cross! \bar "|" \break
-	O hear the o -- ver whelm -- ing cry— \bar "|"
-	“E -- li la -- ma sa -- bach -- tha -- ni.” \bar "|" \break
-	Draw near and see the Sav -- _ iour die \bar "|"
-	On _ the cross! On the cross! \bar "|"
+    Be -- hold, be -- hold the Lamb _ of God \bar "|"
+    On _ the cross! On the cross! \bar "|" \break
+    For us He shed his Pre -- _ cious blood \bar "|"
+    On _ the cross! On the cross! \bar "|" \break
+    O hear the o -- ver whelm -- ing cry— \bar "|"
+    “E -- li la -- ma sa -- bach -- tha -- ni.” \bar "|" \break
+    Draw near and see the Sav -- _ iour die \bar "|"
+    On _ the cross! On the cross! \bar "|"
 
 }
 
 VerseTwo = \lyricmode {
 \set stanza = "2."
 
+    See, see His arms ex -- tend -- _ ed wide
+    On _ the cross! On the cross! \bar "|"
+    Be -- hold His bleed -- ing hands _ and side
+    On _ the cross! On the cross! \bar "|"
+    The sun with -- holds his rays of light,
+    The heav'ns are clothed in shades of night,
+    While Je -- sus wins the glo -- _ rious fight
+    On _ the cross! On the cross! \bar "|"
+
 }
 
 VerseThree = \lyricmode {
 \set stanza = "3."
 
+    Come, sin -- ners, see Him lift -- _ ed up
+    On _ the cross! On the cross! \bar "|"
+    He drinks for you the bit -- _ ter cup
+    On _ the cross! On the cross! \bar "|"
+    The rocks do rend, the moun -- tains quake,
+    While Je -- sus doth a -- tone -- ment make,
+    While Je -- sus suf -- fers for _ our sake,
+    On _ the cross! On the cross! \bar "|"
+
 }
 
 VerseFour = \lyricmode {
-\set stanza = "3."
+\set stanza = "4."
+
+    Wher -- e’er I go I’ll tell _ the story,
+    Of _ the cross! Of the cross! \bar "|"
+    In noth -- ing else my soul _ shall glory,
+    Save _ the cross! Save the cross! \bar "|"
+    Yes; this my cons -- tant theme shall be,
+    Thro’ time, and in e -- ter -- ni -- ty,
+    That Je -- sus tast -- ed death _ for me,
+    On _ the cross! On the cross! \bar "|"
 
 }
 
@@ -113,6 +143,12 @@ VerseFour = \lyricmode {
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
     \new Staff <<
       \clef "treble"
+      \repeat unfold 4 {
+         s4( s8) \noBreak | s4 s8 s4 s8 s8 s8 s8 \noBreak | s4.( s4.) \noBreak
+             s8 s8 s8 \noBreak | s4.( s4.) \noBreak s4 s8 \noBreak | s4. ~ s4.
+             \break
+      }
+      
       \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|" }
       \new Voice = "Alto" { \voiceTwo \global \notesAlto }
       \new Lyrics \lyricsto "Soprano" { \VerseOne }
