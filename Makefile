@@ -14,8 +14,8 @@ vpath .pdf PDF
 
 .DEFAULT_GOAL = all
 
-.PHONY: all pdf midi
-all: pdf midi
+.PHONY: all pdf midi index
+all: pdf midi index
 pdf: $(PDFS)
 midi: $(MIDIS)
 
@@ -27,6 +27,11 @@ PDF/%.pdf MIDI/%.midi: %.ly
 push:
 	git push kulp.ch master
 	ssh kulp.ch "cd kulp.ch/eog && git reset --hard && make"
+
+index: index.html
+index.html: $(PDFS) $(MIDIS)
+	echo '<body><ul>' > $@
+	echo $(foreach r,$^,'<li><a href="$r">$(notdir $r)</a></li>') >> $@
 
 clean:
 	$(RM) *.log
