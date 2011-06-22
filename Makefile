@@ -24,6 +24,10 @@ PDF/%.pdf MIDI/%.midi: %.ly
 	-mv $*.pdf PDF/
 	-mv $*.midi MIDI/
 
+push:
+	git push kulp.ch master
+	ssh kulp.ch "cd kulp.ch/eog && git reset --hard && make"
+
 clean:
 	$(RM) *.log
 
