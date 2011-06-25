@@ -1,16 +1,7 @@
+\include "common/global.ily"
 \paper {
-  #(set-paper-size "letter")
-  indent        = 0\cm
-  top-margin    = 1\cm
-  bottom-margin = 1\cm
-  left-margin   = 2\cm
-  right-margin  = 2\cm
-    %annotate-spacing = ##t
-    %systems-per-page = 4
-    page-count = 1
+  \include "common/paper.ily"
 }
-
-\include "inc/changePitch.ly"
 
 \header{
   title = "Behold the Saviour At the Door"
@@ -170,44 +161,10 @@ wordsD = \lyricmode {
     >>
   >>
   \layout {
-    \context {
-      \Score
-      % **** Turns off bar numbering
-      \remove "Bar_number_engraver"
-    }
-    \context {
-      \Lyrics
-      % **** Prevents lyrics from running too close together
-      \override LyricSpace #'minimum-distance = #0.6
-      % **** Makes the text of lyrics a little smaller
-      %\override LyricText #'font-size = #-0.5
-      % **** Moves lines of lyrics closer together
-      \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
-    }
+    \include "common/layout.ily"
   }
   \midi{
-% from http://old.nabble.com/Issue-1647-in-lilypond%3A-MIDI-skips-note-if-the-pitch-is-already-sounding-in-the-same-channel-td31563955.html
-%%{% begin workaround 
-% I find the workaround to be essential for proof-hearing piano pieces 
-     \context { 
-       \Score 
-       %% Begin: for versions >2.13.54 
-       % assign one MIDI channel to each Staff_performer 
-       midiChannelMapping = #'staff 
-       %% End: for versions >2.13.54 
-     } 
-     % create a different Staff_performer (sic) for each *Voice* 
-     % so that you get one MIDI channel per Voice 
-     \context { 
-       \Staff 
-       \remove "Staff_performer" 
-     } 
-     \context { 
-       \Voice 
-       \consists "Staff_performer" 
-     } 
-%%}% end workaround 
-  
+    \include "common/midi.ily"
   }
 }
 

@@ -1,13 +1,7 @@
+\include "common/global.ily"
 \paper {
-  #(set-paper-size "letter")
-  indent        = 0\cm
-  top-margin    = 1\cm
-  bottom-margin = 1\cm
-  left-margin   = 2\cm
-  right-margin  = 2\cm
+  \include "common/paper.ily"
 }
-
-\include "inc/changePitch.ly"
 
 \header{
   title = "As the Serpent Raised by Moses"
@@ -132,8 +126,12 @@ VerseThree = \lyricmode {
       \new Voice = "Bass"  { \voiceTwo \global \changePitch \pattern \notesBass }
     >>
   >>
-  \layout{}
-  \midi{}
+  \layout {
+    \include "common/layout.ily"
+  }
+  \midi{
+    \include "common/midi.ily"
+  }
 }
 
 \version "2.14.1"  % necessary for upgrading to future LilyPond versions.
