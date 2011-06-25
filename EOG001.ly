@@ -23,6 +23,7 @@ c4 bes aes4. g8 f4 aes f ees | aes4 c ees4. c8 bes4 aes bes2
 c4 bes aes4. g8 f4 aes f ees | aes4 c f,4. bes8 aes4 g aes2
 c4 ees ees c bes aes c bes | c ees ees4. c8 bes4 aes bes2
 c4 bes aes ees des'4. f,8 f4 ees | aes c f,4. bes8 aes4 g aes2
+\bar "|."
 }
 }
 

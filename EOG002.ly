@@ -120,7 +120,7 @@ VerseThree = \lyricmode {
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
     \new Staff <<
       \clef "treble"
-      \new Voice = "Soprano"  { \voiceOne \global \changePitch \pattern \notesSoprano \bar "|" }
+      \new Voice = "Soprano"  { \voiceOne \global \changePitch \pattern \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \changePitch \pattern \notesAlto }
       \new Lyrics \lyricsto "Soprano" { \VerseOne }
       \new Lyrics \lyricsto "Soprano" { \VerseTwo }

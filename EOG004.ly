@@ -49,9 +49,11 @@ notesSoprano = {
   \changePitch \patternB { aes g f     | ees aes   | aes g aes | bes } 
   \changePitch \patternA { c bes aes   | aes g aes | bes f g   | aes } 
   \changePitch \patternB { aes g f     | ees c'    | bes c bes | aes } 
-
-  \changePitch \patternR { des des des | c c       | bes bes   | c   } 
+  
+  << s^\markup { \small \caps "Refrain" }
+  \changePitch \patternR { des des des | c c       | bes bes   | c   } >>
   \changePitch \patternR { c bes aes   | f aes     | bes bes   | aes } 
+  \bar "|."
 
 }
 }
@@ -126,7 +128,6 @@ wordsB = \lyricmode {
   O match -- less kind -- ness! and He shows
   His match -- less kind -- ness to His foes.
   \Refrain
-
 }
 
 wordsC = \lyricmode {
@@ -146,11 +147,6 @@ wordsD = \lyricmode {
   He’er en -- ter -- tained so kind a guest;
   No mor -- tal tongue their joys can tell,
   With whom He con -- de -- scends to dwell.
-
-}
-
-notesRefrainSoprano = {
-  c^\markup { \small \italic "Refrain" }
 
 }
 

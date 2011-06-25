@@ -35,6 +35,7 @@ notesSoprano = {
     \changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
     \changePitch \patternTwo { c' | c bes g d' d c | a a c | c bes g d' d c | a a }
     \changePitch \patternOne { c bes | a a a a a bes c | d c c bes a | g bes a g | f f }
+\bar "|."
 
 }
 }
@@ -151,7 +152,7 @@ VerseFour = \lyricmode {
              \break
       }
       
-      \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|" }
+      \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \notesAlto }
       \new Lyrics \lyricsto "Soprano" { \VerseOne }
       \new Lyrics \lyricsto "Soprano" { \VerseTwo }
