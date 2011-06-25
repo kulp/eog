@@ -30,8 +30,8 @@ push:
 
 index: index.html
 index.html: $(PDFS) $(MIDIS)
-	echo '<body><ul>' > $@
-	echo $(foreach r,$^,'<li><a href="$r">$(notdir $r)</a></li>') >> $@
+	@echo '<body><ul>' > $@
+	@echo $(foreach r,$^,'<li><a href="$r">$(notdir $r)</a></li>') >> $@
 
 clean:
 	$(RM) *.log
