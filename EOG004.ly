@@ -3,11 +3,11 @@
   indent        = 0\cm
   top-margin    = 1\cm
   bottom-margin = 1\cm
-  left-margin   = 1\cm
-  right-margin  = 1\cm
+  left-margin   = 2\cm
+  right-margin  = 2\cm
     %annotate-spacing = ##t
     %systems-per-page = 4
-    %page-count = 1
+    page-count = 1
 }
 
 \include "inc/changePitch.ly"
@@ -22,14 +22,14 @@
   tagline = ##f
 }
 
-patternA = { c4 c4 c4 \noBreak | c4( c4) c4 \noBreak | c4( c4) c4 \noBreak | c2. \break } % Soprano 1
-patternB = { c4 c4 c4 \noBreak | c2      c4 \noBreak | c4( c4) c4 \noBreak | c2. \break } % Soprano 2
-patternC = { c4 c4 c4 \noBreak | c2      c4 \noBreak | c2      c4 \noBreak | c2. \break } % Alto 1 & Tenor / Bass 2
-patternD = { c4 c4 c4 \noBreak | c2      c4 \noBreak | c2      c4 \noBreak | c2. \break } % Alto 2
-patternE = { c4 c4 c4 \noBreak | c4( c4) c4 \noBreak | c2      c4 \noBreak | c2. \break } % Tenor / Bass 1
+patternA = { c4 c4 c4 | c4( c4) c4 | c4( c4) c4 | c2. \break } % Soprano 1
+patternB = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Soprano 2
+patternC = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \break } % Alto 1 & Tenor / Bass 2
+patternD = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \break } % Alto 2
+patternE = { c4 c4 c4 | c4( c4) c4 | c2      c4 | c2. \break } % Tenor / Bass 1
 
-patternR = { c4 c4 c4 \noBreak | c2      c4 \noBreak | c2      c4 \noBreak | c2. \break } % Soprano / Alto / Bass Refrain
-patternS = { c4 c4 c4 \noBreak | c2      c4 \noBreak | c4( c4) c4 \noBreak | c2. \break } % Tenor Refrain
+patternR = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \break } % Soprano / Alto / Bass Refrain
+patternS = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Tenor Refrain
 
 global = {
   %\autoBeamOff
@@ -144,7 +144,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
   Ad -- mit Him, for the hu -- man breast
-  He’er en -- ter -- tained so kind a guest;
+  Ne’er en -- ter -- tained so kind a guest;
   No mor -- tal tongue their joys can tell,
   With whom He con -- de -- scends to dwell.
 
