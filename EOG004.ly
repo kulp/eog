@@ -184,7 +184,7 @@ notesRefrainSoprano = {
       % **** Prevents lyrics from running too close together
       \override LyricSpace #'minimum-distance = #0.6
       % **** Makes the text of lyrics a little smaller
-      \override LyricText #'font-size = #-0.5
+      %\override LyricText #'font-size = #-0.5
       % **** Moves lines of lyrics closer together
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
     }
