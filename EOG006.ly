@@ -21,14 +21,16 @@ patternA = { c4 c8. c16     | c4. c8        | c8. c16 c8 c8  | c4. r8        } %
 patternB = { c4 c8. c16     | c4 c4         | c8. c16 c8 c8  | c4. r8        } % Line 2
 patternC = { c4 c8 c8       | c8. c16 c8 c8 | c4 c4          | c4. r8        } % Line 4
 
-patternR = { c4.( c8) c8 c8 | c4.( c4.)     | c4.( c8) c8 c8 | c4.( c4) r8   } % Refrain soprano / alto / tenor 1
-patternS = { c4.( c8) c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8   } % Refrain soprano / alto / tenor 2
-patternT = { c4 c8 c8 c8 c8 | c4.( c4.)     | c4 c8 c8 c8 c8 | c4.( c4.)     } % Refrain soprano 3 % TODO fermata
-patternU = { c4 c8 c4 c8    | c4.( c4.)     | c4 c8 c4 c8    | c4 c8 c4( c8) } % Refrain alto 3 % TODO fermata
+patternR = { c4. ~ c8 c8 c8 | c4. ~ c4.     | c4.( c8) c8 c8 | c4. ~ c4 r8   } % Refrain soprano / alto / tenor 1
+patternS = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8   } % Refrain soprano / tenor 2
+patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8   } % Refrain alto 2
+patternT = { c4 c8 c8 c8 c8 | c4. ~ c4.     | c4 c8 c8 c8 c8 | c4.( c4.)     } % Refrain soprano 3 % TODO fermata
+patternU = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4 c8 c4( c8) } % Refrain alto 3 % TODO fermata
 patternV = { c4 c8 c8 c8 c8 | c4 c8 c4( c8) | c4 c8 c8 c8 c8 | c4 c8 c4( c8) } % Refrain tenor 3 % TODO fermata
-patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4.( c4) r8   } % Refrain bass 1
-patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8   } % Refrain bass 2
-patternY = { c4 c8 c4 c8    | c4.( c4.)     | c4 c8 c4 c8    | c4.( c4.)     } % Refrain bass 3 % TODO fermata
+patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4. ~ c4 r8   } % Refrain bass 1
+patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8   } % Refrain bass 2
+patternY = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4. ~ c4.     } % Refrain bass 3 % TODO fermata
+patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8   } % Refrain alto 2
 
 global = {
   %\autoBeamOff
@@ -72,7 +74,7 @@ notesAlto = {
   \changePitch \patternC { ees d ees   | ees c ees ees | ees d           | ees r } 
 
   \changePitch \patternR { ees ees ees ees | g g     | aes aes aes aes | bes bes r     } 
-  \changePitch \patternS { aes aes aes ees | ees ees | f f f ees       | ees ees r     } 
+  \changePitch \patternZ { aes aes aes ees | ees ees | f f f ees       | ees ees r     } 
   \changePitch \patternU { ees ees ees ees | ees ees | ees ees ees ees | bes bes c bes } 
 
 }
@@ -125,23 +127,36 @@ wordsA = \lyricmode {
   The Lord of life, who bids thy heart re -- joice;
   O wear -- y heart, with heav -- y cares op -- pressed,
   “Come un -- to Me,” and I will give you rest.
-  \Refrain
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-  %\Refrain
+  Wear -- y with life’s long strug -- gle, full of pain,
+  O doubt -- ing soul, thy Sav -- iour calls a -- gain;
+  The doubts shall van -- ish, and thy sor -- rows cease:
+  “Come un -- to Me,” and I will give you peace.
+  \Refrain
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
+  O dy -- ing man, with guilt and sin dis -- mayed,
+  With con -- science wak -- ened, of thy God a -- fraid;
+  ’Twixt hopes and fears— O, end the anx -- ious strife!—
+  “Come un -- to Me,” and I will give you life.
+
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
+
+	Life, rest, and peace, the flow’rs of death -- less bloom,
+	The Sav -- iour fives us, not be -- yond the tomb—
+	But here, and now, on earth, the taste is giv’n
+	Of joys which wait us thro’ the gates of heav’n.
 
 }
 
