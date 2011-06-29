@@ -17,20 +17,20 @@
   tagline = ##f
 }
 
-patternA = { c4 c8. c16     | c4. c8        | c8. c16 c8 c8  | c4. r8        } % Line 1, 3
-patternB = { c4 c8. c16     | c4 c4         | c8. c16 c8 c8  | c4. r8        } % Line 2
-patternC = { c4 c8 c8       | c8. c16 c8 c8 | c4 c4          | c4. r8        } % Line 4
+patternA = { c4 c8. c16     | c4. c8        | c8. c16 c8 c8  | c4. r8                 } % Line 1, 3
+patternB = { c4 c8. c16     | c4 c4         | c8. c16 c8 c8  | c4. r8                 } % Line 2
+patternC = { c4 c8 c8       | c8. c16 c8 c8 | c4 c4          | c4. r8                 } % Line 4
 
-patternR = { c4. ~ c8 c8 c8 | c4. ~ c4.     | c4.( c8) c8 c8 | c4. ~ c4 r8   } % Refrain soprano / alto / tenor 1
-patternS = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8   } % Refrain soprano / tenor 2
-patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8   } % Refrain alto 2
-patternT = { c4 c8 c8 c8 c8 | c4. ~ c4.     | c4 c8 c8 c8 c8 | c4.( c4.)     } % Refrain soprano 3 % TODO fermata
-patternU = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4 c8 c4( c8) } % Refrain alto 3 % TODO fermata
-patternV = { c4 c8 c8 c8 c8 | c4 c8 c4( c8) | c4 c8 c8 c8 c8 | c4 c8 c4( c8) } % Refrain tenor 3 % TODO fermata
-patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4. ~ c4 r8   } % Refrain bass 1
-patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8   } % Refrain bass 2
-patternY = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4. ~ c4.     } % Refrain bass 3 % TODO fermata
-patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8   } % Refrain alto 2
+patternR = { c4. ~ c8 c8 c8 | c4. ~ c4.     | c4. ~ c8 c8 c8 | c4. ~ c4 r8            } % Refrain soprano / alto / tenor 1
+patternS = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8            } % Refrain soprano / tenor 2
+patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain alto 2
+patternT = { c4 c8 c8 c8 c8 | c4. ~ c4.     | c4 c8 c8 c8 c8 | c4.( c4.) \fermata     } % Refrain soprano 3
+patternU = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4 c8 c4( c8) \fermata } % Refrain alto 3
+patternV = { c4 c8 c8 c8 c8 | c4 c8 c4( c8) | c4 c8 c8 c8 c8 | c4 c8 c4( c8) \fermata } % Refrain tenor 3
+patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4. ~ c4 r8            } % Refrain bass 1
+patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain bass 2
+patternY = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4. ~ c4. \fermata     } % Refrain bass 3
+patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain alto 2
 
 global = {
   %\autoBeamOff
@@ -38,7 +38,7 @@ global = {
   \time 2/4
   % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
-  \tempo 4 = 96
+  \tempo 4 = 86
   \key ees \major
   %\partial 4.
   \autoBeamOff
@@ -48,16 +48,17 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternA { g ees f   | g g          | aes aes aes aes | g r   } 
-  \changePitch \patternB { bes c bes | g ees        | ees ees f g     | f r   } 
-  \changePitch \patternA { g ees f   | g g          | aes aes bes aes | g r   } 
-  \changePitch \patternC { bes aes g | c ees, ees f | g f             | ees r } 
+  \changePitch \patternA { g ees f   | g g          | aes aes aes aes | g r   }
+  \changePitch \patternB { bes c bes | g ees        | ees ees f g     | f r   }
+  \changePitch \patternA { g ees f   | g g          | aes aes bes aes | g r   }
+  \changePitch \patternC { bes aes g | c ees, ees f | g f             | ees r }
 
   \time 6/8
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternR { g g f g           | bes bes | bes bes c bes   | ees ees r } >>
-  \changePitch \patternS { ees ees d c       | bes g   | aes aes aes aes | aes g r   } 
-  \changePitch \patternT { bes bes bes c bes | g g     | g g g aes g     | ees ees   } 
+  \changePitch \patternS { ees ees d c       | bes g   | aes aes aes aes | aes g r   }
+  \changePitch \patternT { bes bes bes c bes | g g     | g g g aes g     | ees ees   }
+
 
   \bar "|."
 
@@ -68,14 +69,14 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternA { ees bes bes | ees ees       | ees ees ees ees | ees r } 
-  \changePitch \patternB { ees ees ees | ees bes       | c c c ees       | d r   } 
-  \changePitch \patternA { ees bes bes | ees ees       | ees ees ees ees | ees r } 
-  \changePitch \patternC { ees d ees   | ees c ees ees | ees d           | ees r } 
+  \changePitch \patternA { ees bes bes | ees ees       | ees ees ees ees | ees r }
+  \changePitch \patternB { ees ees ees | ees bes       | c c c ees       | d r   }
+  \changePitch \patternA { ees bes bes | ees ees       | ees ees ees ees | ees r }
+  \changePitch \patternC { ees d ees   | ees c ees ees | ees d           | ees r }
 
-  \changePitch \patternR { ees ees ees ees | g g     | aes aes aes aes | bes bes r     } 
-  \changePitch \patternZ { aes aes aes ees | ees ees | f f f ees       | ees ees r     } 
-  \changePitch \patternU { ees ees ees ees | ees ees | ees ees ees ees | bes bes c bes } 
+  \changePitch \patternR { ees ees ees ees | g g     | aes aes aes aes | bes bes r     }
+  \changePitch \patternZ { aes aes aes ees | ees ees | f f f ees       | ees ees r     }
+  \changePitch \patternU { ees ees ees ees | ees ees | ees ees ees ees | bes bes c bes }
 
 }
 }
@@ -84,14 +85,14 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternA { bes g aes   | bes bes       | c c c c   | bes r } 
-  \changePitch \patternB { g aes g     | bes g         | g bes a a | bes r } 
-  \changePitch \patternA { bes g aes   | bes bes       | c c d c   | bes r } 
-  \changePitch \patternC { bes bes bes | aes aes c ces | bes aes   | g r   } 
+  \changePitch \patternA { bes g aes   | bes bes       | c c c c   | bes r }
+  \changePitch \patternB { g aes g     | bes g         | g bes a a | bes r }
+  \changePitch \patternA { bes g aes   | bes bes       | c c d c   | bes r }
+  \changePitch \patternC { bes bes bes | aes aes c ces | bes aes   | g r   }
 
-  \changePitch \patternR { bes bes aes bes | ees ees       | d d d d           | ees ees r } 
-  \changePitch \patternS { c c bes aes     | g bes         | bes ees d c       | c bes r   } 
-  \changePitch \patternV { g g g aes g     | bes bes c bes | bes bes bes c bes | g g aes g } 
+  \changePitch \patternR { bes bes aes bes | ees ees       | d d d d           | ees ees r }
+  \changePitch \patternS { c c bes aes     | g bes         | bes ees d c       | c bes r   }
+  \changePitch \patternV { g g g aes g     | bes bes c bes | bes bes bes c bes | g g aes g }
 
 }
 }
@@ -100,14 +101,14 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternA { ees ees ees | ees ees         | ees ees ees ees | ees r } 
-  \changePitch \patternB { ees ees ees | ees ees         | c c f f         | bes, r } 
-  \changePitch \patternA { ees ees ees | ees ees         | ees ees ees ees | ees r } 
-  \changePitch \patternC { g f ees     | aes, aes aes aes | bes bes         | ees r } 
+  \changePitch \patternA { ees ees ees | ees ees          | ees ees ees ees | ees r  }
+  \changePitch \patternB { ees ees ees | ees ees          | c c f f         | bes, r }
+  \changePitch \patternA { ees ees ees | ees ees          | ees ees ees ees | ees r  }
+  \changePitch \patternC { g f ees     | aes, aes aes aes | bes bes         | ees r  }
 
-  \changePitch \patternW { ees ees ees     | ees ees | f f f           | g g r     } 
-  \changePitch \patternX { aes aes aes     | ees ees | bes bes bes bes | ees ees r } 
-  \changePitch \patternY { ees ees ees ees | ees ees | ees ees ees ees | ees ees   } 
+  \changePitch \patternW { ees ees ees     | ees ees | f f f           | g g r     }
+  \changePitch \patternX { aes aes aes     | ees ees | bes bes bes bes | ees ees r }
+  \changePitch \patternY { ees ees ees ees | ees ees | ees ees ees ees | ees ees   }
 
 }
 }
