@@ -1,0 +1,177 @@
+\include "common/global.ily"
+\paper {
+  \include "common/paper.ily"
+  ragged-bottom = ##f
+  ragged-last-bottom = ##t
+  systems-per-page = ##f
+  page-count = ##f
+}
+
+\header{
+  title = "“Come Unto Me”"
+  subsubtitle = "(10. 10. 10. 10. and Refrain.)"
+  %meter = "10.10.10.10."
+  poet = "Nath. Norton"
+  composer = "G. C. Stebbins"
+  %copyright = ""
+  tagline = ##f
+}
+
+patternA = { c4 c8. c16     | c4. c8        | c8. c16 c8 c8  | c4. r8        } % Line 1, 3
+patternB = { c4 c8. c16     | c4 c4         | c8. c16 c8 c8  | c4. r8        } % Line 2
+patternC = { c4 c8 c8       | c8. c16 c8 c8 | c4 c4          | c4. r8        } % Line 4
+
+patternR = { c4.( c8) c8 c8 | c4.( c4.)     | c4.( c8) c8 c8 | c4.( c4) r8   } % Refrain soprano / alto / tenor 1
+patternS = { c4.( c8) c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8   } % Refrain soprano / alto / tenor 2
+patternT = { c4 c8 c8 c8 c8 | c4.( c4.)     | c4 c8 c8 c8 c8 | c4.( c4.)     } % Refrain soprano 3 % TODO fermata
+patternU = { c4 c8 c4 c8    | c4.( c4.)     | c4 c8 c4 c8    | c4 c8 c4( c8) } % Refrain alto 3 % TODO fermata
+patternV = { c4 c8 c8 c8 c8 | c4 c8 c4( c8) | c4 c8 c8 c8 c8 | c4 c8 c4( c8) } % Refrain tenor 3 % TODO fermata
+patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4.( c4) r8   } % Refrain bass 1
+patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8   } % Refrain bass 2
+patternY = { c4 c8 c4 c8    | c4.( c4.)     | c4 c8 c4 c8    | c4.( c4.)     } % Refrain bass 3 % TODO fermata
+
+global = {
+  %\autoBeamOff
+  \override Staff.TimeSignature #'style = #'()
+  \time 2/4
+  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
+  \once \override Score.MetronomeMark #'transparent = ##t
+  \tempo 4 = 96
+  \key ees \major
+  %\partial 4.
+  \autoBeamOff
+}
+
+notesSoprano = {
+\global
+\relative c'' {
+
+  \changePitch \patternA { g ees f   | g g          | aes aes aes aes | g r   } 
+  \changePitch \patternB { bes c bes | g ees        | ees ees f g     | f r   } 
+  \changePitch \patternA { g ees f   | g g          | aes aes bes aes | g r   } 
+  \changePitch \patternC { bes aes g | c ees, ees f | g f             | ees r } 
+
+  \time 6/8
+  << s^\markup { \small \caps "Refrain" }
+  \changePitch \patternR { g g f g           | bes bes | bes bes c bes   | ees ees r } >>
+  \changePitch \patternS { ees ees d c       | bes g   | aes aes aes aes | aes g r   } 
+  \changePitch \patternT { bes bes bes c bes | g g     | g g g aes g     | ees ees   } 
+
+  \bar "|."
+
+}
+}
+
+notesAlto = {
+\global
+\relative e' {
+
+  \changePitch \patternA { ees bes bes | ees ees       | ees ees ees ees | ees r } 
+  \changePitch \patternB { ees ees ees | ees bes       | c c c ees       | d r   } 
+  \changePitch \patternA { ees bes bes | ees ees       | ees ees ees ees | ees r } 
+  \changePitch \patternC { ees d ees   | ees c ees ees | ees d           | ees r } 
+
+  \changePitch \patternR { ees ees ees ees | g g     | aes aes aes aes | bes bes r     } 
+  \changePitch \patternS { aes aes aes ees | ees ees | f f f ees       | ees ees r     } 
+  \changePitch \patternU { ees ees ees ees | ees ees | ees ees ees ees | bes bes c bes } 
+
+}
+}
+
+notesTenor = {
+\global
+\relative a {
+
+  \changePitch \patternA { bes g aes   | bes bes       | c c c c   | bes r } 
+  \changePitch \patternB { g aes g     | bes g         | g bes a a | bes r } 
+  \changePitch \patternA { bes g aes   | bes bes       | c c d c   | bes r } 
+  \changePitch \patternC { bes bes bes | aes aes c ces | bes aes   | g r   } 
+
+  \changePitch \patternR { bes bes aes bes | ees ees       | d d d d           | ees ees r } 
+  \changePitch \patternS { c c bes aes     | g bes         | bes ees d c       | c bes r   } 
+  \changePitch \patternV { g g g aes g     | bes bes c bes | bes bes bes c bes | g g aes g } 
+
+}
+}
+
+notesBass = {
+\global
+\relative f {
+
+  \changePitch \patternA { ees ees ees | ees ees         | ees ees ees ees | ees r } 
+  \changePitch \patternB { ees ees ees | ees ees         | c c f f         | bes, r } 
+  \changePitch \patternA { ees ees ees | ees ees         | ees ees ees ees | ees r } 
+  \changePitch \patternC { g f ees     | aes, aes aes aes | bes bes         | ees r } 
+
+  \changePitch \patternW { ees ees ees     | ees ees | f f f           | g g r     } 
+  \changePitch \patternX { aes aes aes     | ees ees | bes bes bes bes | ees ees r } 
+  \changePitch \patternY { ees ees ees ees | ees ees | ees ees ees ees | ees ees   } 
+
+}
+}
+
+Refrain = \lyricmode {
+
+  “Come un -- to Me,” “Come un -- to Me,”
+  “Come un -- to Me, and I will give you rest,”
+  I will give _ you rest, I will give _ you rest.
+
+}
+
+wordsA = \lyricmode {
+\set stanza = "1."
+
+  “Come un -- to Me,” it is the Sav -- iour’s voice—
+  The Lord of life, who bids thy heart re -- joice;
+  O wear -- y heart, with heav -- y cares op -- pressed,
+  “Come un -- to Me,” and I will give you rest.
+  \Refrain
+
+}
+
+wordsB = \lyricmode {
+\set stanza = "2."
+
+  %\Refrain
+}
+
+wordsC = \lyricmode {
+\set stanza = "3."
+
+}
+
+wordsD = \lyricmode {
+\set stanza = "4."
+
+}
+
+% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
+      \context Lyrics = four  \lyricsto sopranos \wordsD
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
+    >>
+  >>
+  \layout {
+    \include "common/layout.ily"
+  }
+  \midi{
+    \include "common/midi.ily"
+  }
+}
+
+\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
