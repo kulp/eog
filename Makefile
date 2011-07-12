@@ -1,5 +1,6 @@
 VARIANTS = eogsized letter
-LYS      = $(shell ls -1 EOG???{,[a-z]}.ly) # depend on bash-like expansion
+SHELL    = /bin/bash
+LYS      = $(shell ls -1 EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
 PDFS     = $(foreach v,$(VARIANTS),$(addprefix PDF/$v/, $(LYS:.ly=.pdf )))
 MIDIS    = $(foreach v,$(VARIANTS),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
 
