@@ -23,7 +23,8 @@ midi: $(MIDIS)
 
 push:
 	git push kulp.ch :
-	ssh kulp.ch "cd kulp.ch/eog && git checkout master && git reset --hard master && make clobber && make -j4"
+	@# check compilation first to make sure we don't fail make and then clobber
+	ssh kulp.ch "cd kulp.ch/eog && git checkout master && git reset --hard master && make && make clobber && make -j4"
 
 index: index.html
 CLEANFILES += index.html
