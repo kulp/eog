@@ -144,7 +144,6 @@ wordsD = \lyricmode {
   >>
   \layout {
     \include "common/layout.ily"
-    \context { \Lyrics \override LyricText #'font-size = #-0.25 }
   }
   \midi{
     \include "common/midi.ily"
