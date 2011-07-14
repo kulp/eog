@@ -26,7 +26,7 @@ global = {
   \time 3/4
   % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
-  \tempo 4 = 86
+  \tempo 4 = 60
   \key f \major
   \partial 4
   \autoBeamOff
