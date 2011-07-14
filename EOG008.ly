@@ -40,6 +40,7 @@ notesSoprano = {
   \changePitch \patternA { bes bes bes | bes bes | a g   | a } 
   \changePitch \patternA { a a a       | a a     | a g   | f } 
   \changePitch \patternB { g g g       | f e     | f     } 
+	\bar "|."
 
 }
 }
@@ -83,10 +84,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Come, wear -- y, anx -- ious, la -- den soul,
-  To Je -- sus come, and be made whole; \break
-  On Him your heav -- y bur -- den roll—
-  Come, anx -- ious sin -- ner, come!
+  Come, wear -- y, anx -- ious, la -- den soul, \bar "|"
+  To Je -- sus come, and be made whole; \bar "|" \break
+  On Him your heav -- y bur -- den roll— \bar "|"
+  Come, anx -- ious sin -- ner, come! \bar "|"
 
 }
 
