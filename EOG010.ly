@@ -36,10 +36,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternA { a | a g g bes | bes a a } 
-  \changePitch \patternB { c | c a f a   | g       } 
-  \changePitch \patternA { a | bes c d d | d c c   } 
-  \changePitch \patternB { a | c c bes g | f       } 
+  \changePitch \patternA { a | a g g bes | bes a a }
+  \changePitch \patternB { c | c a f a   | g       }
+  \changePitch \patternA { a | bes c d d | d c c   }
+  \changePitch \patternB { a | c c bes g | f       }
 
 }
 }
@@ -48,10 +48,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternA { f | f e e g | g f f } 
-  \changePitch \patternB { a | a f f f | e     } 
-  \changePitch \patternA { f | f f f f | f f f } 
-  \changePitch \patternB { f | e e e e | f     } 
+  \changePitch \patternA { f | f e e g | g f f }
+  \changePitch \patternB { a | a f f f | e     }
+  \changePitch \patternA { f | f f f f | f f f }
+  \changePitch \patternB { f | e e e e | f     }
 
 }
 }
@@ -60,10 +60,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternA { c | c c c c       | c c c   } 
-  \changePitch \patternB { f | f c c c       | c       } 
-  \changePitch \patternA { c | bes a bes bes | bes a a } 
-  \changePitch \patternB { c | c c g bes     | a       } 
+  \changePitch \patternA { c | c c c c       | c c c   }
+  \changePitch \patternB { f | f c c c       | c       }
+  \changePitch \patternA { c | bes a bes bes | bes a a }
+  \changePitch \patternB { c | c c g bes     | a       }
 
 }
 }
@@ -72,9 +72,9 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternA { f | c c c c     | f f f  } 
-  \changePitch \patternB { f | f f a f     | c      } 
-  \changePitch \patternA { f | d c bes bes | f' f f } 
+  \changePitch \patternA { f | c c c c     | f f f  }
+  \changePitch \patternB { f | f f a f     | c      }
+  \changePitch \patternA { f | d c bes bes | f' f f }
   \changePitch \patternB { f | c c c c     | f      } \bar "|."
 
 }

@@ -52,14 +52,14 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternA { d | d g g g   | g fis fis } 
-  \changePitch \patternA { g | g g g e   | d d d     } 
-  \changePitch \patternA { d | d g g g   | g fis fis } 
-  \changePitch \patternA { g | g g g e   | d d d     } 
+  \changePitch \patternA { d | d g g g   | g fis fis }
+  \changePitch \patternA { g | g g g e   | d d d     }
+  \changePitch \patternA { d | d g g g   | g fis fis }
+  \changePitch \patternA { g | g g g e   | d d d     }
 
-  \changePitch \patternA { g | g fis g g | g g g     } 
-  \changePitch \patternA { g | g d d d   | d d d     } 
-  \changePitch \patternA { d | d b e d   | d d b     } 
+  \changePitch \patternA { g | g fis g g | g g g     }
+  \changePitch \patternA { g | g d d d   | d d d     }
+  \changePitch \patternA { d | d b e d   | d d b     }
 
 }
 }
@@ -69,14 +69,14 @@ notesTenor = {
 \relative a, {
 
 
-  \changePitch \patternA { d   | b' d b d | d d d   } 
-  \changePitch \patternA { d   | e e e c  | b a b   } 
-  \changePitch \patternA { d,  | b' d b d | d d d   } 
-  \changePitch \patternA { d   | e e e c  | b a b   } 
+  \changePitch \patternA { d   | b' d b d | d d d   }
+  \changePitch \patternA { d   | e e e c  | b a b   }
+  \changePitch \patternA { d,  | b' d b d | d d d   }
+  \changePitch \patternA { d   | e e e c  | b a b   }
 
-  \changePitch \patternA { b   | b c d b  | c c c   } 
-  \changePitch \patternA { c   | b g g b  | g g fis } 
-  \changePitch \patternA { fis | g g g g  | g fis g } 
+  \changePitch \patternA { b   | b c d b  | c c c   }
+  \changePitch \patternA { c   | b g g b  | g g fis }
+  \changePitch \patternA { fis | g g g g  | g fis g }
 
 }
 }
@@ -86,14 +86,14 @@ notesBass = {
 \relative f {
 
 
-  \changePitch \patternA { d | g g g g  | d d d   } 
-  \changePitch \patternA { g | c, c c c | d d g   } 
-  \changePitch \patternA { d | g g g g  | d d d   } 
-  \changePitch \patternA { g | c, c c c | d d g   } 
+  \changePitch \patternA { d | g g g g  | d d d   }
+  \changePitch \patternA { g | c, c c c | d d g   }
+  \changePitch \patternA { d | g g g g  | d d d   }
+  \changePitch \patternA { g | c, c c c | d d g   }
 
-  \changePitch \patternA { g | g a b g  | c, c c  } 
-  \changePitch \patternA { c | g' g g g | g, b d  } 
-  \changePitch \patternA { d | b g c g  | d' d g, } 
+  \changePitch \patternA { g | g a b g  | c, c c  }
+  \changePitch \patternA { c | g' g g g | g, b d  }
+  \changePitch \patternA { d | b g c g  | d' d g, }
 
 }
 }

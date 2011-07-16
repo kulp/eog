@@ -141,7 +141,7 @@ VerseFour = \lyricmode {
              s8 s8 s8 \noBreak | s4.( s4.) \noBreak s4 s8 \noBreak | s4. ~ s4.
              \break
       }
-      
+
       \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \notesAlto }
       \new Lyrics \lyricsto "Soprano" { \VerseOne }

@@ -39,10 +39,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternA { f d ees | f bes   | bes a g a | bes } 
-  \changePitch \patternB { g g g   | f f a   | c bes a g | f   } 
-  \changePitch \patternA { f d ees | f bes   | bes a g a | bes } 
-  \changePitch \patternB { g g g   | f bes d | d c bes a | bes } 
+  \changePitch \patternA { f d ees | f bes   | bes a g a | bes }
+  \changePitch \patternB { g g g   | f f a   | c bes a g | f   }
+  \changePitch \patternA { f d ees | f bes   | bes a g a | bes }
+  \changePitch \patternB { g g g   | f bes d | d c bes a | bes }
 	\bar "|."
 
 }
@@ -52,10 +52,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternC { d bes c           | d f       | ees ees | d } 
-  \changePitch \patternD { ees ees ees       | d c f     | f f e   | f } 
-  \changePitch \patternC { d bes c           | d f       | ees ees | d } 
-  \changePitch \patternB { ees ees ees d d f | f ees d c | d       } 
+  \changePitch \patternC { d bes c           | d f       | ees ees | d }
+  \changePitch \patternD { ees ees ees       | d c f     | f f e   | f }
+  \changePitch \patternC { d bes c           | d f       | ees ees | d }
+  \changePitch \patternB { ees ees ees d d f | f ees d c | d       }
 
 }
 }
@@ -64,10 +64,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternC { bes bes bes | bes d   | c c       | bes } 
-  \changePitch \patternB { bes bes bes | bes a c | c d c bes | a   } 
-  \changePitch \patternC { bes bes bes | bes d   | c c       | bes } 
-  \changePitch \patternC { bes bes bes | bes bes | f f       | f   } 
+  \changePitch \patternC { bes bes bes | bes d   | c c       | bes }
+  \changePitch \patternB { bes bes bes | bes a c | c d c bes | a   }
+  \changePitch \patternC { bes bes bes | bes d   | c c       | bes }
+  \changePitch \patternC { bes bes bes | bes bes | f f       | f   }
 
 }
 }
@@ -76,10 +76,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternC { bes, bes bes | bes bes | f' f     | bes, } 
-  \changePitch \patternE { ees ees ees  | bes f'  | a, bes c | f    } 
-  \changePitch \patternC { bes, bes bes | bes bes | f' f     | bes, } 
-  \changePitch \patternC { ees ees ees  | bes bes | f' f     | bes, } 
+  \changePitch \patternC { bes, bes bes | bes bes | f' f     | bes, }
+  \changePitch \patternE { ees ees ees  | bes f'  | a, bes c | f    }
+  \changePitch \patternC { bes, bes bes | bes bes | f' f     | bes, }
+  \changePitch \patternC { ees ees ees  | bes bes | f' f     | bes, }
 
 }
 }

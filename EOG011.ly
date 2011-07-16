@@ -41,10 +41,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternA { g g a | b a b | c b a   | b r } 
-  \changePitch \patternA { b b b | c b a | g fis g | a r } 
-  \changePitch \patternA { g g a | b a b | c b a   | b r } 
-  \changePitch \patternE { b b b | a g   | a b a   | g   } 
+  \changePitch \patternA { g g a | b a b | c b a   | b r }
+  \changePitch \patternA { b b b | c b a | g fis g | a r }
+  \changePitch \patternA { g g a | b a b | c b a   | b r }
+  \changePitch \patternE { b b b | a g   | a b a   | g   }
 
   \bar "|."
 
@@ -55,10 +55,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternA { d d fis | g a gis | a g fis | g r   } 
-  \changePitch \patternB { g g g   | g g fis | g d     | fis r } 
-  \changePitch \patternA { d d fis | g a gis | a g fis | g r   } 
-  \changePitch \patternC { g g g   | fis e   | g fis   | g     } 
+  \changePitch \patternA { d d fis | g a gis | a g fis | g r   }
+  \changePitch \patternB { g g g   | g g fis | g d     | fis r }
+  \changePitch \patternA { d d fis | g a gis | a g fis | g r   }
+  \changePitch \patternC { g g g   | fis e   | g fis   | g     }
 
 }
 }
@@ -67,10 +67,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternF { b b d | d e   | e d   | d r } 
-  \changePitch \patternH { d d d | e d   | d c b | d r } 
-  \changePitch \patternF { b b d | d e   | e d   | d r } 
-  \changePitch \patternD { d d d | d c b | e d c | b   } 
+  \changePitch \patternF { b b d | d e   | e d   | d r }
+  \changePitch \patternH { d d d | e d   | d c b | d r }
+  \changePitch \patternF { b b d | d e   | e d   | d r }
+  \changePitch \patternD { d d d | d c b | e d c | b   }
 
 }
 }
@@ -79,10 +79,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternB { g g d | g c b | a d,  | g r } 
-  \changePitch \patternA { g g g | g g c | b a g | d r } 
-  \changePitch \patternB { g g d | g c b | a d,  | g r } 
-  \changePitch \patternC { g g g | d e   | c d   | g,  } 
+  \changePitch \patternB { g g d | g c b | a d,  | g r }
+  \changePitch \patternA { g g g | g g c | b a g | d r }
+  \changePitch \patternB { g g d | g c b | a d,  | g r }
+  \changePitch \patternC { g g g | d e   | c d   | g,  }
 
 }
 }

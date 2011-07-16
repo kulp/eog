@@ -36,10 +36,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternA { a a a       | a a     | a bes | c } 
-  \changePitch \patternA { bes bes bes | bes bes | a g   | a } 
-  \changePitch \patternA { a a a       | a a     | a g   | f } 
-  \changePitch \patternB { g g g       | f e     | f     } 
+  \changePitch \patternA { a a a       | a a     | a bes | c }
+  \changePitch \patternA { bes bes bes | bes bes | a g   | a }
+  \changePitch \patternA { a a a       | a a     | a g   | f }
+  \changePitch \patternB { g g g       | f e     | f     }
 	\bar "|."
 
 }
@@ -49,10 +49,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternA { f f f | f f | f e | f } 
-  \changePitch \patternA { e e e | e e | f e | f } 
-  \changePitch \patternA { f f f | f f | e e | d } 
-  \changePitch \patternB { d d d | c c | c   } 
+  \changePitch \patternA { f f f | f f | f e | f }
+  \changePitch \patternA { e e e | e e | f e | f }
+  \changePitch \patternA { f f f | f f | e e | d }
+  \changePitch \patternB { d d d | c c | c   }
 
 }
 }
@@ -61,10 +61,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternA { c c c       | c c | c c | c } 
-  \changePitch \patternA { c c c       | c c | c c | c } 
-  \changePitch \patternA { c c c       | c c | a a | a } 
-  \changePitch \patternB { bes bes bes | a g | a   } 
+  \changePitch \patternA { c c c       | c c | c c | c }
+  \changePitch \patternA { c c c       | c c | c c | c }
+  \changePitch \patternA { c c c       | c c | a a | a }
+  \changePitch \patternB { bes bes bes | a g | a   }
 
 }
 }
@@ -73,10 +73,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternA { f f f       | f f | f g     | a } 
-  \changePitch \patternA { g g g       | g g | f c     | f } 
-  \changePitch \patternA { f f f       | f f | cis cis | d } 
-  \changePitch \patternB { bes bes bes | c c | f       } 
+  \changePitch \patternA { f f f       | f f | f g     | a }
+  \changePitch \patternA { g g g       | g g | f c     | f }
+  \changePitch \patternA { f f f       | f f | cis cis | d }
+  \changePitch \patternB { bes bes bes | c c | f       }
 
 }
 }
