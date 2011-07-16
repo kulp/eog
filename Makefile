@@ -1,8 +1,11 @@
-VARIANTS = eogsized letter
-SHELL    = /bin/bash
-LYS      = $(shell ls -1 EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
-PDFS     = $(foreach v,$(VARIANTS),$(addprefix PDF/$v/, $(LYS:.ly=.pdf )))
-MIDIS    = $(foreach v,$(VARIANTS),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
+VARIANTS_PDF  = eogsized letter
+VARIANTS_MIDI = default
+SHELL         = /bin/bash
+LYS           = $(shell ls -1 EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
+PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf )))
+MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
+
+tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
 
 ifneq ($(DEBUG),1)
 LYOPTS += -dno-point-and-click -ddelete-intermediate-files
@@ -29,15 +32,14 @@ push:
 index: index.html
 CLEANFILES += index.html
 index.html: $(PDFS) $(MIDIS)
-	@echo '<body><ul>' > $@
-	@$(foreach v,$(VARIANTS), \
-	echo '<li>Variant "$v":<ul>' >> $@; \
-	echo '<li>PDFs:<ul>' >> $@; \
-	echo $(foreach r,$(wildcard PDF/$v/*.pdf),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
+	echo '<body><ul>' > $@
+	$(foreach f,PDF MIDI, \
+	echo '<li>$fs:<ul>' >> $@; \
+	$(foreach v,$(VARIANTS_$f), \
+	echo '<li>Variant “$v”:<ul>' >> $@; \
+	echo $(foreach r,$(wildcard $f/$v/*),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
 	echo '</ul>' >> $@; \
-	echo '<li>MIDIs:<ul>' >> $@; \
-	echo $(foreach r,$(wildcard MIDI/$v/*.midi),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
-	echo '</ul>' >> $@; \
+	) \
 	echo '</ul>' >> $@; \
 	)
 
