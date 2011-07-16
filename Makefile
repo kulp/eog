@@ -37,7 +37,7 @@ index.html: $(PDFS) $(MIDIS)
 	echo '<li>$fs:<ul>' >> $@; \
 	$(foreach v,$(VARIANTS_$f), \
 	echo '<li>Variant "$v":<ul>' >> $@; \
-	echo $(foreach r,$(wildcard $f/$v/*),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
+	echo $(foreach r,$(wildcard $f/$v/*.pdf $f/$v/*.midi),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
 	echo '</ul>' >> $@; \
 	) \
 	echo '</ul>' >> $@; \
