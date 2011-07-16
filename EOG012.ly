@@ -48,17 +48,17 @@ notesSoprano = {
 
   << s^\markup { \small \caps "Solo." \italic "ad lib." }
   \changePitch \patternA { e   | e a a e       | gis fis fis } >>
-  \changePitch \patternB { fis | e cis b d     | cis         } 
-  \changePitch \patternA { e   | e a cis b     | b a a       } 
-  \changePitch \patternC { fis | e gis gis fis | e r         } 
+  \changePitch \patternB { fis | e cis b d     | cis         }
+  \changePitch \patternA { e   | e a cis b     | b a a       }
+  \changePitch \patternC { fis | e gis gis fis | e r         }
 
   \time 6/8
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternD { e     | e a a gis a       | b b e, e     | b' b b a b   | cis cis } >>
-  \changePitch \patternG { e,     | cis' cis cis b cis | e d d d r   } 
-  \changePitch \patternH { cis a | b b b             | a a         | gis gis gis } 
-  \changePitch \patternI { gis   | fis fis a gis fis | fis e e e   } 
-  \changePitch \patternJ { a b   | cis cis cis a     | b b b a gis | a a         } 
+  \changePitch \patternG { e,     | cis' cis cis b cis | e d d d r   }
+  \changePitch \patternH { cis a | b b b             | a a         | gis gis gis }
+  \changePitch \patternI { gis   | fis fis a gis fis | fis e e e   }
+  \changePitch \patternJ { a b   | cis cis cis a     | b b b a gis | a a         }
 
   \bar "|."
 
@@ -69,16 +69,16 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternA { cis | cis cis cis cis | e d d       } 
-  \changePitch \patternB { d   | cis a gis b     | a           } 
-  \changePitch \patternA { cis | cis cis e eis   | fis fis fis } 
-  \changePitch \patternC { d   | b e dis dis     | e r         } 
+  \changePitch \patternA { cis | cis cis cis cis | e d d       }
+  \changePitch \patternB { d   | cis a gis b     | a           }
+  \changePitch \patternA { cis | cis cis e eis   | fis fis fis }
+  \changePitch \patternC { d   | b e dis dis     | e r         }
 
-  \changePitch \patternE { e   | cis cis cis d e | e e e e           | e e e e     | e e } 
-  \changePitch \patternG { cis | e e e d e       | fis fis fis fis r } 
-  \changePitch \patternH { e e | e e e           | cis fis           | eis eis eis } 
-  \changePitch \patternI { eis | fis d fis e d   | d cis cis cis     } 
-  \changePitch \patternJ { e e | e e e e         | fis fis fis e e   | e e         } 
+  \changePitch \patternE { e   | cis cis cis d e | e e e e           | e e e e     | e e }
+  \changePitch \patternG { cis | e e e d e       | fis fis fis fis r }
+  \changePitch \patternH { e e | e e e           | cis fis           | eis eis eis }
+  \changePitch \patternI { eis | fis d fis e d   | d cis cis cis     }
+  \changePitch \patternJ { e e | e e e e         | fis fis fis e e   | e e         }
 
 }
 }
@@ -87,16 +87,16 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternA { a | a e e a     | a a a     } 
-  \changePitch \patternB { a | a e e e     | e         } 
-  \changePitch \patternA { a | a a a gis   | fis fis a } 
-  \changePitch \patternC { a | gis gis b a | gis r     } 
+  \changePitch \patternA { a | a e e a     | a a a     }
+  \changePitch \patternB { a | a e e e     | e         }
+  \changePitch \patternA { a | a a a gis   | fis fis a }
+  \changePitch \patternC { a | gis gis b a | gis r     }
 
-  \changePitch \patternF { e     | a e e a     | gis gis gis gis | gis gis gis fis gis | a a } 
-  \changePitch \patternG { a     | a a a a a   | a a a a r       } 
-  \changePitch \patternH { a a   | gis gis gis | a cis           | cis cis cis         } 
-  \changePitch \patternI { b     | a a a a a   | a a a a         } 
-  \changePitch \patternJ { a gis | a a a cis   | d d d cis b     | cis cis             } 
+  \changePitch \patternF { e     | a e e a     | gis gis gis gis | gis gis gis fis gis | a a }
+  \changePitch \patternG { a     | a a a a a   | a a a a r       }
+  \changePitch \patternH { a a   | gis gis gis | a cis           | cis cis cis         }
+  \changePitch \patternI { b     | a a a a a   | a a a a         }
+  \changePitch \patternJ { a gis | a a a cis   | d d d cis b     | cis cis             }
 
 }
 }
@@ -105,16 +105,16 @@ notesBass = {
 \global
 \relative f, {
 
-  \changePitch \patternA { a | a a a a | d d d } 
-  \changePitch \patternB { d | e e e e | a, } 
-  \changePitch \patternA { a | a a a | cis | d d d } 
-  \changePitch \patternC { d | b b b b | e r } 
+  \changePitch \patternA { a | a a a a   | d d d }
+  \changePitch \patternB { d | e e e e   | a,    }
+  \changePitch \patternA { a | a a a cis | d d d }
+  \changePitch \patternC { d | b b b b   | e r   }
 
-  \changePitch \patternE { e | a, a a b cis | e e e e | e e e e | a a } 
-  \changePitch \patternG { a | a a a a a | d, d d d r } 
-  \changePitch \patternH { a cis | e e e | fis fis | cis cis cis } 
-  \changePitch \patternI { cis d d d d d | a a a a } 
-  \changePitch \patternJ { cis e | a a a a | d, d d e e | a, a } % TODO a'
+  \changePitch \patternE { e             | a, a a b cis | e e e e    | e e e e           | a a }
+  \changePitch \patternG { a             | a a a a a    | d, d d d r }
+  \changePitch \patternH { a cis         | e e e        | fis fis    | cis cis cis       }
+  \changePitch \patternI { cis d d d d d | a a a a      }
+  \changePitch \patternJ { cis e         | a a a a      | d, d d e e | < a a, > < a a, > }
 
 }
 }
