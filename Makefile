@@ -27,7 +27,7 @@ midi: $(MIDIS)
 push:
 	git push kulp.ch :
 	@# check compilation first to make sure we don't fail make and then clobber
-	ssh kulp.ch "cd kulp.ch/eog && git checkout master && git reset --hard master && make && make clobber && make -j4"
+	ssh kulp.ch "cd kulp.ch/eog && git checkout master && git reset --hard master && make -j4"
 
 index: index.html
 CLEANFILES += index.html
@@ -36,7 +36,7 @@ index.html: $(PDFS) $(MIDIS)
 	$(foreach f,PDF MIDI, \
 	echo '<li>$fs:<ul>' >> $@; \
 	$(foreach v,$(VARIANTS_$f), \
-	echo '<li>Variant “$v”:<ul>' >> $@; \
+	echo '<li>Variant "$v":<ul>' >> $@; \
 	echo $(foreach r,$(wildcard $f/$v/*),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
 	echo '</ul>' >> $@; \
 	) \
@@ -48,6 +48,26 @@ clean:
 
 clobber: clean
 	$(RM) -r $(CLOBBERFILES)
+
+CLOBBERFILES += $(PDFS:.pdf=.d) $(MIDIS:.midi=.d)
+ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
+-include $(PDFS:.pdf=.d)
+-include $(MIDIS:.midi=.d)
+endif
+
+# TODO rewrite this rule (it's very roundabout and messy)
+define DRULE
+	echo -n '$<: ' > $@
+	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $(notdir $*).ly | tr -d '"' | sed 's#^#$(dir $*)#' | sed 's#^$1#variants#' | tr '\012' ' ' >> $@
+	echo >> $@
+endef
+
+# TODO unify these almost identical rules
+%.d: %.pdf
+	$(call DRULE,PDF)
+
+%.d: %.midi
+	$(call DRULE,MIDI)
 
 .SECONDEXPANSION:
 CLOBBERFILES += PDF/ MIDI/
