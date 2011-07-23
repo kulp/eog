@@ -10,4 +10,6 @@ ragged-last-bottom = ##f
 %annotate-spacing = ##t
 systems-per-page = 4
 page-count = 1
+print-page-number = ##f
+print-first-page-number = ##f
 

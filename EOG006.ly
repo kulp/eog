@@ -3,8 +3,11 @@
   \include "common/paper.ily"
   ragged-bottom = ##f
   ragged-last-bottom = ##t
-  systems-per-page = ##f
-  page-count = ##f
+  % We take advantage of the incompatibility of systems-per-page=4 and
+  % page-count=1 in the case of eogsized, where systems-per-page gets ignored.
+  % Otherwise we would have to have conditional execution here.
+  %systems-per-page = ##f
+  %page-count = ##f
 }
 
 \header{
@@ -24,9 +27,9 @@ patternC = { c4 c8 c8       | c8. c16 c8 c8 | c4 c4          | c4. r8           
 patternR = { c4. ~ c8 c8 c8 | c4. ~ c4.     | c4. ~ c8 c8 c8 | c4. ~ c4 r8            } % Refrain soprano / alto / tenor 1
 patternS = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8            } % Refrain soprano / tenor 2
 patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain alto 2
-patternT = { c4 c8 c8 c8 c8 | c4. ~ c4.     | c4 c8 c8 c8 c8 | c4.( c4.) \fermata     } % Refrain soprano 3
+patternT = { c4 c8 c8[ c8] c8 | c4. ~ c4.     | c4 c8 c8[ c8] c8 | c4.( c4.) \fermata     } % Refrain soprano 3
 patternU = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4 c8 c4( c8) \fermata } % Refrain alto 3
-patternV = { c4 c8 c8 c8 c8 | c4 c8 c4( c8) | c4 c8 c8 c8 c8 | c4 c8 c4( c8) \fermata } % Refrain tenor 3
+patternV = { c4 c8 c8[ c8] c8 | c4 c8 c4( c8) | c4 c8 c8[ c8] c8 | c4 c8 c4( c8) \fermata } % Refrain tenor 3
 patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4. ~ c4 r8            } % Refrain bass 1
 patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain bass 2
 patternY = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4. ~ c4. \fermata     } % Refrain bass 3
@@ -117,17 +120,35 @@ Refrain = \lyricmode {
 
   “Come un -- to Me,” “Come un -- to Me,”
   “Come un -- to Me, and I will give you rest,”
-  I will give _ you rest, I will give _ you rest.
+  I will give you rest, I will give you rest.
+
+}
+
+BassRefrainA = \lyricmode {
+
+  \override LyricText #'font-size = #-2
+  \repeat unfold 40 { \skip 4 }
+  “Come un -- to Me,” “O come un -- to Me,”
+  “Come un -- to Me, and
+
+}
+
+TenorRefrainA = \lyricmode {
+
+  \override LyricText #'font-size = #-2
+  \repeat unfold 58 { \skip 4 }
+  I will give, will give you rest.
+  I will give, will give you rest.
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  “Come un -- to Me,” it is the Sav -- iour’s voice—
-  The Lord of life, who bids thy heart re -- joice;
-  O wear -- y heart, with heav -- y cares op -- pressed,
-  “Come un -- to Me,” and I will give you rest.
+  “Come un -- to Me,” it is the Sav -- iour’s voice— \bar "|"
+  The Lord of life, who bids thy heart re -- joice; \bar "|"
+  O wear -- y heart, with heav -- y cares op -- pressed, \bar "|"
+  “Come un -- to Me,” and I will give you rest. \bar "|"
 
 }
 
@@ -138,6 +159,10 @@ wordsB = \lyricmode {
   O doubt -- ing soul, thy Sav -- iour calls a -- gain;
   The doubts shall van -- ish, and thy sor -- rows cease:
   “Come un -- to Me,” and I will give you peace.
+
+  % This \break appears in the original (eogsized) but unnecessarily prevents
+  % the letter variant from laying out on one page.
+  %\break
   \Refrain
 }
 
@@ -154,10 +179,10 @@ wordsC = \lyricmode {
 wordsD = \lyricmode {
 \set stanza = "4."
 
-	Life, rest, and peace, the flow’rs of death -- less bloom,
-	The Sav -- iour fives us, not be -- yond the tomb—
-	But here, and now, on earth, the taste is giv’n
-	Of joys which wait us thro’ the gates of heav’n.
+  Life, rest, and peace, the flow’rs of death -- less bloom,
+  The Sav -- iour fives us, not be -- yond the tomb—
+  But here, and now, on earth, the taste is giv’n
+  Of joys which wait us thro’ the gates of heav’n.
 
 }
 
@@ -179,6 +204,8 @@ wordsD = \lyricmode {
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
+  \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \TenorRefrainA
+  \new Lyrics \with { alignBelowContext = men } \lyricsto basses \BassRefrainA
   >>
   \layout {
     \include "common/layout.ily"
