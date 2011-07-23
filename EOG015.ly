@@ -161,7 +161,7 @@ Be -- yond the reach of ill.
 }
 
 wordsD = \lyricmode {
-\set stanza = "3."
+\set stanza = "4."
 
 Come all who trust in Je -- sus now,
 And tell your joys a -- broad;
