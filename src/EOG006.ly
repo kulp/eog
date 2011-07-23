@@ -20,28 +20,31 @@
   tagline = ##f
 }
 
-patternA = { c4 c8. c16     | c4. c8        | c8. c16 c8 c8  | c4. r8                 } % Line 1, 3
-patternB = { c4 c8. c16     | c4 c4         | c8. c16 c8 c8  | c4. r8                 } % Line 2
-patternC = { c4 c8 c8       | c8. c16 c8 c8 | c4 c4          | c4. r8                 } % Line 4
+% for fermata in MIDI
+ta = { \tempo 4=84 }
+tb = { \tempo 4=42 }
+tc = { \tempo 4=21 }
 
-patternR = { c4. ~ c8 c8 c8 | c4. ~ c4.     | c4. ~ c8 c8 c8 | c4. ~ c4 r8            } % Refrain soprano / alto / tenor 1
-patternS = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4.( c4) r8            } % Refrain soprano / tenor 2
-patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain alto 2
-patternT = { c4 c8 c8[ c8] c8 | c4. ~ c4.     | c4 c8 c8[ c8] c8 | c4.( c4.) \fermata     } % Refrain soprano 3
-patternU = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4 c8 c4( c8) \fermata } % Refrain alto 3
-patternV = { c4 c8 c8[ c8] c8 | c4 c8 c4( c8) | c4 c8 c8[ c8] c8 | c4 c8 c4( c8) \fermata } % Refrain tenor 3
-patternW = { c4. c4 c8      | c4. c4.       | c4. c4 c8      | c4. ~ c4 r8            } % Refrain bass 1
-patternX = { c4. c4 c8      | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain bass 2
-patternY = { c4 c8 c4 c8    | c4. ~ c4.     | c4 c8 c4 c8    | c4. ~ c4. \fermata     } % Refrain bass 3
-patternZ = { c4. ~ c8 c8 c8 | c4. c4.       | c4 c8 c4 c8    | c4. ~ c4 r8            } % Refrain alto 2
+patternA = { \ta c4 c8. c16       | c4. c8        | c8. c16 c8 c8    | c4. r8                     } % Line 1, 3
+patternB = { \ta c4 c8. c16       | c4 c4         | c8. c16 c8 c8    | c4. r8                     } % Line 2
+patternC = { \ta c4 c8 c8         | c8. c16 c8 c8 | c4 c4            | c4. r8                     } % Line 4
+
+patternR = { \ta c4. ~ c8 c8 c8   | c4. ~ c4.     | c4. ~ c8 c8 c8   | c4. ~ c4 r8                } % Refrain soprano / alto / tenor 1
+patternS = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4.( c4) r8                } % Refrain soprano / tenor 2
+patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain alto 2
+patternT = { \ta c4 c8 c8[ c8] c8 | c4. ~ c4.     | c4 c8 c8[ c8] c8 | c4.( \tb c4.) \fermata     } % Refrain soprano 3
+patternU = { \ta c4 c8 c4 c8      | c4. ~ c4.     | c4 c8 c4 c8      | c4 c8 c4( \tc c8) \fermata } % Refrain alto 3
+patternV = { \ta c4 c8 c8[ c8] c8 | c4 c8 c4( c8) | c4 c8 c8[ c8] c8 | c4 c8 c4( \tc c8) \fermata } % Refrain tenor 3
+patternW = { \ta c4. c4 c8        | c4. c4.       | c4. c4 c8        | c4. ~ c4 r8                } % Refrain bass 1
+patternX = { \ta c4. c4 c8        | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain bass 2
+patternY = { \ta c4 c8 c4 c8      | c4. ~ c4.     | c4 c8 c4 c8      | c4. ~ \tb c4. \fermata     } % Refrain bass 3
+patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain alto 2
 
 global = {
-  %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 2/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
-  \once \override Score.MetronomeMark #'transparent = ##t
-  \tempo 4 = 86
+  \override Score.MetronomeMark #'transparent = ##t
+  \ta
   \key ees \major
   %\partial 4.
   \autoBeamOff
@@ -186,7 +189,6 @@ wordsD = \lyricmode {
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

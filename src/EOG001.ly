@@ -1,66 +1,97 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  %ragged-bottom = ##t
+  %ragged-last-bottom = ##t
+  %systems-per-page = ##f
+  %page-count = ##f
 }
 
 \header{
-title = "“Come!” ’Tis Jesus Gently Calling"
-subsubtitle = "(’Tis So Sweet to Trust in Jesus. 8. 7. 8. 7. D.)"
-%meter = "8.7.8.7. D."
-poet = "Annie S. Ormsby"
-composer = "Wm. J. Kirkpatrick"
-%copyright = ""
-tagline = ##f
+  title = "“Come!” ’Tis Jesus Gently Calling"
+  subsubtitle = "(’Tis So Sweet to Trust in Jesus. 8. 7. 8. 7. D.)"
+  %meter = "8.7.8.7. D."
+  poet = "Annie S. Ormsby"
+  composer = "Wm. J. Kirkpatrick"
+  %copyright = ""
+  tagline = ##f
+}
+
+% for fermata in MIDI
+ta = { \tempo 4=90 }
+tb = { \tempo 4=45 }
+
+patternAA = { c4 c4 | c4. c8 c4 c4 | c4( c4) } % Line 1 soprano / alto / bass, Line 3 soprano
+patternAB = { c4 c4 | c4. c8 c4 c4 | c2 } % Line 1 tenor, Line 2 soprano, Line 3 tenor, Line 4 soprano / alto / tenor
+patternAC = { c4 c8[ c8 ] | c4. c8 c4 c4 | c2 } % Refrain line 4 soprano
+
+patternBA = { c4 c4 | c4 c4 c4 c4 | c2 } % Line 2 alto, Line 3 alto / bass, Line 4 bass, Refrain line 1 / 2 tenor / bass, Refrain line 3 tenor, Refrain line 4 bass
+patternBB = { c4 c4 | c4 c4 c4 c4 | c4( c4) } % Refrain line 1 / 2 soprano / alto, Refrain line 3 bass
+patternBC = { c4. c8 | c4 c4 c4 c4 | c2 } % Refrain line 3 soprano
+
+global = {
+  \override Staff.TimeSignature #'style = #'()
+  \time 4/4
+  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \ta
+  \key aes \major
+  \autoBeamOff
 }
 
 notesSoprano = {
+\global
 \relative a' {
-c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c ees4. c8 bes4 aes bes2 \break
-c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c f,4. bes8 aes4 g aes2 \break
-c4 ees ees c bes aes c bes       \noBreak | c ees ees4. c8 bes4 aes bes2 \break
-c4^\p bes aes ees des'4. f,8 f4 ees \noBreak | aes c f,4. bes8 aes4 g aes2 \break
+  c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c ees4. c8 bes4 aes bes2 \break
+  c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c f,4. bes8 aes4 g aes2 \break
+  c4 ees ees c bes aes c bes       \noBreak | c ees ees4. c8 bes4 aes bes2 \break
+  % TODO actually make MIDI output soft
+	% Used to use c4^\p here but that made only the soprano soft, and putting it
+	% in every voice resulted in too many p's.
+  c4^\markup { \dynamic p } bes aes ees des'4. f,8 f4 ees \noBreak | aes c f,4. bes8 aes4 g aes2 \break
+
 \bar "|."
 }
 }
 
 notesAlto = {
+\global
 \relative e' {
-ees4 des c4. ees8 des4 des des c \noBreak | ees4 aes aes4. aes8 ees4 d ees2 \break
-ees4 des c4. ees8 des4 des des c \noBreak | c4 ees des4. f8 ees4 ees ees2 \break
-aes4 aes aes aes g f aes g       \noBreak | aes aes aes4. aes8 ees4 d ees2 \break
-ees4 des c c f4. des8 des4 c     \noBreak | c ees des4. f8 ees4 ees ees2 \break
+
+  ees4 des c4. ees8 des4 des des c \noBreak | ees4 aes aes4. aes8 ees4 d ees2 \break
+  ees4 des c4. ees8 des4 des des c \noBreak | c4 ees des4. f8 ees4 ees ees2 \break
+  aes4 aes aes aes g f aes g       \noBreak | aes aes aes4. aes8 ees4 d ees2 \break
+  ees4 des c c f4. des8 des4 c     \noBreak | c ees des4. f8 ees4 ees ees2 \break
+
 }
 }
 
 notesTenor = {
+\global
 \relative a {
-aes4 ees ees4. aes8 aes4 aes \new Voice { \voiceOne aes aes } \noBreak | c4 ees c4. ees8 ees4 bes g2 \break
-aes4 ees ees4. aes8 aes4 aes \new Voice { \voiceOne aes aes } \noBreak | ees4 aes aes4. des8 c4 bes c2 \break
-ees4 c c ees des c ees ees                                    \noBreak | ees c c4. ees8 ees4 bes g2 \break
-aes4 ees ees aes aes4. aes8 aes4 aes                          \noBreak | ees aes aes4. des8 c4 bes c2 \break
+
+  aes4 ees ees4. aes8 aes4 aes \new Voice { \voiceOne aes aes } \noBreak | c4 ees c4. ees8 ees4 bes g2 \break
+  aes4 ees ees4. aes8 aes4 aes \new Voice { \voiceOne aes aes } \noBreak | ees4 aes aes4. des8 c4 bes c2 \break
+  ees4 c c ees des c ees ees                                    \noBreak | ees c c4. ees8 ees4 bes g2 \break
+  aes4 ees ees aes aes4. aes8 aes4 aes                          \noBreak | ees aes aes4. des8 c4 bes c2 \break
+
 }
 }
 
 notesBass = {
+\global
 \relative a, {
-aes4 aes aes4. c8 des4 f \new Voice { \voiceTwo aes aes }  \noBreak | aes4 aes aes4. aes8 g4 f ees2 \break
-aes,4 aes aes4. c8 des4 f \new Voice { \voiceTwo aes aes } \noBreak | aes,4 aes des4. des8 ees4 ees aes,2 \break
-aes'4 aes aes aes ees f ees ees                            \noBreak | aes aes aes4. aes8 g4 f ees2 \break
-aes,4 aes aes aes des4. des8 aes4 aes                      \noBreak | aes aes des4. des8 ees4 ees aes2 \break
+
+  aes4 aes aes4. c8 des4 f \new Voice { \voiceTwo aes aes }  \noBreak | aes4 aes aes4. aes8 g4 f ees2 \break
+  aes,4 aes aes4. c8 des4 f \new Voice { \voiceTwo aes aes } \noBreak | aes,4 aes des4. des8 ees4 ees aes,2 \break
+  aes'4 aes aes aes ees f ees ees                            \noBreak | aes aes aes4. aes8 g4 f ees2 \break
+  aes,4 aes aes aes des4. des8 aes4 aes                      \noBreak | aes aes des4. des8 ees4 ees aes2 \break
+
 }
 }
 
-\score {
-  \new ChoirStaff <<
-    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-\relative c' \new Staff {
-\override Staff.TimeSignature #'style = #'() \time 4/4
-\once \override Score.MetronomeMark #'transparent = ##t
-\tempo 4 = 90
-\key aes \major
-\clef treble << \notesSoprano \notesAlto >> }
-\addlyrics {
+wordsA = \lyricmode {
 \set stanza = "1."
+
 “Come!” ’tis Je -- sus gen -- tly cal -- ling
 “Ye with care and toil op -- pressed, \break
 With your guilt how -- e’er ap -- pall -- ing—
@@ -69,9 +100,12 @@ For your sin He “once has suf -- fered,”
 On the cross the work was done, \break
 And the word by God now ut -- tered
 To each wear -- y soul is “Come!”
-%    minimumVerticalExtent = #'(-1.5 . 1.5)
-} \addlyrics {
+
+}
+
+wordsB = \lyricmode {
 \set stanza = "2."
+
 “Come!” the Fa -- ther’s house stands o -- pen,
 With its love and light and song;
 And re -- turn -- ing to that Fa -- ther,
@@ -80,8 +114,12 @@ From sin’s dis -- tant land of fam -- ine,
 Toil -- ing ’neath the mid -- day sun,
 To a Fa -- ther’s house of plen -- ty,
 And a Fa -- ther’s wel -- come, “Come!”
-} \addlyrics {
+
+}
+
+wordsC = \lyricmode {
 \set stanza = "3."
+
 “Come!” for night is gath -- ’ring quick -- ly
 O’er the world’s fast -- fleet -- ing day:
 If you lin -- ger till the dark -- ness
@@ -90,8 +128,12 @@ And still wait -- ing— sad -- ly wait -- ing,
 Till the day its course has run,
 With His pa -- tience un -- a -- ba -- ting
 Je -- sus lin -- gers for you— “Come!”
-} \addlyrics {
+
+}
+
+wordsD = \lyricmode {
 \set stanza = "4."
+
 “Come!” for an -- gel -- hosts are mus -- ing
 O’er this sight so strange -- ly sad:
 God “be -- seech -- ing”— man re -- fus -- ing
@@ -100,9 +142,27 @@ From the world and its de -- lu -- sion
 Now our voi -- ces rise as one;
 While we shout God’s in -- vi -- ta -- tion,
 Heav’n it -- self re -- ech -- oes “Come!”
+
 }
-\relative c, \new Staff { \override Staff.TimeSignature #'style = #'() \time 4/4 \key aes \major \clef bass << \notesTenor \notesBass >> }
->>
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
+      \context Lyrics = four  \lyricsto sopranos \wordsD
+      %\context Lyrics = five  \lyricsto sopranos \wordsE
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
+    >>
+  >>
   \layout {
     \include "common/layout.ily"
   }
@@ -113,3 +173,4 @@ Heav’n it -- self re -- ech -- oes “Come!”
 
 \version "2.14.1"  % necessary for upgrading to future LilyPond versions.
 
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

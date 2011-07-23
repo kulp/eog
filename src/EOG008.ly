@@ -24,7 +24,6 @@ global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 4/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
   \tempo 2 = 86
   \key f \major
@@ -131,7 +130,6 @@ wordsE = \lyricmode {
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

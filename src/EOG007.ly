@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  systems-per-page = ##f
+  %systems-per-page = ##f
   page-count = ##f
 }
 
@@ -23,7 +23,6 @@ global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 3/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
   \tempo 4 = 66
   \key g \major
@@ -134,7 +133,6 @@ wordsC = \lyricmode {
   He still a -- bides my last -- ing stay.
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

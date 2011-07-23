@@ -24,7 +24,6 @@ global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 3/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
   \tempo 4 = 60
   \key f \major
@@ -83,7 +82,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Faith is a ver --y sim -- ple thing, \bar "|"
+  Faith is a ver -- y sim -- ple thing, \bar "|"
   Tho’ lit -- tle un -- der -- stood; \bar "|" \break
   It frees the soul from death’s dread sting, \bar "|"
   By rest -- ing on the blood. \bar "|." \break
@@ -103,7 +102,7 @@ wordsB = \lyricmode {
 wordsC = \lyricmode {
 \set stanza = "3."
 
-  It sees up -- on the throne of Ogd
+  It sees up -- on the throne of God
   A vic -- tim that was slain;
   It rests its all on His shed blood,
   And says, “I’m born a -- gain.”
@@ -120,7 +119,6 @@ wordsD = \lyricmode {
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

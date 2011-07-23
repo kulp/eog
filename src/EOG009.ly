@@ -27,7 +27,6 @@ global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 4/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
   \tempo 4 = 120
   \key bes \major
@@ -87,7 +86,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Re -- deemed by blood, the work of live, \bar "|"
+  Re -- deemed by blood, the work of love, \bar "|"
   A -- maz -- ing truth, the blood of One \bar "|" \break
   Whose place was right -- ful -- ly a -- bove, \bar "|"
   Co -- e -- qual on the Fa -- ther’s throne.
@@ -123,7 +122,6 @@ wordsD = \lyricmode {
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

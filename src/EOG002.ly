@@ -107,7 +107,6 @@ VerseThree = \lyricmode {
   To re -- ceive you to My heart.”
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \new ChoirStaff <<

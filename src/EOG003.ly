@@ -14,7 +14,7 @@
   tagline = ##f
 }
 
-patternOne   = { c4( c8) | c4 c8 c4 c8 c8 c8 c8 | c4.( c4.) c8 c8 c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
+patternOne   = { c4( c8) | c4 c8 c4 c8 c8[ c8] c8 | c4.( c4.) c8[ c8] c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
 patternTwo   = { c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. }
 patternThree = { c4. | c4 c8 c4 c8 c4 c8 | c4.( c4.) c4 c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
 
@@ -64,9 +64,8 @@ notesBass = {
 }
 
 global = {
-  %\autoBeamOff
+  \autoBeamOff
   \override Staff.TimeSignature #'style = #'() \time 9/8
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
   \tempo 4 = 80
   \key f \major
@@ -76,60 +75,59 @@ global = {
 VerseOne = \lyricmode {
 \set stanza = "1."
 
-    Be -- hold, be -- hold the Lamb _ of God \bar "|"
-    On _ the cross! On the cross! \bar "|" \break
-    For us He shed his Pre -- _ cious blood \bar "|"
-    On _ the cross! On the cross! \bar "|" \break
+    Be -- hold, be -- hold the Lamb of God \bar "|"
+    On the cross! On the cross! \bar "|" \break
+    For us He shed his Pre -- cious blood \bar "|"
+    On the cross! On the cross! \bar "|" \break
     O hear the o -- ver whelm -- ing cry— \bar "|"
     “E -- li la -- ma sa -- bach -- tha -- ni.” \bar "|" \break
-    Draw near and see the Sav -- _ iour die \bar "|"
-    On _ the cross! On the cross! \bar "|"
+    Draw near and see the Sav -- iour die \bar "|"
+    On the cross! On the cross! \bar "|"
 
 }
 
 VerseTwo = \lyricmode {
 \set stanza = "2."
 
-    See, see His arms ex -- tend -- _ ed wide
-    On _ the cross! On the cross! \bar "|"
-    Be -- hold His bleed -- ing hands _ and side
-    On _ the cross! On the cross! \bar "|"
+    See, see His arms ex -- tend -- ed wide
+    On the cross! On the cross! \bar "|"
+    Be -- hold His bleed -- ing hands and side
+    On the cross! On the cross! \bar "|"
     The sun with -- holds his rays of light,
     The heav'ns are clothed in shades of night,
-    While Je -- sus wins the glo -- _ rious fight
-    On _ the cross! On the cross! \bar "|"
+    While Je -- sus wins the glo -- rious fight
+    On the cross! On the cross! \bar "|"
 
 }
 
 VerseThree = \lyricmode {
 \set stanza = "3."
 
-    Come, sin -- ners, see Him lift -- _ ed up
-    On _ the cross! On the cross! \bar "|"
-    He drinks for you the bit -- _ ter cup
-    On _ the cross! On the cross! \bar "|"
+    Come, sin -- ners, see Him lift -- ed up
+    On the cross! On the cross! \bar "|"
+    He drinks for you the bit -- ter cup
+    On the cross! On the cross! \bar "|"
     The rocks do rend, the moun -- tains quake,
     While Je -- sus doth a -- tone -- ment make,
-    While Je -- sus suf -- fers for _ our sake,
-    On _ the cross! On the cross! \bar "|"
+    While Je -- sus suf -- fers for our sake,
+    On the cross! On the cross! \bar "|"
 
 }
 
 VerseFour = \lyricmode {
 \set stanza = "4."
 
-    Wher -- e’er I go I’ll tell _ the story,
-    Of _ the cross! Of the cross! \bar "|"
-    In noth -- ing else my soul _ shall glory,
-    Save _ the cross! Save the cross! \bar "|"
+    Wher -- e’er I go I’ll tell the story,
+    Of the cross! Of the cross! \bar "|"
+    In noth -- ing else my soul shall glory,
+    Save the cross! Save the cross! \bar "|"
     Yes; this my cons -- tant theme shall be,
     Thro’ time, and in e -- ter -- ni -- ty,
-    That Je -- sus tast -- ed death _ for me,
-    On _ the cross! On the cross! \bar "|"
+    That Je -- sus tast -- ed death for me,
+    On the cross! On the cross! \bar "|"
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \new ChoirStaff <<

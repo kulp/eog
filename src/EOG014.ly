@@ -38,7 +38,6 @@ global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 4/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
@@ -158,7 +157,6 @@ And clean -- sing through the blood.
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

@@ -34,7 +34,6 @@ global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 3/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
   \ta
   \key d \major
@@ -154,7 +153,6 @@ While press -- ing on to God.
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<

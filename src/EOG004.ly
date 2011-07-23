@@ -25,7 +25,6 @@ patternS = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Tenor Refrain
 global = {
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'() \time 3/4
-  % TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
   \once \override Score.MetronomeMark #'transparent = ##t
   \tempo 4 = 96
   \key aes \major
@@ -141,7 +140,6 @@ wordsD = \lyricmode {
 
 }
 
-% TODO: use http://lsr.dsi.unimi.it/LSR/Snippet?id=653
 
 \score {
   \context ChoirStaff <<
