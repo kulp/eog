@@ -1,9 +1,10 @@
 VARIANTS_PDF  = eogsized letter
 VARIANTS_MIDI = default
 SHELL         = /bin/bash
-LYS           = $(shell ls -1 EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
-PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf )))
-MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
+LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
+PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
+MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
+#$(error $(PDFS))
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
 
@@ -11,8 +12,9 @@ ifneq ($(DEBUG),1)
 LYOPTS += -dno-point-and-click -ddelete-intermediate-files
 endif
 
+vpath .ly   src
 vpath .midi MIDI
-vpath .pdf PDF
+vpath .pdf  PDF
 
 .SUFFIXES:
 .SUFFIXES: .ly .ily .pdf .midi
@@ -72,7 +74,7 @@ endef
 
 .SECONDEXPANSION:
 CLOBBERFILES += PDF/ MIDI/
-PDF/%.pdf MIDI/%.midi: $$(notdir $$*).ly
+PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
 	mkdir -p PDF/$(dir $*) MIDI/$(dir $*)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(dir $*) --pdf --output=$(dir $@)$(notdir $*) $<
 	-mv $(dir $@)$(notdir $*).pdf  PDF/$(dir $*)
