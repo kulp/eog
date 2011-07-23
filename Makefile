@@ -63,6 +63,7 @@ define DRULE
 endef
 
 # TODO unify these almost identical rules
+# TODO keep the generation of .d files from requiring the building of the products
 %.d: %.pdf
 	$(call DRULE,PDF)
 
