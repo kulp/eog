@@ -39,7 +39,7 @@ index.html: $(PDFS) $(MIDIS)
 	echo '<li>$fs:<ul>' >> $@; \
 	$(foreach v,$(VARIANTS_$f), \
 	echo '<li>Variant "$v":<ul>' >> $@; \
-	echo $(foreach r,$(wildcard $f/$v/*.pdf $f/$v/*.midi),'<li><a href="$r">$(notdir $r)</a></li>') >> $@; \
+	echo $(foreach r,$(wildcard $f/$v/*.pdf $f/$v/*.midi),'<li><a href="$r">$(notdir $r) -- '$$(sed -n "/ title/p" src/$(notdir $(basename $r)).ly | sed 's/.* = "\(.*\)"$$/\1/')'</a></li>') >> $@; \
 	echo '</ul>' >> $@; \
 	) \
 	echo '</ul>' >> $@; \
