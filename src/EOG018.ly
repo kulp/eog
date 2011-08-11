@@ -18,8 +18,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
+ta = { \tempo 4=70 }
+tb = { \tempo 4=35 }
 
 patternAA = { c4.     | c8 c8 c8 c8 c8 c8 | c4. } % All except line 6 tenor
 patternAB = { c4( c8) | c8 c8 c8 c8 c8 c8 | c4. } % Line 6 tenor
