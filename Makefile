@@ -36,10 +36,10 @@ CLEANFILES += index.html
 index.html: $(PDFS) $(MIDIS)
 	echo '<body><ul>' > $@
 	$(foreach f,PDF MIDI, \
-	echo '<li>$fs:<ul>' >> $@; \
+	echo '<li>$fs<ul>' >> $@; \
 	$(foreach v,$(VARIANTS_$f), \
-	echo '<li>Variant "$v":<ul>' >> $@; \
-	$(foreach r,$(wildcard $f/$v/*.pdf $f/$v/*.midi),echo '<li><a href="$r">$(notdir $r) -- '$$(sed -n "/ title/p" src/$(notdir $(basename $r)).ly | sed 's/.* = "\(.*\)"$$/\1/')'</a></li>' >> $@;) \
+	echo '<li>Variant <em>$v</em><ul>' >> $@; \
+	$(foreach r,$(wildcard $f/$v/*.pdf $f/$v/*.midi),echo '<li><a href="$r">$(notdir $r) &mdash; <em>'$$(sed -n "/ title/p" src/$(notdir $(basename $r)).ly | sed 's/.* = "\(.*\)"$$/\1/')'</em></a></li>' >> $@;) \
 	echo '</ul>' >> $@; \
 	) \
 	echo '</ul>' >> $@; \
