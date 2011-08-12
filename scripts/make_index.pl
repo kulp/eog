@@ -23,11 +23,37 @@ my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, 
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 
 print <<HEAD;
+<!DOCTYPE HTML SYSTEM>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>Echoes of Grace layout project</title>
-<script src="scripts/sorttable.js"></script>
+<script type="text/javascript" src="scripts/sorttable.js"></script>
+<script type="text/javascript">
+
+// Adapted from http://www.vonloesch.de/node/23
+// I use table.tBodies[0].rows instead of table.rows
+function filter2(phrase, _id){
+    var words = phrase.value.toLowerCase().split(" ");
+    var table = document.getElementById(_id);
+    var tbody = table.tBodies[0];
+    var ele;
+    for (var r = 0; r < tbody.rows.length; r++){
+        ele = tbody.rows[r].innerHTML.replace(/<[^>]+>/g,"");
+        var displayStyle = 'none';
+        for (var i = 0; i < words.length; i++) {
+            if (ele.toLowerCase().indexOf(words[i])>=0)
+                displayStyle = '';
+            else {
+                displayStyle = 'none';
+                break;
+            }
+        }
+        tbody.rows[r].style.display = displayStyle;
+    }
+}
+
+</script>
 <style type="text/css">
 table#main td {
     padding-left:  0.5ex;
@@ -49,21 +75,38 @@ table.sortable thead {
     font-weight: bold;
     cursor: default;
 }
+tr.realhead th, tr td:first-child {
+    /* keep the table from jumping around when arrows are inserted during sorts */
+    min-width: 10ex;
+}
+form {
+    display: inline;
+}
+th.corner {
+    text-align: right;
+}
+th.sortbox {
+    text-align: left;
+}
 </style>
 </head>
-<body>
+<body onLoad="document.getElementById('searchbox').focus()">
 <table class="sortable" id="main">
 HEAD
 
 print qq(<thead>);
 print qq(<tr>);
-print qq( <th class="sorttable_nosort" colspan="4"></th>);
+print qq(
+<th class="sorttable_nosort corner">Filter:</th>
+<th class="sorttable_nosort sortbox" colspan="3">
+<form><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"/></form>
+</th>);
 for my $dir (@dirs) {
     print qq( <th class="sorttable_nosort wide" colspan="$vcount{$dir}">$dir</th>);
 }
 print qq(</tr>);
 
-print qq(<tr>);
+print qq(<tr class="realhead">);
 print qq( <th>Index</th><th>Title</th><th>Poet</th><th>Composer</th>);
 for my $dir (@dirs) {
     for my $v (@{ $variants{$dir} }) {
