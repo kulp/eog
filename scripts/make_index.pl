@@ -26,7 +26,7 @@ print <<HEAD;
 <!DOCTYPE HTML SYSTEM>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Echoes of Grace layout project</title>
 <script type="text/javascript" src="scripts/sorttable.js"></script>
 <script type="text/javascript">
@@ -99,7 +99,7 @@ print qq(<tr>);
 print qq(
 <th class="sorttable_nosort corner">Filter:</th>
 <th class="sorttable_nosort sortbox" colspan="3">
-<form><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"/></form>
+<form><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"></form>
 </th>);
 for my $dir (@dirs) {
     print qq( <th class="sorttable_nosort wide" colspan="$vcount{$dir}">$dir</th>);
