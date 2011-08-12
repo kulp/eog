@@ -4,7 +4,6 @@ use warnings;
 
 use List::MoreUtils qw(uniq);
 use Perl6::Slurp qw(slurp);
-use XXX;
 
 sub get_key ($$)
 {
