@@ -26,6 +26,7 @@ my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 print <<HEAD;
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Echoes of Grace layout project</title>
 <script src="scripts/sorttable.js"></script>
 <style type="text/css">
@@ -80,7 +81,8 @@ for my $stem (@stems) {
     my $poet     = get_key($src, "poet");
     my $composer = get_key($src, "composer");
     my $index    = int(($stem =~ /EOG(\d+)/)[0]);
-    print qq( <tr><th class="index">$index</th><td class="title">$title</td><td class="poet">$poet</td><td class="composer">$composer</td>);
+    (my $safetitle = $title) =~ s/[^\s\w]//g;
+    print qq( <tr><th class="index">$index</th><td class="title" sorttable_customkey="$safetitle">$title</td><td class="poet">$poet</td><td class="composer">$composer</td>);
     for my $dir (@dirs) {
         for my $v (@{ $variants{$dir} }) {
             print qq(  <td><a href="$dir/$v/$stem.$exts{$dir}">$stem.$exts{$dir}</a></td>);
