@@ -53,6 +53,15 @@ function filter2(phrase, _id){
     }
 }
 
+function do_reset()
+{
+    var box = document.getElementById('searchbox');
+    box.value = "";
+    filter2(box, 'main');
+    box.focus();
+    return false;
+}
+
 </script>
 <style type="text/css">
 table#main td {
@@ -99,7 +108,10 @@ print qq(<tr>);
 print qq(
 <th class="sorttable_nosort corner">Filter:</th>
 <th class="sorttable_nosort sortbox" colspan="4">
-<form onsubmit="return false;"><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"></form>
+<form onsubmit="return false;">
+<input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35">
+<button onclick="return do_reset();" value="Reset">Reset</button>
+</form>
 </th>);
 for my $dir (@dirs) {
     print qq( <th class="sorttable_nosort wide" colspan="$vcount{$dir}">$dir</th>);
