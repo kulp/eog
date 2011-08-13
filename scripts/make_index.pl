@@ -14,7 +14,7 @@ sub get_key ($$)
 
 my @files = @ARGV;
 
-my %dirs     = qw(pdf PDF midi MIDI);
+my %dirs     = qw(pdf PDF midi MIDI mp3 MP3);
 my %exts     = reverse %dirs;
 #my @types    = keys %dirs;
 my @dirs     = values %dirs;

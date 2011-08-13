@@ -1,7 +1,8 @@
 *.log
 *.pdf
 .DS_Store
-PDF
-MIDI
+PDF/
+MIDI/
+MP3/
 .*.sw?
 index.html

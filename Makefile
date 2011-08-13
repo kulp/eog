@@ -1,9 +1,11 @@
 VARIANTS_PDF  = eogsized letter
 VARIANTS_MIDI = default
+VARIANTS_MP3  = default # allverses
 SHELL         = /bin/bash
 LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
+MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
 #$(error $(PDFS))
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
@@ -22,9 +24,18 @@ vpath .pdf  PDF
 .DEFAULT_GOAL = all
 
 .PHONY: all pdf midi index
-all: pdf midi index
+all: pdf midi index mp3
 pdf: $(PDFS)
 midi: $(MIDIS)
+mp3: $(MP3S)
+#wav: $(WAVS)
+
+MP3/%.mp3: MIDI/%.midi
+	mkdir -p MP3/$(dir $*)
+	timidity -Ow -o - $^ | lame - $@
+
+%.wav: %.midi
+	timidity -Ow -o $@ $^
 
 push:
 	git push kulp.ch :
@@ -33,7 +44,7 @@ push:
 
 index: index.html
 CLEANFILES += index.html
-index.html: $(PDFS) $(MIDIS)
+index.html: $(PDFS) $(MIDIS) $(MP3S)
 	scripts/make_index.pl $^ > $@.$$$$ && mv $@.$$$$ $@
 
 clean:
@@ -64,7 +75,7 @@ endef
 	$(call DRULE,MIDI)
 
 .SECONDEXPANSION:
-CLOBBERFILES += PDF/ MIDI/
+CLOBBERFILES += PDF/ MIDI/ MP3/
 PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
 	mkdir -p PDF/$(dir $*) MIDI/$(dir $*)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(dir $*) --pdf --output=$(dir $@)$(notdir $*) $<
