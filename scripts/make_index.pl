@@ -99,7 +99,7 @@ print qq(<tr>);
 print qq(
 <th class="sorttable_nosort corner">Filter:</th>
 <th class="sorttable_nosort sortbox" colspan="3">
-<form><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"></form>
+<form onsubmit="return false;"><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"></form>
 </th>);
 for my $dir (@dirs) {
     print qq( <th class="sorttable_nosort wide" colspan="$vcount{$dir}">$dir</th>);
