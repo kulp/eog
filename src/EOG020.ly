@@ -155,7 +155,7 @@ Ye tempt -- ed ones, there’s ref -- uge nigh:
 wordsD = \lyricmode {
 \set stanza = "4."
 
-But if you still His call re -- fus,
+But if you still His call re -- fuse,
 And all His won -- drous love a -- buse,
 Soon will He sad -- ly from you turn,
 Your bit -- ter prayer for par -- don spurn.

@@ -98,7 +98,7 @@ print qq(<thead>);
 print qq(<tr>);
 print qq(
 <th class="sorttable_nosort corner">Filter:</th>
-<th class="sorttable_nosort sortbox" colspan="3">
+<th class="sorttable_nosort sortbox" colspan="4">
 <form onsubmit="return false;"><input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35"></form>
 </th>);
 for my $dir (@dirs) {
@@ -107,7 +107,7 @@ for my $dir (@dirs) {
 print qq(</tr>);
 
 print qq(<tr class="realhead">);
-print qq( <th>Index</th><th>Title</th><th>Poet</th><th>Composer</th>);
+print qq( <th>Index</th><th>Title</th><th>Poet</th><th>Composer</th><th>Meter</th>);
 for my $dir (@dirs) {
     for my $v (@{ $variants{$dir} }) {
         print qq( <th class="sorttable_nosort">$v</th>);
@@ -119,12 +119,15 @@ print qq(</thead>);
 print qq(<tbody>);
 for my $stem (@stems) {
     my $src      = "src/$stem.ly";
-    my $title    = get_key($src, "title");
-    my $poet     = get_key($src, "poet");
-    my $composer = get_key($src, "composer");
+
+    my $title    = get_key $src => "title";
+    my $poet     = get_key $src => "poet";
+    my $composer = get_key $src => "composer";
+    my $meter    = get_key $src => "meter";
+
     my $index    = int(($stem =~ /EOG(\d+)/)[0]);
     (my $safetitle = $title) =~ s/[^\s\w]//g;
-    print qq( <tr><th class="index">$index</th><td class="title" sorttable_customkey="$safetitle">$title</td><td class="poet">$poet</td><td class="composer">$composer</td>);
+    print qq( <tr><th class="index">$index</th><td class="title" sorttable_customkey="$safetitle">$title</td><td class="poet">$poet</td><td class="composer">$composer</td><td class="meter">$meter</td>);
     for my $dir (@dirs) {
         for my $v (@{ $variants{$dir} }) {
             print qq(  <td><a href="$dir/$v/$stem.$exts{$dir}">$stem.$exts{$dir}</a></td>);
