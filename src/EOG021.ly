@@ -79,7 +79,7 @@ notesAlto = {
   \changePitch \patternAA { d d d   | d g g f     | e } 
   \changePitch \patternBA { e       | d d d d     | d } 
 
-  \changePitch \patternAB { g fis fis | fis fis fis fis fis d | d d d } 
+  \changePitch \patternAB { g fis fis | fis fis fis fis fis d | d < d g > < d g>  } 
   \changePitch \patternBA { g         | g g g g fis           } 
   \changePitch \patternAA { fis g d   | d g g f               | e     } 
   \changePitch \patternBB { e         | d b c b               | b     } 
