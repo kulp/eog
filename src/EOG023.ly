@@ -187,7 +187,7 @@ wordsB = \lyricmode {
 
 I will tell the won -- drous stor -- ry,
 How my lost es -- tate to save,
-In Hi bound -- less love and mer -- cy,
+In His bound -- less love and mer -- cy,
 He the ran -- som free -- ly gave.
 
 \AltoRefrain
@@ -198,7 +198,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 I will praise my dear Re -- deem -- er,
-His tru -- um -- phant pow’r I’ll tell,
+His tri -- um -- phant pow’r I’ll tell,
 How the vic -- to -- ry He giv -- eth
 O -- ver sin, and death, and hell.
 
