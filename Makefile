@@ -53,10 +53,11 @@ clean:
 clobber: clean
 	$(RM) -r $(CLOBBERFILES)
 
-CLOBBERFILES += $(PDFS:.pdf=.d) $(MIDIS:.midi=.d)
+CLOBBERFILES += $(PDFS:.pdf=.d) $(MIDIS:.midi=.d) $(MP3S:.mp3=.d)
 ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(PDFS:.pdf=.d)
 -include $(MIDIS:.midi=.d)
+#-include $(MP3S:.mp3=.d)
 endif
 
 # TODO rewrite this rule (it's very roundabout and messy)
@@ -67,12 +68,18 @@ define DRULE
 endef
 
 # TODO unify these almost identical rules
-# TODO keep the generation of .d files from requiring the building of the products
+# TODO keep the generation of .d files from requiring the building of the
+# products : it's causing an unnecessarily larget growth in build time for a
+# given growth in build targets
 %.d: %.pdf
 	$(call DRULE,PDF)
 
 %.d: %.midi
 	$(call DRULE,MIDI)
+
+# TODO if we start having variants for MP3, enable these
+#%.d: %.mp3
+#	$(call DRULE,MP3)
 
 .SECONDEXPANSION:
 CLOBBERFILES += PDF/ MIDI/ MP3/
