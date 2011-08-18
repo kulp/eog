@@ -45,21 +45,21 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { b a g   | fis e d cis | d   } 
-  \changePitch \patternBA { g       | c b e, a    | a   } 
-  \changePitch \patternAA { b a g   | fis e d cis | d   } 
-  \changePitch \patternBA { g       | a c fis, g  | g   } 
-  \changePitch \patternAA { b b     | g a c c a   | b   } 
-  \changePitch \patternBA { d       | cis b a g   | fis } 
-  \changePitch \patternAA { fis g a | b d c b     | e,  } 
-  \changePitch \patternBA { g       | b d a g     | g   } 
+  \changePitch \patternAA { b a g   | fis e d cis | d   }
+  \changePitch \patternBA { g       | c b e, a    | a   }
+  \changePitch \patternAA { b a g   | fis e d cis | d   }
+  \changePitch \patternBA { g       | a c fis, g  | g   }
+  \changePitch \patternAA { b b     | g a c c a   | b   }
+  \changePitch \patternBA { d       | cis b a g   | fis }
+  \changePitch \patternAA { fis g a | b d c b     | e,  }
+  \changePitch \patternBA { g       | b d a g     | g   }
 
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { b b a  | d a a g    | b  } >>
-  \changePitch \patternBA { b      | a a e' e d } 
-  \changePitch \patternAA { d d g, | b d c b    | e, } 
-  \changePitch \patternBB { g      | b d, a' g  | g  } 
+  \changePitch \patternBA { b      | a a e' e d }
+  \changePitch \patternAA { d d g, | b d c b    | e, }
+  \changePitch \patternBB { g      | b d, a' g  | g  }
 
   \bar "|."
 
@@ -70,19 +70,19 @@ notesAlto = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { b b b   | b b b ais   | b } 
-  \changePitch \patternBA { d       | e d cis cis | d } 
-  \changePitch \patternAA { d dis e | d c b ais   | b } 
-  \changePitch \patternBA { d       | e e c b     | b } 
-  \changePitch \patternAA { d d d   | d d fis fis | g } 
-  \changePitch \patternBA { g       | e g fis e   | d } 
-  \changePitch \patternAA { d d d   | d g g f     | e } 
-  \changePitch \patternBA { e       | d d d d     | d } 
+  \changePitch \patternAA { b b b   | b b b ais   | b }
+  \changePitch \patternBA { d       | e d cis cis | d }
+  \changePitch \patternAA { d dis e | d c b ais   | b }
+  \changePitch \patternBA { d       | e e c b     | b }
+  \changePitch \patternAA { d d d   | d d fis fis | g }
+  \changePitch \patternBA { g       | e g fis e   | d }
+  \changePitch \patternAA { d d d   | d g g f     | e }
+  \changePitch \patternBA { e       | d d d d     | d }
 
-  \changePitch \patternAB { g fis fis | fis fis fis fis fis d | d < d g > < d g>  } 
-  \changePitch \patternBA { g         | g g g g fis           } 
-  \changePitch \patternAA { fis g d   | d g g f               | e     } 
-  \changePitch \patternBB { e         | d b c b               | b     } 
+  \changePitch \patternAB { g fis fis | fis fis fis fis fis d | d < d g > < d g>  }
+  \changePitch \patternBA { g         | g g g g fis           }
+  \changePitch \patternAA { fis g d   | d g g f               | e     }
+  \changePitch \patternBB { e         | d b c b               | b     }
 
 }
 }
@@ -91,19 +91,19 @@ notesTenor = {
 \global
 \relative d {
 
-  \changePitch \patternAA { d d d   | d g g g   | g   } 
-  \changePitch \patternBA { g       | g g g g   | fis } 
-  \changePitch \patternAA { g g g   | g g g g   | g   } 
-  \changePitch \patternBA { g       | g a a g   | g   } 
-  \changePitch \patternAA { g g g   | fis a a d | d   } 
-  \changePitch \patternBA { b       | a cis d a | a   } 
-  \changePitch \patternAA { a g fis | g b c g   | g   } 
-  \changePitch \patternBA { g       | g b c b   | b   } 
+  \changePitch \patternAA { d d d   | d g g g   | g   }
+  \changePitch \patternBA { g       | g g g g   | fis }
+  \changePitch \patternAA { g g g   | g g g g   | g   }
+  \changePitch \patternBA { g       | g a a g   | g   }
+  \changePitch \patternAA { g g g   | fis a a d | d   }
+  \changePitch \patternBA { b       | a cis d a | a   }
+  \changePitch \patternAA { a g fis | g b c g   | g   }
+  \changePitch \patternBA { g       | g b c b   | b   }
 
-  \changePitch \patternAB { d d c | a a a c c b   | g d' d } 
-  \changePitch \patternBA { d     | e e cis cis c! } 
-  \changePitch \patternAA { c b b | g b c g       | g     } 
-  \changePitch \patternBB { g     | g g fis g     | g     } 
+  \changePitch \patternAB { d d c | a a a c c b   | g d' d }
+  \changePitch \patternBA { d     | e e cis cis c! }
+  \changePitch \patternAA { c b b | g b c g       | g     }
+  \changePitch \patternBB { g     | g g fis g     | g     }
 
 }
 }
@@ -112,19 +112,19 @@ notesBass = {
 \global
 \relative g, {
 
-  \changePitch \patternAA { g g g  | g g g g  | g } 
-  \changePitch \patternBA { b      | c d a a  | d } 
-  \changePitch \patternAA { g, g g | c e g g, | g } 
-  \changePitch \patternBA { b      | c a d g, | g } 
-  \changePitch \patternAA { g g b  | d d d d  | g } 
-  \changePitch \patternBA { g      | a a a, a | d } 
-  \changePitch \patternAA { c b d  | g f e d  | c } 
-  \changePitch \patternBA { a      | d d d g  | g } 
+  \changePitch \patternAA { g g g  | g g g g  | g }
+  \changePitch \patternBA { b      | c d a a  | d }
+  \changePitch \patternAA { g, g g | c e g g, | g }
+  \changePitch \patternBA { b      | c a d g, | g }
+  \changePitch \patternAA { g g b  | d d d d  | g }
+  \changePitch \patternBA { g      | a a a, a | d }
+  \changePitch \patternAA { c b d  | g f e d  | c }
+  \changePitch \patternBA { a      | d d d g  | g }
 
-  \changePitch \patternAB { g d d | d d d d d d | g g g } 
-  \changePitch \patternBA { g     | c c a a d,  } 
-  \changePitch \patternAA { d g g | g f e d     | c     } 
-  \changePitch \patternBB { a     | d d d g,    | g     } 
+  \changePitch \patternAB { g d d | d d d d d d | g g g }
+  \changePitch \patternBA { g     | c c a a d,  }
+  \changePitch \patternAA { d g g | g f e d     | c     }
+  \changePitch \patternBB { a     | d d d g,    | g     }
 
 }
 }

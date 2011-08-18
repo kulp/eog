@@ -46,10 +46,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { g c d | c b     | g d' e | d c } 
-  \changePitch \patternAG { a g   | f e     | d fis  | g   } 
-  \changePitch \patternAC { g a g | g e' c  | g a g  | g c } 
-  \changePitch \patternAD { c c   | c e c a | g d'   | c   } 
+  \changePitch \patternAA { g c d | c b     | g d' e | d c }
+  \changePitch \patternAG { a g   | f e     | d fis  | g   }
+  \changePitch \patternAC { g a g | g e' c  | g a g  | g c }
+  \changePitch \patternAD { c c   | c e c a | g d'   | c   }
 
   \bar "|."
 
@@ -60,10 +60,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAB { e e | f f   | f f | e e } 
-  \changePitch \patternAG { c c | b c   | d c | b   } 
-  \changePitch \patternAB { f' f | e e   | f f | e e } 
-  \changePitch \patternAE { e f | e e f | d f | e   } 
+  \changePitch \patternAB { e e | f f   | f f | e e }
+  \changePitch \patternAG { c c | b c   | d c | b   }
+  \changePitch \patternAB { f' f | e e   | f f | e e }
+  \changePitch \patternAE { e f | e e f | d f | e   }
 
 }
 }
@@ -72,10 +72,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAB { c g | g g     | g g     | g g } 
-  \changePitch \patternAG { f g | g g     | fis a   | g   } 
-  \changePitch \patternAB { b b | c g     | g b     | c g } 
-  \changePitch \patternAF { c c | c b a c | c b a b | c   } 
+  \changePitch \patternAB { c g | g g     | g g     | g g }
+  \changePitch \patternAG { f g | g g     | fis a   | g   }
+  \changePitch \patternAB { b b | c g     | g b     | c g }
+  \changePitch \patternAF { c c | c b a c | c b a b | c   }
 
 }
 }
@@ -84,10 +84,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAB { c c    | d g,      | b g  | c c } 
-  \changePitch \patternAG { f e    | d c       | d d  | g,  } 
-  \changePitch \patternAB { g' g   | c, c      | b g  | c c } 
-  \changePitch \patternAD { a' aes | g gis a f | g g, | c   } 
+  \changePitch \patternAB { c c    | d g,      | b g  | c c }
+  \changePitch \patternAG { f e    | d c       | d d  | g,  }
+  \changePitch \patternAB { g' g   | c, c      | b g  | c c }
+  \changePitch \patternAD { a' aes | g gis a f | g g, | c   }
 
 }
 }

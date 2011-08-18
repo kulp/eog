@@ -41,15 +41,15 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { bes  | g aes bes bes   | c bes bes } 
-  \changePitch \patternBA { g    | f g aes bes     | g         } 
-  \changePitch \patternAA { bes  | g aes bes bes   | c bes bes } 
-  \changePitch \patternBA { g    | f f g f         | ees       } 
+  \changePitch \patternAA { bes  | g aes bes bes   | c bes bes }
+  \changePitch \patternBA { g    | f g aes bes     | g         }
+  \changePitch \patternAA { bes  | g aes bes bes   | c bes bes }
+  \changePitch \patternBA { g    | f f g f         | ees       }
 
-  \changePitch \patternAB { bes' | ees bes bes ees | ees c c   } 
-  \changePitch \patternAC { c    | bes f f aes     | g aes bes } 
-  \changePitch \patternAB { bes  | ees bes bes ees | ees c c   } 
-  \changePitch \patternBA { c    | bes f g f       | ees       } 
+  \changePitch \patternAB { bes' | ees bes bes ees | ees c c   }
+  \changePitch \patternAC { c    | bes f f aes     | g aes bes }
+  \changePitch \patternAB { bes  | ees bes bes ees | ees c c   }
+  \changePitch \patternBA { c    | bes f g f       | ees       }
 
   \bar "|."
 
@@ -60,15 +60,15 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { ees | ees ees ees ees | ees ees ees } 
-  \changePitch \patternBA { ees | d ees f g       | ees         } 
-  \changePitch \patternAA { ees | ees ees ees ees | ees ees ees } 
-  \changePitch \patternBA { ees | ees ees d d     | ees         } 
+  \changePitch \patternAA { ees | ees ees ees ees | ees ees ees }
+  \changePitch \patternBA { ees | d ees f g       | ees         }
+  \changePitch \patternAA { ees | ees ees ees ees | ees ees ees }
+  \changePitch \patternBA { ees | ees ees d d     | ees         }
 
-  \changePitch \patternAB { ees | ees ees ees ees | ees aes aes } 
-  \changePitch \patternAC { aes | f d d f         | ees f g     } 
-  \changePitch \patternAB { ees | ees ees ees ees | ees aes aes } 
-  \changePitch \patternBA { aes | f d d d         | ees         } 
+  \changePitch \patternAB { ees | ees ees ees ees | ees aes aes }
+  \changePitch \patternAC { aes | f d d f         | ees f g     }
+  \changePitch \patternAB { ees | ees ees ees ees | ees aes aes }
+  \changePitch \patternBA { aes | f d d d         | ees         }
 
 }
 }
@@ -77,15 +77,15 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { g   | ees f g g       | aes g g   } 
-  \changePitch \patternBA { bes | bes bes bes bes | bes       } 
-  \changePitch \patternAA { g   | ees f g g       | aes g g   } 
-  \changePitch \patternBA { bes | bes bes bes aes | g         } 
+  \changePitch \patternAA { g   | ees f g g       | aes g g   }
+  \changePitch \patternBA { bes | bes bes bes bes | bes       }
+  \changePitch \patternAA { g   | ees f g g       | aes g g   }
+  \changePitch \patternBA { bes | bes bes bes aes | g         }
 
-  \changePitch \patternAB { g   | g g g g         | c ees ees } 
-  \changePitch \patternBA { ees | d bes bes bes   | bes       } 
-  \changePitch \patternAB { g   | g g g g         | c ees ees } 
-  \changePitch \patternBA { ees | d bes bes aes   | g         } 
+  \changePitch \patternAB { g   | g g g g         | c ees ees }
+  \changePitch \patternBA { ees | d bes bes bes   | bes       }
+  \changePitch \patternAB { g   | g g g g         | c ees ees }
+  \changePitch \patternBA { ees | d bes bes aes   | g         }
 
 }
 }
@@ -94,15 +94,15 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { ees | ees ees ees ees  | ees ees ees } 
-  \changePitch \patternBA { ees | bes bes bes bes  | ees         } 
-  \changePitch \patternAA { ees | ees ees ees ees  | ees ees ees } 
-  \changePitch \patternBA { ees | bes bes bes bes  | ees         } 
+  \changePitch \patternAA { ees | ees ees ees ees  | ees ees ees }
+  \changePitch \patternBA { ees | bes bes bes bes  | ees         }
+  \changePitch \patternAA { ees | ees ees ees ees  | ees ees ees }
+  \changePitch \patternBA { ees | bes bes bes bes  | ees         }
 
-  \changePitch \patternAB { ees | ees ees ees ees  | aes aes aes } 
-  \changePitch \patternBA { aes | bes bes bes bes, | ees         } 
-  \changePitch \patternAB { ees | ees ees ees ees  | aes aes aes } 
-  \changePitch \patternBA { aes | bes bes bes bes, | ees         } 
+  \changePitch \patternAB { ees | ees ees ees ees  | aes aes aes }
+  \changePitch \patternBA { aes | bes bes bes bes, | ees         }
+  \changePitch \patternAB { ees | ees ees ees ees  | aes aes aes }
+  \changePitch \patternBA { aes | bes bes bes bes, | ees         }
 
 }
 }

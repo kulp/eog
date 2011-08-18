@@ -49,16 +49,16 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { e e e e      | a b cis     } 
-  \changePitch \patternBA { d d gis, gis | a           } 
-  \changePitch \patternAA { e e e e      | a b cis     } 
-  \changePitch \patternBC { d d gis, gis | a           } 
+  \changePitch \patternAA { e e e e      | a b cis     }
+  \changePitch \patternBA { d d gis, gis | a           }
+  \changePitch \patternAA { e e e e      | a b cis     }
+  \changePitch \patternBC { d d gis, gis | a           }
 
-  << s^\markup { \small \caps "Refrain"  } 
+  << s^\markup { \small \caps "Refrain"  }
   \changePitch \patternCA { e' d cis b   | a gis fis e } >>
-  \changePitch \patternDA { e a b cis    | b           } 
-  \changePitch \patternCD { cis cis b a  | gis fis e a } 
-  \changePitch \patternDB { b a cis b    | a           } 
+  \changePitch \patternDA { e a b cis    | b           }
+  \changePitch \patternCD { cis cis b a  | gis fis e a }
+  \changePitch \patternDB { b a cis b    | a           }
 
   \bar "|."
 
@@ -69,15 +69,15 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { cis cis cis cis | e e e       } 
-  \changePitch \patternBA { fis fis d d     | cis         } 
-  \changePitch \patternAA { cis cis cis cis | e e e       } 
-  \changePitch \patternBC { fis fis d d     | cis         } 
+  \changePitch \patternAA { cis cis cis cis | e e e       }
+  \changePitch \patternBA { fis fis d d     | cis         }
+  \changePitch \patternAA { cis cis cis cis | e e e       }
+  \changePitch \patternBC { fis fis d d     | cis         }
 
-  \changePitch \patternCA { cis' b a gis    | fis e d cis } 
-  \changePitch \patternDA { cis e e e       | e           } 
-  \changePitch \patternCD { e e d cis       | e d cis e   } 
-  \changePitch \patternDB { d cis e d       | cis         } 
+  \changePitch \patternCA { cis' b a gis    | fis e d cis }
+  \changePitch \patternDA { cis e e e       | e           }
+  \changePitch \patternCD { e e d cis       | e d cis e   }
+  \changePitch \patternDB { d cis e d       | cis         }
 
 }
 }
@@ -86,15 +86,15 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { a a a a     | a gis a } 
-  \changePitch \patternBA { a b b b     | a       } 
-  \changePitch \patternAA { a a a a     | a gis a } 
-  \changePitch \patternBB { a b b b     | a       } 
+  \changePitch \patternAA { a a a a     | a gis a }
+  \changePitch \patternBA { a b b b     | a       }
+  \changePitch \patternAA { a a a a     | a gis a }
+  \changePitch \patternBB { a b b b     | a       }
 
-  \changePitch \patternCB { a a a a     | a a a   } 
-  \changePitch \patternDA { a a gis a   | gis     } 
-  \changePitch \patternCC { a a a a     | a a a   } 
-  \changePitch \patternDB { gis a a gis | a       } 
+  \changePitch \patternCB { a a a a     | a a a   }
+  \changePitch \patternDA { a a gis a   | gis     }
+  \changePitch \patternCC { a a a a     | a a a   }
+  \changePitch \patternDB { gis a a gis | a       }
 
 }
 }
@@ -103,15 +103,15 @@ notesBass = {
 \global
 \relative f, {
 
-  \changePitch \patternAA { a a a a   | cis e a   } 
-  \changePitch \patternBA { d, b e e  | a,        } 
-  \changePitch \patternAA { a a a a   | cis e a   } 
-  \changePitch \patternBB { d, b e e  | a,        } 
+  \changePitch \patternAA { a a a a   | cis e a   }
+  \changePitch \patternBA { d, b e e  | a,        }
+  \changePitch \patternAA { a a a a   | cis e a   }
+  \changePitch \patternBB { d, b e e  | a,        }
 
-  \changePitch \patternCB { a a a a   | a a a     } 
-  \changePitch \patternDA { a cis e e | e         } 
-  \changePitch \patternCD { a, a a a  | d d a cis } 
-  \changePitch \patternDB { e e e e   | a,        } 
+  \changePitch \patternCB { a a a a   | a a a     }
+  \changePitch \patternDA { a cis e e | e         }
+  \changePitch \patternCD { a, a a a  | d d a cis }
+  \changePitch \patternDB { e e e e   | a,        }
 
 }
 }

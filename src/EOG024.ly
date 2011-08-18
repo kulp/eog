@@ -40,10 +40,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { a g | bes a     | d c a  | g } 
-  \changePitch \patternAB { a a | a a       | bes e, | f } 
-  \changePitch \patternAA { a g | bes a     | d c a  | g } 
-  \changePitch \patternAC { a c | c bes a g | f e    | f } 
+  \changePitch \patternAA { a g | bes a     | d c a  | g }
+  \changePitch \patternAB { a a | a a       | bes e, | f }
+  \changePitch \patternAA { a g | bes a     | d c a  | g }
+  \changePitch \patternAC { a c | c bes a g | f e    | f }
 
   \bar "|."
 
@@ -54,10 +54,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { f f | f f   | gis a f | e } 
-  \changePitch \patternAB { f f | e ees | d c     | c } 
-  \changePitch \patternAA { f f | f f   | gis a f | e } 
-  \changePitch \patternAB { f a | g d   | c c     | c } 
+  \changePitch \patternAA { f f | f f   | gis a f | e }
+  \changePitch \patternAB { f f | e ees | d c     | c }
+  \changePitch \patternAA { f f | f f   | gis a f | e }
+  \changePitch \patternAB { f a | g d   | c c     | c }
 
 }
 }
@@ -66,10 +66,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAB { c bes   | d c   | b c     | bes } 
-  \changePitch \patternAB { a d     | cis c | bes bes | a   } 
-  \changePitch \patternAB { c bes   | d c   | b c     | bes } 
-  \changePitch \patternAD { a c ees | d bes | a bes   | a   } 
+  \changePitch \patternAB { c bes   | d c   | b c     | bes }
+  \changePitch \patternAB { a d     | cis c | bes bes | a   }
+  \changePitch \patternAB { c bes   | d c   | b c     | bes }
+  \changePitch \patternAD { a c ees | d bes | a bes   | a   }
 
 }
 }
@@ -78,10 +78,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAB { f f   | f f    | f f  | c } 
-  \changePitch \patternAB { f d   | a fis' | g c, | f } 
-  \changePitch \patternAB { f f   | f f    | f f  | c } 
-  \changePitch \patternAB { f fis | g bes, | c c  | f } 
+  \changePitch \patternAB { f f   | f f    | f f  | c }
+  \changePitch \patternAB { f d   | a fis' | g c, | f }
+  \changePitch \patternAB { f f   | f f    | f f  | c }
+  \changePitch \patternAB { f fis | g bes, | c c  | f }
 
 }
 }

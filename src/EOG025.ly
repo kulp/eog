@@ -21,10 +21,10 @@
 ta = { \tempo 8=120 }
 tb = { \tempo 8=60  }
 
-patternAA = { c8 | c8. c16 c8 c8( c8) c8 | c8 c8 c8 c4        } 
-patternAB = { c8 | c8. c16 c8 c8( c8) c8 | c8. c16 c8 c8 ~ c8 } 
-patternAC = { c8 | c8. c16 c8 c8 ~ c8 c8 | c8 c8 c8 c4        } 
-patternAD = { c8 | c8. c16 c8 c8 ~ c8 c8 | c8. c16 c8 c8 ~ c8 } 
+patternAA = { c8 | c8. c16 c8 c8( c8) c8 | c8 c8 c8 c4        }
+patternAB = { c8 | c8. c16 c8 c8( c8) c8 | c8. c16 c8 c8 ~ c8 }
+patternAC = { c8 | c8. c16 c8 c8 ~ c8 c8 | c8 c8 c8 c4        }
+patternAD = { c8 | c8. c16 c8 c8 ~ c8 c8 | c8. c16 c8 c8 ~ c8 }
 
 patternBA = { c8 | c8. c16 c8 c8( c8) c8 | c4. ~ c4 }
 patternBB = { c8 | c8. c16 c8 c8  c8  c8 | c4. ~ c4 }
@@ -48,16 +48,16 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { ees | aes aes aes aes g aes | bes aes g aes } 
-  \changePitch \patternBA { aes | c bes aes aes g aes   | bes bes       } 
-  \changePitch \patternAB { ees, | aes aes aes c bes c   | des f, f f f   } 
-  \changePitch \patternBB { f   | ees ees ees ees f g   | aes aes       } 
+  \changePitch \patternAA { ees  | aes aes aes aes g aes | bes aes g aes }
+  \changePitch \patternBA { aes  | c bes aes aes g aes   | bes bes       }
+  \changePitch \patternAB { ees, | aes aes aes c bes c   | des f, f f f  }
+  \changePitch \patternBB { f    | ees ees ees ees f g   | aes aes       }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternCA { ees | bes' bes bes aes bes | c c       } >>
-  \changePitch \patternCA { ees, | bes' bes bes aes bes | c c       } 
-  \changePitch \patternDA { ees, | aes aes aes c bes c | des f, f f } 
-  \changePitch \patternCA { f   | ees ees ees f g     | aes aes   } 
+  \changePitch \patternCA { ees  | bes' bes bes aes bes | c c        } >>
+  \changePitch \patternCA { ees, | bes' bes bes aes bes | c c        }
+  \changePitch \patternDA { ees, | aes aes aes c bes c  | des f, f f }
+  \changePitch \patternCA { f    | ees ees ees f g      | aes aes    }
 
   \bar "|."
 
@@ -68,15 +68,15 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { c   | c c c c bes c         | des c des c       } 
-  \changePitch \patternBA { c   | ees des c ees ees ees | ees ees           } 
-  \changePitch \patternAB { ees | c c c ees des ees     | f des des des des } 
-  \changePitch \patternBB { des | c c c des des des   | c c               } 
+  \changePitch \patternAA { c   | c c c c bes c         | des c des c       }
+  \changePitch \patternBA { c   | ees des c ees ees ees | ees ees           }
+  \changePitch \patternAB { ees | c c c ees des ees     | f des des des des }
+  \changePitch \patternBB { des | c c c des des des     | c c               }
 
-  \changePitch \patternCA { c   | ees ees ees ees ees   | ees ees           } 
-  \changePitch \patternCA { c   | ees ees ees ees ees   | ees ees           } 
-  \changePitch \patternDA { ees | c c c ees des ees     | f des des des     } 
-  \changePitch \patternCA { des | c c des des des       | c c               } 
+  \changePitch \patternCA { c   | ees ees ees ees ees   | ees ees           }
+  \changePitch \patternCA { c   | ees ees ees ees ees   | ees ees           }
+  \changePitch \patternDA { ees | c c c ees des ees     | f des des des     }
+  \changePitch \patternCA { des | c c des des des       | c c               }
 
 }
 }
@@ -85,15 +85,15 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAC { aes | ees ees ees ees ees aes | g aes bes aes       } 
-  \changePitch \patternBA { ees | aes aes aes c bes aes   | g g                 } 
-  \changePitch \patternAD { ees | ees ees ees aes aes aes | aes aes aes aes aes } 
-  \changePitch \patternBB { aes | aes aes aes g aes bes   | aes aes             } 
+  \changePitch \patternAC { aes | ees ees ees ees ees aes | g aes bes aes       }
+  \changePitch \patternBA { ees | aes aes aes c bes aes   | g g                 }
+  \changePitch \patternAD { ees | ees ees ees aes aes aes | aes aes aes aes aes }
+  \changePitch \patternBB { aes | aes aes aes g aes bes   | aes aes             }
 
-  \changePitch \patternCA { aes | g g g f g               | aes aes             } 
-  \changePitch \patternCA { aes | g g g f g               | aes aes             } 
-  \changePitch \patternDB { ees | ees ees ees aes aes     | aes aes aes aes     } 
-  \changePitch \patternCA { aes | aes aes g aes bes       | aes aes             } 
+  \changePitch \patternCA { aes | g g g f g               | aes aes             }
+  \changePitch \patternCA { aes | g g g f g               | aes aes             }
+  \changePitch \patternDB { ees | ees ees ees aes aes     | aes aes aes aes     }
+  \changePitch \patternCA { aes | aes aes g aes bes       | aes aes             }
 
 }
 }
@@ -102,15 +102,15 @@ notesBass = {
 \global
 \relative a, {
 
-  \changePitch \patternAC { aes  | aes aes aes aes aes aes | ees' ees ees aes,     } 
-  \changePitch \patternBA { aes  | aes aes aes aes bes c   | ees ees             } 
-  \changePitch \patternAD { ees  | aes, aes aes aes aes aes | des des des des des } 
-  \changePitch \patternBB { des  | ees ees ees ees ees ees | aes, aes             } 
+  \changePitch \patternAC { aes  | aes aes aes aes aes aes  | ees' ees ees aes,   }
+  \changePitch \patternBA { aes  | aes aes aes aes bes c    | ees ees             }
+  \changePitch \patternAD { ees  | aes, aes aes aes aes aes | des des des des des }
+  \changePitch \patternBB { des  | ees ees ees ees ees ees  | aes, aes            }
 
-  \changePitch \patternCA { aes' | ees ees ees ees ees     | aes aes             } 
-  \changePitch \patternCA { aes  | ees ees ees ees ees     | aes aes             } 
-  \changePitch \patternDB { ees  | aes, aes aes aes aes    | des des des des     } 
-  \changePitch \patternCA { des  | ees ees ees ees ees     | aes, aes            } 
+  \changePitch \patternCA { aes' | ees ees ees ees ees      | aes aes             }
+  \changePitch \patternCA { aes  | ees ees ees ees ees      | aes aes             }
+  \changePitch \patternDB { ees  | aes, aes aes aes aes     | des des des des     }
+  \changePitch \patternCA { des  | ees ees ees ees ees      | aes, aes            }
 
 }
 }

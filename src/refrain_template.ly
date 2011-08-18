@@ -37,16 +37,16 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { } 
-  \changePitch \patternAB { } 
-  \changePitch \patternAA { } 
-  \changePitch \patternAB { } 
+  \changePitch \patternAA { }
+  \changePitch \patternAB { }
+  \changePitch \patternAA { }
+  \changePitch \patternAB { }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternBB { } >>
-  \changePitch \patternBB { } 
-  \changePitch \patternBC { } 
-  \changePitch \patternAC { } 
+  \changePitch \patternBB { }
+  \changePitch \patternBC { }
+  \changePitch \patternAC { }
 
   \bar "|."
 
@@ -57,15 +57,15 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternAB { } 
+  \changePitch \patternAA { }
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternAB { }
 
-  \changePitch \patternBB { } 
-  \changePitch \patternBB { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternAB { } 
+  \changePitch \patternBB { }
+  \changePitch \patternBB { }
+  \changePitch \patternBA { }
+  \changePitch \patternAB { }
 
 }
 }
@@ -74,15 +74,15 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAB { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternAB { } 
-  \changePitch \patternAB { } 
+  \changePitch \patternAB { }
+  \changePitch \patternBA { }
+  \changePitch \patternAB { }
+  \changePitch \patternAB { }
 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternAB { } 
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternAB { }
 
 }
 }
@@ -91,15 +91,15 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternBA { } 
-  \changePitch \patternAB { } 
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternBA { }
+  \changePitch \patternAB { }
 
 }
 }

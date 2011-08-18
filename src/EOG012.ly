@@ -54,10 +54,10 @@ notesSoprano = {
   \time 6/8
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternD { e     | e a a gis a        | b b e, e    | b' b b a b  | cis cis } >>
-  \changePitch \patternG { e,    | cis' cis cis b cis | e d d d r   } 
-  \changePitch \patternH { cis a | b b b              | a a         | gis gis gis } 
-  \changePitch \patternI { gis   | fis fis a gis fis  | fis e e e   } 
-  \changePitch \patternJ { a b   | cis cis cis a      | b b b a gis | a a         } 
+  \changePitch \patternG { e,    | cis' cis cis b cis | e d d d r   }
+  \changePitch \patternH { cis a | b b b              | a a         | gis gis gis }
+  \changePitch \patternI { gis   | fis fis a gis fis  | fis e e e   }
+  \changePitch \patternJ { a b   | cis cis cis a      | b b b a gis | a a         }
 
   \bar "|."
 

@@ -44,15 +44,15 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { d  | d g g a     | b c d } 
-  \changePitch \patternBA { e  | d b g fis g | a b a } 
-  \changePitch \patternAA { d, | d g g a     | b c d } 
-  \changePitch \patternBA { e  | d b g fis g | b a g } 
+  \changePitch \patternAA { d  | d g g a     | b c d }
+  \changePitch \patternBA { e  | d b g fis g | a b a }
+  \changePitch \patternAA { d, | d g g a     | b c d }
+  \changePitch \patternBA { e  | d b g fis g | b a g }
 
-  \changePitch \patternAB { b              | a b c a | b c d } 
-  \changePitch \patternCA { g, g g g fis g | a b a   } 
-  \changePitch \patternAB { d,             | d g g a | b c d } 
-  \changePitch \patternCB { d e d d b g    | b a g   } 
+  \changePitch \patternAB { b              | a b c a | b c d }
+  \changePitch \patternCA { g, g g g fis g | a b a   }
+  \changePitch \patternAB { d,             | d g g a | b c d }
+  \changePitch \patternCB { d e d d b g    | b a g   }
 
   \bar "|."
 
@@ -63,15 +63,15 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { d | d d d fis | g g g     } 
-  \changePitch \patternBB { g | g g d d   | fis g fis } 
-  \changePitch \patternAA { d | d d d fis | g g g     } 
-  \changePitch \patternBB { g | g g d d   | g fis g   } 
+  \changePitch \patternAA { d | d d d fis | g g g     }
+  \changePitch \patternBB { g | g g d d   | fis g fis }
+  \changePitch \patternAA { d | d d d fis | g g g     }
+  \changePitch \patternBB { g | g g d d   | g fis g   }
 
-  \changePitch \patternAB { g           | fis g a fis | g g g } 
-  \changePitch \patternCA { d d d d d g | fis g fis   } 
-  \changePitch \patternAB { d           | d d d fis   | g g g } 
-  \changePitch \patternCB { g g g g g g | g fis g     } 
+  \changePitch \patternAB { g           | fis g a fis | g g g }
+  \changePitch \patternCA { d d d d d g | fis g fis   }
+  \changePitch \patternAB { d           | d d d fis   | g g g }
+  \changePitch \patternCB { g g g g g g | g fis g     }
 
 }
 }
@@ -80,15 +80,15 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { b | b b b d   | d a b } 
-  \changePitch \patternBA { c | b d d c b | d d d } 
-  \changePitch \patternAA { c | b b b d   | d a b } 
-  \changePitch \patternBA { c | b d d c b | d c b } 
+  \changePitch \patternAA { b | b b b d   | d a b }
+  \changePitch \patternBA { c | b d d c b | d d d }
+  \changePitch \patternAA { c | b b b d   | d a b }
+  \changePitch \patternBA { c | b d d c b | d c b }
 
-  \changePitch \patternAB { d           | d d d d | d a b } 
-  \changePitch \patternCA { b b b d c b | d d d   } 
-  \changePitch \patternAB { c           | b b b d | d a b } 
-  \changePitch \patternCB { b c b b d b | d c b   } 
+  \changePitch \patternAB { d           | d d d d | d a b }
+  \changePitch \patternCA { b b b d c b | d d d   }
+  \changePitch \patternAB { c           | b b b d | d a b }
+  \changePitch \patternCB { b c b b d b | d c b   }
 
 }
 }
@@ -97,15 +97,15 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { g | g g g d   | g g g  } 
-  \changePitch \patternBA { g | g g b a g | d d d  } 
-  \changePitch \patternAA { d | g g g d   | g g g  } 
-  \changePitch \patternBA { g | g g b a g | d d g, } 
+  \changePitch \patternAA { g | g g g d   | g g g  }
+  \changePitch \patternBA { g | g g b a g | d d d  }
+  \changePitch \patternAA { d | g g g d   | g g g  }
+  \changePitch \patternBA { g | g g b a g | d d g, }
 
-  \changePitch \patternAB { g'          | d d d d | g g g } 
-  \changePitch \patternCA { g g g b a g | d d d   } 
-  \changePitch \patternAB { fis g g g d | g g g   } 
-  \changePitch \patternCB { g g g g g g | d d g,  } 
+  \changePitch \patternAB { g'          | d d d d | g g g }
+  \changePitch \patternCA { g g g b a g | d d d   }
+  \changePitch \patternAB { fis g g g d | g g g   }
+  \changePitch \patternCB { g g g g g g | d d g,  }
 
 }
 }
