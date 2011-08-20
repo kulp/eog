@@ -24,7 +24,9 @@ tb = { \tempo 4=40 }
 patternAA = { c8. c16 | c4 c4 c8. c16 | c4 c4 }
 
 patternBA = { c8. c16 | c8. c16 c4 c4 | c2 }
-patternBB = { r4 | R1*3/4 | r2 }
+patternBB = { r4 | \once \override MultiMeasureRest #'staff-position = #-8 R1*3/4 | r2 }
+% needs more tweaking that we can provide in a pattern
+%patternBC = { r4 | \once \override MultiMeasureRest #'staff-position = #-2 R1*3/4 | r2 }
 
 patternCA = { c8. c16 | c4 c4 }
 patternCB = { r4 | r2 }
@@ -101,9 +103,20 @@ notesBass = {
   \changePitch \patternAA { d d | d d d d | g d }
   \changePitch \patternBA { fis fis | g g a a, | d }
 
-  \changePitch \patternCB { r | r }
-  \changePitch \patternBB { r | r | r }
-  \changePitch \patternCA { d d | d d }
+<<
+  { b4 \rest | b2 \rest }
+\\
+  \override NoteHead #'font-size = #-4 { \skip 4 | d,2 ~ }
+>>
+
+<<
+  % XXX hacky (extra-offset doesn't scale, for one thing)
+  { b'4 \rest | \once \override Rest #'extra-offset = #'(15 . 0) b1*3/4 \rest | \once \override Rest #'extra-offset = #'(1.7 . 0) b2 \rest }
+\\
+  \override NoteHead #'font-size = #-4 { d,4 g4 a4 a4 | d4 d,4 }
+>>
+
+  \changePitch \patternCA { d' d | d d }
   \changePitch \patternBA { d d | g g a a, | d }
 
 }
