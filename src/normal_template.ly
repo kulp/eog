@@ -21,7 +21,7 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
-patternAA = { } %
+patternAA = { }
 
 global = {
   \override Staff.TimeSignature #'style = #'()
