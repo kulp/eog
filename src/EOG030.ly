@@ -168,7 +168,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Pass -- ing on -- ward, quick -- ly pass -- ing,
-Time its cours will quick -- ly run;
+Time its course will quick -- ly run;
 Still we hear the fond en -- treat -- y
 Of the ev -- er -- gra -- cious One—
 “Come and wel -- come,
