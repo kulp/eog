@@ -63,26 +63,23 @@ endif
 # TODO rewrite this rule (it's very roundabout and messy)
 define DRULE
 	mkdir -p $$(dirname $@)
-	echo -n '$<: ' > $@
+	echo -n '$*.$2: ' > $@
 	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' src/$(notdir $*).ly | tr -d '"' | sed 's#^#$(dir $*)#' | sed 's#^$1#variants#' | tr '\012' ' ' >> $@
 	echo >> $@
 endef
 
+.SECONDEXPANSION:
 # TODO unify these almost identical rules
-# TODO keep the generation of .d files from requiring the building of the
-# products : it's causing an unnecessarily larget growth in build time for a
-# given growth in build targets
-deps/%.d: %.pdf
-	$(call DRULE,PDF)
+$(PDFS:%.pdf=deps/%.d): deps/%.d: src/$$(notdir $$*).ly
+	$(call DRULE,PDF,pdf)
 
-deps/%.d: %.midi
-	$(call DRULE,MIDI)
+$(MIDIS:%.midi=deps/%.d): deps/%.d: src/$$(notdir $$*).ly
+	$(call DRULE,MIDI,midi)
 
 # TODO if we start having variants for MP3, enable these
-#deps/MP3/%.d: MP3/%.mp3
-#	$(call DRULE,MP3)
+#$(MP3S:%.mp3=deps/%.d): deps/%.d: src/$$(notdir $$*).ly
+#	$(call DRULE,MP3,mp3)
 
-.SECONDEXPANSION:
 CLOBBERFILES += PDF/ MIDI/ MP3/
 PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
 	mkdir -p PDF/$(dir $*) MIDI/$(dir $*)
