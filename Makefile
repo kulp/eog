@@ -1,6 +1,6 @@
-VARIANTS_PDF  = eogsized letter
-VARIANTS_MIDI = default
-VARIANTS_MP3  = default # allverses
+VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
+VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
+VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
 SHELL         = /bin/bash
 LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
@@ -55,35 +55,24 @@ clobber: clean
 
 CLOBBERFILES += deps
 ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
--include $(PDFS:%.pdf=deps/%.d)
--include $(MIDIS:%.midi=deps/%.d)
-#-include $(MP3S:%.mp3=deps/%.d)
+-include $(PDFS:%=deps/%.d)
+-include $(MIDIS:%=deps/%.d)
+# TODO if we have MP3 variants, activate these includes
+#-include $(MP3S:%=deps/%.d)
 endif
 
-# TODO rewrite this rule (it's very roundabout and messy)
-define DRULE
-	mkdir -p $$(dirname $@)
-	echo -n '$*.$2: ' > $@
-	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' src/$(notdir $*).ly | tr -d '"' | sed 's#^#$(dir $*)#' | sed 's#^$1#variants#' | tr '\012' ' ' >> $@
-	echo >> $@
-endef
-
 .SECONDEXPANSION:
-# TODO unify these almost identical rules
-$(PDFS:%.pdf=deps/%.d): deps/%.d: src/$$(notdir $$*).ly
-	$(call DRULE,PDF,pdf)
-
-$(MIDIS:%.midi=deps/%.d): deps/%.d: src/$$(notdir $$*).ly
-	$(call DRULE,MIDI,midi)
-
-# TODO if we start having variants for MP3, enable these
-#$(MP3S:%.mp3=deps/%.d): deps/%.d: src/$$(notdir $$*).ly
-#	$(call DRULE,MP3,mp3)
+# TODO rewrite this rule (it's rather roundabout and messy)
+$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d) $(MP3S:%=deps/%.d): deps/%.d: src/$$(notdir $$(basename $$*)).ly
+	mkdir -p $(dir $@)
+	echo -n '$*: ' > $@
+	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(dir $*)#' | tr '\012' ' ' >> $@
+	echo >> $@
 
 CLOBBERFILES += PDF/ MIDI/ MP3/
 PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
 	mkdir -p PDF/$(dir $*) MIDI/$(dir $*)
-	lilypond $(LYOPTS) --include=$(PWD)/variants/$(dir $*) --pdf --output=$(dir $@)$(notdir $*) $<
+	lilypond $(LYOPTS) --include=$(PWD)/variants/$(dir $@) --pdf --output=$(dir $@)$(notdir $*) $<
 	-mv $(dir $@)$(notdir $*).pdf  PDF/$(dir $*)
 	-mv $(dir $@)$(notdir $*).midi MIDI/$(dir $*)
 
