@@ -29,9 +29,6 @@ patternAE = { c2 c2 | c2 c4( c4) | c2 c2 | c1 } %
 patternAF = { c2 c2 | c4( c4) c4( c4) | c4( c4) c4( c4) | c1 } %
 patternAG = { c2 c2 | c2 c2 | c2 c2 | c1 }
 
-italicsOn  = \override LyricText #'font-shape = #'italic
-italicsOff = \override LyricText #'font-shape = #'upright
-
 global = {
   \override Staff.TimeSignature #'style = #'()
   \time 2/2
