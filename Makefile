@@ -53,17 +53,18 @@ clean:
 clobber: clean
 	$(RM) -r $(CLOBBERFILES)
 
-CLOBBERFILES += $(PDFS:.pdf=.d) $(MIDIS:.midi=.d) $(MP3S:.mp3=.d)
+CLOBBERFILES += deps
 ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
--include $(PDFS:.pdf=.d)
--include $(MIDIS:.midi=.d)
-#-include $(MP3S:.mp3=.d)
+-include $(PDFS:%.pdf=deps/%.d)
+-include $(MIDIS:%.midi=deps/%.d)
+#-include $(MP3S:%.mp3=deps/%.d)
 endif
 
 # TODO rewrite this rule (it's very roundabout and messy)
 define DRULE
+	mkdir -p $$(dirname $@)
 	echo -n '$<: ' > $@
-	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $(notdir $*).ly | tr -d '"' | sed 's#^#$(dir $*)#' | sed 's#^$1#variants#' | tr '\012' ' ' >> $@
+	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' src/$(notdir $*).ly | tr -d '"' | sed 's#^#$(dir $*)#' | sed 's#^$1#variants#' | tr '\012' ' ' >> $@
 	echo >> $@
 endef
 
@@ -71,14 +72,14 @@ endef
 # TODO keep the generation of .d files from requiring the building of the
 # products : it's causing an unnecessarily larget growth in build time for a
 # given growth in build targets
-%.d: %.pdf
+deps/%.d: %.pdf
 	$(call DRULE,PDF)
 
-%.d: %.midi
+deps/%.d: %.midi
 	$(call DRULE,MIDI)
 
 # TODO if we start having variants for MP3, enable these
-#%.d: %.mp3
+#deps/MP3/%.d: MP3/%.mp3
 #	$(call DRULE,MP3)
 
 .SECONDEXPANSION:
