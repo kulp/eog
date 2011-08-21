@@ -100,6 +100,9 @@ th.sortbox {
 </style>
 </head>
 <body onLoad="document.getElementById('searchbox').focus()">
+<p>
+Download a <a href="EOG_midi_pdf.zip">zip file of all PDF and MIDI files</a> listed below.
+</p>
 <table class="sortable" id="main">
 HEAD
 

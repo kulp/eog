@@ -23,12 +23,18 @@ vpath .pdf  PDF
 
 .DEFAULT_GOAL = all
 
-.PHONY: all pdf midi index
-all: pdf midi index mp3
+.PHONY: all pdf midi mp3 index dist zip
+all: pdf midi index mp3 zip
 pdf: $(PDFS)
 midi: $(MIDIS)
 mp3: $(MP3S)
 #wav: $(WAVS)
+dist: zip
+zip: EOG_midi_pdf.zip
+
+CLOBBERFILES += EOG_midi_pdf.zip
+EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README
+	zip -u $@ $^
 
 MP3/%.mp3: MIDI/%.midi
 	mkdir -p MP3/$(dir $*)
