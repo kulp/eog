@@ -42,10 +42,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { b b b a | b d d c }
-  \changePitch \patternBA { b b a g | a r }
+  \changePitch \patternAA { b b b a        | b d d c   }
+  \changePitch \patternBA { b b a g        | a r       }
   \changePitch \patternAB { d, e fis g fis | g a b c b }
-  \changePitch \patternCA { a a | g }
+  \changePitch \patternCA { a a            | g         }
 
   \bar "|."
 
@@ -57,9 +57,9 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternAA { d d d d | d d g d }
-  \changePitch \patternBA { d d d d | d r }
+  \changePitch \patternBA { d d d d | d r     }
   \changePitch \patternAA { d d d d | d d c d }
-  \changePitch \patternCA { e d | b }
+  \changePitch \patternCA { e d     | b       }
 
 }
 }
@@ -69,9 +69,9 @@ notesTenor = {
 \relative a {
 
   \changePitch \patternAA { g g g fis | g a b a }
-  \changePitch \patternBA { g b c b | fis r }
-  \changePitch \patternAA { d' c b a | b a g g }
-  \changePitch \patternCA { g fis | g }
+  \changePitch \patternBA { g b c b   | fis r   }
+  \changePitch \patternAA { d' c b a  | b a g g }
+  \changePitch \patternCA { g fis     | g       }
 
 }
 }
@@ -80,10 +80,10 @@ notesBass = {
 \global
 \relative f, {
 
-  \changePitch \patternAA { g b d d | g fis e fis  }
-  \changePitch \patternBA { g g fis g | d r }
-  \changePitch \patternAA { b' a g d | g fis e d }
-  \changePitch \patternCA { c d | g, }
+  \changePitch \patternAA { g b d d   | g fis e fis }
+  \changePitch \patternBA { g g fis g | d r         }
+  \changePitch \patternAA { b' a g d  | g fis e d   }
+  \changePitch \patternCA { c d       | g,          }
 
 }
 }
@@ -124,7 +124,7 @@ wordsD = \lyricmode {
 Pre -- cious, pre -- cious blood of Je -- sus,
 Ev -- er of -- fered free!
 O be -- lieve it, O re -- ceive it,
-’Tis for Thee! % the capitalised Thee exists in the original, but is possibly not intended
+’Tis for Thee! % XXX the capitalised Thee exists in the original, but is possibly not intended
 
 }
 
