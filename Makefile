@@ -33,7 +33,7 @@ dist: zip
 zip: EOG_midi_pdf.zip
 
 CLOBBERFILES += EOG_midi_pdf.zip
-EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README
+EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 	zip -u $@ $^
 
 MP3/%.mp3: MIDI/%.midi
