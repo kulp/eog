@@ -38,6 +38,7 @@ MP3/%.mp3: MIDI/%.midi
 	timidity -Ow -o $@ $^
 
 push:
+	-git push github :
 	git push kulp.ch :
 	@# check compilation first to make sure we don't fail make and then clobber
 	ssh kulp.ch "cd kulp.ch/eog && git checkout master && git reset --hard master && rm -f index.html && make -j4"
