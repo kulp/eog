@@ -29,6 +29,7 @@ print <<HEAD;
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Echoes of Grace layout project</title>
 <script type="text/javascript" src="scripts/sorttable.js"></script>
+<script type="text/javascript" src="scripts/kulpstuff.js"></script>
 <script type="text/javascript">
 
 // Adapted from http://www.vonloesch.de/node/23

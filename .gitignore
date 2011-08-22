@@ -8,3 +8,5 @@ MP3/
 index.html
 *.vim
 *.zip
+scripts/kulpstuff.js
+deps/
