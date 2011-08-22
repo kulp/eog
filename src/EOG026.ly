@@ -91,10 +91,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-In rags and in ru -- in, with -- out and with -- in, \bar "|"
-One ter -- ri -- ble mass of pol -- lu -- tion and sin; \bar "|"
-By false friends de -- sert -- ed, of for -- tune be -- reft, \bar "|"
-He turns to the home he_once ea -- ger -- ly left. \bar "|"
+In rags and in ru -- in, with -- out and with -- in, \bar "."
+One ter -- ri -- ble mass of pol -- lu -- tion and sin; \bar "."
+By false friends de -- sert -- ed, of for -- tune be -- reft, \bar "."
+He turns to the home he_once ea -- ger -- ly left. \bar "."
 
 }
 

@@ -110,14 +110,14 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-He comes! He comes! the Bride -- groom comes! \bar "|"
-The “Mor -- ning Star” ap -- pears; \bar "|" \break
-The cloud -- less morn -- ing sweet -- ly dawns; \bar "|"
-Saints, quit this vale of tears; \bar "|" \break
-Your ab -- sent Lord no lon -- ger mourn; \bar "|"
-Re -- proach no lon -- ger bear; \bar "|" \break
-He comes! He comes! rise, hap -- py saints, \bar "|"
-To meet Him in the air. \bar "|" \break
+He comes! He comes! the Bride -- groom comes! \bar "."
+The “Mor -- ning Star” ap -- pears; \bar "." \break
+The cloud -- less morn -- ing sweet -- ly dawns; \bar "."
+Saints, quit this vale of tears; \bar "." \break
+Your ab -- sent Lord no lon -- ger mourn; \bar "."
+Re -- proach no lon -- ger bear; \bar "." \break
+He comes! He comes! rise, hap -- py saints, \bar "."
+To meet Him in the air. \bar "." \break
 
 }
 

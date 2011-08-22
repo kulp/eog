@@ -83,10 +83,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Come, wear -- y, anx -- ious, la -- den soul, \bar "|"
-  To Je -- sus come, and be made whole; \bar "|" \break
-  On Him your heav -- y bur -- den roll— \bar "|"
-  Come, anx -- ious sin -- ner, come! \bar "|"
+  Come, wear -- y, anx -- ious, la -- den soul, \bar "."
+  To Je -- sus come, and be made whole; \bar "." \break
+  On Him your heav -- y bur -- den roll— \bar "."
+  Come, anx -- ious sin -- ner, come! \bar "."
 
 }
 

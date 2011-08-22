@@ -128,10 +128,10 @@ Tell me, is it not?
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Noth -- ing, ei -- ther great or small— \bar "|"
-Noth -- ing, sin -- ner, no; \bar "|" \break
-Je -- sus did it, did it all, \bar "|"
-Long, long a -- go. \bar "|" \break
+Noth -- ing, ei -- ther great or small— \bar "."
+Noth -- ing, sin -- ner, no; \bar "." \break
+Je -- sus did it, did it all, \bar "."
+Long, long a -- go. \bar "." \break
 
 }
 

@@ -114,20 +114,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Saved by grace a -- lone, \bar "|"
-This is all my plea; \bar "|"
-Je -- sus died for all man -- kind, \bar "|"
-And Je -- sus died for me. \bar "|"
+Saved by grace a -- lone, \bar "."
+This is all my plea; \bar "."
+Je -- sus died for all man -- kind, \bar "."
+And Je -- sus died for me. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Grace! ’tis a charm -- ing sound, \bar "|"
-Har -- mo -- nious to the ear; \bar "|" \break
-Heav’n with the ech -- o shall re -- sound, \bar "|"
-And all the earth shall hear. \bar "|" \break
+Grace! ’tis a charm -- ing sound, \bar "."
+Har -- mo -- nious to the ear; \bar "." \break
+Heav’n with the ech -- o shall re -- sound, \bar "."
+And all the earth shall hear. \bar "." \break
 
 }
 

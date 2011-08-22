@@ -98,18 +98,18 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Je -- sus the Sav -- iour is might -- y to save, \bar "|"
-Je -- sus hath tri -- umphed o’er death and the grave. \bar "|"
+Je -- sus the Sav -- iour is might -- y to save, \bar "."
+Je -- sus hath tri -- umphed o’er death and the grave. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O! what a Sav -- iour is Je -- sus the Lord! \bar "|"
-Well may His name by His saints be a -- dored! \bar "|"
-He has re -- deemed them from hell by His blood, \bar "|"
-Saved them for -- ev -- er and brought them to God. \bar "|"
+O! what a Sav -- iour is Je -- sus the Lord! \bar "."
+Well may His name by His saints be a -- dored! \bar "."
+He has re -- deemed them from hell by His blood, \bar "."
+Saved them for -- ev -- er and brought them to God. \bar "."
 
 }
 

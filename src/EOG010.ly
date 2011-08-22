@@ -82,9 +82,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Faith is a ver -- y sim -- ple thing, \bar "|"
-  Tho’ lit -- tle un -- der -- stood; \bar "|" \break
-  It frees the soul from death’s dread sting, \bar "|"
+  Faith is a ver -- y sim -- ple thing, \bar "."
+  Tho’ lit -- tle un -- der -- stood; \bar "." \break
+  It frees the soul from death’s dread sting, \bar "."
   By rest -- ing on the blood. \bar "|." \break
 
 }

@@ -131,24 +131,24 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Make room for Him! Make room for Him! \bar "|"
-He stands out -- side the door; \bar "|"
-He waits a -- mid the shad -- ows dim, \bar "|"
-And knocks and calls once more! \bar "|"
+Make room for Him! Make room for Him! \bar "."
+He stands out -- side the door; \bar "."
+He waits a -- mid the shad -- ows dim, \bar "."
+And knocks and calls once more! \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-No room for Thee, Thou bless -- ed One, \bar "|"
-The Fa -- ther’s ho -- ly Child— \bar "|" \break
-His well -- be -- lov -- ed on -- ly Son, \bar "|"
-The Sav -- iour un -- de -- filed! \bar "|" \break
-No room for Thee in crowd -- ed inn \bar "|"
-That eve -- ning long a -- go! \bar "|" \break
-“Be -- hold the Lamb” who bore our sin \bar "|"
-Shut out by hearts be -- low! \bar "|" \break
+No room for Thee, Thou bless -- ed One, \bar "."
+The Fa -- ther’s ho -- ly Child— \bar "." \break
+His well -- be -- lov -- ed on -- ly Son, \bar "."
+The Sav -- iour un -- de -- filed! \bar "." \break
+No room for Thee in crowd -- ed inn \bar "."
+That eve -- ning long a -- go! \bar "." \break
+“Be -- hold the Lamb” who bore our sin \bar "."
+Shut out by hearts be -- low! \bar "." \break
 
 }
 

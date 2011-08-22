@@ -117,20 +117,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Be -- lieve that won -- der -- ful love, \bar "|"
-Be -- lieve that won -- der -- ful love, \bar "|"
-The gos -- pel is free, God sends it to thee, \bar "|"
-Be -- lieve God’s won -- der -- ful love. \bar "|"
+Be -- lieve that won -- der -- ful love, \bar "."
+Be -- lieve that won -- der -- ful love, \bar "."
+The gos -- pel is free, God sends it to thee, \bar "."
+Be -- lieve God’s won -- der -- ful love. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, have you not heard_of that won -- der -- ful love, \bar "|"
-That flows from God’s heart so free, \bar "|"
-Which led Him to give_for a per -- ish -- ing world \bar "|"
-His Son to be nailed to the tree? \bar "|"
+O, have you not heard_of that won -- der -- ful love, \bar "."
+That flows from God’s heart so free, \bar "."
+Which led Him to give_for a per -- ish -- ing world \bar "."
+His Son to be nailed to the tree? \bar "."
 
 }
 
@@ -142,7 +142,7 @@ This love of our God_now re -- ceive;
 No heart is too sad this love to make glad,
 When once on God’s word we be -- lieve.
 
-\bar "|"
+\bar "."
 
 \Refrain
 

@@ -120,20 +120,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O! ’twas love, ’twas won -- drous love! \bar "|"
-The love of God to me; \bar "|" \break
-It brought my Sav -- iour from a -- bove, \bar "|"
-To die on Cal -- va -- ry. \bar "|" \break
+O! ’twas love, ’twas won -- drous love! \bar "."
+The love of God to me; \bar "." \break
+It brought my Sav -- iour from a -- bove, \bar "."
+To die on Cal -- va -- ry. \bar "." \break
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O what a gift the Fa -- ther gave \bar "|"
-When He be -- stowed His Son! \bar "|" \break
-To save poor ru -- ined, guil -- ty man, \bar "|"
-By sin de -- filed, un -- done. \bar "|" \break
+O what a gift the Fa -- ther gave \bar "."
+When He be -- stowed His Son! \bar "." \break
+To save poor ru -- ined, guil -- ty man, \bar "."
+By sin de -- filed, un -- done. \bar "." \break
 
 }
 

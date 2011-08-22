@@ -125,14 +125,14 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Pass -- ing on -- ward, quick -- ly pass -- ing; \bar "|"
-Yes, but whith -- er, whith -- er bound? \bar "|" \break
-Is it to the man -- y man -- sions, \bar "|"
-Where e -- ter -- nal rest is found? \bar "|" \break
-Pass -- ing on -- ward— \bar "|"
-Yes, but whith -- er, whith -- er bound? \bar "|" \break
-Pass -- ing on -- ward— \bar "|"
-Yes, but whith -- er, whith -- er bound? \bar "|" \break
+Pass -- ing on -- ward, quick -- ly pass -- ing; \bar "."
+Yes, but whith -- er, whith -- er bound? \bar "." \break
+Is it to the man -- y man -- sions, \bar "."
+Where e -- ter -- nal rest is found? \bar "." \break
+Pass -- ing on -- ward— \bar "."
+Yes, but whith -- er, whith -- er bound? \bar "." \break
+Pass -- ing on -- ward— \bar "."
+Yes, but whith -- er, whith -- er bound? \bar "." \break
 
 }
 

@@ -89,10 +89,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus on -- ly can im -- part \bar "|"
-Peace of con -- science, joy of heart; \bar "|" \break
-Je -- sus on -- ly can pro -- claim \bar "|"
-Par -- don thro’ His bless -- ed name. \bar "|" \break
+Je -- sus on -- ly can im -- part \bar "."
+Peace of con -- science, joy of heart; \bar "." \break
+Je -- sus on -- ly can pro -- claim \bar "."
+Par -- don thro’ His bless -- ed name. \bar "." \break
 
 }
 

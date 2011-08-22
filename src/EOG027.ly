@@ -79,14 +79,14 @@ global = {
 VerseOne = \lyricmode {
 \set stanza = "1."
 
-O, what a glo -- rious truth is this— \bar "|"
-Je -- sus died, Je -- sus died; \bar "|" \break
-Has o -- pened up the path to bliss; \bar "|"
-Je -- sus died, Je -- sus died; \bar "|" \break
-God loved the world, His Son He gave, \bar "|"
-That all who do in Him be -- lieve \bar "|" \break
-Should a full, gra -- cious par -- don have; \bar "|"
-Je -- sus died, Je -- sus died. \bar "|" \break
+O, what a glo -- rious truth is this— \bar "."
+Je -- sus died, Je -- sus died; \bar "." \break
+Has o -- pened up the path to bliss; \bar "."
+Je -- sus died, Je -- sus died; \bar "." \break
+God loved the world, His Son He gave, \bar "."
+That all who do in Him be -- lieve \bar "." \break
+Should a full, gra -- cious par -- don have; \bar "."
+Je -- sus died, Je -- sus died. \bar "." \break
 
 }
 

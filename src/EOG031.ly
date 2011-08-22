@@ -91,10 +91,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Pre -- cious, pre -- cious blood of Je -- sus, \bar "|"
-Shed on Cal -- va -- ry, \bar "|" \break
-Shed for reb -- els, and for sin -- ners, \bar "|"
-Shed for me! \bar "|" \break
+Pre -- cious, pre -- cious blood of Je -- sus, \bar "."
+Shed on Cal -- va -- ry, \bar "." \break
+Shed for reb -- els, and for sin -- ners, \bar "."
+Shed for me! \bar "." \break
 
 }
 

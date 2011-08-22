@@ -148,10 +148,10 @@ TenorRefrainA = \lyricmode {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  “Come un -- to Me,” it is the Sav -- iour’s voice— \bar "|"
-  The Lord of life, who bids thy heart re -- joice; \bar "|"
-  O wear -- y heart, with heav -- y cares op -- pressed, \bar "|"
-  “Come un -- to Me,” and I will give you rest. \bar "|"
+  “Come un -- to Me,” it is the Sav -- iour’s voice— \bar "."
+  The Lord of life, who bids thy heart re -- joice; \bar "."
+  O wear -- y heart, with heav -- y cares op -- pressed, \bar "."
+  “Come un -- to Me,” and I will give you rest. \bar "."
 
 }
 

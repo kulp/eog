@@ -34,14 +34,14 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternA { d  | g b d b | b a a   } \bar "|"
-  \changePitch \patternA { b  | c c c a | g fis g } \bar "|"
-  \changePitch \patternA { d  | g b d b | b a a   } \bar "|"
-  \changePitch \patternA { b  | c c c a | g fis g } \bar "|"
+  \changePitch \patternA { d  | g b d b | b a a   } \bar "."
+  \changePitch \patternA { b  | c c c a | g fis g } \bar "."
+  \changePitch \patternA { d  | g b d b | b a a   } \bar "."
+  \changePitch \patternA { b  | c c c a | g fis g } \bar "."
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternA { d' | d d d d | e e e   } \bar "|" >>
-  \changePitch \patternA { e  | d b b g | b b a   } \bar "|"
+  \changePitch \patternA { d' | d d d d | e e e   } \bar "." >>
+  \changePitch \patternA { e  | d b b g | b b a   } \bar "."
   \changePitch \patternA { d, | g g g b | a a g   } \bar "|."
 
 }

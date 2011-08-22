@@ -118,20 +118,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O! ’twas love, ’twas won -- drous love! \bar "|"
-The love of God to me; \bar "|" \break
-It brought my Sav -- iour from a -- bove, \bar "|"
-To die on Cal -- va -- ry. \bar "|" \break
+O! ’twas love, ’twas won -- drous love! \bar "."
+The love of God to me; \bar "." \break
+It brought my Sav -- iour from a -- bove, \bar "."
+To die on Cal -- va -- ry. \bar "." \break
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-God loved the world of sin -- ners lost \bar "|"
-And ru -- ined by the fall; \bar "|" \break
-Sal -- va -- tion full, at high -- est cost, \bar "|"
-He of -- fers free to all. \bar "|" \break
+God loved the world of sin -- ners lost \bar "."
+And ru -- ined by the fall; \bar "." \break
+Sal -- va -- tion full, at high -- est cost, \bar "."
+He of -- fers free to all. \bar "." \break
 
 }
 

@@ -92,10 +92,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus is a \italicsOn lov -- ing \italicsOff Sav -- iour, \bar "|"
-Love it was that brought Him low; \bar "|" \break
-Come, He says, in words of mer -- cy, \bar "|"
-Prove My lov -- ing -- kind -- ness now. \bar "|" \break
+Je -- sus is a \italicsOn lov -- ing \italicsOff Sav -- iour, \bar "."
+Love it was that brought Him low; \bar "." \break
+Come, He says, in words of mer -- cy, \bar "."
+Prove My lov -- ing -- kind -- ness now. \bar "." \break
 
 }
 

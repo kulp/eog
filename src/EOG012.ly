@@ -120,21 +120,21 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-For God so loved the world that He gave His on -- ly Son, \bar "|"
-That who -- so -- ev -- er be -- liev -- eth in Him \bar "|"
-Should not per -- ish, should not per -- ish; \bar "|"
-That who -- so -- ev -- er be -- liev -- eth in Him \bar "|"
-Should not per -- ish, but have ev -- er -- last -- ing life. \bar "|"
+For God so loved the world that He gave His on -- ly Son, \bar "."
+That who -- so -- ev -- er be -- liev -- eth in Him \bar "."
+Should not per -- ish, should not per -- ish; \bar "."
+That who -- so -- ev -- er be -- liev -- eth in Him \bar "."
+Should not per -- ish, but have ev -- er -- last -- ing life. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-God loved the world so ten -- der -- ly, \bar "|"
-His on -- ly Son He gave, \bar "|" \break
-That all who on His name be -- lieve, \bar "|"
-Its won -- drous pow’r will save. \bar "|" \break
+God loved the world so ten -- der -- ly, \bar "."
+His on -- ly Son He gave, \bar "." \break
+That all who on His name be -- lieve, \bar "."
+Its won -- drous pow’r will save. \bar "." \break
 
 }
 

@@ -86,9 +86,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Re -- deemed by blood, the work of love, \bar "|"
-  A -- maz -- ing truth, the blood of One \bar "|" \break
-  Whose place was right -- ful -- ly a -- bove, \bar "|"
+  Re -- deemed by blood, the work of love, \bar "."
+  A -- maz -- ing truth, the blood of One \bar "." \break
+  Whose place was right -- ful -- ly a -- bove, \bar "."
   Co -- e -- qual on the Fa -- ther’s throne.
 
 }

@@ -1,4 +1,5 @@
 \include "common/global.ily"
+\override Staff.BarLine #'thick-thickness = #3.8
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
@@ -18,8 +19,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 2=76 }
-tb = { \tempo 2=38 }
+ta = { \tempo 2=72 }
+tb = { \tempo 2=36 }
 
 patternAA = { c2 c4. c8 c2 r4 c4 | c4. c8 c4 c4 c1 }
 patternAB = { c2 c4. c8 c2 c2    | c4. c8 c4 c4 c1 }

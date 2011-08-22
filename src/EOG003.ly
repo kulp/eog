@@ -75,14 +75,14 @@ global = {
 VerseOne = \lyricmode {
 \set stanza = "1."
 
-    Be -- hold, be -- hold the Lamb of God \bar "|"
-    On the cross! On the cross! \bar "|" \break
-    For us He shed his Pre -- cious blood \bar "|"
-    On the cross! On the cross! \bar "|" \break
-    O hear the o -- ver whelm -- ing cry— \bar "|"
-    “E -- li la -- ma sa -- bach -- tha -- ni.” \bar "|" \break
-    Draw near and see the Sav -- iour die \bar "|"
-    On the cross! On the cross! \bar "|"
+    Be -- hold, be -- hold the Lamb of God \bar "."
+    On the cross! On the cross! \bar "." \break
+    For us He shed his Pre -- cious blood \bar "."
+    On the cross! On the cross! \bar "." \break
+    O hear the o -- ver whelm -- ing cry— \bar "."
+    “E -- li la -- ma sa -- bach -- tha -- ni.” \bar "." \break
+    Draw near and see the Sav -- iour die \bar "."
+    On the cross! On the cross! \bar "."
 
 }
 
@@ -90,13 +90,13 @@ VerseTwo = \lyricmode {
 \set stanza = "2."
 
     See, see His arms ex -- tend -- ed wide
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
     Be -- hold His bleed -- ing hands and side
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
     The sun with -- holds his rays of light,
     The heav'ns are clothed in shades of night,
     While Je -- sus wins the glo -- rious fight
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
 
 }
 
@@ -104,13 +104,13 @@ VerseThree = \lyricmode {
 \set stanza = "3."
 
     Come, sin -- ners, see Him lift -- ed up
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
     He drinks for you the bit -- ter cup
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
     The rocks do rend, the moun -- tains quake,
     While Je -- sus doth a -- tone -- ment make,
     While Je -- sus suf -- fers for our sake,
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
 
 }
 
@@ -118,13 +118,13 @@ VerseFour = \lyricmode {
 \set stanza = "4."
 
     Wher -- e’er I go I’ll tell the story,
-    Of the cross! Of the cross! \bar "|"
+    Of the cross! Of the cross! \bar "."
     In noth -- ing else my soul shall glory,
-    Save the cross! Save the cross! \bar "|"
+    Save the cross! Save the cross! \bar "."
     Yes; this my cons -- tant theme shall be,
     Thro’ time, and in e -- ter -- ni -- ty,
     That Je -- sus tast -- ed death for me,
-    On the cross! On the cross! \bar "|"
+    On the cross! On the cross! \bar "."
 
 }
 

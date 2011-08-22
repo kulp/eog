@@ -79,13 +79,13 @@ global = {
 VerseOne = \lyricmode {
 \set stanza = "1."
 
-    By faith I see the Sav -- iour dy -- ing, \bar "|"
-    On the tree, on the tree; \bar "|"
-    To ru -- ined sin -- ners He is cry -- ing— \bar "|"
-    Look to Me! look to Me! \bar "|"
-    He bids the guilt -- y now draw near; \bar "|"
-    Hark, hark! His pre -- cious words I hear— \bar "|"
-    So soft, so sweet, they ban -- ish fear: \bar "|"
+    By faith I see the Sav -- iour dy -- ing, \bar "."
+    On the tree, on the tree; \bar "."
+    To ru -- ined sin -- ners He is cry -- ing— \bar "."
+    Look to Me! look to Me! \bar "."
+    He bids the guilt -- y now draw near; \bar "."
+    Hark, hark! His pre -- cious words I hear— \bar "."
+    So soft, so sweet, they ban -- ish fear: \bar "."
     Mer -- cy’s free, mer -- cy’s free.
 
 }

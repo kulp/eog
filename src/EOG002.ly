@@ -71,14 +71,14 @@ global = {
 VerseOne = \lyricmode {
 \set stanza = "1."
 
-  As the ser -- pent raised by Mos -- es \bar "|"
-  Healed the fier -- y ser -- pent’s bite, \bar "|"
-  Je -- sus now, Him -- self dis -- clos -- es \bar "|"
-  To the wound -- ed sin -- ner’s sight: \bar "|"
-  Hear His gra -- cious in -- vi -- ta -- tion, \bar "|"
-  “I have life and peace to give, \bar "|"
-  I have wrought out full sal -- va -- tion, \bar "|"
-  Sin -- ner, look to Me and live.” \bar "|"
+  As the ser -- pent raised by Mos -- es \bar "."
+  Healed the fier -- y ser -- pent’s bite, \bar "."
+  Je -- sus now, Him -- self dis -- clos -- es \bar "."
+  To the wound -- ed sin -- ner’s sight: \bar "."
+  Hear His gra -- cious in -- vi -- ta -- tion, \bar "."
+  “I have life and peace to give, \bar "."
+  I have wrought out full sal -- va -- tion, \bar "."
+  Sin -- ner, look to Me and live.” \bar "."
 }
 
 VerseTwo = \lyricmode {

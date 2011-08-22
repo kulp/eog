@@ -134,7 +134,7 @@ With His blood __
 SopranoRefrainB = \lyricmode {
 
 \repeat unfold 53 { \skip 4 }
-Paid the debt, __ and made me free. __ \bar "|" \break
+Paid the debt, __ and made me free. __ \bar "." \break
 
 }
 
@@ -143,11 +143,11 @@ Paid the debt, __ and made me free. __ \bar "|" \break
 % probably easier to divide them this way than an unanalysed alternative.
 AltoRefrain = \lyricmode {
 
-Sing, O! sing __ of my Re -- deem -- er, \bar "|" \break
-With His blood He pur -- chased me, He pur -- chased me; __ \bar "|" \break
+Sing, O! sing __ of my Re -- deem -- er, \bar "." \break
+With His blood He pur -- chased me, He pur -- chased me; __ \bar "." \break
 \pageBreak
-On the cross __ He sealed my par -- don, \bar "|" \break
-%Paid the debt, __ and made me free. __ \bar "|" \break
+On the cross __ He sealed my par -- don, \bar "." \break
+%Paid the debt, __ and made me free. __ \bar "." \break
 
 }
 
@@ -175,10 +175,10 @@ free. __
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I will sing of my Re -- deem -- er, \bar "|"
-And His won -- drous love to me; \bar "|" \break
-On the cru -- el cross He suf -- fered, \bar "|"
-From the curse to set me free. \bar "|" \break
+I will sing of my Re -- deem -- er, \bar "."
+And His won -- drous love to me; \bar "." \break
+On the cru -- el cross He suf -- fered, \bar "."
+From the curse to set me free. \bar "." \break
 
 }
 

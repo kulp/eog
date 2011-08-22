@@ -117,20 +117,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O, the glo -- ry of the grace, \bar "|"
-Shin -- ing in the Sav -- iour’s face! \bar "|" \break
-Tell -- ing sin -- ners from a -- bove, \bar "|"
-“God is light,” and “God is love.” \bar "|" \break
+O, the glo -- ry of the grace, \bar "."
+Shin -- ing in the Sav -- iour’s face! \bar "." \break
+Tell -- ing sin -- ners from a -- bove, \bar "."
+“God is light,” and “God is love.” \bar "." \break
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-God in mer -- cy sent His Son \bar "|"
-To a world by sin un -- done; \bar "|" \break
-Je -- sus Christ was cru -- ci -- fied— \bar "|"
-’Twas for sin -- ners Je -- sus died. \bar "|" \break
+God in mer -- cy sent His Son \bar "."
+To a world by sin un -- done; \bar "." \break
+Je -- sus Christ was cru -- ci -- fied— \bar "."
+’Twas for sin -- ners Je -- sus died. \bar "." \break
 
 }
 
