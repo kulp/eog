@@ -16,11 +16,12 @@ my @files = @ARGV;
 
 my %dirs     = qw(pdf PDF midi MIDI mp3 MP3);
 my %exts     = reverse %dirs;
-#my @types    = keys %dirs;
 my @dirs     = values %dirs;
 my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
 my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
+
+my $headcontent = eval { slurp("scripts/kulpheadcontent") } || "";
 
 print <<HEAD;
 <!DOCTYPE HTML SYSTEM>
@@ -30,6 +31,7 @@ print <<HEAD;
 <title>Echoes of Grace layout project</title>
 <script type="text/javascript" src="scripts/sorttable.js"></script>
 <script type="text/javascript" src="scripts/kulpstuff.js"></script>
+$headcontent
 <script type="text/javascript">
 
 // Adapted from http://www.vonloesch.de/node/23
