@@ -76,7 +76,7 @@ sorttable = {
     headrow = table.tHead.rows[table.tHead.rows.length - 1].cells;
     for (var i=0; i<headrow.length; i++) {
       // manually override the type with a sorttable_type attribute
-      if (!headrow[i].className.match(/\bsorttable_nosort\b/)) { // skip this col
+      if (!headrow[i].className.match(/\b(sorttable_)?nosort\b/)) { // skip this col
         mtch = headrow[i].className.match(/\bsorttable_([a-z0-9]+)\b/);
         if (mtch) { override = mtch[1]; }
 	      if (mtch && typeof sorttable["sort_"+override] == 'function') {
@@ -206,6 +206,9 @@ sorttable = {
     
     if (node.getAttribute("sorttable_customkey") != null) {
       return node.getAttribute("sorttable_customkey");
+    }
+    if (node.getAttribute("customkey") != null) {
+      return node.getAttribute("customkey");
     }
     else if (typeof node.textContent != 'undefined' && !hasInputs) {
       return node.textContent.replace(/^\s+|\s+$/g, '');
