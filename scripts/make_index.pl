@@ -31,76 +31,9 @@ print <<HEAD;
 <title>Echoes of Grace layout project</title>
 <script type="text/javascript" src="scripts/sorttable.js"></script>
 <script type="text/javascript" src="scripts/kulpstuff.js"></script>
+<script type="text/javascript" src="scripts/table.js"> </script>
+<link rel="stylesheet" type="text/css" href="scripts/main.css" />
 $headcontent
-<script type="text/javascript">
-
-// Adapted from http://www.vonloesch.de/node/23
-// I use table.tBodies[0].rows instead of table.rows
-function filter2(phrase, _id){
-    var words = phrase.value.toLowerCase().split(" ");
-    var table = document.getElementById(_id);
-    var tbody = table.tBodies[0];
-    var ele;
-    for (var r = 0; r < tbody.rows.length; r++){
-        ele = tbody.rows[r].innerHTML.replace(/<[^>]+>/g,"");
-        var displayStyle = 'none';
-        for (var i = 0; i < words.length; i++) {
-            if (ele.toLowerCase().indexOf(words[i])>=0)
-                displayStyle = '';
-            else {
-                displayStyle = 'none';
-                break;
-            }
-        }
-        tbody.rows[r].style.display = displayStyle;
-    }
-}
-
-function do_reset()
-{
-    var box = document.getElementById('searchbox');
-    box.value = "";
-    filter2(box, 'main');
-    box.focus();
-    return false;
-}
-
-</script>
-<style type="text/css">
-table#main td {
-    padding-left:  0.5ex;
-    padding-right: 0.5ex;
-}
-th.wide {
-    border-bottom: 1px solid grey;
-}
-.index {
-    text-align: right;
-}
-td.title {
-    font-style: italic;
-    padding-left:  1em;
-    padding-right: 1em;
-}
-table.sortable thead {
-    color:#666666;
-    font-weight: bold;
-    cursor: default;
-}
-tr.realhead th, tr td:first-child {
-    /* keep the table from jumping around when arrows are inserted during sorts */
-    min-width: 10ex;
-}
-form {
-    display: inline;
-}
-th.corner {
-    text-align: right;
-}
-th.sortbox {
-    text-align: left;
-}
-</style>
 </head>
 <body onLoad="document.getElementById('searchbox').focus()">
 <p>

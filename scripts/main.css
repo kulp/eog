@@ -1,0 +1,33 @@
+table#main td {
+    padding-left:  0.5ex;
+    padding-right: 0.5ex;
+}
+th.wide {
+    border-bottom: 1px solid grey;
+}
+.index {
+    text-align: right;
+}
+td.title {
+    font-style: italic;
+    padding-left:  1em;
+    padding-right: 1em;
+}
+table.sortable thead {
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+tr.realhead th, tr td:first-child {
+    /* keep the table from jumping around when arrows are inserted during sorts */
+    min-width: 10ex;
+}
+form {
+    display: inline;
+}
+th.corner {
+    text-align: right;
+}
+th.sortbox {
+    text-align: left;
+}
