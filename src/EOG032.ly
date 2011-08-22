@@ -1,5 +1,4 @@
 \include "common/global.ily"
-\override Staff.BarLine #'thick-thickness = #3.8
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
