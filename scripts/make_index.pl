@@ -23,7 +23,7 @@ my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 
 my $headcontent = eval { slurp("scripts/kulpheadcontent") } || "";
 
-print <<HEAD;
+print qq(
 <!DOCTYPE HTML SYSTEM>
 <html>
 <head>
@@ -36,38 +36,33 @@ print <<HEAD;
 $headcontent
 </head>
 <body onLoad="document.getElementById('searchbox').focus()">
-<p>
-Download a <a href="EOG_midi_pdf.zip">zip file of all PDF and MIDI files</a> listed below.
-</p>
+<p>Download a <a href="EOG_midi_pdf.zip">zip file of all PDF and MIDI files</a> listed.</p>
 <table class="sortable" id="main">
-HEAD
+  <thead>
+    <tr>
+      <th class="sorttable_nosort corner">Filter:</th>
+      <th class="sorttable_nosort sortbox" colspan="4">
+        <form onsubmit="return false;">
+          <input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35">
+          <button onclick="return do_reset();" value="Reset">Reset</button>
+        </form>
+      </th>
+);
 
-print qq(<thead>);
-print qq(<tr>);
-print qq(
-<th class="sorttable_nosort corner">Filter:</th>
-<th class="sorttable_nosort sortbox" colspan="4">
-<form onsubmit="return false;">
-<input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35">
-<button onclick="return do_reset();" value="Reset">Reset</button>
-</form>
-</th>);
-for my $dir (@dirs) {
-    print qq( <th class="sorttable_nosort wide" colspan="$vcount{$dir}">$dir</th>);
-}
-print qq(</tr>);
+print
++(map qq(
+      <th class="sorttable_nosort wide" colspan="$vcount{$_}">$_</th>), @dirs),
+      qq(
+    </tr>
+    <tr class="realhead">
+      <th>Index</th><th>Title</th><th>Poet</th><th>Composer</th><th>Meter</th>),
++(map qq(
+      <th class="sorttable_nosort">$_</th>), map @{ $variants{$_} }, @dirs),
+      qq(
+    </tr>
+  </thead>
+  <tbody>);
 
-print qq(<tr class="realhead">);
-print qq( <th>Index</th><th>Title</th><th>Poet</th><th>Composer</th><th>Meter</th>);
-for my $dir (@dirs) {
-    for my $v (@{ $variants{$dir} }) {
-        print qq( <th class="sorttable_nosort">$v</th>);
-    }
-}
-print qq(</tr>);
-print qq(</thead>);
-
-print qq(<tbody>);
 for my $stem (@stems) {
     my $src      = "src/$stem.ly";
 
@@ -78,19 +73,27 @@ for my $stem (@stems) {
 
     my $index    = int(($stem =~ /EOG(\d+)/)[0]);
     (my $safetitle = $title) =~ s/[^\s\w]//g;
-    print qq( <tr><th class="index">$index</th><td class="title" sorttable_customkey="$safetitle">$title</td><td class="poet">$poet</td><td class="composer">$composer</td><td class="meter">$meter</td>);
+    print qq(
+    <tr>
+      <th class="index">$index</th>
+      <td class="title" sorttable_customkey="$safetitle">$title</td>
+      <td class="poet">$poet</td>
+      <td class="composer">$composer</td>
+      <td class="meter">$meter</td>);
     for my $dir (@dirs) {
         for my $v (@{ $variants{$dir} }) {
-            print qq(  <td><a href="$dir/$v/$stem.$exts{$dir}">$stem.$exts{$dir}</a></td>);
+            print qq(
+      <td><a href="$dir/$v/$stem.$exts{$dir}">$stem.$exts{$dir}</a></td>);
         }
     }
-    print qq( </tr>\n);
+    print qq(
+    </tr>);
 }
-print qq(</tbody>);
 
-print <<FOOT;
+print qq(
+  </tbody>
 </table>
 </body>
 </html>
-FOOT
+);
 
