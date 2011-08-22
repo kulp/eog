@@ -5,11 +5,15 @@ use warnings;
 use List::MoreUtils qw(uniq);
 use Perl6::Slurp qw(slurp);
 
-sub get_key ($$)
 {
-    my ($file, $key) = @_;
-    my ($what) = map /\b$key = "(.*?)"/, slurp $file;
-    return $what;
+    my %cache;
+
+    sub get_key ($$)
+    {
+        my ($file, $key) = @_;
+        my ($what) = map /\b$key\s*=\s*"(.*?)"/, $cache{$file} ||= slurp $file;
+        return $what;
+    }
 }
 
 my @files = @ARGV;
@@ -40,23 +44,20 @@ $headcontent
 <table class="sortable" id="main">
   <thead>
     <tr>
-      <th class="sorttable_nosort corner">Filter:</th>
-      <th class="sorttable_nosort sortbox" colspan="4">
+      <th class="corner">Filter:</th>
+      <th class="sortbox" colspan="4">
         <form onsubmit="return false;">
           <input id="searchbox" name="filter" onkeyup="filter2(this, 'main')" type="text" size="35">
           <button onclick="return do_reset();" value="Reset">Reset</button>
         </form>
-      </th>
-);
-
-print
-+(map qq(
-      <th class="sorttable_nosort wide" colspan="$vcount{$_}">$_</th>), @dirs),
+      </th>),
+ (map qq(
+      <th class="wide" colspan="$vcount{$_}">$_</th>), @dirs),
       qq(
     </tr>
     <tr class="realhead">
       <th>Index</th><th>Title</th><th>Poet</th><th>Composer</th><th>Meter</th>),
-+(map qq(
+ (map qq(
       <th class="sorttable_nosort">$_</th>), map @{ $variants{$_} }, @dirs),
       qq(
     </tr>
