@@ -31,6 +31,7 @@ patternE = { \ta c4           | \patternD                   } % Line 4
 patternF = { \ta c4           | c4. c8 c8 c8 | \tb c2 \fermata } % Refrain line 4
 
 global = {
+  \include "common/overrides.ily"
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 3/4

@@ -24,6 +24,7 @@ tb = { \tempo 4=36 }
 patternA = { c4 c8 c8 c4 c8 c8 | c4 c8 c8 c2 }
 
 global = {
+  \include "common/overrides.ily"
   \override Staff.TimeSignature #'style = #'()
   \time 4/4
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too

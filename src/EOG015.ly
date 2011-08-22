@@ -37,6 +37,7 @@ patternH = { \ta c4. c8 c4. c8 | c4 c4 c4. } % Refrain line 1 bass
 patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4 \fermata } % Refrain line 3 bass
 
 global = {
+  \include "common/overrides.ily"
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 4/4

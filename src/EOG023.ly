@@ -41,6 +41,7 @@ patternCD = { c8[ c8] c8 | c4 c8 c4 c8 c4 c8 c4 c8    | c4 c8 c4 c8 c4. }
 patternCE = { c4 c8      | c4 c8 c4 c8 c4 c8 c4 c8    | c2. ~ c4.       }
 
 global = {
+  \include "common/overrides.ily"
   \override Staff.TimeSignature #'style = #'()
   \time 9/8
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too

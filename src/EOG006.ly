@@ -41,6 +41,7 @@ patternY = { \ta c4 c8 c4 c8      | c4. ~ c4.     | c4 c8 c4 c8      | c4. ~ \tb
 patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain alto 2
 
 global = {
+  \include "common/overrides.ily"
   \override Staff.TimeSignature #'style = #'()
   \time 2/4
   \override Score.MetronomeMark #'transparent = ##t

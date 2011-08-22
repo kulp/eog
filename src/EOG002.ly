@@ -60,6 +60,7 @@ notesBass = {
 }
 
 global = {
+  \include "common/overrides.ily"
   \autoBeamOff
   \override Staff.TimeSignature #'style = #'() \time 3/4
   \once \override Score.MetronomeMark #'transparent = ##t

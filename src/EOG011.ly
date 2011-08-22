@@ -26,6 +26,7 @@ patternF = { c2 c4 c4 | c2 c2      | c2 c2      | c2. r4 } % Line 1, 3 tenor
 patternH = { c2 c4 c4 | c2 c2      | c2 c4( c4) | c2. r4 } % Line 2 tenor
 
 global = {
+  \include "common/overrides.ily"
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 4/4

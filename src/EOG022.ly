@@ -30,6 +30,7 @@ patternAF = { c2 c2 | c4( c4) c4( c4) | c4( c4) c4( c4) | c1 } %
 patternAG = { c2 c2 | c2 c2 | c2 c2 | c1 }
 
 global = {
+  \include "common/overrides.ily"
   \override Staff.TimeSignature #'style = #'()
   \time 2/2
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too

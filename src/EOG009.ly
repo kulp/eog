@@ -24,6 +24,7 @@ patternD = { c2 c4 c4 | c2 c4( c4) | c2 c4( c4) | c1 } % Alto line 2
 patternE = { c2 c4 c4 | c2 c2 | c4( c4) c2 | c1 } % Bass line 2
 
 global = {
+  \include "common/overrides.ily"
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 4/4

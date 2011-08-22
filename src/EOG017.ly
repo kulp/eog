@@ -28,6 +28,7 @@ patternAC = { c4 | c4. c8 c4 c4 | c4.( c8 c4) } % Line 6 soprano / alto
 patternBA = { c4 | c4. c8 c4 c4 c2. } % Line 2 / 4 / 8 all, Line 6 tenor / bass
 
 global = {
+  \include "common/overrides.ily"
   \override Staff.TimeSignature #'style = #'()
   \time 4/4
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too

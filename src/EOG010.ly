@@ -21,6 +21,7 @@ patternA = { c4 | c8 c8 c4 c4 | c8 c8 c4 } % Lines 1, 3
 patternB = { c4 | c4. c8 c8 c8 | c2 } % Lines 2, 4
 
 global = {
+  \include "common/overrides.ily"
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 3/4

@@ -31,6 +31,7 @@ patternI = { c8 | c4 c8 c8 c8 c8 | c8 c8 c8 c4.                  } % Refrain lin
 patternJ = { c4. c4. | c8 c4 ~ c4 c8 | c8 c8 c8 c4 c8 | c4. ~ c4 } % Refrain line 5 all
 
 global = {
+  \include "common/overrides.ily"
   %\autoBeamOff
   \override Staff.TimeSignature #'style = #'()
   \time 3/4
