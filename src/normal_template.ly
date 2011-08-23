@@ -124,6 +124,11 @@ wordsD = \lyricmode {
 
 }
 
+%wordsE = \lyricmode {
+%\set stanza = "5."
+%
+%}
+
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
