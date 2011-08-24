@@ -6,7 +6,8 @@ LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on ba
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
-#$(error $(PDFS))
+
+TIMIDITY = timidity -a
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
 
@@ -17,9 +18,10 @@ endif
 vpath .ly   src
 vpath .midi MIDI
 vpath .pdf  PDF
+vpath .mp3  MP3
 
 .SUFFIXES:
-.SUFFIXES: .ly .ily .pdf .midi
+.SUFFIXES: .ly .ily .pdf .midi .mp3
 
 .DEFAULT_GOAL = all
 
@@ -35,13 +37,6 @@ zip: EOG_midi_pdf.zip
 CLOBBERFILES += EOG_midi_pdf.zip
 EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 	zip -u $@ $^
-
-MP3/%.mp3: MIDI/%.midi
-	mkdir -p MP3/$(dir $*)
-	timidity -Ow -o - $^ | lame - $@
-
-%.wav: %.midi
-	timidity -Ow -o $@ $^
 
 push:
 	-git push github :
@@ -64,17 +59,20 @@ CLOBBERFILES += deps
 ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(PDFS:%=deps/%.d)
 -include $(MIDIS:%=deps/%.d)
-# TODO if we have MP3 variants, activate these includes
-#-include $(MP3S:%=deps/%.d)
+-include $(MP3S:%=deps/%.d)
 endif
 
 .SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
-$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d) $(MP3S:%=deps/%.d): deps/%.d: src/$$(notdir $$(basename $$*)).ly
+$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(notdir $$(basename $$*)).ly
 	mkdir -p $(dir $@)
 	echo -n '$*: ' > $@
 	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(dir $*)#' | tr '\012' ' ' >> $@
 	echo >> $@
+
+MP3/%.mp3: MIDI/default/$$(notdir $$*).midi variants/$$(dir $$@)/timidity.cfg
+	mkdir -p MP3/$(dir $*)
+	$(TIMIDITY) -Ow -c variants/$(dir $@)timidity.cfg $(shell cat variants/$(dir $@)/timidity.cmd 2> /dev/null) -o - $< | lame - $@
 
 CLOBBERFILES += PDF/ MIDI/ MP3/
 PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
