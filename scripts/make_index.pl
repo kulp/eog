@@ -59,7 +59,7 @@ print
              (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), @dirs),
             ),
             Tr({ -class => "realhead" },
-                th("Index"), th("Title"), th("Poet"), th("Composer"), th("Meter"),
+                th("No."), th("Title"), th("Poet"), th("Composer"), th("Meter"),
                 (map th({ -class => "nosort" }, $_), map @{ $variants{$_} }, @dirs),
             ),
         ),
@@ -83,7 +83,7 @@ print
                     td({ -class => "composer"                         } , $composer),
                     td({ -class => "meter"                            } , $meter),
                     (map { my $dir = $_; map {
-                        td([ a({ -href => "$dir/$_/$stem.$exts{$dir}" }, "$stem.$exts{$dir}") ]),
+                        td({ -class => "link" }, [ a({ -href => "$dir/$_/$stem.$exts{$dir}" }, $dir) ]),
                     } @{ $variants{$dir} } } @dirs),
                 );
             } @stems),
