@@ -1,8 +1,8 @@
 This is a project to lay out ("engrave") the music edition of the Echoes of
-Grace hymnbook, which is out of print. It is believed by the publisher (Bible
-Truth Publishers of Adison, Illinois, USA) that all contained songs, in both
-lyric and musical content, are no longer protected by copyright, and this
-restoration work is undertaken in good faith that this is true.
+Grace hymnbook. It is believed by the publisher (Bible Truth Publishers of
+Addison, Illinois, USA) that all contained songs, in both lyric and musical
+content, are no longer protected by copyright, and this restoration work is
+undertaken in good faith that this is true.
 
 This project constitutes my first experience with the Lilypond engraving
 system, as well as my first attempt at music engraving in general, and as such
