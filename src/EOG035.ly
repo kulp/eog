@@ -18,10 +18,27 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
+ta = { \tempo 4=90 }
+tb = { \tempo 4=45 }
 
-patternAA = { }
+patternAA = { c4 c4 c8. c16 c8. c16 | c2 c2   } 
+patternAB = { c4 c4 c8. c16 c8. c16 | c2( c2) } 
+patternAC = { c4 c4 c8. c16 c8. c16 | c1      } 
+patternAD = { c4 c4 c8. c16 c8. c16 | c2 c4   } 
+patternAE = { c4 c4 c8. c16 c8. c16 | c2 c4.  } 
+
+patternBA = { c8 c8 | c4 c8[ c8] c4 c8[ c8] | c1 }
+patternBB = { c8 c8 | c4 c4      c4 c8[ c8] | c1 }
+patternBC = { c8 c8 | c4 c4      c4 c4      | c1 }
+
+patternCA = { c8 | c8. c16 c8. c16 c8. c16 c8[ c8] | c2 c2 }
+patternCB = { c8 | c8. c16 c8. c16 c8. c16 c4      | c2 c2 }
+
+patternDA = { c8. c16 c8. c16 c8.[ c16] c8. c16 | c2 c4 }
+patternDB = { c8. c16 c8. c16 c4        c8. c16 | c2 c4 }
+
+patternEA = { c4 | c4 c8. c16 c4 c8[ c8] | c1 }
+patternEB = { c4 | c4 c8. c16 c4 c4      | c1 }
 
 global = {
   \include "common/overrides.ily"
@@ -30,24 +47,24 @@ global = {
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
-  \partial 4
+  %\partial 4
   \autoBeamOff
 }
 
 notesSoprano = {
 \global
-\relative c' {
+\relative c'' {
 
-  \changePitch \patternAA { }
-  \changePitch \patternAB { }
-  \changePitch \patternAA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAA { g g g f g aes | bes g }
+  \changePitch \patternAB { aes aes aes bes aes g | f bes }
+  \changePitch \patternAD { g g g f g aes | bes g }
+  \changePitch \patternBA { g aes | f f g aes g f | ees }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternBB { } >>
-  \changePitch \patternBB { }
-  \changePitch \patternBC { }
-  \changePitch \patternAC { }
+  \changePitch \patternAE { c' c ees d ees c | bes g } >>
+  \changePitch \patternCA { g^\markup { \dynamic p } | aes g aes g aes g aes f | g bes }
+  \changePitch \patternDA { c c c c ees d ees c | bes g }
+  \changePitch \patternEA { g | f f g aes g f | ees }
 
   \bar "|."
 
@@ -58,15 +75,15 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAA { ees ees ees ees ees f | g ees }
+  \changePitch \patternAC { f f f g f ees | d }
+  \changePitch \patternAD { ees ees ees ees ees f | g ees }
+  \changePitch \patternBA { ees f | d d ees f ees d | ees }
 
-  \changePitch \patternBB { }
-  \changePitch \patternBB { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAE { aes aes aes aes aes aes | g ees }
+  \changePitch \patternCA { ees | f ees f ees f ees f d | ees g }
+  \changePitch \patternDB { aes aes aes aes aes aes aes | g ees }
+  \changePitch \patternEA { ees | d d ees f ees d | ees }
 
 }
 }
@@ -75,15 +92,15 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAB { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
-  \changePitch \patternAB { }
+  \changePitch \patternAA { bes bes bes aes bes bes | ees bes }
+  \changePitch \patternAC { bes bes bes bes bes bes | bes }
+  \changePitch \patternAD { bes bes bes aes bes bes | ees bes }
+  \changePitch \patternBB { bes bes | bes bes bes bes aes | g }
 
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAE { ees' ees c b c ees | ees bes }
+  \changePitch \patternCB { bes | bes bes bes bes bes bes bes | bes ees }
+  \changePitch \patternDA { ees ees ees ees c b c ees | ees bes }
+  \changePitch \patternEA { bes | bes bes bes bes bes aes | g }
 
 }
 }
@@ -92,35 +109,35 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
+  \changePitch \patternAA { ees ees ees ees ees ees | ees ees }
+  \changePitch \patternAC { bes bes bes bes bes bes | bes }
+  \changePitch \patternAD { ees ees ees ees ees ees | ees ees }
+  \changePitch \patternBC { ees ees | bes bes bes bes | ees }
 
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAE { aes aes aes aes aes aes | ees ees }
+  \changePitch \patternCB { ees | bes bes bes bes bes bes bes | ees ees }
+  \changePitch \patternDB { aes aes aes aes aes aes aes | ees ees }
+  \changePitch \patternEB { ees | bes bes bes bes bes | ees }
 
 }
 }
 
 Refrain = \lyricmode {
 
-Yes; we’ll gath -- er at His com -- ing,
-His glo -- ri -- ous, His glo -- ri -- ous com -- ing—
-Gath -- er with His saints at His com -- ing,
-If washed in the Sav -- iour’s blood.
+Yes; we’ll gath -- er at His com -- ing, \bar "."
+His glo -- ri -- ous, His glo -- ri -- ous com -- ing— \bar "."
+Gath -- er with His saints at His com -- ing, \bar "."
+If washed in the Sav -- iour’s blood. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Shall we gath -- er at His com -- ing,
-When the dead in Christ a - rise ?
-Shall we hear the Sav -- iour’s sum -- mons
-To God’s home, be -- yond the skies?
+Shall we gath -- er at His com -- ing, \bar "."
+When the dead in Christ a -- rise? \bar "."
+Shall we hear the Sav -- iour’s sum -- mons \bar "."
+To God’s home, be -- yond the skies? \bar "."
 
 }
 
