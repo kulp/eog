@@ -95,7 +95,7 @@ VerseTwo = \lyricmode {
     Be -- hold His bleed -- ing hands and side
     On the cross! On the cross! \bar "."
     The sun with -- holds his rays of light,
-    The heav'ns are clothed in shades of night,
+    The heav’ns are clothed in shades of night,
     While Je -- sus wins the glo -- rious fight
     On the cross! On the cross! \bar "."
 
