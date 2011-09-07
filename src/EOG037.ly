@@ -19,7 +19,7 @@
 
 % for fermata in MIDI
 ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
+tb = { \tempo 4=32 }
 
 patternAA = { \ta c4 c8. c16 c4 c4 | c2 c4 }
 patternBA = { \ta c4 | c4 c4 c4 c8.[ c16] | c2. }
@@ -63,7 +63,7 @@ notesSoprano = {
   \changePitch \patternCA { g | c c c b a g | a b c }
   \changePitch \patternDA { a | g f e d g f | e r }
 
-  \changePitch \patternEA { d c d e f f | d f g }
+  \changePitch \patternEA { d c d e f f | e f g }
   \changePitch \patternFA { g | fis g a b c fis, | g }
   \changePitch \patternCA { g | c c c b a g | a b c }
   \changePitch \patternDA { a | g f e d g f | e r }
@@ -84,7 +84,7 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternAA { c c d e e | f e }
-  \changePitch \patternBB { e | e e e c dis | e d }
+  \changePitch \patternBB { e | e e e c dis | e d! }
   \changePitch \patternCC { f! | e e e g f e | f g a }
   \changePitch \patternDA { f | e d c b e d | c r }
 
