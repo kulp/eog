@@ -30,8 +30,10 @@ patternC = { \ta c8 | c4 c4 c4. c8 | c1             } % Line 4 all
 patternD = { \ta c4 | c4 c4 c4. c8 | c4.     c8 c4. } % Line 1, 3 bass
 
 patternE = { \ta c4. c8 c4. c8 | c8[ c8] c4 c4. } % Refrain line 1 soprano / alto / tenor
-patternF = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4 \fermata } % Refrain line 3 soprano / alto / tenor
-patternG = { \tb c4 \fermata \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 all
+patternF = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4 \fermata } % Refrain line 3 soprano
+patternJ = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4 } % Refrain line 3 alto / tenor
+patternG = { \tb c4 \fermata \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 soprano / bass
+patternK = { \tb c4          \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 alto / tenor
 
 patternH = { \ta c4. c8 c4. c8 | c4 c4 c4. } % Refrain line 1 bass
 patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4 \fermata } % Refrain line 3 bass
@@ -79,8 +81,8 @@ notesAlto = {
 
   \changePitch \patternE { g aes g ees | ees d ees d }
   \changePitch \patternB {         ees | ees ees ees aes | g           }
-  \changePitch \patternF {         g   | g aes g ees     | ees d ees d }
-  \changePitch \patternG {         ees | ees ees d ees   | ees         }
+  \changePitch \patternJ {         g   | g aes g ees     | ees d ees d }
+  \changePitch \patternK {         ees | ees ees d ees   | ees         }
 
 }
 }
@@ -96,8 +98,8 @@ notesTenor = {
 
   \changePitch \patternE { ees ees ees bes | bes aes g f }
   \changePitch \patternB {             g   | aes aes c ees   | ees         }
-  \changePitch \patternF {             ees | ees ees ees bes | bes aes g f }
-  \changePitch \patternG {             aes | g bes aes g     | g           }
+  \changePitch \patternJ {             ees | ees ees ees bes | bes aes g f }
+  \changePitch \patternK {             aes | g bes aes g     | g           }
 
 }
 }
