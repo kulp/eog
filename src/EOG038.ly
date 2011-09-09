@@ -18,13 +18,8 @@
 }
 
 % for fermata in MIDI
-<<<<<<< HEAD
 ta = { \tempo 4=110 }
 tb = { \tempo 4=55  }
-=======
-ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
->>>>>>> 4b1603b5306c014285cd65af05c3ba9ab2002c1f
 
 patternAA = { \ta c4    | c4 c4      c4 c4 | c4 c2 }
 patternAB = { \ta c8 c8 | c4 c4      c4 c4 | c4 c2 }
@@ -32,17 +27,10 @@ patternBA = { \ta c8 c8 | c4 c4      c4 c4 | c2.   }
 patternBB = { \ta c4    | c4 c4      c4 c4 | c2.   }
 patternBC = { \ta c8 c8 | c4 c8[ c8] c4 c4 | c2.   }
 patternCA = { \ta c8. c16 | c2. c8. c16 | c2. }
-<<<<<<< HEAD
 patternCB = { \ta c8. c16 | c2. c8. c16 | c2. \fermata }
 patternCC = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 c4 }
 patternCD = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4 \fermata } % \tb here affects CC as well
 patternCE = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4          }
-=======
-patternCB = { \ta c8. c16 | c2. c8. c16 | \tb c2. \fermata }
-patternCC = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 c4 }
-patternCD = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4 \fermata } % TODO match fermata length with CB
-patternCE = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4          } % TODO match fermata length with CB
->>>>>>> 4b1603b5306c014285cd65af05c3ba9ab2002c1f
 
 global = {
   \include "common/overrides.ily"
@@ -138,11 +126,7 @@ notesBass = {
   \changePitch \patternAB { c c | d d c c | bes bes }
   \changePitch \patternBA { bes bes | c bes c c | f }
 
-<<<<<<< HEAD
   \changePitch \patternCC { | c c c | f f f }
-=======
-  \changePitch \patternCB { | c c c | f f f }
->>>>>>> 4b1603b5306c014285cd65af05c3ba9ab2002c1f
   \changePitch \patternBA { f f | f f d c | f }
   \changePitch \patternCD { | c c c | f f f }
   \changePitch \patternBA { a, c | f bes, c c | f }
