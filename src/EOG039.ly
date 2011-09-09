@@ -18,8 +18,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
+ta = { \tempo 4=96 }
+tb = { \tempo 4=48 }
 
 patternAA = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. }
 patternAB = { c4 c4 c4 | c2      c4 | c2      c4 | c2. }
@@ -43,10 +43,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { bes a g  | f d     | ees a g | f } 
-  \changePitch \patternBA { d' c bes | a bes g | f       } 
-  \changePitch \patternAA { bes a g  | f d     | ees a g | f } 
-  \changePitch \patternBB { g a bes  | d c     | bes     } 
+  \changePitch \patternAA { bes a g  | f d     | ees a g | f }
+  \changePitch \patternBA { d' c bes | a bes g | f       }
+  \changePitch \patternAA { bes a g  | f d     | ees a g | f }
+  \changePitch \patternBB { g a bes  | d c     | bes     }
 
   \bar "|."
 
@@ -57,10 +57,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { d f ees | d d       | c ees ees | d } 
-  \changePitch \patternBB { f f f   | f e       | f         } 
-  \changePitch \patternAC { f f ees | ees d bes | ees c     | d } 
-  \changePitch \patternBA { g ges f | f e ees   | d         } 
+  \changePitch \patternAA { d f ees | d d       | c ees ees | d }
+  \changePitch \patternBB { f f f   | f e       | f         }
+  \changePitch \patternAC { f f ees | ees d bes | ees c     | d }
+  \changePitch \patternBA { g ges f | f e ees   | d         }
 
 }
 }
@@ -70,21 +70,21 @@ notesTenor = {
 \relative a {
 
   \changePitch \patternAA { bes bes bes | bes bes | a c bes | bes }
-  \changePitch \patternBA { bes a bes | c d bes | a }
+  \changePitch \patternBA { bes a bes   | c d bes | a       }
   \changePitch \patternAA { bes bes bes | bes bes | bes c a | bes }
-  \changePitch \patternBA { bes c d | bes g a | bes }
+  \changePitch \patternBA { bes c d     | bes g a | bes     }
 
 }
 }
 
 notesBass = {
 \global
-\relative f {
+\relative f, {
 
-  \changePitch \patternAB { }
-  \changePitch \patternBC { }
-  \changePitch \patternAA { }
-  \changePitch \patternBB { }
+  \changePitch \patternAB { bes bes bes | bes bes  | f' f    | bes, }
+  \changePitch \patternBC { bes c d     | c c      | f ees   }
+  \changePitch \patternAA { d d ees     | bes aes' | g f ees | d    }
+  \changePitch \patternBB { ees ees d   | f f      | bes,    }
 
 }
 }
@@ -103,7 +103,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 For -- sa -- ken whol -- ly on the tree,
-Un -- heard His bi -- ter cy, 
+Un -- heard His bit -- ter cry,
 That we from judg -- ment might be free,
 The right -- eous One must die.
 
