@@ -21,7 +21,12 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
-patternAA = { }
+patternAA = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. }
+patternAB = { c4 c4 c4 | c2      c4 | c2      c4 | c2. }
+patternAC = { c4 c4 c4 | c4( c4) c4 | c2      c4 | c2. }
+patternBA = { c4 c4 c4 | c4( c4) c4 | c2.      }
+patternBB = { c4 c4 c4 | c2      c4 | c2.      }
+patternBC = { c4 c4 c4 | c2      c4 | c2( c4)  }
 
 global = {
   \include "common/overrides.ily"
@@ -36,17 +41,12 @@ global = {
 
 notesSoprano = {
 \global
-\relative c' {
+\relative c'' {
 
-  \changePitch \patternAA { }
-  \changePitch \patternAB { }
-  \changePitch \patternAA { }
-  \changePitch \patternAB { }
-
-  \changePitch \patternBB { }
-  \changePitch \patternBB { }
-  \changePitch \patternBC { }
-  \changePitch \patternAC { }
+  \changePitch \patternAA { bes a g  | f d     | ees a g | f } 
+  \changePitch \patternBA { d' c bes | a bes g | f       } 
+  \changePitch \patternAA { bes a g  | f d     | ees a g | f } 
+  \changePitch \patternBB { g a bes  | d c     | bes     } 
 
   \bar "|."
 
@@ -57,15 +57,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
-
-  \changePitch \patternBB { }
-  \changePitch \patternBB { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAA { d f ees | d d       | c ees ees | d } 
+  \changePitch \patternBB { f f f   | f e       | f         } 
+  \changePitch \patternAC { f f ees | ees d bes | ees c     | d } 
+  \changePitch \patternBA { g ges f | f e ees   | d         } 
 
 }
 }
@@ -74,15 +69,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAB { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
-  \changePitch \patternAB { }
-
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternAB { }
+  \changePitch \patternAA { bes bes bes | bes bes | a c bes | bes }
+  \changePitch \patternBA { bes a bes | c d bes | a }
+  \changePitch \patternAA { bes bes bes | bes bes | bes c a | bes }
+  \changePitch \patternBA { bes c d | bes g a | bes }
 
 }
 }
@@ -91,15 +81,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
-  \changePitch \patternBA { }
   \changePitch \patternAB { }
+  \changePitch \patternBC { }
+  \changePitch \patternAA { }
+  \changePitch \patternBB { }
 
 }
 }
@@ -107,10 +92,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-He knew no sin, that Ho -- ly One,
-Yet was made sin for us;
-God gave His well -- be -- lov -- ed Son
-To die for sin -- ners thus.
+He knew no sin, that Ho -- ly One, \bar "."
+Yet was made sin for us; \bar "." \break
+God gave His well -- be -- lov -- ed Son \bar "."
+To die for sin -- ners thus. \bar "." \break
 
 }
 
