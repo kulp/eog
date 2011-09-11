@@ -134,12 +134,25 @@ notesBass = {
 }
 }
 
-Refrain = \lyricmode {
+RefrainA = \lyricmode {
 
+%\repeat unfold 57 { \skip 4 }
 Gos -- pel bells, how they ring, \bar "."
 O -- ver land, from sea to sea; \bar "." \break
 Gos -- pel bells, free -- ly bring \bar "."
 Bless -- ed news to you and me. \bar "." \break
+
+}
+
+RefrainB = \lyricmode {
+
+\override LyricText #'font-size = #-2
+\repeat unfold 57 { \skip 4 }
+Gos -- pel bells,
+how they ring,
+\repeat unfold 7 { \skip 8 }
+Gos -- pel bells
+free -- ly bring
 
 }
 
@@ -169,7 +182,7 @@ Eat of Me, thou hun -- gry soul,
 Tho’ your sins be red as crim -- son,
 They shall be as white as wool.”
 
-\Refrain
+\RefrainA
 
 }
 
@@ -218,6 +231,7 @@ Which is Christ the Lord” and King.
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
+	\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \RefrainB
   >>
   \layout {
     \include "common/layout.ily"
