@@ -93,14 +93,14 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Come!” ’tis Je -- sus gen -- tly cal -- ling
-“Ye with care and toil op -- pressed, \break
-With your guilt how -- e’er ap -- pall -- ing—
-Come, and I will give you rest.” \break
-For your sin He “once has suf -- fered,”
-On the cross the work was done, \break
-And the word by God now ut -- tered
-To each wear -- y soul is “Come!”
+“Come!” ’tis Je -- sus gen -- tly cal -- ling \bar "."
+“Ye with care and toil op -- pressed, \bar "." \break
+With your guilt how -- e’er ap -- pall -- ing— \bar "."
+Come, and I will give you rest.” \bar "." \break
+For your sin He “once has suf -- fered,” \bar "."
+On the cross the work was done, \bar "." \break
+And the word by God now ut -- tered \bar "."
+To each wear -- y soul is “Come!” \bar "."
 
 }
 
