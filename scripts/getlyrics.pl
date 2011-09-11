@@ -1,18 +1,24 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use feature 'say';
 use utf8;
+use feature 'say';
 
 use Array::Group qw(ngroup);
 use Perl6::Slurp;
 use Regexp::Common;
+use YAML qw(LoadFile);
+
+binmode(STDOUT, ":utf8");
 
 use XXX;
 
+my $dict = "/usr/share/dict/words";
+my @dictwords = slurp $dict, { chomp => 1 };
+my $dictwords = +{ map { lc $_ => $_ } @dictwords };
+
 my $braces = $RE{balanced}{-parens=>'{}'};
 
-# TODO refrain
 my $lyricpat = qr<
     ((words|refrain)(\w+))\s*
     =\s*
@@ -31,7 +37,7 @@ my $versepat = qr<
 my $wordelt = qr<[\w’]>;
 
 my $wordpat = qr<
-\b($wordelt+ (?:\s+ -- \s+ ($wordelt+))*)\b
+\b($wordelt+ (?:\s+ -- \s+ $wordelt+)*)\b
 >xoism;
 
 my $strips = qr<
@@ -50,8 +56,29 @@ my @groups = ngroup 4 => \@verses;
 my @segments = map $_->[3], @groups;
 my @bare = map /$versepat/, @segments;
 my @lines = map { s/$strips//g; [ split /\n/ ] } @bare;
-# TODO what about the lost punctuation
-my @words = map [ map [ /$wordpat/g ], @$_ ], @lines;
+my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 
-XXX \@words;
+# TODO handle "’s" automatically
+sub _check
+{
+    my $word = shift;
+    if ($word =~ /$wordpat/o) {
+        (my $test = $word) =~ s/\s+ -- \s+//goxi;
+        if (exists $dictwords->{lc $test}) {
+            return $test;
+        } else {
+            warn "$word\n";
+        }
+    }
+
+    return $word;
+}
+
+print map {
+    ((map {
+        (join("", map _check($_), @$_), "\n")
+    } @$_), "\n")
+} @words;
+
+#XXX \@words;
 
