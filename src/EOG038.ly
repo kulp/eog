@@ -4,7 +4,7 @@
   %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  page-count = ##f
+  page-count = 2
 }
 
 \header{
@@ -55,7 +55,7 @@ notesSoprano = {
   \changePitch \patternBB { c,   | f f f f     | f   }
   \changePitch \patternBA { f a  | g g g g     | g   }
   \changePitch \patternAB { a g  | f f f f     | f f }
-  \changePitch \patternBA { f g  | a bes a g   | f   }
+  \changePitch \patternBA { f g  | a bes a g   | f   } \pageBreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternCA { a f  | c' bes g    | c   } >>
