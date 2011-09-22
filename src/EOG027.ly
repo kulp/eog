@@ -77,7 +77,7 @@ global = {
   \partial 4.
 }
 
-VerseOne = \lyricmode {
+wordsA = \lyricmode {
 \set stanza = "1."
 
 O, what a glo -- rious truth is this— \bar "."
@@ -91,7 +91,7 @@ Je -- sus died, Je -- sus died. \bar "." \break
 
 }
 
-VerseTwo = \lyricmode {
+wordsB = \lyricmode {
 \set stanza = "2."
 
 To save my soul from death and hell,
@@ -105,7 +105,7 @@ Je -- sus died, Je -- sus died.
 
 }
 
-VerseThree = \lyricmode {
+wordsC = \lyricmode {
 \set stanza = "3."
 
 O, tell it un -- to all a -- round,
@@ -119,7 +119,7 @@ Je -- sus died, Je -- sus died.
 
 }
 
-VerseFour = \lyricmode {
+wordsD = \lyricmode {
 \set stanza = "4."
 
 Soon heav’n shall raise the hap -- py song,
@@ -147,10 +147,10 @@ Je -- sus died, Je -- sus died.
 
       \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \notesAlto }
-      \new Lyrics \lyricsto "Soprano" { \VerseOne }
-      \new Lyrics \lyricsto "Soprano" { \VerseTwo }
-      \new Lyrics \lyricsto "Soprano" { \VerseThree }
-      \new Lyrics \lyricsto "Soprano" { \VerseFour }
+      \new Lyrics \lyricsto "Soprano" { \wordsA }
+      \new Lyrics \lyricsto "Soprano" { \wordsB }
+      \new Lyrics \lyricsto "Soprano" { \wordsC }
+      \new Lyrics \lyricsto "Soprano" { \wordsD }
     >>
     \new Staff <<
       \clef "bass"

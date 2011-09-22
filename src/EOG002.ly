@@ -69,7 +69,7 @@ global = {
   \partial 4
 }
 
-VerseOne = \lyricmode {
+wordsA = \lyricmode {
 \set stanza = "1."
 
   As the ser -- pent raised by Mos -- es \bar "."
@@ -82,7 +82,7 @@ VerseOne = \lyricmode {
   Sin -- ner, look to Me and live.” \bar "."
 }
 
-VerseTwo = \lyricmode {
+wordsB = \lyricmode {
 \set stanza = "2."
 
   “Grieve a -- bout your sins no lon -- ger,
@@ -95,7 +95,7 @@ VerseTwo = \lyricmode {
   And I’ll wash you white as snow.”
 }
 
-VerseThree = \lyricmode {
+wordsC = \lyricmode {
 \set stanza = "3."
 
   “I have seen what you were do -- ing,
@@ -116,9 +116,9 @@ VerseThree = \lyricmode {
       \clef "treble"
       \new Voice = "Soprano"  { \voiceOne \global \changePitch \pattern \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \changePitch \pattern \notesAlto }
-      \new Lyrics \lyricsto "Soprano" { \VerseOne }
-      \new Lyrics \lyricsto "Soprano" { \VerseTwo }
-      \new Lyrics \lyricsto "Soprano" { \VerseThree }
+      \new Lyrics \lyricsto "Soprano" { \wordsA }
+      \new Lyrics \lyricsto "Soprano" { \wordsB }
+      \new Lyrics \lyricsto "Soprano" { \wordsC }
     >>
     \new Staff <<
       \clef "bass"

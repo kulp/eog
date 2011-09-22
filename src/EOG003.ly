@@ -73,7 +73,7 @@ global = {
   \partial 4.
 }
 
-VerseOne = \lyricmode {
+wordsA = \lyricmode {
 \set stanza = "1."
 
     Be -- hold, be -- hold the Lamb of God \bar "."
@@ -87,7 +87,7 @@ VerseOne = \lyricmode {
 
 }
 
-VerseTwo = \lyricmode {
+wordsB = \lyricmode {
 \set stanza = "2."
 
     See, see His arms ex -- tend -- ed wide
@@ -101,7 +101,7 @@ VerseTwo = \lyricmode {
 
 }
 
-VerseThree = \lyricmode {
+wordsC = \lyricmode {
 \set stanza = "3."
 
     Come, sin -- ners, see Him lift -- ed up
@@ -115,7 +115,7 @@ VerseThree = \lyricmode {
 
 }
 
-VerseFour = \lyricmode {
+wordsD = \lyricmode {
 \set stanza = "4."
 
     Wher -- e’er I go I’ll tell the story,
@@ -143,10 +143,10 @@ VerseFour = \lyricmode {
 
       \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \notesAlto }
-      \new Lyrics \lyricsto "Soprano" { \VerseOne }
-      \new Lyrics \lyricsto "Soprano" { \VerseTwo }
-      \new Lyrics \lyricsto "Soprano" { \VerseThree }
-      \new Lyrics \lyricsto "Soprano" { \VerseFour }
+      \new Lyrics \lyricsto "Soprano" { \wordsA }
+      \new Lyrics \lyricsto "Soprano" { \wordsB }
+      \new Lyrics \lyricsto "Soprano" { \wordsC }
+      \new Lyrics \lyricsto "Soprano" { \wordsD }
     >>
     \new Staff <<
       \clef "bass"

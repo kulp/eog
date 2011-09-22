@@ -77,7 +77,7 @@ global = {
   \partial 4.
 }
 
-VerseOne = \lyricmode {
+wordsA = \lyricmode {
 \set stanza = "1."
 
     By faith I see the Sav -- iour dy -- ing, \bar "."
@@ -91,7 +91,7 @@ VerseOne = \lyricmode {
 
 }
 
-VerseTwo = \lyricmode {
+wordsB = \lyricmode {
 \set stanza = "2."
 
     Did Christ, when I was sin pur -- su -- ing,
@@ -105,7 +105,7 @@ VerseTwo = \lyricmode {
 
 }
 
-VerseThree = \lyricmode {
+wordsC = \lyricmode {
 \set stanza = "3."
 
     Long as I live I’d still be cry -- ing—
@@ -119,7 +119,7 @@ VerseThree = \lyricmode {
 
 }
 
-VerseFour = \lyricmode {
+wordsD = \lyricmode {
 \set stanza = "4."
 
     How sweet the tuth, ye sin -- ners, hear it,
@@ -147,10 +147,10 @@ VerseFour = \lyricmode {
 
       \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|." }
       \new Voice = "Alto" { \voiceTwo \global \notesAlto }
-      \new Lyrics \lyricsto "Soprano" { \VerseOne }
-      \new Lyrics \lyricsto "Soprano" { \VerseTwo }
-      \new Lyrics \lyricsto "Soprano" { \VerseThree }
-      \new Lyrics \lyricsto "Soprano" { \VerseFour }
+      \new Lyrics \lyricsto "Soprano" { \wordsA }
+      \new Lyrics \lyricsto "Soprano" { \wordsB }
+      \new Lyrics \lyricsto "Soprano" { \wordsC }
+      \new Lyrics \lyricsto "Soprano" { \wordsD }
     >>
     \new Staff <<
       \clef "bass"
