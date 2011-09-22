@@ -34,7 +34,7 @@ if (-e "transforms.map") {
 my $braces = $RE{balanced}{-parens=>'{}'};
 
 my $lyricpat = qr<
-    \b((words|refrain|\w+)(\w+))\s*
+    \b((words|refrain)(\w*))\s*
     =\s*
     \\lyricmode\s*
     ($braces)
@@ -60,20 +60,24 @@ my $compound_wordpat = qr<
 
 my $strips = qr<
 \s*(?:
-    \\bar\s*"."
+    \\bar\s*".*?"
  | \\break
  | \\noBreak
  #| \p{IsPunct}
 )
 >xoism;
 
+# TODO handle more than one file at a time to amortise cost of loading dicts
 my $file = shift;
 my $contents = slurp '<:utf8' => $file;
 my @verses = $contents =~ /$lyricpat/g;
 my @groups = ngroup 4 => \@verses;
-my @segments = map $_->[3], @groups;
+my %groups = map { ("$_->[1]$_->[2]" => $_->[3]) } @groups;
+# TODO indent refrain
+my @order = ("wordsA", "Refrain", map "words$_", 'B'..'Z');
+my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
-my @lines = map { s/$strips//g; [ map trim, split /\n/ ] } @bare;
+my @lines = map { s/$strips//g; [ grep !/^%|^\\\w+$|^$/, map trim, split /\n/ ] } @bare;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
@@ -81,7 +85,7 @@ my @unknown;
 sub _check
 {
     my $word = shift;
-    if ($word =~ /$compound_wordpat/o) {
+    if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ -- \s+//goxi;
         my @variants = map { (my $x = $test) =~ s/$_//; $x } qr(’s);
         if (exists $dictwords->{lc $test}) {

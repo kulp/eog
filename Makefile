@@ -72,7 +72,7 @@ ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(MP3S:%=deps/%.d)
 endif
 
-$(TXTS): TXT/default/%.txt: src/%.ly
+$(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl transforms.map
 	@mkdir -p $(dir $@)
 	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
