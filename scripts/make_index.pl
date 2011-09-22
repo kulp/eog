@@ -19,7 +19,7 @@ use Perl6::Slurp qw(slurp);
 
 my @files = @ARGV;
 
-my %dirs     = qw(pdf PDF midi MIDI mp3 MP3);
+my %dirs     = qw(pdf PDF midi MIDI mp3 MP3 txt TXT);
 my %exts     = reverse %dirs;
 my @dirs     = values %dirs;
 my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
@@ -30,7 +30,7 @@ print
     start_html(-title  => "Echoes of Grace layout project",
         -style  => { -src => "scripts/main.css" },
         -head   => [ meta({ -http_equiv => "Content-Type",
-                          -content => "text/html; charset=UTF-8" }),
+                            -content => "text/html; charset=UTF-8" }),
                      eval { slurp("scripts/kulpheadcontent") } ],
         -script => [ { -src => "scripts/sorttable.js" },
                      { -src => "scripts/kulpstuff.js" },

@@ -1,12 +1,12 @@
-VARIANTS_PDF  ?= $(notdir $(wildcard variants/PDF/*))
-VARIANTS_MIDI ?= $(notdir $(wildcard variants/MIDI/*))
-VARIANTS_MP3  ?= $(notdir $(wildcard variants/MP3/*)) # allverses
-SHELL          = /bin/bash
-LYS            = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
-PDFS           = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
-MIDIS          = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
-MP3S           = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
-TXTS          = $(addprefix lyrics/,$(notdir $(LYS:.ly=.txt )))
+VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
+VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
+VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
+SHELL         = /bin/bash
+LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
+PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
+MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
+MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
+TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
 ifneq ($(ONLY),)
 LYS = src/EOG$(ONLY).ly
@@ -56,7 +56,7 @@ push:
 
 index: index.html
 CLEANFILES += index.html
-index.html: $(PDFS) $(MIDIS) $(MP3S)
+index.html: $(PDFS) $(MIDIS) $(MP3S) $(TXTS)
 	scripts/make_index.pl $^ > $@.$$$$ && mv $@.$$$$ $@
 
 clean:
@@ -72,7 +72,7 @@ ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(MP3S:%=deps/%.d)
 endif
 
-$(TXTS): lyrics/%.txt: src/%.ly
+$(TXTS): TXT/default/%.txt: src/%.ly
 	@mkdir -p $(dir $@)
 	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
