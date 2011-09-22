@@ -74,7 +74,7 @@ endif
 
 $(TXTS): lyrics/%.txt: src/%.ly
 	@mkdir -p $(dir $@)
-	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$ $@
+	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
 .SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
