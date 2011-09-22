@@ -8,6 +8,7 @@ use Array::Group qw(ngroup);
 use Lingua::Stem qw(stem);
 use Perl6::Slurp;
 use Regexp::Common;
+use Text::Trim qw(trim);
 use Data::Dumper;
 
 binmode(STDOUT, ":utf8");
@@ -33,7 +34,7 @@ if (-e "transforms.map") {
 my $braces = $RE{balanced}{-parens=>'{}'};
 
 my $lyricpat = qr<
-    ((words|refrain)(\w+))\s*
+    \b((words|refrain|\w+)(\w+))\s*
     =\s*
     \\lyricmode\s*
     ($braces)
@@ -72,7 +73,7 @@ my @verses = $contents =~ /$lyricpat/g;
 my @groups = ngroup 4 => \@verses;
 my @segments = map $_->[3], @groups;
 my @bare = map /$versepat/, @segments;
-my @lines = map { s/$strips//g; [ split /\n/ ] } @bare;
+my @lines = map { s/$strips//g; [ map trim, split /\n/ ] } @bare;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
@@ -106,6 +107,8 @@ print map {
 } @words;
 
 warn "$_\n" for sort keys %{+{ map { $_ => 1 } @unknown }};
+
+exit 1 if @unknown;
 
 #XXX \@words;
 

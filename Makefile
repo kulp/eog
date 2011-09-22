@@ -6,6 +6,7 @@ LYS            = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on b
 PDFS           = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
 MIDIS          = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
 MP3S           = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
+TXTS          = $(addprefix lyrics/,$(notdir $(LYS:.ly=.txt )))
 
 ifneq ($(ONLY),)
 LYS = src/EOG$(ONLY).ly
@@ -31,12 +32,13 @@ vpath .mp3  MP3
 
 .DEFAULT_GOAL = all
 
-.PHONY: all pdf midi mp3 index dist zip preview
+.PHONY: all pdf midi mp3 index dist zip lyrics preview
 all: pdf midi index mp3 zip
 pdf: $(PDFS)
 midi: $(MIDIS)
 mp3: $(MP3S)
 #wav: $(WAVS)
+lyrics: $(TXTS)
 dist: zip
 zip: EOG_midi_pdf.zip
 preview: $(PDFS)
@@ -69,6 +71,10 @@ ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(MIDIS:%=deps/%.d)
 -include $(MP3S:%=deps/%.d)
 endif
+
+$(TXTS): lyrics/%.txt: src/%.ly
+	@mkdir -p $(dir $@)
+	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$ $@
 
 .SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
