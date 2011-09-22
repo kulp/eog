@@ -132,7 +132,7 @@ O be -- lieve it, O re -- ceive it,
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Pre -- cios blood, whose full a -- tone -- ment
+Pre -- cious blood, whose full a -- tone -- ment
 Makes us nigh to God!
 Pre -- cious blood, our song and glo -- ry,
 Praise and laud!

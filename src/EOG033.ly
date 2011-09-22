@@ -135,11 +135,11 @@ Thy bruis -- ing heal -- eth me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-The temp -- pest’s aw -- ful voice was heard
+The tem -- pest’s aw -- ful voice was heard
 O Christ, it broke on Thee;
 Thy o -- pen bos -- om was my ward;
 It bore the storm for me.
-Thy form was scarred, Thy vis -- sage marred;
+Thy form was scarred, Thy vis -- age marred;
 Now cloud -- less peace for me.
 
 }

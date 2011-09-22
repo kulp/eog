@@ -186,7 +186,7 @@ From the curse to set me free. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-I will tell the won -- drous stor -- ry,
+I will tell the won -- drous sto -- ry,
 How my lost es -- tate to save,
 In His bound -- less love and mer -- cy,
 He the ran -- som free -- ly gave.

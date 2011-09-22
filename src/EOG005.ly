@@ -94,7 +94,7 @@ VerseOne = \lyricmode {
 VerseTwo = \lyricmode {
 \set stanza = "2."
 
-    Did Christ, when I was sin pur -- su-- ing,
+    Did Christ, when I was sin pur -- su -- ing,
     Think of me, think of me?
     And did He save my soul from ru -- in?
     Can it be? can it be?

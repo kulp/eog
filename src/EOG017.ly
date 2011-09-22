@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 
 He comes! He comes! the Bride -- groom comes!
 O sin -- ner, hear the sound;
-Ac -- cept Him now, if you a -- mon
+Ac -- cept Him now, if you a -- mong
 His cho -- sen would be found:
 Still mer -- cy’s of -- fered— cost -- less— free—
 No lon -- ger turn a -- way;

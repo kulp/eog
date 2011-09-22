@@ -208,7 +208,7 @@ As they ech -- o far and wide,
 Bear -- ing notes of per -- fect par -- don,
 Thro’ a Sav -- iour cru -- ci -- fied.
 “Good ti -- dings of great joy
-To all peop -- ple do I bring,
+To all peo -- ple do I bring,
 Un -- to you is born a Sav -- iour,
 Which is Christ the Lord” and King.
 

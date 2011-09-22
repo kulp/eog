@@ -139,7 +139,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Sin and death no more shall reign,
-Je -- sus died, and lives a -- again;
+Je -- sus died, and lives a -- gain;
 In the glo -- ry’s high -- est height,
 See Him, God’s su -- preme de -- light.
 
