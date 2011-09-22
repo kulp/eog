@@ -155,7 +155,7 @@ wordsC = \lyricmode {
 O, sweet is its rest_to the wear -- y and worn,
 Who deep feel the bur_–_den of sin;
 % TODO FIXME this looks bad (the her_–_it should be split properly. use a phantom lead line)
-It seeks for no mer_–_it its bliss to in -- her_–_it,
+It seeks for no mer-it its bliss to in -- her-it,
 No good -- ness with -- out or with -- in.
 
 }
