@@ -1,11 +1,15 @@
-VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
-VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
-VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
-SHELL         = /bin/bash
-LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
-PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
-MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
-MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
+VARIANTS_PDF  ?= $(notdir $(wildcard variants/PDF/*))
+VARIANTS_MIDI ?= $(notdir $(wildcard variants/MIDI/*))
+VARIANTS_MP3  ?= $(notdir $(wildcard variants/MP3/*)) # allverses
+SHELL          = /bin/bash
+LYS            = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
+PDFS           = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
+MIDIS          = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
+MP3S           = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
+
+ifneq ($(ONLY),)
+LYS = src/EOG$(ONLY).ly
+endif
 
 TIMIDITY = timidity -a
 
