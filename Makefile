@@ -11,6 +11,8 @@ ifneq ($(ONLY),)
 LYS = src/EOG$(ONLY).ly
 endif
 
+BRANCH := $(notdir $(shell git symbolic-ref HEAD))
+
 TIMIDITY = timidity -a
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
@@ -46,9 +48,9 @@ EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 
 push:
 	-git push github :
-	git push kulp.ch :
+	git push origin :
 	@# check compilation first to make sure we don't fail make and then clobber
-	ssh kulp.ch "cd kulp.ch/eog && git checkout master && git reset --hard master && rm -f index.html && make -j4"
+	ssh kulp.ch "cd kulp.ch/eog/$(BRANCH) && git checkout $(BRANCH) && git pull origin : && git reset --hard $(BRANCH) -- && rm -f index.html && make -j4"
 
 index: index.html
 CLEANFILES += index.html
