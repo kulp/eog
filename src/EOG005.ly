@@ -129,7 +129,7 @@ wordsD = \lyricmode {
     Vis -- it your neigh -- bor’s dark a -- bode,
     Pro -- claim to all this love of God,
     O spread the joy -- ful news a -- broad,
-    Mer -- ’s free, mer -- cy’s free.
+    Mer -- cy’s free, mer -- cy’s free.
 
 }
 
