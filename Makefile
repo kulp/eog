@@ -50,7 +50,7 @@ push:
 	-git push github :
 	git push origin :
 	@# check compilation first to make sure we don't fail make and then clobber
-	ssh kulp.ch "cd kulp.ch/eog/$(BRANCH) && git checkout $(BRANCH) && git pull origin : && git reset --hard $(BRANCH) -- && rm -f index.html && make -j4"
+	ssh kulp.ch "cd kulp.ch/eog/$(BRANCH) && git checkout $(BRANCH) -- && git reset --hard $(BRANCH) -- && git pull -f origin $(BRANCH) && rm -f index.html && make -j4"
 
 index: index.html
 CLEANFILES += index.html
