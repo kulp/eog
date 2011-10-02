@@ -13,8 +13,6 @@ use Data::Dumper;
 
 binmode(STDOUT, ":utf8");
 
-use XXX;
-
 my @dict = map glob($_), map "/usr/share/dict/$_", qw(words connectives propernames);
 my $dictwords;
 if (-e "words.dump") {
@@ -113,6 +111,4 @@ print map {
 warn "$_\n" for sort keys %{+{ map { $_ => 1 } @unknown }};
 
 exit 1 if @unknown;
-
-#XXX \@words;
 
