@@ -4,6 +4,8 @@
 PDF/
 MIDI/
 MP3/
+TXT/
+words.dump
 .*.sw?
 index.html
 *.vim
