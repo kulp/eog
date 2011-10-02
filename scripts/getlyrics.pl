@@ -18,7 +18,7 @@ my $dictwords;
 if (-e "words.dump") {
     $dictwords = do "words.dump";
 } else {
-    my @dictwords = map { slurp $_, { chomp => 1 } } @dict;
+    my @dictwords = map { (-f $_) ? (slurp $_, { chomp => 1 }) : () } @dict;
     $dictwords = +{ map { lc $_ => $_ } @dictwords };
     open my $fh, ">", "words.dump";
     print $fh Dumper($dictwords);
