@@ -26,6 +26,8 @@ my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
 my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 
+my $show_beta = `git symbolic-ref -q HEAD` !~ /beta/;
+
 print
     start_html(-title  => "Echoes of Grace layout project",
         -style  => { -src => "scripts/main.css" },
@@ -37,6 +39,8 @@ print
                      { -src => "scripts/table.js"     }, ],
         -onLoad => "document.getElementById('searchbox').focus()",
     ),
+    ($show_beta and p("Try the",
+        a({ -href => "beta/" }, "beta version of this index"))),
     p("Download a",
         a({ -href => "EOG_midi_pdf.zip" }, "zip file of all PDFs and MIDIs"),
         "listed."),
