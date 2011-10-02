@@ -51,11 +51,11 @@ my $versepat = qr<
 my $wordelt = qr<[\w’]>;
 
 my $wordpat = qr<
-\b($wordelt+ (?:\s+ -- \s+ $wordelt+)*)\b
+\b($wordelt+ (?:\s+ [-_]{2} \s+ $wordelt+)*)\b
 >xoism;
 
 my $compound_wordpat = qr<
-\b($wordelt+ (?:\s+ -- \s+ $wordelt+)+)\b
+\b($wordelt+ (?:\s+ [-_]{2} \s+ $wordelt+)+)\b
 >xoism;
 
 my $strips = qr<
@@ -86,7 +86,7 @@ sub _check
 {
     my $word = shift;
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
-        (my $test = $word) =~ s/\s+ -- \s+//goxi;
+        (my $test = $word) =~ s/\s+ [-_]{2} \s+//goxi;
         my @variants = map { (my $x = $test) =~ s/$_//; $x } qr(’s);
         if (exists $dictwords->{lc $test}) {
             return $test;
