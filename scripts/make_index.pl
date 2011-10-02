@@ -87,7 +87,8 @@ print
                     td({ -class => "composer"                         } , $composer),
                     td({ -class => "meter"                            } , $meter),
                     (map { my $dir = $_; map {
-                        td({ -class => "link" }, [ a({ -href => "$dir/$_/$stem.$exts{$dir}" }, $dir) ]),
+                        my $where = "$dir/$_/$stem.$exts{$dir}";
+                        td({ -class => "link" }, (-e $where) ? a({ -href => $where }, $dir) : ""),
                     } @{ $variants{$dir} } } @dirs),
                 );
             } @stems),
