@@ -7,6 +7,10 @@
   %page-count = ##f
 }
 
+% TODO don't duplicate the music ? it's not duplicated in the original EOG ...
+% but on the other hand, the music had to be adapted to these words, so
+% EOG043's music is not identical to EOG042's.
+
 \header{
   title = "“Behold the Lamb” Enthroned on High"
   subsubtitle = "(P. M.)"
@@ -135,17 +139,43 @@ Je -- sus, Je -- sus, Je -- sus. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-
+“Com -- plete in Him” at God’s right hand,
+Je -- sus, Je -- sus, Je -- sus.
+Be -- fore the throne we bold -- ly stand,
+Je -- sus, Je -- sus, Je -- sus.
+That blood -- be -- sprink -- led mer -- cy seat,
+His pier -- ced side, His hands, and feet,
+Pro -- claim re -- demp -- tion’s work com -- plete,
+Je -- sus, Je -- sus, Je -- sus.
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
+God finds e -- ter -- nal rest -- in Him,
+Je -- sus, Je -- sus, Je -- sus.
+That rest which was dis -- turbed by sin,
+Je -- sus, Je -- sus, Je -- sus.
+We too by faith on Him re -- pose,
+Who did the Fa -- ther’s heart dis -- close,
+From which this full sal -- va -- tion flows.
+Je -- sus, Je -- sus, Je -- sus.
+
+
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
+
+As one with Him we rest se -- cure,
+Je -- sus, Je -- sus, Je -- sus.
+Un -- chang -- ing doth His work en -- dure,
+Je -- sus, Je -- sus, Je -- sus.
+Now seat -- ed on the Fa -- ther’s throne,
+E -- lect and pre -- cious cor -- ner -- stone,
+On Him we rest— on Him a -- lone.
+Je -- sus, Je -- sus, Je -- sus.
 
 }
 
