@@ -8,7 +8,7 @@
 }
 
 \header{
-  title = "The Great Physician"
+  title = "“Behold the Lamb” Enthroned on High"
   subsubtitle = "(P. M.)"
   %meter = "P.M."
   %poet = ""
