@@ -152,7 +152,7 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 Yea, in the \mon ful -- ness \moff of His grace,
-God put me in the child -- dren’s place,
+God put me in the chil -- dren’s place,
 Where I may gaze up -- on His face,
 O Lamb of God, in Thee,
 O Lamb of God, in Thee!
