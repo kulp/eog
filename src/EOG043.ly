@@ -153,7 +153,7 @@ Je -- sus, Je -- sus, Je -- sus.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-God finds e -- ter -- nal rest -- in Him,
+God finds e -- ter -- nal rest in Him,
 Je -- sus, Je -- sus, Je -- sus.
 That rest which was dis -- turbed by sin,
 Je -- sus, Je -- sus, Je -- sus.
