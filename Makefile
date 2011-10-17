@@ -88,7 +88,7 @@ MP3/%.mp3: MIDI/default/$$(notdir $$*).midi variants/$$(dir $$@)/timidity.cfg
 	mkdir -p MP3/$(dir $*)
 	$(TIMIDITY) -Ow -c variants/$(dir $@)timidity.cfg $(shell cat variants/$(dir $@)/timidity.cmd 2> /dev/null) -o - $< | lame - $@
 
-CLOBBERFILES += PDF/ MIDI/ MP3/
+CLOBBERFILES += $(PDFS) $(MIDIS) $(MP3S)
 PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
 	mkdir -p PDF/$(dir $*) MIDI/$(dir $*)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(dir $@) --pdf --output=$(dir $@)$(notdir $*) $<
