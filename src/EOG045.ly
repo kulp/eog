@@ -21,9 +21,6 @@
 ta = { \tempo 4=100 }
 tb = { \tempo 4=50  }
 
-mon  = { \set ignoreMelismata = ##t }
-moff = { \unset ignoreMelismata }
-
 patternAA = { c4 c4 c4 | c2 ~ c4 | c4( c4) c4 | c2. }
 patternAB = { c4 c4 c4 | c2 ~ c4 | c4 ~ c4 c4 | c2. }
 patternBA = { c4 c4 c8[ c8] | c2 c4 | c2 c8[ c8] | c2. }

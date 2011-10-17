@@ -6,3 +6,6 @@ italicsOff = \override LyricText #'font-shape = #'upright
 
 \include "inc/changePitch.ly"
 
+mon  = { \set ignoreMelismata = ##t }
+moff = { \unset ignoreMelismata }
+

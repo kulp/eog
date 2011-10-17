@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 In rags and in ru -- in, with -- out and with -- in, \bar "."
 One ter -- ri -- ble mass of pol -- lu -- tion and sin; \bar "."
 By false friends de -- sert -- ed, of for -- tune be -- reft, \bar "."
-He turns to the home he_once ea -- ger -- ly left. \bar "."
+He turns to the home \mon he once \moff ea -- ger -- ly left. \bar "."
 
 }
 
@@ -103,29 +103,29 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 O! none can re -- store, nor such deep sin ef -- face,
-But_the One who comes forth in such in -- fin -- ite grace;
+\mon But the \moff One who comes forth in such in -- fin -- ite grace;
 For grace is a -- bove all his sin and dis -- tress,
-And_he’s noth -- ing to do— save_his sin to con -- fess!
+\mon And he’s \moff noth -- ing to do— \mon save his \moff sin to con -- fess!
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-What_an ear -- nest and seal of un -- speak -- a -- ble bliss
-Is_con -- veyed in the Fa -- ther’s af -- fec -- tion -- ate kiss!
+\mon What an \moff ear -- nest and seal of un -- speak -- a -- ble bliss
+\mon Is con -- veyed \moff in the Fa -- ther’s af -- fec -- tion -- ate kiss!
 The lost one is found, and the ser -- vants must bring,
-At_the Fa -- ther’s com -- mand, the shoes and the ring.
+\mon At the \moff Fa -- ther’s com -- mand, the shoes and the ring.
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-And_the ver -- y best robe, and the fat -- ling and wine,
-(What_a change from the rags, and the husks, and the swine!)
+\mon And the \moff ver -- y best robe, and the fat -- ling and wine,
+\mon "(What" a \moff change from the rags, and the husks, and the swine!)
 With mu -- sic and danc -- ing— ’tis some -- thing so new,
-Such_a ful -- ness of bless -- ing— and noth -- ing to do!
+\mon Such a \moff ful -- ness of bless -- ing— and noth -- ing to do!
 
 }
 
