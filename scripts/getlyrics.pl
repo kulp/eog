@@ -86,7 +86,9 @@ sub _check
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ [-_]{2} \s+//goxi;
         my @variants = map { (my $x = $test) =~ s/$_//; $x } qr(’s);
-        if (exists $dictwords->{lc $test}) {
+				if ($test =~ /^_+$/) {
+						return "";
+        } elsif (exists $dictwords->{lc $test}) {
             return $test;
         } elsif ($transforms->{$word}) {
             return $transforms->{$word};
