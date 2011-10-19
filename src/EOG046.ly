@@ -129,23 +129,21 @@ With no place then to hide.
 
 }
 
-wordsE = \lyricmode {
-\set stanza = "5."
+wordsE = \markuplines {
 
-O! sinner, pause ere yet “too late;”
-Now is the day of grace,
-Now Jesus calls, O! do obey
-His pleading, loving voice.
+\line { O! sinner, pause ere yet “too late;” }
+\line { Now is the day of grace, }
+\line { Now Jesus calls, O! do obey }
+\line { His pleading, loving voice. }
 
 }
 
-wordsF = \lyricmode {
-\set stanza = "6."
+wordsF = \markuplines {
 
-Today, ’tis free to all who come,
-And take Him at His word;
-Tomorrow’s sun may rise “too late”
-For you who now have heard.
+\line { Today, ’tis free to all who come, }
+\line { And take Him at His word; }
+\line { Tomorrow’s sun may rise “too late” }
+\line { For you who now have heard. }
 
 }
 
@@ -173,6 +171,14 @@ For you who now have heard.
     \include "common/midi.ily"
   }
 }
+
+\markup { \fill-line { %\column {
+  \hspace #0.1
+	\line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \hspace #0.1
+  \line{ \bold 6 \column { \wordsF } } %\vspace #0.4
+  \hspace #0.1
+} } %}
 
 \version "2.14.1"  % necessary for upgrading to future LilyPond versions.
 
