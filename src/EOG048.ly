@@ -35,11 +35,7 @@ patternCA = { \ta c8( c8) | c4 c8 c8 c4 c8. c16 | c2. r4 }
 patternCB = { \ta c8 ~ c8 | c4 c8 c8 c4 c8. c16 | c2. r4 }
 patternCC = { \ta c8   c8 | c4 c8 c8 c4 c8. c16 | c2 r4 }
 
-patternDA = { \ta c4^| r4 c4^| r4 | c4^| c4^| \tb c4 \fermata \ta }
-% we are reproducing the original's staccatissimo marks, which do not appear on
-% the alto, but ideally we would still emit them (for MIDI perhaps) but not
-% print them
-patternDB = { \ta c4 r4 c4 r4 | c4 c4 \tb c4 \fermata \ta }
+patternDA = { \ta c4 r4 c4 r4 | c4 c4 \tb c4 \fermata \ta }
 
 global = {
   \include "common/overrides.ily"
@@ -58,11 +54,11 @@ notesSoprano = {
 
   \changePitch \patternAA { g a | b b b b c b | b a g a b }
   \changePitch \patternBA { b c | d d d d b g b | a }
-  \changePitch \patternAC { g a | b b b b c b | b a g a b }
+  \changePitch \patternAC { g a | b^| b b b c b | b a g a b }
   \changePitch \patternCA { b c | d b g a b a | g r }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternDA { a b | cis cis d } >>
+  \changePitch \patternDA { a^| b^| | cis^| cis^| d } >>
   \changePitch \patternAE { g, a | b b b b c b | b a g a b }
   \changePitch \patternCC { b c | d b g a b a | g r }
 
@@ -80,7 +76,7 @@ notesAlto = {
   \changePitch \patternAC { b, c | d d d d e d | d c b c d }
   \changePitch \patternCA { g a | b g d c d c | b r }
 
-  \changePitch \patternDB { fis' g | g g fis }
+  \changePitch \patternDA { fis' g | g g fis }
   \changePitch \patternAE { b, c | d d d d e d | d c b c d }
   \changePitch \patternCC { g a | b g d fis d c | b r }
 
@@ -101,7 +97,7 @@ notesBass = {
   \changePitch \patternAD { g | g g g g g g | d d d g }
   \changePitch \patternCB { g g | g g b, d d d | g r }
 
-  \changePitch \patternDA { d g | e e d }
+  \changePitch \patternDA { d^| g^| | e^| e^| d }
   \changePitch \patternAF { g g | g g g g g g | d d d | g }
   \changePitch \patternCC { g g | g g b, d d d | g r }
 
