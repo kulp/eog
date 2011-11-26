@@ -119,7 +119,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 E -- ter -- ni -- ty! where? O, friend, have a care!
-For soon God will no lon -- ger His judg -- ment for -- bear,
+For soon God will no lon -- ger His judg -- ment for -- bear.
 E -- ter -- ni -- ty! where? O, E -- ter -- ni -- ty! where?
 This night may de -- cide your E -- ter -- ni -- ty— where?
 
@@ -131,7 +131,7 @@ wordsE = \lyricmode {
 E -- ter -- ni -- ty! where? E -- ter -- ni -- ty! where?
 Soon the Sav -- iour will come for His own in the air:
 Then sleep not, nor take in the world an -- y share,
-Till answered this ques -- tion— E -- ter -- ni -- ty! where?
+Till an -- swered this ques -- tion— E -- ter -- ni -- ty! where?
 
 }
 
