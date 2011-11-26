@@ -18,8 +18,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
+ta = { \tempo 4=100 }
+tb = { \tempo 4=50  }
 
 patternAA = {    c4 | c2 c4 c4 | c2 c4 c4 | c2 c4 c4 | c2 c4 }
 patternAB = { c4 c4 | c2 c4 c4 | c2 c4 c4 | c2 c4 c4 | c2 c4 }
