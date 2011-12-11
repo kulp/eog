@@ -3,6 +3,8 @@ use strict;
 use warnings;
 
 use CGI qw(:standard); # just for HTML shortcuts
+use DateTime;
+use DateTime::Format::RFC3339;
 use List::MoreUtils qw(uniq);
 use Perl6::Slurp qw(slurp);
 
@@ -25,8 +27,26 @@ my @dirs     = values %dirs;
 my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
 my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
+my %have     = map { (m#^([^/]+)#)[0] => 1 } @files;
 
 my $show_beta = `git symbolic-ref -q HEAD` !~ /beta/;
+
+sub when
+{
+    my ($dt) = @_;
+    return $dt->format_cldr('d MMM YYYY');
+}
+
+sub deparse8601
+{
+    # why can't DateTime::Format::RFC3339 or DateTime::Format::RFC3339 parse a
+    # git timestamp in the form '2011-07-23 09:20:09 -0500' ?
+    my ($d) = @_;
+    chomp $d;
+    $d =~ s/ /T/;
+    $d =~ s/\s*([-+]\d{2})(\d{2})/$1:$2/;
+    return DateTime::Format::RFC3339->parse_datetime($d);
+}
 
 print
     start_html(-title  => "Echoes of Grace layout project",
@@ -60,11 +80,12 @@ print
                     end_form,
                 ),
 
-             (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), @dirs),
+             (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), grep $have{$_}, @dirs),
             ),
             Tr({ -class => "realhead" },
-                th("No."), th("Title"), th("Poet"), th("Composer"), th("Meter"),
+                (map th($_), qw(No. Title Poet Composer Meter)),
                 (map th({ -class => "nosort" }, $_), map @{ $variants{$_} }, @dirs),
+                (map th($_), qw(Added Updated)),
             ),
         ),
         tbody(
@@ -81,15 +102,21 @@ print
                 (my $safetitle = $title) =~ s/[^\s\w]//g;
 
                 Tr(
-                    th({ -class => "index"                            } , $index),
-                    td({ -class => "title", 'customkey' => $safetitle } , $title),
-                    td({ -class => "poet"                             } , $poet),
-                    td({ -class => "composer"                         } , $composer),
-                    td({ -class => "meter"                            } , $meter),
+                    th({ -class => "index"                          } , $index),
+                    td({ -class => "title", customkey => $safetitle } , $title),
+                    td({ -class => "poet"                           } , $poet),
+                    td({ -class => "composer"                       } , $composer),
+                    td({ -class => "meter"                          } , $meter),
                     (map { my $dir = $_; map {
                         my $where = "$dir/$_/$stem.$exts{$dir}";
                         td({ -class => "link" }, (-e $where) ? a({ -href => $where }, $dir) : ""),
                     } @{ $variants{$dir} } } @dirs),
+                    (do {
+                        my @dates = map deparse8601($_),
+                                    qx(git log --follow --format=format:%ci src/$stem.ly);
+                        (td({ -class => "date_added  ", customkey => "$dates[-1]" } , when($dates[-1])),
+                         td({ -class => "date_updated", customkey => "$dates[ 0]" } , when($dates[ 0])))
+                    }),
                 );
             } @stems),
         ),
