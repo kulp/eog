@@ -23,9 +23,9 @@ tb = { \tempo 4=35 }
 
 patternAA = { c4 r8 | c4 r8 | c8 c8 c8 | c4 c8 }
 patternAB = { c4 r8 | c4 r8 | c8 c8 c8 | c4 r8 }
-patternAC = { c4 r8 | c4 \grace c8 r8 | c8 c8 c8 | c4 c8 \grace c16 } % TODO prints a measure bar before last c16
+patternAC = { c4 r8 | c4 r8 \grace c8 | c8 c8 c8 | c4 c8 \grace c8 } % NOTE grace note was a c16, changed to c8 for audio aesthetic
 patternBA = { c8 c8 c8 | c8 c8 c8 | c4 r8 }
-patternCA = { c4 r8 | c4 r8 | c4 r8 | c4 \grace c8 r8 }
+patternCA = { c4 r8 | c4 r8 | c4 r8 | c4 r8 \grace c8 }
 
 global = {
   \include "common/overrides.ily"
@@ -46,7 +46,7 @@ notesSoprano = {
   \changePitch \patternAB { a | a | a g a | b r }
   \changePitch \patternAC { b | b b | b a b | d c a }
   \changePitch \patternBA { a gis a | d c a | g r }
-  \changePitch \patternCA { e' | d | c | b b r }
+  \changePitch \patternCA { e' | d | c | b b }
   \changePitch \patternBA { a gis a | d c a | g r }
 
   \bar "|."
@@ -62,7 +62,7 @@ notesAlto = {
   \changePitch \patternAB { d, | d | d d fis | g r }
   \changePitch \patternAC { g | g g | g d g | b a fis }
   \changePitch \patternBA { fis eis fis | g d fis | g r }
-  \changePitch \patternCA { c | b | a | g g r }
+  \changePitch \patternCA { c | b | a | g g }
   \changePitch \patternBA { fis eis fis | fis d fis | g r }
 
 }
@@ -76,7 +76,7 @@ notesTenor = {
   \changePitch \patternAB { fis, | fis | fis e fis | g r }
   \changePitch \patternAC { d' | d d | d d d | d d d }
   \changePitch \patternBA { d d d | b a c | b r }
-  \changePitch \patternCA { c | d | d | d d r }
+  \changePitch \patternCA { c | d | d | d d }
   \changePitch \patternBA { d d d | a fis c' | b r }
 
 }
@@ -90,7 +90,7 @@ notesBass = {
   \changePitch \patternAB { d | d | d d d | g, r }
   \changePitch \patternAC { g' | g g | g fis g | fis d d }
   \changePitch \patternBA { d d d | d d d | g, r }
-  \changePitch \patternCA { c | g' | fis | g g r }
+  \changePitch \patternCA { c | g' | fis | g g }
   \changePitch \patternBA { d d d | d d d | g r }
 
 }
@@ -117,9 +117,9 @@ wordsB = \lyricmode {
 % splitting
 Joy, joy, sound it more loud -- ly, \bar "."
 Sing, sing, glo -- ry to God: \bar "." \break
-Soon, soon, Je -- sus is com -- ing, \bar "."
+Soon, soon, Je -- sus is com -- ing,
 Pub -- lish the ti -- dings a -- broad. \bar "." \break
-Yes, yes, O yes, \bar "."
+Yes, yes, O yes,
 Pub -- lish the ti -- dings a -- broad. \bar "." \break
 
 }
@@ -151,15 +151,13 @@ Je -- sus is near to pro -- claim.
 wordsE = \lyricmode {
 \set stanza = "5."
 
+% measure bars put partly on fifth verse due to grace notes
 Still, still, rest on the prom -- ise,
 Cling, cling, fast to His word;
-Wait, wait, if He should
-\set includeGraceNotes = ##t
-tar -- ry,
+Wait, wait, if He should { \set includeGraceNotes = ##t } tar -- ry, \bar "."
 We’ll pa -- tient -- ly wait for the Lord.
-Yes, yes, O yes,
-We’ll pa -- tient -- ly wait for the Lord.
-\set includeGraceNotes = ##f
+Yes, yes, O yes, \bar "."
+We’ll pa -- tient -- ly wait for the Lord. { \set includeGraceNotes = ##f }
 
 }
 
