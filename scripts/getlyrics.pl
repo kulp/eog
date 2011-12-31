@@ -57,12 +57,15 @@ my $compound_wordpat = qr<
 >xoism;
 
 my $strips = qr<
-\s*(?:
+(\n?)\s*(?:
     \\bar\s*".*?"
  | \\break
  | \\noBreak
+ | \\m(on|off)
+ | %.*?(?=\n|$)
+ | \\Refrain\w*
  #| \p{IsPunct}
- | \{[^}]*\}
+ | \{[^}]*\} # TODO support nesting
 )
 >xoism;
 
@@ -72,11 +75,13 @@ my $contents = slurp '<:utf8' => $file;
 my @verses = $contents =~ /$lyricpat/g;
 my @groups = ngroup 4 => \@verses;
 my %groups = map { ("$_->[1]$_->[2]" => $_->[3]) } @groups;
-# TODO indent refrain
-my @order = ("wordsA", "Refrain", map "words$_", 'B'..'Z');
+# TODO indent refrain(s)
+# TODO support multiple refrains
+my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } 'B'..'Z');
+#my @order = ("wordsA", "Refrain", map { ("words$_") } 'B'..'Z');
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
-my @lines = map { s/$strips//g; [ grep !/^%|^\\\w+$|^$/, map trim, split /\n/ ] } @bare;
+my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @bare;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
@@ -104,13 +109,16 @@ sub _check
     return $word;
 }
 
-print map {
+my @outs = map {
     ((map {
         (join("", map _check($_), @$_), "\n")
     } @$_), "\n")
 } @words;
 
+print @outs;
+
 warn "$_\n" for sort keys %{+{ map { $_ => 1 } @unknown }};
 
 exit 1 if @unknown;
+exit 2 if (join "", @outs) =~ /[{}\\]/;
 
