@@ -76,9 +76,7 @@ my @verses = $contents =~ /$lyricpat/g;
 my @groups = ngroup 4 => \@verses;
 my %groups = map { ("$_->[1]$_->[2]" => $_->[3]) } @groups;
 # TODO indent refrain(s)
-# TODO support multiple refrains
 my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } 'B'..'Z');
-#my @order = ("wordsA", "Refrain", map { ("words$_") } 'B'..'Z');
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
 my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @bare;
