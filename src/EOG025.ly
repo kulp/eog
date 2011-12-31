@@ -128,9 +128,9 @@ Be -- lieve God’s won -- der -- ful love. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, have you not \mon heard of \moff that won -- der -- ful love, \bar "."
+O, have you not { \mon } heard of { \moff } that won -- der -- ful love, \bar "."
 That flows from God’s heart so free, \bar "."
-Which led Him to \mon give for \moff a per -- ish -- ing world \bar "."
+Which led Him to { \mon } give for { \moff } a per -- ish -- ing world \bar "."
 His Son to be nailed to the tree? \bar "."
 
 }
@@ -139,7 +139,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Poor sin -- ners un -- done, and sin -- ful, and lost,
-This love of our \mon God now \moff re -- ceive;
+This love of our { \mon } God now { \moff } re -- ceive;
 No heart is too sad this love to make glad,
 When once on God’s word we be -- lieve.
 
@@ -152,9 +152,9 @@ When once on God’s word we be -- lieve.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, sweet is its \mon rest to \moff the wear -- y and worn,
-Who deep feel the \mon bur -- den \moff of sin;
-It seeks for no mer-it its bliss to \mon in -- her -- it, \moff
+O, sweet is its { \mon } rest to { \moff } the wear -- y and worn,
+Who deep feel the { \mon } bur -- den { \moff } of sin;
+It seeks for no mer-it its bliss to { \mon } in -- her -- it, { \moff }
 No good -- ness with -- out or with -- in.
 
 }

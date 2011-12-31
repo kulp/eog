@@ -115,10 +115,10 @@ wordsA = \lyricmode {
 
 Why ’neath the load of your sins do ye toil? \bar "."
 Christ giv -- eth rest, giv -- eth rest. \bar "."
-Why be in sla -- ver -- y, why \mon Sa -- tan’s \moff spoil? \bar "."
+Why be in sla -- ver -- y, why { \mon } Sa -- tan’s { \moff } spoil? \bar "."
 You may be blest, may be blest:
-Christ now in -- vites \mon you sweet \moff rest to re -- ceive, \bar "."
-Heav -- y’s your bur -- \mon den, but \moff He can re -- lieve,
+Christ now in -- vites { \mon } you sweet { \moff } rest to re -- ceive, \bar "."
+Heav -- y’s your bur -- { \mon } den, but { \moff } He can re -- lieve,
 If but this mo -- ment in { \pageBreak } Him you be -- lieve, \bar "."
 You shall have rest, shall have rest. \bar "."
 
@@ -129,9 +129,9 @@ wordsB = \lyricmode {
 
 Why go ye on -- ward, so wear -- y and worn?
 Christ giv -- eth rest, giv -- eth rest.
-Why are ye hope -- less -- ly sad \mon and for -- \moff lorn?
+Why are ye hope -- less -- ly sad { \mon } and for -- { \moff } lorn?
 You may be blest, may be blest.
-Je -- sus the bur -- \mon den did \moff bear on the tree,
+Je -- sus the bur -- { \mon } den did { \moff } bear on the tree,
 He was af -- flict -- ed for sin -- ners like thee;
 If you there Christ as your Sub -- sti -- tute see,
 You shall have rest, shall have rest.
@@ -145,7 +145,7 @@ Why are ye trou -- bled when death comes in view?
 Christ giv -- eth rest, giv -- eth rest.
 Tho’ aft -- er death there comes judg -- ment, too
 You may be blest, may be blest.
-Christ bore God’s judg -- \mon ment, poor sin -- ners to save,
+Christ bore God’s judg -- { \mon } ment, poor sin -- ners to save,
 He gained the vic -- t’ry o’er death and the grave,
 O, now be -- lieve Him, and life you shall have,
 You shall have rest, shall have rest.
@@ -157,13 +157,12 @@ wordsD = \lyricmode {
 
 Mon -- ey or price ye have no need to bring,
 Christ giv -- eth rest, giv -- eth rest.
-Why to your rage and your \mon pov -- er -- ty \moff cling?
+Why to your rage and your { \mon } pov -- er -- ty { \moff } cling?
 Come and be blest, and be { \set includeGraceNotes = ##t } blest. \bar "."
 A -- way with all fear, a -- way with all doubt,
 Hear His own words, which none can re -- fute, \bar "."
 —“Who -- e’er comes to Me, I’ll in no wise cast out;
-I’ll give him rest, give him rest.”
-\set includeGraceNotes = ##f
+I’ll give him rest, give him rest.” { \set includeGraceNotes = ##f }
 
 }
 

@@ -62,6 +62,7 @@ my $strips = qr<
  | \\break
  | \\noBreak
  #| \p{IsPunct}
+ | \{[^}]*\}
 )
 >xoism;
 

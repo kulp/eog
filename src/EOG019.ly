@@ -143,7 +143,7 @@ When He, from His loft -- y throne,
 Stooped to do and die,
 Ev -- ’ry -- thing was full -- y done;
 % XXX this doesn't look quite right
-\mon Heark -- en \moff to His cry—
+{ \mon } Heark -- en { \moff } to His cry—
 
 \Refrain
 
@@ -165,7 +165,7 @@ wordsD = \lyricmode {
 Till to Je -- sus’ work you cling,
 By a sim -- ple faith,
 “Do -- ing” is a dead -- ly thing—
-\mon “Do -- ing” \moff ends in death.
+{ \mon } “Do -- ing” { \moff } ends in death.
 
 }
 
@@ -175,7 +175,7 @@ wordsE = \lyricmode {
 Cast your dead -- ly “do -- ing” down—
 Down at Je -- sus’ feet;
 Stand “in Him,” “in Him” a -- lone,
-\mon Glo -- rious -- ly \moff com -- plete.
+{ \mon } Glo -- rious -- ly { \moff } com -- plete.
 
 }
 

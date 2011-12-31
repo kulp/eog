@@ -173,9 +173,9 @@ Time its course will quick -- ly run;
 Still we hear the fond en -- treat -- y
 Of the ev -- er -- gra -- cious One—
 “Come and wel -- come,
-’Tis by \italicsOn Me \italicsOff that life is won;”
+’Tis by { \italicsOn } Me { \italicsOff } that life is won;”
 “Come and wel -- come,
-’Tis by \italicsOn Me \italicsOff that life is won.”
+’Tis by { \italicsOn } Me { \italicsOff } that life is won.”
 
 }
 

@@ -100,13 +100,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Hark! hark! hear the glad ti -- dings,
-Soon, soon, Je -- sus will come,
-\set includeGraceNotes = ##t
+Soon, soon, Je -- sus will come, { \set includeGraceNotes = ##t }
 Robed, robed in hon -- or and glo -- ry,
 To gath -- er His ran -- somed ones home.
 Yes, yes, O yes,
-To gath -- er His ran -- somed ones home.
-\set includeGraceNotes = ##f
+To gath -- er His ran -- somed ones home.  { \set includeGraceNotes = ##f }
 
 }
 

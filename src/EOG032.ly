@@ -98,9 +98,9 @@ Room, room, still room! O, en -- ter, en -- ter now!
 
 LastRefrain = \lyricmode {
 
-\italicsOn
+{ \italicsOn }
 No room! no room! O, woe -- ful cry!— “No room!”
-\italicsOff
+{ \italicsOff }
 
 }
 
@@ -127,7 +127,7 @@ wordsC = \lyricmode {
 
 The brid -- al hall is fill -- ing for the feast:
 Pass in! pass in! and be the Bride -- groom’s guest.
-\skip 4 \markup { \italic "(Last verse only)" }
+{ \skip 4 \markup { \italic "(Last verse only)" } }
 
 }
 
