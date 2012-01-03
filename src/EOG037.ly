@@ -191,7 +191,7 @@ Tell me the same Old Sto -- ry,
 When you have cause to fear
 That this world’s emp -- ty glo -- ry
 Is cost -- ing me too dear.
-And when \italicsOn that \italicsOff world’s bright glo -- ry
+And when { \italicsOn } that { \italicsOff } world’s bright glo -- ry
 Is dawn -- ing on my soul,
 Tell me the Old, Old Sto -- ry—
 Christ Je -- sus makes thee whole.

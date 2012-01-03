@@ -115,7 +115,7 @@ Refrain = \lyricmode {
 “Ver -- i -- ly, ver -- i -- ly, I say un -- to you, \bar "."
 Ver -- i -- ly, ver -- i -- ly,” mes -- sage ev -- er new; \bar "."
 “He that be -- liev -- eth on the Son,” ’tis true, \bar "."
-\italicsOn “Hath \italicsOff ev -- er -- last -- ing life.” \bar "."
+{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.” \bar "."
 
 }
 
@@ -125,7 +125,7 @@ wordsA = \lyricmode {
 O what a Sav -- iour that He died for me!
 From con -- dem -- na -- tion He hath made me free;
 “He \mon that be -- \moff liev -- eth on the Son,” saith He,
-\italicsOn “Hath \italicsOff ev -- er -- last -- ing life.”
+{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 }
 
@@ -135,7 +135,7 @@ wordsB = \lyricmode {
 All my in -- iq -- ui -- ties on Him were laid,
 All my in -- debt -- ed -- ness by Him was paid;
 All \mon who be -- \moff lieve on Him, the Lord hath said,
-\italicsOn “Hath \italicsOff ev -- er -- last -- ing life.”
+{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 \Refrain
 
@@ -147,7 +147,7 @@ wordsC = \lyricmode {
 Tho’ poor and need -- y, I can trust my Lord,
 Tho’ weak and sin -- ful, I be -- lieve His word;
 O \mon bless -- ed \moff mes -- sage! ev -- ’ry child of God,
-\italicsOn “Hath \italicsOff ev -- er -- last -- ing life.”
+{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 
 }

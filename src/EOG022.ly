@@ -93,7 +93,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus is a \italicsOn lov -- ing \italicsOff Sav -- iour, \bar "."
+Je -- sus is a { \italicsOn } lov -- ing { \italicsOff } Sav -- iour, \bar "."
 Love it was that brought Him low; \bar "." \break
 Come, He says, in words of mer -- cy, \bar "."
 Prove My lov -- ing -- kind -- ness now. \bar "." \break
@@ -103,7 +103,7 @@ Prove My lov -- ing -- kind -- ness now. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Je -- sus is a \italicsOn might -- y \italicsOff Sav -- iour,
+Je -- sus is a { \italicsOn } might -- y { \italicsOff } Sav -- iour,
 Strong His out -- stretched arm to save;
 He has van -- quished death and Sa -- tan,
 He has tri -- umphed o’er the grave.
@@ -113,7 +113,7 @@ He has tri -- umphed o’er the grave.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus is a \italicsOn will -- ing \italicsOff Sav -- iour,
+Je -- sus is a { \italicsOn } will -- ing { \italicsOff } Sav -- iour,
 Full -- y, free -- ly He for -- gives;
 And the soul which looks un -- to Him
 From that hap -- py mo -- ment lives.
@@ -123,7 +123,7 @@ From that hap -- py mo -- ment lives.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Je -- sus is a \italicsOn right -- eous \italicsOff Sav -- iour,
+Je -- sus is a { \italicsOn } right -- eous { \italicsOff } Sav -- iour,
 He has suf -- fered once for sin;
 Death He suf -- fered, ere in tri -- umph
 He could bring re -- demp -- tion in.
@@ -133,7 +133,7 @@ He could bring re -- demp -- tion in.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Je -- sus is a \italicsOn last -- ing \italicsOff Sav -- iour,
+Je -- sus is a { \italicsOn } last -- ing { \italicsOff } Sav -- iour,
 Ev -- er will His love en -- dure;
 Souls which rest by faith up -- on Him
 Are e -- ter -- nal -- ly se -- cure.

@@ -158,8 +158,8 @@ wordsC = \lyricmode {
 
 When the Sav -- iour at His com -- ing
 Shall His own in glo -- ry bring,
-Will \italicsOn you \italicsOff be a -- mong the num -- ber?
-Will \italicsOn you, \italicsOff too, His prais -- es sing?
+Will { \italicsOn } you { \italicsOff } be a -- mong the num -- ber?
+Will { \italicsOn } you, { \italicsOff } too, His prais -- es sing?
 
 }
 

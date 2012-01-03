@@ -140,7 +140,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Come, then, poor sin -- ner, no lon -- ger de -- lay,
-Come to the Sav -- iour, come \italicsOn now \italicsOff while you may;
+Come to the Sav -- iour, come { \italicsOn } now { \italicsOff } while you may;
 So shall your peace be e -- ter -- nal -- ly sure,
 So shall your hap -- pi -- ness ev -- er en -- dure!
 

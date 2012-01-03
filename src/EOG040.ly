@@ -21,6 +21,9 @@
 ta = { \tempo 4=90 }
 tb = { \tempo 4=45 }
 
+lyricsInvis = { \override LyricText #'stencil = ##f \override LyricHyphen #'stencil = ##f }
+lyricsVis = { \revert LyricText #'stencil \revert LyricHyphen #'stencil }
+
 patternAA = { c4 | c4. c8 c4 c4 | c2( c4) }
 patternAB = { c4 | c4. c8 c4 c4 | c2.     }
 patternBA = { c4 | c4 c4 c4 c4 | c2.        }
@@ -113,14 +116,32 @@ notesBass = {
 RefrainA = \lyricmode {
 
 That “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break
+Shall ev -- er -- last -- ing \break life re -- ceive!” \bar "."
+“Shall ev __ er -- last -- ing life re -- ceive!”
 
 }
 
 RefrainB = \lyricmode {
 
 For “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break
+Shall ev -- er -- last -- ing \break { \lyricsInvis } life re -- ceive!” \bar "."
+Shall ev __ er -- last -- ing life re -- ceive!” { \lyricsVis }
+
+}
+
+RefrainC = \lyricmode {
+
+That “Who -- so -- ev -- er will be -- lieve, \bar "."
+Shall ev -- er -- last -- ing \break { \lyricsInvis } life re -- ceive!” \bar "."
+“Shall ev __ er -- last -- ing life re -- ceive!” { \lyricsVis }
+
+}
+
+RefrainD = \lyricmode {
+
+For “Who -- so -- ev -- er will be -- lieve, \bar "."
+Shall ev -- er -- last -- ing \break { \lyricsInvis } life re -- ceive!” \bar "."
+Shall ev __ er -- last -- ing life re -- ceive!” { \lyricsVis }
 
 }
 
@@ -143,8 +164,6 @@ Could life and heal -- ing give,
 So Je -- sus on the cross
 Once died that we might live;
 \RefrainB
-life re -- ceive!” \bar "."
-Shall ev __ er -- last -- ing life re -- ceive!”
 
 }
 
@@ -155,7 +174,7 @@ wordsC = \lyricmode {
 My aw -- ful doom I heard;
 I was for -- ev -- er lost,
 But for Thy gra -- cious word,
-\RefrainA
+\RefrainC
 
 }
 
@@ -166,14 +185,9 @@ wordsD = \lyricmode {
 The “Man of sor -- rows” came;
 But that the world might have
 Sal -- va -- tion thro’ His name;
-\RefrainB
+\RefrainD
 
 }
-
-%wordsE = \lyricmode {
-%\set stanza = "5."
-%
-%}
 
 \score {
   \context ChoirStaff <<
@@ -185,7 +199,6 @@ Sal -- va -- tion thro’ His name;
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
