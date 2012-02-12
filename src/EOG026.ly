@@ -131,19 +131,19 @@ With mu -- sic and danc -- ing— ’tis some -- thing so new,
 
 wordsE = \markuplines {
 
-\line { Ah! nothing to do! for the sinner that’s dead } 
-\line { Must needs have another to work in his stead: } 
-\line { And Jesus, in Calvary’s terrible hour,        } 
-\line { Redemption accomplished in marvelous power.   } 
+\line { Ah! nothing to do! for the sinner that’s dead }
+\line { Must needs have another to work in his stead: }
+\line { And Jesus, in Calvary’s terrible hour,        }
+\line { Redemption accomplished in marvelous power.   }
 
 }
 
 wordsF = \markuplines {
 
-\line { Which shut up the world to its folly and strife, } 
-\line { But opened a passage from death unto life.       } 
-\line { Are you ruined and helpless? God offers to you   } 
-\line { A free, full salvation— and nothing to do!       } 
+\line { Which shut up the world to its folly and strife, }
+\line { But opened a passage from death unto life.       }
+\line { Are you ruined and helpless? God offers to you   }
+\line { A free, full salvation— and nothing to do!       }
 
 }
 
