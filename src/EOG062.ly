@@ -107,7 +107,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 His soul, by vir -- tue of the blood,
-To pa -- ra -- dise re -- cieved;
+To pa -- ra -- dise re -- ceived;
 Re -- demp -- tion’s ear -- liest tro -- phy stood,
 From sin and death re -- trieved.
 

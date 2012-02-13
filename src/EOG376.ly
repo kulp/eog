@@ -18,8 +18,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 4=120 }
-tb = { \tempo 4=60  }
+ta = { \tempo 4=126 }
+tb = { \tempo 4=63  }
 
 patternAA = { c4 | c4 c4 c4 c4 c4 c4 | c4 c2. ~ c4 }
 patternAB = { c4 | c4 c4 c4 c4 c4 c4 | c2. ~ c2 }
@@ -116,7 +116,7 @@ For Thou hast found Thy sheep, \bar "." \break
 I fled, but Thy love would fol -- low, \bar "."
 I strayed but Thy love would keep, \bar "." \break
 Thou’st grant -- ed my heart’s de -- sire, \bar "."
-Most bless’d of the { \mon } bless -- ed { \moff } is He, \bar "." \break
+Most bless’d of the { \mon } bless -- ed { \moff } is he, \bar "." \break
 Who find -- eth no { \mon } rest and { \moff } no sweet -- ness, \bar "."
 Till he rest -- eth, { \mon } O Lord, { \moff } in Thee. \bar "." \break
 
