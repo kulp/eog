@@ -1,0 +1,211 @@
+\include "common/global.ily"
+\paper {
+  \include "common/paper.ily"
+  ragged-bottom = ##t
+  ragged-last-bottom = ##t
+  %systems-per-page = ##f
+  page-count = 1
+}
+
+\header{
+  title = "Broekn Heart! The Fountain’s Open"
+  subsubtitle = "(8. 7. with Refrain.)"
+  %meter = "8.7. with Refrain."
+  poet = "A. P. Cecil"
+  composer = "Arr. from Stevenson"
+  %copyright = ""
+  tagline = ##f
+}
+
+% for fermata in MIDI
+ta = { \tempo 4=76 }
+tb = { \tempo 4=38 }
+
+patternAA = { c8[ c8] c8 c8[ c8] c8 | c8[ c8] c8 c8 c8 r8 }
+patternAB = { c8[ c8] c8 c4      c8 | c8[ c8] c8 c8 c8 r8 }
+patternAC = { c4      c8 c8[ c8] c8 | c4      c8 c8 c8 r8 }
+patternAD = { c4      c8 c4      c8 | c4      c8 c8 c8 r8 }
+
+patternBA = { c8[ c8] c8 c8[ c8] c8 | c8[ c8] c8 c4    r8 }
+patternBB = { c8[ c8] c8 c8[ c8] c8 | c4      c8 c4    r8 }
+patternBC = { c8[ c8] c8 c4      c8 | c8[ c8] c8 c4    r8 }
+patternBD = { c4      c8 c4      c8 | c4      c8 c4    r8 }
+
+patternCA = { c4 c8 c4 c8 | c4 c8 c4. }
+
+patternDA = { c4. c4 c8 | c4. c4 c8 | c4 c8 c8[ c8] c8 | c4. ~ c4 r8 }
+patternDB = { c4. c4 c8 | c4. c4 c8 | c4 c8 c4      c8 | c4. ~ c4 r8 }
+
+global = {
+  \include "common/overrides.ily"
+  \override Staff.TimeSignature #'style = #'()
+  \time 6/8
+  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \ta
+  \key c \major
+  %\partial 4
+  \autoBeamOff
+}
+
+notesSoprano = {
+\global
+\relative c'' {
+
+  \changePitch \patternAA { c g g a g g | c g g a g r }
+  \changePitch \patternBA { c e c a d c | b a b c r }
+  \changePitch \patternAA { c g g a g g | c g g a g r }
+  \changePitch \patternBA { c e c a d c | b a b c r }
+
+  << s^\markup { \small \caps "Refrain" }
+  \changePitch \patternCA { g g a a | g f e } >>
+  \changePitch \patternCA { g g a a | g f e }
+  \changePitch \patternDA { c'( e) c | a( d) c | b b b a b | c c r }
+
+  \bar "|."
+
+}
+}
+
+notesAlto = {
+\global
+\relative e' {
+
+  \changePitch \patternAC { e e f e e | e e f e r }
+  \changePitch \patternBC { e g g f f | d c d e r }
+  \changePitch \patternAC { e e f e e | e e f e r }
+  \changePitch \patternBC { e g g f f | d c d e r }
+
+  \changePitch \patternCA { e e f f | e d c }
+  \changePitch \patternCA { e e d d | e d c }
+  \changePitch \patternDA { e( g) g | f ~ f f | d d d c d | e e r }
+
+}
+}
+
+notesTenor = {
+\global
+\relative a {
+
+  \changePitch \patternAB { g c c c c | g c c c c r }
+  \changePitch \patternBB { g c c c a a | g g g r }
+  \changePitch \patternAB { g c c c c | g c c c c r }
+  \changePitch \patternBB { g c c c a a | g g g r }
+
+  \changePitch \patternCA { c c c c | b b g }
+  \changePitch \patternCA { c c c c | b g g }
+  \changePitch \patternDB { g( c) g | a ~ a a | g g g g | g g r }
+
+}
+}
+
+notesBass = {
+\global
+\relative f {
+
+  \changePitch \patternAD { c c c c | c c c c r }
+  \changePitch \patternBD { c e f d | g g, c r }
+  \changePitch \patternAD { c c c c | c c c c r }
+  \changePitch \patternBD { c e f d | g g, c r }
+
+  \changePitch \patternCA { c c f f | g g c, }
+  \changePitch \patternCA { c c f, f | g g c }
+  \changePitch \patternDB { c ~ c e | f( d) d | g g g, g | c c r }
+
+}
+}
+
+Refrain = \lyricmode {
+
+Christ has died up -- on the tree, \bar "."
+Grace flows down from God to thee, \bar "." \break
+Grace— free— grace flows down from God to thee. \bar "."
+
+}
+
+wordsA = \lyricmode {
+\set stanza = "1."
+
+Bro -- ken heart! the foun -- tain’s o -- pen, \bar "."
+Christ hath died up -- on the tree, \bar "." \break
+All the powers of hell are sha -- ken, \bar "."
+Grace flows down from God to thee. \bar "." \break
+
+}
+
+wordsB = \lyricmode {
+\set stanza = "2."
+
+God Him -- self, the Source, the Foun -- tain,
+Christ the Way the wa -- ters flow,
+By the Spir -- it down from heav -- en,
+To the thirst -- y heart be -- low.
+
+\Refrain
+
+}
+
+wordsC = \lyricmode {
+\set stanza = "3."
+
+Now’s the time, the time ac -- cept -- ed,
+Now to thee God’s light hath shone:
+Christ God’s love hath man -- i -- fest -- ed,
+He the fin -- ished work hath done.
+
+}
+
+wordsD = \markuplines {
+
+\line { By one righteousness completed, }
+\line { Adam life received its doom; }
+\line { Jesus Christ in glory seated, }
+\line { Everlasting life hath won. }
+
+}
+
+wordsE = \markuplines {
+
+\line { Broken heart! the river’s flowing, }
+\line { Haste, delay not! yet there’s room; }
+\line { Hear the word of God beseeching, }
+\line { “Whosoever thirsts may come.” }
+
+}
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
+    >>
+  >>
+  \layout {
+    \include "common/layout.ily"
+  }
+  \midi{
+    \include "common/midi.ily"
+  }
+}
+
+\noPageBreak
+
+\markup { \fill-line { %\column {
+  \hspace #0.1
+	\line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+  \hspace #0.1
+  \line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \hspace #0.1
+} } %}
+
+\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
