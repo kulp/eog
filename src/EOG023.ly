@@ -152,6 +152,16 @@ On the cross __ He sealed my par -- don, \bar "." \break
 
 }
 
+% This refrain not used in layout, just for lyrics extraction
+RefrainA = \lyricmode {
+
+Sing, O! sing of my Re -- deem -- er,
+With His blood He pur -- chased me, He pur -- chased me;
+On the cross He sealed my par -- don,
+Paid the debt, and made me free.
+
+}
+
 TenorRefrain = \lyricmode {
 
 \override LyricText #'font-size = #-2
@@ -191,7 +201,7 @@ How my lost es -- tate to save,
 In His bound -- less love and mer -- cy,
 He the ran -- som free -- ly gave.
 
-\AltoRefrain
+{ { \AltoRefrain } }
 
 }
 

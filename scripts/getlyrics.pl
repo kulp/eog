@@ -34,8 +34,12 @@ my $braces = $RE{balanced}{-parens=>'{}'};
 my $lyricpat = qr<
     \b((words|refrain)(\w*))\s*
     =\s*
-    \\lyricmode\s*
+    (?:\\lyricmode|\\markuplines)\s*
     ($braces)
+>xoi;
+
+my $markuppat = qr<
+    \\line\s*($braces)
 >xoi;
 
 my $versepat = qr<
@@ -49,11 +53,11 @@ my $versepat = qr<
 my $wordelt = qr<[\w’]>;
 
 my $wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} \s+ $wordelt+)*)\b
+\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)*)\b
 >xoism;
 
 my $compound_wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} \s+ $wordelt+)+)\b
+\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)+)\b
 >xoism;
 
 my $strips = qr<
@@ -65,7 +69,7 @@ my $strips = qr<
  | %.*?(?=\n|$)
  | \\Refrain\w*
  #| \p{IsPunct}
- | \{[^}]*\} # TODO support nesting
+ | $braces
 )
 >xoism;
 
@@ -79,7 +83,9 @@ my %groups = map { ("$_->[1]$_->[2]" => $_->[3]) } @groups;
 my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } 'B'..'Z');
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
-my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @bare;
+my @unmarkup = map { s/$markuppat/$1/g; $_ } @bare;
+my @trimmed = map { s/^\{\s*(.*?)\s*\}\s*$/$1/gm; $_ } @unmarkup;
+my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @trimmed;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
@@ -87,10 +93,10 @@ sub _check
 {
     my $word = shift;
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
-        (my $test = $word) =~ s/\s+ [-_]{2} \s+//goxi;
+        (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
         my @variants = map { (my $x = $test) =~ s/$_//; $x } qr(’s$);
-				if ($test =~ /^_+$/) {
-						return "";
+        if ($test =~ /^_+$/) {
+            return "";
         } elsif (exists $dictwords->{lc $test}) {
             return $test;
         } elsif ($transforms->{$word}) {
