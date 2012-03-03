@@ -8,7 +8,7 @@
 }
 
 \header{
-  title = "Broekn Heart! The Fountain’s Open"
+  title = "Broken Heart! The Fountain’s Open"
   subsubtitle = "(8. 7. with Refrain.)"
   %meter = "8.7. with Refrain."
   poet = "A. P. Cecil"
