@@ -39,7 +39,7 @@ my $lyricpat = qr<
 >xoi;
 
 my $markuppat = qr<
-	\\line\s*($braces)
+    \\line\s*($braces)
 >xoi;
 
 my $versepat = qr<
@@ -53,11 +53,11 @@ my $versepat = qr<
 my $wordelt = qr<[\w’]>;
 
 my $wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} \s+ $wordelt+)*)\b
+\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)*)\b
 >xoism;
 
 my $compound_wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} \s+ $wordelt+)+)\b
+\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)+)\b
 >xoism;
 
 my $strips = qr<
@@ -93,10 +93,10 @@ sub _check
 {
     my $word = shift;
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
-        (my $test = $word) =~ s/\s+ [-_]{2} \s+//goxi;
+        (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
         my @variants = map { (my $x = $test) =~ s/$_//; $x } qr(’s$);
-				if ($test =~ /^_+$/) {
-						return "";
+        if ($test =~ /^_+$/) {
+            return "";
         } elsif (exists $dictwords->{lc $test}) {
             return $test;
         } elsif ($transforms->{$word}) {
