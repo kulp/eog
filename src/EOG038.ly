@@ -144,7 +144,7 @@ Bless -- ed news to you and me. \bar "." \break
 
 }
 
-RefrainB = \lyricmode {
+RefrainBottomClef = \lyricmode {
 
 \override LyricText #'font-size = #-2
 \repeat unfold 57 { \skip 4 }
@@ -231,7 +231,7 @@ Which is Christ the Lord” and King.
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-	\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \RefrainB
+	\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \RefrainBottomClef
   >>
   \layout {
     \include "common/layout.ily"
