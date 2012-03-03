@@ -84,7 +84,7 @@ my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } '
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
 my @unmarkup = map { s/$markuppat/$1/g; $_ } @bare;
-my @trimmed = map { s/(^\{\s*)|(\s*\}\s*$)//gm; $_ } @unmarkup;
+my @trimmed = map { s/^\{\s*(.*?)\s*\}\s*$/$1/gm; $_ } @unmarkup;
 my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @trimmed;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
