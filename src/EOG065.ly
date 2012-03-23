@@ -40,6 +40,64 @@ global = {
   \autoBeamOff
 }
 
+notesAlto = {
+\global
+\relative e' {
+
+	%\repeat unfold 32 { \skip 4 }
+  \changePitch \patternAC { g g g g g g | g g g fis }
+  \changePitch \patternAA { fis a g fis fis fis fis | fis fis fis g }
+  \changePitch \patternAD { d g g g g g g | g g fis f e }
+  \changePitch \patternBA { e e e e e e e e | fis d d d }
+
+}
+}
+
+notesTenor = {
+\global
+\relative a {
+
+  \changePitch \patternAC { b g a b g a | b c b d }
+  \changePitch \patternAA { a fis g a a a a | a d d d }
+  \changePitch \patternAD { b d e d d d b | b b d d c }
+  \changePitch \patternBA { c c c c c c c c | a c c b }
+
+}
+}
+
+notesBass = {
+\global
+\relative f {
+
+  \changePitch \patternAC { }
+  \changePitch \patternAA { }
+  \changePitch \patternAD { }
+  \changePitch \patternBA { }
+
+}
+}
+
+Refrain = \lyricmode {
+
+Christ is the Sav -- iour, He nev -- er will fail;
+All hope to save one -- self could noth -- ing a -- vail;
+Main is a to -- tal wreck, can nev -- er reach the shore.
+All who trust in Je -- sus Christ are saved ev -- er -- more.
+
+}
+
+notesSopranoRefrain = {
+\global
+\relative c' {
+
+  \changePitch \patternAC { d' b c d b c | d e d a  } %>>
+  \changePitch \patternAA { c a b c c c d | e d c b }
+  \changePitch \patternAD { d, b' c b a b d | g, g a b c }
+  \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
+
+}
+}
+
 notesSoprano = {
 \global
 \relative c' {
@@ -49,11 +107,17 @@ notesSoprano = {
   \changePitch \patternAB { d, b' c b a b d | g, a b c }
   \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
 
-  << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternAC { } >>
-  \changePitch \patternAA { }
-  \changePitch \patternAD { }
-  \changePitch \patternBA { }
+	\pageBreak
+  %<< s^\markup { \small \caps "Refrain" }
+	\new Staff {
+		\override Staff.TimeSignature #'stencil = ##f
+		\context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
+		\context Voice  = altos { \voiceTwo << \notesAlto >> }
+		%\clef bass
+		%\context Voice  = tenors { \voiceOne << \notesTenor >> }
+		%\context Voice  = basses { \voiceTwo << \notesBass >> }
+		%\context Lyrics = one   \lyricsto tenors \Refrain
+	}
 
   \bar "|."
 
@@ -85,46 +149,6 @@ notesLeftHand = {
 < c c' >2. r4 | < d d' >4 r4 < g g' >2 
 
 }
-}
-
-notesAlto = {
-\global
-\relative e' {
-
-  \changePitch \patternAC { }
-  \changePitch \patternAA { }
-  \changePitch \patternAD { }
-  \changePitch \patternBA { }
-
-}
-}
-
-notesTenor = {
-\global
-\relative a {
-
-  \changePitch \patternAC { }
-  \changePitch \patternAA { }
-  \changePitch \patternAD { }
-  \changePitch \patternBA { }
-
-}
-}
-
-notesBass = {
-\global
-\relative f {
-
-  \changePitch \patternAC { }
-  \changePitch \patternAA { }
-  \changePitch \patternAD { }
-  \changePitch \patternBA { }
-
-}
-}
-
-Refrain = \lyricmode {
-
 }
 
 wordsA = \lyricmode {
@@ -160,6 +184,11 @@ Nev -- er will the gates of hell a -- gainst Him pre -- vail.
 wordsD = \lyricmode {
 \set stanza = "4."
 
+O bles -- sed ris -- en Sav -- iour, liv -- ing to -- day!
+Liv -- ing too, to guide Thine own thro’ all_the storm -- y way;
+None have the power to pluck Thy saints from thine hand,
+Thou wilt safely bring Thine own home to the Bet -- ter Land.
+
 }
 
 \score {
@@ -171,11 +200,9 @@ wordsD = \lyricmode {
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context PianoStaff = men <<
       \context Voice  = righthand { \voiceTwo << \notesRightHand >> }
-      %\context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
     >>
   >>
