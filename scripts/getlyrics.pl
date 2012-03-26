@@ -68,6 +68,7 @@ my $strips = qr<
  | \\m(on|off)
  | %.*?(?=\n|$)
  | \\Refrain\w*
+ | \\italic
  #| \p{IsPunct}
  | $braces
 )
