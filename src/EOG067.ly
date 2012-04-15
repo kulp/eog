@@ -175,7 +175,7 @@ Hap -- py home to which we go!
 }
 
 \noPageBreak
-\markup { \fill-line { \line { Alternate tune: No. 191 } } }
+\markup { \fill-line { \line { Alternate tune: No. 191. } } }
 \pageBreak
 
 \version "2.14.1"  % necessary for upgrading to future LilyPond versions.
