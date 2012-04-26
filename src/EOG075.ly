@@ -8,7 +8,7 @@
 }
 
 \header{
-  title = "I Gave My For Thee"
+  title = "I Gave My Life For Thee"
   subsubtitle = "(Gift. 6. 6. 6. 6. 6. 6.)"
   %meter = "6.6.6.6.6.6."
   poet = "F. R. Havergal"
