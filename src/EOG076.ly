@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   %ragged-bottom = ##t
   %ragged-last-bottom = ##t
-  systems-per-page = ##f
+  systems-per-page = 3
   %page-count = ##f
 }
 
@@ -170,6 +170,8 @@ wordsF = \markuplines {
     \include "common/midi.ily"
   }
 }
+
+\noPageBreak
 
 %{
 % Attempting to lay out just like EOG, without great success
