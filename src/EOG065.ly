@@ -69,10 +69,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAC { }
-  \changePitch \patternAA { }
-  \changePitch \patternAD { }
-  \changePitch \patternBA { }
+  \changePitch \patternAC { g g g g g g | g g g d }
+  \changePitch \patternAA { d d d d d d d | d d d g }
+  \changePitch \patternAD { g g g g g g g | g g g g c, }
+  \changePitch \patternBA { c c c c c c c c | d d d g, }
 
 }
 }
@@ -81,7 +81,7 @@ Refrain = \lyricmode {
 
 Christ is the Sav -- iour, He nev -- er will fail;
 All hope to save one -- self could noth -- ing a -- vail;
-Main is a to -- tal wreck, can nev -- er reach the shore.
+Man is a to -- tal wreck, can nev -- er reach the shore.
 All who trust in Je -- sus Christ are saved ev -- er -- more.
 
 }
@@ -90,7 +90,8 @@ notesSopranoRefrain = {
 \global
 \relative c' {
 
-  \changePitch \patternAC { d' b c d b c | d e d a  } %>>
+	<< s^\markup { \small \caps "Refrain" }
+  \changePitch \patternAC { d' b c d b c | d e d a  } >>
   \changePitch \patternAA { c a b c c c d | e d c b }
   \changePitch \patternAD { d, b' c b a b d | g, g a b c }
   \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
@@ -107,19 +108,7 @@ notesSoprano = {
   \changePitch \patternAB { d, b' c b a b d | g, a b c }
   \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
 
-	\pageBreak
-  %<< s^\markup { \small \caps "Refrain" }
-	\new Staff {
-		\override Staff.TimeSignature #'stencil = ##f
-		\context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
-		\context Voice  = altos { \voiceTwo << \notesAlto >> }
-		%\clef bass
-		%\context Voice  = tenors { \voiceOne << \notesTenor >> }
-		%\context Voice  = basses { \voiceTwo << \notesBass >> }
-		%\context Lyrics = one   \lyricsto tenors \Refrain
-	}
-
-  \bar "|."
+	\bar "||"
 
 }
 }
@@ -164,7 +153,7 @@ How by death He con -- quered death and lives ev -- er -- more.
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Christ in that hour of darn -- ness, lost ones to save,
+Christ in that hour of dark -- ness, lost ones to save,
 Brav’d Him -- self the o -- cean depths, and bat -- tled the wave;
 Though all Je -- ho -- vah’s bil -- lows rolled o’er His head,
 Son of Man and Son of God, He rose from the dead.
@@ -206,6 +195,31 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
       \context Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
     >>
   >>
+  \layout {
+    \include "common/layout.ily"
+  }
+  \midi{
+    \include "common/midi.ily"
+  }
+}
+
+\pageBreak
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+		\set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+			\override Staff.TimeSignature #'stencil = ##f
+			\context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
+			\context Voice  = altos { \voiceTwo << \notesAlto >> }
+			\context Lyrics = one   \lyricsto sopranosRefrain \Refrain
+		>>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
+    >>
+	>>
   \layout {
     \include "common/layout.ily"
   }
