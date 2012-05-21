@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-bottom = ##t
+  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
   page-count = ##f
@@ -44,7 +44,7 @@ notesAlto = {
 \global
 \relative e' {
 
-	%\repeat unfold 32 { \skip 4 }
+  %\repeat unfold 32 { \skip 4 }
   \changePitch \patternAC { g g g g g g | g g g fis }
   \changePitch \patternAA { fis a g fis fis fis fis | fis fis fis g }
   \changePitch \patternAD { d g g g g g g | g g fis f e }
@@ -81,7 +81,7 @@ Refrain = \lyricmode {
 
 Christ is the Sav -- iour, He nev -- er will fail;
 All hope to save one -- self could noth -- ing a -- vail;
-Man is a to -- tal wreck, can nev -- er reach the shore.
+Man is a to -- tal wreck, can nev -- er reach the shore. \break
 All who trust in Je -- sus Christ are saved ev -- er -- more.
 
 }
@@ -90,7 +90,7 @@ notesSopranoRefrain = {
 \global
 \relative c' {
 
-	<< s^\markup { \small \caps "Refrain" }
+  << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAC { d' b c d b c | d e d a  } >>
   \changePitch \patternAA { c a b c c c d | e d c b }
   \changePitch \patternAD { d, b' c b a b d | g, g a b c }
@@ -108,7 +108,7 @@ notesSoprano = {
   \changePitch \patternAB { d, b' c b a b d | g, a b c }
   \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
 
-	\bar "||"
+  \bar "||"
 
 }
 }
@@ -198,9 +198,6 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
-    \include "common/midi.ily"
-  }
 }
 
 \pageBreak
@@ -208,20 +205,43 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
-		\set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-			\override Staff.TimeSignature #'stencil = ##f
-			\context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
-			\context Voice  = altos { \voiceTwo << \notesAlto >> }
-			\context Lyrics = one   \lyricsto sopranosRefrain \Refrain
-		>>
+    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \override Staff.TimeSignature #'stencil = ##f
+      \context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
+    >>
     \context Staff = men <<
       \clef bass
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-	>>
+  >>
   \layout {
     \include "common/layout.ily"
+  }
+}
+
+
+\score {
+  \new Score {
+    \context ChoirStaff <<
+      \new Staff = upper <<
+        \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+        \new Voice  = sopranos { \voiceOne { << \notesSoprano >> << \notesSopranoRefrain >> } }
+        \new Voice  = altos { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesAlto >> } }
+        \new Lyrics = one   \lyricsto sopranos \wordsA \Refrain
+        \new Lyrics = two   \lyricsto sopranos \wordsB
+        \new Lyrics = three \lyricsto sopranos \wordsC
+        \new Lyrics = four  \lyricsto sopranos \wordsD
+      >>
+      \new PianoStaff = men <<
+        \new Voice  = righthand { \voiceTwo << \notesRightHand >> }
+        \new Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
+        \new Voice  = tenors { \voiceOne { \repeat unfold 32 { \skip 4 } << \notesTenor >> } }
+        \new Voice  = basses { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesBass >> } }
+      >>
+    >>
   }
   \midi{
     \include "common/midi.ily"
