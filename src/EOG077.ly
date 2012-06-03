@@ -110,12 +110,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Come, ye sin -- ners, poor and need -- y,
-Weak and wound -- ed, sick and sore,
-Je -- sus read -- y stands to save you,
-Full of pit -- y, love, and power;
-He is a -- ble, He is a -- ble, He is a -- ble,
-He is will -- ing, doubt no more.
+Come, ye sin -- ners, poor and need -- y, \bar "."
+Weak and wound -- ed, sick and sore, \bar "."
+Je -- sus read -- y stands to save you, \bar "."
+Full of pit -- y, love, and power; \bar "."
+He is a -- ble, He is a -- ble, He is a -- ble, \bar "."
+He is will -- ing, doubt no more. \bar "."
 
 }
 
