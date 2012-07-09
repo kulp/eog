@@ -109,8 +109,8 @@ notesBass = {
 
 RefrainA = \lyricmode {
 
-Might -- y to save, __ \break might -- y to save, __ \bar "."
-Now __ in the \pageBreak glo -- ry, He’s a -- ble and wil -- ling to save. \bar "."
+Might -- y to save, __ { \break } might -- y to save, __ \bar "."
+Now __ in the { \pageBreak } glo -- ry, He’s a -- ble and wil -- ling to save. \bar "."
 
 }
 
@@ -132,8 +132,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Down from the glo -- ry came God’s bless -- ed Son, \bar "."
-Lost ones \break to save, lost ones to save, \bar "."
-Went in -- to death and the vic -- to -- ry won, \bar "." \break
+Lost ones { \break } to save, lost ones to save, \bar "."
+Went in -- to death and the vic -- to -- ry won, \bar "." { \break }
 Tri -- um -- phant rose from the grave. __ \bar "."
 
 \RefrainA
