@@ -86,7 +86,8 @@ my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
 my @unmarkup = map { s/$markuppat/$1/g; $_ } @bare;
 my @trimmed = map { s/^\{\s*(.*?)\s*\}\s*$/$1/gm; $_ } @unmarkup;
-my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @trimmed;
+my @rescued = map { s/\\markup\s*($braces)/substr($1,1,-1)/ge; $_ } @trimmed;
+my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @rescued;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
