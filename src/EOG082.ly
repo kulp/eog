@@ -173,6 +173,9 @@ Says, “Sin -- ner, I am thine!”
   }
 }
 
+\noPageBreak
+
+\markup { \fill-line { \line { Alternate tune: No. 34. } } }
 \version "2.14.1"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
