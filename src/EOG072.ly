@@ -37,10 +37,10 @@ notesSoprano = {
 \relative c' {
 
 	e8.[ fis16] gis8 a8 b4 gis4 | e'4 e8 e8 dis8.[ cis16] b8
-	b8 | e4 e8 e8 dis8[ b8] cis8 cis8 | b2. r8
-	b8 | cis8 b8 cis8 e8 gis,4
+	b8 | e4 e8 e8 dis8[ b8] cis8 cis8 | b2 r4
+	b4 | cis8 b8 cis8 e8 gis,4
 	fis8 e8 fis8 e8 fis8 gis8 a8[ gis8]
-	a8. b16 | cis8[ b8] gis8 b8 b8[ a8] fis8 dis8 | e2. r8
+	a8. b16 | cis8[ b8] gis8 b8 b8[ a8] fis8 dis8 | e2. r4
 
   \bar "|."
 
@@ -52,10 +52,10 @@ notesAlto = {
 \relative e' {
 
 	e8.[ fis16] e8 e8 e4 e4 | gis4 gis8 fis8 fis8.[( e16)] dis8
-	fis8 | gis4 gis8 gis8 fis4 fis8 e8 | dis2. r8
-	e8 | e8 e8 e8 e8 e4
+	fis8 | gis4 gis8 gis8 fis4 fis8 e8 | dis2 r4
+	e4 | e8 e8 e8 e8 e4
 	dis8 e8 | dis8 e8 dis8 e8 e4
-	e8. e16 | fis4 e8 e8 dis4 dis8 b8 | b2. r8
+	e8. e16 | fis4 e8 e8 dis4 dis8 b8 | b2. r4
 
 }
 }
@@ -65,10 +65,10 @@ notesTenor = {
 \relative a {
 
 	gis8.[ a16] b8 a8 gis4 b4 | cis4 gis8 ais8 b4 b8
-	b8 | b4 b8 b8 b4 ais8 ais8 | b2. r8
-	gis8 | a8 b8 cis8 a8 b4
+	b8 | b4 b8 b8 b4 ais8 ais8 | b2 r4
+	gis4 | a8 b8 cis8 a8 b4
 	a8 gis b8 b8 b8 b8 a8[ b8]
-	cis8. e16 | b4 b8 gis8 fis4 a8 a8 | gis2. r8
+	cis8. e16 | b4 b8 gis8 fis4 a8 a8 | gis2. r4
 
 }
 }
@@ -78,10 +78,10 @@ notesBass = {
 \relative f {
 
 	e4 e8 e8 e4 e4 | e4 cis8 cis8 b4 b8
-	dis8 | cis4 e8 cis8 fis4 fis8 fis8 | b,2. r8
-	e8 | a,8 gis8 a8 cis8 e4
+	dis8 | cis4 e8 cis8 fis4 fis8 fis8 | b,2 r4
+	e4 | a,8 gis8 a8 cis8 e4
 	b8 cis8 | b8 gis'8 fis8 e8 cis8[ e8]
-	a8. gis16 | dis4 e8 e8 b4 b8 b8 | e2. r8
+	a8. gis16 | dis4 e8 e8 b4 b8 b8 | e2. r4
 
 }
 }
