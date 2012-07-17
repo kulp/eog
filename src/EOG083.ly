@@ -18,8 +18,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 4=90 }
-tb = { \tempo 4=45 }
+ta = { \tempo 4=100 }
+tb = { \tempo 4=50  }
 
 patternAA = { c4. c8 c4. c8 | c2 c2 }
 
@@ -46,7 +46,7 @@ global = {
   \autoBeamOff
 }
 
-notesSoprano = {
+notesSopranoA = {
 \global
 \relative c'' {
 
@@ -56,6 +56,12 @@ notesSoprano = {
   \changePitch \patternDA { a gis fis e | e }
 
   \bar "|."
+
+}
+}
+
+notesSopranoB = {
+\relative c'' {
 
   \changePitch \patternCA { gis fis gis a gis gis | fis e }
   \changePitch \patternBB { a gis fis e | dis }
@@ -67,7 +73,7 @@ notesSoprano = {
 }
 }
 
-notesAlto = {
+notesAltoA = {
 \global
 \relative e' {
 
@@ -75,6 +81,12 @@ notesAlto = {
   \changePitch \patternBA { dis e fis gis fis e | dis }
   \changePitch \patternCB { e e e e | e e }
   \changePitch \patternDB { cis dis e e dis | e }
+
+}
+}
+
+notesAltoB = {
+\relative e' {
 
   \changePitch \patternCA { e dis e fis e e | dis cis }
   \changePitch \patternBB { fis e dis cis | bis }
@@ -84,7 +96,7 @@ notesAlto = {
 }
 }
 
-notesTenor = {
+notesTenorA = {
 \global
 \relative a {
 
@@ -92,6 +104,12 @@ notesTenor = {
   \changePitch \patternBB { b b b b | b }
   \changePitch \patternCB { b b b b | b gis }
   \changePitch \patternDC { a b b a | gis }
+
+}
+}
+
+notesTenorB = {
+\relative a {
 
   \changePitch \patternCB { b b b b | a gis }
   \changePitch \patternBB { bis cis a gis | gis }
@@ -101,7 +119,7 @@ notesTenor = {
 }
 }
 
-notesBass = {
+notesBassA = {
 \global
 \relative f {
 
@@ -109,6 +127,12 @@ notesBass = {
   \changePitch \patternBB { b b, dis e | b }
   \changePitch \patternCA { e fis gis a gis gis | gis e }
   \changePitch \patternDD { fis gis a b b, | e }
+
+}
+}
+
+notesBassB = {
+\relative f {
 
   \changePitch \patternCB { e e e e | b cis }
   \changePitch \patternBB { dis e fis cis | gis' }
@@ -186,8 +210,8 @@ In the Sav -- iour’s \markup{name.{\super{★}}}
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Voice  = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
+      \context Voice  = altos { \voiceTwo { \notesAltoA \notesAltoB } }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -195,14 +219,29 @@ In the Sav -- iour’s \markup{name.{\super{★}}}
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \context Voice  = tenors { \voiceOne { \notesTenorA \notesTenorB } }
+      \context Voice  = basses { \voiceTwo { \notesBassA \notesBassB } }
     >>
 	\new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
   >>
   \layout {
     \include "common/layout.ily"
   }
+}
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne { \notesSopranoA \notesSopranoB \notesSopranoA } }
+      \context Voice  = altos { \voiceTwo { \notesAltoA \notesAltoB \notesAltoA } }
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne { \notesTenorA \notesTenorB \notesTenorA } }
+      \context Voice  = basses { \voiceTwo { \notesBassA \notesBassB \notesBassA } }
+    >>
+  >>
   \midi{
     \include "common/midi.ily"
   }
