@@ -110,10 +110,10 @@ Bound -- less mer -- cy flows for thee.
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Hark! the Sav -- iour’s voice from heav -- en,
-Speak -- ing par -- don full and free;
-Come, and thou shalt be for -- giv -- en,
-Bound -- less mer -- cy flows for thee.
+Hark! the Sav -- iour’s voice from heav -- en, \bar "."
+Speak -- ing par -- don full and free; \bar "."
+Come, and thou shalt be for -- giv -- en, \bar "."
+Bound -- less mer -- cy flows for thee. \bar "."
 
 }
 
