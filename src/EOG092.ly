@@ -41,13 +41,13 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { g a g c b a | a g r }
-  \changePitch \patternAA { f e f g a g | g( e) r }
-  \changePitch \patternAA { g a g c b a | a g r }
+  \changePitch \patternAA { f e f g a g | g( e) %{r%} } { \grace f4 } { \hideNotes r4 \unHideNotes }
+  \changePitch \patternAA { g a g c b a | a g %{r%} } { \grace f4 } { \hideNotes r4 \unHideNotes }
   \changePitch \patternAB { f e f g a b | c r }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { d d d d e d | c g r } >>
-  \changePitch \patternAC { a a a a b c | d r }
+  \changePitch \patternAC { a a a a b c | d %{r%} } { \grace dis4 } { \hideNotes r4 \unHideNotes }
   \changePitch \patternAA { e e f e c a | g e r }
   \changePitch \patternAB { f a g c b b | c r }
 
@@ -61,12 +61,12 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternAA { e f e e g f | f e r }
-  \changePitch \patternAA { d cis d e f e | e( c) r }
-  \changePitch \patternAA { e f e e g f | f e r }
+  \changePitch \patternAA { d cis d e f e | e( c) %{r%} } { \grace d4 } { \hideNotes r4 \unHideNotes }
+  \changePitch \patternAA { e f e e g f | f e %{r%} } { \grace d4 } { \hideNotes r4 \unHideNotes }
   \changePitch \patternAB { d cis d e f f | e r }
 
   \changePitch \patternAA { f f f f g f | e e r }
-  \changePitch \patternAC { e e e e e e | f r }
+  \changePitch \patternAC { e e e e e e | f %{r%} } { \grace fis4 } { \hideNotes r4 \unHideNotes }
   \changePitch \patternAA { g g a g e f | e c r }
   \changePitch \patternAB { c f e e d f | e r }
 
@@ -144,7 +144,8 @@ wordsC = \lyricmode {
 Have you an -- y time for Je -- sus,
 As in grace He calls a -- gain?
 O, to -- day is time ac -- cept -- ed,
-To -- mor -- row you may call in vain?
+% XXX the "To" in "To -- mor -- row" is supposed to go with the grace notes
+Tomor -- row you may call in vain?
 
 }
 
