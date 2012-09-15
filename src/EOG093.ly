@@ -112,10 +112,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-With -- out a price may go,__ \bar "."
-With -- out a price may go;__ \bar "." \break
-Free to that o -- pen foun -- tain__ all \bar "."
-With -- out a price may go.__ \bar "." \break
+With -- out a price may go, __ \bar "."
+With -- out a price may go; __ \bar "." \break
+Free to that o -- pen foun -- tain __ all \bar "."
+With -- out a price may go. __ \bar "." \break
 
 }
 
