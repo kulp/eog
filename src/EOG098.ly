@@ -117,10 +117,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Just on the thresh -- old,– and Christ calls to thee!
-Come! with the par -- doned for -- ev -- er to be!
-Just on the thresh -- old– why lin -- ger so long?
-Sing, with the ran -- somed, E -- ter -- ni -- ty’s song!
+Just on the thresh -- old,– and Christ calls to thee! \bar "."
+Come! with the par -- doned for -- ev -- er to be! \bar "."
+Just on the thresh -- old– why lin -- ger so long? \bar "."
+Sing, with the ran -- somed, E -- ter -- ni -- ty’s song! \bar "."
 
 }
 
