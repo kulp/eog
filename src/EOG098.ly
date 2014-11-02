@@ -120,7 +120,7 @@ Refrain = \lyricmode {
 Just on the thresh -- old,– and Christ calls to thee!
 Come! with the par -- doned for -- ev -- er to be!
 Just on the thresh -- old– why lin -- ger so long?
-Sing, with the ran -- somed, E -- ter -- ni -- ty's song!
+Sing, with the ran -- somed, E -- ter -- ni -- ty’s song!
 
 }
 
@@ -138,7 +138,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Just on the thresh -- old, and joy near at hand;
-Yon -- der's the gleam of Im -- man -- u -- el's land;
+Yon -- der’s the gleam of Im -- man -- u -- el’s land;
 Ref -- uge and rest are now of -- fered to thee:
 Sin or sal -- va -- tion— O, which shall it be?
 
@@ -152,7 +152,7 @@ wordsC = \lyricmode {
 Just on the thresh -- old,– O, make now thy choice;
 Come with the ser -- vants of Christ, and re -- joice!
 Je -- sus is call -- ing, O, turn not a -- side!
-Come! 'tis the voice of the Spir -- it and Bride!
+Come! ‘tis the voice of the Spir -- it and Bride!
 
 }
 
