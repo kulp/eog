@@ -78,14 +78,14 @@ my $strips = qr<
 my $file = shift;
 my $contents = slurp '<:utf8' => $file;
 my @verses = $contents =~ /$lyricpat/g;
-my @groups = ngroup 4 => \@verses;
+my @groups = ngroup 5 => \@verses;
 my %groups = map { ("$_->[1]$_->[2]" => $_->[3]) } @groups;
 # TODO indent refrain(s)
 my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } 'B'..'Z');
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
 my @unmarkup = map { s/$markuppat/$1/g; $_ } @bare;
-my @trimmed = map { s/^\{\s*(.*?)\s*\}\s*$/$1/gm; $_ } @unmarkup;
+my @trimmed = map { s/^\{\s*(.*?)\s*\}\s*(%.*)?$/$1/gm; $_ } @unmarkup;
 my @rescued = map { s/\\markup\s*($braces)/substr($1,1,-1)/ge; $_ } @trimmed;
 my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @rescued;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
