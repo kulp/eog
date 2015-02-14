@@ -121,7 +121,7 @@ my @outs = map {
     } @$_), "\n")
 } @words;
 
-print @outs;
+print for map { s/ +/ /g; $_ } @outs;
 
 warn "$_\n" for sort keys %{+{ map { $_ => 1 } @unknown }};
 
