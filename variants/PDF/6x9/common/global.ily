@@ -1,8 +1,8 @@
 %#(set-default-paper-size "EOGsized")
-% TODO \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 4)
+% TODO \override VerticalAxisGroup.minimum-Y-extent = #'(-1 . 4)
 #(set-global-staff-size 14)
-italicsOn  = \override LyricText #'font-shape = #'italic
-italicsOff = \override LyricText #'font-shape = #'upright
+italicsOn  = \override LyricText.font-shape = #'italic
+italicsOff = \override LyricText.font-shape = #'upright
 
 \include "inc/changePitch.ly"
 
