@@ -62,7 +62,7 @@ notesSoprano = {
 
   << s^\markup { \small \caps "Refrain"  }
   \time 12/8
-  \partial 4.
+  \set Timing.measurePosition = #(ly:make-moment -3 8)
   \changePitch \patternBA { aes bes c    | des des des f, aes des  | c c     } >>
   \changePitch \patternBB { ees, aes c   | bes bes bes bes aes bes | c c     }
   \changePitch \patternBA { aes bes c    | des des des f, aes des  | c c     }
