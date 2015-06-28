@@ -24,7 +24,7 @@ tb = { \tempo 2=36 }
 patternAA = { c2 c4. c8 c2 c4 c4 | c4. c8 c4 c4 c1 }
 patternAB = { c2 c4. c8 c2 c2    | c4. c8 c4 c4 c1 }
 
-patternBA = { c1 c2 c2 | c1 c2 c4 c4 | c2. c4 c2 c | c1 c1 }
+patternBA = { c1 c2 c2 | c1 c2 c4 c4 | c2. c4 c2 c2 | c1 c1 }
 
 global = {
   \include "common/overrides.ily"
@@ -43,11 +43,11 @@ notesSoprano = {
 
   % XXX too much vspace
   << s^\markup { \italic "Slow, with expression." }
-  \changePitch \patternAA { c b c a f | a a g f g } >>
+  \changePitch \patternAA { c b c a r f | a a g f g } >>
   \changePitch \patternAB { bes c g bes a | g c b d c }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternBA { c a | c^\markup { \dynamic p } a f^\markup { \dynamic mf } | a bes a g | f r } >>
+  \changePitch \patternBA { c a r | c^\markup { \dynamic p } a r f^\markup { \dynamic mf } | a bes a g | f r } >>
 
   \bar "|."
 
@@ -58,10 +58,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { a gis a f c | f f c c e  }
+  \changePitch \patternAA { a gis a f r c | f f c c e  }
   \changePitch \patternAB { e e e g f | e e f f e }
 
-  \changePitch \patternBA { f f | f f c | f f f e | f r}
+  \changePitch \patternBA { f f r | f f r c | f f f e | f r }
 
 }
 }
@@ -70,10 +70,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { c d c c a | c c bes a c }
+  \changePitch \patternAA { c d c c r a | c c bes a c }
   \changePitch \patternAB { c g c c c | c c d b c }
 
-  \changePitch \patternBA { a c | a c a | c d c bes | a r }
+  \changePitch \patternBA { a c r | a c r a | c d c bes | a r }
 
 }
 }
@@ -82,10 +82,10 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { f f f f f | f f e f c }
+  \changePitch \patternAA { f f f f r f | f f e f c }
   \changePitch \patternAB { c c c f f | g g g g c, }
 
-  \changePitch \patternBA { f f | f f f | f bes, c c | < f f, > r }
+  \changePitch \patternBA { f f r | f f r f | f bes, c c | < f f, > r }
 
 }
 }
