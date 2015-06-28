@@ -23,9 +23,9 @@ tb = { \tempo 4=35 }
 
 patternAA = { c4 c8 | c4 c8 | c8 c8 c8 | c4 c8 }
 patternAB = { c4 c8 | c4 c8 | c8 c8 c8 | c4 c8 }
-patternAC = { c4 c8 | c4 c8 \grace c8 | c8 c8 c8 | c4 c8 \grace c8 } % NOTE grace note was a c16, changed to c8 for audio aesthetic
-patternBA = { c8 c8 c8 | c8 c8 c8 | c4 c8 }
-patternCA = { c4 c8 | c4 c8 | c4 c8 | c4 c8 \grace c8 }
+patternAC = { c4 c8 | c4 \grace c8 c8 | c8 c8 c8 | c4 c8 }
+patternBA = { \grace c16 c8 c8 c8 | c8 c8 c8 | c4 c8 }
+patternCA = { c4 c8 | c4 c8 | c4 c8 | c4 c8 }
 
 global = {
   \include "common/overrides.ily"
@@ -42,12 +42,12 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { b | b | b a b | d c }
-  \changePitch \patternAB { a | a | a g a | b r }
-  \changePitch \patternAC { b | b b | b a b | d c a }
-  \changePitch \patternBA { a gis a | d c a | g r }
-  \changePitch \patternCA { e' | d | c | b b }
-  \changePitch \patternBA { a gis a | d c a | g r }
+  \changePitch \patternAA { b r | b r | b a b | d c }
+  \changePitch \patternAB { a r | a r | a g a | b r }
+  \changePitch \patternAC { b r | b b r | b a b | d c }
+  \changePitch \patternBA { a a gis a | d c a | g r }
+  \changePitch \patternCA { e' r | d r | c r | b r }
+  \changePitch \patternBA { b a gis a | d c a | g r }
 
   \bar "|."
 
@@ -58,12 +58,12 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { g | g g d g | b a }
-  \changePitch \patternAB { d, | d | d d fis | g r }
-  \changePitch \patternAC { g | g g | g d g | b a fis }
-  \changePitch \patternBA { fis eis fis | g d fis | g r }
-  \changePitch \patternCA { c | b | a | g g }
-  \changePitch \patternBA { fis eis fis | fis d fis | g r }
+  \changePitch \patternAA { g r | g r | g d g | b a }
+  \changePitch \patternAB { d, r | d r | d d fis | g r }
+  \changePitch \patternAC { g r | g g r | g d g | b a }
+  \changePitch \patternBA { fis fis eis fis | g d fis | g r }
+  \changePitch \patternCA { c r | b r | a r | g r }
+  \changePitch \patternBA { g fis eis fis | fis d fis | g r }
 
 }
 }
@@ -72,12 +72,12 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { d | d | d d d | d d }
-  \changePitch \patternAB { fis, | fis | fis e fis | g r }
-  \changePitch \patternAC { d' | d d | d d d | d d d }
-  \changePitch \patternBA { d d d | b a c | b r }
-  \changePitch \patternCA { c | d | d | d d }
-  \changePitch \patternBA { d d d | a fis c' | b r }
+  \changePitch \patternAA { d r | d r | d d d | d d }
+  \changePitch \patternAB { fis, r | fis r | fis e fis | g r }
+  \changePitch \patternAC { d' r | d d r | d d d | d d }
+  \changePitch \patternBA { d d d d | b a c | b r }
+  \changePitch \patternCA { c r | d r | d r | d r }
+  \changePitch \patternBA { d d d d | a fis c' | b r }
 
 }
 }
@@ -86,12 +86,12 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { g | g | g fis g | fis d }
-  \changePitch \patternAB { d | d | d d d | g, r }
-  \changePitch \patternAC { g' | g g | g fis g | fis d d }
-  \changePitch \patternBA { d d d | d d d | g, r }
-  \changePitch \patternCA { c | g' | fis | g g }
-  \changePitch \patternBA { d d d | d d d | g r }
+  \changePitch \patternAA { g r | g r | g fis g | fis d }
+  \changePitch \patternAB { d r | d r | d d d | g, r }
+  \changePitch \patternAC { g' r | g g r | g fis g | fis d }
+  \changePitch \patternBA { d d d d | d d d | g, r }
+  \changePitch \patternCA { c r | g' r | fis r | g r }
+  \changePitch \patternBA { g d d d | d d d | g r }
 
 }
 }
