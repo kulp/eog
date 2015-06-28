@@ -35,9 +35,9 @@ patternEB = { c8. c16 c8 c8 c8 c8 | c8 c8 c8 c4 c8 | c8. c16 c8 c8 c8 c8 | c4. ~
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 6/8
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
   %\partial 4
@@ -188,6 +188,6 @@ Do not, o, do not de -- lay! __
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

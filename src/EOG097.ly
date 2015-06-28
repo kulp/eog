@@ -29,9 +29,9 @@ patternBB = { c2 c2 c2 c2 | c2 c2 c1 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/2
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
   %\partial 4
@@ -118,7 +118,7 @@ Be ye re -- con -- ciled to God.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { Now no barrier to hinder, }
 \line { Jesus has removed it all; }
@@ -127,7 +127,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Let thy soul delight the Saviour }
 \line { By submitting to His love; }
@@ -164,9 +164,9 @@ wordsE = \markuplines {
 
 \markup { \fill-line { %\column {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
   \hspace #0.1
 } } %}
 
@@ -174,6 +174,6 @@ wordsE = \markuplines {
 
 \markup { \vspace #1.4 \fill-line { \line { Alternate tune: No. 288 } } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

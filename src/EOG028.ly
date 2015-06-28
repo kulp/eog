@@ -25,9 +25,9 @@ patternA = { c4 c8 c8 c4 c8 c8 | c4 c8 c8 c2 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key aes \major
   %\partial 4
@@ -172,6 +172,6 @@ So shall your hap -- pi -- ness ev -- er en -- dure!
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

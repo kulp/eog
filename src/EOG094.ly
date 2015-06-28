@@ -32,9 +32,9 @@ patternBD = { c8 c8 c8. c16 | c4. r8 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 2/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key d \major
   %\partial 4
@@ -153,7 +153,7 @@ Mer -- cies ev -- er sure.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { O, His tender love and pity! }
 \line { Still He calls today; }
@@ -162,7 +162,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { From all sin He came to save us }
 \line { Satan’s slaves to free: }
@@ -198,12 +198,12 @@ wordsE = \markuplines {
 \noPageBreak
 
 \markup { \fill-line { \column {
-  \line{ \bold 4 \column { \wordsD } } \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
 
 \pageBreak
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

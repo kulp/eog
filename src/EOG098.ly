@@ -33,9 +33,9 @@ patternGA = { c4 c4 c4 | c4 c8 r8 c4 | c4 c4. c8 | c2. }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
   \autoBeamOff
@@ -181,12 +181,12 @@ Come! ‘tis the voice of the Spir -- it and Bride!
 }
 
 %\markup { \fill-line { \column {
-%  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-%  \line{ \bold 6 \column { \wordsF } } \vspace #0.4
-%  \line{ \bold 7 \column { \wordsG } } \vspace #0.4
-%  \line{ \bold 8 \column { \wordsH } } \vspace #0.4
+%  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+%  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+%  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
+%  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
 %} } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

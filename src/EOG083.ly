@@ -37,9 +37,9 @@ patternDE = { c4 c8[ c8] c4. c8 | c1 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key e \major
   %\partial 4
@@ -145,7 +145,7 @@ notesBassB = {
 Refrain = \lyricmode {
 
 % need the overrides on the same line as the first lyrics line for getlyrics.pl
-{ \override LyricText #'font-size = #-1 \override Lyrics . LyricText #'font-shape = #'italic } \markup{{\super{★}}Ev} -- er -- last -- ing glo -- ry un -- to Je --  sus be!
+{ \override LyricText.font-size = #-1 \override Lyrics.LyricText.font-shape = #'italic } \markup{{\super{★}}Ev} -- er -- last -- ing glo -- ry un -- to Je --  sus be!
 Sing a -- loud the sto -- ry of His vic -- to -- ry!
 
 }
@@ -251,6 +251,6 @@ In the Sav -- iour’s \markup{name.{\super{★}}}
 
 \markup { \fill-line { \line { Alternate tune: No. 349. } } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

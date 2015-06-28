@@ -31,9 +31,9 @@ patternAG = { c4.( c8) c4 c4 | c2 c2      | c2      c4( c4) | c1 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
   %\partial 4
@@ -130,7 +130,7 @@ And found I had no hid -- ing place.
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Indignant Justice stood in view, }
 \line { To Sinai’s fiery mount I flew; }
@@ -139,7 +139,7 @@ wordsE = \markuplines {
 
 }
 
-wordsF = \markuplines {
+wordsF = \markuplist {
 
 \line { On Jesus, God’s just vengeance fell, }
 \line { Which would have sunk a world to hell; }
@@ -148,7 +148,7 @@ wordsF = \markuplines {
 
 }
 
-wordsG = \markuplines {
+wordsG = \markuplist {
 
 \line { Should sevenfold storms of thunder roll, }
 \line { And shake this globe from pole to pole, }
@@ -157,7 +157,7 @@ wordsG = \markuplines {
 
 }
 
-wordsH = \markuplines {
+wordsH = \markuplist {
 
 \line { A few more rolling suns at most, }
 \line { Shall land me on fair Canaan’s coast, }
@@ -203,12 +203,12 @@ wordsH = \markuplines {
 
 \markup { \fill-line { \column {
 	% TODO centre number above verse as in original
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } \vspace #0.4
-  \line{ \bold 7 \column { \wordsG } } \vspace #0.4
-  \line{ \bold 8 \column { \wordsH } } \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
+  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
 } } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

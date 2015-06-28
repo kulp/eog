@@ -28,9 +28,9 @@ patternBB = { c2 | c2. c4 c2 c2 | c1. }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/2
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
   \partial 2
@@ -176,6 +176,6 @@ Says, “Sin -- ner, I am thine!”
 \noPageBreak
 
 \markup { \fill-line { \line { Alternate tune: No. 34. } } }
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

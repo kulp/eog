@@ -25,8 +25,8 @@ patternS = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Tenor Refrain
 global = {
   \include "common/overrides.ily"
   %\autoBeamOff
-  \override Staff.TimeSignature #'style = #'() \time 3/4
-  \once \override Score.MetronomeMark #'transparent = ##t
+  \override Staff.TimeSignature.style = #'() \time 3/4
+  \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 96
   \key aes \major
   %\partial 4.
@@ -167,6 +167,6 @@ wordsD = \lyricmode {
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

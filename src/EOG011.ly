@@ -28,9 +28,9 @@ patternH = { c2 c4 c4 | c2 c2      | c2 c4( c4) | c2. r4 } % Line 2 tenor
 global = {
   \include "common/overrides.ily"
   %\autoBeamOff
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \once \override Score.MetronomeMark #'transparent = ##t
+  \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 120
   \key g \major
   %\partial 4
@@ -154,6 +154,6 @@ Who seeks to save, who died for all.
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

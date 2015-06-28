@@ -33,9 +33,9 @@ patternBB = { \ta c4 | c4. c8 c8. c16 | \tb c4. \fermata \tb } %
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
   \partial 4.
@@ -199,7 +199,7 @@ And did for sin a -- tone!
 
 TenorRefrainA = \lyricmode {
 
-	\override LyricText #'font-size = #-2
+	\override LyricText.font-size = #-2
 	\repeat unfold 60 { \skip 4 }
 	for Him!
 	\repeat unfold 4 { \skip 4 }
@@ -234,6 +234,6 @@ TenorRefrainA = \lyricmode {
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

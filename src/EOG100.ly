@@ -23,9 +23,9 @@ tb = { \tempo 2=50 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/2
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
   \partial 2
@@ -126,7 +126,7 @@ And Je -- sus, Lord con -- fess.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { Let all who know our God rejoice }
 \line { Praise Him in songs with cheerful voice, }
@@ -137,7 +137,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { The Spirit and the bride say, Come! }
 \line { Let him that heareth, too, say, Come! }
@@ -175,12 +175,12 @@ wordsE = \markuplines {
 \noPageBreak
 
 \markup { \fill-line { \column {
-  \line{ \bold 4 \column { \wordsD } } \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
 
 \pageBreak
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

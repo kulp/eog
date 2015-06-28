@@ -33,9 +33,9 @@ patternCC = { c4 c8 c8 c8 c8 | c4. c4. }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 6/8
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key bes \major
   %\partial 4
@@ -154,7 +154,7 @@ This is the Sav -- iour for me.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { Loved with a love that’s unchanging, }
 \line { Blessed with all blessings so free, }
@@ -163,7 +163,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Soon shall the glory be dawning, }
 \line { Then when His face I shall see, }
@@ -200,14 +200,14 @@ wordsE = \markuplines {
 
 \markup { \fill-line { %\column {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
   \hspace #0.1
 } } %}
 
 \pageBreak
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

@@ -38,9 +38,9 @@ patternEB = { c8 | c4 c8 c4      c8 | c4. }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 6/8
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
   \partial 4.
@@ -181,7 +181,7 @@ Bless His Name!
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { Some said, “He’ll soon give o’er, }
 \line { You shall see, you shall see!” }
@@ -194,7 +194,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { So now I’m going home }
 \line { To the Lord, to the Lord. }
@@ -235,12 +235,12 @@ wordsE = \markuplines {
 
 \markup { \fill-line { %\column {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
   \hspace #0.1
 } } %}
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

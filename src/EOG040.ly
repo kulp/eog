@@ -21,8 +21,8 @@
 ta = { \tempo 4=90 }
 tb = { \tempo 4=45 }
 
-lyricsInvis = { \override LyricText #'stencil = ##f \override LyricHyphen #'stencil = ##f }
-lyricsVis = { \revert LyricText #'stencil \revert LyricHyphen #'stencil }
+lyricsInvis = { \override LyricText.stencil = ##f \override LyricHyphen.stencil = ##f }
+lyricsVis = { \revert LyricText.stencil \revert LyricHyphen.stencil }
 
 patternAA = { c4 | c4. c8 c4 c4 | c2( c4) }
 patternAB = { c4 | c4. c8 c4 c4 | c2.     }
@@ -37,9 +37,9 @@ patternDD = { c8[ c8] | c4.( c8 c4) c4 | c4.( c8 c4) c4 | c2 c2      | c2. }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 2/2
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
   \partial 4
@@ -214,6 +214,6 @@ Sal -- va -- tion thro’ His name;
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

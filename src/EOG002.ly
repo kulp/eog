@@ -62,8 +62,8 @@ notesBass = {
 global = {
   \include "common/overrides.ily"
   \autoBeamOff
-  \override Staff.TimeSignature #'style = #'() \time 3/4
-  \once \override Score.MetronomeMark #'transparent = ##t
+  \override Staff.TimeSignature.style = #'() \time 3/4
+  \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 70
   \key f \major
   \partial 4
@@ -134,5 +134,5 @@ wordsC = \lyricmode {
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 

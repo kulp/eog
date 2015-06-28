@@ -42,9 +42,9 @@ patternCE = { c4 c8      | c4 c8 c4 c8 c4 c8 c4 c8    | c2. ~ c4.       }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 9/8
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key aes \major
   \partial 4.
@@ -126,7 +126,7 @@ notesBass = {
 
 SopranoRefrainA = \lyricmode {
 
-\override LyricText #'font-size = #-2
+\override LyricText.font-size = #-2
 \repeat unfold 38 { \skip 4 }
 With His blood __
 
@@ -164,7 +164,7 @@ Paid the debt, and made me free.
 
 TenorRefrain = \lyricmode {
 
-\override LyricText #'font-size = #-2
+\override LyricText.font-size = #-2
 \repeat unfold 46 { \skip 4 }
 With His blood __ He pur -- chased me, He pur -- chased me;
 On the cross He sealed my par -- don, On the cross He sealed my par -- don,
@@ -174,7 +174,7 @@ Paid the debt and made me free, and made me free, and made me free.
 
 BassRefrain = \lyricmode {
 
-\override LyricText #'font-size = #-2
+\override LyricText.font-size = #-2
 \repeat unfold 30 { \skip 4 }
 Sing, O! sing of my Re -- deem -- er, Sing, O! sing of my Re -- deem -- er,
 With His blood He pur -- chased me, With His blood He pur -- chased me;
@@ -244,6 +244,6 @@ O -- ver sin, and death, and hell.
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

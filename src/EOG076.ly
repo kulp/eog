@@ -31,9 +31,9 @@ patternBB = { c2 c4 c4 | c4 c4 c4 c4 | c2. c4 | c1 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key e \major
   %\partial 4
@@ -120,7 +120,7 @@ And is be -- seech -- ing men that love to prove.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { “Come unto Me,” Yes, God Himself says “Come!” }
 \line { He sees afar, and runs to welcome home }
@@ -129,7 +129,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { “Come unto Me,” O, blessed open door }
 \line { For those who but for Christ had hoped no more! }
@@ -138,7 +138,7 @@ wordsE = \markuplines {
 
 }
 
-wordsF = \markuplines {
+wordsF = \markuplist {
 
 \line { “Come unto Me,” For Christ the risen Lord }
 \line { Now speaks from glory through the written word; }
@@ -181,16 +181,16 @@ wordsF = \markuplines {
 		\column {
 			\fill-line {
 				\hspace #0.1
-				\line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+				\line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
 				\hspace #0.1
-				\line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+				\line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
 			}
 
-			\vspace #1.4
+			\combine \null \vspace #1.4
 
 			\fill-line { %\column {
 				\hspace #0.1
-				\line{ \bold 6 \column { \wordsF } } %\vspace #0.4
+				\line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
 				\hspace #0.1
 			}
 		}
@@ -200,11 +200,11 @@ wordsF = \markuplines {
 %}
 
 \markup { \fill-line { \column {
-  \line{ \bold 4 \column { \wordsD } } \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } %\vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
 } } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

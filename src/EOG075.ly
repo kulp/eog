@@ -31,9 +31,9 @@ patternAC = \patternBB
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 6/8
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
   \partial 8
@@ -49,7 +49,7 @@ notesSoprano = {
   \changePitch \patternAA { g | g g e g | a c b } \bar "."
   \changePitch \patternBB { a | g g b a b | c ~ c } %\bar "."
 
-	\bar "||:"
+	\bar ".|:-||"
 	\repeat volta 2 {
 
   \changePitch \patternAC { c | d d d c b | c( g) } \bar "."
@@ -209,6 +209,6 @@ What hast thou brought to Me?
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

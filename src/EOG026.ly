@@ -30,9 +30,9 @@ patternBC = { c8 ~ c8 | c4      c4      c4      | c2 c8( c8) | c4 c4 c4 | c2 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
   \partial 4
@@ -129,7 +129,7 @@ With mu -- sic and danc -- ing— ’tis some -- thing so new,
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Ah! nothing to do! for the sinner that’s dead }
 \line { Must needs have another to work in his stead: }
@@ -138,7 +138,7 @@ wordsE = \markuplines {
 
 }
 
-wordsF = \markuplines {
+wordsF = \markuplist {
 
 \line { Which shut up the world to its folly and strife, }
 \line { But opened a passage from death unto life.       }
@@ -174,10 +174,10 @@ wordsF = \markuplines {
 }
 
 \markup { \fill-line { \column {
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
 } } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

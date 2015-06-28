@@ -33,9 +33,9 @@ patternF = { \ta c4           | c4. c8 c8 c8 | \tb c2 \fermata } % Refrain line 
 global = {
   \include "common/overrides.ily"
   %\autoBeamOff
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key d \major
   \partial 4
@@ -181,6 +181,6 @@ While press -- ing on to God.
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

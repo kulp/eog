@@ -29,9 +29,9 @@ patternBB = { c8 c8 c8 | c8 c8 c4 c4        | c4. }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
   \partial 4.
@@ -150,7 +150,7 @@ I sang up -- on re -- demp -- tion ground.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { No works of merit now I plead, }
 \line { But Jesus take for all my need; }
@@ -159,7 +159,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Come, weary soul, and here find rest; }
 \line { Accept redemption, and be blessed: }
@@ -196,12 +196,12 @@ wordsE = \markuplines {
 
 \markup { \fill-line { %\column {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
   \hspace #0.1
 } } %}
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

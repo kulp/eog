@@ -39,9 +39,9 @@ patternDA = { \ta c4 r4 c4 r4 | c4 c4 \tb c4 \fermata \ta }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
   \partial 4
@@ -54,11 +54,11 @@ notesSoprano = {
 
   \changePitch \patternAA { g a | b b b b c b | b a g a b }
   \changePitch \patternBA { b c | d d d d b g b | a }
-  \changePitch \patternAC { g a | b^| b b b c b | b a g a b }
+  \changePitch \patternAC { g a | b^! b b b c b | b a g a b }
   \changePitch \patternCA { b c | d b g a b a | g r }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternDA { a^| b^| | cis^| cis^| d } >>
+  \changePitch \patternDA { a^! b^! | cis^! cis^! d } >>
   \changePitch \patternAE { g, a | b b b b c b | b a g a b }
   \changePitch \patternCC { b c | d b g a b a | g r }
 
@@ -97,7 +97,7 @@ notesBass = {
   \changePitch \patternAD { g | g g g g g g | d d d g }
   \changePitch \patternCB { g g | g g b, d d d | g r }
 
-  \changePitch \patternDA { d^| g^| | e^| e^| d }
+  \changePitch \patternDA { d^! g^! | e^! e^! d }
   \changePitch \patternAF { g g | g g g g g g | d d d | g }
   \changePitch \patternCC { g g | g g b, d d d | g r }
 
@@ -190,6 +190,6 @@ Since Je -- sus, thy right -- eous -- ness, lives.
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

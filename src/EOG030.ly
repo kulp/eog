@@ -24,18 +24,18 @@ tb = { \tempo 4=40 }
 patternAA = { c8. c16 | c4 c4 c8. c16 | c4 c4 }
 
 patternBA = { c8. c16 | c8. c16 c4 c4 | c2 }
-patternBB = { r4 | \once \override MultiMeasureRest #'staff-position = #-8 R1*3/4 | r2 }
+patternBB = { r4 | \once \override MultiMeasureRest.staff-position = #-8 R1*3/4 | r2 }
 % needs more tweaking that we can provide in a pattern
-%patternBC = { r4 | \once \override MultiMeasureRest #'staff-position = #-2 R1*3/4 | r2 }
+%patternBC = { r4 | \once \override MultiMeasureRest.staff-position = #-2 R1*3/4 | r2 }
 
 patternCA = { c8. c16 | c4 c4 }
 patternCB = { r4 | r2 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 3/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key d \major
   \partial 4
@@ -107,14 +107,14 @@ notesBass = {
 <<
   { b4 \rest | b2 \rest }
 \\
-  \override NoteHead #'font-size = #-4 { \skip 4 | d,2 ~ }
+  \override NoteHead.font-size = #-4 { \skip 4 | d,2 ~ }
 >>
 
 <<
   % XXX hacky (extra-offset doesn't scale, for one thing)
-  { b'4 \rest | \once \override Rest #'extra-offset = #'(15 . 0) b1*3/4 \rest | \once \override Rest #'extra-offset = #'(1.7 . 0) b2 \rest }
+  { b'4 \rest | \once \override Rest.extra-offset = #'(15 . 0) b1*3/4 \rest | \once \override Rest.extra-offset = #'(1.7 . 0) b2 \rest }
 \\
-  \override NoteHead #'font-size = #-4 { d,4 g4 a4 a4 | d4 d,4 }
+  \override NoteHead.font-size = #-4 { d,4 g4 a4 a4 | d4 d,4 }
 >>
 
   \changePitch \patternCA { d' d | d d }
@@ -205,6 +205,6 @@ Of the ev -- er -- gra -- cious One—
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

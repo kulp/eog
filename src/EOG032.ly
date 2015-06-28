@@ -28,9 +28,9 @@ patternBA = { c1 c2 r2 | c1 c2 r4 c4 | c2. c4 c2 c | c1 r1 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/2
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
   %\partial 4
@@ -142,28 +142,28 @@ Make haste, make haste; ’tis not too full for thee.
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Yet there is room! Still open stands the gate, }
 \line { The gate is love; it is not yet too late.      }
 
 }
 
-wordsF = \markuplines {
+wordsF = \markuplist {
 
 \line { Pass in! pass in! That banquet is for thee; }
 \line { That cup of everlasting love is free.       }
 
 }
 
-wordsG = \markuplines {
+wordsG = \markuplist {
 
 \line { Louder and sweeter sounds the loving call:    }
 \line { Come, lingerer, come; enter that festal hall. }
 
 }
 
-wordsH = \markuplines {
+wordsH = \markuplist {
 
 \line { Ere night that gate may close, and seal thy doom: } 
 \line { Then the last low, long cry, “No room! no room!”  } % XXX original does not have closing quote
@@ -197,13 +197,13 @@ wordsH = \markuplines {
 }
 
 \markup { \fill-line { \column {
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } \vspace #0.4
-  \line{ \bold 7 \column { \wordsG } } \vspace #0.4
-  \line{ \bold 8 \column { \wordsH } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
+  \line{ \bold 8 \column { \wordsH } } %\combine \null \vspace #0.4
 } } }
 
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

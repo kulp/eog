@@ -29,9 +29,9 @@ patternBB = { c4      | c4 c4 c4 c4 c4 c4 | c2. ~ c2 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 6/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key aes \major
   \partial 4
@@ -164,7 +164,7 @@ But think not to { \mon } mea -- sure { \moff } His love.
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Behold Him, O soul, where He told it, }
 \line { Pale, bleeding, and bearing thy sin; }
@@ -178,7 +178,7 @@ wordsE = \markuplines {
 
 }
 
-wordsF = \markuplines {
+wordsF = \markuplist {
 
 \line { “Behold, with what labor I won thee, }
 \line { Behold in My hands and My feet, }
@@ -222,10 +222,10 @@ wordsF = \markuplines {
 }
 
 \markup { \fill-line { \column {
-  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
 } } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

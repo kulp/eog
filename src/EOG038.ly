@@ -34,9 +34,9 @@ patternCE = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4          }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
   \partial 4
@@ -146,7 +146,7 @@ Bless -- ed news to you and me. \bar "." \break
 
 RefrainBottomClef = \lyricmode {
 
-\override LyricText #'font-size = #-2
+\override LyricText.font-size = #-2
 \repeat unfold 57 { \skip 4 }
 Gos -- pel bells,
 how they ring,
@@ -242,12 +242,12 @@ Which is Christ the Lord” and King.
 }
 
 %\markup { \fill-line { \column {
-%  \line{ \bold 5 \column { \wordsE } } \vspace #0.4
-%  \line{ \bold 6 \column { \wordsF } } \vspace #0.4
-%  \line{ \bold 7 \column { \wordsG } } \vspace #0.4
-%  \line{ \bold 8 \column { \wordsH } } \vspace #0.4
+%  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+%  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+%  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
+%  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
 %} } }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

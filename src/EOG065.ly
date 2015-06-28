@@ -31,9 +31,9 @@ patternBA = { c8 c8 c8 c8 c8 c8 c8 c8 | c4 c8. c16 c2 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/4
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
   %\partial 4
@@ -115,7 +115,7 @@ notesSoprano = {
 
 notesRightHand = {
 \global
-\override Stem #'direction = #UP
+\override Stem.direction = #UP
 \relative e' {
 
 r4 < b d g >4 < b d g >4 < b d g >4 | r4 < b d g >4 < a d fis >2
@@ -128,7 +128,7 @@ r4 < c e g >4 < c e g >4 < c e g >4 | r4 < a c d fis >4 < b d g >2
 
 notesLeftHand = {
 \global
-\override Stem #'direction = #UP
+\override Stem.direction = #UP
 \clef bass
 \relative f, {
 
@@ -206,7 +206,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \context ChoirStaff <<
     \context Staff = upper <<
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \override Staff.TimeSignature #'stencil = ##f
+      \override Staff.TimeSignature.stencil = ##f
       \context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
       \context Voice  = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
@@ -248,6 +248,6 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   }
 }
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond

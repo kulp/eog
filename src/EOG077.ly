@@ -31,14 +31,14 @@ patternBC = { c2 c2 c2 c2      | c2 c2      c1 }
 
 patternCA = { \patternAB }
 
-patternDA = { c2 c2 c2 c2 | c1 c1      | \override Staff.NoteHead #'style = #'altdefault c\breve \revert Staff.NoteHead #'style }
-patternDB = { c2 c2 c2 c2 | c1 c2( c2) | \override Staff.NoteHead #'style = #'altdefault c\breve \revert Staff.NoteHead #'style }
+patternDA = { c2 c2 c2 c2 | c1 c1      | \override Staff.NoteHead.style = #'altdefault c\breve \revert Staff.NoteHead.style }
+patternDB = { c2 c2 c2 c2 | c1 c2( c2) | \override Staff.NoteHead.style = #'altdefault c\breve \revert Staff.NoteHead.style }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'()
   \time 4/2
-  \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
   %\partial 4
@@ -143,7 +143,7 @@ Sin -- ners Je -- sus came to call.
 
 }
 
-wordsD = \markuplines {
+wordsD = \markuplist {
 
 \line { Agonizing in the garden, }
 \line { Lo! the Saviour prostrate lies; }
@@ -154,7 +154,7 @@ wordsD = \markuplines {
 
 }
 
-wordsE = \markuplines {
+wordsE = \markuplist {
 
 \line { Lo! the Incarnate God ascended, }
 \line { Pleads the merits of His blood; }
@@ -193,12 +193,12 @@ wordsE = \markuplines {
 
 \markup { \fill-line { %\column {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
   \hspace #0.1
 } } %}
 
-\version "2.14.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
