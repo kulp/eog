@@ -82,9 +82,9 @@ notesAlto = {
   \changePitch \patternAB { e e | d d ees ees | d d   }
   \changePitch \patternBA { d f | f g f e     | f     }
 
-  \changePitch \patternCC {     | e f g       | f g a }
+  \changePitch \patternCC { r   | r e f g r   | r f g a }
   \changePitch \patternBA { f f | f f f e     | f     }
-  \changePitch \patternCD {     | e f g       | f g a }
+  \changePitch \patternCD { r   | r e f g r   | r f g a }
   \changePitch \patternBA { f e | f g f e     | f     }
 
 }
@@ -104,10 +104,10 @@ notesTenor = {
   \changePitch \patternAB { c bes | a a a a | bes bes }
   \changePitch \patternBA { bes d | c d c bes | a }
 
-  \changePitch \patternCC { | g a bes | a bes c }
-  \changePitch \patternBA { a a | bes a a c | c }
-  \changePitch \patternCE { | g a bes | a bes c }
-  \changePitch \patternBA { c c | c d c bes | a }
+  \changePitch \patternCC { r   | r g a bes r | r a bes c }
+  \changePitch \patternBA { a a | bes a a c   | c }
+  \changePitch \patternCE { r   | r g a bes r | r a bes c }
+  \changePitch \patternBA { c c | c d c bes   | a }
 
 }
 }
@@ -126,9 +126,9 @@ notesBass = {
   \changePitch \patternAB { c c | d d c c | bes bes }
   \changePitch \patternBA { bes bes | c bes c c | f }
 
-  \changePitch \patternCC { | c c c | f f f }
-  \changePitch \patternBA { f f | f f d c | f }
-  \changePitch \patternCD { | c c c | f f f }
+  \changePitch \patternCC { r    | r c c c r  | r f f f }
+  \changePitch \patternBA { f f  | f f d c    | f }
+  \changePitch \patternCD { r    | r c c c r  | r f f f }
   \changePitch \patternBA { a, c | f bes, c c | f }
 
 }
