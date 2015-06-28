@@ -54,7 +54,7 @@ notesSoprano = {
   \changePitch \patternCA { b a b d c a | g ~ g r }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternDA { c c b a | b b | d d c b | c c r } >>
+  \changePitch \patternDA { c c b a | b b r | d d c b | c c r } >>
   \changePitch \patternEA { e e d c | c c b! a | g g g g a b | c c r }
 
   \bar "|."
@@ -71,7 +71,7 @@ notesAlto = {
   \changePitch \patternAA { e e e e c d | e f f e }
   \changePitch \patternCA { d d d fis fis fis | g( f) r }
 
-  \changePitch \patternDA { e e e e | f f | f f e d | e e r }
+  \changePitch \patternDA { e e e e | f f r | f f e d | e e r }
   \changePitch \patternEA { < bes' g > ~ < bes g > < bes f > < bes e, > | a a g f | e e e f f f | e e r }
 
 }
@@ -86,7 +86,7 @@ notesTenor = {
   \changePitch \patternAA { c c c c g g | c c g g }
   \changePitch \patternCA { g fis g a d c | b ~ b r }
 
-  \changePitch \patternDB { g g g g g | g g g | b b b c g | g g g r }
+  \changePitch \patternDB { g g g g g | g g g r | b b b c g | g g g r }
   \changePitch \patternEB { c c c c c c | c c c c c | c c c b c d | c c r }
 
 }
@@ -101,7 +101,7 @@ notesBass = {
   \changePitch \patternAA { c c c c c c | c c c c }
   \changePitch \patternCA { d d d d d d | g ~ g r }
 
-  \changePitch \patternDB { c, c c c c | d d d | g g g g g | c, c c r }
+  \changePitch \patternDB { c, c c c c | d d d r | g g g g g | c, c c r }
   \changePitch \patternEB { c c c c c c | f f f f f | g g g g g g | c, c r }
 
 }
