@@ -71,7 +71,7 @@ notesAlto = {
   \changePitch \patternBA { a a     | g g fis e     | fis   }
 
   \changePitch \patternCB { r       | r         }
-  \changePitch \patternBB { r       | r         | r }
+  \changePitch \patternBB { r       |           | r } % middle rest is explicit in patternBB
   \changePitch \patternCA { fis fis | fis d     }
   \changePitch \patternBA { fis fis | e e d cis | d }
 
