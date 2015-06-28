@@ -23,8 +23,8 @@ tb = { \tempo 4=35 }
 
 patternAA = { c8. c16 | c4 c4 c8. c16 | c4 c4 }
 patternAB = { c8. c16 | c4 c4 c8. c16 | c2 }
-patternAC = { c8. c16 | c4 c4 c8. c16 | c4 c8 r8 }
-patternAD = { c8. c16 | c4. c8 c8. c16 | c4 c8 r8 }
+patternAC = { c8. c16 | c4 c4 c8. c16 | c4 c8 c8 }
+patternAD = { c8. c16 | c4. c8 c8. c16 | c4 c8 c8 }
 
 patternBA = { c8 c8 | c4 c4 c8 c8 | c4 c4 }
 patternBB = { c8 c8 | c4 c4 c8 c8 | c2 }

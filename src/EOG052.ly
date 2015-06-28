@@ -21,11 +21,11 @@
 ta = { \tempo 4=70 }
 tb = { \tempo 4=35 }
 
-patternAA = { c4 r8 | c4 r8 | c8 c8 c8 | c4 c8 }
-patternAB = { c4 r8 | c4 r8 | c8 c8 c8 | c4 r8 }
-patternAC = { c4 r8 | c4 r8 \grace c8 | c8 c8 c8 | c4 c8 \grace c8 } % NOTE grace note was a c16, changed to c8 for audio aesthetic
-patternBA = { c8 c8 c8 | c8 c8 c8 | c4 r8 }
-patternCA = { c4 r8 | c4 r8 | c4 r8 | c4 r8 \grace c8 }
+patternAA = { c4 c8 | c4 c8 | c8 c8 c8 | c4 c8 }
+patternAB = { c4 c8 | c4 c8 | c8 c8 c8 | c4 c8 }
+patternAC = { c4 c8 | c4 c8 \grace c8 | c8 c8 c8 | c4 c8 \grace c8 } % NOTE grace note was a c16, changed to c8 for audio aesthetic
+patternBA = { c8 c8 c8 | c8 c8 c8 | c4 c8 }
+patternCA = { c4 c8 | c4 c8 | c4 c8 | c4 c8 \grace c8 }
 
 global = {
   \include "common/overrides.ily"

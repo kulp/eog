@@ -25,20 +25,20 @@ ta = { \tempo 4=84 }
 tb = { \tempo 4=42 }
 tc = { \tempo 4=21 }
 
-patternA = { \ta c4 c8. c16       | c4. c8        | c8. c16 c8 c8    | c4. r8                     } % Line 1, 3
-patternB = { \ta c4 c8. c16       | c4 c4         | c8. c16 c8 c8    | c4. r8                     } % Line 2
-patternC = { \ta c4 c8 c8         | c8. c16 c8 c8 | c4 c4            | c4. r8                     } % Line 4
+patternA = { \ta c4 c8. c16       | c4. c8        | c8. c16 c8 c8    | c4. c8                     } % Line 1, 3
+patternB = { \ta c4 c8. c16       | c4 c4         | c8. c16 c8 c8    | c4. c8                     } % Line 2
+patternC = { \ta c4 c8 c8         | c8. c16 c8 c8 | c4 c4            | c4. c8                     } % Line 4
 
-patternR = { \ta c4. ~ c8 c8 c8   | c4. ~ c4.     | c4. ~ c8 c8 c8   | c4. ~ c4 r8                } % Refrain soprano / alto / tenor 1
-patternS = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4.( c4) r8                } % Refrain soprano / tenor 2
-patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain alto 2
+patternR = { \ta c4. ~ c8 c8 c8   | c4. ~ c4.     | c4. ~ c8 c8 c8   | c4. ~ c4 c8                } % Refrain soprano / alto / tenor 1
+patternS = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4.( c4) c8                } % Refrain soprano / tenor 2
+patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 c8                } % Refrain alto 2
 patternT = { \ta c4 c8 c8[ c8] c8 | c4. ~ c4.     | c4 c8 c8[ c8] c8 | c4.( \tb c4.) \fermata     } % Refrain soprano 3
 patternU = { \ta c4 c8 c4 c8      | c4. ~ c4.     | c4 c8 c4 c8      | c4 c8 c4( \tc c8) \fermata } % Refrain alto 3
 patternV = { \ta c4 c8 c8[ c8] c8 | c4 c8 c4( c8) | c4 c8 c8[ c8] c8 | c4 c8 c4( \tc c8) \fermata } % Refrain tenor 3
-patternW = { \ta c4. c4 c8        | c4. c4.       | c4. c4 c8        | c4. ~ c4 r8                } % Refrain bass 1
-patternX = { \ta c4. c4 c8        | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain bass 2
+patternW = { \ta c4. c4 c8        | c4. c4.       | c4. c4 c8        | c4. ~ c4 c8                } % Refrain bass 1
+patternX = { \ta c4. c4 c8        | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 c8                } % Refrain bass 2
 patternY = { \ta c4 c8 c4 c8      | c4. ~ c4.     | c4 c8 c4 c8      | c4. ~ \tb c4. \fermata     } % Refrain bass 3
-patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 r8                } % Refrain alto 2
+patternZ = { \ta c4. ~ c8 c8 c8   | c4. c4.       | c4 c8 c4 c8      | c4. ~ c4 c8                } % Refrain alto 2
 
 global = {
   \include "common/overrides.ily"

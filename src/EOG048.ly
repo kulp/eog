@@ -31,11 +31,11 @@ patternAF = { \ta c8  c8  | c4 c8   c8 c4 c8. c16 | c4      c8 c8 c4 }
 patternBA = { \ta c8( c8) | c4 c8. c16 c8[ c8] c8 c8 | c2. }
 patternBB = { \ta c8 ~ c8 | c4 c8. c16 c8[ c8] c8 c8 | c2. }
 
-patternCA = { \ta c8( c8) | c4 c8 c8 c4 c8. c16 | c2. r4 }
-patternCB = { \ta c8 ~ c8 | c4 c8 c8 c4 c8. c16 | c2. r4 }
-patternCC = { \ta c8   c8 | c4 c8 c8 c4 c8. c16 | c2 r4 }
+patternCA = { \ta c8( c8) | c4 c8 c8 c4 c8. c16 | c2. c4 }
+patternCB = { \ta c8 ~ c8 | c4 c8 c8 c4 c8. c16 | c2. c4 }
+patternCC = { \ta c8   c8 | c4 c8 c8 c4 c8. c16 | c2 c4 }
 
-patternDA = { \ta c4 r4 c4 r4 | c4 c4 \tb c4 \fermata \ta }
+patternDA = { \ta c4 c4 c4 c4 | c4 c4 \tb c4 \fermata \ta }
 
 global = {
   \include "common/overrides.ily"

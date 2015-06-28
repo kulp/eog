@@ -30,18 +30,18 @@ patternCA = { \ta c4 | c4 c4 c8[ c8] c8[ c8] | c4( c4) \tb c4 \fermata }
 patternCB = { \ta c4 | c4 c4 c4      c4      | c2      \tb c4 \fermata }
 patternCC = { \ta c4 | c4 c4 c8[ c8] c8[ c8] | c4( c4) \tb c4          }
 patternCD = { \ta c4 | c4 c4 c4      c4      | c2      \tb c4          }
-patternDA = { \ta c4 | c4 c8[ c8] c4 c8[ c8] | c2. r4 }
-patternDB = { \ta c4 | c4 c4      c4 c4      | c2. r4 }
+patternDA = { \ta c4 | c4 c8[ c8] c4 c8[ c8] | c2. c4 }
+patternDB = { \ta c4 | c4 c4      c4 c4      | c2. c4 }
 patternEA = { \ta c8.[ c16] c8. c16 c4 c4 | c8.[ c16] c2 }
 patternEB = { \ta c4        c8. c16 c4 c4 | c4        c2 }
 patternFA = { \ta c4 | c8[ c8] c8[ c8] c4 c4 | c2. }
 patternFB = { \ta c4 | c4      c4      c4 c4 | c2. }
-patternGA = { \ta c4 c8. c16 c4 c4 | c2 c4 r4 }
+patternGA = { \ta c4 c8. c16 c4 c4 | c2 c4 c4 }
 patternGB = { \ta c4 c8. c16 c4 c4 | c2 c4 }
-patternHA = { \ta c4 | c4 c4 c8[ c8] \tb c4 \fermata \ta | c2. r4 }
-patternHB = { \ta c4 | c4 c4 c4      \tb c4 \fermata \ta | c2. r4 }
-patternHC = { \ta c4 | c4 c4 c8[ c8] \tb c4          \ta | c2. r4 }
-patternHD = { \ta c4 | c4 c4 c4      \tb c4          \ta | c2. r4 }
+patternHA = { \ta c4 | c4 c4 c8[ c8] \tb c4 \fermata \ta | c2. c4 }
+patternHB = { \ta c4 | c4 c4 c4      \tb c4 \fermata \ta | c2. c4 }
+patternHC = { \ta c4 | c4 c4 c8[ c8] \tb c4          \ta | c2. c4 }
+patternHD = { \ta c4 | c4 c4 c4      \tb c4          \ta | c2. c4 }
 
 global = {
   \include "common/overrides.ily"

@@ -21,10 +21,10 @@
 ta = { \tempo 2=72 }
 tb = { \tempo 2=36 }
 
-patternAA = { c2 c4. c8 c2 r4 c4 | c4. c8 c4 c4 c1 }
+patternAA = { c2 c4. c8 c2 c4 c4 | c4. c8 c4 c4 c1 }
 patternAB = { c2 c4. c8 c2 c2    | c4. c8 c4 c4 c1 }
 
-patternBA = { c1 c2 r2 | c1 c2 r4 c4 | c2. c4 c2 c | c1 r1 }
+patternBA = { c1 c2 c2 | c1 c2 c4 c4 | c2. c4 c2 c | c1 c1 }
 
 global = {
   \include "common/overrides.ily"

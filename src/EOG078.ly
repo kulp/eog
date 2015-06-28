@@ -30,8 +30,8 @@ patternBA = { c4 c8 c4. }
 
 patternCA = { \patternBA }
 
-patternDA = { c4( c8) | c4 c8 c8[ c8] c8 | c4. r4 }
-patternDB = { c4( c8) | c4 c8 c4      c8 | c4. r4 }
+patternDA = { c4( c8) | c4 c8 c8[ c8] c8 | c4. c4 }
+patternDB = { c4( c8) | c4 c8 c4      c8 | c4. c4 }
 
 patternEA = { c8 | c4 c8 c8[ c8] c8 | c4. }
 patternEB = { c8 | c4 c8 c4      c8 | c4. }

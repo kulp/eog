@@ -19,14 +19,14 @@
 
 patternA = { c4 | c8 c8 c4. c8 | c8 c8 c4 } % Line 1, 3 soprano / alto / tenor / bass
 patternB = { c4 | c4. c8 c8 c8 | c2       } % Line 2 soprano / alto / tenor / bass
-patternC = { c4 | c4. c8 c8 c8 | c2 r8    } % Line 4 soprano / alto / tenor / bass
+patternC = { c4 | c4. c8 c8 c8 | c2 c8    } % Line 4 soprano / alto / tenor / bass
 
 patternD = { c8 | c4 c8 c8[ c8] c8 | c4. ~ c4 c16 c16 | c4 c8 c8[ c8] c8 | c4. ~ c4 } % Refrain line 1 soprano
 patternE = { c8 | c4 c8 c8[ c8] c8 | c4. ~ c4 c16 c16 | c4 c8 c4      c8 | c4. ~ c4 } % Refrain line 1 alto / bass
 patternF = { c8 | c4 c8 c4      c8 | c4. ~ c4 c16 c16 | c4 c8 c8[ c8] c8 | c4. ~ c4 } % Refrain line 1 tenor
 
-patternG = { c8 | c4 c8 c8 c8 c8 | c8 c8 c8 c4 r8                } % Refrain line 2 all
-patternH = { c4. c4. | c8 c4 ~ c4 r8 | c4. c4. | c8 c4 ~ c4      } % Refrain line 3 all
+patternG = { c8 | c4 c8 c8 c8 c8 | c8 c8 c8 c4 c8                } % Refrain line 2 all
+patternH = { c4. c4. | c8 c4 ~ c4 c8 | c4. c4. | c8 c4 ~ c4      } % Refrain line 3 all
 patternI = { c8 | c4 c8 c8 c8 c8 | c8 c8 c8 c4.                  } % Refrain line 4 all
 patternJ = { c4. c4. | c8 c4 ~ c4 c8 | c8 c8 c8 c4 c8 | c4. ~ c4 } % Refrain line 5 all
 

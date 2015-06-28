@@ -17,13 +17,13 @@
   tagline = ##f
 }
 
-patternA = { c2 c4 c4 | c2 c4( c4) | c2 c4( c4) | c2. r4 } % Line 1, 3 soprano / alto / bass, Line 2 soprano / bass
-patternB = { c2 c4 c4 | c2 c4( c4) | c2 c2      | c2. r4 } % Line 2 alto, Line 1, 3 bass
+patternA = { c2 c4 c4 | c2 c4( c4) | c2 c4( c4) | c2. c4 } % Line 1, 3 soprano / alto / bass, Line 2 soprano / bass
+patternB = { c2 c4 c4 | c2 c4( c4) | c2 c2      | c2. c4 } % Line 2 alto, Line 1, 3 bass
 patternC = { c2 c4 c4 | c2 c2      | c2 c2      | c1     } % Line 4 alto and bass
 patternD = { c2 c4 c4 | c4( c4) c2 | c2 c4( c4) | c1     } % Line 4 tenor
 patternE = { c2 c4 c4 | c2 c2      | c2 c4( c4) | c1     } % Line 4 soprano
-patternF = { c2 c4 c4 | c2 c2      | c2 c2      | c2. r4 } % Line 1, 3 tenor
-patternH = { c2 c4 c4 | c2 c2      | c2 c4( c4) | c2. r4 } % Line 2 tenor
+patternF = { c2 c4 c4 | c2 c2      | c2 c2      | c2. c4 } % Line 1, 3 tenor
+patternH = { c2 c4 c4 | c2 c2      | c2 c4( c4) | c2. c4 } % Line 2 tenor
 
 global = {
   \include "common/overrides.ily"

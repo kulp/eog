@@ -26,7 +26,7 @@ tb = { \tempo 4=40 }
 patternA = { \ta c4           | c4. c8 c8 c8 | c2           } % Line 1, 2
 patternB = { \ta c4. c8 c8 c8 | c8 c8 \tb c4 \fermata } % Refrain line 3
 patternC = { \ta c4           | \patternB                   } % Line 3
-patternD = { \ta c4. c8 c8 c8 | c2 r4                       } % Refrain line 1, 2
+patternD = { \ta c4. c8 c8 c8 | c2 c4                       } % Refrain line 1, 2
 patternE = { \ta c4           | \patternD                   } % Line 4
 patternF = { \ta c4           | c4. c8 c8 c8 | \tb c2 \fermata } % Refrain line 4
 

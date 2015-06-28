@@ -21,9 +21,9 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
-patternAA = { c4. c8 c8 c8 c8. c16 | c2 c4 r4 }
-patternAB = { c4. c8 c8 c8 c8. c16 | c2.   r4 }
-patternAC = { c4. c8 c8 c8 c8  c8  | c2.   r4 }
+patternAA = { c4. c8 c8 c8 c8. c16 | c2 c4 c4 }
+patternAB = { c4. c8 c8 c8 c8. c16 | c2.   c4 }
+patternAC = { c4. c8 c8 c8 c8  c8  | c2.   c4 }
 
 global = {
   \include "common/overrides.ily"

@@ -24,7 +24,7 @@ tb = { \tempo 4=45 }
 patternAA = { c4 }
 patternAB = { c4 c8[ c8] c4 c4 }
 
-patternBA = { c4 c4 c4 c4 | c2. r4 }
+patternBA = { c4 c4 c4 c4 | c2. c4 }
 
 patternCA = { c2 c2 | c1 }
 

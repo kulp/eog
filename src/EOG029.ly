@@ -24,12 +24,12 @@ tb = { \tempo 4=45 }
 patternAA = { c4 | c4. c8 c4 c4 | c4. c8 c4 }
 
 patternBA = { c4 | c4 c4 c4 c4 | c2. }
-patternBB = { c4 | c4 c4 c4 c4 | c2. r4 }
+patternBB = { c4 | c4 c4 c4 c4 | c2. c4 }
 
 patternCA = { c4. c8 c8[ c8] c4 | c4. c8 c4 c4 }
 patternCB = { c4. c8 c4      c4 | c4. c8 c4 c4 }
 
-patternDA = { c4 c4 c4 c4 | c2. r4 }
+patternDA = { c4 c4 c4 c4 | c2. c4 }
 
 global = {
   \include "common/overrides.ily"

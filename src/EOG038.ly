@@ -28,9 +28,9 @@ patternBB = { \ta c4    | c4 c4      c4 c4 | c2.   }
 patternBC = { \ta c8 c8 | c4 c8[ c8] c4 c4 | c2.   }
 patternCA = { \ta c8. c16 | c2. c8. c16 | c2. }
 patternCB = { \ta c8. c16 | c2. c8. c16 | c2. \fermata }
-patternCC = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 c4 }
-patternCD = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4 \fermata } % \tb here affects CC as well
-patternCE = { \ta r4 | r4 c8. c16 c4 r4 | r4 c8. c16 \tb c4          }
+patternCC = { \ta c4 | c4 c8. c16 c4 c4 | c4 c8. c16 c4 }
+patternCD = { \ta c4 | c4 c8. c16 c4 c4 | c4 c8. c16 \tb c4 \fermata } % \tb here affects CC as well
+patternCE = { \ta c4 | c4 c8. c16 c4 c4 | c4 c8. c16 \tb c4          }
 
 global = {
   \include "common/overrides.ily"

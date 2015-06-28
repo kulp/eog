@@ -21,15 +21,15 @@
 ta = { \tempo 4=120 }
 tb = { \tempo 4=60 }
 
-patternAA = { c4 c4 c4 | c4 c4 c4 | c4 c4 c4 | c2 r4 }
+patternAA = { c4 c4 c4 | c4 c4 c4 | c4 c4 c4 | c2 c4 }
 patternBA = { c4 c4 c4 | c4 c4 c4 | c4 c4. c8 | c2. }
 patternBB = { c4 c4 c4 | c4 c4 c4 | c4 c4. c8 | c2( c4) }
-patternCA = { c4 c4 c4 | c4 c8 r8 c4 | c4 \tb c4 \ta c4 | c2. }
-patternDA = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2 r4 }
+patternCA = { c4 c4 c4 | c4 c8 c8 c4 | c4 \tb c4 \ta c4 | c2. }
+patternDA = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2 c4 }
 patternEA = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2. }
 patternEB = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2( c4) }
-patternFA = { c4 c4 c4 | c4 c4 c4 | c4 c4. c8 | c2 r4 }
-patternGA = { c4 c4 c4 | c4 c8 r8 c4 | c4 c4. c8 | c2. }
+patternFA = { c4 c4 c4 | c4 c4 c4 | c4 c4. c8 | c2 c4 }
+patternGA = { c4 c4 c4 | c4 c8 c8 c4 | c4 c4. c8 | c2. }
 
 global = {
   \include "common/overrides.ily"

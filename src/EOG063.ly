@@ -21,20 +21,20 @@
 ta = { \tempo 4=76 }
 tb = { \tempo 4=38 }
 
-patternAA = { c8[ c8] c8 c8[ c8] c8 | c8[ c8] c8 c8 c8 r8 }
-patternAB = { c8[ c8] c8 c4      c8 | c8[ c8] c8 c8 c8 r8 }
-patternAC = { c4      c8 c8[ c8] c8 | c4      c8 c8 c8 r8 }
-patternAD = { c4      c8 c4      c8 | c4      c8 c8 c8 r8 }
+patternAA = { c8[ c8] c8 c8[ c8] c8 | c8[ c8] c8 c8 c8 c8 }
+patternAB = { c8[ c8] c8 c4      c8 | c8[ c8] c8 c8 c8 c8 }
+patternAC = { c4      c8 c8[ c8] c8 | c4      c8 c8 c8 c8 }
+patternAD = { c4      c8 c4      c8 | c4      c8 c8 c8 c8 }
 
-patternBA = { c8[ c8] c8 c8[ c8] c8 | c8[ c8] c8 c4    r8 }
-patternBB = { c8[ c8] c8 c8[ c8] c8 | c4      c8 c4    r8 }
-patternBC = { c8[ c8] c8 c4      c8 | c8[ c8] c8 c4    r8 }
-patternBD = { c4      c8 c4      c8 | c4      c8 c4    r8 }
+patternBA = { c8[ c8] c8 c8[ c8] c8 | c8[ c8] c8 c4    c8 }
+patternBB = { c8[ c8] c8 c8[ c8] c8 | c4      c8 c4    c8 }
+patternBC = { c8[ c8] c8 c4      c8 | c8[ c8] c8 c4    c8 }
+patternBD = { c4      c8 c4      c8 | c4      c8 c4    c8 }
 
 patternCA = { c4 c8 c4 c8 | c4 c8 c4. }
 
-patternDA = { c4. c4 c8 | c4. c4 c8 | c4 c8 c8[ c8] c8 | c4. ~ c4 r8 }
-patternDB = { c4. c4 c8 | c4. c4 c8 | c4 c8 c4      c8 | c4. ~ c4 r8 }
+patternDA = { c4. c4 c8 | c4. c4 c8 | c4 c8 c8[ c8] c8 | c4. ~ c4 c8 }
+patternDB = { c4. c4 c8 | c4. c4 c8 | c4 c8 c4      c8 | c4. ~ c4 c8 }
 
 global = {
   \include "common/overrides.ily"

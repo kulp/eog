@@ -27,7 +27,7 @@ patternBA = { c8 c8 | c4 c8 c8 c4 c8 c8 | c2. }
 patternBB = { c8 c8 | c4 c8 c8 c4 c8 c8 | c4 c8 c8 c4 }
 
 patternCA = { c8 c8 | c2. c8 c8 | c2. }
-patternCB = { r4 | r4 c8 c8 c4 r4 | r4 c8 c8 c4 }
+patternCB = { c4 | c4 c8 c8 c4 c4 | c4 c8 c8 c4 }
 
 global = {
   \include "common/overrides.ily"

@@ -24,12 +24,12 @@ tb = { \tempo 4=40 }
 patternAA = { c8. c16 | c4 c4 c8. c16 | c4 c4 }
 
 patternBA = { c8. c16 | c8. c16 c4 c4 | c2 }
-patternBB = { r4 | \once \override MultiMeasureRest.staff-position = #-8 R1*3/4 | r2 }
+patternBB = { c4 | \once \override MultiMeasureRest.staff-position = #-8 R1*3/4 | c2 }
 % needs more tweaking that we can provide in a pattern
 %patternBC = { r4 | \once \override MultiMeasureRest.staff-position = #-2 R1*3/4 | r2 }
 
 patternCA = { c8. c16 | c4 c4 }
-patternCB = { r4 | r2 }
+patternCB = { c4 | c2 }
 
 global = {
   \include "common/overrides.ily"

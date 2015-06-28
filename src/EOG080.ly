@@ -25,13 +25,13 @@ patternAA = { c8 c8 c8 c8 c8 c8 | c8 c8 c8 c4. }
 
 patternBA = { c8 c8 c8 c4. }
 
-patternCA = { c8 c8 c8 c8 c8 c8 | c4. c4 r8 }
+patternCA = { c8 c8 c8 c8 c8 c8 | c4. c4 c8 }
 
-patternDA = { c4. ~ c8 c8 c8 | c4. ~ c4 r8 }
-patternDB = { c4 c8 c8 c8 c8 | c4 c8 c4 r8 }
+patternDA = { c4. ~ c8 c8 c8 | c4. ~ c4 c8 }
+patternDB = { c4 c8 c8 c8 c8 | c4 c8 c4 c8 }
 
-patternEA = { c4. ~ c8 c8 c8 | c4. ~ c8 c8 c8 | c8. c16 c8 c8 c8 c8 | c4. ~ c4 r8 }
-patternEB = { c8. c16 c8 c8 c8 c8 | c8 c8 c8 c4 c8 | c8. c16 c8 c8 c8 c8 | c4. ~ c4 r8 }
+patternEA = { c4. ~ c8 c8 c8 | c4. ~ c8 c8 c8 | c8. c16 c8 c8 c8 c8 | c4. ~ c4 c8 }
+patternEB = { c8. c16 c8 c8 c8 c8 | c8 c8 c8 c4 c8 | c8. c16 c8 c8 c8 c8 | c4. ~ c4 c8 }
 
 global = {
   \include "common/overrides.ily"
