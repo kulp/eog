@@ -52,11 +52,12 @@ notesSoprano = {
   \changePitch \patternA { e   | e a cis b     | b a a       }
   \changePitch \patternC { fis | e gis gis fis | e r         }
 
-  \time 6/8
   << s^\markup { \small \caps "Refrain" }
+  \time 6/8
+  \set Timing.measurePosition = #(ly:make-moment -1 8)
   \changePitch \patternD { e     | e a a gis a        | b b e, e    | b' b b a b  | cis cis } >>
   \changePitch \patternG { e,    | cis' cis cis b cis | e d d d r   }
-  \changePitch \patternH { cis a | b b b              | a a         | gis gis gis }
+  \changePitch \patternH { cis a | b b b r            | a a         | gis gis gis }
   \changePitch \patternI { gis   | fis fis a gis fis  | fis e e e   }
   \changePitch \patternJ { a b   | cis cis cis a      | b b b a gis | a a         }
 
@@ -76,7 +77,7 @@ notesAlto = {
 
   \changePitch \patternE { e   | cis cis cis d e | e e e e           | e e e e     | e e }
   \changePitch \patternG { cis | e e e d e       | fis fis fis fis r }
-  \changePitch \patternH { e e | e e e           | cis fis           | eis eis eis }
+  \changePitch \patternH { e e | e e e r         | cis fis           | eis eis eis }
   \changePitch \patternI { eis | fis d fis e d   | d cis cis cis     }
   \changePitch \patternJ { e e | e e e e         | fis fis fis e e   | e e         }
 
@@ -92,11 +93,11 @@ notesTenor = {
   \changePitch \patternA { a | a a a gis   | fis fis a }
   \changePitch \patternC { a | gis gis b a | gis r     }
 
-  \changePitch \patternF { e     | a e e a     | gis gis gis gis | gis gis gis fis gis | a a }
-  \changePitch \patternG { a     | a a a a a   | a a a a r       }
-  \changePitch \patternH { a a   | gis gis gis | a cis           | cis cis cis         }
-  \changePitch \patternI { b     | a a a a a   | a a a a         }
-  \changePitch \patternJ { a gis | a a a cis   | d d d cis b     | cis cis             }
+  \changePitch \patternF { e     | a e e a       | gis gis gis gis | gis gis gis fis gis | a a }
+  \changePitch \patternG { a     | a a a a a     | a a a a r       }
+  \changePitch \patternH { a a   | gis gis gis r | a cis           | cis cis cis         }
+  \changePitch \patternI { b     | a a a a a     | a a a a         }
+  \changePitch \patternJ { a gis | a a a cis     | d d d cis b     | cis cis             }
 
 }
 }
@@ -112,7 +113,7 @@ notesBass = {
 
   \changePitch \patternE { e             | a, a a b cis | e e e e    | e e e e           | a a }
   \changePitch \patternG { a             | a a a a a    | d, d d d r }
-  \changePitch \patternH { a cis         | e e e        | fis fis    | cis cis cis       }
+  \changePitch \patternH { a cis         | e e e r      | fis fis    | cis cis cis       }
   \changePitch \patternI { cis d d d d d | a a a a      }
   \changePitch \patternJ { cis e         | a a a a      | d, d d e e | < a a, > < a a, > }
 
