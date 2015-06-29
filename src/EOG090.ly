@@ -86,7 +86,7 @@ notesTenor = {
   \changePitch \patternAA { aes ees | ees ees ees aes g aes | aes aes aes }
   \changePitch \patternBA { aes aes | aes aes aes c bes bes | aes }
 
-  \changePitch \patternCB { aes aes aes | aes aes aes }
+  \changePitch \patternCB { r | r aes aes aes r | r aes aes aes }
   \changePitch \patternBB { aes aes | aes aes g aes bes aes | g g g g }
   \changePitch \patternAA { aes ees | ees ees ees aes g aes | aes aes aes }
   \changePitch \patternBA { aes aes | aes aes aes c bes bes | aes }
@@ -103,7 +103,7 @@ notesBass = {
   \changePitch \patternAA { ees ees | aes, aes aes aes bes c | des des des }
   \changePitch \patternBA { des des | ees ees ees ees ees ees | aes, }
 
-  \changePitch \patternCB { aes aes aes | des des des }
+  \changePitch \patternCB { r | r aes aes aes r | r des des des }
   \changePitch \patternBB { des des aes c ees aes g aes  | ees ees ees ees }
   \changePitch \patternAA { ees ees | aes, aes aes aes bes c | des des des }
   \changePitch \patternBA { des des | ees ees ees ees ees ees | aes, }
