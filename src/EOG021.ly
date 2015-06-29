@@ -157,7 +157,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 No room for Thee! Thy love didst seek
-To win Thein own in vain;
+To win Thine own in vain;
 For they were proud and Thou wert meek—
 They would not let Thee reign.
 No room at last on earth for Thee,
