@@ -217,14 +217,13 @@ TenorRefrainA = \lyricmode {
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-		\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \TenorRefrainA
+    \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \TenorRefrainA
   >>
   \layout {
     \include "common/layout.ily"
