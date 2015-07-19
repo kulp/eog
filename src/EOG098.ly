@@ -152,7 +152,7 @@ wordsC = \lyricmode {
 Just on the thresh -- old,– O, make now thy choice;
 Come with the ser -- vants of Christ, and re -- joice!
 Je -- sus is call -- ing, O, turn not a -- side!
-Come! ‘tis the voice of the Spir -- it and Bride!
+Come! ’tis the voice of the Spir -- it and Bride!
 
 }
 
