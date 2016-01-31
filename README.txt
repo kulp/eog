@@ -13,5 +13,5 @@ Begun in the year of our Lord two thousand and eleven by
 
 Darren Kulp
 darren@kulp.ch
-http://kulp.ch/eog/
+http://eog.kulp.ch/
 
