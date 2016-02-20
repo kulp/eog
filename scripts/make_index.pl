@@ -53,7 +53,6 @@ print
                             -content => "text/html; charset=UTF-8" }),
                      eval { slurp("scripts/kulpheadcontent") } ],
         -script => [ { -src => "scripts/sorttable.js" },
-                     { -src => "scripts/kulpstuff.js" },
                      { -src => "scripts/table.js"     }, ],
         -onLoad => "document.getElementById('searchbox').focus()",
     ),
