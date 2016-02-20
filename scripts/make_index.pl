@@ -29,8 +29,6 @@ my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, 
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 my %have     = map { (m#^([^/]+)#)[0] => 1 } @files;
 
-my $show_beta = `git symbolic-ref -q HEAD` !~ /beta/;
-
 sub when
 {
     my ($dt) = @_;
@@ -59,8 +57,6 @@ print
                      { -src => "scripts/table.js"     }, ],
         -onLoad => "document.getElementById('searchbox').focus()",
     ),
-    ($show_beta and p("Try the",
-        a({ -href => "beta/" }, "beta version of this index"))),
     p("If you want to help : get the",
         a({ -href => "https://github.com/kulp/eog" }, "source files to all these hymns"),
 				"in",
