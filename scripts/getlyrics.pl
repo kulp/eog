@@ -9,20 +9,9 @@ use Lingua::Stem qw(stem);
 use Perl6::Slurp;
 use Regexp::Common;
 use Text::Trim qw(trim);
-use Data::Dumper;
+use Text::Aspell;
 
 binmode(STDOUT, ":utf8");
-
-my @dict = map glob($_), map "/usr/share/dict/$_", qw(words connectives propernames);
-my $dictwords;
-if (-e "words.dump") {
-    $dictwords = do "words.dump";
-} else {
-    my @dictwords = map { (-f $_) ? (slurp $_, { chomp => 1 }) : () } @dict;
-    $dictwords = +{ map { lc $_ => $_ } @dictwords };
-    open my $fh, ">", "words.dump";
-    print $fh Dumper($dictwords);
-}
 
 my $transforms;
 if (-e "transforms.map") {
@@ -74,7 +63,6 @@ my $strips = qr<
 )
 >xoism;
 
-# TODO handle more than one file at a time to amortise cost of loading dicts
 my $file = shift;
 my $contents = slurp '<:utf8' => $file;
 my @verses = $contents =~ /$lyricpat/g;
@@ -91,22 +79,19 @@ my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @rescue
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
+my $spell = Text::Aspell->new;
+
 sub _check
 {
     my $word = shift;
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
-        my @variants = map { (my $x = $test) =~ s/$_//; $x } qr(’s$);
         if ($test =~ /^_+$/) {
             return "";
-        } elsif (exists $dictwords->{lc $test}) {
+        } elsif ($spell->check($test)) {
             return $test;
         } elsif ($transforms->{$word}) {
             return $transforms->{$word};
-        } elsif (@$dictwords{map lc, @variants}) {
-            return $test;
-        } elsif (@$dictwords{@{ stem lc $test }}) {
-            return $test;
         } else {
             push @unknown, $word;
         }
