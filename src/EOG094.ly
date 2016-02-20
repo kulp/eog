@@ -114,7 +114,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Who -- so -- eve -- er will may take it! \bar "."
+Who -- so -- ev -- er will may take it! \bar "."
 Hear the gos -- pel cry! \bar "." \break
 With -- out price and with -- out mon -- ey, \bar "."
 Come to Him and buy. \bar "." \break
