@@ -42,11 +42,11 @@ my $versepat = qr<
 my $wordelt = qr<[\w’]>;
 
 my $wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)*)\b
+\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)*)(\b|(?=\s|$))
 >xoism;
 
 my $compound_wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)+)\b
+\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)+)(\b|(?=\s|$))
 >xoism;
 
 my $strips = qr<
