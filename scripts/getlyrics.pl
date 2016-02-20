@@ -39,7 +39,8 @@ my $versepat = qr<
     \s*}\z
 >xoism;
 
-my $wordelt = qr<[\w’]>;
+my $apos = '’';
+my $wordelt = qr<[\w$apos]>o;
 
 my $wordpat = qr<
 \b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)*)(\b|(?=\s|$))
@@ -86,6 +87,7 @@ sub _check
     my $word = shift;
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
+        $test =~ s/$apos/'/go;
         if ($test =~ /^_+$/) {
             return "";
         } elsif ($spell->check($test)) {
