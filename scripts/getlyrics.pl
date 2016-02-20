@@ -23,7 +23,7 @@ my $braces = $RE{balanced}{-parens=>'{}'};
 my $lyricpat = qr<
     \b((words|refrain)(\w*))\s*
     =\s*
-    (?:\\lyricmode|\\markuplines)\s*
+    (?:\\lyricmode|\\markuplist)\s*
     ($braces)
 >xoi;
 
