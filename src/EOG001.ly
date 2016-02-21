@@ -149,20 +149,18 @@ Heav’n it -- self re -- ech -- oes “Come!”
 
 \score {
   \context ChoirStaff <<
-    \context Staff = upper <<
+    \context Staff <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \partcombineChords \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \partcombineChords \notesTenor \notesBass
     >>
   >>
   \layout {
