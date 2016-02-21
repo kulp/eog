@@ -121,16 +121,15 @@ wordsC = \lyricmode {
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
     \new Staff <<
       \clef "treble"
-      \new Voice = "Soprano"  { \voiceOne \notesSoprano }
-      \new Voice = "Alto" { \voiceTwo \notesAlto }
+      \partcombine \notesSoprano \notesAlto
+      \new NullVoice = "Soprano"  { \voiceOne \notesSoprano }
       \new Lyrics \lyricsto "Soprano" { \wordsA }
       \new Lyrics \lyricsto "Soprano" { \wordsB }
       \new Lyrics \lyricsto "Soprano" { \wordsC }
     >>
     \new Staff <<
       \clef "bass"
-      \new Voice = "Tenor" { \voiceOne \notesTenor }
-      \new Voice = "Bass"  { \voiceTwo \notesBass }
+      \partcombine \notesTenor \notesBass
     >>
   >>
   \layout {
