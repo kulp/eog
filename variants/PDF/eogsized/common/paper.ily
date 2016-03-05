@@ -1,5 +1,5 @@
-paper-height  = 200\mm
-paper-width   = 131\mm
+#(set! paper-alist (cons '("eogsized" . (cons (* 131 mm) (* 200 mm))) paper-alist))
+#(set-paper-size "eogsized")
 indent        = 0\cm
 %top-margin    = 1\cm
 %bottom-margin = 1\cm
