@@ -79,10 +79,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Christ is the Sav -- iour, He nev -- er will fail;
-All hope to save one -- self could noth -- ing a -- vail;
-Man is a to -- tal wreck, can nev -- er reach the shore. \break
-All who trust in Je -- sus Christ are saved ev -- er -- more.
+Christ is the Sav -- iour, He nev -- er will fail; \bar "."
+All hope to save one -- self could noth -- ing a -- vail; \bar "."
+Man is a to -- tal wreck, can nev -- er reach the shore. \bar "." \break
+All who trust in Je -- sus Christ are saved ev -- er -- more. \bar "."
 
 }
 
@@ -143,10 +143,10 @@ notesLeftHand = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Christ is the on -- ly Sav -- iour might -- y to save,
-He who suf -- fered once for sins, and sank neath the wave,
-Sing how the wrath of God on Calv’ry’s cross he bore;
-How by death He con -- quered death and lives ev -- er -- more.
+Christ is the on -- ly Sav -- iour might -- y to save, \bar "."
+He who suf -- fered once for sins, and sank neath the wave, \bar "."
+Sing how the wrath of God on Calv’ry’s cross he bore; \bar "."
+How by death He con -- quered death and lives ev -- er -- more. \bar "."
 
 }
 
