@@ -4,7 +4,7 @@
   %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  page-count = ##f
+  page-count = 2
 }
 
 \header{
