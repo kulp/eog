@@ -1,14 +1,10 @@
 \include "common/global.ily"
-% Force fit letter size verse to first page alone (spills to second page along
-% with refrain, at present)
-% XXX would like to have all hymns the same staff size
-#(set-global-staff-size 18)
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = ##f
+  %systems-per-page = ##f
+  system-count = 6
   page-count = 2
-  %ragged-bottom = ##t
 }
 
 \header{
@@ -164,6 +160,8 @@ No room at last on earth for Thee,
 As ’neath the start -- led sky,
 With cru -- el scourge and mock -- er -- y
 They led Thee forth to die.
+
+{ \pageBreak }
 
 \Refrain
 
