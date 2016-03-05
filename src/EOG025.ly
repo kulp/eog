@@ -2,9 +2,10 @@
 \paper {
   \include "common/paper.ily"
   %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  ragged-last-bottom = ##t
+  systems-per-page = ##f
+  system-count = 5
+  page-count = 2
 }
 
 \header{
@@ -120,7 +121,8 @@ Refrain = \lyricmode {
 
 Be -- lieve that won -- der -- ful love, \bar "."
 Be -- lieve that won -- der -- ful love, \bar "."
-The gos -- pel is free, God sends it to thee, \bar "."
+The gos -- pel is free, \bar "." { \pageBreak }
+God sends it to thee, \bar "."
 Be -- lieve God’s won -- der -- ful love. \bar "."
 
 }
