@@ -186,16 +186,15 @@ wordsE = \markuplist {
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \partcombine \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne \notesSoprano }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \partcombine \notesTenor \notesBass
     >>
   >>
   \layout {
