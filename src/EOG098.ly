@@ -3,8 +3,9 @@
   \include "common/paper.ily"
   %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = 5
+  systems-per-page = 5
   page-count = 2
+  system-count = 6
 }
 
 \header{
