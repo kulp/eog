@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "115"
   title = "“Himself He Could Not Save”"
-  subsubtitle = "(Darwall. 6. 6. 6. 6. 8. 8.)"
-  %meter = "6.6.6.6.8.8."
+  tunename = "Darwall"
+  meter = "6. 6. 6. 6. 8. 8."
   poet = "A. Midlane"
   composer = "J. Darwall"
   %copyright = ""

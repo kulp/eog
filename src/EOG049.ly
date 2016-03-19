@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "49"
   title = "Verily, Verily"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "James McGranahan"
   composer = "James McGranahan"
   %copyright = ""

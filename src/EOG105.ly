@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "105"
   title = "Nothing But the Name of Jesus"
-  subsubtitle = "(Refuge. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Refuge"
+  meter = "8. 7. 8. 7. D."
   %poet = ""
   composer = "J. P. Holbrook"
   %copyright = ""

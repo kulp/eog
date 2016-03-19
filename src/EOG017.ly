@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "17"
   title = "He Comes! He Comes!"
-  subsubtitle = "(Ostend. C. M. D.)"
-  %meter = "C.M.D."
+  tunename = "Ostend"
+  meter = "C. M. D."
   %poet = ""
   composer = "Dr. L. Mason"
   %copyright = ""

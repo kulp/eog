@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "122"
   title = "The Holy Lamb Has Died"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "George W. Frazer"
   %composer = ""
   %copyright = ""

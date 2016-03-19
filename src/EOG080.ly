@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "80"
   title = "Down From the Glory Came God’s Blessed Son"
-  subsubtitle = "(Jesus Is Calling.)"
-  %meter = ""
+  tunename = "Jesus Is Calling"
+  meter = ""
   poet = "Arthur Cutting"
   composer = "Geo. C. Stebbins"
   %copyright = ""

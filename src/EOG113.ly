@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "113"
   title = "Only A Step To Jesus"
-  subsubtitle = "(7. 6. 7. 6. With Refrain)"
-  %meter = "7.6.7.6 with refrain"
+  tunename = ""
+  meter = "7. 6. 7. 6. With Refrain"
   poet = "Fanny J. Crosby"
   composer = "W. H. Doane"
   %copyright = ""

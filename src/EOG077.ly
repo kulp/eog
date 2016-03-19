@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "77"
   title = "Come, Ye Sinners, Poor and Needy"
-  subsubtitle = "(Caersalem. 8. 7. 8. 7. 4. 7)"
-  %meter = "8.7.8.7.4.7"
+  tunename = "Caersalem"
+  meter = "8. 7. 8. 7. 4. 7"
   poet = "Joseph Hart"
   composer = "Robert Edwards"
   %copyright = ""

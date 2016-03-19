@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "56"
   title = "O, Blessed Gospel Sound!"
-  subsubtitle = "(Happy Land. 6. 4. 6. 4. 6. 6. 6. 4.)"
-  %meter = "6.4.6.4.6.6.6.4."
+  tunename = "Happy Land"
+  meter = "6. 4. 6. 4. 6. 6. 6. 4."
   %poet = ""
   %composer = ""
   %copyright = ""

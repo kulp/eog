@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "44"
   title = "Just As I Am — Without One Plea"
-  subsubtitle = "(Woodworth. 8. 8. 8. 6.)"
-  %meter = "8.8.8.6."
+  tunename = "Woodworth"
+  meter = "8. 8. 8. 6."
   poet = "Charlotte Elliot"
   composer = "Wm. B. Bradbury"
   %copyright = ""

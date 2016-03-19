@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "93"
   title = "Ho! Ye That Thirst, Approach the Spring"
-  subsubtitle = "(Torino. C. M. with Refrain)"
-  %meter = "C.M. with Refrain"
+  tunename = "Torino"
+  meter = "C. M. with Refrain"
   poet = "W. Cameron"
   composer = "Italian hymn tune" % TODO titlecase ?
   %copyright = ""

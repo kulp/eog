@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "52"
   title = "Hark! Hark! Hear the Glad Tidings"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   %poet = ""
   composer = "German"
   %copyright = ""

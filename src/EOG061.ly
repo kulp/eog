@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "61"
   title = "Behold the Lamb! ’Tis He Who Bore"
-  subsubtitle = "(St. Louis. C. M.)"
-  %meter = "C.M."
+  tunename = "St. Louis"
+  meter = "C. M."
   poet = "Haweis"
   composer = "Southern Air"
   %copyright = ""

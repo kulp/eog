@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "30"
   title = "Passing Onward, Quickly Passing"
-  subsubtitle = "(Zion. 8. 7. 8. 7. 4. 7)"
-  %meter = "8.7.8.7.4.7"
+  tunename = "Zion"
+  meter = "8. 7. 8. 7. 4. 7"
   %poet = ""
   composer = "Dr. T. Hastings"
   %copyright = ""

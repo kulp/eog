@@ -4,9 +4,10 @@
 }
 
 \header{
+  hymnnumber = "2"
   title = "As the Serpent Raised by Moses"
-  subsubtitle = "(Take The World But Give Me Jesus. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7. D."
+  tunename = "Take The World But Give Me Jesus"
+  meter = "8. 7. 8. 7. D."
   %poet = ""
   %composer = ""
   %copyright = ""

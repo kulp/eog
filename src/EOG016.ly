@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "16"
   title = "God in Mercy Sent His Son"
-  subsubtitle = "(Herald Angels. 8-7s.)"
-  %meter = "8-7s."
+  tunename = "Herald Angels"
+  meter = "8-7s."
   poet = "H. K. Burlingham"
   composer = "Mendelssohn"
   %copyright = ""

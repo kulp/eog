@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "78"
   title = "Come, Ye That Fear the Lord"
-  subsubtitle = "(Lorneville. P. M.)"
-  %meter = "P.M."
+  tunename = "Lorneville"
+  meter = "P. M."
   %poet = ""
   composer = "Old Melody"
   %copyright = ""

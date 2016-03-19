@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "18"
   title = "How Precious and Pure is the Truth"
-  subsubtitle = "(De Fleury. 8. 8. 8. 8. D.)"
-  %meter = "8.8.8.8.D."
+  tunename = "De Fleury"
+  meter = "8. 8. 8. 8. D."
   %poet = ""
   composer = "German"
   %copyright = ""

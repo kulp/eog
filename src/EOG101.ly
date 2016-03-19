@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "101"
   title = "Look, Thou Lost One, To the Saviour"
-  subsubtitle = "(Look Ye Saints. 8. 7. 8. 7. 4. 7.)"
-  %meter = "8.7.8.7.4.7."
+  tunename = "Look Ye Saints"
+  meter = "8. 7. 8. 7. 4. 7."
   %poet = ""
   composer = "Arr. by G. C. Stebbins"
   %copyright = ""

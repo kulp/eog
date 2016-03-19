@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "9"
   title = "Redeemed By Blood"
-  subsubtitle = "(Ernan. L. M.)"
-  %meter = "L.M."
+  tunename = "Ernan"
+  meter = "L. M."
   %poet = ""
   composer = "Dr. L. Mason"
   %copyright = ""

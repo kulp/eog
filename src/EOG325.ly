@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "325"
   title = "Suffer Little Children"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   %poet = ""
   composer = "Mrs. Page"
   %copyright = ""

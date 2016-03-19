@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "117"
   title = "Sinner, Thine’s A Lost Condition"
-  subsubtitle = "(Brooklyn. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Brooklyn"
+  meter = "8. 7. 8. 7. D."
   %poet = ""
   %composer = ""
   %copyright = ""

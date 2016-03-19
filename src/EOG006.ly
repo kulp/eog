@@ -11,9 +11,10 @@
 }
 
 \header{
+  hymnnumber = "6"
   title = "“Come Unto Me”"
-  subsubtitle = "(10. 10. 10. 10. and Refrain.)"
-  %meter = "10.10.10.10."
+  tunename = ""
+  meter = "10. 10. 10. 10. and Refrain."
   poet = "Nath. Norton"
   composer = "G. C. Stebbins"
   %copyright = ""

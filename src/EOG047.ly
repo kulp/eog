@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "47"
   title = "Rise, Dear Soul! Behold Thy Saviour"
-  subsubtitle = "(Suffield. 8. 7. 8. 7.)"
-  %meter = "8.7.8.7"
+  tunename = "Suffield"
+  meter = "8. 7. 8. 7."
   poet = "A. P. Cecil"
   %composer = ""
   %copyright = ""

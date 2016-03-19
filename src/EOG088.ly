@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "88"
   title = "Hail, Sovereign Love"
-  subsubtitle = "(Bera. L. M.)"
-  %meter = "L.M."
+  tunename = "Bera"
+  meter = "L. M."
   poet = "Jehoida Brewer"
   %composer = ""
   %copyright = ""

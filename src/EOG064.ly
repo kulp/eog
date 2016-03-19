@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "64"
   title = "“Call Them In” — The Poor, the Wretched"
-  subsubtitle = "(Lower Lights. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Lower Lights"
+  meter = "8. 7. 8. 7. D."
   poet = "Anna Shipton"
   composer = "P. P. Bliss"
   %copyright = ""

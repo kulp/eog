@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "45"
   title = "The Wanderer No More Will Roam"
-  subsubtitle = "(Silent Night. 8. 8. 8. 6.)"
-  %meter = "8.8.8.6."
+  tunename = "Silent Night"
+  meter = "8. 8. 8. 6."
   %poet = ""
   %composer = ""
   %copyright = ""

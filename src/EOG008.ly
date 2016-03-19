@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "8"
   title = "Come, Weary, Anxious, Laden Soul"
-  subsubtitle = "(Troyte. 8. 8. 8. 6.)"
-  %meter = "8.8.8.6."
+  tunename = "Troyte"
+  meter = "8. 8. 8. 6."
   %poet = ""
   composer = "A. D. H. Troyte"
   %copyright = ""

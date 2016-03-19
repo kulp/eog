@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "26"
   title = "In Rags and in Ruin"
-  subsubtitle = "(Comfort. 11s.)"
-  %meter = "11s."
+  tunename = "Comfort"
+  meter = "11s."
   %poet = ""
   %composer = ""
   %copyright = ""

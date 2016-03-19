@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "20"
   title = "Jesus of Nazareth Passeth By"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "Emma Campbell"
   composer = "T. E. Perkins"
   %copyright = ""

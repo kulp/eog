@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "1"
   title = "“Come!” ’Tis Jesus Gently Calling"
-  subsubtitle = "(’Tis So Sweet to Trust in Jesus. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7. D."
+  tunename = "’Tis So Sweet to Trust in Jesus"
+  meter = "8. 7. 8. 7. D."
   poet = "Annie S. Ormsby"
   composer = "Wm. J. Kirkpatrick"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "48"
   title = "There Is Life In a Look"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "A. M. Hull"
   composer = "E. G. Taylor"
   %copyright = ""

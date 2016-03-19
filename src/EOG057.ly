@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "57"
   title = "Almost Persuaded"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "P. P. Bliss"
   composer = "P. P. Bliss"
   %copyright = ""

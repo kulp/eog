@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "34"
   title = "Salvation Through Christ Jesus"
-  subsubtitle = "(Missionary. 7. 6. 7. 6. D.)"
-  %meter = "7.6.7.6.D."
+  tunename = "Missionary"
+  meter = "7. 6. 7. 6. D."
   %poet = ""
   composer = "Dr. L. Mason"
   %copyright = ""

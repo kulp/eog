@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "50"
   title = "Vain Is The Thought of Man"
-  subsubtitle = "(Moreland. S. M.)"
-  %meter = "S.M."
+  tunename = "Moreland"
+  meter = "S. M."
   poet = "Mary Bowley"
   %composer = ""
   %copyright = ""

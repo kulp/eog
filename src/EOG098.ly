@@ -9,9 +9,10 @@
 }
 
 \header{
+  hymnnumber = "98"
   title = "Just On the Threshold"
-  subsubtitle = "(Moment By Moment. P. M.)"
-  %meter = "P.M."
+  tunename = "Moment By Moment"
+  meter = "P. M."
   poet = "G. Cooper"
   composer = "Mary Whittle Moody"
   %copyright = ""

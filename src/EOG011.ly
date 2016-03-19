@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "11"
   title = "On Calvary’s Cross, Behold the One"
-  subsubtitle = "(Hamburg. L. M.)"
-  %meter = "L.M."
+  tunename = "Hamburg"
+  meter = "L. M."
   %poet = ""
   composer = "Ad. by Lowell Mason"
   %copyright = ""

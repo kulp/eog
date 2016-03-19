@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "22"
   title = "Jesus Is a Loving Saviour"
-  subsubtitle = "(Wellesley. 8. 7. 8. 7.)"
-  %meter = "8.7.8.7."
+  tunename = "Wellesley"
+  meter = "8. 7. 8. 7."
   %poet = ""
   composer = "L.S. Tourjee"
   %copyright = ""

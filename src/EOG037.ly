@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "37"
   title = "Tell Me the Old, Old Story"
-  subsubtitle = "(7. 6. 7. 6. D. and Refrain)"
-  %meter = ""
+  tunename = ""
+  meter = "7. 6. 7. 6. D. and Refrain"
   poet = "Miss Kate Hankey"
   composer = "W. H. Doane"
   %copyright = ""

@@ -9,9 +9,10 @@
 }
 
 \header{
+  hymnnumber = "96"
   title = "If I Gained the World"
-  subsubtitle = "(10. 9. 10. 9. D.)"
-  %meter = "10.9.10.9.D."
+  tunename = ""
+  meter = "10. 9. 10. 9. D."
   poet = "Anna Olander"
   composer = "Swedish"
   %copyright = ""

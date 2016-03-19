@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "79"
   title = "Decide For Christ Today"
-  subsubtitle = "(Welcome Voice. S. M. with Refrain)"
-  %meter = "S.M. with Refrain"
+  tunename = "Welcome Voice"
+  meter = "S. M. with Refrain"
   poet = "T. R. Dale"
   composer = "L. Hartsough"
   %copyright = ""

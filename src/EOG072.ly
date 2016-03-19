@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "72"
   title = "Come to the Saviour, Come to the Saviour"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "Anon."
   composer = "Old Scottish Melody"
   %copyright = ""

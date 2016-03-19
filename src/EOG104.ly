@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "104"
   title = "Not All the Gold of All the World"
-  subsubtitle = "(Materna. C. M. D.)"
-  %meter = "C.M.D."
+  tunename = "Materna"
+  meter = "C. M. D."
   %poet = ""
   composer = "S. A. Ward"
   %copyright = ""

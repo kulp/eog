@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "19"
   title = "It Is Finished"
-  subsubtitle = "(7. 5. D.)"
-  %meter = "7.5.D."
+  tunename = ""
+  meter = "7. 5. D."
   %poet = "James Proctor"
   composer = "Ira D. Sankey"
   %copyright = ""

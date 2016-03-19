@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "7"
   title = "My Hope On Nothing Less Is Built"
-  subsubtitle = "(Foundation. 6-8s.)"
-  %meter = "6-8s."
+  tunename = "Foundation"
+  meter = "6-8s."
   poet = "Edward Mote"
   composer = "W. B. Bradbury"
   %copyright = ""

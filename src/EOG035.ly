@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "35"
   title = "Shall We Gather At His Coming?"
-  subsubtitle = "(Beautiful River. 8. 7. 8. 7. and Refrain)"
-  %meter = "8.7.8.7. and Refrain"
+  tunename = "Beautiful River"
+  meter = "8. 7. 8. 7. and Refrain"
   %poet = ""
   composer = "R. Lowry, 1864"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "76"
   title = "“Come Unto Me, And I Will Give You Rest”"
-  subsubtitle = "(Eventide. 10s)"
-  %meter = "10s"
+  tunename = "Eventide"
+  meter = "10s"
   poet = "H. D’A. Champney"
   composer = "W. H. Monk"
   %copyright = ""

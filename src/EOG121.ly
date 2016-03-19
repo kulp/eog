@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "121"
   title = "“All Things Are Ready,” Come"
-  subsubtitle = "(St. Michael. S. M.)"
-  %meter = "S.M."
+  tunename = "St. Michael"
+  meter = "S. M."
   poet = "A. Midlane"
   composer = "Genevan Psalter"
   %copyright = ""

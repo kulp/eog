@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "31"
   title = "Precious, Precious Blood of Jesus"
-  subsubtitle = "(Stephanos. 8. 5. 8. 3.)"
-  %meter = "8.5.8.3."
+  tunename = "Stephanos"
+  meter = "8. 5. 8. 3."
   poet = "F. R. Havergal"
   composer = "H. W. Baker"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "97"
   title = "O, How Sweet the Gospel Message"
-  subsubtitle = "(Halle. 8. 7. 8. 7.)"
-  %meter = "8.7.8.7."
+  tunename = "Halle"
+  meter = "8. 7. 8. 7."
   %poet = ""
   composer = "C. Muller"
   %copyright = ""

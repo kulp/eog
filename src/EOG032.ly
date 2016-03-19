@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "32"
   title = "Yet There Is Room"
-  subsubtitle = "(10. 10. 10.)"
-  %meter = "10.10.10."
+  tunename = ""
+  meter = "10. 10. 10."
   poet = "Dr. H. Bonar"
   composer = "Ira D. Sankey"
   %copyright = ""

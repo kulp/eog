@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "82"
   title = "Ere God Had Built the Mountains"
-  subsubtitle = "(Aurelia. 7. 6. 7. 6. D.)"
-  %meter = "7.6.7.6.D."
+  tunename = "Aurelia"
+  meter = "7. 6. 7. 6. D."
   poet = "W. Cowper"
   composer = "S. S. Wesley"
   %copyright = ""

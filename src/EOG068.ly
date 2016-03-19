@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "68"
   title = "Christ Is the Saviour of Sinners"
-  subsubtitle = "(Showers of Blessing. P. M.)"
-  %meter = "P.M."
+  tunename = "Showers of Blessing"
+  meter = "P. M."
   poet = "H. Wreford"
   composer = "J. McGranahan"
   %copyright = ""

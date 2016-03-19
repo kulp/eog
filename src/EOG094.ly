@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "94"
   title = "Ho, Ye Thirsty, Jesus Calls You"
-  subsubtitle = "(Hold the Fort. 8. 5. 8. 5. D.)"
-  %meter = "8.5.8.5.D."
+  tunename = "Hold the Fort"
+  meter = "8. 5. 8. 5. D."
   %poet = ""
   composer = "P. P. Bliss"
   %copyright = ""

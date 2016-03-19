@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "86"
   title = "Hark! The Saviour’s Voice From Heaven"
-  subsubtitle = "(Even Me. 8. 7. 8. 7. with Refrain)"
-  %meter = "8.7.8.7 with refrain"
+  tunename = "Even Me"
+  meter = "8. 7. 8. 7. with Refrain"
   %poet = ""
   composer = "W. B. Bradbury"
   %copyright = ""

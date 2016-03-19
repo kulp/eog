@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "60"
   title = "All Ye That Pass By"
-  subsubtitle = "(Harwich. 11. 12. 11. 12.)"
-  %meter = "11.12.11.12"
+  tunename = "Harwich"
+  meter = "11. 12. 11. 12."
   poet = "C. Wesley"
   composer = "B. Milgrove"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "65"
   title = "Christ Is the Only Saviour"
-  subsubtitle = "(The Lifeboat. P. M.)"
-  %meter = "P.M."
+  tunename = "The Lifeboat"
+  meter = "P. M."
   poet = "H. D'A. Champney"
   composer = "P. P. Bliss"
   %copyright = ""

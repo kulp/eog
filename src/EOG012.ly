@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "12"
   title = "God Loved the World So Tenderly"
-  subsubtitle = "(C. M. and Refrain.)"
-  %meter = "C.M. and Refrain"
+  tunename = ""
+  meter = "C. M. and Refrain."
   poet = "Fanny J. Crosby"
   composer = "W. J. Kirkpatrick"
   %copyright = ""

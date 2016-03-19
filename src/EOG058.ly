@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "58"
   title = "Why Unbelieving"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   %poet = ""
   composer = "German"
   %copyright = ""

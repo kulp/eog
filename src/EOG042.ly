@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "42"
   title = "The Great Physician"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "Wm. Hunter"
   composer = "Arr. by J. H. Stockton"
   %copyright = ""

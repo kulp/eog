@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "123"
   title = "The Lamb Was Slain, His Precious Blood"
-  subsubtitle = "(Melita. 8. 8. 8. 8. 4. 8.)"
-  %meter = "8.8.8.8.4.8."
+  tunename = "Melita"
+  meter = "8. 8. 8. 8. 4. 8."
   poet = "G. W. Frazer"
   composer = "J. B. Dykes"
   %copyright = ""

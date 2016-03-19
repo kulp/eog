@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "67"
   title = "Christ Is Coming, Are You Ready?"
-  subsubtitle = "(8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = ""
+  meter = "8. 7. 8. 7. D."
   poet = "Mrs. A. H. Rule"
   composer = "F. M. Lamb"
   %copyright = ""

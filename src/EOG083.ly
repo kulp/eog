@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "83"
   title = "Everlasting Glory"
-  subsubtitle = "(Maccabeus. 11’s.)"
-  %meter = "11’s"
+  tunename = "Maccabeus"
+  meter = "11’s."
   poet = "H. K. Burlingham"
   composer = "Handel"
   %copyright = ""

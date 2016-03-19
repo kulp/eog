@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "23"
   title = "My Redeemer"
-  subsubtitle = "(8. 7. 8. 7. and Refrain)"
-  %meter = "8.7.8.7. and Refrain"
+  tunename = ""
+  meter = "8. 7. 8. 7. and Refrain"
   poet = "P. P. Bliss"
   composer = "Mrs. Addie McGranahan"
   %copyright = ""

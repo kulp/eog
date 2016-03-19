@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "106"
   title = "O Christ, In Thee My Soul Hath Found"
-  subsubtitle = "(C. M. With Refrain.)"
-  %meter = "C.M."
+  tunename = ""
+  meter = "C. M. With Refrain."
   poet = "B. E. (Arr.)"
   composer = "J. McGranahan"
   %copyright = ""

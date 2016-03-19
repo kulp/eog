@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "103"
   title = "Man Of Sorrows! What A Name"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "P. P. Bliss"
   composer = "P. P. Bliss"
   %copyright = ""

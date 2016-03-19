@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "40"
   title = "The Gospel of Thy Grace"
-  subsubtitle = "(6. 6. 6. 6. 8. 8.)"
-  %meter = "6.6.6.6.8.8."
+  tunename = ""
+  meter = "6. 6. 6. 6. 8. 8."
   poet = "A. T. Pierson"
   composer = "James McGranahan"
   %copyright = ""

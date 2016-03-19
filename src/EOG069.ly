@@ -9,9 +9,10 @@
 }
 
 \header{
+  hymnnumber = "69"
   title = "Come Sing, My Soul, and Praise the Lord"
-  subsubtitle = "(Redemption Ground. L. M. D.)"
-  %meter = "L.M.D."
+  tunename = "Redemption Ground"
+  meter = "L. M. D."
   poet = "El Nathan"
   composer = "J. McGranahan"
   %copyright = ""

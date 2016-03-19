@@ -4,9 +4,10 @@
 }
 
 \header{
+  hymnnumber = "27"
   title = "O, What a Glorious Truth is This!"
-  subsubtitle = "(Mercy’s Free. 8. 6. 8. 6. 8. 6. 8. 6.)"
-  %meter = "8.6.8.6.8.6.8.6."
+  tunename = "Mercy’s Free"
+  meter = "8. 6. 8. 6. 8. 6. 8. 6."
   poet = "A. Midlane"
   composer = "D. F. E. Auber"
   %copyright = ""

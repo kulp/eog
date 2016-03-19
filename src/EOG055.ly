@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "55"
   title = "Why ’Neath the Load of Your Sins Do Ye Toil?"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   %poet = ""
   %composer = ""
   %copyright = ""

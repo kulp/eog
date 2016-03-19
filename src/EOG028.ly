@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "28"
   title = "O! What a Saviour Is Jesus the Lord!"
-  subsubtitle = "(Joyfully. 4-10s. Dactylic.)"
-  %meter = "4-10s."
+  tunename = "Joyfully"
+  meter = "4-10s. Dactylic."
   poet = "A. Midlane"
   %composer = ""
   %copyright = ""

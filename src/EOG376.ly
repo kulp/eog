@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "376"
   title = "Now Have I Seen Thee and Found Thee"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "Henry Suso"
   composer = "Uncertain"
   %copyright = ""

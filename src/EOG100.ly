@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "100"
   title = "Let All Who Know The Joyful Sound"
-  subsubtitle = "(Pembroke. 8. 8. 6. D.)"
-  %meter = "8.8.6.D."
+  tunename = "Pembroke"
+  meter = "8. 8. 6. D."
   poet = "T. Kelly"
   composer = "J. Foster"
   %copyright = ""

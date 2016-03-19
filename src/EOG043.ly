@@ -12,9 +12,10 @@
 % EOG043's music is not identical to EOG042's.
 
 \header{
+  hymnnumber = "43"
   title = "“Behold the Lamb” Enthroned on High"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   %poet = ""
   composer = "Arr. by J. H. Stockton"
   %copyright = ""

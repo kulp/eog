@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "85"
   title = "Just As Thou Art — Without One Trace"
-  subsubtitle = "(St. Agnes — Blow. 8. 8. 8. 6.)"
-  %meter = "8.8.8.6."
+  tunename = "St. Agnes — Blow"
+  meter = "8. 8. 8. 6."
   %poet = ""
   composer = "William Blow"
   %copyright = ""

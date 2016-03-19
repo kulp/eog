@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "63"
   title = "Broken Heart! The Fountain’s Open"
-  subsubtitle = "(8. 7. with Refrain.)"
-  %meter = "8.7. with Refrain."
+  tunename = ""
+  meter = "8. 7. with Refrain."
   poet = "A. P. Cecil"
   composer = "Arr. from Stevenson"
   %copyright = ""

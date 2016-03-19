@@ -11,9 +11,10 @@
 }
 
 \header{
+  hymnnumber = "36"
   title = "“Stricken, Smitten, and Afflicted”"
-  subsubtitle = "(Austria. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Austria"
+  meter = "8. 7. 8. 7. D."
   poet = "T. Kelly"
   composer = "Haydn"
   %copyright = ""

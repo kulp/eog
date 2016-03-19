@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "10"
   title = "Faith Is a Very Simple Thing"
-  subsubtitle = "(Remember Me. C. M.)"
-  %meter = "C.M."
+  tunename = "Remember Me"
+  meter = "C. M."
   %poet = ""
   composer = "Asa Hull"
   %copyright = ""

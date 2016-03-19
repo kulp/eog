@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "109"
   title = "O, The Love of God is Boundless"
-  subsubtitle = "(Tyrol. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Tyrol"
+  meter = "8. 7. 8. 7. D."
   poet = "R. D. Edwards"
   composer = "Tyrolese Melody"
   %copyright = ""

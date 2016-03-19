@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "29"
   title = "Only Trust Him"
-  subsubtitle = "(C. M. and Refrain.)"
-  %meter = "C.M."
+  tunename = ""
+  meter = "C. M. and Refrain."
   poet = "J. H. S." % TODO expand to J. H. Stockton ?
   composer = "J. H. Stockton"
   %copyright = ""

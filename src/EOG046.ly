@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "46"
   title = "“Too Late, Too Late!” How Sad the Sound"
-  subsubtitle = "(Arlington. C. M.)"
-  %meter = "C.M."
+  tunename = "Arlington"
+  meter = "C. M."
   %poet = ""
   composer = "Dr. Arne"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "90"
   title = "Have You Been To Jesus for the Cleansing Power?"
-  subsubtitle = "(11. 9. 11. 9. with Refrain)"
-  %meter = "11.9.11.9. with Refrain"
+  tunename = ""
+  meter = "11. 9. 11. 9. with Refrain"
   poet = "E. A. H."
   composer = "E. A. Hoffman"
   %copyright = ""

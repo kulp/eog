@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "119"
   title = "The Blood Upon The Door"
-  subsubtitle = "(Otter Lake. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Otter Lake"
+  meter = "8. 7. 8. 7. D."
   %poet = ""
   %composer = ""
   %copyright = ""

@@ -4,9 +4,10 @@
 }
 
 \header{
+  hymnnumber = "4"
   title = "Behold the Saviour At the Door"
-  subsubtitle = "(St. Catherine. 6-8s.)"
-  %meter = "6-8s."
+  tunename = "St. Catherine"
+  meter = "6-8s."
   poet = "Joseph Grigg"
   composer = "J. G. Walton"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "110"
   title = "O, Turn Ye! O, Turn Ye!"
-  subsubtitle = "(Hiding In Thee. 11’s with Refrain.)"
-  %meter = "11’s with Refrain"
+  tunename = "Hiding In Thee"
+  meter = "11’s with Refrain."
   poet = "J. Hopkins"
   composer = "Ira D. Sankey"
   %copyright = ""

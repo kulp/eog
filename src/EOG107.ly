@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "107"
   title = "O, Do Not Let the Word Depart"
-  subsubtitle = "(L. M. and Refrain.)"
-  %meter = "L.M."
+  tunename = ""
+  meter = "L. M. and Refrain."
   poet = "Mrs. E. Reed"
   composer = "Ira D. Sankey"
   %copyright = ""

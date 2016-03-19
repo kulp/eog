@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "53"
   title = "Weeping Will Not Save Me!"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "Robert Lowry"
   composer = "Robert Lowry"
   %copyright = ""

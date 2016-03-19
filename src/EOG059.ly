@@ -11,9 +11,10 @@
 % shouldn't be engraving music for it at all
 
 \header{
+  hymnnumber = "59"
   title = "Why Wilt Thou Linger"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "I. Fleming"
   composer = "P. P. Bliss"
   %copyright = ""

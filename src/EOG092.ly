@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "92"
   title = "Have You Any Room for Jesus?"
-  subsubtitle = "(8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = ""
+  meter = "8. 7. 8. 7. D."
   poet = "El Nathan (Arr.)"
   composer = "C. C. Williams"
   %copyright = ""

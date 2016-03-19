@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "91"
   title = "On Christ Salvation Rests Secure"
-  subsubtitle = "(Hebron. L. M.)"
-  %meter = "L.M."
+  tunename = "Hebron"
+  meter = "L. M."
   poet = "S. Medley"
   composer = "Lowell Mason"
   %copyright = ""

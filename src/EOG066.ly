@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "66"
   title = "A Look to Jesus Saves the Soul"
-  subsubtitle = "(Remember Me. C. M.)"
-  %meter = "C.M."
+  tunename = "Remember Me"
+  meter = "C. M."
   %poet = ""
   composer = "Asa Hull"
   %copyright = ""

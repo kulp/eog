@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "62"
   title = "Behold the Lamb Whose Precious Blood"
-  subsubtitle = "(St. Louis. C. M.)"
-  %meter = "C.M."
+  tunename = "St. Louis"
+  meter = "C. M."
   poet = ""
   composer = "Southern Air"
   %copyright = ""

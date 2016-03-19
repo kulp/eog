@@ -9,9 +9,10 @@
 }
 
 \header{
+  hymnnumber = "25"
   title = "O, Have You Not Heard of That Wonderful Love?"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   %poet = ""
   composer = "J. C. Englebrecht"
   %copyright = ""

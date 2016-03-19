@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "75"
   title = "I Gave My Life For Thee"
-  subsubtitle = "(Gift. 6. 6. 6. 6. 6. 6.)"
-  %meter = "6.6.6.6.6.6."
+  tunename = "Gift"
+  meter = "6. 6. 6. 6. 6. 6."
   poet = "F. R. Havergal"
   composer = "P. P. Bliss"
   %copyright = ""

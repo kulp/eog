@@ -5,9 +5,10 @@
 
 
 \header{
+  hymnnumber = "3"
   title = "Behold, Behold the Lamb of God"
-  subsubtitle = "(Mercy’s Free. 8. 6. 8. 6. 8. 6. 8. 6.)"
-  %meter = "8.6.8.6.8.6.8.6."
+  tunename = "Mercy’s Free"
+  meter = "8. 6. 8. 6. 8. 6. 8. 6."
   poet = "A. Jukes"
   composer = "D. F. E. Auber"
   %copyright = ""

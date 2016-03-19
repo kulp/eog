@@ -11,9 +11,10 @@
 }
 
 \header{
+  hymnnumber = "84"
   title = "Free From the Law"
-  subsubtitle = "(Once For All. P. M.)"
-  %meter = "P.M."
+  tunename = "Once For All"
+  meter = "P. M."
   poet = "P. P. Bliss"
   composer = "P. P. Bliss"
   %copyright = ""

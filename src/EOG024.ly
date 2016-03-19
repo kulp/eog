@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "24"
   title = "Jesus Only Can Impart"
-  subsubtitle = "(Weber. 7. 7. 7. 7. )"
-  %meter = "7.7.7.7."
+  tunename = "Weber"
+  meter = "7. 7. 7. 7. "
   %poet = ""
   composer = "C. M. von Weber"
   %copyright = ""

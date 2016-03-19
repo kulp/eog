@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "112"
   title = "Only a Sinner"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "James M. Gray"
   composer = "D. B. Towner" % Daniel B. Towner
   %copyright = ""

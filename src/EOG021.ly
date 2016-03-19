@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "21"
   title = "Make Room For Him"
-  subsubtitle = "(C. M. D. and Refrain)"
-  %meter = "C.M.D. and Refrain"
+  tunename = ""
+  meter = "C. M. D. and Refrain"
   poet = "A. A. P."
   composer = "G. C. Stebbins"
   %copyright = ""

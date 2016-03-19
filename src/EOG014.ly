@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "14"
   title = "God Loved the World Of Sinners Lost"
-  subsubtitle = "(C. M. D.)"
-  %meter = "C.M.D."
+  tunename = ""
+  meter = "C. M. D."
   poet = "Mrs. M. Stockton"
   composer = "Wm. G. Fischer"
   %copyright = ""

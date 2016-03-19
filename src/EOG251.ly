@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "251"
   title = "O Lord, How Does Thy Mercy Throw"
-  subsubtitle = "(Shining Shore. 8. 7. 8. 7. D. Iambic)"
-  %meter = "8.7.8.7.D. Iambic"
+  tunename = "Shining Shore"
+  meter = "8. 7. 8. 7. D. Iambic"
   poet = "Littlewood"
   composer = "Geo. F. Root"
   %copyright = ""

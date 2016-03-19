@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "41"
   title = "The Heavenly Bridegroom Soon Will Come"
-  subsubtitle = "(8. 8. 6. and Refrain)"
-  %meter = "8.8.6 and Refrain"
+  tunename = ""
+  meter = "8. 8. 6. and Refrain"
   %poet = ""
   %composer = ""
   %copyright = ""

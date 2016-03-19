@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "51"
   title = "Eternity! Where? It Floats in the Air"
-  subsubtitle = "(Eternity. 4-11s.)"
-  %meter = "4-11s."
+  tunename = "Eternity"
+  meter = "4-11s."
   %poet = ""
   composer = "Wm. M. Horsey"
   %copyright = ""

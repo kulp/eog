@@ -10,9 +10,10 @@
 % TODO reformat this as it appears in the EOG -- without music ?
 
 \header{
+  hymnnumber = "15"
   title = "O What a Gift the Father Gave"
-  subsubtitle = "(C. M. D.)"
-  %meter = "C.M.D."
+  tunename = ""
+  meter = "C. M. D."
   %poet = ""
   composer = "Wm. G. Fischer"
   %copyright = ""

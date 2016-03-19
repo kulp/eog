@@ -9,9 +9,10 @@
 }
 
 \header{
+  hymnnumber = "38"
   title = "The Gospel Bells"
-  subsubtitle = "(P. M.)"
-  %meter = "P.M."
+  tunename = ""
+  meter = "P. M."
   poet = "S. W. Martin" % XXX just S.W.M. in the original
   composer = "S. W. Martin"
   %copyright = ""

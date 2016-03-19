@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "13"
   title = "Grace! ’Tis a Charming Sound"
-  subsubtitle = "(S. M. and Refrain.)"
-  %meter = "S.M. and Refrain"
+  tunename = ""
+  meter = "S. M. and Refrain."
   poet = "Dr. Philip Doddridge"
   composer = "Ira D. Sankey"
   %copyright = ""

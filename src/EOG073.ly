@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "73"
   title = "Come To the Saviour Now"
-  subsubtitle = "(Make. P. M.)"
-  %meter = "P.M."
+  tunename = "Make"
+  meter = "P. M."
   poet = "J. M. Wigner"
   composer = "R. C. Maker"
   %copyright = ""

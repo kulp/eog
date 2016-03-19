@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "70"
   title = "Christ Is Coming, O Be Ready"
-  subsubtitle = "(Lasst Mich Gehen. 8. 7.)"
-  %meter = "8.7."
+  tunename = "Lasst Mich Gehen"
+  meter = "8. 7."
   poet = "Mrs. A. H. Rule"
   composer = "K. Voigtlander"
   %copyright = ""

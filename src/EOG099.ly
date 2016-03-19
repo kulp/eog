@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "99"
   title = "My Soul, Repeat His Praise"
-  subsubtitle = "(St. Michael. S. M.)"
-  %meter = "S.M."
+  tunename = "St. Michael"
+  meter = "S. M."
   poet = "I. Watts (Psalm 103)"
   composer = "Genevan Psalter"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "272"
   title = "Thou Art Coming, Mighty Saviour"
-  subsubtitle = "(Autumn. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Autumn"
+  meter = "8. 7. 8. 7. D."
   poet = "H. K. Burlingham"
   composer = "F. H. Bartholemon"
   %copyright = ""

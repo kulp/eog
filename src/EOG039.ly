@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "39"
   title = "He Knew No Sin, That Holy One"
-  subsubtitle = "(Sawley. C. M.)"
-  %meter = "C.M."
+  tunename = "Sawley"
+  meter = "C. M."
   %poet = ""
   composer = "J. J. Walch"
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "54"
   title = "We Know There’s a Bright and a Glorious Home"
-  subsubtitle = "(10. 7. 10. 7.)"
-  %meter = ""
+  tunename = ""
+  meter = "10. 7. 10. 7."
   %poet = ""
   %composer = ""
   %copyright = ""

@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "87"
   title = "Hark! Hark! The Voice of Christ"
-  subsubtitle = "(Pilgrims. 11. 10. 11. 10. with Refrain)"
-  %meter = "11.10.11.10. with refrain"
+  tunename = "Pilgrims"
+  meter = "11. 10. 11. 10. with Refrain"
   poet = "H. d'A. Champney"
   composer = "Henry Smart"
   %copyright = ""

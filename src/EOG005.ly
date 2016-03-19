@@ -4,9 +4,10 @@
 }
 
 \header{
+  hymnnumber = "5"
   title = "By Faith I See the Saviour Dying"
-  subsubtitle = "(Mercy’s Free. 8. 6. 8. 6. 8. 6. 8. 6.)"
-  %meter = "8.6.8.6.8.6.8.6."
+  tunename = "Mercy’s Free"
+  meter = "8. 6. 8. 6. 8. 6. 8. 6."
   poet = "Richard Jukes"
   composer = "D. F. E. Auber"
   %copyright = ""

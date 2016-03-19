@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "116"
   title = "See Mercy, Mercy From On High"
-  subsubtitle = "(Dusseldorf. L. M.)"
-  %meter = "L.M."
+  tunename = "Dusseldorf"
+  meter = "L. M."
   poet = "R. Sandeman"
   composer = "From Geistliche Lieder"
   %copyright = ""

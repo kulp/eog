@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "89"
   title = "Hark Ye! Those Who Choose the Pleasures"
-  subsubtitle = "(Ukraina. 8. 7. 8. 7. D.)"
-  %meter = "8.7.8.7.D."
+  tunename = "Ukraina"
+  meter = "8. 7. 8. 7. D."
   %poet = ""
   composer = "Russian Hymn Tune"
   %copyright = ""
