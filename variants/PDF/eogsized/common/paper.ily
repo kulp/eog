@@ -1,4 +1,4 @@
-#(set! paper-alist (cons '("eogsized" . (cons (* 131 mm) (* 200 mm))) paper-alist))
+#(set! paper-alist (cons '("eogsized" . (cons (* 127 mm) (* 199 mm))) paper-alist))
 #(set-paper-size "eogsized")
 indent        = 0\cm
 %top-margin    = 1\cm
