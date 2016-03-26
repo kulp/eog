@@ -25,7 +25,7 @@ patternAA = { \ta c8 c8. c16 | c4. c8 c8. c16 | c2 } %
 patternAB = { \ta c8 c8. c16 | c8 c8 c8 c8 c8. c16 | c4 c8 c8 } %
 
 patternBA = { \ta c4 | c4. c8 c8. c16 | c4. } %
-patternBB = { \ta c4 | c4. c8 c8. c16 | \tb c4. \fermata \tb } %
+patternBB = { \ta c4 | c4. c8 c8. c16 | \tb c4. \tb } %
 
 global = {
   \include "common/overrides.ily"
@@ -56,7 +56,7 @@ notesSoprano = {
   \changePitch \patternAA { b b a  | d a a g    | b  } >>
   \changePitch \patternBA { b      | a a e' e d }
   \changePitch \patternAA { d d g, | b d c b    | e, }
-  \changePitch \patternBB { g      | b d, a' g  | g  }
+  \changePitch \patternBB { g      | b d, a' g  | g \fermata }
 
   \bar "|."
 
@@ -121,7 +121,7 @@ notesBass = {
   \changePitch \patternAB { g d d | d d d d d d | g g g }
   \changePitch \patternBA { g     | c c a a d,  }
   \changePitch \patternAA { d g g | g f e d     | c     }
-  \changePitch \patternBB { a     | d d d g,    | g     }
+  \changePitch \patternBB { a     | d d d g,    | g \fermata }
 
 }
 }
