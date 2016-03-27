@@ -32,11 +32,11 @@ my $markuppat = qr<
 >xoi;
 
 my $versepat = qr<
-    \A{\s*
+    \A\{\s*
         (?:\\set.*?$)?
         \s*
         (.*?)
-    \s*}\z
+    \s*\}\z
 >xoism;
 
 my $apos = '’';
