@@ -123,7 +123,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 { \mon } And the { \moff } ver -- y best robe, and the fat -- ling and wine,
-{ \mon } "(What" a { \moff } change from the rags, and the husks, and the swine!)
+{ \mon } (What a { \moff } change from the rags, and the husks, and the swine!)
 With mu -- sic and danc -- ing— ’tis some -- thing so new,
 { \mon } Such a { \moff } ful -- ness of bless -- ing— and noth -- ing to do!
 

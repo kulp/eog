@@ -114,7 +114,6 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-saved by grace! \bar "."
 On -- ly a sin -- ner saved by grace! \bar "."
 On -- ly a sin -- ner saved by grace! \bar "."
 This is my sto -- ry, to God be the glo -- ry,— \bar "."
@@ -128,7 +127,7 @@ wordsA = \lyricmode {
 Naught have I got -- ten but what I re -- ceived; \bar "."
 Grace hath be -- stowed it since I have be -- lieved; \bar "."
 Boast -- ing ex -- clud -- ed, pride I a -- base; \bar "."
-I’m on -- ly a sin -- ner \break
+I’m on -- ly a sin -- ner saved by grace! \bar "."
 
 }
 
@@ -138,7 +137,7 @@ wordsB = \lyricmode {
 Once I was fool -- ish, and sin ruled my heart,
 Caus -- ing my foot -- steps from God to de -- part;
 Je -- sus hath found me, hap -- py my case;
-I now am a sin -- ner
+I now am a sin -- ner saved by grace!
 
 \Refrain
 
@@ -150,7 +149,7 @@ wordsC = \lyricmode {
 Tears un -- a -- vail -- ing, no mer -- it had I;
 Mer -- cy had saved me, or else I must die;
 Sin had a -- larmed me fear -- ing God’s face;
-But now I’m a sin -- ner
+But now I’m a sin -- ner saved by grace!
 
 }
 
@@ -160,7 +159,7 @@ wordsD = \lyricmode {
 Suf -- fer a sin -- ner whose hear o -- ver -- flows,
 Lov -- ing his Sav -- iour to tell what he knows;
 Once more to tell it would I em -- brace—
-I’m on -- ly a sin -- ner
+I’m on -- ly a sin -- ner saved by grace!
 
 }
 

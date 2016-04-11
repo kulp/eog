@@ -114,7 +114,7 @@ Come, ye sin -- ners, poor and need -- y, \bar "."
 Weak and wound -- ed, sick and sore, \bar "."
 Je -- sus read -- y stands to save you, \bar "."
 Full of pit -- y, love, and power; \bar "."
-He is a -- ble, He is a -- ble, He is a -- ble, \bar "."
+He is a -- ble, He is a -- ble, { He is a -- ble, } \bar "."
 He is will -- ing, doubt no more. \bar "."
 
 }
@@ -126,7 +126,7 @@ Let not con -- science make you lin -- ger,
 Nor of fit -- ness fond -- ly dream;
 All the fit -- ness He re -- quir -- eth
 Is to feel your need of Him;
-This He gives you, this He gives you, this He gives you,
+This He gives you, this He gives you, { this He gives you, }
 ’Tis the Spir -- it’s ris -- ing beam.
 
 }
@@ -138,7 +138,7 @@ Come, ye wea -- ry, heav -- y -- la -- den,
 Lost and ru -- ined by the fall;
 If you tar -- ry till you’re bet -- ter,
 You will nev -- er come at all.
-Not the right -- eous, not the right -- eous, not the right -- eous,
+Not the right -- eous, not the right -- eous, { not the right -- eous, }
 Sin -- ners Je -- sus came to call.
 
 }
