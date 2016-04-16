@@ -8,9 +8,10 @@
 }
 
 \header{
+  hymnnumber = "000"
   title = ""
-  subsubtitle = "()"
-  %meter = ""
+  tunename = ""
+  meter = ""
   %poet = ""
   composer = ""
   %copyright = ""
