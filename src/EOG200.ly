@@ -10,8 +10,8 @@
 
 \header{
   title = "’Tis the Hope of His Coming"
-  subsubtitle = "(Hallelujah! ’Tis Done. 11’s.)"
-  %meter = ""
+  tunename = "Hallelujah! ’Tis Done"
+  meter = "11’s"
   poet = "Mrs. A. R. Rule"
   composer = "P. P. Bliss"
   %copyright = ""
