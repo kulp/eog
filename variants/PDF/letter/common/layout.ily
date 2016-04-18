@@ -1,7 +1,7 @@
 \context {
-	\Score
-	% **** Turns off bar numbering
-	\remove "Bar_number_engraver"
+    \Score
+    % **** Turns off bar numbering
+    \remove "Bar_number_engraver"
 }
 \context {
     \Lyrics
