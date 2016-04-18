@@ -13,6 +13,20 @@ page-count = 1
 print-page-number = ##f
 print-first-page-number = ##f
 
+#(define-markup-command
+    (mysubtitle layout props) ; params
+    () ; param types
+    (interpret-markup layout props
+     (let ((tune (chain-assoc-get 'header:tunename props))
+           (meter (chain-assoc-get 'header:meter props)))
+      (if (string-null? tune)
+       (markup (#:concat ( "(" meter ")")))
+       (if (string-null? meter)
+         (markup (#:concat ( "(" tune ".)")))
+         (markup (#:concat ( "(" tune ". " meter ")")))
+         )
+       ))))
+
 scoreTitleMarkup = \markup {
   \override #'(baseline-skip . 3.5)
   \column {
@@ -26,8 +40,7 @@ scoreTitleMarkup = \markup {
         }
       }
       \fill-line {
-        \smaller \bold
-        \concat { "(" \fromproperty #'header:tunename ".  " \fromproperty #'header:meter ")" }
+        \smaller \bold \mysubtitle
       }
       \fill-line {
         \fromproperty #'header:poet
