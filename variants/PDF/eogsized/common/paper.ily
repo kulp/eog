@@ -3,8 +3,6 @@
 indent        = 0\cm
 %top-margin    = 1\cm
 %bottom-margin = 1\cm
-%left-margin   = 1\cm
-%right-margin  = 1\cm
 ragged-bottom = ##f
 ragged-last-bottom = ##f
 %annotate-spacing = ##t
