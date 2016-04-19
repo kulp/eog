@@ -115,8 +115,8 @@ notesBass = {
 Refrain = \lyricmode {
 
 Are you wash’d in the blood—
-In the { \break } soul -- clean -- sing blood of the Lamb?
-Are your gar -- ments spot -- less? { \break \pageBreak } Are they white as snow?
+In the soul -- clean -- sing blood of the Lamb?
+Are your gar -- ments spot -- less? Are they white as snow?
 Are you wash’d in the blood of the Lamb?
 
 }
