@@ -12,8 +12,6 @@ ifneq ($(ONLY),)
 LYS = src/EOG$(ONLY).ly
 endif
 
-BRANCH := $(notdir $(shell git symbolic-ref HEAD))
-
 TIMIDITY = timidity -a
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
