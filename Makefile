@@ -65,27 +65,27 @@ ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 endif
 
 $(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl transforms.map
-	@mkdir -p $(dir $@)
+	@mkdir -p $(@D)
 	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
 .SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
-$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(notdir $$(basename $$*)).ly
-	mkdir -p $(dir $@)
+$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
+	mkdir -p $(@D)
 	echo -n '$*: ' > $@
-	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(dir $*)#' | tr '\012' ' ' >> $@
+	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(*D)#' | tr '\012' ' ' >> $@
 	echo >> $@
 
-MP3/%.mp3: MIDI/default/$$(notdir $$*).midi variants/$$(dir $$@)/timidity.cfg
-	mkdir -p MP3/$(dir $*)
-	$(TIMIDITY) -Ow -c variants/$(dir $@)timidity.cfg $(shell cat variants/$(dir $@)/timidity.cmd 2> /dev/null) -o $(@D)/$(*F).wav $<
-	lame $(@D)/$(*F).wav $@
+MP3/%.mp3: WAV/default/$$(*F).wav variants/$$(@D)/timidity.cfg
+	mkdir -p $(@D)
+	$(TIMIDITY) -Ow -c variants/$(@D)timidity.cfg $(shell cat variants/$(@D)/timidity.cmd 2> /dev/null) -o $@ $<
+	lame $< $@
 	$(RM) $(@D)/$(*F).wav
 
 CLOBBERFILES += $(PDFS) $(MIDIS) $(MP3S)
-PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
-	mkdir -p PDF/$(dir $*) MIDI/$(dir $*)
-	lilypond $(LYOPTS) --include=$(PWD)/variants/$(dir $@) --pdf --output=$(dir $@)$(notdir $*) $<
-	-mv $(dir $@)$(notdir $*).pdf  PDF/$(dir $*)
-	-mv $(dir $@)$(notdir $*).midi MIDI/$(dir $*)
+PDF/%.pdf MIDI/%.midi: src/$$(*F).ly
+	mkdir -p $(@D)
+	lilypond $(LYOPTS) --include=$(PWD)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
+	-mv $(@D)/$(*F).pdf  PDF/$(*D)
+	-mv $(@D)/$(*F).midi MIDI/$(*D)
 
