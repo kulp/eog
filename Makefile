@@ -80,7 +80,9 @@ $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(notdir $$(basename $$*)
 
 MP3/%.mp3: MIDI/default/$$(notdir $$*).midi variants/$$(dir $$@)/timidity.cfg
 	mkdir -p MP3/$(dir $*)
-	$(TIMIDITY) -Ow -c variants/$(dir $@)timidity.cfg $(shell cat variants/$(dir $@)/timidity.cmd 2> /dev/null) -o - $< | lame - $@
+	$(TIMIDITY) -Ow -c variants/$(dir $@)timidity.cfg $(shell cat variants/$(dir $@)/timidity.cmd 2> /dev/null) -o $(@D)/$(*F).wav $<
+	lame $(@D)/$(*F).wav $@
+	$(RM) $(@D)/$(*F).wav
 
 CLOBBERFILES += $(PDFS) $(MIDIS) $(MP3S)
 PDF/%.pdf MIDI/%.midi: src/$$(notdir $$*).ly
