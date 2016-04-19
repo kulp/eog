@@ -6,6 +6,7 @@ LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on ba
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
+WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(notdir $(LYS:.ly=.wav ))))
 TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
 ifneq ($(ONLY),)
@@ -35,7 +36,8 @@ all: pdf midi index mp3 zip
 pdf: $(PDFS)
 midi: $(MIDIS)
 mp3: $(MP3S)
-#wav: $(WAVS)
+# WAVS are not made unless requested, since the output files are large
+wav: $(WAVS)
 lyrics: $(TXTS)
 dist: zip
 zip: EOG_midi_pdf.zip
@@ -76,13 +78,15 @@ $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
 	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(*D)#' | tr '\012' ' ' >> $@
 	echo >> $@
 
-MP3/%.mp3: WAV/default/$$(*F).wav variants/$$(@D)/timidity.cfg
+WAV/%.wav: MIDI/default/$$(*F).midi variants/MP3/$$(*D)/timidity.cfg
 	mkdir -p $(@D)
-	$(TIMIDITY) -Ow -c variants/$(@D)timidity.cfg $(shell cat variants/$(@D)/timidity.cmd 2> /dev/null) -o $@ $<
-	lame $< $@
-	$(RM) $(@D)/$(*F).wav
+	$(TIMIDITY) -Ow -c $(filter variants%,$^) $(shell cat variants/MP3/$(*D)/timidity.cmd 2> /dev/null) -o $@ $<
 
-CLOBBERFILES += $(PDFS) $(MIDIS) $(MP3S)
+MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
+	mkdir -p $(@D)
+	lame $< $@
+
+CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 PDF/%.pdf MIDI/%.midi: src/$$(*F).ly
 	mkdir -p $(@D)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
