@@ -9,7 +9,7 @@
 
 \header{
   hymnnumber = "90"
-  title = "Have You Been To Jesus for the Cleansing Power?"
+  title = \markup \column { "Have You Been To Jesus" "for the Cleansing Power?" \vspace #0.4 }
   tunename = ""
   meter = "11. 9. 11. 9. with Refrain"
   poet = "E. A. H."
