@@ -32,8 +32,10 @@ all: pdf midi index mp3 zip
 pdf: $(PDFS)
 midi: $(MIDIS)
 mp3: $(MP3S)
-# WAVS are not made unless requested, since the output files are large
+# WAVs are not made unless requested, since the output files are large
 wav: $(WAVS)
+# WAVs are deleted by default when made only to produce MP3s
+.INTERMEDIATE: $(WAVS)
 lyrics: $(TXTS)
 dist: zip
 zip: EOG_midi_pdf.zip
