@@ -9,10 +9,6 @@ MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(notdir $(LYS:.ly=.wav ))))
 TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
-ifneq ($(ONLY),)
-LYS = src/EOG$(ONLY).ly
-endif
-
 TIMIDITY = timidity -a
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
