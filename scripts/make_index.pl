@@ -23,7 +23,7 @@ my @files = @ARGV;
 
 my %dirs     = qw(pdf PDF midi MIDI mp3 MP3 txt TXT);
 my %exts     = reverse %dirs;
-my @dirs     = values %dirs;
+my @dirs     = sort values %dirs;
 my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
 my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
