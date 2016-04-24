@@ -51,7 +51,7 @@ my $compound_wordpat = qr<
 >xoism;
 
 my $strips = qr<
-(\n?)\s*(?:
+(?:
     \\bar\s*".*?"
  | \\break
  | \\noBreak
@@ -74,9 +74,9 @@ my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } '
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
 my @unmarkup = map { s/$markuppat/$1/g; $_ } @bare;
-my @trimmed = map { s/^\{\s*(.*?)\s*\}\s*(%.*)?$/$1/gm; $_ } @unmarkup;
+my @trimmed = map { s/$braces/substr($1,1,-1)/gem; $_ } @unmarkup;
 my @rescued = map { s/\\markup\s*($braces)/substr($1,1,-1)/ge; $_ } @trimmed;
-my @lines = map { s/$strips/$1/g; [ grep !/^$/, map trim, split /\n/ ] } @rescued;
+my @lines = map { s/$strips//g; [ grep !/^$/, map trim, split /\n/ ] } @rescued;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;
 my @unknown;
 
