@@ -159,11 +159,11 @@ wordsD = \lyricmode {
 Mon -- ey or price ye have no need to bring,
 Christ giv -- eth rest, giv -- eth rest.
 Why to your rage and your { \mon } pov -- er -- ty { \moff } cling?
-Come and be blest, and be { \set includeGraceNotes = ##t } blest. \bar "."
+Come and be blest, and be %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} blest. \bar "."
 A -- way with all fear, a -- way with all doubt,
 Hear His own words, which none can re -- fute, \bar "."
 —“Who -- e’er comes to Me, I’ll in no wise cast out;
-I’ll give him rest, give him rest.” { \set includeGraceNotes = ##f }
+I’ll give him rest, give him rest.” %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 
 }
 

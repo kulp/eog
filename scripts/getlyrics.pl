@@ -19,6 +19,7 @@ if (-e "transforms.map") {
 }
 
 my $braces = $RE{balanced}{-parens=>'{}'};
+my $hidden = $RE{balanced}{-begin=>'%{HIDE>%}'}{-end=>'%{<HIDE%}'};
 
 my $lyricpat = qr<
     \b((words|refrain)(\w*))\s*
@@ -51,17 +52,17 @@ my $compound_wordpat = qr<
 >xoism;
 
 my $strips = qr<
-(?:
-    \\bar\s*".*?"
+   \\bar\s*".*?"
  | \\break
+ | \\pageBreak
  | \\noBreak
+ | \\markup
  | \\m(on|off)
  | %.*?(?=\n|$)
  | \\Refrain\w*
  | \\italic(sO(n|ff))?
  #| \p{IsPunct}
  | $braces
-)
 >xoism;
 
 my $file = shift;
@@ -74,7 +75,9 @@ my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } '
 my @segments = grep defined, @groups{@order};
 my @bare = map /$versepat/, @segments;
 my @unmarkup = map { s/$markuppat/$1/g; $_ } @bare;
-my @trimmed = map { s/$braces/substr($1,1,-1)/gem; $_ } @unmarkup;
+my @hidden = map { s/$hidden//; $_ } @unmarkup;
+my @lyrics = map { s/%LYRICS//; $_ } @hidden;
+my @trimmed = map { s/$braces/substr($1,1,-1)/gem; $_ } @lyrics;
 my @rescued = map { s/\\markup\s*($braces)/substr($1,1,-1)/ge; $_ } @trimmed;
 my @lines = map { s/$strips//g; [ grep !/^$/, map trim, split /\n/ ] } @rescued;
 my @words = map [ map [ split /$wordpat/ ], @$_ ], @lines;

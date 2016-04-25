@@ -145,8 +145,8 @@ notesBassB = {
 
 Refrain = \lyricmode {
 
-% need the overrides on the same line as the first lyrics line for getlyrics.pl
-{ \override LyricText.font-size = #-1 \override Lyrics.LyricText.font-shape = #'italic } \markup{{\super{★}}Ev} -- er -- last -- ing glo -- ry un -- to Je --  sus be!
+%{HIDE>%} { \override LyricText.font-size = #-1 \override Lyrics.LyricText.font-shape = #'italic } \markup{{\super{★}}Ev} -- er -- last -- ing glo -- ry un -- to Je --  sus be! %{<HIDE%}
+%LYRICS Ev -- er -- last -- ing glo -- ry un -- to Je --  sus be!
 Sing a -- loud the sto -- ry of His vic -- to -- ry!
 
 }
@@ -161,7 +161,7 @@ Of His vic -- to -- ry! \bar "|."
 How He left the splen -- dor \bar "."
 Of His home on high, \bar "."
 Came in love so ten -- der, \bar "."
-On the cross to \markup{die.{\super{★}}} \bar "."
+On the cross to \markup{ die.{\super{★}}} \bar "."
 
 }
 
@@ -175,7 +175,7 @@ Praise to Him be giv -- en,
 Je -- sus, meek and low -- ly,
 Came the lost to save;
 He the Vic -- tim Ho -- ly,
-Tri -- umphed o’er the \markup{grave.{\super{★}}}
+Tri -- umphed o’er the \markup{ grave.{\super{★}}}
 
 }
 
@@ -189,7 +189,7 @@ Van -- quished e’en the tomb!
 Burst its i -- ron por -- tal,
 Rolled a -- way the stone,
 Rose in life im -- mor -- tal
-To the Fa -- ther’s \markup{throne.{\super{★}}%{workaround for weird bug in getlyrics.pl%}}
+To the Fa -- ther’s \markup{ throne.{\super{★}}%{workaround for weird bug in getlyrics.pl%}}
 
 }
 
@@ -203,7 +203,7 @@ Own His right -- ful sway!
 Sing a -- loud! and nev -- er
 Cease to spread His fame,
 Tri -- umph, now and ev -- er,
-In the Sav -- iour’s \markup{name.{\super{★}}}
+In the Sav -- iour’s \markup{ name.{\super{★}}}
 
 }
 

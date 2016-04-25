@@ -188,11 +188,7 @@ wordsF = \markuplist {
 
 \line { A flax-thread in oceans of fire }
 \line { How soon swallowed up would it be; }
-\line { { \italic { Yet sooner in oceans of mercy, } } }
-%{
-% workaround for getlyrics.pl
-\line { Yet sooner in oceans of mercy, }
-%}
+\line { %{HIDE>%} \italic { %{<HIDE%} Yet sooner in oceans of mercy, %{HIDE>%} } %{<HIDE%} }
 \line { The sinner that cometh to Me.” }
 
 }

@@ -160,7 +160,8 @@ Tho’ all un -- wor -- thy, yet I will not doubt,
 For him that com -- eth, He will not cast out,
 “He \mon that be -- \moff liev -- eth,” O! the good news shout,
 % XXX the opening quote isn't quite close enough to the \caps Hath
-\markup{ “\caps Hath } ev -- er -- last -- ing life.”
+%LYRICS “Hath ev -- er -- last -- ing life.”
+%{HIDE>%} \markup{ “\caps Hath } ev -- er -- last -- ing life.” %{<HIDE%}
 
 }
 
@@ -174,7 +175,6 @@ For him that com -- eth, He will not cast out,
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass

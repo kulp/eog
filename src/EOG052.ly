@@ -101,11 +101,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Hark! hark! hear the glad ti -- dings,
-Soon, soon, Je -- sus will come, { \set includeGraceNotes = ##t }
+Soon, soon, Je -- sus will come, %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%}
 Robed, robed in hon -- or and glo -- ry,
 To gath -- er His ran -- somed ones home.
 Yes, yes, O yes,
-To gath -- er His ran -- somed ones home.  { \set includeGraceNotes = ##f }
+To gath -- er His ran -- somed ones home.  %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 
 }
 
@@ -153,10 +153,10 @@ wordsE = \lyricmode {
 % measure bars put partly on fifth verse due to grace notes
 Still, still, rest on the prom -- ise,
 Cling, cling, fast to His word;
-Wait, wait, if He should { \set includeGraceNotes = ##t } tar -- ry, \bar "."
+Wait, wait, if He should %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} tar -- ry, \bar "."
 We’ll pa -- tient -- ly wait for the Lord.
 Yes, yes, O yes, \bar "."
-We’ll pa -- tient -- ly wait for the Lord. { \set includeGraceNotes = ##f }
+We’ll pa -- tient -- ly wait for the Lord. %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 
 }
 

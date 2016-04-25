@@ -125,24 +125,24 @@ Shall ev -- er -- last -- ing \break life re -- ceive!” \bar "."
 RefrainB = \lyricmode {
 
 For “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break { \lyricsInvis } life re -- ceive!” \bar "."
-Shall ev __ er -- last -- ing life re -- ceive!” { \lyricsVis }
+Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive!” \bar "."
+Shall ev __ er -- last -- ing life re -- ceive!” %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
 
 RefrainC = \lyricmode {
 
 That “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break { \lyricsInvis } life re -- ceive!” \bar "."
-“Shall ev __ er -- last -- ing life re -- ceive!” { \lyricsVis }
+Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive!” \bar "."
+“Shall ev __ er -- last -- ing life re -- ceive!” %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
 
 RefrainD = \lyricmode {
 
 For “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break { \lyricsInvis } life re -- ceive!” \bar "."
-Shall ev __ er -- last -- ing life re -- ceive!” { \lyricsVis }
+Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive!” \bar "."
+Shall ev __ er -- last -- ing life re -- ceive!” %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
 

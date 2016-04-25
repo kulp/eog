@@ -110,7 +110,7 @@ wordsA = \lyricmode {
 Bear the joy -- ful news on high! \bar "." \break
 % each segment of the 4-beat line should appear only once in the TXT output, to
 % accomodate other tunes
-“It is fin -- ished!” { “It is fin -- ished!” } \bar "."
+“It is fin -- ished!” %{HIDE>%} “It is fin -- ished!” %{<HIDE%} \bar "."
 Tell it thro’ the earth and sky. \bar "." \break
 
 }
@@ -122,7 +122,7 @@ Hear the Lord Him -- self de -- clar -- ing
 All per -- formed He came to do;
 Sin -- ners in your -- selves des -- pair -- ing,
 This is joy -- ful news for you;
-{ Je -- sus speaks it, } Je -- sus speaks it—
+%{HIDE>%} Je -- sus speaks it, %{<HIDE%} Je -- sus speaks it—
 His are faith -- ful words and true.
 
 }
@@ -134,7 +134,7 @@ wordsC = \lyricmode {
 Yes, the cup of wrath is drained;
 Such the truth these words dis -- cov -- er,
 Thus the vic -- tory was ob -- tained:
-’Tis a vic -- tory, { ’tis a vic -- tory, }
+’Tis a vic -- tory, %{HIDE>%} ’tis a vic -- tory, %{<HIDE%}
 None but Je -- sus could have gained.
 
 }
@@ -146,7 +146,7 @@ Crown the might -- y Con -- queror, crown Him,
 Who His peo -- ple’s foes o’er -- came;
 In the high -- est heaven en -- throne Him,
 Men and an -- gels sound His fame!
-{ Great His glo -- ry! } Great His glo -- ry!
+%{HIDE>%} Great His glo -- ry! %{<HIDE%} Great His glo -- ry!
 Je -- sus bears a match -- less name.
 
 }

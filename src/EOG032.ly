@@ -128,8 +128,7 @@ wordsC = \lyricmode {
 
 The brid -- al hall is fill -- ing for the feast:
 Pass in! pass in! and be the Bride -- groom’s guest.
-% The space before the next brace is critical for TXT generation
- { \skip 4 \markup { \italic "(Last verse only)" } }
+%{HIDE>%} { \skip 4 \markup { \italic "(Last verse only)" } } %{<HIDE%}
 
 }
 
