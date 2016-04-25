@@ -85,6 +85,7 @@ my $spell = Text::Aspell->new;
 sub _check
 {
     my $word = shift;
+    $word =~ s/\s+/ /g; # collapse whitespace
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
         $test =~ s/$apos/'/go;
