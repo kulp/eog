@@ -97,7 +97,7 @@ Room, room, still room! O, en -- ter, en -- ter now!
 
 }
 
-RefrainD = \lyricmode {
+RefrainH = \lyricmode {
 
  { \italicsOn }
 No room! no room! O, woe -- ful cry!— “No room!”
@@ -138,7 +138,7 @@ wordsD = \lyricmode {
 It fills, it fills, that hall of ju -- bi -- lee!
 Make haste, make haste; ’tis not too full for thee.
 
-\RefrainD % TODO in TXT generation this should come at end
+\RefrainH
 
 }
 
