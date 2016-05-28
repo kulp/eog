@@ -190,7 +190,7 @@ While He strives, { \repeat unfold 3 { \skip 4 } } yield to Him,
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-		\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
+    \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
   >>
   \layout {
     \include "common/layout.ily"
