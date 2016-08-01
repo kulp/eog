@@ -189,7 +189,7 @@ we now pro -- claim
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-    \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
+    \context Lyrics = three \lyricsto tenors \underWords
   >>
   \layout {
     \include "common/layout.ily"

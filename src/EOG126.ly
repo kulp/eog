@@ -166,7 +166,7 @@ And e -- ter -- nal -- ly hap -- py thou’lt be
 
 underWords = \lyricmode {
 
-{ \repeat unfold 35 { \skip 4 } }
+{ \repeat unfold 36 { \skip 4 } }
 Sin -- ner, hear, { \repeat unfold 3 { \skip 4 } } and o -- bey,
 { \repeat unfold 7 { \skip 4 } }
 the Spir -- it that cries;
@@ -190,7 +190,7 @@ While He strives, { \repeat unfold 3 { \skip 4 } } yield to Him,
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-    \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
+    \context Lyrics = three \lyricsto tenors \underWords
   >>
   \layout {
     \include "common/layout.ily"

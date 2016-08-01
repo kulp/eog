@@ -180,10 +180,7 @@ underWords = \lyricmode {
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
-    \new Lyrics \with {
-      alignAboveContext = men
-      fontSize = #-2
-    } \lyricsto basses \underWords
+    \context Lyrics = three \lyricsto basses \underWords
   >>
   \layout {
     \include "common/layout.ily"
