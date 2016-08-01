@@ -50,7 +50,7 @@ notesSoprano = {
   \changePitch \patternC { bes' g aes | bes bes c bes ees } >>
   \changePitch \patternA { ees ees ees | d c g a! | bes }
   \changePitch \patternC { bes g aes | bes bes aes bes | ees }
-  \changePitch \patternA { ees ees c | bes g g f | \tb ees \fermata \ta }
+  \changePitch \patternA { ees ees c | bes g g f | \tb ees \fermata \ta } % XXX this tempo change is not respected
 
   \bar "|."
 
