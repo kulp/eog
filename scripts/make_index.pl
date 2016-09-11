@@ -96,7 +96,7 @@ print
             Tr({ -class => "realhead" },
                 (map th($_), qw(No. Title Poet Composer Meter)),
                 (map th({ -class => "nosort" }, $_), map @{ $variants{$_} }, @dirs),
-                (map th($_), qw(Added Updated)),
+                th("Added"),
             ),
         ),
         tbody(
@@ -125,8 +125,7 @@ print
                     (do {
                         my @dates = map deparse8601($_),
                                     qx(git log --follow --format=format:%ci src/$stem.ly);
-                        (td({ -class => "date_added  ", customkey => "$dates[-1]" } , when($dates[-1])),
-                         td({ -class => "date_updated", customkey => "$dates[ 0]" } , when($dates[ 0])))
+                        td({ -class => "date_added", customkey => "$dates[-1]" }, when($dates[-1]))
                     }),
                 );
             } @stems),
