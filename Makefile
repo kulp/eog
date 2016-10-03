@@ -9,8 +9,6 @@ MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(notdir $(LYS:.ly=.wav ))))
 TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
-TIMIDITY = timidity -a
-
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
 
 ifneq ($(DEBUG),1)
@@ -76,9 +74,19 @@ $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
 	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(*D)#' | tr '\012' ' ' >> $@
 	echo >> $@
 
-WAV/%.wav: MIDI/default/$$(*F).midi variants/MP3/$$(*D)/timidity.cfg
+# We use midish with no explicit settings to filter out program-change events,
+# so that our program-change settings to fluidsynth are respected.
+MIDI/vanilla/%.midi: MIDI/default/%.midi
 	mkdir -p $(@D)
-	$(TIMIDITY) -Ow -c $(filter variants%,$^) $(shell cat variants/MP3/$(*D)/timidity.cmd 2> /dev/null) -o $@ $<
+	midish -b <<<'import "$<"; export "$@"'
+CLOBBERFILES += MIDI/vanilla/
+
+# I would like to use long (`--` style) options to fluidsynth, but version
+# 1.1.6 doesn't seem to understand them, even though its help summary indicates
+# it should.
+WAV/%.wav: MIDI/vanilla/$$(*F).midi
+	mkdir -p $(@D)
+	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
 
 MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	mkdir -p $(@D)
