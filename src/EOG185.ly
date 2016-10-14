@@ -98,7 +98,7 @@ wordsA = \lyricmode {
 
 On His Fa -- ther’s throne is seat -- ed \bar "."
 Christ the Lord the liv -- ing One! \bar "."
-All His toil on earth com -- let -- ed, \bar "."
+All His toil on earth comp -- let -- ed, \bar "."
 All His work for sin -- ners done. \bar "."
 %{HIDE>%} In the glo -- ry, In the glo -- ry \bar "." %{<HIDE%}
 In the glo -- ry \bar "."
@@ -109,7 +109,7 @@ See Him God’s e -- ter -- nal Son! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Ev -- ’ry knee shall bow be -- for Him,
+Ev -- ’ry knee shall bow be -- fore Him,
 Ev -- ’ry tongue con -- fess His Name:
 Ran -- somed myr -- i -- ads a -- dore Him
 Who en -- dured the sin -- ner’s shame!
