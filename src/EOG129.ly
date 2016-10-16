@@ -117,7 +117,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-{ \repeat unfold 30 { \skip 4 } }
+{ { \repeat unfold 30 { \skip 4 } } }
 O, glad and glo -- rious gos -- pel! \bar "."
 With joy we now pro -- claim __ \bar "."
 A full and free sal -- va -- tion, \bar "."
