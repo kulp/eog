@@ -24,9 +24,12 @@ ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 marksegno = { \mark \markup { \musicglyph #"scripts.segno" } }
 
-patternAA = { \ta c8. c16 | c8. c16 c8. c16 c4 }
-patternAB = { \ta c8. c16 | c8. c16 c8. c16 c16[ c8.] }
-patternAC = { \ta c8. c16 | c8. c16 c8. c16 \tb c4 \ta }
+patternAAds = { c8. c16 c8. c16 c4 }
+patternAA = { \ta c8. c16 | \patternAAds }
+patternABds = { \ta c8. c16 c8. c16 c16[ c8.] }
+patternAB = { \ta c8. c16 \patternABds }
+patternACds = { c8. c16 c8. c16 \tb c4 \ta }
+patternAC = { \ta c8. c16 | \patternACds }
 
 patternBA = { \ta c8. c16 | c2. }
 
@@ -72,6 +75,14 @@ notesSoprano = {
 }
 }
 
+notesSopranoDS = {
+\relative c'' {
+  \changePitch \patternABds { c c c c c ees \fermata }
+  \changePitch \patternAB { ees, f | g g g g g bes }
+  \changePitch \patternBA { f g | ees }
+}
+}
+
 notesAlto = {
 \global
 \relative e' {
@@ -92,6 +103,14 @@ notesAlto = {
   \changePitch \patternAA { ees f | g g g g g }
   ees8. ees16
 
+}
+}
+
+notesAltoDS = {
+\relative e' {
+  \changePitch \patternAAds { ees ees ees ees ees }
+  \changePitch \patternAA { ees d | ees ees ees ees d }
+  \changePitch \patternBA { d bes | bes }
 }
 }
 
@@ -118,6 +137,14 @@ notesTenor = {
 }
 }
 
+notesTenorDS = {
+\relative a {
+  \changePitch \patternAAds { aes aes aes aes c }
+  \changePitch \patternAA { bes bes | bes bes bes g f }
+  \changePitch \patternBA { aes aes | g }
+}
+}
+
 notesBass = {
 \global
 \relative f {
@@ -138,6 +165,14 @@ notesBass = {
   \changePitch \patternAA { g f | ees ees ees ees ees }
   ees8. ees16
 
+}
+}
+
+notesBassDS = {
+\relative f {
+  \changePitch \patternACds { aes, aes aes aes aes' }
+  \changePitch \patternAA { g f | ees ees ees ees bes }
+  \changePitch \patternBA { bes bes | ees }
 }
 }
 
@@ -230,8 +265,7 @@ Be in time!
 
 }
 
-\score {
-  \context ChoirStaff <<
+music = \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
@@ -249,9 +283,29 @@ Be in time!
     >>
     \context Lyrics = three  \lyricsto tenors \underWords % XXX this causes alignment issues with soprano words ("fly", "lost")
   >>
+
+musicDS = \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne { \notesSoprano \notesSopranoDS } }
+      \context Voice  = altos { \voiceTwo { \notesAlto \notesAltoDS } }
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne { \notesTenor \notesTenorDS } }
+      \context Voice  = basses { \voiceTwo { \notesBass \notesBassDS } }
+    >>
+  >>
+
+\score {
+  \music
   \layout {
     \include "common/layout.ily"
   }
+}
+
+\score {
+  \musicDS
   \midi{
     \include "common/midi.ily"
   }
