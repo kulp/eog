@@ -146,9 +146,7 @@ Je -- sus my Lord.
 
 }
 
-
-\score {
-  \context ChoirStaff <<
+music = \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
@@ -163,9 +161,16 @@ Je -- sus my Lord.
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
+
+\score {
+  \music
   \layout {
     \include "common/layout.ily"
   }
+}
+
+\score {
+  \unfoldRepeats \music
   \midi{
     \include "common/midi.ily"
   }
