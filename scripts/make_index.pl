@@ -124,7 +124,7 @@ print
                     } @{ $variants{$dir} } } @dirs),
                     (do {
                         my @dates = map deparse8601($_),
-                                    qx(git log --follow --format=format:%ci src/$stem.ly);
+                                    qx(git log --follow --format=format:%ai src/$stem.ly);
                         td({ -class => "date_added", customkey => "$dates[-1]" }, when($dates[-1]))
                     }),
                 );
