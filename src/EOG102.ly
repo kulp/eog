@@ -114,6 +114,16 @@ notesAltoDS = {
 }
 }
 
+notesAltoSecond = {
+\autoBeamOff
+\relative e' {
+\override NoteHead.font-size = #-4 {
+\repeat unfold 29 \skip 4
+bes4 c8. c16 bes4
+}
+}
+}
+
 notesTenor = {
 \global
 \relative a {
@@ -145,6 +155,16 @@ notesTenorDS = {
 }
 }
 
+notesTenorSecond = {
+\autoBeamOff
+\relative a {
+\override NoteHead.font-size = #-4 {
+\repeat unfold 29 \skip 4
+g4 aes8. aes16 g4
+}
+}
+}
+
 notesBass = {
 \global
 \relative f {
@@ -155,7 +175,7 @@ notesBass = {
   \changePitch \patternBA { g ees | bes }
 
   \changePitch \patternAA { ees ees | ees ees ees ees ees }
-  \changePitch \patternAC { ees ees | aes, aes aes aes aes' \fermata }
+  \changePitch \patternAC { ees ees | aes aes aes aes aes \fermata }
   \changePitch \patternAA { g f | ees ees ees ees bes }
   \changePitch \patternBA { bes bes | ees }
 
@@ -170,9 +190,19 @@ notesBass = {
 
 notesBassDS = {
 \relative f {
-  \changePitch \patternACds { aes, aes aes aes aes' }
+  \changePitch \patternACds { aes aes aes aes aes }
   \changePitch \patternAA { g f | ees ees ees ees bes }
   \changePitch \patternBA { bes bes | ees }
+}
+}
+
+notesBassSecond = {
+\autoBeamOff
+\relative f, {
+\override NoteHead.font-size = #-4 {
+\repeat unfold 21 \skip 4
+aes8. aes16 aes8. aes16
+}
 }
 }
 
@@ -270,6 +300,7 @@ music = \context ChoirStaff <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
       \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Voice  = altosSecond { \voiceFour << \notesAltoSecond >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -279,7 +310,9 @@ music = \context ChoirStaff <<
     \context Staff = men <<
       \clef bass
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = tenorsSecond { \voiceThree << \notesTenorSecond >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \context Voice  = bassesSecond { \voiceFour << \notesBassSecond >> }
     >>
     \context Lyrics = three  \lyricsto tenors \underWords % XXX this causes alignment issues with soprano words ("fly", "lost")
   >>
@@ -289,11 +322,14 @@ musicDS = \context ChoirStaff <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne { \notesSoprano \notesSopranoDS } }
       \context Voice  = altos { \voiceTwo { \notesAlto \notesAltoDS } }
+      \context Voice  = altosSecond { \voiceFour << \notesAltoSecond >> }
     >>
     \context Staff = men <<
       \clef bass
       \context Voice  = tenors { \voiceOne { \notesTenor \notesTenorDS } }
+      \context Voice  = tenorsSecond { \voiceThree << \notesTenorSecond >> }
       \context Voice  = basses { \voiceTwo { \notesBass \notesBassDS } }
+      \context Voice  = bassesSecond { \voiceFour << \notesBassSecond >> }
     >>
   >>
 
