@@ -7,8 +7,6 @@
   %page-count = ##f
 }
 
-% TODO reformat this as it appears in the EOG -- without music ?
-
 \header{
   hymnnumber = "15"
   title = "O What a Gift the Father Gave"
@@ -122,55 +120,81 @@ notesBass = {
 }
 }
 
-Refrain = \lyricmode {
+wordsA = \markuplist {
 
-O! ’twas love, ’twas won -- drous love! \bar "."
-The love of God to me; \bar "." \break
-It brought my Sav -- iour from a -- bove, \bar "."
-To die on Cal -- va -- ry. \bar "." \break
-
-}
-
-wordsA = \lyricmode {
-\set stanza = "1."
-
-O what a gift the Fa -- ther gave \bar "."
-When He be -- stowed His Son! \bar "." \break
-To save poor ru -- ined, guil -- ty man, \bar "."
-By sin de -- filed, un -- done. \bar "." \break
+\line { O what a gift the Father gave }
+\line { { \hspace #2 } When He bestowed His Son! }
+\line { To save poor ruined, guilty man, }
+\line { { \hspace #2 } By sin defiled, undone. }
 
 }
 
-wordsB = \lyricmode {
-\set stanza = "2."
+wordsB = \markuplist {
 
-For I was lost and vile in -- deed!
-To sin a will -- ing prey;
-Till God in mer -- cy in -- ter -- posed
-And turned my night to day.
-
-\Refrain
+\line { For I was lost and vile indeed! }
+\line { { \hspace #2 } To sin a willing prey; }
+\line { Till God in mercy interposed }
+\line { { \hspace #2 } And turned my night to day. }
 
 }
 
-wordsC = \lyricmode {
-\set stanza = "3."
+wordsC = \markuplist {
 
-Now I can call the Sav -- iour mine,
-Though all un -- wor -- thy still;
-I’m shel -- tered by His pre -- cious blood,
-Be -- yond the reach of ill.
+\line { Now I can call the Saviour mine, }
+\line { { \hspace #2 } Though all unworthy still; }
+\line { I’m sheltered by His precious blood, }
+\line { { \hspace #2 } Beyond the reach of ill. }
 
 }
 
-wordsD = \lyricmode {
-\set stanza = "4."
+wordsD = \markuplist {
 
-Come all who trust in Je -- sus now,
-And tell your joys a -- broad;
-Let thank -- ful hymns of praise as -- cend,
-For Christ, the gift of God.
+\line { Come all who trust in Jesus now, }
+\line { { \hspace #2 } And tell your joys abroad; }
+\line { Let thankful hymns of praise ascend, }
+\line { { \hspace #2 } For Christ, the gift of God. }
 
+}
+
+% TODO this markup is all empirical, and brittle
+\markup {
+  \column {
+    \column {
+      \fill-line {
+        \huge \larger \larger \bold {
+          "  15"
+          "O What a Gift the Father Gave"
+          \null
+        }
+      }
+    }
+
+    \vspace #0.5
+
+    \fill-line \smaller { "Sing to above tune and refrain" }
+
+    \vspace #0.5
+
+    \fill-line {
+      \null
+
+      \center-column {
+        \line{ \bold 1 \column { \wordsA } }
+        \vspace #1
+        \line{ \bold 2 \column { \wordsB } }
+      }
+
+      \null
+
+      \center-column {
+        \line{ \bold 3 \column { \wordsC } }
+        \vspace #1
+        \line{ \bold 4 \column { \wordsD } }
+      }
+
+      \null
+    }
+  }
 }
 
 \score {
@@ -179,11 +203,6 @@ For Christ, the gift of God.
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
       \context Voice  = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
@@ -191,9 +210,6 @@ For Christ, the gift of God.
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
-  \layout {
-    \include "common/layout.ily"
-  }
   \midi{
     \include "common/midi.ily"
   }
