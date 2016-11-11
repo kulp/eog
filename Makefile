@@ -62,9 +62,12 @@ ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(MP3S:%=deps/%.d)
 endif
 
-$(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl transforms.map
+# Use an order-only dependency on transforms.map, because we don't update older
+# songs with new transforms -- new transforms apply only to new songs. An
+# order-only dependency therefore reduces needless rebuilds of older songs.
+$(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl | transforms.map
 	@mkdir -p $(@D)
-	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
+	scripts/getlyrics.pl $< 2>> $| > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
 .SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
