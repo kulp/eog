@@ -11,8 +11,14 @@ TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
 tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
 
+LYOPTS += --loglevel=WARNING
+
+ifneq ($(DEBUG),)
+LYOPTS += --loglevel=DEBUG
+endif
+
 ifneq ($(DEBUG),1)
-LYOPTS += -dno-point-and-click -ddelete-intermediate-files
+LYOPTS += --define-default=no-point-and-click --define-default=delete-intermediate-files
 endif
 
 vpath .ly   src
