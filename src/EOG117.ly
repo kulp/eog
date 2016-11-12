@@ -180,4 +180,4 @@ Let thy light thus bright -- ly shine. % original has "your" for "thy"
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
-% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

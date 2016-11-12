@@ -202,4 +202,4 @@ While He strives, { \repeat unfold 3 { \skip 4 } } yield to Him,
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
-% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

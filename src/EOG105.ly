@@ -163,4 +163,4 @@ Rose, and lives to die no more.
 % bump to 2.18.1 for \tuplet
 \version "2.18.1"  % necessary for upgrading to future LilyPond versions.
 
-% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
