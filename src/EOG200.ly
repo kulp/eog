@@ -40,10 +40,10 @@ notesSoprano = {
 d8. d16 | g4 g g | g a b | b a g | a2
 d,4 | a' a a | a b c | c b a | b2
 \repeat volta 2 { d4 | d d d | e d b | b b b | c( b) a
-                  g g g | a g e }
+                  g g g | a g }
 \alternative {
-  { d4 g a | \set Timing.measureLength = #(ly:make-moment 2/4) b2 }
-  { \set Timing.measureLength = #(ly:make-moment 3/4) d,4 g a | g2 }
+  { e4 | d g a | b2 }
+  { e,4 | d4 g a | g2 }
 }
 
 
@@ -59,10 +59,10 @@ notesAlto = {
 d8. d16 | b4 b d | g fis g | g fis e | fis2
 d4 | d d d | fis g fis | d d fis | g2
 \repeat volta 2 { g4 | g g g | g2 g4 | g g g | g2 fis4 |
-                  g g g | e e c }
+                  g g g | e e }
 \alternative {
-  { b4 d fis | g2 }
-  { b,4 d d | d2 }
+  { c4 | b d fis | g2 }
+  { c,4 | b d d | d2 }
 }
 
 
@@ -76,10 +76,10 @@ notesTenor = {
 d8. d16 | d4 d d | d d d | d d cis | d2
 fis,4 | fis a d | d d d | a b d | d2
 \repeat volta 2 { b4 | b b b | c b d | d d d | e( d) c
-                  b b b | c g g }
+                  b b b | c g }
 \alternative {
-  { g4 b d | d2 }
-  { g,4 b c | b2 }
+  { g4 | g b d | d2 }
+  { g,4 | g4 b c | b2 }
 }
 
 }
@@ -92,10 +92,10 @@ notesBass = {
 d8. d16 | g4 g b | b a g | d d d | d2
 d4 | d fis a | c b a | d, d d | g2
 \repeat volta 2 { g4 | g g g | g2 g4 | g g g | g2 d4
-                  e e e | c c c }
+                  e e e | c c }
 \alternative {
-  { d4 d d | g2 }
-  { d4 d d | g,2 }
+  { c4 | d d d | g2 }
+  { c,4 | d d d | g,2 }
 }
 
 }
@@ -112,7 +112,7 @@ No dread of the mor -- row, \bar "."
 No sor -- row I see, \bar "." \break
 For Je -- sus is com -- ing \bar "."
 He’s com -- ing for me.
-com -- ing for me.
+%{HIDE>%} He’s com -- ing for me. %{<HIDE%}
 
 }
 
@@ -127,7 +127,7 @@ The storm is with -- out me,
 No trou -- ble with -- in,
 For Je -- sus, my Sav -- iour,
 Has cleansed me from sin.
-cleansed me from sin.
+%{HIDE>%} Has cleansed me from sin. %{<HIDE%}
 
 }
 
@@ -142,7 +142,7 @@ I rest on His prom -- ise,
 I trust His sure word;
 Then quick -- ly, come quick -- ly,
 O Je -- sus my Lord.
-Je -- sus my Lord.
+%{HIDE>%} O Je -- sus my Lord. %{<HIDE%}
 
 }
 
