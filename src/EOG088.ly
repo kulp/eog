@@ -12,7 +12,7 @@
   title = "Hail, Sovereign Love"
   tunename = "Bera"
   meter = "L. M."
-  poet = "Jehoida Brewer"
+  poet = "Jehoiada Brewer" % original has "Jehoida"
   %composer = ""
   %copyright = ""
   tagline = ##f
