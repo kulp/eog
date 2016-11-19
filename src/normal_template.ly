@@ -104,6 +104,6 @@ wordsD = \lyricmode {
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
