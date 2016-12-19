@@ -46,6 +46,9 @@ sub deparse8601
     return DateTime::Format::RFC3339->parse_datetime($d);
 }
 
+my @existing = qx(find src -name EOG???.ly);
+my $total = 376 + 8;
+
 print
     start_html(-title  => "Echoes of Grace layout project",
         -style  => { -src => "scripts/main.css" },
@@ -74,6 +77,8 @@ print
     p("You can download a",
         a({ -href => "EOG_midi_pdf.zip" }, "zip file of all PDFs and MIDIs"),
         "listed."),
+    p(sprintf "Progress: %d/%d files = %4.2f%% complete",
+            scalar(@existing), $total, 100.0 * scalar(@existing)/$total),
     table({ -class => "sortable", -id => "main" },
         thead(
             Tr(
