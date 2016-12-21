@@ -48,7 +48,7 @@ notesSoprano = {
   { c4 | c4. c8 c8[ a8] d8[ c8] | c4. bes8 a4 } >>
   f8[ g8] | a4. a8 a8[ c8] bes8[ a8] | g2.
   c,4 | f4. f8 a4. a8 | c8[ a8 bes8] c8 \tb d4 \fermata \ta
-  d4 | c8[ a8] bes8[ g8] f4 e4 | f2
+  d4 | c8[ a8] bes8[ g8] f4 e4 | f2.
 
   \bar "|."
 
