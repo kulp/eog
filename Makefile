@@ -74,6 +74,7 @@ ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(MP3S:%=deps/%.d)
 endif
 
+CLOBBERFILES += $(TXTS)
 # Use an order-only dependency on transforms.map, because we don't update older
 # songs with new transforms -- new transforms apply only to new songs. An
 # order-only dependency therefore reduces needless rebuilds of older songs.
@@ -81,7 +82,7 @@ $(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl | transforms.map
 	@mkdir -p $(@D)
 	scripts/getlyrics.pl $< 2>> $| > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
-CLOBBERFILES += TXT/latinized
+CLOBBERFILES += TXT/latinized/$(LYS:.ly=.txt)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	scripts/latinize.sh $< > $@
 
@@ -98,7 +99,7 @@ $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
 MIDI/vanilla/%.midi: MIDI/default/%.midi
 	mkdir -p $(@D)
 	midish -b <<<'import "$<"; export "$@"'
-CLOBBERFILES += MIDI/vanilla/
+CLOBBERFILES += MIDI/vanilla/$(LYS:.ly=.midi)
 
 # I would like to use long (`--` style) options to fluidsynth, but version
 # 1.1.6 doesn't seem to understand them, even though its help summary indicates
@@ -127,7 +128,8 @@ MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
 headers TXT/latinized:
 	mkdir -p $@
 
-CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S) $(TXTS) headers/
+CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
+CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
 PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
 	mkdir -p $(@D)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
