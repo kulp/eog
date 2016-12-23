@@ -32,11 +32,6 @@ ifneq ($(DEBUG),1)
 LYOPTS += --define-default=no-point-and-click --define-default=delete-intermediate-files
 endif
 
-vpath .ly   src
-vpath .midi MIDI
-vpath .pdf  PDF
-vpath .mp3  MP3
-
 .SUFFIXES:
 .SUFFIXES: .ly .ily .pdf .midi .mp3
 
