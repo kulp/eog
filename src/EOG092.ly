@@ -42,13 +42,13 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { g a g c b a | a g r }
-  \changePitch \patternAA { f e f g a g | g( e) %{r%} } { \grace f4 } { \hideNotes r4 \unHideNotes }
-  \changePitch \patternAA { g a g c b a | a g %{r%} } { \grace f4 } { \hideNotes r4 \unHideNotes }
+  f4. e8 f8 g8 a8. g16 | g2( \afterGrace e4) f4 r4
+  g4. a8 g8 c8 b8. a16 | a2  \afterGrace g4  f4 r4
   \changePitch \patternAB { f e f g a b | c r }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { d d d d e d | c g r } >>
-  \changePitch \patternAC { a a a a b c | d %{r%} } { \grace dis4 } { \hideNotes r4 \unHideNotes }
+  a4. a8 a8 a8 b8 c8 | \afterGrace d2. dis4 r4
   \changePitch \patternAA { e e f e c a | g e r }
   \changePitch \patternAB { f a g c b b | c r }
 
@@ -62,12 +62,12 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternAA { e f e e g f | f e r }
-  \changePitch \patternAA { d cis d e f e | e( c) %{r%} } { \grace d4 } { \hideNotes r4 \unHideNotes }
-  \changePitch \patternAA { e f e e g f | f e %{r%} } { \grace d4 } { \hideNotes r4 \unHideNotes }
+  d4. cis8 d8 e8 f8. e16 | e2( \afterGrace c4) d4 r4
+  e4. f8 e8 e8 g8. f16 | f2 \afterGrace e4 d4 r4
   \changePitch \patternAB { d cis d e f f | e r }
 
   \changePitch \patternAA { f f f f g f | e e r }
-  \changePitch \patternAC { e e e e e e | f %{r%} } { \grace fis4 } { \hideNotes r4 \unHideNotes }
+  e4. e8 e8 e8 e8 e8 | \afterGrace f2. fis4 r4
   \changePitch \patternAA { g g a g e f | e c r }
   \changePitch \patternAB { c f e e d f | e r }
 
