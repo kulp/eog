@@ -1,3 +1,4 @@
+# Dependencies: lilypond, mp3info, MP3::Tag (for mp3info2), midish, zip, fluidsynth, lame
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
 VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
