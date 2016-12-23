@@ -114,6 +114,7 @@ MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
 MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
 MP3/%.mp3: LAMEOPTS += --tn "$$(< headers/$(HEADER_BASE).hymnnumber)/$(TOTAL_FILE_COUNT)"
 MP3/%.mp3: LAMEOPTS += --tl '$(BOOK_NAME)'
+MP3/%.mp3: LAMEOPTS += --tv TCMP=1 # iTunes compilation flag
 MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(< headers/$(HEADER_BASE).composer)"
 MP3/%.mp3: LAMEOPTS += --tv TENC="$(ENCODING_PERSON)"
 MP3/%.mp3: LAMEOPTS += --tv TEXT="$$(< headers/$(HEADER_BASE).poet)"
