@@ -83,6 +83,10 @@ $(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl | transforms.map
 	@mkdir -p $(@D)
 	scripts/getlyrics.pl $< 2>> $| > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
+CLOBBERFILES += TXT/latinized
+TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
+	scripts/latinize.sh $< > $@
+
 .SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
 $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
@@ -110,12 +114,12 @@ MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
 MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
 MP3/%.mp3: LAMEOPTS += --tn "$$(< headers/$(HEADER_BASE).hymnnumber)/$(TOTAL_FILE_COUNT)"
 MP3/%.mp3: LAMEOPTS += --tl 'Echoes of Grace'
-MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/default/$$(basename $$(*F)).txt
+MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
-	mp3info2 -u -F "USLT(eng)[3] < $(filter %.txt,$^)" $@
+	mp3info2 -u -F "USLT(eng)[0] < $(filter %.txt,$^)" $@
 
-headers:
+headers TXT/latinized:
 	mkdir -p $@
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S) $(TXTS) headers/
