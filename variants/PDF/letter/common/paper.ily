@@ -26,6 +26,17 @@ is-eogsized = ##f
          )
        ))))
 
+#(define-markup-command
+    (mytitle layout props) ; params
+    () ; param types
+    (interpret-markup layout props
+     (let ((title    (chain-assoc-get 'header:title       props))
+           (markedup (chain-assoc-get 'header:markuptitle props)))
+      (if (boolean? markedup)
+       (markup title)
+       (markup markedup)
+       ))))
+
 scoreTitleMarkup = \markup {
   \override #'(baseline-skip . 3.5)
   \column {
@@ -34,7 +45,7 @@ scoreTitleMarkup = \markup {
       \fill-line {
         \huge \larger \larger \bold {
           \concat { "  " \fromproperty #'header:hymnnumber }
-          \fromproperty #'header:title
+          \mytitle
           \null
         }
       }

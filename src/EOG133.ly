@@ -9,7 +9,8 @@
 
 \header{
   hymnnumber = "133"
-  title = \markup \center-column { "With Joy and With Gladness" "There Stand A Great Throng" \vspace #0.4 }
+  title = "With Joy and With Gladness There Stand A Great Throng"
+  markuptitle = \markup \center-column { "With Joy and With Gladness" "There Stand A Great Throng" \vspace #0.4 }
   % markup title doesn't work with make_index.pl, so we use this commented version instead
   %title = "With Joy and With Gladness There Stand A Great Throng"
   tunename = ""

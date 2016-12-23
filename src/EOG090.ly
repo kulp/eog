@@ -9,7 +9,8 @@
 
 \header{
   hymnnumber = "90"
-  title = \markup \center-column { "Have You Been To Jesus" "for the Cleansing Power?" \vspace #0.4 }
+  title = "Have You Been To Jesus for the Cleansing Power?"
+  markuptitle = \markup \center-column { "Have You Been To Jesus" "for the Cleansing Power?" \vspace #0.4 }
   % markup title doesn't work with make_index.pl, so we use this commented version instead
   %title = "Have You Been To Jesus for the Cleansing Power?"
   tunename = ""
