@@ -69,7 +69,7 @@ EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 
 index: index.html
 CLEANFILES += index.html
-index.html: $(PDFS) $(MIDIS) $(MP3S) $(TXTS)
+index.html: $(PDFS) $(MIDIS) $(MP3S) $(TXTS) $(M3US)
 	scripts/make_index.pl $^ > $@.$$$$ && mv $@.$$$$ $@
 
 clean:

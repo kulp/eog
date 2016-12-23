@@ -25,6 +25,7 @@ my %dirs     = qw(pdf PDF midi MIDI mp3 MP3 txt TXT);
 my %exts     = reverse %dirs;
 my @dirs     = sort values %dirs;
 my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
+my @lists    = grep /\.m3u$/, @files;
 my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 my %have     = map { (m#^([^/]+)#)[0] => 1 } @files;
@@ -74,6 +75,7 @@ print
         a({ -href => "https://github.com/kulp/eog" }, "Github project") . ",",
         "which aims eventually to complete the list below with all 379 hymns",
         "from the music edition of the Echoes of Grace hymn book."),
+    p("Playlists for all available MP3s:", map { a({ -href => "$_" }, $_), " " } @lists),
     p("You can download a",
         a({ -href => "EOG_midi_pdf.zip" }, "zip file of all PDFs and MIDIs"),
         "listed."),
