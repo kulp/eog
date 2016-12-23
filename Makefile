@@ -32,8 +32,8 @@ ifneq ($(DEBUG),1)
 LYOPTS += --define-default=no-point-and-click --define-default=delete-intermediate-files
 endif
 
+# Inhibit inappropriate default suffix rules to simplify debugging
 .SUFFIXES:
-.SUFFIXES: .ly .ily .pdf .midi .mp3
 
 .DEFAULT_GOAL = all
 
