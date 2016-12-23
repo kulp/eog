@@ -1,13 +1,13 @@
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
 VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
-SHELL         = /bin/bash
-LYS           = $(shell ls -1 src/EOG???{,[a-z]}.ly 2> /dev/null) # depend on bash-like expansion
-PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(notdir $(LYS:.ly=.pdf ))))
-MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(notdir $(LYS:.ly=.midi))))
-MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS:.ly=.mp3 ))))
-WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(notdir $(LYS:.ly=.wav ))))
-TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
+SHELL         = /bin/sh # depend on POSIX shell, at least
+LYS           = $(notdir $(wildcard src/EOG???.ly))
+PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf )))
+MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
+MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(LYS:.ly=.mp3 )))
+WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(LYS:.ly=.wav )))
+TXTS          = $(addprefix TXT/default/,$(LYS:.ly=.txt))
 
 HEADERS       = hymnnumber title poet composer meter tunename
 
