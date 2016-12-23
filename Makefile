@@ -1,3 +1,6 @@
+# All rules are subject to SECONDEXPANSION
+.SECONDEXPANSION:
+
 # Dependencies: lilypond, mp3info, MP3::Tag (for mp3info2), midish, zip, fluidsynth, lame
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
@@ -87,7 +90,6 @@ CLOBBERFILES += TXT/latinized/$(LYS:.ly=.txt)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	scripts/latinize.sh $< > $@
 
-.SECONDEXPANSION:
 # TODO rewrite this rule (it's rather roundabout and messy)
 $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
 	mkdir -p $(@D)
