@@ -12,6 +12,7 @@ MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.mid
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(LYS:.ly=.mp3 )))
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(LYS:.ly=.wav )))
 TXTS          = $(addprefix TXT/default/,$(LYS:.ly=.txt))
+M3US          = $(VARIANTS_MP3:%=%.m3u)
 
 HEADERS       = hymnnumber title poet composer meter tunename
 
@@ -41,11 +42,12 @@ endif
 
 .DEFAULT_GOAL = all
 
-.PHONY: all pdf midi mp3 index dist zip lyrics preview
-all: pdf midi index mp3 zip
+.PHONY: all pdf midi mp3 m3u index dist zip lyrics preview
+all: pdf midi index mp3 m3u zip
 pdf: $(PDFS)
 midi: $(MIDIS)
 mp3: $(MP3S)
+m3u: $(M3US)
 # WAVs are not made unless requested, since the output files are large
 wav: $(WAVS)
 # WAVs are deleted by default when made only to produce MP3s
@@ -55,6 +57,11 @@ dist: zip
 zip: EOG_midi_pdf.zip
 preview: $(PDFS)
 	open $^
+
+CLOBBERFILES += $(M3US)
+$(M3US): %.m3u: $(LYS:%.ly=MP3/$$*/%.mp3)
+	echo '#EXTM3U' > $@
+	mp3info2 -p "#EXTINF:%s,%a - %{TIT2}\n%{d1}/%{d0}/%f\n\n" $^ 2> /dev/null >> $@
 
 CLOBBERFILES += EOG_midi_pdf.zip
 EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
