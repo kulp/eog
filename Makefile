@@ -9,8 +9,16 @@ MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(notdir $(LYS:.ly=.wav ))))
 TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
-tolower = $(shell tr 'A-Z' 'a-z' <<<$1)
+HEADERS       = hymnnumber title poet meter
 
+TOTAL_FILE_COUNT = 384
+
+space :=#
+space +=#
+comma :=,
+HEADER_BRACES = {$(subst $(space),$(comma),$(HEADERS))}
+
+LYOPTS += --header=$(HEADER_BRACES)
 LYOPTS += --loglevel=WARNING
 
 ifneq ($(DEBUG),)
@@ -97,14 +105,23 @@ WAV/%.wav: MIDI/vanilla/$$(*F).midi
 	mkdir -p $(@D)
 	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
 
+MP3/%.mp3: HEADER_BASE = $(basename $(*F))
+MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
+MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
+MP3/%.mp3: LAMEOPTS += --tn "$$(< headers/$(HEADER_BASE).hymnnumber)/$(TOTAL_FILE_COUNT)"
+MP3/%.mp3: LAMEOPTS += --tl 'Echoes of Grace'
 MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	mkdir -p $(@D)
-	lame $< $@
+	lame $(LAMEOPTS) $< $@
+
+headers:
+	mkdir -p $@
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
-PDF/%.pdf MIDI/%.midi: src/$$(*F).ly
+PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
 	mkdir -p $(@D)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
 	-mv $(@D)/$(*F).pdf  PDF/$(*D)
 	-mv $(@D)/$(*F).midi MIDI/$(*D)
+	-mv $(@D)/$(basename $(*F)).$(HEADER_BRACES) headers/
 
