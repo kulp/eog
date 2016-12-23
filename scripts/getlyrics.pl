@@ -91,10 +91,10 @@ sub _check
     $word =~ s/\s+/ /g; # collapse whitespace
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
-        $test =~ s/$apos/'/go;
+        (my $ap = $test) =~ s/$apos/'/go;
         if ($test =~ /^_+$/) {
             return "";
-        } elsif ($spell->check($test)) {
+        } elsif ($spell->check($ap)) {
             return $test;
         } elsif ($transforms->{$word}) {
             return $transforms->{$word};
