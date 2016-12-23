@@ -33,8 +33,8 @@ notesSoprano = {
 
   g2 g a | fis2. g4 a2 |
   b2 b c | b2. a4 g2 |
-  a2 g fis | g1. % TODO grace notes
-  d'2 d d | d2. c4 b2 |
+  a2 g fis | \afterGrace g1. { a4 b c }
+  d2 d d | d2. c4 b2 |
   c2 c c | c2. b4 a2 |
   b2 c4( b) a( g) | b2. c4 d2 |
   e4( c) b2 a | g1. |
