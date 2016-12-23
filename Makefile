@@ -9,8 +9,11 @@ MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(notdir $(LYS
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(notdir $(LYS:.ly=.wav ))))
 TXTS          = $(addprefix TXT/default/,$(notdir $(LYS:.ly=.txt)))
 
-HEADERS       = hymnnumber title poet meter
+HEADERS       = hymnnumber title poet composer meter tunename
 
+WEB_BASE = http://eog.kulp.ch/
+ENCODING_PERSON = Darren Kulp <darren@kulp.ch>
+BOOK_NAME = Echoes of Grace
 TOTAL_FILE_COUNT = 384
 
 space :=#
@@ -113,7 +116,14 @@ MP3/%.mp3: HEADER_BASE = $(basename $(*F))
 MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
 MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
 MP3/%.mp3: LAMEOPTS += --tn "$$(< headers/$(HEADER_BASE).hymnnumber)/$(TOTAL_FILE_COUNT)"
-MP3/%.mp3: LAMEOPTS += --tl 'Echoes of Grace'
+MP3/%.mp3: LAMEOPTS += --tl '$(BOOK_NAME)'
+MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(< headers/$(HEADER_BASE).composer)"
+MP3/%.mp3: LAMEOPTS += --tv TENC="$(ENCODING_PERSON)"
+MP3/%.mp3: LAMEOPTS += --tv TEXT="$$(< headers/$(HEADER_BASE).poet)"
+MP3/%.mp3: LAMEOPTS += --tv TIT3="$$(< headers/$(HEADER_BASE).tunename)"
+MP3/%.mp3: LAMEOPTS += --tv TLAN='English'
+MP3/%.mp3: LAMEOPTS += --tv WOAF="$(WEB_BASE)$@"
+MP3/%.mp3: LAMEOPTS += --tv WPUB="$(WEB_BASE)"
 MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
