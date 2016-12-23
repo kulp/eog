@@ -110,9 +110,10 @@ MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
 MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
 MP3/%.mp3: LAMEOPTS += --tn "$$(< headers/$(HEADER_BASE).hymnnumber)/$(TOTAL_FILE_COUNT)"
 MP3/%.mp3: LAMEOPTS += --tl 'Echoes of Grace'
-MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
+MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/default/$$(basename $$(*F)).txt
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
+	mp3info2 -u -F "USLT(eng)[3] < $(filter %.txt,$^)" $@
 
 headers:
 	mkdir -p $@
