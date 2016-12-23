@@ -117,7 +117,7 @@ MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 headers:
 	mkdir -p $@
 
-CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
+CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S) $(TXTS) headers/
 PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
 	mkdir -p $(@D)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
