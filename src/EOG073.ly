@@ -10,7 +10,7 @@
 \header{
   hymnnumber = "73"
   title = "Come To the Saviour Now"
-  tunename = "Make"
+  tunename = "Maker"
   meter = "P. M."
   poet = "J. M. Wigner"
   composer = "R. C. Maker"
