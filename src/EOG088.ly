@@ -194,14 +194,6 @@ wordsH = \markuplist {
 
 \noPageBreak
 
-\markup {
-	\raise #5
-	\line { Alternate tune: No. 3 in Supplement. }
-}
-
-\noPageBreak
-
-
 \markup { \fill-line { \column {
 	% TODO centre number above verse as in original
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
@@ -209,6 +201,10 @@ wordsH = \markuplist {
   \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
   \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
 } } }
+
+\noPageBreak
+
+\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 3 in Supplement. } } }
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
