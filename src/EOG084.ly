@@ -1,13 +1,9 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  systems-per-page = ##f
-  %max-systems-per-page = 5
-  %min-systems-per-page = 1
-  system-count = 5 % 6 in original, but I can't make it work, at least not with ly:optimal-breaking
-  page-count = 2
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{
