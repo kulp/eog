@@ -98,10 +98,10 @@ TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	scripts/latinize.sh $< > $@
 
 # TODO rewrite this rule (it's rather roundabout and messy)
-$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(*F).ly
+$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
 	mkdir -p $(@D)
-	echo -n '$*: ' > $@
-	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(*D)#' | tr '\012' ' ' >> $@
+	echo '$*: \\' > $@
+	sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(*D)/#' | tr '\n' ' ' >> $@
 	echo >> $@
 
 # We use midish with no explicit settings to filter out program-change events,
