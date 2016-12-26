@@ -94,10 +94,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus! life- giv -- ing sound, \bar "."
+Je -- sus! life -- giv -- ing sound, \bar "."
 The joy of earth and heaven; \bar "."
 No oth -- er help is found, \bar "."
-No oth -- er name is giv’n, \bar "."
+No oth -- er name is giv’n, \bar "." \break
 In which the sons of men can boast, \bar "."
 %{HIDE>%}But His who seeks and saves the lost, \bar "." %{<HIDE%}
 But His who seeks and saves the lost. \bar "."
