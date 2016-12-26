@@ -218,9 +218,7 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup {
-	\line { Alternate tune: No. 64. }
-}
+\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 64. } } }
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
