@@ -174,37 +174,16 @@ wordsF = \markuplist {
 
 \noPageBreak
 
-%{
-% Attempting to lay out just like EOG, without great success
-\markup {
-	\fill-line {
-		\hspace #0.1
-		\column {
-			\fill-line {
-				\hspace #0.1
-				\line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
-				\hspace #0.1
-				\line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
-			}
-
-			\combine \null \vspace #1.4
-
-			\fill-line { %\column {
-				\hspace #0.1
-				\line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
-				\hspace #0.1
-			}
-		}
-		\hspace #0.1
-	}
-}
-%}
-
 \markup { \fill-line { \column {
+  \raise #5
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
 } } }
+
+\noPageBreak
+
+\markup { \vspace #2 \fill-line { \line { Alternate tune: No. 6. } } }
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
