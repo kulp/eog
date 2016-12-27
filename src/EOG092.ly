@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
   systems-per-page = 5
-  %page-count = ##f
 }
 
 \header{
@@ -42,13 +39,13 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { g a g c b a | a g r }
-  f4. e8 f8 g8 a8. g16 | g2( \afterGrace e4) f4 r4
-  g4. a8 g8 c8 b8. a16 | a2  \afterGrace g4  f4 r4
+  f4. e8 f8 g8 a8. g16 | g2( e4) r4
+  g4. a8 g8 c8 b8. a16 | a2 g4 r4
   \changePitch \patternAB { f e f g a b | c r }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { d d d d e d | c g r } >>
-  a4. a8 a8 a8 b8 c8 | \afterGrace d2. dis4 r4
+  a4. a8 a8 a8 b8 c8 | d2. r4
   \changePitch \patternAA { e e f e c a | g e r }
   \changePitch \patternAB { f a g c b b | c r }
 
@@ -62,12 +59,12 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternAA { e f e e g f | f e r }
-  d4. cis8 d8 e8 f8. e16 | e2( \afterGrace c4) d4 r4
-  e4. f8 e8 e8 g8. f16 | f2 \afterGrace e4 d4 r4
+  d4. cis8 d8 e8 f8. e16 | e2( c4) \once \override NoteHead.font-size = #-4 << f4 d4 >>
+  e4. f8 e8 e8 g8. f16 | f2 e4 \once \override NoteHead.font-size = #-4 << f4 d4 >>
   \changePitch \patternAB { d cis d e f f | e r }
 
   \changePitch \patternAA { f f f f g f | e e r }
-  e4. e8 e8 e8 e8 e8 | \afterGrace f2. fis4 r4
+  e4. e8 e8 e8 e8 e8 | f2. \once \override NoteHead.font-size = #-4 << dis'4 fis,4 >>
   \changePitch \patternAA { g g a g e f | e c r }
   \changePitch \patternAB { c f e e d f | e r }
 
