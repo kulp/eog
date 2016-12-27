@@ -60,7 +60,7 @@ notesAlto = {
 
   \changePitch \patternAA { e f e e g f | f e r }
   d4. cis8 d8 e8 f8. e16 | e2( c4) \once \override NoteHead.font-size = #-4 << f4 d4 >>
-  e4. f8 e8 e8 g8. f16 | f2 e4 \once \override NoteHead.font-size = #-4 << f4 d4 >>
+  e4. f8 e8 e8 g8. f16 | f2 e4 \once \override NoteHead.font-size = #-4 << fis4 dis4 >>
   \changePitch \patternAB { d cis d e f f | e r }
 
   \changePitch \patternAA { f f f f g f | e e r }
