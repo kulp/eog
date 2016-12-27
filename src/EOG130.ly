@@ -1,11 +1,9 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  system-count = #6
-  systems-per-page = #5
-  page-count = ##f
+  system-count = #(cond (is-eogsized 6) (#t #f))
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{

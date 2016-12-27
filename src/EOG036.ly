@@ -4,8 +4,8 @@
   %ragged-bottom = ##t
   %ragged-last-bottom = ##t
   systems-per-page = ##f
-	% XXX lilypond wants to put this on four systems, so let it ; but we should
-	% probably expand font size until five systems is "natural"
+  % XXX lilypond wants to put this on four systems, so let it ; but we should
+  % probably expand font size until five systems is "natural"
   %systems-per-page = 5
   %page-count = ##f
 }

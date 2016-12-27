@@ -1,13 +1,10 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-bottom = ##f
   ragged-last-bottom = ##t
-  % We take advantage of the incompatibility of systems-per-page=4 and
-  % page-count=1 in the case of eogsized, where systems-per-page gets ignored.
-  % Otherwise we would have to have conditional execution here.
-  %systems-per-page = ##f
-  %page-count = ##f
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 5) (#t #f))
+  page-count = 2
 }
 
 \header{
