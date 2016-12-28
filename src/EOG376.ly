@@ -1,10 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  ragged-last-bottom = ##t
+  page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -217,6 +215,8 @@ wordsF = \markuplist {
     \include "common/midi.ily"
   }
 }
+
+\pageBreak
 
 \markup { \fill-line { \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
