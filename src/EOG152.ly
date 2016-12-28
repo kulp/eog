@@ -139,12 +139,7 @@ Reigns the Na -- za -- rene a -- lone.__
   }
 }
 
-\noPageBreak
-
-\markup {
-	\raise #5
-	\line { Alternate tune: No. 2 in Supplement. }
-}
+\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 2 in Supplement. } } }
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 

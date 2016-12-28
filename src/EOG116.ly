@@ -162,19 +162,12 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup {
-	\raise #5
-	\line { Alternate tune: No. 131. }
-}
-
-\noPageBreak
-
 \markup { \fill-line { \column {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
 
-\pageBreak
+\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 131. } } }
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
