@@ -1,14 +1,11 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
   indent = #0
 }
 
 \header{
+  hymnnumber = "200"
   title = "’Tis the Hope of His Coming"
   tunename = "Hallelujah! ’Tis Done"
   meter = "11’s"
