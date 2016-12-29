@@ -29,13 +29,13 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  a4 | a4. a8 g( f) g( a) | f2 c4
-  c'4 | c4. c8 b( c) d( c) | c2( a4)
-  a4 | g4. g8 g( a) bes( c) | a4( c) f
+  a4 | a4. a8 g[ f] g[ a] | f2 c4
+  c'4 | c4. c8 b[ c] d[ c] | c2( a4)
+  a4 | g4. g8 g[ a] bes[ c] | a4( c) f
   f4 | e4. d8 c4 b | c2.
-  a4 | a4. a8 g( f) g( a) | f2 c4
-  c'4 | c4. c8 b( c) d( c) | c2( a4)
-  a4 | g4. g8 g( a) bes( c) | a4( c) f
+  a4 | a4. a8 g[ f] g[ a] | f2 c4
+  c'4 | c4. c8 b[ c] d[ c] | c2( a4)
+  a4 | g4. g8 g[ a] bes[ c] | a4( c) f
   d4 | c4. c8 c4 e, | f2.
 
   \bar "|."
@@ -48,12 +48,12 @@ notesAlto = {
 \relative e' {
 
   f4 | f4. f8 f4 f | f2. % instead of f2 f4, avoid overlap
-  a4 | a4. a8 gis( a) gis( a) | a2( f4)
-  f4 | e4. e8 e( f) g( e) | f2 a4
+  a4 | a4. a8 gis[ a] gis[ a] | a2( f4)
+  f4 | e4. e8 e[ f] g[ e] | f2 a4
   a4 | g4. << f8 a >> << e4 g >> << d f >> | e2.
   f4 | f4. f8 e4 e | f2. % instead of f2 f4, avoid overlap
-  a4 | a4. a8 gis( a) gis( a) | a2( f4)
-  f4 | e4. e8 e( f) g( e) | f2 f4
+  a4 | a4. a8 gis[ a] gis[ a] | a2( f4)
+  f4 | e4. e8 e[ f] g[ e] | f2 f4
   f4 | f4. ees8 e4 c | c2.
 
 }
@@ -63,12 +63,12 @@ notesTenor = {
 \global
 \relative a {
 
-  c4 | c4. c8 bes( a) bes( c) | a2.
-  c4 | c4. c8 d( c) b( c) | c2.
+  c4 | c4. c8 bes[ a] bes[ c] | a2.
+  c4 | c4. c8 d[ c] b[ c] | c2.
   c4 | c4. c8 c4 c | c2 c4
   c4 | c4. f8 e4 d | c2.
-  c4 | c4. c8 bes( a) bes( c) | a2.
-  c4 | c4. c8 d( c) b( c) | c2.
+  c4 | c4. c8 bes[ a] bes[ c] | a2.
+  c4 | c4. c8 d[ c] b[ c] | c2.
   c4 | c4. c8 c4 c | c2 d4
   bes4 | a4. fis8 g4 bes | a2.
 
@@ -81,11 +81,11 @@ notesBass = {
 
   f4 | f4. f8 f4 f | f2.
   f4 | f4. f8 f4 f | f2.
-  f4 | c4. c8 bes'8( a) g( c,) | f2 f4
+  f4 | c4. c8 bes'8[ a] g[ c,] | f2 f4
   f4 | g4. g8 g4 g | c,2.
   f4 | f4. f8 c4 c | f2.
   f4 | f4. f8 f4 f | f2.
-  f4 | c4. c8 bes'8( a) g( c,) | f2 bes4
+  f4 | c4. c8 bes'8[ a] g[ c,] | f2 bes4
   bes,4 | c4. c8 c4 c | f2.
 
 }
