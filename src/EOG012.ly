@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  page-count = 2
+  page-count = #(cond (is-eogsized 2) (#t #f))
   systems-per-page = ##f
   %page-count = ##f
 }
