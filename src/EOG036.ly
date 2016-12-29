@@ -6,7 +6,7 @@
   systems-per-page = ##f
   % XXX lilypond wants to put this on four systems, so let it ; but we should
   % probably expand font size until five systems is "natural"
-  %systems-per-page = 5
+  %systems-per-page = #(cond (is-eogsized 5) (#t #f))
   %page-count = ##f
 }
 

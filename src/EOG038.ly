@@ -5,7 +5,7 @@
   ragged-last-bottom = ##t
   %systems-per-page = ##f
   page-count = 2
-  system-count = 6
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{

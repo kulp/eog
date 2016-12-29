@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   %ragged-last-bottom = ##t
-  systems-per-page = 3
+  systems-per-page = #(cond (is-eogsized 3) (#t #f))
   %page-count = ##f
 }
 

@@ -3,9 +3,9 @@
   \include "common/paper.ily"
   %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  systems-per-page = 4
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
   page-count = 2
-  system-count = 6
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{

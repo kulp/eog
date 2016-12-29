@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = ##f
-  system-count = 3
+  system-count = #(cond (is-eogsized 3) (#t #f))
 }
 
 \header{

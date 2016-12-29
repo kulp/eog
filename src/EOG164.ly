@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  system-count = 5
+  system-count = #(cond (is-eogsized 5) (#t #f))
   page-count = ##f
   oddFooterMarkup = \markup {
     \fill-line {

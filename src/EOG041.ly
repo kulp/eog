@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = 4
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
