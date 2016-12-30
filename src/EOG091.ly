@@ -13,7 +13,7 @@
   tunename = "Hebron"
   meter = "L. M."
   poet = "S. Medley"
-  composer = "Lowell Mason"
+  composer = "Dr. Lowell Mason"
   %copyright = ""
   tagline = ##f
 }

@@ -13,7 +13,7 @@
   tunename = "Hamburg"
   meter = "L. M."
   %poet = ""
-  composer = "Ad. by Lowell Mason"
+  composer = "Ad. by Dr. Lowell Mason"
   %copyright = ""
   tagline = ##f
 }

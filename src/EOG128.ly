@@ -13,7 +13,7 @@
   tunename = "Meribah"
   meter = "8. 8. 6. D."
   poet = "T. Kelly"
-  composer = "L. Mason"
+  composer = "Dr. Lowell Mason"
   %copyright = ""
   tagline = ##f
 }
