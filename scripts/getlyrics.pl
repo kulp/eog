@@ -63,7 +63,6 @@ my $strips = qr<
  | %.*?(?=\n|$)
  | \\Refrain\w*
  | \\italic(sO(n|ff))?
- #| \p{IsPunct}
  | $braces
 >xoism;
 
