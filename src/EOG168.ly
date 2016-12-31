@@ -122,7 +122,7 @@ Refrain = \lyricmode {
 
 O the love that sought me! \bar "."
 O the blood that bought me! \bar "."
-O the grace that brought me to Him self. \bar "."
+O the grace that brought me to Him -- self. \bar "."
 Won -- drous grace that brought me to Him -- self. \bar "."
 
 }
