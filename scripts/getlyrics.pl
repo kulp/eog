@@ -12,6 +12,7 @@ use Text::Trim qw(trim);
 use Text::Aspell;
 
 binmode(STDOUT, ":utf8");
+binmode(STDERR, ":utf8");
 
 my $transforms;
 if (-e "transforms.map") {
