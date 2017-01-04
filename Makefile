@@ -144,7 +144,7 @@ CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
 PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
 	mkdir -p $(@D)
 	lilypond $(LYOPTS) --include=$(PWD)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
-	-mv $(@D)/$(*F).pdf  PDF/$(*D)
-	-mv $(@D)/$(*F).midi MIDI/$(*D)
+	-mv $(@D)/$(*F).pdf  PDF/$(*D)/
+	-mv $(@D)/$(*F).midi MIDI/$(*D)/
 	-mv $(@D)/$(basename $(*F)).$(HEADER_BRACES) headers/
 
