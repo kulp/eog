@@ -123,61 +123,97 @@ notesBass = {
 }
 }
 
-wordsA = \lyricmode {
-\set stanza = "1."
+wordsA = \markuplist {
 
-“Be -- hold the Lamb” en -- throned on high, \bar "."
-Je -- sus, Je -- sus, Je -- sus. \bar "." \break
-In Him we are to God brought nigh, \bar "."
-Je -- sus, Je -- sus, Je -- sus. \bar "." \break
-He who on Cal -- vry’s cross has bled, \bar "."
-He who was num -- bered with the dead, \bar "." \break
-Ex -- al -- ted now o’er all as Head, \bar "."
-Je -- sus, Je -- sus, Je -- sus. \bar "." \break
-
-}
-
-wordsB = \lyricmode {
-\set stanza = "2."
-
-“Com -- plete in Him” at God’s right hand,
-Je -- sus, Je -- sus, Je -- sus.
-Be -- fore the throne we bold -- ly stand,
-Je -- sus, Je -- sus, Je -- sus.
-That blood -- be -- sprink -- led mer -- cy seat,
-His pier -- ced side, His hands, and feet,
-Pro -- claim re -- demp -- tion’s work com -- plete,
-Je -- sus, Je -- sus, Je -- sus.
+\line { “Behold the Lamb” enthroned on high, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { In Him we are to God brought nigh, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { He who on Calvary’s cross has bled, }
+\line { He who was numbered with the dead, }
+\line { Exalted now o’er all as Head, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
 
 }
 
-wordsC = \lyricmode {
-\set stanza = "3."
+wordsB = \markuplist {
 
-God finds e -- ter -- nal rest in Him,
-Je -- sus, Je -- sus, Je -- sus.
-That rest which was dis -- turbed by sin,
-Je -- sus, Je -- sus, Je -- sus.
-We too by faith on Him re -- pose,
-Who did the Fa -- ther’s heart dis -- close,
-From which this full sal -- va -- tion flows.
-Je -- sus, Je -- sus, Je -- sus.
-
+\line { “Complete in Him” at God’s right hand, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { Before the throne we boldly stand, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { That blood-besprinkled mercy seat, }
+\line { His piercèd side, His hands, and feet, }
+\line { Proclaim redemption’s work complete, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
 
 }
 
-wordsD = \lyricmode {
-\set stanza = "4."
+wordsC = \markuplist {
 
-As one with Him we rest se -- cure,
-Je -- sus, Je -- sus, Je -- sus.
-Un -- chang -- ing doth His work en -- dure,
-Je -- sus, Je -- sus, Je -- sus.
-Now seat -- ed on the Fa -- ther’s throne,
-E -- lect and pre -- cious cor -- ner -- stone,
-On Him we rest— on Him a -- lone.
-Je -- sus, Je -- sus, Je -- sus.
+\line { God finds eternal rest in Him, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { That rest which was disturbed by sin, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { We too by faith on Him repose, }
+\line { Who did the Father’s heart disclose, }
+\line { From which this full salvation flows. }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
 
+}
+
+wordsD = \markuplist {
+
+\line { As one with Him we rest secure, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { Unchanging doth His work endure, }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+\line { Now seated on the Father’s throne, }
+\line { Elect and precious cornerstone, }
+\line { On Him we rest— on Him alone. }
+\line { { \hspace #2 } Jesus, Jesus, Jesus. }
+
+}
+
+% TODO this markup is all empirical, and brittle
+\markup {
+  \column {
+    \column {
+      \fill-line {
+        \huge \larger \larger \bold {
+          "  43"
+          "“Behold the Lamb” Enthroned on High"
+          \null
+        }
+      }
+    }
+
+    \vspace #0.5
+
+    \fill-line \smaller { "Sing to above tune and refrain" }
+
+    \vspace #0.5
+
+    \fill-line {
+      \null
+
+      \center-column {
+        \line{ \bold 1 \column { \wordsA } }
+        \vspace #1
+        \line{ \bold 2 \column { \wordsB } }
+      }
+
+      \null
+
+      \center-column {
+        \line{ \bold 3 \column { \wordsC } }
+        \vspace #1
+        \line{ \bold 4 \column { \wordsD } }
+      }
+
+      \null
+    }
+  }
 }
 
 \score {
@@ -186,10 +222,6 @@ Je -- sus, Je -- sus, Je -- sus.
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
       \context Voice  = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
       \clef bass
@@ -197,20 +229,10 @@ Je -- sus, Je -- sus, Je -- sus.
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
-  \layout {
-    \include "common/layout.ily"
-  }
   \midi{
     \include "common/midi.ily"
   }
 }
-
-%\markup { \fill-line { \column {
-%  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-%  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-%  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
-%  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
-%} } }
 
 \version "2.18.0"  % necessary for upgrading to future LilyPond versions.
 
