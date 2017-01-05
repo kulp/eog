@@ -15,6 +15,9 @@
   tagline = ##f
 }
 
+ta = { \tempo 4=80 }
+tb = { \tempo 4=40 }
+
 patternA = { c8 | c8 c c c c4 c8 }
 patternC = { c16 ~ c16 | c8 c c c c4 c8 }
 patternB = { c8 | c8 c c8. c16 c4. }
@@ -34,7 +37,7 @@ global = {
   \override Staff.TimeSignature.style = #'()
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
-  \tempo 4=80
+  \ta
   \key aes \major
   \partial 8
   \autoBeamOff
@@ -52,12 +55,14 @@ notesSoprano = {
   \changePitch \patternE { g | f aes g f ees }
   \changePitch \patternF { aes bes | c ees des f ees c bes aes | aes }
 
+  \break
+
   << s^\markup { \small \caps "Refrain" }
   { aes8 aes | aes des des des des16 f4. } >>
   f16 | f ees8. ees c16 ees4
   c8 bes | aes8. aes16 aes8 aes aes4 g8
   aes8 | bes8. a16 bes8 c bes4
-  ees8 des | c8. des16 ees8 c aes4 aes8
+  \ta ees8 \fermata \ta des | c8. des16 ees8 c aes4 aes8
   g8 | f16 aes8. aes f16 ees4
   aes8 bes | c ees des f ees16 c8. bes aes16 | aes2. r8
 
@@ -128,7 +133,7 @@ notesBass = {
   \changePitch \patternH { des | aes' aes aes aes aes }
   \changePitch \patternI { aes ees | f f f f f c }
   \changePitch \patternJ { f | ees ees ees ees ees }
-  \changePitch \patternK { ees ees | aes aes aes aes aes aes }
+  \changePitch \patternK { ees \fermata ees | aes aes aes aes aes aes }
   \changePitch \patternL { c, | des des des des aes }
   \changePitch \patternF { aes' aes | aes aes des, des ees ees ees ees | aes, r }
 
