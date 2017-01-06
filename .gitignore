@@ -1,11 +1,11 @@
 *.log
 *.pdf
 .DS_Store
-PDF/
-MIDI/
-MP3/
-WAV/
-TXT/
+PDF/*/*.pdf
+MIDI/*/*.midi
+MP3/*/*.mp3
+WAV/*/*.wav
+TXT/*/*.txt
 words.dump
 .*.sw?
 index.html
