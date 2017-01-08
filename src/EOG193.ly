@@ -105,7 +105,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Peace, peace, sweet peace! \bar "."
-Won -- der -- ful gift from a -- bove! (a -- bove!) \bar "."
+Won -- der -- ful gift from a -- bove! %{HIDE>%} (a -- bove!) %{<HIDE%} \bar "."
 O, won -- der -- ful, won -- der -- ful peace! \bar "."
 Sweet peace, the gift of God’s love! \bar "."
 
@@ -114,8 +114,8 @@ Sweet peace, the gift of God’s love! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-There comes to my heart one sweet strain, (sweet strain,) \bar "."
-A glad and a joy -- ous re -- frain; (re -- frain;) \bar "."
+There comes to my heart one sweet strain, %{HIDE>%} (sweet strain,) %{<HIDE%} \bar "."
+A glad and a joy -- ous re -- frain; %{HIDE>%} (re -- frain;) %{<HIDE%} \bar "."
 I sing it a -- gain and a -- gain, \bar "."
 Sweet peace, the gift of God’s love. \bar "."
 
@@ -124,8 +124,8 @@ Sweet peace, the gift of God’s love. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Through Christ on the cross peace was made, (was made,)
-My debt by His death was all paid; (all paid;)
+Through Christ on the cross peace was made, %{HIDE>%} (was made,) %{<HIDE%}
+My debt by His death was all paid; %{HIDE>%} (all paid;) %{<HIDE%}
 No oth -- er foun -- da -- tion is laid
 For peace, the gift of God’s love.
 
@@ -136,8 +136,8 @@ For peace, the gift of God’s love.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-When Je -- sus as Lord I had owned, (had owned,)
-My heart with this peace did a -- bound; (a -- bound;)
+When Je -- sus as Lord I had owned, %{HIDE>%} (had owned,) %{<HIDE%}
+My heart with this peace did a -- bound; %{HIDE>%} (a -- bound;) %{<HIDE%}
 In Him the rich bless -- ing I found,
 Sweet peace, the gift of God’s love.
 
@@ -146,8 +146,8 @@ Sweet peace, the gift of God’s love.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-In Je -- sus for peace I a -- bide, (a -- bide),
-And as I keep close to His side, (His side,)
+In Je -- sus for peace I a -- bide, %{HIDE>%} (a -- bide,) %{<HIDE%}
+And as I keep close to His side, %{HIDE>%} (His side,) %{<HIDE%}
 There’s noth -- ing but peace doth be -- tide,
 Sweet peace, the gift of God’s love.
 
