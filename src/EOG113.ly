@@ -7,7 +7,7 @@
   hymnnumber = "113"
   title = "Only A Step To Jesus"
   tunename = ""
-  meter = "7. 6. 7. 6. With Refrain"
+  meter = "7. 6. 7. 6. with Refrain"
   poet = "Fanny J. Crosby"
   composer = "W. H. Doane"
   %copyright = ""

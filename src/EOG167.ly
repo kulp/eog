@@ -8,7 +8,7 @@
   hymnnumber = "167"
   title = "I Know Not Why God’s Wondrous Grace"
   tunename = ""
-  meter = "C. M. With Refrain"
+  meter = "C. M. with Refrain"
   poet = "El Nathan"
   composer = "J. McGranahan"
   %copyright = ""

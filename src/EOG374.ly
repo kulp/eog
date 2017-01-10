@@ -8,7 +8,7 @@
   hymnnumber = "374"
   title = "O Come To Jesus, Sinner, Come"
   tunename = "None But Christ Can Satisfy"
-  meter = "C. M. With Refrain."
+  meter = "C. M. with Refrain."
   poet = "J. T. Armet (Arr.)"
   composer = "J. McGranahan"
   %copyright = ""
