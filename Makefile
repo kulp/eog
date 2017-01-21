@@ -89,9 +89,10 @@ CLOBBERFILES += $(TXTS)
 # Use an order-only dependency on transforms.map, because we don't update older
 # songs with new transforms -- new transforms apply only to new songs. An
 # order-only dependency therefore reduces needless rebuilds of older songs.
-$(TXTS): TXT/default/%.txt: src/%.ly scripts/getlyrics.pl | transforms.map
+# The same applies for the lyrics generator script.
+$(TXTS): TXT/default/%.txt: src/%.ly | scripts/getlyrics.pl transforms.map
 	@mkdir -p $(@D)
-	scripts/getlyrics.pl $< 2>> $| > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
+	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
 
 CLOBBERFILES += TXT/latinized/$(LYS:.ly=.txt)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
