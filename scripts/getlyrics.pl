@@ -85,6 +85,12 @@ my @unknown;
 
 my $spell = Text::Aspell->new;
 
+sub collapse_whitespace
+{
+    (my $line = shift) =~ s/\s+/ /g;
+	return $line;
+}
+
 sub _check
 {
     my $word = shift;
@@ -108,7 +114,7 @@ sub _check
 
 my %outs = pairmap {
     my $indent = ($a =~ /Refrain/) ? "  " : "";
-    $a => join "\n", map { $indent . join "", map _check($_), @$_ } @$b
+    $a => join "\n", map { $indent . collapse_whitespace join "", map _check($_), @$_ } @$b
 } %words;
 
 my @defined = grep defined, @outs{@order};
