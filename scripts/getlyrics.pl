@@ -88,7 +88,7 @@ my $spell = Text::Aspell->new;
 sub collapse_whitespace
 {
     (my $line = shift) =~ s/\s+/ /g;
-	return $line;
+    return $line;
 }
 
 sub _check
