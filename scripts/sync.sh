@@ -5,6 +5,7 @@ before=refs/upload/began-$(date +%s)
 git update-ref $before HEAD
 for dir in scripts MP3 TXT PDF MIDI
 do
+    git ls-files -o --exclude-standard $dir/ | xargs rm # clean aborted builds
     s3cmd $S3OPTS sync $dir/ $S3DEST/$dir/ &
 done
 wait # upload all music files before we update index
