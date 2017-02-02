@@ -97,7 +97,7 @@ print
              (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), grep $have{$_}, @dirs),
             ),
             Tr({ -class => "realhead" },
-                (map th($_), qw(No. Title Poet Composer Meter)),
+                (map th($_), qw(No. Title Poet Composer)),
                 (map th({ -class => "nosort" }, $_), map @{ $variants{$_} }, @dirs),
                 th("Added"),
             ),
@@ -110,7 +110,6 @@ print
                 my $title    = get_key $src => "title";
                 my $poet     = get_key $src => "poet";
                 my $composer = get_key $src => "composer";
-                my $meter    = get_key $src => "meter";
 
                 my $index    = int(($stem =~ /EOG(\d+)/)[0]);
                 (my $safetitle = $title) =~ s/[^\s\w]//g;
@@ -120,7 +119,6 @@ print
                     td({ -class => "title", customkey => $safetitle } , $title),
                     td({ -class => "poet"                           } , $poet),
                     td({ -class => "composer"                       } , $composer),
-                    td({ -class => "meter"                          } , $meter),
                     (map { my $dir = $_; map {
                         my $where = "$dir/$_/$stem.$exts{$dir}";
                         td({ -class => "link" }, (-e $where) ? a({ -href => $where }, $dir) : ""),
