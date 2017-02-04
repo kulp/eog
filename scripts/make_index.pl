@@ -82,7 +82,7 @@ print
         thead(
             Tr(
                 th({ -class => "corner" }, "Filter:"),
-                th({ -class => "sortbox", -colspan => 4 },
+                th({ -class => "sortbox", -colspan => 3 }, # title poet composer
                     start_form({ -onSubmit => "return false;", -action => "" }),
                         input({ -id      => "searchbox",
                                 -name    => "filter",
