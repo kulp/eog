@@ -42,7 +42,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  r8.^\markup{\italic Moderato. }
+  r8.%{^\markup{\italic Moderato. }%} % original has tempo mark but we don't have room or need
   \changePitch \patternA { d c bes | f ~ f d f bes | a ~ a }
   \changePitch \patternA { ees' d c | g g a g f | d d }
   \changePitch \patternA { d' c bes | f f d f bes | g g }
