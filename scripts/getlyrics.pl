@@ -46,11 +46,11 @@ my $apos = '’';
 my $wordelt = qr<[\w$apos]>o;
 
 my $wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)*)(\b|(?=\s|$))
+\b($wordelt+ (?:\s+ -- (?:\s+ _)? \s+ $wordelt+)*)(\b|(?=\s|$))
 >xoism;
 
 my $compound_wordpat = qr<
-\b($wordelt+ (?:\s+ [-_]{2} (?:\s+ _)? \s+ $wordelt+)+)(\b|(?=\s|$))
+\b($wordelt+ (?:\s+ -- (?:\s+ _)? \s+ $wordelt+)+)(\b|(?=\s|$))
 >xoism;
 
 my $strips = qr<
@@ -96,7 +96,7 @@ sub _check
     my $word = shift;
     $word =~ s/\s+/ /g; # collapse whitespace
     if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
-        (my $test = $word) =~ s/\s+ [-_]{2} (?:\s+ _)? \s+//goxi;
+        (my $test = $word) =~ s/\s+ -- (?:\s+ _)? \s+//goxi;
         (my $ap = $test) =~ s/$apos/'/go;
         if ($test =~ /^_+$/) {
             return "";
