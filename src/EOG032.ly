@@ -46,7 +46,7 @@ notesSoprano = {
   \changePitch \patternAB { bes c g bes a | g c b d c }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternBA { c a r | c^\markup { \dynamic p } a r f^\markup { \dynamic mf } | a bes a g | f r } >>
+  \changePitch \patternBA { c a r | c^\p a r f^\mf | a bes a g | f r } >>
 
   \bar "|."
 
