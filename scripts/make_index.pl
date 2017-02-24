@@ -74,6 +74,7 @@ print
         "software package. The source files for the hymns below are found at the",
         a({ -href => "https://github.com/kulp/eog" }, "Github project") . ",",
         "which aims eventually to complete the list below with all 379 hymns",
+        "(plus alternate tunes)",
         "from the music edition of the Echoes of Grace hymn book."),
     p("Playlists for all available MP3s:", map { a({ -href => "$_" }, $_), " " } @lists),
     p(sprintf "Progress: %d/%d files = %4.2f%% complete",
