@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "215"
-  title = "Happy They WHo Trust In Jesus"
+  title = "Happy They Who Trust In Jesus"
   tunename = "Segur"
   meter = "8. 7. 8. 7. 4. 7."
   poet = "T. Kelly"
