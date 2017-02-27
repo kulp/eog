@@ -133,7 +133,7 @@ wordsB = \markuplist {
 
 wordsC = \markuplist {
 
-\line { ’Twas my sins sed the sacred blood, }
+\line { ’Twas my sins shed the sacred blood, }
 \line { { \hspace #2 } That nailed Him to the tree; }
 \line { I crucified the Christ of God, }
 \line { { \hspace #2 } I joined the mockery. }
