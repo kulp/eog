@@ -72,7 +72,7 @@ notesBass = {
 
   ees4 | ees2 ees4 | bes2 bes4 | ees2\fermata
   d4 | c2 bes4 | aes2 a4 | bes2
-  aes'4 | g2 f4 | ees2 g4 | aes2 aes,4 | ees'2
+  aes'4 | g2 f4 | ees2 g4 | aes2 aes,4 | ees'2\fermata
   ees4 | ees2 ees4 | bes2 bes4 | ees2
 
 }
