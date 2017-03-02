@@ -1,5 +1,4 @@
 *.log
-*.pdf
 .DS_Store
 PDF/*/*.pdf
 MIDI/*/*.midi
