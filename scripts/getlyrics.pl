@@ -95,15 +95,15 @@ sub _check
 {
     my $word = shift;
     $word =~ s/\s+/ /g; # collapse whitespace
-    if ($word =~ /$compound_wordpat/o or $word =~ /_/) {
+    if ($transforms->{$word}) {
+        return $transforms->{$word};
+    } elsif ($word =~ /$compound_wordpat/o or $word =~ /_/) {
         (my $test = $word) =~ s/\s+ -- (?:\s+ _)? \s+//goxi;
         (my $ap = $test) =~ s/$apos/'/go;
         if ($test =~ /^_+$/) {
             return "";
         } elsif ($spell->check($ap)) {
             return $test;
-        } elsif ($transforms->{$word}) {
-            return $transforms->{$word};
         } else {
             push @unknown, $word;
         }
