@@ -113,7 +113,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Near -- er home, near -- er home, \bar "."
-A days’s march near -- er home. \bar "."
+A day’s march near -- er home. \bar "."
 
 }
 
