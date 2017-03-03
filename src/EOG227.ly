@@ -1,0 +1,140 @@
+\include "common/global.ily"
+\paper {
+  \include "common/paper.ily"
+}
+
+\header{
+  hymnnumber = "227"
+  title = "I Was a Wandering Sheep"
+  tunename = "Lebanon"
+  meter = "S. M. D."
+  poet = "H. Bonar"
+  composer = "J. Zundel"
+  tagline = ##f
+}
+
+global = {
+  \include "common/overrides.ily"
+  \override Staff.TimeSignature.style = #'()
+  \time 6/8
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
+  \tempo 4=80
+  \key f \major
+  \partial 8
+  \autoBeamOff
+}
+
+notesSoprano = {
+\global
+\relative c' {
+
+  \bar "|."
+
+}
+}
+
+notesAlto = {
+\global
+\relative e' {
+
+}
+}
+
+notesTenor = {
+\global
+\relative a {
+
+}
+}
+
+notesBass = {
+\global
+\relative f {
+
+}
+}
+
+wordsA = \lyricmode {
+\set stanza = "1."
+
+I was a wan -- d’ring sheep, \bar "."
+I did not love the fold; \bar "."
+I did not love my Shep -- herd’s voice, \bar "."
+I would not be con -- trolled. \bar "."
+I was a way -- ward child, \bar "."
+I did not love my home, \bar "."
+I did not love my Fa -- ther’s voice, \bar "."
+I loved a -- far to roam. \bar "."
+
+}
+
+wordsB = \lyricmode {
+\set stanza = "2."
+
+The Shep -- herd sought His sheep,
+The Fa -- ther sought His child;
+They fol -- lowed me o’er vale and hill,
+O’er des -- erts waste and wild:
+They found me nigh to death,
+Fam -- ished, and faint, and lone;
+They bound me with the cords of love,
+They saved the wan -- d’ring one.
+
+}
+
+wordsC = \lyricmode {
+\set stanza = "3."
+
+Je -- sus my Shep -- herd is,
+’Twas He that loved my soul;
+’Twas He that washed me in His blood,
+’Twas He that made me whole:
+’Twas He that sought the lost,
+That found the wan -- d’ring sheep;
+’Twas He that bro’t me to the fold,
+’Tis He that still doth keep.
+
+}
+
+wordsD = \lyricmode {
+\set stanza = "4."
+
+I was a wan -- d’ring sheep,
+I would not be con -- trolled;
+But now I love my Sav -- iour’s voice,
+I love, I love the fold.
+I was a way -- ward child,
+I once pre -- ferred to roam;
+But now I love my Fa -- ther’s voice,
+I love, I love His home.
+
+}
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
+      \context Lyrics = four  \lyricsto sopranos \wordsD
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
+    >>
+  >>
+  \layout {
+    \include "common/layout.ily"
+  }
+  \midi{
+    \include "common/midi.ily"
+  }
+}
+
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
