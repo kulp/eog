@@ -28,6 +28,15 @@ notesSoprano = {
 \global
 \relative c' {
 
+  c8 | f4 f8 f[ e] f | g4. ~ g4
+  c,8 | g'4 g8 g[ f] g | a4. ~ a4
+  c,8 | a'4 a8 a4 a8 | a8[ bes] c c4
+  bes8 | a4 a8 a4 g8 | f4. ~ f4
+  c8 | g'4 g8 g[ f] g | a4. ~ a4
+  c,8 | a'4 a8 a[ g] a | bes4. ~ bes4
+  c,8 | a'4 a8 a4 a8 | a8[ bes] c c4
+  bes8 | a4 a8 a4 g8 | f4. ~ f4
+
   \bar "|."
 
 }
@@ -37,6 +46,15 @@ notesAlto = {
 \global
 \relative e' {
 
+  c8 | c4 c8 c4 f8 | e4. ~ e4
+  c8 | e4 e8 e[ d] e | f4. ~ f4
+  c8 | f4 f8 f4 f8 | f[ g] a a4
+  g8 | f4 f8 e4 e8 | f4. ~ f4
+  c8 | e4 e8 e[ d] e | f4. ~ f4
+  c8 | f4 f8 f[ e] f | e4. ~ e4
+  c8 | f4 f8 f4 f8 | f[ g] a a4
+  g8 | f4 f8 e4 e8 | f4. ~ f4
+
 }
 }
 
@@ -44,12 +62,30 @@ notesTenor = {
 \global
 \relative a {
 
+  a8 | a4 a8 a4 a8 | c4. ~ c4
+  c8 | c4 c8 c4 c8 | c4. ~ c4
+  a8 | c4 c8 c4 c8 | c4 c8 c4
+  d8 | c4 c8 c4 bes8 | a4. ~ a4
+  c8 | c4 c8 c4 c8 | c4. ~ c4
+  c8 | c4 c8 c8[ bes] a | g4. ~ g4
+  c8 | c4 c8 c4 c8 | c4 c8 c4
+  d8 | c4 c8 c4 bes8 | a4. ~ a4
+
 }
 }
 
 notesBass = {
 \global
 \relative f {
+
+  f8 | f4 f8 f4 f8 | c4. ~ c4
+  c8 | c4 c8 c4 c8 | f4. ~ f4
+  f8 | f4 f8 f4 f8 | f4 f8 f4
+  bes,8 | c4 c8 c4 c8 | f4. ~ f4
+  c8 | c4 c8 c4 c8 | c4. ~ c4
+  c8 | c4 c8 c4 c8 | c4. ~ c4
+  c8 | f4 f8 f4 f8 | f4 f8 f4
+  bes,8 | c4 c8 c4 c8 | f4. ~ f4
 
 }
 }
