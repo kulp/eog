@@ -118,7 +118,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “Call them in” the poor, the wret -- ched, \bar "."
-Sin -- stained wand -- ’rers from the fold: \bar "." \break
+Sin -- stained wan -- d’rers from the fold: \bar "." \break
 Peace and par -- don free -- ly of -- fer; \bar "."
 Can you weigh their worth in gold? \bar "." \break
 “Call them in!” the weak, the wear -- y, \bar "."

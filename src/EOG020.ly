@@ -145,7 +145,7 @@ wordsC = \lyricmode {
 
 Ho! all ye heav -- y -- la -- den, come!
 Here’s par -- don com -- fort, rest and home.
-Ye wand -- ’rers from a Fa -- ther’s face,
+Ye wan -- d’rers from a Fa -- ther’s face,
 Re -- turn, ac -- cept His prof -- fered grace.
 Ye tempt -- ed ones, there’s ref -- uge nigh:
 “Je -- sus of Naz -- a -- reth pass -- eth by;”
