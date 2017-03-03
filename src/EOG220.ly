@@ -109,7 +109,7 @@ So fool -- ish, weak, and help -- less, \bar "."
 I nev -- er could be -- gin; \bar "."
 But, bless -- ed truth, I know it, \bar "."
 Tho’ ru -- ined by the fall, \bar "."
-Christ has my soul re -- deem -- èd– \bar "."
+Christ has my soul re -- deem -- ed– \bar "."
 Yes, Christ has done it all! \bar "."
 
 }
