@@ -112,7 +112,7 @@ I tell Him I am wear -- y,
 { \mon } And I’m { \moff } dai -- ly, hour -- ly long -- ing
 { \mon } For a { \moff } home up -- on His breast;
 { \mon } And He { \moff } an -- swers me so sweet -- ly,
-In tones of ten -- ’drest love,
+In tones of ten -- d’rest love,
 { \mon } “I am { \moff } com -- ing soon to take thee
 { \mon } To my { \moff } hap -- py home a -- bove.”
 
