@@ -135,7 +135,7 @@ wordsB = \lyricmode {
 ’Mid rend -- ing rocks __ and dark -- ’ning skies, __
 My Sav -- iour bows __ His head and dies; __
 The o -- pened vail __ re -- veals the way __
-To heav __ en’s joys __ and end -- less day.
+To heav -- en’s joys __ and end -- less day.
 
 \Refrain
 

@@ -117,7 +117,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 "" There is a Sav -- iour on high in the glo -- ry, \bar "."
-A Sav -- iour who suf- -- fered on Cal -- va -- ry’s tree, \bar "."
+A Sav -- iour who suf -- fered on Cal -- va -- ry’s tree, \bar "."
 A Sav -- iour as will -- ing to save now as ev -- er, \bar "."
 His arm is al -- might -- y, His love great and free. \bar "."
 
