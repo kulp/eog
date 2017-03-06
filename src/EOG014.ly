@@ -19,7 +19,6 @@
 }
 
 % for fermata in MIDI
-% TODO make four fermatas (in typesetting) two
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
@@ -29,11 +28,11 @@ patternC = { \ta c8 | c4 c4 c4. c8 | c1             } % Line 4 all
 patternD = { \ta c4 | c4 c4 c4. c8 | c4.     c8 c4. } % Line 1, 3 bass
 
 patternE = { \ta c4. c8 c4. c8 | c8[ c8] c4 c4. } % Refrain line 1 soprano / alto / tenor
-patternF = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4 \fermata } % Refrain line 3 soprano / alto / tenor
-patternG = { \tb c4 \fermata \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 all
+patternF = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4\fermata } % Refrain line 3 soprano / alto / tenor
+patternG = { \tb c4\fermata \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 all
 
 patternH = { \ta c4. c8 c4. c8 | c4 c4 c4. } % Refrain line 1 bass
-patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4 \fermata } % Refrain line 3 bass
+patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4\fermata } % Refrain line 3 bass
 
 global = {
   \include "common/overrides.ily"
