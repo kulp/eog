@@ -134,7 +134,8 @@ wordsE = \markuplist {
 \line { Or look of love to Thee I’ve ever brought; }
 \line { Yet I \italic may come, and come again, to Thee }
 \line { With this, the needy children’s only plea– }
-\line { \italic { “Thou lovest me!” } }
+% `\italic { }` would get stripped in getlyrics
+\line { \italic “Thou \italic lovest \italic me!” }
 
 }
 
