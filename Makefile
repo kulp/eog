@@ -70,7 +70,7 @@ EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 index: index.html
 CLEANFILES += index.html
 index.html: $(PDFS) $(MIDIS) $(MP3S) $(TXTS) $(M3US)
-	scripts/make_index.pl $^ > $@.$$$$ && mv $@.$$$$ $@
+	scripts/make_index.pl $^ > $@
 
 clean:
 	$(RM) *.log $(CLEANFILES)
@@ -92,7 +92,7 @@ CLOBBERFILES += $(TXTS)
 # The same applies for the lyrics generator script.
 $(TXTS): TXT/default/%.txt: src/%.ly | scripts/getlyrics.pl transforms.map
 	@mkdir -p $(@D)
-	scripts/getlyrics.pl $< 2>> transforms.map > $@.$$$$ && mv $@.$$$$ $@ || rm $@.$$$$
+	scripts/getlyrics.pl $< 2>> transforms.map > $@
 
 CLOBBERFILES += TXT/latinized/$(LYS:.ly=.txt)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
