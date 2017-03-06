@@ -27,9 +27,10 @@ global = {
   \autoBeamOff
 }
 
-patternA = { c4 | c8. c'16 c4 c | c8. c16 c4 }
-patternB = { c4 | c4. c8 c8. c16 | c4 c }
-patternC = { c4 | c8. c'16 c4 c8[ c] | c8. c16 c4 }
+patternA = { \ta c4 | c8. c'16 c4 c | c8. c16 c4 }
+patternB = { \ta c4 | c4. c8 c8. c16 | c4 c }
+patternC = { \ta c4 | c8. c'16 c4 c8[ c] | c8. c16 c4 }
+patternD = { \ta c4 | c4. c8 c8. c16 | c4 \tb c\fermata }
 
 notesSoprano = {
 \global
@@ -38,12 +39,12 @@ notesSoprano = {
   e4 | e8. cis'16 cis4 d | cis8. b16 b4
   a4 | gis4. fis8 e8. fis16 | e4 a
   \changePitch \patternC { e | e cis' cis b cis | d fis, fis }
-  \changePitch \patternB { a | e fis a gis | gis \tb a\fermata \ta }
+  \changePitch \patternD { a | e fis a gis | gis a\fermata }
 
   \changePitch \patternA { e | d' cis b e, | cis' b a }
   \changePitch \patternB { gis | fis gis a cis | cis b }
   \changePitch \patternC { e, | e cis' cis b cis | d fis, fis }
-  \changePitch \patternB { a | e fis a gis | gis \tb a\fermata \ta }
+  \changePitch \patternD { a | e fis a gis | gis a\fermata }
 
   \bar "|."
 
@@ -91,12 +92,12 @@ notesBass = {
   \changePitch \patternA { a | a a a a | e' e e }
   \changePitch \patternB { e | e e e e | a, a }
   \changePitch \patternA { a | a a a a | d d d }
-  \changePitch \patternB { d | e e e e | e a,\fermata }
+  \changePitch \patternD { d | e e e e | e a,\fermata }
 
   \changePitch \patternA { e' | e e e e | a, a a }
   \changePitch \patternB { cis | d d b b | e e }
   \changePitch \patternA { e | a, a a a | d d d }
-  \changePitch \patternB { d | e e e e | e a,\fermata }
+  \changePitch \patternD { d | e e e e | e a,\fermata }
 
 }
 }
