@@ -88,7 +88,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-{ \break } % TODO make this \break occur only in eogsized
+{ \eogbreak }
 
 A -- men, come Lord Je -- sus! Claim Thy peo -- ple for Thine own!
 Crown Thy church in glo -- ry, seat -- ed in Thy throne!
