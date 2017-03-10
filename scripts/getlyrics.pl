@@ -56,6 +56,7 @@ my $compound_wordpat = qr<
 my $strips = qr<
    \\bar\s*".*?"
  | \\break
+ | \\eogbreak
  | \\pageBreak
  | \\noBreak
  | \\markup
