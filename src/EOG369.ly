@@ -1,0 +1,208 @@
+\include "common/global.ily"
+\paper {
+  \include "common/paper.ily"
+  ragged-last-bottom = ##t
+  page-count = #(cond (is-eogsized 2) (#t #f))
+}
+
+\header{
+  hymnnumber = "369"
+  title = "Wide As The Ocean"
+  tunename = ""
+  meter = ""
+  poet = "C. Austin Miles"
+  composer = "C. Austin Miles"
+  copyright = "Copyright, 1945, Renewal, in “Jubilate.” The Rodeheaver Co., Owner. Used by permission."
+  tagline = ##f
+}
+
+global = {
+  \include "common/overrides.ily"
+  \override Staff.TimeSignature.style = #'()
+  \time 6/8
+  \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
+  \tempo 4=80
+  \key des \major
+  \partial 8
+  \autoBeamOff
+}
+
+notesSoprano = {
+\global
+\relative c'' {
+
+  aes8 | f f f f[ ees] des | aes' aes aes aes4
+  aes8 | bes a bes des c bes | aes4. ~ aes4
+  aes8 | bes bes bes des[ c] bes | aes aes aes des4
+  bes8 | c4 des8 c4 bes8 | aes4. ~ aes4. |
+
+  << s^\markup { \small \caps "Refrain" }
+  { des4. des8 c bes | aes4. f4. } >>
+  f8 f f f[ ges] aes | bes4. ~ bes4. |
+  c4. c8 bes c | des4 des8 aes4( bes8) |
+  c4 c8 c4 bes8 | aes4. ~ aes4. |
+  des4. des8 c bes | aes4. f4.
+  f8 f f f ges aes | bes4. ~ bes4. |
+  bes8 bes bes des c bes | aes aes aes bes c des |
+  ees4. aes,4. | des4. ~ des4
+
+  \bar "|."
+
+}
+}
+
+notesAlto = {
+\global
+\relative e' {
+
+  f8 | des des des des4 des8 | f8 f f f4
+  f8 | ges8 ges ges bes aes ges | f4. ~ f4
+  f8 | ges ges ges bes[ aes] ges | f f f f4
+  fes8 | ees4 f8 ees4 des8 | c4.( ges'4.) |
+
+  f4. bes8 aes ges | f4. des4. |
+  des8 des des des[ c] des | des4. ~ des4. |
+  ges4. ges8 ges ges | f4 f8 f4( fes8) |
+  ees4 ees8 ees4 des8 | c8 c des ees[ f ees] |
+  f4. bes8 aes ges | f4. des4. |
+  des8 des des des c des | ges4. ~ ges4. |
+  ges8 ges ges bes aes bes | f f f ges ges ges |
+  g4. ges4. | f4. ~ f4
+
+}
+}
+
+notesTenor = {
+\global
+\relative a {
+
+  des8 | aes aes aes aes[ ges] f | des' des des des4
+  des8 | des c des bes c des | des4. ~ des4
+  des8 | des des des bes[ c] des | des des des aes4
+  aes8 | aes4 aes8 g4 g8 | aes4. ~ aes4. |
+
+  aes8 aes aes bes[ c] des | des des des aes4. |
+  aes8 aes aes aes4 aes8 | ges4 ges8 ges4. |
+  ees'8 ees ees ees[ des] ees | des4 aes8 aes4. |
+  aes4 aes8 g4 g8 | aes8 ees f ges[ aes ges] |
+  aes8 aes aes bes[ c] des | des des des aes4. |
+  aes8 aes aes aes aes aes | ges4 ges8 des'4. |
+  des8 des des bes c des | des des des des c bes |
+  bes4. aes4. | aes4. ~ aes4
+
+}
+}
+
+notesBass = {
+\global
+\relative f {
+
+  des8 des des des des4 des8 | des8 des des des4
+  des8 | ges ges ges ges ges ges | des4. ~ des4
+  des8 | ges ges ges ges4 ges8 | des8 des des des4
+  des8 | ees4 ees8 ees4 ees8 | aes,4. ~ aes4. |
+
+  des8 des des ges4 ges8 | des8 des des des4. |
+  des8 des des des[ ees] f | ges4 ges8 ges4. |
+  aes8 aes aes aes4 aes8 | des,4 des8 des4. |
+  ees4 ees8 ees4 ees8 | aes,4. ~ aes4. |
+  des8 des des ges4 ges8 | des8 des des des4. |
+  des8 des des des ees f | ges4 ges8 ges4. |
+  ges8 ges ges ges ges ges | des des des ges ges ges |
+  ees4. aes4. | des,4. ~ des4
+
+}
+}
+
+Refrain = \lyricmode {
+
+Wide, wide as the o -- cean, \bar "."
+High as the { \mon } heav -- ens { \moff } a -- bove; \bar "."
+Deep, deep as the deep -- est sea, \bar "."
+Is my Sav -- iour’s love; \bar "."
+I, tho’ so un -- wor -- thy, \bar "."
+Still am a child of His care, \bar "."
+For His Word teach -- es me that His love reach -- es me \bar "."
+Ev -- ’ry -- where. \bar "."
+
+}
+
+wordsA = \lyricmode {
+\set stanza = "1."
+
+I claim for my own a King on a throne, \bar "."
+The Mak -- er of land and of sea, \bar "."
+Whose throne is on high; He ev -- er is nigh, \bar "."
+To love and care for me. \bar "."
+
+}
+
+wordsB = \lyricmode {
+\set stanza = "2."
+
+I wan -- der a -- way, from Him I might stray,
+But ev -- er the sound of His voice
+Is call -- ing to me, wher -- e’er I may be,
+To make my heart re -- joice.
+
+\Refrain
+
+}
+
+wordsC = \lyricmode {
+\set stanza = "3."
+
+The by -- ways are fair, but of -- ten a snare
+Is hid -- den where pleas -- ures a -- bound;
+So close to His side I’ll ev -- er a -- bide,
+For safe -- ty there is found.
+
+}
+
+underWords = \lyricmode {
+
+\repeat unfold 34 \skip 4
+Wide as the o -- cean, deep as the sea,
+
+\repeat unfold 6 \skip 4
+a -- bove;
+Deep as the deep -- est
+
+\repeat unfold 8 \skip 4
+is His love;
+I tho’ un -- worth -- y,
+Still am His child
+
+\repeat unfold 7 \skip 4
+His care,
+
+}
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \context Lyrics = three \with { alignAboveContext = men } \lyricsto tenors \underWords
+    >>
+  >>
+  \layout {
+    \include "common/layout.ily"
+  }
+  \midi{
+    \include "common/midi.ily"
+  }
+}
+
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+
+% vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
