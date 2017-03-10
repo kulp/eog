@@ -178,6 +178,24 @@ His care,
 
 }
 
+wordsD = \markuplist {
+
+\line { He left His bright home, His glorious throne, }
+\line { { \hspace #2 } To die upon Calvary’s tree, }
+\line { His blood there was spilt, to cleanse me from guilt, }
+\line { { \hspace #2 } He died– He lives for me. }
+
+}
+
+wordsE = \markuplist {
+
+\line { The path is marked out, till called by the shout, }
+\line { { \hspace #2 } To meet with my Lord in the air. }
+\line { The Spirit’s the power, to walk till that hour,– }
+\line { { \hspace #2 } The object of God’s care. }
+
+}
+
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
@@ -202,6 +220,26 @@ His care,
     \include "common/midi.ily"
   }
 }
+
+\noPageBreak
+
+headA = \markuplist {
+\line { \bold \larger { The Saviour’s Path and Ours } }
+}
+
+headB = \markuplist {
+\line { (This hymn may be sung to the same tune as }
+\line { the preceding, using the same refrain.) }
+}
+
+\markup { \fill-line { \center-column {
+  \line{ \column { \headA } } \combine \null \vspace #0.4
+  \line{ \column { \headB } } \combine \null \vspace #1
+  \column {
+    \line{ \bold 1 \column { \wordsD } } \combine \null \vspace #0.5
+    \line{ \bold 2 \column { \wordsE } } \combine \null \vspace #0.5
+  }
+} } }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
 
