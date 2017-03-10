@@ -116,6 +116,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
+\eogbreak
 Wide, wide as the o -- cean, \bar "."
 High as the { \mon } heav -- ens { \moff } a -- bove; \bar "."
 Deep, deep as the deep -- est sea, \bar "."
