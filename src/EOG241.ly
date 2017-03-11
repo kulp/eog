@@ -39,6 +39,8 @@ notesSoprano = {
   d,4 | g4. a8 b d, g8. a16 | b4( c d)
   e4 | d4. c8 b4 a | g2.
 
+  \eogbreak
+
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternA { g | b c b a g fis | e } >>
   \changePitch \patternA { e | g a b c d b | a }
@@ -152,6 +154,15 @@ Is more than tongue can tell!
 
 }
 
+underWords = \lyricmode {
+
+\repeat unfold 38 \skip 4
+than tongue can tell!
+\repeat unfold 8 \skip 4
+than tongue can tell!
+
+}
+
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
@@ -167,6 +178,7 @@ Is more than tongue can tell!
       \clef bass
       \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \context Lyrics = three \with { alignAboveContext = men } \lyricsto tenors \underWords
     >>
   >>
   \layout {
