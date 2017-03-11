@@ -172,7 +172,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 The Lord shall come a -- gain!
-The Con -- quer -- er must reign! % "Conquerer" (not "Conqueror") is the spelling in the original
+The Con -- quer -- or must reign! % "Conquerer" (not "Conqueror") is the spelling in the original
 No tongue but shall con -- fess Him then,
 The Lamb once slain:
 Je -- sus is wor -- thy now
