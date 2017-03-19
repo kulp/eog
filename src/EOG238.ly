@@ -38,7 +38,7 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternA { f^\markup{\italic Andante} | bes bes a g | g bes f }
+  \changePitch \patternA { f^\markup{\italic Andante.} | bes bes a g | g bes f }
   \changePitch \patternB { f | bes bes c } \eogbreak
   \changePitch \patternA { f, | bes bes a g | g bes f }
   \changePitch \patternB { f | c' d | bes } \eogbreak

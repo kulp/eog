@@ -36,7 +36,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternA { d^\markup{\italic{Moderato–bold}} cis b a b | d, e fis }
+  \changePitch \patternA { d^\markup{\italic{Moderato–bold.}} cis b a b | d, e fis }
   \changePitch \patternB { a a b | cis cis d }
   \changePitch \patternC { d cis b a b | d, e fis }
   \changePitch \patternB { a a b | cis cis d }
