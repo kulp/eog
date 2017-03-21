@@ -96,7 +96,7 @@ wordsB = \markuplist {
 wordsC = \markuplist {
 
 \line { No more the heirs of wrath– }
-\line { Thy sov’reign love we see; }
+\line { Thy sovereign love we see; }
 \line { And, Father, in confiding faith, }
 \line { We cast our souls on Thee. }
 
