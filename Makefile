@@ -140,6 +140,9 @@ MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
 headers TXT/latinized:
 	mkdir -p $@
 
+check:
+	!(git grep '\b[A-Z][A-Z][a-z]' src/) # check for initial miscapitalization
+
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
 PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
