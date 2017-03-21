@@ -88,7 +88,7 @@ Our safe, un -- fail -- ing Friend. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-WHen hu -- man cis -- terns all are dried,
+When hu -- man cis -- terns all are dried,
 Thy ful -- ness is the same;
 May we with this be sat -- is -- fied,
 And glo -- ry in Thy name.
@@ -98,7 +98,7 @@ And glo -- ry in Thy name.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-WHy should we thirst for aught be -- low,
+Why should we thirst for aught be -- low,
 While there’s a foun -- tain near;
 A foun -- tain which doth ev -- er flow,
 The faint -- ing heart to cheer?
