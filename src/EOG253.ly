@@ -25,8 +25,9 @@ global = {
   \autoBeamOff
 }
 
-smallNotes = \override NoteHead.font-size = #-4
+%smallNotes = \override NoteHead.font-size = #-4
 normalNotes = \override NoteHead.font-size = #0
+smallNotes = { \normalNotes } % TODO use smallNotes when we can mix on the same stem
 smallNote = \once \smallNotes
 
 notesSoprano = {
