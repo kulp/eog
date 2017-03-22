@@ -58,8 +58,8 @@ print
         "(plus alternate tunes)",
         "from the music edition of the Echoes of Grace hymn book."),
     p("Playlists for all available MP3s:", map { a({ -href => "$_" }, $_), " " } @lists),
-    p(sprintf "Progress: %d/%d files = %4.2f%% complete",
-            scalar(@existing), $total, 100.0 * scalar(@existing)/$total),
+    p(sprintf "Progress: %d/%d files = %4.2f%% complete as of %s",
+            scalar(@existing), $total, 100.0 * scalar(@existing)/$total, qx(git log -1 --format=%ai)),
     table({ -class => "sortable", -id => "main" },
         thead(
             Tr(
