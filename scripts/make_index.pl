@@ -100,7 +100,6 @@ print
             Tr({ -class => "realhead" },
                 (map th($_), qw(No. Title Poet Composer)),
                 (map th({ -class => "nosort" }, $_), map @{ $variants{$_} }, @dirs),
-                th("Added"),
             ),
         ),
         tbody(
@@ -124,11 +123,6 @@ print
                         my $where = "$dir/$_/$stem.$exts{$dir}";
                         td({ -class => "link" }, (-e $where) ? a({ -href => $where }, $dir) : ""),
                     } @{ $variants{$dir} } } @dirs),
-                    (do {
-                        my @dates = map deparse8601($_),
-                                    qx(git log --reverse --format=format:%ai src/$stem.ly | head -n1);
-                        td({ -class => "date_added", customkey => "$dates[-1]" }, when($dates[-1]))
-                    }),
                 );
             } @stems),
         ),
