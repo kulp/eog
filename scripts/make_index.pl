@@ -3,8 +3,6 @@ use strict;
 use warnings;
 
 use CGI qw(:standard); # just for HTML shortcuts
-use DateTime;
-use DateTime::Format::RFC3339;
 use List::MoreUtils qw(uniq);
 use Perl6::Slurp qw(slurp);
 
@@ -29,23 +27,6 @@ my @lists    = grep /\.m3u$/, @files;
 my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 my %have     = map { (m#^([^/]+)#)[0] => 1 } @files;
-
-sub when
-{
-    my ($dt) = @_;
-    return $dt->format_cldr('d MMM YYYY');
-}
-
-sub deparse8601
-{
-    # why can't DateTime::Format::RFC3339 or DateTime::Format::RFC3339 parse a
-    # git timestamp in the form '2011-07-23 09:20:09 -0500' ?
-    my ($d) = @_;
-    chomp $d;
-    $d =~ s/ /T/;
-    $d =~ s/\s*([-+]\d{2})(\d{2})/$1:$2/;
-    return DateTime::Format::RFC3339->parse_datetime($d);
-}
 
 my @existing = qx(find src -name EOG???.ly);
 my $total = 376 + 8;
