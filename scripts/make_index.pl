@@ -4,17 +4,13 @@ use warnings;
 
 use CGI qw(:standard); # just for HTML shortcuts
 use List::MoreUtils qw(uniq);
-use Perl6::Slurp qw(slurp);
 
+sub get_key ($$)
 {
-    my %cache;
-
-    sub get_key ($$)
-    {
-        my ($file, $key) = @_;
-        my ($what) = map /\b$key\s*=\s*"(.*?)"/, $cache{$file} ||= slurp $file;
-        return $what;
-    }
+    my ($stem, $key) = @_;
+    open my $fh, "headers/$stem.$key" or return "";
+    chomp(my $val = <$fh> || "");
+    return $val;
 }
 
 my @files = @ARGV;
@@ -88,9 +84,9 @@ print
                 my $stem = $_;
                 my $src      = "src/$stem.ly";
 
-                my $title    = get_key $src => "title";
-                my $poet     = get_key $src => "poet";
-                my $composer = get_key $src => "composer";
+                my $title    = get_key $stem => "title";
+                my $poet     = get_key $stem => "poet";
+                my $composer = get_key $stem => "composer";
 
                 my $index    = int(($stem =~ /EOG(\d+)/)[0]);
                 (my $safetitle = $title) =~ s/[^\s\w]//g;
