@@ -44,7 +44,7 @@ endif
 .DEFAULT_GOAL = all
 
 .PHONY: all pdf midi mp3 m3u index dist zip lyrics preview latin
-all: pdf midi index mp3 m3u zip
+all: pdf midi lyrics index mp3 m3u zip
 pdf: $(PDFS)
 midi: $(MIDIS)
 mp3: $(MP3S)
