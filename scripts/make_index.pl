@@ -3,6 +3,7 @@ use strict;
 use warnings;
 
 use CGI qw(:standard); # just for HTML shortcuts
+use File::Basename qw(basename dirname);
 use List::MoreUtils qw(uniq);
 
 sub get_key ($$)
@@ -13,18 +14,21 @@ sub get_key ($$)
     return $val;
 }
 
-my @files = @ARGV;
+my %globs = (
+        PDF  => [ glob "PDF/*/*.pdf"   ],
+        MP3  => [ glob "MP3/*/*.mp3"   ],
+        TXT  => [ glob "TXT/*/*.txt"   ],
+        MIDI => [ glob "MIDI/*/*.midi" ],
+    );
 
-my %dirs     = qw(pdf PDF midi MIDI mp3 MP3 txt TXT);
-my %exts     = reverse %dirs;
-my @dirs     = sort values %dirs;
-my @stems    = uniq sort map m#([^/]+)\.(?:pdf|midi)$#, @files;
-my @lists    = grep /\.m3u$/, @files;
-my %variants = map { my $dir = $_; $dir => [ uniq sort map m#$dir/([^/]+)/.*$#, @files ] } @dirs;
+my @srcs     = glob "src/EOG???.ly";
+my @lists    = glob "*.m3u";
+my %exts     = map { uc, lc } keys %globs;
+my @dirs     = sort keys %globs;
+my @stems    = uniq sort map m#(\w+)\.ly#, @srcs;
+my %variants = map { $_ => [ uniq sort map basename(dirname($_)), @{ $globs{$_} } ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
-my %have     = map { (m#^([^/]+)#)[0] => 1 } @files;
 
-my @existing = qx(find src -name EOG???.ly);
 my $total = 376 + 8;
 
 print
@@ -55,7 +59,7 @@ print
         "from the music edition of the Echoes of Grace hymn book."),
     p("Playlists for all available MP3s:", map { a({ -href => "$_" }, $_), " " } @lists),
     p(sprintf "Progress: %d/%d files = %4.2f%% complete as of %s",
-            scalar(@existing), $total, 100.0 * scalar(@existing)/$total, qx(git log -1 --format=%ai)),
+            scalar(@srcs), $total, 100.0 * scalar(@srcs)/$total, qx(git log -1 --format=%ai)),
     table({ -class => "sortable", -id => "main" },
         thead(
             Tr(
@@ -72,7 +76,7 @@ print
                     end_form,
                 ),
 
-             (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), grep $have{$_}, @dirs),
+             (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), @dirs),
             ),
             Tr({ -class => "realhead" },
                 (map th($_), qw(No. Title Poet Composer)),
