@@ -11,7 +11,8 @@ PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(LYS:.ly=.mp3 )))
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(LYS:.ly=.wav )))
-TXTS          = $(addprefix TXT/default/,$(LYS:.ly=.txt))
+TXTS          = $(LYS:%.ly=TXT/default/%.txt)
+LATINS        = $(LYS:%.ly=TXT/latinized/%.txt)
 M3US          = $(VARIANTS_MP3:%=%.m3u)
 
 HEADERS       = hymnnumber title poet composer meter tunename
@@ -42,7 +43,7 @@ endif
 
 .DEFAULT_GOAL = all
 
-.PHONY: all pdf midi mp3 m3u index dist zip lyrics preview
+.PHONY: all pdf midi mp3 m3u index dist zip lyrics preview latin
 all: pdf midi index mp3 m3u zip
 pdf: $(PDFS)
 midi: $(MIDIS)
@@ -94,7 +95,8 @@ $(TXTS): TXT/default/%.txt: src/%.ly | scripts/getlyrics.pl transforms.map
 	@mkdir -p $(@D)
 	scripts/getlyrics.pl $< 2>> transforms.map > $@ || rm $@
 
-CLOBBERFILES += TXT/latinized/$(LYS:.ly=.txt)
+latin: $(LATINS)
+CLOBBERFILES += $(LATINS)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	scripts/latinize.sh $< > $@ || rm $@
 
