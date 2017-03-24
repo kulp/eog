@@ -112,7 +112,7 @@ $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
 MIDI/vanilla/%.midi: MIDI/default/%.midi
 	mkdir -p $(@D)
 	midish -b <<<'import "$<"; export "$@"'
-CLOBBERFILES += MIDI/vanilla/$(LYS:.ly=.midi)
+CLOBBERFILES += $(LYS:%.ly=MIDI/vanilla/%.midi)
 
 # I would like to use long (`--` style) options to fluidsynth, but version
 # 1.1.6 doesn't seem to understand them, even though its help summary indicates
