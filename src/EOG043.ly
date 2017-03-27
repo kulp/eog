@@ -197,7 +197,7 @@ wordsD = \markuplist {
     \fill-line {
       \null
 
-      \center-column {
+      \column {
         \line{ \bold 1 \column { \wordsA } }
         \vspace #1
         \line{ \bold 2 \column { \wordsB } }
@@ -205,7 +205,7 @@ wordsD = \markuplist {
 
       \null
 
-      \center-column {
+      \column {
         \line{ \bold 3 \column { \wordsC } }
         \vspace #1
         \line{ \bold 4 \column { \wordsD } }
