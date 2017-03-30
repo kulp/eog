@@ -68,7 +68,10 @@ CLOBBERFILES += EOG_midi_pdf.zip
 EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 	zip -u $@ $^
 
-index: index.html
+# Explicitly build `vanilla` MIDI files for index, since they are automatically
+# picked up by the perl script, whereas they are only built as a side-effect of
+# MP3 generation in this Makefile.
+index: vanilla index.html
 CLEANFILES += index.html
 index.html: pdf midi mp3 m3u latin
 	scripts/make_index.pl > $@ || rm $@
@@ -109,6 +112,7 @@ $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
 
 # We use midish with no explicit settings to filter out program-change events,
 # so that our program-change settings to fluidsynth are respected.
+vanilla: $(LYS:%.ly=MIDI/vanilla/%.midi)
 MIDI/vanilla/%.midi: MIDI/default/%.midi
 	mkdir -p $(@D)
 	midish -b <<<'import "$<"; export "$@"'
