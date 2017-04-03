@@ -10,3 +10,4 @@ mon  = { \set ignoreMelismata = ##t }
 moff = { \unset ignoreMelismata }
 
 eogbreak = { \break }
+eogpagebreak = { \pageBreak }
