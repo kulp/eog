@@ -48,6 +48,7 @@ notesSoprano = {
   \changePitch \patternA { d' c bes | f f d f bes | g g }
   \changePitch \patternB { ees' d cis | d d bes a c | bes }
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { f4^\mf | c'8. b16 c2 d4^\p | bes8. g16 f2^\mf } >>
   f4 | g8 g ees' d c4^\p bes | \slashedGrace a8 c2. \fermata
