@@ -39,6 +39,7 @@ notesSoprano = {
   c8. bes16 aes8 aes g aes | bes aes f f ees r |
   aes8 aes des c8. aes16 bes8 | aes4. ~ aes4
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { ees8 | bes'4. ~ bes4 c8 | aes4( bes8 c4.) } >>
   bes8 bes bes8. c16 c8. d16 | \tb ees4( \fermata d8 \fermata des4) \fermata r8 |
@@ -158,7 +159,7 @@ Come home, come home,
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto altos \underWords
+      \context Lyrics = three \lyricsto altos \underWords
     >>
     \context Staff = men <<
       \clef bass
