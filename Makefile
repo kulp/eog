@@ -148,6 +148,7 @@ headers TXT/latinized:
 
 check:
 	!(git grep '\b[A-Z][A-Z][a-z]' src/) # check for initial miscapitalization
+	perl -ne 'die "$$ARGV\n" if /bold (\d+) .*?words(\w+)/g and $$1 != ord($$2) - ord("A") + 1' src/*.ly
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))

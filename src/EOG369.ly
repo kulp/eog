@@ -179,7 +179,7 @@ His care,
 
 }
 
-wordsD = \markuplist {
+extraA = \markuplist {
 
 \line { He left His bright home, His glorious throne, }
 \line { { \hspace #2 } To die upon Calvary’s tree, }
@@ -188,7 +188,7 @@ wordsD = \markuplist {
 
 }
 
-wordsE = \markuplist {
+extraB = \markuplist {
 
 \line { The path is marked out, till called by the shout, }
 \line { { \hspace #2 } To meet with my Lord in the air. }
@@ -237,8 +237,8 @@ headB = \markuplist {
   \line{ \column { \headA } } \combine \null \vspace #0.4
   \line{ \column { \headB } } \combine \null \vspace #1
   \column {
-    \line{ \bold 1 \column { \wordsD } } \combine \null \vspace #0.5
-    \line{ \bold 2 \column { \wordsE } } \combine \null \vspace #0.5
+    \line{ \bold 1 \column { \extraA } } \combine \null \vspace #0.5
+    \line{ \bold 2 \column { \extraB } } \combine \null \vspace #0.5
   }
 } } }
 

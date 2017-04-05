@@ -24,7 +24,7 @@ my $braces = $RE{balanced}{-parens=>'{}'};
 my $hidden = $RE{balanced}{-begin=>'%{HIDE>%}'}{-end=>'%{<HIDE%}'};
 
 my $lyricpat = qr<
-    \b((words|refrain)(\w*))\s*
+    \b((words|refrain|extra)(\w*))\s*
     =\s*
     (?:\\lyricmode|\\markuplist)\s*
     ($braces)
@@ -72,7 +72,7 @@ my $contents = slurp '<:utf8' => $file;
 my @verses = $contents =~ /$lyricpat/g;
 my @groups = ngroup 5 => \@verses;
 my %groups = map { ("$_->[1]$_->[2]" => $_->[3]) } @groups;
-my @order = ("wordsA", "Refrain", "RefrainA", map { ("words$_", "Refrain$_") } 'B'..'Z');
+my @order = ("wordsA", "Refrain", "RefrainA", (map { ("words$_", "Refrain$_") } 'B'..'Z'), map "extra$_", 'A'..'Z');
 my %segments = pairmap { defined($b) ? ($a => $b) : () } %groups;
 my %bare = pairmap { $b =~ s/$versepat/$1/; $a => $b } %segments;
 my %unmarkup = pairmap { $b =~ s/$markuppat/$1/g; $a => $b } %bare;
