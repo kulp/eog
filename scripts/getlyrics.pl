@@ -59,7 +59,7 @@ my $strips = qr<
  | \\eogbreak
  | \\pageBreak
  | \\noBreak
- | \\markup
+ | \\markup(\\\w+)?
  | \\m(on|off)
  | %.*?(?=\n|$)
  | \\Refrain\w*
