@@ -169,9 +169,9 @@ wordsF = \markuplist {
 
 \markup { \fill-line {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsE } }
+  \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsF } }
+  \line{ \bold 6 \column { \wordsF } }
   \hspace #0.1
 } }
 
