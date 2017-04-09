@@ -29,8 +29,8 @@ notesSoprano = {
 \global
 \relative c' {
 
-  c2 e4 g | a2 f4( a) | c2 c4 a | \afterGrace g1 e4 | % TODO make grace notes sound better in MIDI
-  e2 g4 g | d2 d | e1 |
+  c2 e4 g | a2 f4( a) | c2 c4 a | g1 |
+  \grace e4 e2 g4 g | d2 d | e1 | % TODO play grace note in MIDI only for verse 4
   g2 a4 f | c'( a) g( e) | d2 g4 f | e1 |
   g2 a4 d | c2 b | c1 |
 
@@ -43,8 +43,8 @@ notesAlto = {
 \global
 \relative e' {
 
-  c2 c4 e | f2 c4( f) | f2 f4 f | \afterGrace e1 c4 |
-  c2 c4 c c2 b | c1 |
+  c2 c4 e | f2 c4( f) | f2 f4 f | e1 |
+  \grace c4 c2 c4 c c2 b | c1 |
   e2 f4 c | f2 e4( c) | b2 d4 d | c1 |
   e2 f4 a | g2 f | e1 |
 
@@ -55,8 +55,8 @@ notesTenor = {
 \global
 \relative a {
 
-  e2 g4 c | c2 a4( c) | a2 a4 c | \afterGrace c1 g4 |
-  g2 g4 g | g2 g | g1 |
+  e2 g4 c | c2 a4( c) | a2 a4 c | c1 |
+  \grace g4 g2 g4 g | g2 g | g1 |
   c2 c4 a | a( c) c( g) | g2 g4 g | g1 |
   c2 c4 f | e2 d | c1 |
 
@@ -67,8 +67,8 @@ notesBass = {
 \global
 \relative f {
 
-  c2 c4 c | f2 f | f2 f4 f | \afterGrace c1 c4 |
-  c2 e4 e | g2 g, | c1 |
+  c2 c4 c | f2 f | f2 f4 f | c1 |
+  \grace c4 c2 e4 e | g2 g, | c1 |
   c2 f4 f | f2 c4 ~ c4 | g2 b4 b | c1 |
   c2 f4 f | g2 g | c,1 |
 
@@ -90,7 +90,7 @@ wordsB = \lyricmode {
 
 What are earth’s joys, so fleet -- ing and vain,
 Je -- sus, my Lord, to me!
-Sweet -- er by far is the heav -- en -- ly gain;
+Sweet -- er by far { \mon } is the { \moff } heav -- en -- ly gain;
 Love -- ly art Thou to me.
 
 }
@@ -109,7 +109,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Je -- sus, my Lord, ’t_was sin’s heav -- y load,
-The curse that was borne by Thee;
+The_curse that was borne by Thee;
 Stroke up -- on stroke, as God’s wrath a -- woke,
 Fell up -- on Thee for me.
 
