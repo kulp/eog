@@ -116,7 +116,7 @@ See Him— God’s be -- lov -- ed Son. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Once on earth in Beth -- le’m’s man -- ger,
+Once on earth in Beth -- l’em’s man -- ger,
 As a help -- less babe He lay;
 God come down a heav’n -- ly stran -- ger,
 Love to sin -- ners to dis -- play.
