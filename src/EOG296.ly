@@ -99,7 +99,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 He trod this earth, a low -- ly man,
-For three- and thir -- ty years,
+For three and thir -- ty years, % original has hyphen after `three`
 And then was nailed on Cal -- v’ry’s tree,
 To still our guilt -- y fears.
 
