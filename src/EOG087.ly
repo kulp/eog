@@ -2,8 +2,6 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  systems-per-page = ##f
   page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
@@ -14,7 +12,6 @@
   meter = "11. 10. 11. 10. with Refrain"
   poet = "H. d'A. Champney"
   composer = "Henry Smart"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -45,7 +42,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key e \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -125,7 +121,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Hark! hark! the voice of Christ, the sin -- ner’s Sav -- iour, \bar "."
-In glo -- ry seat -- ed on His Fa -- ther’s throne, \bar "."
+In glo -- ry { \eogpagebreak } seat -- ed on His Fa -- ther’s throne, \bar "." % XXX an ungainly way to keep only one system on the first page
 Tel -- ling of love and ev -- er -- last -- ing fa -- vor \bar "."
 For sin -- ners far from God, by sin un -- done. \bar "."
 

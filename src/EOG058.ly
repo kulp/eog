@@ -2,9 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
+  system-count = #(cond (is-eogsized 3) (#t #f))
+  page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -12,9 +11,8 @@
   title = "Why Unbelieving"
   tunename = ""
   meter = "P. M."
-  %poet = ""
+  poet = ""
   composer = "German"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -36,7 +34,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -88,7 +85,7 @@ notesBass = {
   \changePitch \patternAB { ees ees ees | d ees | bes bes bes | ees }
   \changePitch \patternAB { ees ees ees | d ees | aes, bes bes | ees }
   \changePitch \patternBA { bes bes bes | ees ees ees }
-  \changePitch \patternAA { ees aes aes | ees ees ees }
+  \changePitch \patternAA { ees aes aes | ees ees ees \fermata }
   \changePitch \patternAA { aes, aes' aes | bes bes ees, | aes, bes bes | ees }
 
 }
@@ -98,7 +95,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Why un -- be -- liev -- ing? { \bar "." } why wilt thou spurn \bar "."
-Love that so gent -- ly { \bar "." } pleads thy re -- turn? \bar "."
+Love that so gent -- ly { \bar "." \eogpagebreak } pleads thy re -- turn? \bar "." % XXX this is an unnatural way to force there to be only one system on the first page
 Come, ere thy fleet -- ing day \bar "."
 Fades in -- to night a -- way; \bar "."
 Now mer -- cy’s call o -- bey; \bar "."

@@ -1,9 +1,9 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
+  ragged-bottom = ##t
   system-count = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f % original is split across two pages, two systems on the first
+  page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -11,9 +11,8 @@
   title = "Eternity! Where? It Floats in the Air"
   tunename = "Eternity"
   meter = "4-11s."
-  %poet = ""
+  poet = ""
   composer = "Wm. M. Horsey"
-  %copyright = ""
   tagline = ##f
 }
 

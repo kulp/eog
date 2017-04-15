@@ -2,9 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  systems-per-page = ##f
-  %page-count = ##f
+  page-count = #(cond (is-eogsized 2) (#t #f))
+  systems-per-page = #(cond (is-eogsized 1) (#t #f))
 }
 
 \header{
@@ -12,9 +11,8 @@
   title = "“Too Late, Too Late!” How Sad the Sound"
   tunename = "Arlington"
   meter = "C. M."
-  %poet = ""
+  poet = ""
   composer = "Dr. Arne"
-  %copyright = ""
   tagline = ##f
 }
 
