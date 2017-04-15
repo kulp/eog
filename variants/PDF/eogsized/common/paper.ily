@@ -63,9 +63,8 @@ scoreTitleMarkup = \markup {
 }
 
 bookTitleMarkup = \markup { }
-oddHeaderMarkup = \markup
+oddHeaderMarkup = \markup { }
+evenHeaderMarkup = \markup
 \fill-line {
-  " "
-  \on-the-fly #not-part-first-page \fromproperty #'header:title
+  \on-the-fly #not-part-first-page \huge \larger \larger \bold \fromproperty #'header:title
 }
-%% evenHeaderMarkup inherits the value of oddHeaderMarkup
