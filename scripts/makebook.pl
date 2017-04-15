@@ -21,13 +21,13 @@ for my $pdf (@ARGV) {
     while (<$pipe>) {
         $page++;
         my @dims = map /(\d+)/g, (split " ")[2,3];
-        my ($height, $total, $offset) = @dims[1,3,5];
-        my $crop_amount_bot = $total - $height - $offset;
-        my $crop_amount_top = $offset;
-        my $clip = ($crop_amount_bot > $crop_threshold) ? "true" : "false";
+        my ($width, $height, $total_width, $total_height, $crop_amount_left, $crop_amount_top) = @dims;
+        my $crop_amount_bottom = $total_height - $height - $crop_amount_top;
+        my $crop_amount_right  = $total_width  - $width  - $crop_amount_left;
+        my $clip = ($crop_amount_bottom > $crop_threshold) ? "true" : "false";
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
-        printf q(\centering\includegraphics[clip=%-5s,trim=0 %3dpt 0 %3dpt,page=%d]{%s} \\\\)."\n",
-               $clip, $crop_amount_bot, $crop_amount_top, $page, $basename;
+        printf q(\centering\includegraphics[clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
+               $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
 }
 
