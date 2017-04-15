@@ -20,11 +20,12 @@ for my $pdf (@ARGV) {
         $page++;
         my @dims = map /(\d+)/g, (split " ")[2,3];
         my ($height, $total, $offset) = @dims[1,3,5];
-        my $crop_amount = $total - $height - $offset;
-        my $clip = ($crop_amount > $crop_threshold) ? "true" : "false";
+        my $crop_amount_bot = $total - $height - $offset;
+        my $crop_amount_top = $offset;
+        my $clip = ($crop_amount_bot > $crop_threshold) ? "true" : "false";
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
-        printf q(\includegraphics[clip=%-5s,trim=0 %3dpt 0 0,page=%d]{%s} \\\\)."\n",
-               $clip, $crop_amount, $page, $basename;
+        printf q(\includegraphics[clip=%-5s,trim=0 %3dpt 0 %3dpt,page=%d]{%s} \\\\)."\n",
+               $clip, $crop_amount_bot, $crop_amount_top, $page, $basename;
     }
 }
 
