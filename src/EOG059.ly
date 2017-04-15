@@ -1,14 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
 }
-
-% TODO this song is compatible with EOG058's tune as well, and we probably
-% shouldn't be engraving music for it at all
 
 \header{
   hymnnumber = "59"
@@ -17,7 +10,6 @@
   meter = "P. M."
   poet = "I. Fleming"
   composer = "P. P. Bliss"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -37,7 +29,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -99,59 +90,55 @@ notesBass = {
 }
 }
 
-wordsA = \lyricmode {
-\set stanza = "1."
+wordsA = \markuplist {
 
-Why wilt thou lin -- ger?
-Why wilt thou die?
-God’s wrath up -- on thee,
-Judg -- ment so nigh.
-Now in sal -- va -- tion’s day
-Tread the blood -- sprink -- led way;
-Sin -- ner, no more de -- lay,
-Je -- sus will come.
-
-}
-
-wordsB = \lyricmode {
-\set stanza = "2."
-
-Soon will the Sav -- iour
-Close fast the door,
-Ti -- dings of mer -- cy
-Sound nev -- er -- more;
-Time’s course will soon be run. % XXX comma ?
-Stop then, thou Christ -- less one,
-Think of the great white throne,
-Judg -- ment will fall.
+\line { Why wilt thou linger? }
+\line { { \hspace #2 } Why wilt thou die? }
+\line { God’s wrath upon thee, }
+\line { { \hspace #2 } Judgment so nigh. }
+\line { Now in salvation’s day }
+\line { Tread the blood-sprinkled way; }
+\line { Sinner, no more delay, }
+\line { { \hspace #2 } Jesus will come. }
 
 }
 
-wordsC = \lyricmode {
-\set stanza = "3."
+wordsB = \markuplist {
 
-Then the dread sen -- tence,
-“De -- part from Me,”
-Room for re -- pent -- ance,
-Gone, gone for aye.
-End -- less the sin -- ner’s doom,
-Dark -- ness and dis -- mal gloom;
-Now in God’s house there’s room,
-Je -- sus will save.
+\line { Soon will the Saviour }
+\line { { \hspace #2 } Close fast the door, }
+\line { Tidings of mercy }
+\line { { \hspace #2 } Sound nevermore; }
+\line { Time’s course will soon be run. } % XXX comma ?
+\line { Stop then, thou Christless one, }
+\line { Think of the great white throne, }
+\line { { \hspace #2 } Judgment will fall. }
 
 }
 
-wordsD = \lyricmode {
-\set stanza = "4."
+wordsC = \markuplist {
 
-Glo -- ry be -- fore thee,
-Pil -- grim, press on;
-Share now the sor -- row,
-Share soon the crown.
-Tell forth the Sav -- iour’s fame,
-Hon -- or His ho -- ly name,
-Bear now His cross and shame,
-Pil -- grim, press on.
+\line { Then the dread sentence, }
+\line { { \hspace #2 } “Depart from Me,” }
+\line { Room for repentance, }
+\line { { \hspace #2 } Gone, gone for aye. }
+\line { Endless the sinner’s doom, }
+\line { Darkness and dismal gloom; }
+\line { Now in God’s house there’s room, }
+\line { { \hspace #2 } Jesus will save. }
+
+}
+
+wordsD = \markuplist {
+
+\line { Glory before thee, }
+\line { { \hspace #2 } Pilgrim, press on; }
+\line { Share now the sorrow, }
+\line { { \hspace #2 } Share soon the crown. }
+\line { Tell forth the Saviour’s fame, }
+\line { Honor His holy name, }
+\line { Bear now His cross and shame, }
+\line { { \hspace #2 } Pilgrim, press on. }
 
 }
 
@@ -161,10 +148,6 @@ Pil -- grim, press on.
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
       \context Voice  = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
       \clef bass
@@ -172,11 +155,51 @@ Pil -- grim, press on.
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
-  \layout {
-    \include "common/layout.ily"
-  }
   \midi{
     \include "common/midi.ily"
+  }
+}
+
+% TODO this markup is all empirical, and brittle
+\markup {
+  \column {
+    \column {
+      \fill-line {
+        \huge \larger \larger \bold {
+          "  59"
+          "Why Wilt Thou Linger?"
+          \null
+        }
+      }
+    }
+
+    \vspace #0.5
+
+    \fill-line \smaller { "Sing to tune No. 57 or No. 58" } % original has "tunes"
+
+    \vspace #0.5
+
+    \fill-line {
+      \null
+
+      \column {
+        \line{ \bold 1 \column { \wordsA } }
+        \vspace #1
+        \line{ \bold 2 \column { \wordsB } }
+      }
+
+      \null
+
+      \column {
+        \line{ \bold 3 \column { \wordsC } }
+        \vspace #1
+        \line{ \bold 4 \column { \wordsD } }
+        \vspace #1
+        \line{ \hspace #20 "I. Fleming" }
+      }
+
+      \null
+    }
   }
 }
 
