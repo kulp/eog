@@ -1,8 +1,9 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
+  ragged-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
+  page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -12,7 +13,6 @@
   meter = "10. 10. 10."
   poet = "Dr. H. Bonar"
   composer = "Ira D. Sankey"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -32,7 +32,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -178,7 +177,6 @@ wordsH = \markuplist {
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
@@ -194,7 +192,11 @@ wordsH = \markuplist {
   }
 }
 
-\markup { \fill-line { \column {
+\eogpagebreak
+
+\markup {
+\vspace #1 % need space between title (evenHeaderMarkup) and verses
+\fill-line { \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
   \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
