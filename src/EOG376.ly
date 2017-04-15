@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
+  system-count = #(cond (is-eogsized 4) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
@@ -128,7 +129,7 @@ To Thee, Lord, my heart un -- fold -- eth,
 { \mon } As the rose to { \moff } the gold -- en sun;
 To Thee, Lord, mine arms are cling -- ing,
 The e -- ter -- nal joy’s be -- gun,
-For -- ev -- er, thro’ end -- less { \mon } a -- ges, { \moff }
+For -- ev -- er, thro’ { \mon } end -- less { \moff } a -- ges,
 Thy cross and Thy { \mon } sor -- rows { \moff } shall be,
 The glo -- ry, the { \mon } song and { \moff } the sweet -- ness,
 That makes heav -- en, { \mon } heav -- en { \moff } to me.
@@ -210,13 +211,18 @@ wordsF = \markuplist {
   >>
   \layout {
     \include "common/layout.ily"
+    \context {
+      \Lyrics
+      % Compensate for wide lyrics by squashing things a bit
+      \override LyricSpace.minimum-distance = #0.3
+    }
   }
   \midi{
     \include "common/midi.ily"
   }
 }
 
-\pageBreak
+\eogpagebreak
 
 \markup { \fill-line { \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
