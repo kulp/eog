@@ -13,6 +13,8 @@ print <<'EOF';
 \begin{document}
 EOF
 
+# TODO first page ("title page" ?) gets undesired extra whitespace at top
+
 for my $pdf (@ARGV) {
     open my $pipe, qq(convert "$pdf" -trim info:-|);
     my $page = 0;
