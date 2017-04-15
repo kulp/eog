@@ -6,7 +6,7 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
 print <<'EOF';
 \documentclass{letter}
-\usepackage[margin=0pt,paperwidth=127mm,paperheight=199mm]{geometry}
+\usepackage[margin=0pt,paperwidth=6in,paperheight=9in]{geometry}
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
 
@@ -28,7 +28,7 @@ for my $pdf (@ARGV) {
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
         # disable cropping left and right, as this causes markup-only hymns to have misaligned titles
         $crop_amount_left = $crop_amount_right = 0;
-        my $scale = 1.14;
+        my $scale = 1.14; # TODO compute this
         printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
                $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
