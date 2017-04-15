@@ -26,8 +26,11 @@ for my $pdf (@ARGV) {
         my $crop_amount_right  = $total_width  - $width  - $crop_amount_left;
         my $clip = ($crop_amount_bottom > $crop_threshold) ? "true" : "false";
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
-        printf q(\centering\includegraphics[clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
-               $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
+        # disable cropping left and right, as this causes markup-only hymns to have misaligned titles
+        $crop_amount_left = $crop_amount_right = 0;
+        my $scale = 1.14;
+        printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
+               $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
 }
 
