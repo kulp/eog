@@ -28,6 +28,10 @@ for my $pdf (@ARGV) {
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
         # disable cropping left and right, as this causes markup-only hymns to have misaligned titles
         $crop_amount_left = $crop_amount_right = 0;
+        # crop top minimally, as we want a consistent height for the title,
+        # regardless of how high an ascending stroke (especially inverted
+        # commas) might rise
+        $crop_amount_top = 8;
         my $scale = 1.14; # TODO compute this
         printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
                $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
