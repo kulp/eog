@@ -15,6 +15,10 @@ EOF
 
 # TODO first page ("title page" ?) gets undesired extra whitespace at top
 
+my $prev_height =  0; # points
+my $prev_clip   = ""; # stringified boolean
+my $max_height  = 546; # points (199mm, 7.833in)
+
 for my $pdf (@ARGV) {
     open my $pipe, qq(convert "$pdf" -trim info:-|);
     my $page = 0;
@@ -35,6 +39,19 @@ for my $pdf (@ARGV) {
         my $scale = 1.14; # TODO compute this
         printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
                $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
+
+        if ($clip eq "true" and $prev_clip eq $clip) {
+            my $points = $height + $prev_height - $max_height;
+            if ($points > 0) {
+                warn "Can't fit $pdf onto page with preceding file -- over by $points pts";
+            }
+            # reset state so that we don't try to "chain" fits -- we only fit two per page, ever
+            $prev_height = 0;
+            $prev_clip = "false"; # lie about previous clipping
+        } else {
+            $prev_clip = $clip;
+            $prev_height = $height;
+        }
     }
 }
 
