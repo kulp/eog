@@ -28,11 +28,11 @@ patternC = { \ta c8 | c4 c4 c4. c8 | c1             } % Line 4 all
 patternD = { \ta c4 | c4 c4 c4. c8 | c4.     c8 c4. } % Line 1, 3 bass
 
 patternE = { \ta c4. c8 c4. c8 | c8[ c8] c4 c4. } % Refrain line 1 soprano / alto / tenor
-patternF = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4\fermata } % Refrain line 3 soprano / alto / tenor
-patternG = { \tb c4\fermata \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 all
+patternF = { \ta c4 | c4. c8 c4. c8 | c8[ c8] c4 \tb c4 } % Refrain line 3 soprano / alto / tenor
+patternG = { \tb c4 \ta | c4 c4 c4. c8 | c2. } % Refrain line 4 all
 
 patternH = { \ta c4. c8 c4. c8 | c4 c4 c4. } % Refrain line 1 bass
-patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4\fermata } % Refrain line 3 bass
+patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4 } % Refrain line 3 bass
 
 global = {
   \include "common/overrides.ily"
@@ -58,8 +58,8 @@ notesSoprano = {
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternE { bes c bes g | g f ees bes' } >>
   \changePitch \patternB {         bes | c c ees c   | bes          }
-  \changePitch \patternF {         bes | bes c bes g | g f ees bes' }
-  \changePitch \patternG {         c   | bes g f ees | ees          }
+  \changePitch \patternF {         bes | bes c bes g | g f ees bes'\fermata }
+  \changePitch \patternG {   c\fermata | bes g f ees | ees          }
 
   \bar "|."
 
@@ -111,8 +111,8 @@ notesBass = {
 
   \changePitch \patternH { ees ees ees ees | ees ees bes }
   \changePitch \patternB { ees | aes, aes aes aes | ees' }
-  \changePitch \patternI { ees | ees ees ees ees | ees ees bes }
-  \changePitch \patternG { aes | bes bes bes ees | ees }
+  \changePitch \patternI { ees | ees ees ees ees | ees ees bes\fermata }
+  \changePitch \patternG { aes\fermata | bes bes bes ees | ees }
 
 }
 }
