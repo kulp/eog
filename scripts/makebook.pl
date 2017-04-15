@@ -26,7 +26,7 @@ for my $pdf (@ARGV) {
         my $crop_amount_top = $offset;
         my $clip = ($crop_amount_bot > $crop_threshold) ? "true" : "false";
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
-        printf q(\includegraphics[clip=%-5s,trim=0 %3dpt 0 %3dpt,page=%d]{%s} \\\\)."\n",
+        printf q(\centering\includegraphics[clip=%-5s,trim=0 %3dpt 0 %3dpt,page=%d]{%s} \\\\)."\n",
                $clip, $crop_amount_bot, $crop_amount_top, $page, $basename;
     }
 }
