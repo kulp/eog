@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-bottom = ##t
-  ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -13,8 +10,7 @@
   tunename = "Bera"
   meter = "L. M."
   poet = "Jehoiada Brewer" % original has "Jehoida"
-  %composer = ""
-  %copyright = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -37,7 +33,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
-  %\partial 4
   \autoBeamOff
 }
 
