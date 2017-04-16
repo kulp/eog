@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -32,6 +33,7 @@ notesSoprano = {
   g8[ a] | b4 b b | b2
   g8[ b] | d4 d d | e d b | b a a | a2
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { d8. d16 | e4 d b8. a16 | g4 g } >>
   d'8 d | e4 d b | a2

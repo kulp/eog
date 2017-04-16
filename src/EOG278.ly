@@ -132,19 +132,19 @@ But yon -- der is His tomb!
 
 wordsF = \markuplist {
 
-\line { And yonder is our peace, }
-\line { The grave of all our woes; }
+\line { { \hspace #2 } And yonder is our peace, }
+\line { { \hspace #2 } The grave of all our woes; }
 \line { We know the Son of God has come, }
-\line { We know He died and rose. }
+\line { { \hspace #2 } We know He died and rose. }
 
 }
 
 wordsG = \markuplist {
 
-\line { We know He liveth now }
-\line { At God’s right hand above; }
+\line { { \hspace #2 } We know He liveth now }
+\line { { \hspace #2 } At God’s right hand above; }
 \line { We know the throne on which He sits }
-\line { We know His truth and love! }
+\line { { \hspace #2 } We know His truth and love! }
 
 }
 

@@ -108,36 +108,36 @@ Make grate -- ful prais -- es flow.
 wordsD = \markuplist {
 
 \line { Love, that on death’s dark vale }
-\line { Its sweetest odors spread, }
+\line { { \hspace #2 } Its sweetest odors spread, }
 \line { Where sin o’er all seemed to prevail }
-\line { Redemption’s glory shed. }
+\line { { \hspace #2 } Redemption’s glory shed. }
 
 }
 
 wordsE = \markuplist {
 
 \line { And now we see Thee risen, }
-\line { Who once for us hast died, }
+\line { { \hspace #2 } Who once for us hast died, }
 \line { Seated above the highest heaven; }
-\line { The Father’s glorified. }
+\line { { \hspace #2 } The Father’s glorified. }
 
 }
 
 wordsF = \markuplist {
 
 \line { Soon wilt Thou take Thy throne, }
-\line { Thy foes Thy footstool made, }
+\line { { \hspace #2 } Thy foes Thy footstool made, }
 \line { And take us with Thee for Thine own, }
-\line { In glory love displayed. }
+\line { { \hspace #2 } In glory love displayed. }
 
 }
 
 wordsG = \markuplist {
 
 \line { Jesus, we wait for Thee, }
-\line { With Thee to have our part; }
+\line { { \hspace #2 } With Thee to have our part; }
 \line { What can full joy and blessing be }
-\line { But being where Thou art? }
+\line { { \hspace #2 } But being where Thou art? }
 
 }
 

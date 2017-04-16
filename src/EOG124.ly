@@ -148,18 +148,18 @@ Are end -- ed, and now He’s on high on the throne.
 wordsD = \markuplist {
 
 \line { He waiteth in patience for sinners to trust Him, }
-\line { And says: “I receive thee now just as thou art; }
+\line { { \hspace #2 } And says: “I receive thee now just as thou art; }
 \line { Salvation and pardon I heartily offer }
-\line { To all who receive Me by faith in their heart.” }
+\line { { \hspace #2 } To all who receive Me by faith in their heart.” }
 
 }
 
 wordsE = \markuplist {
 
 \line { No time should be wasted, thy moments are precious, }
-\line { Thy time for departing from earth draweth nigh; }
+\line { { \hspace #2 } Thy time for departing from earth draweth nigh; }
 \line { Then come now this moment and He will receive you }
-\line { And spend your eternity with Him on high. }
+\line { { \hspace #2 } And spend your eternity with Him on high. }
 
 }
 

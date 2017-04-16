@@ -131,18 +131,18 @@ With no place then to hide.
 wordsE = \markuplist {
 
 \line { O! sinner, pause ere yet “too late;” }
-\line { Now is the day of grace, }
+\line { { \hspace #2 } Now is the day of grace, }
 \line { Now Jesus calls, O! do obey }
-\line { His pleading, loving voice. }
+\line { { \hspace #2 } His pleading, loving voice. }
 
 }
 
 wordsF = \markuplist {
 
 \line { Today, ’tis free to all who come, }
-\line { And take Him at His word; }
+\line { { \hspace #2 } And take Him at His word; }
 \line { Tomorrow’s sun may rise “too late” }
-\line { For you who now have heard. }
+\line { { \hspace #2 } For you who now have heard. }
 
 }
 
@@ -178,13 +178,13 @@ wordsF = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line { %\column {
+\markup { \fill-line {
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
-  \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } }
   \hspace #0.1
-} } %}
+} }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

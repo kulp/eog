@@ -11,7 +11,6 @@
   meter = "L. M. D."
   poet = "El Nathan"
   composer = "J. McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -150,18 +149,18 @@ I sang up -- on re -- demp -- tion ground.
 wordsD = \markuplist {
 
 \line { No works of merit now I plead, }
-\line { But Jesus take for all my need; }
+\line { { \hspace #2 } But Jesus take for all my need; }
 \line { No righteousness in me is found, }
-\line { Except upon redemption ground. }
+\line { { \hspace #2 } Except upon redemption ground. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Come, weary soul, and here find rest; }
-\line { Accept redemption, and be blessed: }
+\line { { \hspace #2 } Accept redemption, and be blessed: }
 \line { The Christ who died, by God is crowned }
-\line { To pardon on redemption ground. }
+\line { { \hspace #2 } To pardon on redemption ground. }
 
 }
 
@@ -194,17 +193,17 @@ wordsE = \markuplist {
   }
 }
 
-%\pageBreak
+\eogpagebreak
 
 \markup {
 \vspace #1 % need space between title (evenHeaderMarkup) and verses
-\fill-line { %\column {
+\fill-line {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } }
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
-} } %}
+} }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

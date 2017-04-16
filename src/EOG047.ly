@@ -13,8 +13,6 @@
   tunename = "Suffield"
   meter = "8. 7. 8. 7."
   poet = "A. P. Cecil"
-  %composer = ""
-  %copyright = ""
   tagline = ##f
 }
 
@@ -49,7 +47,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key aes \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -146,18 +143,18 @@ Ob -- ject of man’s en -- mi -- ty.
 wordsE = \markuplist {
 
 \line { See the sun at noon-day hidden, }
-\line { See the rocks and mountains shake, }
+\line { { \hspace #2 } See the rocks and mountains shake, }
 \line { See the Man ’midst darkness smitten, }
-\line { Why did God his Son forsake? }
+\line { { \hspace #2 } Why did God his Son forsake? }
 
 }
 
 wordsF = \markuplist {
 
 \line { Sinner—hear the wondrous story }
-\line { Jesus died and rose for thee; }
+\line { { \hspace #2 } Jesus died and rose for thee; }
 \line { God in heaven now waits to save thee, }
-\line { Now, believing, thou art free. }
+\line { { \hspace #2 } Now, believing, thou art free. }
 
 }
 
@@ -174,7 +171,6 @@ wordsF = \markuplist {
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
@@ -192,9 +188,13 @@ wordsF = \markuplist {
   }
 }
 
-\markup { \fill-line { \column {
-  \line{ \bold 5 \column { \wordsE } \bold 6 \column { \wordsF } }
-} } }
+\markup { \fill-line {
+  \hspace #0.1
+  \line{ \bold 5 \column { \wordsE } }
+  \hspace #0.1
+  \line{ \bold 6 \column { \wordsF } }
+  \hspace #0.1
+} }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

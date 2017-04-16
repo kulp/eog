@@ -152,18 +152,18 @@ He the fin -- ished work hath done.
 wordsD = \markuplist {
 
 \line { By one righteousness completed, }
-\line { Adam life received its doom; }
+\line { { \hspace #2 } Adam life received its doom; }
 \line { Jesus Christ in glory seated, }
-\line { Everlasting life hath won. }
+\line { { \hspace #2 } Everlasting life hath won. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Broken heart! the river’s flowing, }
-\line { Haste, delay not! yet there’s room; }
+\line { { \hspace #2 } Haste, delay not! yet there’s room; }
 \line { Hear the word of God beseeching, }
-\line { “Whosoever thirsts may come.” }
+\line { { \hspace #2 } “Whosoever thirsts may come.” }
 
 }
 
@@ -198,13 +198,13 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line { %\column {
+\markup { \fill-line {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } }
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
-} } %}
+} }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

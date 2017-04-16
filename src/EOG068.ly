@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -14,7 +10,6 @@
   meter = "P. M."
   poet = "H. Wreford"
   composer = "J. McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -158,18 +153,18 @@ This is the Sav -- iour for me.
 wordsD = \markuplist {
 
 \line { Loved with a love that’s unchanging, }
-\line { Blessed with all blessings so free, }
+\line { { \hspace #2 } Blessed with all blessings so free, }
 \line { How shall I tell out His praises! }
-\line { This is the Saviour for me. }
+\line { { \hspace #2 } This is the Saviour for me. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Soon shall the glory be dawning, }
-\line { Then when His face I shall see, }
+\line { { \hspace #2 } Then when His face I shall see, }
 \line { Sing, O my soul, in thy gladness, }
-\line { This is the Saviour for me. }
+\line { { \hspace #2 } This is the Saviour for me. }
 
 }
 
@@ -204,13 +199,13 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line { %\column {
+\markup { \fill-line {
   \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } }
   \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
-} } %}
+} }
 
 \pageBreak
 

@@ -148,11 +148,11 @@ wordsE = \markuplist {
       \null
 
       \column {
+        \line \smaller { "(Sing to above tune)" }
+        \vspace #1
         \line{ \bold 4 \column { \wordsD } }
         \vspace #1
         \line{ \bold 5 \column { \wordsE } }
-        \vspace #1
-        \line \smaller { "Sing to above tune." }
       }
 
       \null

@@ -13,7 +13,6 @@
   meter = "P. M."
   poet = "Henry Suso"
   composer = "Uncertain"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -167,28 +166,28 @@ But think not to { \mon } mea -- sure { \moff } His love.
 wordsE = \markuplist {
 
 \line { Behold Him, O soul, where He told it, }
-\line { Pale, bleeding, and bearing thy sin; }
+\line { { \hspace #2 } Pale, bleeding, and bearing thy sin; }
 \line { He knocking, said, “Open, beloved, }
-\line { I pray thee to let Me come in! }
+\line { { \hspace #2 } I pray thee to let Me come in! }
 
 \line { Behold, I have borne all the judgment, }
-\line { Thy sins, O beloved, are gone; }
+\line { { \hspace #2 } Thy sins, O beloved, are gone; }
 \line { Forgotten, forgotten forever, }
-\line { If sought for, God findeth not one. }
+\line { { \hspace #2 } If sought for, God findeth not one. }
 
 }
 
 wordsF = \markuplist {
 
 \line { “Behold, with what labor I won thee, }
-\line { Behold in My hands and My feet, }
+\line { { \hspace #2 } Behold in My hands and My feet, }
 \line { The tale of My measureless sorrow— }
-\line { Of love that made sorrow so sweet. }
+\line { { \hspace #2 } Of love that made sorrow so sweet. }
 
 \line { A flax-thread in oceans of fire }
-\line { How soon swallowed up would it be; }
+\line { { \hspace #2 } How soon swallowed up would it be; }
 \line { %{HIDE>%} \italic { %{<HIDE%} Yet sooner in oceans of mercy, %{HIDE>%} } %{<HIDE%} }
-\line { The sinner that cometh to Me.” }
+\line { { \hspace #2 } The sinner that cometh to Me.” }
 
 }
 
@@ -232,8 +231,9 @@ wordsF = \markuplist {
 \markup {
 \vspace #1 % need space between title (evenHeaderMarkup) and verses
 \fill-line { \column {
-  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } }
+  \vspace #1
+  \line{ \bold 6 \column { \wordsF } }
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

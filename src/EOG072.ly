@@ -119,8 +119,8 @@ wordsD = \markuplist {
 
 \line { Come to the fountain, come to the fountain, }
 \line { The fountain which cleanses the soul; }
-\line { ’Tis cleansing far and near, }
-\line { And its streams are flowing here, }
+\line { { \hspace #2 } ’Tis cleansing far and near, }
+\line { { \hspace #2 } And its streams are flowing here, }
 \line { Oh, believe it, and thou art made whole! }
 
 }
@@ -129,8 +129,8 @@ wordsE = \markuplist {
 
 \line { I do believe it! I do believe it; }
 \line { I am saved through the blood of the Lamb; }
-\line { My happy soul is free, }
-\line { For the Lord has pardoned me, }
+\line { { \hspace #2 } My happy soul is free, }
+\line { { \hspace #2 } For the Lord has pardoned me, }
 \line { Hallelujah to Jesus’ name! }
 
 }
