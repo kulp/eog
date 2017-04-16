@@ -12,9 +12,8 @@
   title = "On Calvary’s Cross, Behold the One"
   tunename = "Hamburg"
   meter = "L. M."
-  %poet = ""
+  poet = ""
   composer = "Ad. by Dr. Lowell Mason"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -89,10 +88,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-On Calv’ -- ry’s cross, be -- hold the One
-Who is God’s Fel -- low and His Son,
-Ac -- curs -- ed there up  -- on the tree,
-He died to set the guilt -- y free.
+On Calv’ -- ry’s cross, be -- hold the One \bar "."
+Who is God’s Fel -- low and His Son, \bar "."
+Ac -- curs -- ed there up  -- on the tree, \bar "."
+He died to set the guilt -- y free. \bar "."
 
 }
 
@@ -140,7 +139,6 @@ Who seeks to save, who died for all.
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
