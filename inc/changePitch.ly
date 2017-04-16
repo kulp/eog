@@ -1,3 +1,4 @@
+\version "2.19.49"
 %% version Y/M/D = 2014/08/10
 %% for lilypond 2.16 or higher
 %% http://lsr.di.unimi.it/LSR/Item?id=654
@@ -273,12 +274,12 @@
         ((1) (relativize (car seq-list)))
         (else (relativize (clean-music (make-sequential-music seq-list))))))))
         
-changePitch = #(define-music-function (parser location pattern newnotes)
+changePitch = #(define-music-function (pattern newnotes)
                                                           (ly:music? ly:music?)
 "Change each notes in `pattern by the notes (or rests) given in `newnotes.
 If count of events doesn't match, pattern is duplicated repeatedly or truncate."
 (let* ((expand-q (lambda (music) (expand-repeat-chords!
-			    (cons 'rhythmic-event (ly:parser-lookup parser '$chord-repeat-events))
+			    (cons 'rhythmic-event (ly:parser-lookup '$chord-repeat-events))
 			    music)))
        (pattern (expand-q pattern))
        (newnotes (expand-q newnotes)))
@@ -287,7 +288,7 @@ If count of events doesn't match, pattern is duplicated repeatedly or truncate."
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% enhancement functions, working with \changePitch pattern newnotes
 
-samePitch = #(define-music-function (parser location music) (ly:music?)
+samePitch = #(define-music-function (music) (ly:music?)
 "Inside the `pattern parameter of the \\changePitch function, all notes grouped 
 by this function will have the same pitch, according to the current note of
 `newnotes parameter of \\changePitch."
@@ -318,12 +319,12 @@ by this function will have the same pitch, according to the current note of
 
 %% this function should be no more needed, as copy-arti should avoid pbs
 %% in relative mode and \samePitch
-absolute = #(define-music-function (parser location music) (ly:music?)
+absolute = #(define-music-function (music) (ly:music?)
 "Make `music unrelativable. To use inside a \\samePitch function in relative
 mode."
 (make-music 'UnrelativableMusic 'element music))
 
-insert = #(define-music-function (parser location music) (ly:music?)
+insert = #(define-music-function (music) (ly:music?)
 "Using this function inside the `newnotes parameter of the \\changePitch
 function, allow you to insert and remplace by `music, all music between one note
 and his following, in the `pattern parameter of \\changePitch, ."
@@ -338,12 +339,12 @@ and his following, in the `pattern parameter of \\changePitch, ."
   ((= n 1) music)
   (else (make-music 'Music 'void #t))))
 
-nCopy = #(define-music-function (parser location n music)(integer? ly:music?)
+nCopy = #(define-music-function (n music)(integer? ly:music?)
 (n-copy n music))
 
 %% same effect as { \repeat unfold n s } but \nSkip works inside the `newnotes
 %% parameter of \changePitch.
-nSkip = #(define-music-function (parser location n)(integer?)
+nSkip = #(define-music-function (n)(integer?)
 "Return \\skip \\skip \\skip ... n times."
 #{ \nCopy #n s #})
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -364,10 +365,10 @@ patII = #(make-music 'SequentialMusic 'elements (list
                                  'pitch (ly:make-pitch -1 0 0)))) 
 
 
-cPI = #(define-music-function (parser location newnotes) (ly:music?)
+cPI = #(define-music-function (newnotes) (ly:music?)
 #{ \changePitch \patI $newnotes #})
 
-cPII = #(define-music-function (parser location newnotes) (ly:music?)
+cPII = #(define-music-function (newnotes) (ly:music?)
 #{ \changePitch \patII $newnotes #})
 
 #(define cP changePitch)
