@@ -147,6 +147,11 @@ wordsD = \lyricmode {
   >>
   \layout {
     \include "common/layout.ily"
+    \context {
+      \Lyrics
+      % Compensate for wide lyrics by squashing things a bit
+      \override LyricSpace.minimum-distance = #0.3
+    }
   }
   \midi{
     \include "common/midi.ily"
