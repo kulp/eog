@@ -6,7 +6,7 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
 print <<'EOF';
 \documentclass{letter}
-\usepackage[margin=0pt,paperwidth=6in,paperheight=9in]{geometry}
+\usepackage[tmargin=16pt,bmargin=16pt,inner=0pt,outer=0pt,paperwidth=6in,paperheight=9in]{geometry}
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
 
@@ -37,10 +37,9 @@ for my $pdf (@ARGV) {
         # commas) might rise
         $crop_amount_top = 8;
         my $scale = 1.14; # TODO compute this
-        printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
-               $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
 
         if ($clip eq "true" and $prev_clip eq $clip) {
+            print q(\vfill), "\n";
             my $points = $height + $prev_height - $max_height;
             if ($points > 0) {
                 warn "Can't fit $pdf onto page with preceding file -- over by $points pts";
@@ -52,6 +51,9 @@ for my $pdf (@ARGV) {
             $prev_clip = $clip;
             $prev_height = $height;
         }
+
+        printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
+               $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
 }
 
