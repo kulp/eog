@@ -15,23 +15,36 @@
   tagline = ##f
 }
 
+global = {
+  \include "common/overrides.ily"
+  \autoBeamOff
+  \override Staff.TimeSignature.style = #'numbered \time 9/8
+  \once \override Score.MetronomeMark.transparent = ##t
+  \tempo 4 = 80
+  \key f \major
+  \partial 4.
+}
+
 patternOne   = { c4( c8) | c4 c8 c4 c8 c8[ c8] c8 | c4.( c4.) c8[ c8] c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
 patternTwo   = { c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. }
 patternThree = { c4. | c4 c8 c4 c8 c4 c8 | c4.( c4.) c4 c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
 
 notesSoprano = {
+\global
 \relative c' {
 
     \changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
     \changePitch \patternOne { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
     \changePitch \patternTwo { c' | c bes g d' d c | a a c | c bes g d' d c | a a }
     \changePitch \patternOne { c bes | a a a a a bes c | d c c bes a | g bes a g | f f }
-\bar "|."
+
+    \bar "|."
 
 }
 }
 
 notesAlto = {
+\global
 \relative e' {
 
     \changePitch \patternOne { a g | f f f f f g a | bes f a g f | e g f e | f f }
@@ -43,6 +56,7 @@ notesAlto = {
 }
 
 notesTenor = {
+\global
 \relative a {
 
     \changePitch \patternThree { c | c c c c c c | bes a c c | c c c bes | a a }
@@ -54,6 +68,7 @@ notesTenor = {
 }
 
 notesBass = {
+\global
 \relative a {
 
     \changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
@@ -62,16 +77,6 @@ notesBass = {
     \changePitch \patternThree { f | f f f f f f | bes, f' f f | c c c c | f f }
 
 }
-}
-
-global = {
-  \include "common/overrides.ily"
-  \autoBeamOff
-  \override Staff.TimeSignature.style = #'numbered \time 9/8
-  \once \override Score.MetronomeMark.transparent = ##t
-  \tempo 4 = 80
-  \key f \major
-  \partial 4.
 }
 
 wordsA = \lyricmode {
@@ -132,27 +137,20 @@ wordsD = \lyricmode {
 
 
 \score {
-  \new ChoirStaff <<
-    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-    \new Staff <<
-      \clef "treble"
-      \repeat unfold 4 {
-         s4( s8) \noBreak | s4 s8 s4 s8 s8 s8 s8 \noBreak | s4.( s4.) \noBreak
-             s8 s8 s8 \noBreak | s4.( s4.) \noBreak s4 s8 \noBreak | s4. ~ s4.
-             \break
-      }
-
-      \new Voice = "Soprano"  { \voiceOne \global \notesSoprano \bar "|." }
-      \new Voice = "Alto" { \voiceTwo \global \notesAlto }
-      \new Lyrics \lyricsto "Soprano" { \wordsA }
-      \new Lyrics \lyricsto "Soprano" { \wordsB }
-      \new Lyrics \lyricsto "Soprano" { \wordsC }
-      \new Lyrics \lyricsto "Soprano" { \wordsD }
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
+      \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
-    \new Staff <<
-      \clef "bass"
-      \new Voice = "Tenor" { \voiceOne \global \notesTenor }
-      \new Voice = "Bass"  { \voiceTwo \global \notesBass }
+    \context Staff = men <<
+      \clef bass
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {
