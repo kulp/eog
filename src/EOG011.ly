@@ -28,13 +28,11 @@ patternH = { c2 c4 c4 | c2 c2      | c2 c4( c4) | c2. c4 } % Line 2 tenor
 
 global = {
   \include "common/overrides.ily"
-  %\autoBeamOff
   \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 120
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 

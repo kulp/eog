@@ -26,12 +26,11 @@ patternS = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Tenor Refrain
 
 global = {
   \include "common/overrides.ily"
-  %\autoBeamOff
   \override Staff.TimeSignature.style = #'numbered \time 3/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 96
   \key aes \major
-  %\partial 4.
+  \autoBeamOff
 }
 
 notesSoprano = {

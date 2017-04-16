@@ -39,7 +39,6 @@ patternI = { \ta c4 | c4. c8 c4. c8 | c4 c4 \tb c4 \fermata } % Refrain line 3 b
 
 global = {
   \include "common/overrides.ily"
-  %\autoBeamOff
   \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too

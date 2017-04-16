@@ -22,7 +22,6 @@ patternA = { c4 | c8 c8 c4 c4 | c8 c8 c4 } % all phrases
 
 global = {
   \include "common/overrides.ily"
-  %\autoBeamOff
   \override Staff.TimeSignature.style = #'numbered
   \time 3/4
   \once \override Score.MetronomeMark.transparent = ##t

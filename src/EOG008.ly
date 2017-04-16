@@ -23,13 +23,11 @@ patternB = { c2 c4 c4 | c2 c2  | c1    }      % Line 4
 
 global = {
   \include "common/overrides.ily"
-  %\autoBeamOff
   \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 2 = 86
   \key f \major
-  %\partial 4.
   \autoBeamOff
 }
 

@@ -25,13 +25,11 @@ patternE = { c2 c4 c4 | c2 c2 | c4( c4) c2 | c1 } % Bass line 2
 
 global = {
   \include "common/overrides.ily"
-  %\autoBeamOff
   \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 120
   \key bes \major
-  %\partial 4.
   \autoBeamOff
 }
 
