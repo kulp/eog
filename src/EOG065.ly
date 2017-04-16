@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
   page-count = #(cond (is-eogsized 2) (#t #f))
@@ -14,7 +13,6 @@
   meter = "P. M."
   poet = "H. D'A. Champney"
   composer = "P. P. Bliss"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -37,7 +35,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -45,7 +42,6 @@ notesAlto = {
 \global
 \relative e' {
 
-  %\repeat unfold 32 { \skip 4 }
   \changePitch \patternAC { g g g g g g | g g g fis }
   \changePitch \patternAA { fis a g fis fis fis fis | fis fis fis g }
   \changePitch \patternAD { d g g g g g g | g g fis f e }
