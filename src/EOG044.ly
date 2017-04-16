@@ -149,8 +149,9 @@ O Lamb of God, I come! I come!
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
+      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -159,8 +160,9 @@ O Lamb of God, I come! I come!
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
+      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {

@@ -185,15 +185,16 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context PianoStaff = men <<
-      \context Voice  = righthand { \voiceTwo << \notesRightHand >> }
-      \context Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
+      \context NullVoice = righthand { \voiceTwo << \notesRightHand >> }
+      \context NullVoice = lefthand { \voiceTwo << \notesLeftHand >> }
     >>
   >>
   \layout {
@@ -208,14 +209,16 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
     \context Staff = upper <<
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \override Staff.TimeSignature.stencil = ##f
-      \context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
+      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
+      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {
@@ -229,6 +232,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
     \context ChoirStaff <<
       \new Staff = upper <<
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
         \new Voice  = sopranos { \voiceOne { << \notesSoprano >> << \notesSopranoRefrain >> } }
         \new Voice  = altos { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesAlto >> } }
         \new Lyrics = one   \lyricsto sopranos \wordsA \Refrain
@@ -239,6 +243,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
       \new PianoStaff = men <<
         \new Voice  = righthand { \voiceTwo << \notesRightHand >> }
         \new Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
         \new Voice  = tenors { \voiceOne { \repeat unfold 32 { \skip 4 } << \notesTenor >> } }
         \new Voice  = basses { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesBass >> } }
       >>

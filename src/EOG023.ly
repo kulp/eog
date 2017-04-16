@@ -220,8 +220,9 @@ O -- ver sin, and death, and hell.
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
+      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
 	  % Synch to altos for convenience
       \context Lyrics = one   \lyricsto altos \wordsA
       \context Lyrics = two   \lyricsto altos \wordsB
@@ -231,8 +232,9 @@ O -- ver sin, and death, and hell.
 	\new Lyrics \with { alignBelowContext = upper } \lyricsto sopranos \SopranoRefrainB
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
+      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
 	\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \TenorRefrain
 	\new Lyrics \with { alignBelowContext = men } \lyricsto basses \BassRefrain

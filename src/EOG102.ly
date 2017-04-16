@@ -298,9 +298,10 @@ Be in time!
 music = \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
-      \context Voice  = altosSecond { \voiceFour << \notesAltoSecond >> }
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
+      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+      \context NullVoice = altosSecond { \voiceFour << \notesAltoSecond >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -309,10 +310,11 @@ music = \context ChoirStaff <<
     \new Lyrics \with { alignAboveContext = men } \lyricsto sopranos \segnoWords
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = tenorsSecond { \voiceThree << \notesTenorSecond >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
-      \context Voice  = bassesSecond { \voiceFour << \notesBassSecond >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
+      \context NullVoice = tenorsSecond { \voiceThree << \notesTenorSecond >> }
+      \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      \context NullVoice = bassesSecond { \voiceFour << \notesBassSecond >> }
     >>
     \context Lyrics = three  \lyricsto tenors \underWords % XXX this causes alignment issues with soprano words ("fly", "lost")
   >>
@@ -320,16 +322,18 @@ music = \context ChoirStaff <<
 musicDS = \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne { \notesSoprano \notesSopranoDS } }
-      \context Voice  = altos { \voiceTwo { \notesAlto \notesAltoDS } }
-      \context Voice  = altosSecond { \voiceFour << \notesAltoSecond >> }
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \context NullVoice = sopranos { \voiceOne { \notesSoprano \notesSopranoDS } }
+      \context NullVoice = altos { \voiceTwo { \notesAlto \notesAltoDS } }
+      \context NullVoice = altosSecond { \voiceFour << \notesAltoSecond >> }
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne { \notesTenor \notesTenorDS } }
-      \context Voice  = tenorsSecond { \voiceThree << \notesTenorSecond >> }
-      \context Voice  = basses { \voiceTwo { \notesBass \notesBassDS } }
-      \context Voice  = bassesSecond { \voiceFour << \notesBassSecond >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \context NullVoice = tenors { \voiceOne { \notesTenor \notesTenorDS } }
+      \context NullVoice = tenorsSecond { \voiceThree << \notesTenorSecond >> }
+      \context NullVoice = basses { \voiceTwo { \notesBass \notesBassDS } }
+      \context NullVoice = bassesSecond { \voiceFour << \notesBassSecond >> }
     >>
   >>
 
