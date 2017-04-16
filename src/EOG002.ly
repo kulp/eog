@@ -121,7 +121,7 @@ wordsC = \lyricmode {
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
     \new Staff <<
       \clef "treble"
-      \partcombine \notesSoprano \notesAlto
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \new NullVoice = "Soprano"  { \voiceOne \notesSoprano }
       \new Lyrics \lyricsto "Soprano" { \wordsA }
       \new Lyrics \lyricsto "Soprano" { \wordsB }
@@ -129,7 +129,7 @@ wordsC = \lyricmode {
     >>
     \new Staff <<
       \clef "bass"
-      \partcombine \notesTenor \notesBass
+      \partcombine #'(2 . 9) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -140,5 +140,5 @@ wordsC = \lyricmode {
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
