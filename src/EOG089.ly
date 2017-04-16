@@ -186,7 +186,7 @@ wordsE = \markuplist {
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \partcombine \notesSoprano \notesAlto
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne \notesSoprano }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -194,7 +194,7 @@ wordsE = \markuplist {
     >>
     \context Staff = men <<
       \clef bass
-      \partcombine \notesTenor \notesBass
+      \partcombine #'(2 . 9) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -219,6 +219,6 @@ wordsE = \markuplist {
 
 \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 64. } } }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
