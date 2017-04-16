@@ -2,9 +2,6 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -14,7 +11,6 @@
   meter = "C. M."
   poet = ""
   composer = "Southern Air"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -84,53 +80,48 @@ notesBass = {
 }
 }
 
-wordsA = \lyricmode {
-\set stanza = "1."
+wordsA = \markuplist {
 
-Be -- hold the Lamb whose pre -- cious blood, \bar "."
-Drawn from His riv -- en side, \bar "." \break
-Had power to make our peace with God, \bar "."
-Nor lets one spot a -- bide. \bar "." \break
-
-}
-
-wordsB = \lyricmode {
-\set stanza = "2."
-
-The dy -- ing thief be -- held that Lamb
-Ex -- pi -- ring by his side,
-And proved the val -- ue of the name
-Of Je -- sus cru -- ci -- fied.
+\line { Behold the Lamb whose precious blood, }
+\line { { \hspace #2 } Drawn from His riven side, }
+\line { Had power to make our peace with God, }
+\line { { \hspace #2 } Nor lets one spot abide. }
 
 }
 
-wordsC = \lyricmode {
-\set stanza = "3."
+wordsB = \markuplist {
 
-His soul, by vir -- tue of the blood,
-To pa -- ra -- dise re -- ceived;
-Re -- demp -- tion’s ear -- liest tro -- phy stood,
-From sin and death re -- trieved.
-
-}
-
-wordsD = \lyricmode {
-\set stanza = "4."
-
-We too the clean -- sing power have known
-Of the a -- ton -- ing blood,
-By grace have learnt His name to own,
-Which brings us back to God.
+\line { The dying thief beheld that Lamb }
+\line { { \hspace #2 } Expiring by his side, }
+\line { And proved the value of the name }
+\line { { \hspace #2 } Of Jesus crucified. }
 
 }
 
-wordsE = \lyricmode {
-\set stanza = "5."
+wordsC = \markuplist {
 
-To Him, then, let our songs as -- cend,
-Who stooped in grace so low:
-To Christ, the Lamb, the sin -- ner’s Friend,
-Let cease -- less prai -- ses flow.
+\line { His soul, by virtue of the blood, }
+\line { { \hspace #2 } To paradise received; }
+\line { Redemption’s earliest trophy stood, }
+\line { { \hspace #2 } From sin and death retrieved. }
+
+}
+
+wordsD = \markuplist {
+
+\line { We too the cleansing power have known }
+\line { { \hspace #2 } Of the atoning blood, }
+\line { By grace have learnt His name to own, }
+\line { { \hspace #2 } Which brings us back to God. }
+
+}
+
+wordsE = \markuplist {
+
+\line { To Him, then, let our songs ascend, }
+\line { { \hspace #2 } Who stooped in grace so low: }
+\line { To Christ, the Lamb, the sinner’s Friend, }
+\line { { \hspace #2 } Let ceaseless praises flow. }
 
 }
 
@@ -143,11 +134,6 @@ Let cease -- less prai -- ses flow.
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
-      \context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
@@ -157,11 +143,35 @@ Let cease -- less prai -- ses flow.
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
-  \layout {
-    \include "common/layout.ily"
-  }
   \midi{
     \include "common/midi.ily"
+  }
+}
+
+% TODO this markup is all empirical, and brittle
+\markup {
+  \column {
+    \column {
+      \fill-line {
+        \huge \larger \larger \bold {
+          " 62"
+          "Behold the Lamb Whose Precious Blood"
+          \null
+        }
+      }
+    }
+
+    \fill-line {
+      \column {
+        \vspace #1 \line { \bold 1 \column { \wordsA } }
+        \vspace #1 \line { \bold 2 \column { \wordsB } }
+        \vspace #1 \line { \bold 3 \column { \wordsC } }
+        \vspace #1 \line { \bold 4 \column { \wordsD } }
+        \vspace #1 \line { \bold 5 \column { \wordsE } }
+
+        \vspace #1 \line { \smaller { May be sung to tune No. 61. } }
+      }
+    }
   }
 }
 
