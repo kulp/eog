@@ -34,7 +34,7 @@ patternL = { g8 | f16 aes8. aes f16 ees4 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -217,6 +217,6 @@ For the crown -- ing day that’s com -- ing by and by.
   }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

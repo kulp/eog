@@ -29,7 +29,7 @@ patternBB = { c4 c c c | c c c c | c2 c4( c4) | c1 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -161,6 +161,6 @@ wordsE = \markuplist {
   \hspace #0.1
 } }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

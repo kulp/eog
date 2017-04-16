@@ -20,7 +20,7 @@
 
 global = {
   \include "common/overrides.ily"
-  %\override Staff.TimeSignature.style = #'() % original uses 'c' instead of 4/4 here, unusually
+  %\override Staff.TimeSignature.style = #'numbered % original uses 'c' instead of 4/4 here, unusually
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \tempo 4=88
@@ -154,6 +154,6 @@ Both heaven and earth their songs shall raise.
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

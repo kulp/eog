@@ -33,7 +33,7 @@ patternBE = { c4 c4 | c2       c2 c4 \tuplet 3/2 { c8 c8 c8 } | c1          } % 
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 3/2
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -178,6 +178,6 @@ Let thy light thus bright -- ly shine. % original has "your" for "thy"
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

@@ -19,7 +19,7 @@ pattern = { f8. g16 | a4. a8 g8. a16 | c4 bes bes8. a16 | g4. f8 g8. a16 | f2 }
 global = {
   \include "common/overrides.ily"
   \autoBeamOff
-  \override Staff.TimeSignature.style = #'() \time 3/4
+  \override Staff.TimeSignature.style = #'numbered \time 3/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 70
   \key f \major

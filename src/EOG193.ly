@@ -18,7 +18,7 @@ tb = { \tempo 8=80 } % not half the normal tempo in this case (aesthetic)
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 6/8
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -178,6 +178,6 @@ Sweet peace, the gift of God’s love.
   }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

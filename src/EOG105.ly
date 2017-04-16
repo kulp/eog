@@ -20,7 +20,7 @@ tb = { \tempo 2=40 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature #'style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 3/2
   \override Score.MetronomeMark #'transparent = ##t % hide all fermata changes too
   \override TupletBracket.bracket-visibility = ##f
@@ -157,6 +157,6 @@ Rose, and lives to die no more.
 }
 
 % bump to 2.18.1 for \tuplet
-\version "2.18.1"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

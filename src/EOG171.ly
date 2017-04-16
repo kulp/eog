@@ -22,7 +22,7 @@ tb = { \tempo 2=40 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 6/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \tempo 2=80
@@ -150,6 +150,6 @@ In the Lamb’s high glo -- ry there.
 
 \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 258. } } }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

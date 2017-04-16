@@ -37,7 +37,7 @@ patternCA = { \tc c4 c8 c4 c8 | c4. c4 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 6/8
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -211,6 +211,6 @@ To work and live for Je -- sus.
 %  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
 %} } }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

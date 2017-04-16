@@ -71,7 +71,7 @@ notesBass = {
 global = {
   \include "common/overrides.ily"
   \autoBeamOff
-  \override Staff.TimeSignature.style = #'() \time 9/8
+  \override Staff.TimeSignature.style = #'numbered \time 9/8
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 80
   \key f \major
@@ -167,5 +167,5 @@ Je -- sus died, Je -- sus died.
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

@@ -34,7 +34,7 @@ patternJ = { c4. c4. | c8 c4 ~ c4 c8 | c8 c8 c8 c4 c8 | c4. ~ c4 } % Refrain lin
 global = {
   \include "common/overrides.ily"
   %\autoBeamOff
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 3/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 4 = 86
@@ -200,6 +200,6 @@ Shall end -- less life re -- ceive.
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

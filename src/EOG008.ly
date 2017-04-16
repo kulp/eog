@@ -24,7 +24,7 @@ patternB = { c2 c4 c4 | c2 c2  | c1    }      % Line 4
 global = {
   \include "common/overrides.ily"
   %\autoBeamOff
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \once \override Score.MetronomeMark.transparent = ##t
   \tempo 2 = 86
@@ -159,6 +159,6 @@ wordsE = \lyricmode {
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

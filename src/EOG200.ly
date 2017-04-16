@@ -21,7 +21,7 @@ tb = { \tempo 4=40 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 3/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -173,6 +173,6 @@ music = \context ChoirStaff <<
   }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

@@ -21,7 +21,7 @@
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 9/8
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \tempo 8=160
@@ -155,6 +155,6 @@ Fill’d with His good -- ness, lost in His love.
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

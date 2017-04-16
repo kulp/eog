@@ -21,7 +21,7 @@ tb = { \tempo 2=40 }
 
 global = {
   \include "common/overrides.ily"
-  \override Staff.TimeSignature.style = #'()
+  \override Staff.TimeSignature.style = #'numbered
   \time 4/2
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
@@ -153,6 +153,6 @@ For light di -- vine He’s made us meet.
 
 \markup { \fill-line { \line { Alternate tune: No. 7. } } }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
