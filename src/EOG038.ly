@@ -225,7 +225,6 @@ Which is Christ the Lord” and King.
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \clef bass
@@ -242,13 +241,6 @@ Which is Christ the Lord” and King.
     \include "common/midi.ily"
   }
 }
-
-%\markup { \fill-line { \column {
-%  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-%  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-%  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
-%  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
-%} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
