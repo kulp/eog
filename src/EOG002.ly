@@ -118,17 +118,17 @@ wordsC = \lyricmode {
 
 \score {
   \context ChoirStaff <<
-    \context Staff <<
+    \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \new NullVoice = "Soprano"  { \voiceOne \notesSoprano }
-      \new Lyrics \lyricsto "Soprano" { \wordsA }
-      \new Lyrics \lyricsto "Soprano" { \wordsB }
-      \new Lyrics \lyricsto "Soprano" { \wordsC }
+      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
+      \context Lyrics = one   \lyricsto sopranos \wordsA
+      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
     >>
-    \new Staff <<
-      \clef "bass"
+    \context Staff = men <<
+      \clef bass
       \partcombine #'(2 . 9) \notesTenor \notesBass
     >>
   >>
