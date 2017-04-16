@@ -297,6 +297,7 @@ Be in time!
 
 music = \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
@@ -323,6 +324,7 @@ music = \context ChoirStaff <<
 
 musicDS = \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne { \notesSoprano \notesSopranoDS } }
       \context Voice  = altos { \voiceTwo { \notesAlto \notesAltoDS } }

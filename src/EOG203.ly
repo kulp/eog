@@ -140,6 +140,7 @@ And heav’n and earth shall crown Thee Lord of all.
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto

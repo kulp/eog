@@ -163,6 +163,7 @@ We’ll pa -- tient -- ly wait for the Lord. %{HIDE>%} \set includeGraceNotes = 
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto

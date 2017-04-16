@@ -219,6 +219,7 @@ O -- ver sin, and death, and hell.
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto

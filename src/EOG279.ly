@@ -135,6 +135,7 @@ No tri -- umph for me, like Thy com -- ing a -- gain.
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto

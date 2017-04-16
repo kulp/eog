@@ -137,6 +137,7 @@ Till an -- swered this ques -- tion— E -- ter -- ni -- ty! where?
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto

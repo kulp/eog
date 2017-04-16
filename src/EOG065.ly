@@ -182,6 +182,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \context ChoirStaff {
     <<
       \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \set ChoirStaff.printPartCombineTexts = ##f
         \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
@@ -200,6 +201,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
     >>
     <<
       \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \set ChoirStaff.printPartCombineTexts = ##f
         \override Staff.TimeSignature.stencil = ##f
@@ -229,6 +231,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \new Score {
     \context ChoirStaff <<
       \new Staff = upper <<
+      \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \new Voice  = sopranos { \voiceOne { << \notesSoprano >> << \notesSopranoRefrain >> } }
         \new Voice  = altos { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesAlto >> } }

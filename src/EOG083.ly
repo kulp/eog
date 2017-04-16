@@ -207,6 +207,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \partcombine #'(2 . 9) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
       \context NullVoice = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
@@ -233,6 +234,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos { \voiceOne { \notesSopranoA \notesSopranoB \notesSopranoA } }
       \context Voice  = altos { \voiceTwo { \notesAltoA \notesAltoB \notesAltoA } }

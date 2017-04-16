@@ -169,6 +169,7 @@ What hast thou brought to Me?
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
@@ -195,6 +196,7 @@ What hast thou brought to Me?
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
+      \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \context Voice  = sopranos \unfoldRepeats { \voiceOne << \notesSoprano >> }
       \context Voice  = altos \unfoldRepeats { \voiceTwo << \notesAlto >> }
