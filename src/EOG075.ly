@@ -170,9 +170,8 @@ What hast thou brought to Me?
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -180,9 +179,8 @@ What hast thou brought to Me?
     >>
     \context Staff = men <<
       \clef bass
-      \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {
@@ -194,9 +192,8 @@ What hast thou brought to Me?
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \context NullVoice = sopranos \unfoldRepeats { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos \unfoldRepeats { \voiceTwo << \notesAlto >> }
+      \context Voice  = sopranos \unfoldRepeats { \voiceOne << \notesSoprano >> }
+      \context Voice  = altos \unfoldRepeats { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -204,9 +201,8 @@ What hast thou brought to Me?
     >>
     \context Staff = men <<
       \clef bass
-      \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors \unfoldRepeats { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses \unfoldRepeats { \voiceTwo << \notesBass >> }
+      \context Voice  = tenors \unfoldRepeats { \voiceOne << \notesTenor >> }
+      \context Voice  = basses \unfoldRepeats { \voiceTwo << \notesBass >> }
     >>
   >>
   \midi{
