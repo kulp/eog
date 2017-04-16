@@ -71,8 +71,8 @@ notesTenor = {
 \global
 \relative a {
 
-  aes4 ees ees4. aes8 aes4 aes \new Voice { \voiceOne aes aes } \noBreak | c4 ees c4. ees8 ees4 bes g2 \break
-  aes4 ees ees4. aes8 aes4 aes \new Voice { \voiceOne aes aes } \noBreak | ees4 aes aes4. des8 c4 bes c2 \break
+  aes4 ees ees4. aes8 aes4 aes aes aes \noBreak | c4 ees c4. ees8 ees4 bes g2 \break
+  aes4 ees ees4. aes8 aes4 aes aes aes \noBreak | ees4 aes aes4. des8 c4 bes c2 \break
   ees4 c c ees des c ees ees                                    \noBreak | ees c c4. ees8 ees4 bes g2 \break
   aes4 ees ees aes aes4. aes8 aes4 aes                          \noBreak | ees aes aes4. des8 c4 bes c2 \break
 
@@ -83,8 +83,8 @@ notesBass = {
 \global
 \relative a, {
 
-  aes4 aes aes4. c8 des4 f \new Voice { \voiceTwo aes aes }  \noBreak | aes4 aes aes4. aes8 g4 f ees2 \break
-  aes,4 aes aes4. c8 des4 f \new Voice { \voiceTwo aes aes } \noBreak | aes,4 aes des4. des8 ees4 ees aes,2 \break
+  aes4 aes aes4. c8 des4 f aes aes  \noBreak | aes4 aes aes4. aes8 g4 f ees2 \break
+  aes,4 aes aes4. c8 des4 f aes aes \noBreak | aes,4 aes des4. des8 ees4 ees aes,2 \break
   aes'4 aes aes aes ees f ees ees                            \noBreak | aes aes aes4. aes8 g4 f ees2 \break
   aes,4 aes aes aes des4. des8 aes4 aes                      \noBreak | aes aes des4. des8 ees4 ees aes2 \break
 
