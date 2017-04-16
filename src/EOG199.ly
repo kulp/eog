@@ -48,7 +48,7 @@ notesAlto = {
   ees2 | ees1 d2 | ees1 ees2 | ees1 ees4( f) | g1
   g2 | ees1 g2 | aes1 ees2 | f1 ees2 | ees( d)
   d2 | f1 f2 | f1 d2 | ees1 ees2 | d1
-  ees2 | ees( d) ees | c1 ees2 | b2( ees) d | ees1
+  ees2 | ees( d) ees | c1 ees2 | bes2( ees) d | ees1
 
 }
 }
