@@ -208,8 +208,9 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \context Voice  = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
-      \context Voice  = altos { \voiceTwo { \notesAltoA \notesAltoB } }
+      \partcombine #'(2 . 9) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
+      \context NullVoice = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
+      \context NullVoice = altos { \voiceTwo { \notesAltoA \notesAltoB } }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -217,8 +218,9 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne { \notesTenorA \notesTenorB } }
-      \context Voice  = basses { \voiceTwo { \notesBassA \notesBassB } }
+      \partcombine #'(2 . 9) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
+      \context NullVoice = tenors { \voiceOne { \notesTenorA \notesTenorB } }
+      \context NullVoice = basses { \voiceTwo { \notesBassA \notesBassB } }
     >>
 	\new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
   >>
