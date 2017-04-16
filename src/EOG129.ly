@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -117,6 +114,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
+\break
 { { \repeat unfold 30 { \skip 4 } } }
 O, glad and glo -- rious gos -- pel! \bar "."
 With joy we now pro -- claim __ \bar "."

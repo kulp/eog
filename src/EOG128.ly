@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -14,7 +11,6 @@
   meter = "8. 8. 6. D."
   poet = "T. Kelly"
   composer = "Dr. Lowell Mason"
-  %copyright = ""
   tagline = ##f
 }
 

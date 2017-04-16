@@ -1,10 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  ragged-bottom = ##t
+  page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -14,7 +12,6 @@
   meter = "6. 6. 6. 6. 8. 8."
   poet = "C. Wesley"
   composer = "Lewis Edson"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -95,7 +92,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Je -- sus! life -- giv -- ing sound, \bar "."
-The joy of earth and heaven; \bar "."
+The joy of earth and heaven; \bar "." \eogpagebreak
 No oth -- er help is found, \bar "."
 No oth -- er name is giv’n, \bar "." \break
 In which the sons of men can boast, \bar "."

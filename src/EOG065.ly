@@ -203,7 +203,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
       \context Staff = upper <<
       \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-        \set ChoirStaff.printPartCombineTexts = ##f
+        \override Staff.KeySignature.stencil = ##f
         \override Staff.TimeSignature.stencil = ##f
         \set ChoirStaff.printPartCombineTexts = ##f
         \partcombine #'(2 . 9) \notesSopranoRefrain \notesAlto
@@ -212,6 +212,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
         \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
       >>
       \context Staff = men <<
+        \override Staff.KeySignature.stencil = ##f
         \override Staff.TimeSignature.stencil = ##f
         \clef bass
         \set ChoirStaff.printPartCombineTexts = ##f

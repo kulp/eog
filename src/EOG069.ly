@@ -196,7 +196,9 @@ wordsE = \markuplist {
 
 %\pageBreak
 
-\markup { \fill-line { %\column {
+\markup {
+\vspace #1 % need space between title (evenHeaderMarkup) and verses
+\fill-line { %\column {
   \hspace #0.1
   \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
   \hspace #0.1

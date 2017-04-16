@@ -1,8 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
-  page-count = #(cond (is-eogsized 1) (#t #f))
 }
 
 \header{

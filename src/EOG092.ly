@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  %systems-per-page = #(cond (is-eogsized 5) (#t #f)) % original has 5 systems
 }
 
 \header{
@@ -11,7 +11,6 @@
   meter = "8. 7. 8. 7. D."
   poet = "El Nathan (Arr.)"
   composer = "C. C. Williams"
-  %copyright = ""
   tagline = ##f
 }
 

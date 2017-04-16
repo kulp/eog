@@ -10,7 +10,7 @@
   meter = "P. M."
   poet = "James M. Gray"
   composer = "D. B. Towner" % Daniel B. Towner
-  %copyright = ""
+  copyright = "Copyright, 1933. Renewal. Hope Publishing Co., owner. "
   tagline = ##f
 }
 
@@ -190,8 +190,6 @@ I’m on -- ly a sin -- ner saved by grace!
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \small { Copyright, 1933. Renewal. Hope Publishing Co., owner. } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
