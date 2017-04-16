@@ -151,7 +151,7 @@ Heav’n it -- self re -- ech -- oes “Come!”
   \context ChoirStaff <<
     \context Staff <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \partcombineChords \notesSoprano \notesAlto
+      \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -160,7 +160,7 @@ Heav’n it -- self re -- ech -- oes “Come!”
     >>
     \context Staff = men <<
       \clef bass
-      \partcombineChords \notesTenor \notesBass
+      \partcombine #'(2 . 9) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -171,6 +171,6 @@ Heav’n it -- self re -- ech -- oes “Come!”
   }
 }
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
