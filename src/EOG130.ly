@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 6) (#t #f))
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -13,7 +13,6 @@
   meter = "11. 11. 11. 11. with Refrain"
   poet = "F. J. Crosby"
   composer = "W. H. Doane"
-  %copyright = ""
   tagline = ##f
 }
 
