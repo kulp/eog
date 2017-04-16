@@ -149,6 +149,7 @@ Je -- sus has sal -- va -- tion won.
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
@@ -158,6 +159,7 @@ Je -- sus has sal -- va -- tion won.
     >>
     \context Staff = men <<
       \clef bass
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }

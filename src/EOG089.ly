@@ -186,6 +186,7 @@ wordsE = \markuplist {
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne \notesSoprano }
       \context Lyrics = one   \lyricsto sopranos \wordsA
@@ -194,6 +195,7 @@ wordsE = \markuplist {
     >>
     \context Staff = men <<
       \clef bass
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
     >>
   >>

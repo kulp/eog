@@ -151,6 +151,7 @@ Heav’n it -- self re -- ech -- oes “Come!”
   \context ChoirStaff <<
     \context Staff <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
@@ -160,6 +161,7 @@ Heav’n it -- self re -- ech -- oes “Come!”
     >>
     \context Staff = men <<
       \clef bass
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
     >>
   >>

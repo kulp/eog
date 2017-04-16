@@ -218,6 +218,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
     >>
     \context Staff = men <<
       \clef bass
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
       \context NullVoice = tenors { \voiceOne { \notesTenorA \notesTenorB } }
       \context NullVoice = basses { \voiceTwo { \notesBassA \notesBassB } }

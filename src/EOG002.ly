@@ -117,10 +117,10 @@ wordsC = \lyricmode {
 
 
 \score {
-  \new ChoirStaff <<
-    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-    \new Staff <<
-      \clef "treble"
+  \context ChoirStaff <<
+    \context Staff <<
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \new NullVoice = "Soprano"  { \voiceOne \notesSoprano }
       \new Lyrics \lyricsto "Soprano" { \wordsA }

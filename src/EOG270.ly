@@ -127,6 +127,7 @@ Ob -- ject su -- preme of all, by all a -- dored.
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
@@ -137,6 +138,7 @@ Ob -- ject su -- preme of all, by all a -- dored.
     >>
     \context Staff = men <<
       \clef bass
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }

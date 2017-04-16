@@ -185,6 +185,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \context ChoirStaff <<
     \context Staff = upper <<
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -206,7 +207,8 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
-    \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+      \set ChoirStaff.printPartCombineTexts = ##f
       \override Staff.TimeSignature.stencil = ##f
       \partcombine #'(2 . 9) \notesSopranoRefrain \notesAlto
       \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
@@ -215,6 +217,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
     >>
     \context Staff = men <<
       \clef bass
+      \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
