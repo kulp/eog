@@ -86,6 +86,8 @@ notesAlto = {
 
 % There is only one voice in the bass clef in this song, so we chose to call it
 % Bass (maybe Baritone would be more appropriate ?)
+% Include a fake notesTenor anyway so that partcombine can be more generic
+notesTenor = { s1 }
 
 notesBass = {
 \global
@@ -179,7 +181,7 @@ Since Je -- sus, thy right -- eous -- ness, lives.
     >>
     \context Staff = men <<
       \clef bass
-      %\context Voice  = tenors { \voiceOne << \notesTenor >> }
+      \context Voice  = tenors { \voiceOne << \notesTenor >> }
       \context Voice  = basses { \voiceTwo << \notesBass >> }
     >>
   >>
