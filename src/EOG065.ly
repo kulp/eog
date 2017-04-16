@@ -2,8 +2,9 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = ##f
   page-count = #(cond (is-eogsized 2) (#t #f))
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
 }
 
 \header{
@@ -178,47 +179,46 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
 }
 
 \score {
-  \context ChoirStaff <<
-    \context Staff = upper <<
-      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \set ChoirStaff.printPartCombineTexts = ##f
-      \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
+  \context ChoirStaff {
+    <<
+      \context Staff = upper <<
+        \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+        \set ChoirStaff.printPartCombineTexts = ##f
+        \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
+        \context Lyrics = one   \lyricsto sopranos \wordsA
+        \context Lyrics = two   \lyricsto sopranos \wordsB
+        \context Lyrics = three \lyricsto sopranos \wordsC
+        \context Lyrics = four  \lyricsto sopranos \wordsD
+        \override Staff.TimeSignature.stencil = ##f
+      >>
+      \context PianoStaff = men <<
+        \override PianoStaff.TimeSignature.stencil = ##f
+        \set ChoirStaff.printPartCombineTexts = ##f
+        \context Voice  = righthand { \voiceTwo << \notesRightHand >> }
+        \context Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
+      >>
     >>
-    \context PianoStaff = men <<
-      \context Voice  = righthand { \voiceTwo << \notesRightHand >> }
-      \context Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
+    <<
+      \context Staff = upper <<
+        \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
+        \set ChoirStaff.printPartCombineTexts = ##f
+        \override Staff.TimeSignature.stencil = ##f
+        \set ChoirStaff.printPartCombineTexts = ##f
+        \partcombine #'(2 . 9) \notesSopranoRefrain \notesAlto
+        \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
+        \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+        \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
+      >>
+      \context Staff = men <<
+        \override Staff.TimeSignature.stencil = ##f
+        \clef bass
+        \set ChoirStaff.printPartCombineTexts = ##f
+        \partcombine #'(2 . 9) \notesTenor \notesBass
+        \context NullVoice = tenors { \voiceOne << \notesTenor >> }
+        \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      >>
     >>
-  >>
-  \layout {
-    \include "common/layout.ily"
   }
-}
-
-\pageBreak
-
-\score {
-  \context ChoirStaff <<
-    \context Staff = upper <<
-      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \set ChoirStaff.printPartCombineTexts = ##f
-      \override Staff.TimeSignature.stencil = ##f
-      \partcombine #'(2 . 9) \notesSopranoRefrain \notesAlto
-      \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
-    >>
-    \context Staff = men <<
-      \clef bass
-      \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
-    >>
-  >>
   \layout {
     \include "common/layout.ily"
   }
