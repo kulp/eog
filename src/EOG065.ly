@@ -208,14 +208,16 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
     \context Staff = upper <<
     \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \override Staff.TimeSignature.stencil = ##f
-      \context Voice  = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
-      \context Voice  = altos { \voiceTwo << \notesAlto >> }
+      \partcombine #'(2 . 9) \notesSopranoRefrain \notesAlto
+      \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
+      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
     >>
     \context Staff = men <<
       \clef bass
-      \context Voice  = tenors { \voiceOne << \notesTenor >> }
-      \context Voice  = basses { \voiceTwo << \notesBass >> }
+      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
+      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {
