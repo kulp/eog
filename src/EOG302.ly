@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last = ##t
+  ragged-last = #(cond (is-eogsized #t) (#t #f))
   ragged-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
 }
