@@ -138,6 +138,7 @@ How ful -- ly I am His, and He is mine.
       \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

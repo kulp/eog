@@ -311,6 +311,7 @@ music = \context ChoirStaff <<
     >>
     \new Lyrics \with { alignAboveContext = men } \lyricsto sopranos \segnoWords
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
@@ -331,6 +332,7 @@ musicDS = \context ChoirStaff <<
       \context Voice  = altosSecond { \voiceFour << \notesAltoSecond >> }
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \context Voice  = tenors { \voiceOne { \notesTenor \notesTenorDS } }
       \context Voice  = tenorsSecond { \voiceThree << \notesTenorSecond >> }

@@ -173,6 +173,7 @@ No; I am His for -- ev -- er!
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

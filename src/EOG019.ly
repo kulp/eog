@@ -198,6 +198,7 @@ Stand “in Him,” “in Him” a -- lone,
 		\new Lyrics = five
 
     \new Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

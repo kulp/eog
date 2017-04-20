@@ -176,6 +176,7 @@ Of Im -- man -- uel’s land.
       \context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

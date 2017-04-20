@@ -186,6 +186,7 @@ Whose pre -- cious blood a -- toned for me.
       %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

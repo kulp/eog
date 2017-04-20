@@ -218,6 +218,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
@@ -240,6 +241,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \context Voice  = altos { \voiceTwo { \notesAltoA \notesAltoB \notesAltoA } }
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \context Voice  = tenors { \voiceOne { \notesTenorA \notesTenorB \notesTenorA } }
       \context Voice  = basses { \voiceTwo { \notesBassA \notesBassB \notesBassA } }

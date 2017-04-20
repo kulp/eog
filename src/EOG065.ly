@@ -182,7 +182,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \context ChoirStaff {
     <<
       \context Staff = upper <<
-      \set Staff.autoBeaming = ##f
+        \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \set ChoirStaff.printPartCombineTexts = ##f
         \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
@@ -193,6 +193,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
         \override Staff.TimeSignature.stencil = ##f
       >>
       \context PianoStaff = men <<
+        \set Staff.autoBeaming = ##f
         \override PianoStaff.TimeSignature.stencil = ##f
         \set ChoirStaff.printPartCombineTexts = ##f
         \context Voice  = righthand { \voiceTwo << \notesRightHand >> }
@@ -201,7 +202,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
     >>
     <<
       \context Staff = upper <<
-      \set Staff.autoBeaming = ##f
+        \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \override Staff.KeySignature.stencil = ##f
         \override Staff.TimeSignature.stencil = ##f
@@ -212,6 +213,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
         \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
       >>
       \context Staff = men <<
+        \set Staff.autoBeaming = ##f
         \override Staff.KeySignature.stencil = ##f
         \override Staff.TimeSignature.stencil = ##f
         \clef bass
@@ -232,7 +234,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   \new Score {
     \context ChoirStaff <<
       \new Staff = upper <<
-      \set Staff.autoBeaming = ##f
+        \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \new Voice  = sopranos { \voiceOne { << \notesSoprano >> << \notesSopranoRefrain >> } }
         \new Voice  = altos { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesAlto >> } }
@@ -242,6 +244,7 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
         \new Lyrics = four  \lyricsto sopranos \wordsD
       >>
       \new PianoStaff = men <<
+        \set Staff.autoBeaming = ##f
         \new Voice  = righthand { \voiceTwo << \notesRightHand >> }
         \new Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
         \new Voice  = tenors { \voiceOne { \repeat unfold 32 { \skip 4 } << \notesTenor >> } }

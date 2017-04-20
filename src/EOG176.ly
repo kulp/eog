@@ -120,6 +120,7 @@ To us His sons fore -- known.
       \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

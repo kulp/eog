@@ -140,6 +140,7 @@ And grace in glo -- ry end.
       %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

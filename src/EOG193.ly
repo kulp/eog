@@ -168,6 +168,7 @@ Sweet peace, the gift of God’s love.
       \context Lyrics = four  \lyricsto altos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

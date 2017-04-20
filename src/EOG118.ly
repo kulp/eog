@@ -165,6 +165,7 @@ Come home, come home,
       \context Lyrics = three \lyricsto altos \underWords
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

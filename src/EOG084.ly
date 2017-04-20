@@ -176,6 +176,7 @@ Changed to His like -- ness, once for all.
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

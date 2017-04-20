@@ -138,6 +138,7 @@ Ob -- ject su -- preme of all, by all a -- dored.
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

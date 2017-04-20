@@ -186,6 +186,7 @@ we now pro -- claim
     >>
     \new Lyrics \with { alignBelowContext = upper } \lyricsto altos \Refrain
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

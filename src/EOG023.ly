@@ -233,6 +233,7 @@ O -- ver sin, and death, and hell.
 	\new Lyrics \with { alignAboveContext = upper } \lyricsto sopranos \SopranoRefrainA
 	\new Lyrics \with { alignBelowContext = upper } \lyricsto sopranos \SopranoRefrainB
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

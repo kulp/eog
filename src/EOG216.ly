@@ -110,6 +110,7 @@ And trust Him for all that’s to come.
       \context Lyrics = two   \lyricsto sopranos \wordsB
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

@@ -183,6 +183,7 @@ I am bought, I am bought, but not with gold;
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

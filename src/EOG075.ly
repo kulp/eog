@@ -181,6 +181,7 @@ What hast thou brought to Me?
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
@@ -206,6 +207,7 @@ What hast thou brought to Me?
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \context Voice  = tenors \unfoldRepeats { \voiceOne << \notesTenor >> }
       \context Voice  = basses \unfoldRepeats { \voiceTwo << \notesBass >> }

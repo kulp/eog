@@ -121,6 +121,7 @@ And blest in His pres -- ence, in Je -- sus on high.
       \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass

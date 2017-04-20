@@ -177,6 +177,7 @@ wordsG = \markuplist {
       \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
+      \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
