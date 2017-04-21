@@ -47,7 +47,7 @@ notesAltoA = {
   f4 a a f | e4. e8 c2
   d4 f f4. f8 | f2.
   e4 | e2 e2 | e4( c) c
-  r4 | bes4. bes8 bes4 bes | cis2.
+  s4 | bes4. bes8 bes4 bes | cis2.
   a'4 | a4. a8 <g e>4 <c, bes> c1
 
 }
@@ -55,13 +55,13 @@ notesAltoA = {
 
 notesAltoB = {
 \global
-\override NoteHead.font-size = #-4 % TODO mend NoteHead sizes in measure 8 for alto
+\override NoteHead.font-size = #-4
 \relative e' {
 
   c4 f f c | bes4. bes8 a2
   bes4 d d4. d8 | c2.
   bes4 | bes2 bes | bes4( a) a
-  r4 | s4. s8 s4 s | a2.
+  s4 | s4. s8 s4 s | a2.
   f'4 | f4. f8 c4 g | a1
 
 }
@@ -165,9 +165,8 @@ wordsF = \markuplist {
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano << \notesAltoA \notesAltoB >>
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAltoA \notesAltoB >> }
+      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice = altos { \voiceTwo << \notesAltoA \notesAltoB >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
