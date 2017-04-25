@@ -147,7 +147,7 @@ All cre -- a -- tion stood in won -- der
 As He bowed His head and died;
 Rocks and hills were rent a -- sun -- der
 When the Lord was cru -- ci -- fied.
-In a cold, cold grave they laid HIm,
+In a cold, cold grave they laid Him,
 Think -- ing not what they had done;
 Killed the Lord of life and glo -- ry,
 Killed the Christ, God’ much -- loved Son.
