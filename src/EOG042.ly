@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -14,7 +10,6 @@
   meter = "P. M."
   poet = "Wm. Hunter"
   composer = "Arr. by J. H. Stockton"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -171,7 +166,7 @@ The pre -- cious name of Je -- sus.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-The child -- ren, too, both great and small,
+The chil -- dren, too, both great and small,
 Who love the name of Je -- sus,
 May now ac -- cept the gra -- cious call
 To work and live for Je -- sus.
@@ -209,13 +204,6 @@ To work and live for Je -- sus.
     \include "common/midi.ily"
   }
 }
-
-%\markup { \fill-line { \column {
-%  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-%  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-%  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
-%  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
-%} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
