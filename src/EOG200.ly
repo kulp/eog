@@ -143,7 +143,8 @@ O Je -- sus my Lord.
 
 }
 
-music = \context ChoirStaff <<
+\score {
+  \context ChoirStaff <<
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
@@ -164,16 +165,22 @@ music = \context ChoirStaff <<
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
-
-\score {
-  \music
   \layout {
     \include "common/layout.ily"
   }
 }
 
 \score {
-  \unfoldRepeats \music
+  \unfoldRepeats \context ChoirStaff <<
+    \context Staff = upper <<
+      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice = altos { \voiceTwo << \notesAlto >> }
+    >>
+    \context Staff = men <<
+      \context Voice = tenors { \voiceOne << \notesTenor >> }
+      \context Voice = basses { \voiceTwo << \notesBass >> }
+    >>
+  >>
   \midi{
     \include "common/midi.ily"
   }
