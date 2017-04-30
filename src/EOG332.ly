@@ -1,8 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %systems-per-page = ##f
-  %page-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -180,7 +178,8 @@ Now in glo -- ry seat -- ed.
 
 }
 
-music = \context ChoirStaff <<
+\score {
+  \context ChoirStaff <<
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
@@ -202,16 +201,22 @@ music = \context ChoirStaff <<
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
-
-\score {
-  \music
   \layout {
     \include "common/layout.ily"
   }
 }
 
 \score {
-  \unfoldRepeats \music
+  \unfoldRepeats \context ChoirStaff <<
+    \context Staff = upper <<
+      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice = altos { \voiceTwo << \notesAlto >> }
+    >>
+    \context Staff = men <<
+      \context Voice = tenors { \voiceOne << \notesTenor >> }
+      \context Voice = basses { \voiceTwo << \notesBass >> }
+    >>
+  >>
   \midi{
     \include "common/midi.ily"
   }
