@@ -4,6 +4,30 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 2) (#t #f))
+  % decrease system-to-system padding to fit onto page with previous score
+  system-system-spacing.padding = 0.5
+  system-system-spacing.basic-distance = 0.5
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          % less lowering (to save vertical space)
+          \lower #1 \fromproperty #'header:poet
+          \smaller \bold \mysubtitle
+          \lower #1 \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{
@@ -154,7 +178,7 @@ De -- mands our soul, our life, our all.
   }
 }
 
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 11. } } }
+\noPageBreak \markup { \fill-line { \raise #5 \line { Alternate tune: No. 11. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

@@ -3,6 +3,30 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   systems-per-page = ##f
+  % decrease system-to-system padding to fit onto page with next score
+  system-system-spacing.padding = 0.5
+  system-system-spacing.basic-distance = 0.5
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          % less lowering (to save vertical space)
+          \lower #1 \fromproperty #'header:poet
+          \smaller \bold \mysubtitle
+          \lower #1 \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{
@@ -156,7 +180,7 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
+\markup { \raise #5 \fill-line {
   \hspace #0.1
   \line{ \bold 4 \column { \wordsD } }
   \hspace #0.1
