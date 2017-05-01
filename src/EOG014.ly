@@ -1,10 +1,10 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  % decrease system-to-system padding to fit onto page with next score
+  system-system-spacing.padding = 0.5
+  system-system-spacing.basic-distance = 0.5
 }
 
 \header{
@@ -14,7 +14,6 @@
   meter = "C. M. D."
   poet = "Mrs. M. Stockton"
   composer = "Wm. G. Fischer"
-  %copyright = ""
   tagline = ##f
 }
 
