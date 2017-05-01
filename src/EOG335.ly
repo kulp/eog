@@ -1,8 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %systems-per-page = ##f
-  %page-count = #(cond (is-eogsized 2) (#t #f))
+  system-count = #(cond (is-eogsized 5) (#t #f)) % original has five systems
 }
 
 \header{
@@ -32,7 +31,7 @@ notesSoprano = {
   d8 d d d d d | d g a b4. |
   a8 a a a a g | b b a g4. |
   d8 d d d d d | d g a b4. |
-  a8 a a a a g | b b a g4. | \bar ".|:-||"
+  a8 a a a a g | b b a g4. | \bar ".|:-||" \eogbreak
 
   \repeat volta 2 {
     d'8^\markup { \small \caps "Refrain" } d d d4 b8 | a g e e4. |
