@@ -3,7 +3,6 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = #(cond (is-eogsized 3) (#t #f))
   page-count = ##f
 }
 
@@ -12,9 +11,8 @@
   title = "In Rags and in Ruin"
   tunename = "Comfort"
   meter = "11s."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -161,7 +159,6 @@ wordsF = \markuplist {
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
@@ -180,9 +177,9 @@ wordsF = \markuplist {
   }
 }
 
-\markup { \fill-line { \column {
+\markup { \raise #4 \fill-line { \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } }
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
