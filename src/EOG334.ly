@@ -7,9 +7,9 @@
 \header{
   hymnnumber = "334"
   title = "Glad T-I-D-I-N-G-S"
-  tunename = ""
+  tunename = "At the Cross" % original has this as the poet
   meter = "C. M. with Refrain"
-  poet = "At the Cross" % original has this -- should this be tunename ?
+  poet = ""
   composer = "R. E. Hudson"
   tagline = ##f
 }
