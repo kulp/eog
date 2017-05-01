@@ -9,7 +9,6 @@
   tunename = "Maker"
   meter = "P. M."
   composer = "R. C. Maker"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -29,7 +28,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -162,7 +160,7 @@ wordsC = \markuplist {
       }
     }
 
-    \vspace #1
+    \vspace #0.5
 
     \fill-line {
       \null
@@ -172,12 +170,12 @@ wordsC = \markuplist {
       \null
     }
 
-    \vspace #1
+    \vspace #0.5
 
     \fill-line {
       \hcenter-in #35
       \center-column {
-        \vspace #2.1
+        \vspace #1
         \center-column {
           \line{ \smaller { May be sung to } }
           \line{ \smaller { tune No. 73. } }
