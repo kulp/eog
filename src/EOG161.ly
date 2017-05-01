@@ -4,6 +4,9 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 2) (#t #f))
+  % decrease system-to-system padding to fit onto page with next score
+  system-system-spacing.padding = 0.5
+  system-system-spacing.basic-distance = 0.5
 }
 
 \header{
@@ -173,7 +176,7 @@ wordsF = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
+\markup { \raise #5 \fill-line {
   \hspace #0.1
   \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
