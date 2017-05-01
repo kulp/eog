@@ -36,7 +36,7 @@ for my $pdf (@ARGV) {
         # regardless of how high an ascending stroke (especially inverted
         # commas) might rise
         $crop_amount_top = 8;
-        my $scale = 1.14; # TODO compute this
+        my $scale = 1.11; # TODO compute this
 
         if ($clip eq "true" and $prev_clip eq $clip) {
             print q(\vfill), "\n";
