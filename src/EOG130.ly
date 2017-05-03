@@ -145,7 +145,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 O, per -- fect re -- demp -- tion, the pur -- chase of blood,
-To ev -- ’ry be -- liev -- er the pro -- mise of God;
+To ev -- ’ry be -- liev -- er the prom -- ise of God;
 The vi -- lest of -- fend -- er who tru -- ly be -- lieves,
 That mo -- ment from Je -- sus a par -- don re -- ceives.
 

@@ -128,7 +128,7 @@ wordsB = \lyricmode {
 wordsC = \lyricmode {
 \set stanza = "3."
 
-  E -- ter -- nal -- ly His pro -- mise stands,
+  E -- ter -- nal -- ly His prom -- ise stands,
   My name is gra -- ven on His hands;
   Let all a -- round my soul give way,
   He still a -- bides my last -- ing stay.
