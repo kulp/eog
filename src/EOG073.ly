@@ -116,7 +116,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Come to the Sav -- iour now! \bar "."
-He gent -- ly call -- eth thee; \bar "." \break
+He gen -- tly call -- eth thee; \bar "." \break
 In true re -- pent -- ance bow, \bar "."
 Be -- fore Him bend the knee; \bar "." \break
 He wait -- eth to be -- stow \bar "."
