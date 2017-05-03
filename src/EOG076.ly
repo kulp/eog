@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “Come un -- to Me, and I will give you rest!” \bar "."
-What bless -- ed words to wea -- ry ones ad -- dressed! \bar "."
+What bless -- ed words to wear -- y ones ad -- dressed! \bar "."
 They come from Him who knew the depth of woe, \bar "."
 And felt for sin -- ners as none here be -- low. \bar "."
 

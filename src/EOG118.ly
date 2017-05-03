@@ -105,7 +105,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Come home, come home, \bar "."
-Ye who are wea -- ry, come home; \bar "."
+Ye who are wear -- y, come home; \bar "."
 Ear -- nest -- ly, ten -- der -- ly, Je -- sus is call -- ing, \bar "."
 Call -- ing, O sin -- ner, come home! \bar "."
 

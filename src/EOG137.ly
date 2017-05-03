@@ -103,7 +103,7 @@ wordsB = \lyricmode {
 
 On -- ly be -- got -- ten Son of God!
 He left the courts on high
-To tread the wea -- ry paths of earth;
+To tread the wear -- y paths of earth;
 He came to die!
 
 }

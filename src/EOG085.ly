@@ -109,7 +109,7 @@ wordsB = \lyricmode {
 Bur -- den’d with guilt, wouldst thou be blest?
 Trust not the world; it gives no rest;
 Christ brings re -- lief to hearts op -- pressed—
-O wea -- ry sin -- ner come!
+O wear -- y sin -- ner come!
 
 }
 

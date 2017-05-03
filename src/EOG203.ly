@@ -110,7 +110,7 @@ wordsB = \lyricmode {
 
 Shine forth, O Lord, come soon for Thy re -- deemed,
 For those on whom Thy ten -- der love has beamed;
-Thy pil -- grim saints oft wea -- ry in the way
+Thy pil -- grim saints oft wear -- y in the way
 Cry out for Thee– Star of the com -- ing day!
 
 \Refrain

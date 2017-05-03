@@ -109,10 +109,10 @@ wordsA = \lyricmode {
 
 I heard the voice of Je -- sus say, \bar "."
 “Come un -- to Me and rest; \bar "."
-Lay down, thou wea -- ry one, lay down \bar "."
+Lay down, thou wear -- y one, lay down \bar "."
 Thy head up -- on My breast.” \bar "."
 I came to Je -- sus, as I was, \bar "."
-Wea -- ry, and worn, and sad; \bar "."
+Wear -- y, and worn, and sad; \bar "."
 I found in Him a rest -- ing -- place, \bar "."
 And He has made me glad. \bar "."
 

@@ -135,7 +135,7 @@ This He gives you, this He gives you, %{HIDE>%} this He gives you, %{<HIDE%}
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Come, ye wea -- ry, heav -- y -- la -- den,
+Come, ye wear -- y, heav -- y -- la -- den,
 Lost and ru -- ined by the fall;
 If you tar -- ry till you’re bet -- ter,
 You will nev -- er come at all.

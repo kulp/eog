@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 Long did I toil, and knew no earth -- ly rest; \bar "."
 Far did I rovel and found no cer -- tain home; \bar "."
 At last I sought them in His shelter -- ing breast, \bar "." % original has shel -- ter -- ing
-Who opes His arms, and bids the wea -- ry come: \bar "."
+Who opes His arms, and bids the wear -- y come: \bar "."
 With Him I found a home, a rest di -- vine, \bar "."
 And I since then am His, and He is mine. \bar "."
 

@@ -137,7 +137,7 @@ O, what will you do with Je -- sus? \bar "."
 The call comes low and sweet; \bar "." \break
 And ten -- der -- ly He bids you \bar "."
 Your bur -- dens { \mon } lay at { \moff } His feet; \bar "." \break
-O soul, so sad and wea -- ry, \bar "."
+O soul, so sad and wear -- y, \bar "."
 That sweet voice speaks to thee: \bar "." \break
 Then what will you do with Je -- sus? \bar "."
 O, what shall the an -- swer be? \bar "." \break

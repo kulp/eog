@@ -131,7 +131,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 In ten -- der -- ness He sought me, \bar "."
-Wea -- ry and sick with sin, \bar "."
+Wear -- y and sick with sin, \bar "."
 And on His shoul -- ders brought me \bar "."
 Back to Him -- self a -- gain; \bar "."
 While tid -- ings of the lost one found \bar "."

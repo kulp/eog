@@ -143,7 +143,7 @@ wordsD = \lyricmode {
 
 I know not what of good or ill
 May be re -- serv’d for me,
-Of wea -- ry ways or gold -- en days
+Of wear -- y ways or gold -- en days
 Be -- fore His face I see—
 
 }
