@@ -5,7 +5,7 @@
 }
 
 \header{
-  hymnnumber = "254"
+  hymnnumber = "255"
   title = "Not To Ourselves We Owe"
   tunename = "Boylston"
   meter = "S. M."
