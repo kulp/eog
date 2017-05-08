@@ -33,9 +33,9 @@ notesSoprano = {
 \global
 \relative c' {
 
-  d8 g b | d4 d4. b8 c b | a4 e4. % original has tied d4 ~ d8 instead of d4., and so on
+  d8 g b | d4 d4 ~ d8 b8 c b | a4 e4 ~ e8
   d8 fis a | d4 c d, c' | b2 ~ b8
-  d,8 g b | d4 d4. b8 c b | a4 e4.
+  d,8 g b | d4 d4 ~ d8 b8 c b | a4 e4 ~ e8
   d8 fis a | d4 c e, fis | \tb g2\fermata ~ \ta g8
 
   \bar "|."
@@ -47,9 +47,9 @@ notesAlto = {
 \global
 \relative e' {
 
-  d8 d g | g4 g4. g8 fis g8 | e4 c4.
+  d8 d g | g4 g4 ~ g8 g8 fis g8 | e4 c4 ~ c8
   c8 d fis | fis4 d d d | d2 ~ d8
-  d8 d g | g4 g4. g8 fis g8 | e4 c4.
+  d8 d g | g4 g4 ~ g8 g8 fis g8 | e4 c4 ~ c8
   c8 d fis | fis4 d c d | d2 ~ d8
 
 }
@@ -59,9 +59,9 @@ notesTenor = {
 \global
 \relative a {
 
-  fis8 g d' | b4 b4. d8 d d | c4 g4.
+  fis8 g d' | b4 b4 ~ b8 d8 d d | c4 g4 ~ g8
   fis8 a d | c4 fis, a fis | g2 ~ g8
-  b8 b d | b4 b4. d8 d d | c4 g4.
+  b8 b d | b4 b4 ~ b8 d8 d d | c4 g4 ~ g8
   fis8 a d | a4 fis a c | b2 ~ b8
 
 }
@@ -71,9 +71,9 @@ notesBass = {
 \global
 \relative f {
 
-  d8 b d | g4 g4. g,8 a b | c4 c4.
+  d8 b d | g4 g4 ~ g8 g,8 a b | c4 c4 ~ c8
   d8 d d | d4 d fis d | g,2 ~ g8
-  g'8 g g | g4 g4. g,8 a b | c4 c4.
+  g'8 g g | g4 g4 ~ g8 g,8 a b | c4 c4 ~ c8
   d8 d d | d4 d d d | <g g,>2\fermata ~ <g g,>8
 
 }
