@@ -12,7 +12,7 @@
   title = "“Come Unto Me, And I Will Give You Rest”"
   tunename = "Eventide"
   meter = "10s"
-  poet = "H. D’A. Champney"
+  poet = "H. d’A. Champney"
   composer = "W. H. Monk"
   %copyright = ""
   tagline = ##f

@@ -12,7 +12,7 @@
   title = "Christ Is the Only Saviour"
   tunename = "The Lifeboat"
   meter = "P. M."
-  poet = "H. D'A. Champney"
+  poet = "H. d’A. Champney"
   composer = "P. P. Bliss"
   tagline = ##f
 }

@@ -10,7 +10,7 @@
   title = "Hark! Hark! The Voice of Christ"
   tunename = "Pilgrims"
   meter = "11. 10. 11. 10. with Refrain"
-  poet = "H. d'A. Champney"
+  poet = "H. d’A. Champney"
   composer = "Henry Smart"
   tagline = ##f
 }

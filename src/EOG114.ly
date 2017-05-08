@@ -11,7 +11,7 @@
   title = "Saved Through the Blood of Jesus"
   tunename = "Heart’s Refuge"
   meter = "7. 6. 7. 6. D."
-  poet = "H. D’A. Champney"
+  poet = "H. d’A. Champney"
   composer = "W. H. Doane"
   %copyright = ""
   tagline = ##f
