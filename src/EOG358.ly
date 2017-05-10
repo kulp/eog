@@ -47,7 +47,7 @@ notesSoprano = {
   \changePitch \patternA { c c c ees d c | } c2 bes4. r8
   \changePitch \patternA { bes f d' } d8[ c] bes8. a16 | bes2( aes!)^\markup{\italic {D. C.}} |
 
-  \bar "|."
+  \bar "." % not actually the end, so not "|."
 
 }
 }
