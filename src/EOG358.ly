@@ -25,7 +25,7 @@ global = {
 
 patternA = { c4 c8. c16 c4 c8. c16 | } % s2 s4. r8
 
-notesSoprano = {
+refrainNotesSoprano = {
 \global
 \relative c'' {
 
@@ -33,7 +33,16 @@ notesSoprano = {
   \changePitch \patternA { bes f g aes g f | } g2. r4
   \changePitch \patternA { g g g aes bes c | } bes2 g4 r4
   \changePitch \patternA { bes f g aes g f | } ees2. r4^\markup{\italic Fine}
-  \changePitch \patternA { c' c c ees d c | } c2 bes4 r4
+
+}
+}
+
+notesSoprano = {
+\global
+\relative c'' {
+
+  \refrainNotesSoprano
+  \changePitch \patternA { c c c ees d c | } c2 bes4 r4
   \changePitch \patternA { bes c bes aes bes aes | } g2. r4
   \changePitch \patternA { c c c ees d c | } c2 bes4. r8
   \changePitch \patternA { bes f d' } d8[ c] bes8. a16 | bes2( aes!)^\markup{\italic {D. C.}} |
@@ -43,7 +52,7 @@ notesSoprano = {
 }
 }
 
-notesAlto = {
+refrainNotesAlto = {
 \global
 \relative e' {
 
@@ -51,6 +60,15 @@ notesAlto = {
   \changePitch \patternA { d d ees f ees d | } ees2. r4
   \changePitch \patternA { ees ees ees ees ees ees | } ees2 ees4 r4
   \changePitch \patternA { d d ees f ees d | } ees2. r4
+
+}
+}
+
+notesAlto = {
+\global
+\relative e' {
+
+  \refrainNotesAlto
   \changePitch \patternA { ees ees ees ees ees ees | } ees2 ees4 r4
   \changePitch \patternA { d aes' g f g f | } ees2. r4
   \changePitch \patternA { ees ees ees ees ees ees | } ees2 ees4. r8
@@ -59,7 +77,7 @@ notesAlto = {
 }
 }
 
-notesTenor = {
+refrainNotesTenor = {
 \global
 \relative a {
 
@@ -67,6 +85,15 @@ notesTenor = {
   \changePitch \patternA { bes bes bes bes bes bes | } bes2. r4
   \changePitch \patternA { bes bes bes aes g aes | } g2 bes4 r4
   \changePitch \patternA { bes bes bes bes bes aes | } g2. r4
+
+}
+}
+
+notesTenor = {
+\global
+\relative a {
+
+  \refrainNotesTenor
   \changePitch \patternA { aes aes aes c bes aes | } aes2 g4 r4
   \changePitch \patternA { f bes bes bes bes bes | } bes2. r4
   \changePitch \patternA { aes aes aes c bes aes | } aes2 g4. r8
@@ -75,7 +102,7 @@ notesTenor = {
 }
 }
 
-notesBass = {
+refrainNotesBass = {
 \global
 \relative f {
 
@@ -83,6 +110,15 @@ notesBass = {
   \changePitch \patternA { bes bes bes bes bes bes | } ees2. r4
   \changePitch \patternA { ees des des c bes aes | } ees'2 ees4 r4
   \changePitch \patternA { bes bes bes bes bes bes | } ees2. r4
+
+}
+}
+
+notesBass = {
+\global
+\relative f {
+
+  \refrainNotesBass
   \changePitch \patternA { aes aes aes aes aes aes | } ees2 ees4 r4
   \changePitch \patternA { bes bes bes bes bes bes | } ees2. r4
   \changePitch \patternA { aes aes aes aes aes aes | } ees2 ees4. r8
@@ -91,14 +127,16 @@ notesBass = {
 }
 }
 
-Refrain = \lyricmode {
+Refrain = {
+\set stanza = \markup \small \normal-text \caps "Refrain"
+\lyricmode {
 
-% TODO insert Refrain markup (how ?)
 \italicsOn Tell me the sto -- ry of Je -- sus, \bar "."
 Write on my heart ev -- ery word, \bar "." % original has comma here but exclamation point in second line of first verse
 Tell me the sto -- ry most pre -- cious, \bar "."
 Sweet -- est that ev -- er was heard. \bar "."
 
+}
 }
 
 wordsA = \lyricmode {
@@ -169,6 +207,20 @@ Love paid the ran -- som for me.
   \layout {
     \include "common/layout.ily"
   }
+}
+
+\score {
+  \context ChoirStaff <<
+    \context Staff = upper <<
+      \context Voice = sopranos { \voiceOne { \notesSoprano \refrainNotesSoprano } }
+      \context Voice = altos { \voiceTwo { \notesAlto \refrainNotesAlto } }
+    >>
+    \context Staff = men <<
+      \clef bass
+      \context Voice = tenors { \voiceOne { \notesTenor \refrainNotesTenor } }
+      \context Voice = basses { \voiceTwo { \notesBass \refrainNotesBass } }
+    >>
+  >>
   \midi{
     \include "common/midi.ily"
   }
