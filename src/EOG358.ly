@@ -127,16 +127,14 @@ notesBass = {
 }
 }
 
-Refrain = {
+Refrain = \lyricmode {
 \set stanza = \markup \small \normal-text \caps "Refrain"
-\lyricmode {
 
 \italicsOn Tell me the sto -- ry of Je -- sus, \bar "."
 Write on my heart ev -- ery word, \bar "." % original has comma here but exclamation point in second line of first verse
 Tell me the sto -- ry most pre -- cious, \bar "."
 Sweet -- est that ev -- er was heard. \bar "."
 
-}
 }
 
 wordsA = \lyricmode {
