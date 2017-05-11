@@ -11,3 +11,15 @@ moff = { \unset ignoreMelismata }
 
 eogbreak = { %{NOOP%} }
 eogpagebreak = { %{NOOP%} }
+
+onlyEogMusic = #(define-music-function (notes)
+                                       (ly:music?)
+"Include this music expression only if laying up for the EOG lookalike."
+  #{ #}
+)
+
+#(define-markup-command
+    (onlyEogMarkup layout props mup-yes mup-no) ; params
+    (markup? markup?) ; param types
+	(interpret-markup layout props mup-no))
+

@@ -27,6 +27,53 @@ global = {
   \autoBeamOff
 }
 
+wordsE = \markuplist {
+
+\line { The Bible tells us He will come }
+\line { To Take His saints away, }
+\line { To dwell with Him in His blest home }
+\line { Through everlasting day. }
+
+}
+
+wordsF = \markuplist {
+
+\line { The Bible tells us He will reign }
+\line { O’er all the earth ere long; }
+\line { When heaven and earth shall wake the strain }
+\line { Of an eternal song. }
+
+}
+
+wordsG = \markuplist {
+
+\line { The Bible tells us \italic all may come, }
+\line { And drink at mercy’s stream; }
+\line { That Jesus soon will share this home }
+\line { With all who trust in Him. }
+
+}
+
+extraVersesMarkup = \markup { \column {
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+  \line{ \bold 7 \column { \wordsG } }
+} }
+
+barlineMarkup = \markup { \whiteout
+\with-dimensions #'(-1 . -1) #'(0 . 0)
+\raise #5 \line { \hspace #5 \extraVersesMarkup } }
+
+customBarLine = {
+  \override Staff.BarLine.stencil =
+  #(lambda (grob)
+     (ly:stencil-combine-at-edge
+      (ly:bar-line::print grob)
+      X RIGHT
+      (grob-interpret-markup grob barlineMarkup)
+      0))
+}
+
 notesSoprano = {
 \global
 \relative c' {
@@ -36,6 +83,9 @@ notesSoprano = {
   bes16[ c] | d8. d16 ees16[ d] c[ bes] | c8. d16 c8
   a16[ bes] | c8. c16 d16[ c] bes[ a] | bes4( f8)
   f8 | d'8. bes16 d16[ c] c[ a] | bes4.
+
+  \override Score.BarLine.layer = 1
+  \onlyEogMusic \customBarLine
 
   \bar "|."
 
@@ -125,33 +175,6 @@ That mer -- cy’s work is done.
 
 }
 
-wordsE = \markuplist {
-
-\line { The Bible tells us He will come }
-\line { To Take His saints away, }
-\line { To dwell with Him in His blest home }
-\line { Through everlasting day. }
-
-}
-
-wordsF = \markuplist {
-
-\line { The Bible tells us He will reign }
-\line { O’er all the earth ere long; }
-\line { When heaven and earth shall wake the strain }
-\line { Of an eternal song. }
-
-}
-
-wordsG = \markuplist {
-
-\line { The Bible tells us \italic all may come, }
-\line { And drink at mercy’s stream; }
-\line { That Jesus soon will share this home }
-\line { With all who trust in Him. }
-
-}
-
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
@@ -183,12 +206,9 @@ wordsG = \markuplist {
   }
 }
 
-% TODO place markup verses alongside ragged-last staves
-\markup { \fill-line { \column {
-  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
-} } }
+nullMarkup = \markup { }
+wrappedMarkup = \markup { \fill-line { \extraVersesMarkup } }
+\markup { \onlyEogMarkup \nullMarkup \wrappedMarkup }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
