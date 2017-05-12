@@ -160,7 +160,7 @@ While your an -- chor holds with -- in the vail.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Will your eyes be -- hold thro’ the mor -- ning light
+Will your eyes be -- hold thro’ the morn -- ing light
 The { \mon } ci -- ty { \moff } of gold { \mon } and the { \moff } har -- bor bright?
 Will you an -- chor safe by the heav’n -- ly shore
 When life’s storms are past for -- ev -- er -- more?

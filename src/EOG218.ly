@@ -127,7 +127,7 @@ As the star whose kind -- ly ray \bar "."
 Her -- alds the ap -- proach -- ing morn -- ing \bar "."
 Just be -- fore the break of day. \bar "."
 O, what joy, as night hangs round us, \bar "."
-’Tis to think of mor -- ning’s ray! \bar "."
+’Tis to think of morn -- ing’s ray! \bar "."
 Sweet to know He’s com -- ing for us, \bar "."
 Just be -- fore the break of day. \bar "."
 
