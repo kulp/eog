@@ -29,7 +29,7 @@ my @stems    = uniq sort map m#(\w+)\.ly#, @srcs;
 my %variants = map { $_ => [ uniq sort map basename(dirname($_)), @{ $globs{$_} } ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 
-my $total = 376 + 8;
+my $total = 379 + 8;
 
 print
     start_html(-title  => "Echoes of Grace layout project",
