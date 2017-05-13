@@ -62,9 +62,9 @@ notesTenor = {
 \global
 \relative a {
 
-  r8 | r2 | r4. % TODO original has centered "whole-measure rest", instead of off-center half rest
-  r8 | r2 | r4.
-  r8 | r2 | r4.
+  r8 | R1*1/2 | r4.
+  r8 | R1*1/2 | r4.
+  r8 | R1*1/2 | r4.
   r8 | a8. b16 a8 g | fis8[ g]
 
   a8 fis | g4 g8 r | fis4 fis8 r

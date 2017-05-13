@@ -60,7 +60,7 @@ notesTenor = {
 \relative a {
 
   g4 g8 | bes4. ~ bes4 bes8 c4 d8 | ees4. bes
-  r4 r8 | r1 r8 | r4. r4. % TODO whole-measure rest
+  r4 r8 | R1*9/8 | r4. r4.
   g4 g8 | bes4. ~ bes4 bes8 c4 d8 | ees4. bes
   c8[ b] c | d4. ~ d4 bes8 bes4 a8 | bes4. ~ bes
   { \repeat unfold 9 \skip 4 }
@@ -75,7 +75,7 @@ notesBass = {
 \relative f {
 
   ees4 ees8 | ees4. ~ ees4 ees8 <ees aes,>4 <ees aes,>8 | ees4. ees
-  r4 r8 | r1 r8 | r4. r4. % TODO whole-measure rest
+  r4 r8 | R1*9/8 | r4. r4.
   ees4 ees8 | ees4. ~ ees4 ees8 aes,4 aes8 | ees'4. ees
   c8[ d] ees | f4. ~ f4 f8 f4 f8 | bes,4. ~ bes
   \override NoteHead.font-size = #-4
