@@ -39,7 +39,7 @@ notesSoprano = {
   c8[ f8] | a4 a4 a4 f8[ a8] | c4 c4 c4
   c8[ a8] | g4. g8 g4 f8[ g8] | a2.
   c,8[ f8] | a4 a4 a4 f8[ a8] | c4 c4 c4
-  c8[ a8] | g4. c8 c8[ b!8] a8[ b8] | c2.
+  c8[ a8] | g4. c8 c8[ b!8] a8[ b8] | c2. \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { c4 | c4. c8 c8[ a8] d8[ c8] | c4. bes8 a4 } >>
@@ -192,15 +192,10 @@ wordsE = \markuplist {
   }
 }
 
-\noPageBreak
-
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
+\markup { \fill-line { \column {
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
-} }
+} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
