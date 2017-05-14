@@ -10,7 +10,6 @@
   meter = "8. 6. 8. 6. 8. 6. 8. 6."
   poet = "A. Midlane"
   composer = "D. F. E. Auber"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -24,11 +23,8 @@ global = {
   \partial 4.
 }
 
-% TODO pull this out into a common file (at least EOG003 and EOG005 use the same tune)
 patternOne   = { c4( c8) | c4 c8 c4 c8 c8[ c8] c8 | c4.( c4.) c8[ c8] c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
 patternTwo   = { c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. }
-% TODO This is how it's expressed in the original, but the slur messes up timing
-%patternTwo   = { c4. | c4( c8) c4 c8 c4 c8 | c4. ~ c4. c4. | c4 c8 c4 c8 c4 c8 | c4. ~ c4. }
 patternThree = { c4. | c4 c8 c4 c8 c4 c8 | c4. c4. c4 c8 | c4. ~ c4. c4 c8 | c4. ~ c4. }
 patternFour  = { c4( c8) | c4 c8 c4 c8 c8[ c8] c8 | c4.( c4.) c8[ c8] c8 | c4.( c4.) c4 c8 | c4. ~ c4. }
 patternFive  = { c4. | c4 c8 c4 c8 c4 c8 | c4.( c4.) c4 c8 | c4. ~ c4. c4 c8 | c4. ~ c4. }
