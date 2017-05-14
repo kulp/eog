@@ -25,11 +25,6 @@ global = {
   \autoBeamOff
 }
 
-%smallNotes = \override NoteHead.font-size = #-4
-normalNotes = \override NoteHead.font-size = #0
-smallNotes = { \normalNotes } % TODO use smallNotes when we can mix on the same stem
-smallNote = \once \smallNotes
-
 notesSoprano = {
 \global
 \relative c'' {
@@ -72,11 +67,11 @@ notesBass = {
 \global
 \relative f {
 
-  % TODO make chords with different note-head sizes, like original
-  g4 | g2 g4 | g2 g4 | c,( d) d | <<g2 \smallNote g,2>>
-  g'4 | d( c) b | << \normalNotes { b( a) } \smallNotes { b' a }>> <<g, \smallNote g'>> | \normalNotes d2
-  g4 | g2 c,4 | d2 d4 | d2 d4 | <<g2 \smallNote g,2>>
-  g'4 | g2 c,4 | d2 d4 | <g g,>2
+  % TODO make chords with different note-head sizes use same stem, like original
+  g4 | g2 g4 | g2 g4 | c,( d) d | <g \tweak font-size #-4 g,>2
+  g4 | d( c) b | <b \tweak font-size #-4 b'>( <a \tweak font-size #-4 a'>) <g \tweak font-size #-4 g'> | d'2
+  g4 | g2 c,4 | d2 d4 | d2 d4 | <g \tweak font-size #-4 g,>2
+  g4 | g2 <c, \tweak font-size #-4 c'>4 | d2 d4 | <g g,>2
 
 }
 }
