@@ -166,7 +166,7 @@ wordsD = \markuplist {
   }
 }
 
-% TODO this markup is all empirical, and brittle
+% this markup is all empirical, and brittle
 \markup {
   \column {
     \column {
