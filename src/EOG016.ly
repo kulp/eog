@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -14,7 +10,6 @@
   meter = "8-7s."
   poet = "H. K. Burlingham"
   composer = "Mendelssohn"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -106,13 +101,19 @@ notesBass = {
 
   \changePitch \patternBA { d' d   | d b fis g  | d    }
   \changePitch \patternBA { d' d   | d b fis g  | d    }
-% TODO optional notes
-%<<
   \changePitch \patternBB { c' c   | c b a gis  | a g! }
-%\\
-%  \override NoteHead.font-size = #-4 { c,2 | c2 c4 e4 }
-%>>
   \changePitch \patternBA { fis c' | b g d d    | g    }
+
+}
+}
+
+notesLower = {
+\global
+\relative f {
+
+  \repeat unfold 48 \skip 4
+  \override NoteHead.font-size = #-4
+  c2 | c2 c4 e4
 
 }
 }
@@ -181,7 +182,6 @@ Ev -- ’ry tongue at last will own,
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
@@ -190,6 +190,8 @@ Ev -- ’ry tongue at last will own,
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      % TODO share stems properly
+      %\context Voice = loweryet { \voiceFour << \notesLower >> }
     >>
   >>
   \layout {
