@@ -29,10 +29,6 @@ global = {
   \autoBeamOff
 }
 
-smallNotes = \override NoteHead.font-size = #-4
-normalNotes = \override NoteHead.font-size = #0
-smallNote = \once \smallNotes
-
 patternA = { c8 c c | c4. c4 c8 c c c | c4. c }
 patternB = { c8 c c | c4. c4 c8 c c c | c4. ~ c }
 patternC = { c8 c c | c4. c4 r8 c c c | c4. c4 c8 }
@@ -75,37 +71,54 @@ notesAlto = {
 }
 }
 
-notesTenor = {
+notesTenorVerse = {
 \global
 \relative a {
 
-  \smallNotes
+  \magnifyMusic 0.63 {
+  \override Score.SpacingSpanner.spacing-increment = #(* 1.2 0.63)
   r4. | r8 <g d>[ <g d>] <g d>4 r8 r4. | r8 <a d,>[ <a d,>] <c a>4.
   r4. | r8 <a fis>[ <a fis>] <a fis>4 r8 r4. | r8 <g d>[ <g d>] <g d>4.
   r4. | r8 <g d>[ <g d>] <g d>4 r8 r4. | r8 <c g>[ <c g>] <c g>4.
   r4. | r8 <b g>[ <b g>] g4 r8 r4. | r8 <g d>[ <g d>] <g d>4.
+  }
 
-  \normalNotes
+}
+}
+
+notesTenorChorus = {
+\global
+\relative a {
+
+  \repeat unfold 36 \skip 4
   \changePitch \patternC { b ais b | c b g g g | g g r }
   \changePitch \patternD { g g a | b a b c d d | cis( d) r }
-  %\changePitch \patternC { d e d | <g, \smallNote e'> <b \smallNote d> d cis d | e d r }
-  \changePitch \patternC { d e d | g, b d cis d | e d r } % TODO small notes in chords -- how ?
+  \changePitch \patternC { d e d | <g, \tweak font-size #-4 e'> <b \tweak font-size #-4 d> d cis d | e d r }
   \changePitch \patternA { c c c | d d e e d c | b ~ b }
 
 }
 }
 
-notesBass = {
+notesBassVerse = {
 \global
 \relative f, {
 
-  \smallNotes
+  \magnifyMusic 0.63 {
+  \override Score.SpacingSpanner.spacing-increment = #(* 1.2 0.63)
   r4. | g4. g4 r8 r4. | a4. d4.
   r4. | d4. d4 r8 r4. | g,4. g4.
   r4. | g4. g4 r8 r4. | c4. c4.
   r4. | d4. d4 r8 r4. | g,4. g4.
+  }
 
-  \normalNotes
+}
+}
+
+notesBassChorus = {
+\global
+\relative f, {
+
+  \repeat unfold 36 \skip 4
   \changePitch \patternC { g' g g | g g g g g | g g r }
   \changePitch \patternD { e e a, | d d d d d d | g ~ g r }
   \changePitch \patternC { g g g | g g g g g | g g r }
@@ -172,9 +185,11 @@ Je -- sus, the Lord, we be -- hold and re -- joice!
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      \context Voice = tenors { \voiceOne << \notesTenorVerse >> }
+      \context Voice = basses { \voiceTwo << \notesBassVerse >> }
+      \partcombine #'(2 . 9) \notesTenorChorus \notesBassChorus
+      \context NullVoice = tenors { \voiceOne << \notesTenorChorus >> }
+      \context NullVoice = basses { \voiceTwo << \notesBassChorus >> }
     >>
   >>
   \layout {
