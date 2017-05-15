@@ -10,10 +10,14 @@ LYS           = $(notdir $(wildcard src/EOG???.ly))
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf )))
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(LYS:.ly=.mp3 )))
+LYRICAL_MP3S  = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(STD_LYS:.ly=.mp3)))
+ADDL_MP3S     = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(ADDL_LYS:.ly=.mp3)))
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(LYS:.ly=.wav )))
-TXTS          = $(LYS:%.ly=TXT/default/%.txt)
-LATINS        = $(LYS:%.ly=TXT/latinized/%.txt)
+TXTS          = $(patsubst %.ly,TXT/default/%.txt,$(STD_LYS))
+LATINS        = $(TXTS:default=latinized)
 M3US          = $(VARIANTS_MP3:%=%.m3u)
+ADDL_LYS      = $(filter EOGa%.ly,$(LYS))
+STD_LYS       = $(filter-out EOGa%.ly,$(LYS))
 
 HEADERS       = hymnnumber title poet composer meter tunename
 
@@ -138,10 +142,16 @@ MP3/%.mp3: LAMEOPTS += --tv TIT3="$$(< headers/$(HEADER_BASE).tunename)"
 MP3/%.mp3: LAMEOPTS += --tv TLAN='English'
 MP3/%.mp3: LAMEOPTS += --tv WOAF="$(WEB_BASE)$@"
 MP3/%.mp3: LAMEOPTS += --tv WPUB="$(WEB_BASE)"
-MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
+# depend on text files only for files containing lyrics
+$(LYRICAL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 	mp3info2 -u -F "USLT(eng)[0] < $(filter %.txt,$^)" $@
+
+$(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
+	mkdir -p $(@D)
+	lame $(LAMEOPTS) $< $@
+	mp3info2 -u $@
 
 headers TXT/latinized:
 	mkdir -p $@
