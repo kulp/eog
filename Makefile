@@ -21,7 +21,7 @@ STD_LYS       = $(filter-out EOGa%.ly,$(LYS))
 
 HEADERS       = hymnnumber title poet composer meter tunename
 
-WEB_BASE = http://eog.kulp.ch/
+WEB_BASE = http://purl.org/echoesofgrace/
 ENCODING_PERSON = Darren Kulp <darren@kulp.ch>
 BOOK_NAME = Echoes of Grace
 TOTAL_FILE_COUNT = 384
