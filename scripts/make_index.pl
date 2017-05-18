@@ -29,7 +29,8 @@ my @stems    = uniq sort map m#(\w+)\.ly#, @srcs;
 my %variants = map { $_ => [ uniq sort map basename(dirname($_)), @{ $globs{$_} } ] } @dirs;
 my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 
-my $total = 379 + 8;
+my $basic = 379;
+my $total = $basic + 8;
 
 print
     start_html(-title  => "Echoes of Grace layout project",
@@ -85,11 +86,13 @@ print
                 my $poet     = get_key $stem => "poet";
                 my $composer = get_key $stem => "composer";
 
-                my $index    = int(($stem =~ /EOG(\d+)/)[0]);
                 (my $safetitle = $title) =~ s/[^\s\w]//g;
 
+                my ($addl, $int) = $stem =~ /EOG(a?)0*(\d+)$/;
+                my $order = ($addl ? $basic : 0) + $int;
+
                 Tr(
-                    th({ -class => "index"                          } , $index),
+                    th({ -class => "index", customkey => $order     } , "$addl$int"),
                     td({ -class => "title", customkey => $safetitle } , $title),
                     td({ -class => "poet"                           } , $poet),
                     td({ -class => "composer"                       } , $composer),
