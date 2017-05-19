@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -12,14 +9,11 @@
   title = "O What a Gift the Father Gave"
   tunename = ""
   meter = "C. M. D."
-  %poet = ""
   composer = "Wm. G. Fischer"
-  %copyright = ""
   tagline = ##f
 }
 
 % for fermata in MIDI
-% TODO make four fermatas (in typesetting) two
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
