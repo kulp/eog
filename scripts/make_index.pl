@@ -44,16 +44,14 @@ print
     h1({ -style => "text-align: center" },
         "Hymns from the", i("Echoes of Grace")),
     p("This site hosts sheet-music PDFs, lyric text files, and computer-generated audio files",
-        "for the hymns in the",
+        "for all the hymns in the",
         a({ -href => "http://bibletruthpublishers.com/echoes-of-grace-hymn-book-large-music-edition-plastic-coil-binding/pd2535" },
             "Echoes of Grace hymn book") . ".",
         "These hymns were engraved with",
         a({ -href => "http://www.lilypond.org/" }, "LilyPond") . ",",
         "and source files are",
-        a({ -href => "https://github.com/kulp/eog" }, "available") . "."),
+        a({ -href => "https://github.com/kulp/eog" }, "available on GitHub") . "."),
     p("Playlists for all available MP3s:", map { a({ -href => "$_" }, $_), " " } @lists),
-    p(sprintf "Progress: %d/%d files = %4.2f%% complete as of %s",
-            scalar(@srcs), $total, 100.0 * scalar(@srcs)/$total, qx(git log -1 --format=%ai)),
     table({ -class => "sortable", -id => "main" },
         thead(
             Tr(
