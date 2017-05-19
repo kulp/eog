@@ -1,8 +1,29 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %system-count = #(cond (is-eogsized 4) (#t #f))
-  %page-count = #(cond (is-eogsized 2) (#t #f))
+  markup-system-spacing.padding = 0
+  markup-system-spacing.basic-distance = 0
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          % no lowering (to save vertical space)
+          "Alternate tune for No. 376"
+          \smaller \bold \mysubtitle
+          \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{
@@ -67,6 +88,7 @@ notesAlto = {
 
 notesTenor = {
 \global
+% TODO get NoteHead size to work with \partcombine
 %\override NoteHead.font-size = #-4
 \relative a {
 
@@ -221,7 +243,7 @@ wordsF = \markuplist {
   \hspace #0.1
 } }
 
-\noPageBreak \markup { \vspace #2 \fill-line { "Alternate tune for No. 376." } }
+%\noPageBreak \markup { \vspace #2 \fill-line { "Alternate tune for No. 376." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
