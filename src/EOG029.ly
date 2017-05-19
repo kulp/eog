@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -12,9 +8,8 @@
   title = "Only Trust Him"
   tunename = ""
   meter = "C. M. and Refrain."
-  poet = "J. H. S." % TODO expand to J. H. Stockton ?
+  poet = "J. H. Stockton"
   composer = "J. H. Stockton"
-  %copyright = ""
   tagline = ##f
 }
 
