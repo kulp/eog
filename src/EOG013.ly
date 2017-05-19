@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -14,22 +11,20 @@
   meter = "S. M. and Refrain."
   poet = "Dr. Philip Doddridge"
   composer = "Ira D. Sankey"
-  %copyright = ""
   tagline = ##f
 }
 
 phraseA = { c4. c8 c8 c8 | c2 }
 % for fermata in MIDI
-% TODO make four fermatas (in typesetting) two
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
-patternA = { \ta c4           | c4. c8 c8 c8 | c2           } % Line 1, 2
-patternB = { \ta c4. c8 c8 c8 | c8 c8 \tb c4 \fermata } % Refrain line 3
-patternC = { \ta c4           | \patternB                   } % Line 3
-patternD = { \ta c4. c8 c8 c8 | c2 c4                       } % Refrain line 1, 2
-patternE = { \ta c4           | \patternD                   } % Line 4
-patternF = { \ta c4           | c4. c8 c8 c8 | \tb c2 \fermata } % Refrain line 4
+patternA = { \ta c4           | c4. c8 c8 c8 | c2     } % Line 1, 2
+patternB = { \ta c4. c8 c8 c8 | c8 c8 \tb c4          } % Refrain line 3
+patternC = { \ta c4           | \patternB             } % Line 3
+patternD = { \ta c4. c8 c8 c8 | c2 c4                 } % Refrain line 1, 2
+patternE = { \ta c4           | \patternD             } % Line 4
+patternF = { \ta c4           | c4. c8 c8 c8 | \tb c2 } % Refrain line 4
 
 global = {
   \include "common/overrides.ily"
@@ -48,14 +43,14 @@ notesSoprano = {
 
   \changePitch \patternA { a | a gis b a  | fis     }
   \changePitch \patternA { d | e fis g a  | fis     }
-  \changePitch \patternC { a | a a g fis  | b cis d }
+  \changePitch \patternC { a | a a g fis  | b cis d\fermata }
   \changePitch \patternE { b | a d, e fis | d r     }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternD {     d' d e cis | d r       } >>
   \changePitch \patternD {     b d cis b  | a r       }
-  \changePitch \patternB {     a a g fis  | b cis d   }
-  \changePitch \patternF { b | a d, e fis | d         }
+  \changePitch \patternB {     a a g fis  | b cis d\fermata   }
+  \changePitch \patternF { b | a d, e fis | d\fermata         }
 
   \bar "|."
 
@@ -102,13 +97,13 @@ notesBass = {
 
   \changePitch \patternA { d  | d d d d   | d     }
   \changePitch \patternA { d  | a a a a   | d     }
-  \changePitch \patternC { d  | d fis e d | g e d }
+  \changePitch \patternC { d  | d fis e d | g e d_\fermata }
   \changePitch \patternE { g, | a a a a   | d r   }
 
   \changePitch \patternD {      d d g, a  | d r   }
   \changePitch \patternD {      g, g g g  | d' r  }
-  \changePitch \patternB {      d fis e d | g e d }
-  \changePitch \patternF { g, | a a a a   | d     }
+  \changePitch \patternB {      d fis e d | g e d_\fermata }
+  \changePitch \patternF { g, | a a a a   | d_\fermata     }
 
 }
 }
