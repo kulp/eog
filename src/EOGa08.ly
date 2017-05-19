@@ -70,7 +70,8 @@ notesSoprano = {
 
 notesAlto = {
 \global
-\override NoteHead.font-size = #-4
+% TODO get NoteHead size to work with \partcombine for left hand
+%\override NoteHead.font-size = #-4
 \relative e' {
 
   g4 | ees2 <ees bes> | ees4.( d8) bes4.
@@ -88,7 +89,6 @@ notesAlto = {
 
 notesTenor = {
 \global
-% TODO get NoteHead size to work with \partcombine
 %\override NoteHead.font-size = #-4
 \relative a {
 
