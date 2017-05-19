@@ -40,7 +40,7 @@ notesSoprano = {
   f16 ~ f | ees4 bes8( ees) g4. f8 | ees2. \bar "."
 
   g4 | ees'4 d8 c d4 b8( g) | d'2( c4) \bar "."
-  c4 | bes4 aes8 g bes4( a8) g | f2. \bar "."
+  c4 | bes4 aes8 g bes4( aes8) g | f2. \bar "."
   fis8 ~ fis | g4 fis8 g bes4 g8( ees) | g4.( f8) ees4 \bar "."
   e8 ~ e | f4 aes8 c bes4 d,8 ~ d | ees2. \bar "|."
 
@@ -49,25 +49,53 @@ notesSoprano = {
 
 notesAlto = {
 \global
+\override NoteHead.font-size = #-4
 \relative e' {
 
-s
+  g4 | ees2 <ees bes> | ees4.( d8) bes4.
+  ees8 | d4 cis8[ d] f4. aes8 | g2.
+  g4 | <g ees>2 <g e> | g4.( f8) c4. ~
+  c8 | bes4 bes ees4. d8 | bes2.
+
+  g'4 | <g ees>2 <g f> | <g f> ees4 ~
+  ees4 | f4. ees8 ees4 d8 ees | d2.
+  fis4 | ees2 ees | ees4.( d8) c4 ~
+  c4 | c4. ees8 d4 bes4 | bes2.
+
 }
 }
 
 notesTenor = {
 \global
+%\override NoteHead.font-size = #-4
 \relative a {
 
-  s
+  r4 | bes2 g | bes4.( aes8) g4.
+  r8 | bes2 bes | bes2.
+  bes4 | bes2 g4. c8 | c2 aes4. ~
+  aes8 | g2 bes4. aes8 | g2.
+
+  r4 | <c g>2 b4 d8[ b] | b2 <c g>4 ~
+  <c g>4 | bes4. bes8 bes4 bes8 bes | bes2.
+  r4 | bes2 bes | bes4. aes8 g4 ~
+  g4 | f4. <aes f>8 bes4 aes | g2.
 }
 }
 
 notesBass = {
 \global
+%\override NoteHead.font-size = #-4
 \relative f {
 
-  s
+  r4 | ees2 g, | bes ees4.
+  r8 | bes2 d4. bes8 | ees2.
+  ees4 | des2 c | f aes,4. ~
+  aes8 | bes2 bes | ees2.
+
+  r4 | c2 g' | g c,4 ~
+  c4 | d4. ees8 g4 f8 ees | bes2.
+  r4 | ees2 g4 ees8[ g] | bes,4. b8 c4
+  bes4 | aes4( f8) f8 bes2 | ees2.
 }
 }
 
@@ -81,7 +109,7 @@ I strayed { \mon } but Thy { \moff } grace would keep, \bar "." % by contrast, E
 Thou’st grant -- ed my heart’s de -- sire, \bar "."
 { \mon } Most bless’d of the bless -- ed is he, { \moff } \bar "."
 Who { \mon } find -- eth no rest and no { \moff } sweet -- ness, \bar "."
-Till he rest -- eth, O Lord, in Thee. \bar "."
+{ \mon } Till he { \moff } rest -- eth, O Lord, in Thee. \bar "."
 
 }
 
@@ -95,7 +123,7 @@ Th’_e -- ter -- nal joy’s be -- gun,
 For -- ev -- er, thro’ end -- less { \mon } a -- ges, { \moff }
 { \mon } Thy cross and Thy sor -- rows shall be, { \moff }
 The { \mon } glo -- ry, the song and the { \moff } sweet -- ness,
-That makes heav -- en, heav -- en to me.
+That makes heav -- en, heav -- { \mon } en to { \moff } me.
 
 }
 
@@ -123,7 +151,7 @@ The Lord in His { \mon } glo -- ry { \moff } for sin -- ners,
 { \mon } Call back all the days of the a -- ges, { \moff }
 { \mon } All rain -- drops come down from a -- bove; { \moff }
 All { \mon } flow -- ers of sum -- mers de -- { \moff } part -- ed,
-But think not to mea -- sure His love.
+But think not to mea -- { \mon } sure His { \moff } love.
 
 }
 
@@ -161,9 +189,8 @@ wordsF = \markuplist {
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
