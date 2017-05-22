@@ -2,6 +2,11 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
+  % decrease system-to-system padding to fit onto page with previous score
+  system-system-spacing.padding = 0
+  system-system-spacing.basic-distance = 0
+  markup-system-spacing.padding = 0
+  markup-system-spacing.basic-distance = 0
 }
 
 \header{

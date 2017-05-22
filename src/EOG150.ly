@@ -1,10 +1,11 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
+  % shrink space before markup verses to fit next hymn on same page
+  score-markup-spacing.padding = #2
+  score-markup-spacing.basic-distance = #2
 }
 
 \header{
@@ -14,7 +15,6 @@
   meter = "S. M."
   poet = "I. Watts"
   composer = "Williams"
-  %copyright = ""
   tagline = ##f
 }
 

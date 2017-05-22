@@ -2,6 +2,9 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
+  % shrink space before markup verses to fit next hymn on same page
+  score-markup-spacing.padding = #1.9
+  score-markup-spacing.basic-distance = #1.9
 }
 
 \header{

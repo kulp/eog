@@ -2,6 +2,10 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
+  page-count = #(cond (is-eogsized 2) (#t #f))
+  % shrink space before markup verses to fit next hymn on same page
+  score-markup-spacing.padding = #2
+  score-markup-spacing.basic-distance = #2
 }
 
 \header{
