@@ -6,7 +6,7 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
 print <<'EOF';
 \documentclass{letter}
-\usepackage[tmargin=16pt,bmargin=16pt,inner=0pt,outer=0pt,paperwidth=6in,paperheight=9in]{geometry}
+\usepackage[tmargin=15pt,bmargin=16pt,inner=0pt,outer=0pt,paperwidth=6in,paperheight=9in]{geometry}
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
 
