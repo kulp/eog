@@ -71,7 +71,7 @@ notesBass = {
   a1 | a2 a fis fis | d1 e | a,1.
   e'2 | e e a, a | b1 b | e1.
   cis2 | cis cis fis1 ~ | fis2 e e e | a1.
-  cis,2 | cis cis d d | e1 e | a,1\fermata % original does not have fermata in bass clef
+  cis,2 | cis cis d d | e1 e | a,1_\fermata % original does not have fermata in bass clef
 
 }
 }

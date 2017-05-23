@@ -85,7 +85,7 @@ notesBass = {
   a,4 | bes a g bes, | c2.
   r4 | f2 c | f2 ~ f4
   a4 | bes a g c, | f2.
-  d'4 | c bes a bes | a g f\fermata
+  d'4 | c bes a bes | a g f_\fermata
   c4 | f g a bes | <f' c> c, f
 
 }

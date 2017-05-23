@@ -95,7 +95,7 @@ notesBass = {
   \changePitch \patternC { d | e e e e e | a, ~ a r }
 
   a4. a | a a
-  b8. b16 b8 b b b | e4. ~ e4 \fermata
+  b8. b16 b8 b b b | e4. ~ e4_\fermata
   \changePitch \patternA { e | a, a a a' a a | d, ~ d }
   d8 | e4 e8 e e e | a,4. ~ a4
 

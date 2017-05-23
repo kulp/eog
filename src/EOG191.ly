@@ -94,7 +94,7 @@ notesBass = {
   aes8 aes | ees4 ees2
   ees8 ees bes4 bes bes bes | ees2.
   c8 c aes'4 aes2
-  aes8 aes | ees4 ees2 \fermata
+  aes8 aes | ees4 ees2_\fermata
   ees8 ees | ees4 ees bes bes | ees2. r4
 
 }

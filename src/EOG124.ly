@@ -98,8 +98,8 @@ notesBass = {
 
   g4 | g2 g4 g | g2 g4
   g | g2 g4 g | g2 d4
-  e4 | c2 c4 c | d2 d4 \fermata
-  d4 | d2 d4 d | g,1 \fermata |
+  e4 | c2 c4 c | d2 d4_\fermata
+  d4 | d2 d4 d | g,1_\fermata |
 
 }
 }

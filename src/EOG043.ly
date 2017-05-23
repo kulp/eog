@@ -110,7 +110,7 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { ees | ees ees ees bes | ees ees ees \fermata }
+  \changePitch \patternAA { ees | ees ees ees bes | ees ees ees_\fermata }
   \changePitch \patternAB { ees ees ees ees | bes ees }
   \changePitch \patternAC { ees | ees ees ees bes | ees ees ees }
   \changePitch \patternAD { ees ees ees ees | bes ees }

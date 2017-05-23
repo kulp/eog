@@ -86,7 +86,7 @@ notesBass = {
   fis4 fis fis fis | b,1 |
   gis'4 e a fis | fis b, e e |
   eis cis fis fis | b,1 |
-  cis4 cis b b | e d cis a\fermata |
+  cis4 cis b b | e d cis a_\fermata |
   b4 b b b | e1 |
 
 }

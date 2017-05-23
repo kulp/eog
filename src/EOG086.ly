@@ -95,7 +95,7 @@ notesBass = {
   \changePitch \patternAA { g' g g g | fis g d d }
   \changePitch \patternBA { d g c, c | d d g, }
 
-  \changePitch \patternCA { g' g g | < g g, > < g g, > < g g, > \fermata }
+  \changePitch \patternCA { g' g g | < g g, > < g g, > < g g, >_\fermata }
   \changePitch \patternBA { g e b c | d d g, }
 
 }

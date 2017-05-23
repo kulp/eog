@@ -95,7 +95,7 @@ notesBass = {
   \changePitch \patternD { f' | f f f f | bes, bes bes }
   bes8 | ees2 ees | bes2.
   \changePitch \patternA { bes | f' f f f | c d ees }
-  \changePitch \patternE { e | f f\fermata | bes, }
+  \changePitch \patternE { e | f f_\fermata | bes, }
 
 }
 }

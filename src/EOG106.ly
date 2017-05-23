@@ -100,7 +100,7 @@ notesBass = {
 
   c4 | f4. f8 f4 f4 | f4. f8 f4
   f4 | f4. f8 f4 e8[ f8] | c4 bes'4 a4
-  g4 | f4. f8 f4. f8 | f4 f4 bes,4 \fermata
+  g4 | f4. f8 f4. f8 | f4 f4 bes,4_\fermata
   bes4 | c4 c4 c4 c4 | f2.
 
 }

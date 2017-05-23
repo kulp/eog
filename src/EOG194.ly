@@ -93,7 +93,7 @@ notesBass = {
 
   r4 | r4 des8 des des4 r4 | r4 aes8 aes aes4
   c8 ees | aes4 aes aes aes, | ees'2.
-  r4 | r4 aes,8 aes aes4 aes8 c | des4 des des \fermata
+  r4 | r4 aes,8 aes aes4 aes8 c | des4 des des_\fermata
   des8 des | ees4 ees ees ees | aes,2. r4
 
 }

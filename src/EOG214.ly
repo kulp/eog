@@ -104,7 +104,7 @@ notesBass = {
   e4 | a a a a | a cis, d
   fis4 | a fis e4. e8 | a,2
 
-  e'4. e8 | a,2 a'4. a8 | a4\fermata
+  e'4. e8 | a,2 a'4. a8 | a4_\fermata
   a4 d,4 d | e2 e | a,2.
 
 }

@@ -122,7 +122,7 @@ notesBassChorus = {
   \changePitch \patternC { g' g g | g g g g g | g g r }
   \changePitch \patternD { e e a, | d d d d d d | g ~ g r }
   \changePitch \patternC { g g g | g g g g g | g g r }
-  \changePitch \patternA { c, c e | g b\fermata a d, d\fermata d | < g g, > ~ < g g, > }
+  \changePitch \patternA { c, c e | g b_\fermata a d, d\fermata d | < g g, > ~ < g g, > }
 
 }
 }

@@ -71,9 +71,9 @@ notesBass = {
 \relative f {
 
   a | a cis, | d e | a,
-  e'2 | a cis | b a | e\fermata
+  e'2 | a cis | b a | e_\fermata
   e4( d) | cis2 a | d fis4( e) | d2 b | e
-  cis2 | d b | e e | a,\fermata
+  cis2 | d b | e e | a,_\fermata
 
 }
 }

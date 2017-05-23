@@ -91,17 +91,17 @@ notesBass = {
 \global
 \relative f {
 
-  ees4 | bes ees c g | aes c ees\fermata
-  ees4 | aes f g f | ees f bes,\fermata
-  ees | aes, g aes bes | aes( bes) ees\fermata
-  ees4 | bes ees c g | aes c ees\fermata
-  ees4 | aes f g f | ees f bes,\fermata
-  ees | aes, g aes bes | aes( bes) ees\fermata r4
+  ees4 | bes ees c g | aes c ees_\fermata
+  ees4 | aes f g f | ees f bes,_\fermata
+  ees | aes, g aes bes | aes( bes) ees_\fermata
+  ees4 | bes ees c g | aes c ees_\fermata
+  ees4 | aes f g f | ees f bes,_\fermata
+  ees | aes, g aes bes | aes( bes) ees_\fermata r4
 
-  bes4( d) ees2 | bes4( d) ees2\fermata |
-  d4 ees bes ees\fermata | d4 ees bes ees\fermata |
-  c4 bes bes2 | ees\fermata
-  c4 g' | aes ees d ees | bes2 ees4\fermata
+  bes4( d) ees2 | bes4( d) ees2_\fermata |
+  d4 ees bes ees_\fermata | d4 ees bes ees\fermata |
+  c4 bes bes2 | ees_\fermata
+  c4 g' | aes ees d ees | bes2 ees4_\fermata
 
 }
 }

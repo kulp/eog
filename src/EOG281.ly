@@ -84,7 +84,7 @@ notesBass = {
   c,4 | g' a8[ d,] e4 c | d2 g,4
   g'4 | c,8[ b] a4 d d8[ c!] | b[ a] g4 c
   g4 | a b8[ cis] d4 g, | a2 d4
-  g,4 | c g' a8[ d,] e4 | c( d) g,\fermata
+  g,4 | c g' a8[ d,] e4 | c( d) g,_\fermata
 
 }
 }

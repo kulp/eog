@@ -91,12 +91,12 @@ notesBass = {
   ees8 | ees ees ees ees ~ ees ees | ees ees ees ees4
   ees8 | bes bes bes bes bes bes | ees ees ees ees4
   ees8 | ees ees ees ees ees ees | ees ees ees ees4
-  ees8 | f4 f8 f4 f8 | bes,4 bes8 bes4 \fermata
+  ees8 | f4 f8 f4 f8 | bes,4 bes8 bes4_\fermata
 
   bes8 | ees4 ees8 ees4 ees8 | aes4 aes8 aes4
   aes,8 | bes4 bes8 bes4 bes8 | ees4 ees8 ees4
   bes8 | ees8. ees16 ees8 f8. f16 f8 | g g g aes4
-  aes8 \fermata | bes4 bes8 bes,4 bes8 | ees4 ees8 ees4 \fermata
+  aes8_\fermata | bes4 bes8 bes,4 bes8 | ees4 ees8 ees4 \fermata
 
 }
 }

@@ -83,7 +83,7 @@ b2 | a d, g b,4( c) | d2 d g
 g2 | b,2. b4 c2 c | cis2. cis4 d2
 dis2 | e fis g a | b b e,
 e2 | c2. c4 f2 f | d2. d4 g2
-b,2 | c fis, g g | g2. c4 \tb c2 \fermata \ta
+b,2 | c fis, g g | g2. c4 \tb c2_\fermata \ta
 
 
 }

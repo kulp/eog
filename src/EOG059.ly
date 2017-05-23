@@ -85,7 +85,7 @@ notesBass = {
   \changePitch \patternBA { c c e | g g g }
   \changePitch \patternBA { d d fis | g g g }
   \changePitch \patternBA { g, a b | c c g }
-  \changePitch \patternAC { d' d \fermata d | g, ~ g }
+  \changePitch \patternAC { d' d_\fermata d | g, ~ g }
 
 }
 }

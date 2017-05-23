@@ -104,7 +104,7 @@ notesBass = {
   r4 | r8. f16 f8. f16 f8. f16 f8. f16 | bes,2.
 
   \changePitch \patternC { f' | f f f f | bes, bes bes }
-  bes4 | ees8 ees c d ees4 e | f4. g8 a4 \fermata
+  bes4 | ees8 ees c d ees4 e | f4. g8 a4_\fermata
   \changePitch \patternC { f | bes, bes bes d | ees ees ees }
   \changePitch \patternD { ees | f f f f f f | < f bes, > }
 

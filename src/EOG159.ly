@@ -95,8 +95,8 @@ notesBass = {
 
   r4 | r des8 des des4 f8. f16 | ges4 ges8 ges ges4
   ges8. ges16 | des4. des8 des4 des | aes4 aes8 aes aes4 r4 |
-  r4 des8 des des4 f8. f16 | ges4 ges8 ges \tb ges4 \fermata
-  ges8. \fermata \ta ges16 | des8 des f ges aes4 aes, | des2. r4
+  r4 des8 des des4 f8. f16 | ges4 ges8 ges \tb ges4_\fermata
+  ges8._\fermata \ta ges16 | des8 des f ges aes4 aes, | des2. r4
 
 }
 }

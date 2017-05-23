@@ -91,7 +91,7 @@ notesBass = {
   c'8 b | a4. a8 d,4 d | g2.
 
   g8. g16 | d4 d d d8. d16 | g4 g g
-  g8. g16 | e4. e8 a4 a | d,4 d d \fermata
+  g8. g16 | e4. e8 a4 a | d,4 d d_\fermata
   g8. g16 | g4 g g g8. g16 | d4 d d
   d8 g | c,4. c8 d4 d | << g2. g,2. >>
 

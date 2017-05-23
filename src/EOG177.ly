@@ -98,7 +98,7 @@ notesBass = {
   \changePitch \patternA { d | d d d d d d | e cis cis a a }
   \changePitch \patternB { a' | a a a d, d fis | a a, a d }
   \changePitch \patternC { d | d d d d e fis | g g g d d }
-  \changePitch \patternD { d | e e d cis b a | e' e e a, \fermata }
+  \changePitch \patternD { d | e e d cis b a | e' e e a,_\fermata }
 
   r4 | r \tuplet 3/2 { d8[ d d] } d4 \tuplet 3/2 { e8[ e e] } | a8. a16 a8. a16 a8 a
   r4 | r4 a8. a16 a4 a,8. a16 | d8. d16 d8. d16 d4

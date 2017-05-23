@@ -73,7 +73,7 @@ notesBass = {
 
   f8( c) | f4 f c c | f f f
   f4 | c c e c | e f f
-  f8( c) | f4 f c c | f f f\fermata
+  f8( c) | f4 f c c | f f f_\fermata
   f4 | a, bes f' bes, | c c f
 
 }

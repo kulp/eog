@@ -83,11 +83,11 @@ notesBass = {
 \global
 \relative f {
 
-  ees2 | ees ees ees ees | ees ees ees \fermata
-  ees2 | ees ees ees ees | ees ees ees \fermata
+  ees2 | ees ees ees ees | ees ees ees_\fermata
+  ees2 | ees ees ees ees | ees ees ees_\fermata
   ees2 | ees g f f | ees1.
-  ees2 | aes f g g | aes f g \fermata
-  g2 | fis g c, d | ees f bes \fermata
+  ees2 | aes f g g | aes f g_\fermata
+  g2 | fis g c, d | ees f bes_\fermata
   g2 | g g f f | c1.
   g2 | aes1 bes | ees1.
 

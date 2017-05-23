@@ -74,7 +74,7 @@ notesBass = {
   d8 b d | g4 g4 ~ g8 g,8 a b | c4 c4 ~ c8
   d8 d d | d4 d fis d | g,2 ~ g8
   g'8 g g | g4 g4 ~ g8 g,8 a b | c4 c4 ~ c8
-  d8 d d | d4 d d d | <g g,>2\fermata ~ <g g,>8
+  d8 d d | d4 d d d | <g g,>2_\fermata ~ <g g,>8
 
 }
 }

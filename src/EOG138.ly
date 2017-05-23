@@ -102,7 +102,7 @@ notesBass = {
   \changePitch \patternAA { d d d d fis d | g g g g d }
   \changePitch \patternAB { d d d d fis d | a a a a a }
   \changePitch \patternAC { d d d d fis d | g g g g d }
-  \changePitch \patternBA { a' a a a a \fermata a | d, r }
+  \changePitch \patternBA { a' a a a a_\fermata a | d, r }
 
   \changePitch \patternCA { a' a a a a | d, d d d d }
   \changePitch \patternDA { d d d d g g g g | e e a }

@@ -122,12 +122,12 @@ notesBass = {
   \changePitch \patternA { a a a a a a | d d d a r }
   \changePitch \patternA { a a a a a a | e' e e e r }
   \changePitch \patternA { a, a a a a a | d d d a r }
-  \changePitch \patternB { e' e e e e e | e e e a,\fermata r }
+  \changePitch \patternB { e' e e e e e | e e e a,_\fermata r }
 
   \changePitch \patternC { e' e e e r | a a a a r }
-  fis8 fis fis fis fis fis | b, b b e4.\fermata
+  fis8 fis fis fis fis fis | b, b b e4._\fermata
   \changePitch \patternA { a, a a a a a | d d d a r }
-  \changePitch \patternB { e' e e e e e | e e e a,\fermata r }
+  \changePitch \patternB { e' e e e e e | e e e a,_\fermata r }
 
 }
 }

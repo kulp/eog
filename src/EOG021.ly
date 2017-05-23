@@ -122,7 +122,7 @@ notesBass = {
   \changePitch \patternAB { g d d | d d d d d d | g g g }
   \changePitch \patternBA { g     | c c a a d,  }
   \changePitch \patternAA { d g g | g f e d     | c     }
-  \changePitch \patternBB { a     | d d d g,    | g \fermata }
+  \changePitch \patternBB { a     | d d d g,    | g_\fermata }
 
 }
 }

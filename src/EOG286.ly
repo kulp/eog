@@ -72,7 +72,7 @@ notesBass = {
 
   g4 | g fis g e | d d g
   g | e fis g a | d,2.
-  d4\fermata | g b c b | a g d
+  d4_\fermata | g b c b | a g d
   g4 | d e c d | g,2.
 
 }

@@ -175,7 +175,7 @@ notesBass = {
   \changePitch \patternBA { g ees | bes }
 
   \changePitch \patternAA { ees ees | ees ees ees ees ees }
-  \changePitch \patternAC { ees ees | aes aes aes aes aes \fermata }
+  \changePitch \patternAC { ees ees | aes aes aes aes aes_\fermata }
   \changePitch \patternAA { g f | ees ees ees ees bes }
   \changePitch \patternBA { bes bes | ees }
 
