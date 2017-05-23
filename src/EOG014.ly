@@ -3,8 +3,8 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   % decrease system-to-system padding to fit onto page with next score
-  system-system-spacing.padding = 0.5
-  system-system-spacing.basic-distance = 0.5
+  system-system-spacing.padding = 0.4
+  system-system-spacing.basic-distance = 0.4
 }
 
 \header{
