@@ -27,7 +27,7 @@
 }
 
 \header{
-  hymnnumber = "376"
+  hymnnumber = "8"
   title = "Now Have I Seen Thee and Found Thee"
   tunename = ""
   meter = "P. M."
