@@ -2,16 +2,9 @@
 use strict;
 use warnings;
 
+use File::Basename qw(fileparse);
+
 our $crop_threshold = 72; # points of smallest reasonable croppable thing
-
-print <<'EOF';
-\documentclass{letter}
-\usepackage[tmargin=15pt,bmargin=16pt,inner=0pt,outer=0pt,paperwidth=6in,paperheight=9in]{geometry}
-\usepackage{graphicx}
-\setlength{\parindent}{0pt}
-
-\begin{document}
-EOF
 
 # TODO first page ("title page" ?) gets undesired extra whitespace at top
 
@@ -20,9 +13,11 @@ my $prev_clip   = ""; # stringified boolean
 my $max_height  = 546; # points (199mm, 7.833in)
 
 for my $pdf (@ARGV) {
-    open my $pipe, qq(convert "$pdf" -trim info:-|);
+    my ($name,$path,$suffix) = fileparse($pdf,".pdf");
+    open my $metrics, qq($path../../metrics/$name.metrics)
+        or die "Cannot open metrics file: $!";
     my $page = 0;
-    while (<$pipe>) {
+    while (<$metrics>) {
         $page++;
         my @dims = map /(\d+)/g, (split " ")[2,3];
         my ($width, $height, $total_width, $total_height, $crop_amount_left, $crop_amount_top) = @dims;
@@ -56,8 +51,4 @@ for my $pdf (@ARGV) {
                $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
 }
-
-print <<'EOF';
-\end{document}
-EOF
 

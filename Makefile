@@ -153,13 +153,27 @@ $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	lame $(LAMEOPTS) $< $@
 	mp3info2 -u $@
 
-headers TXT/latinized:
+headers TXT/latinized metrics texels:
 	mkdir -p $@
 
 check:
 	!(git grep -n '\b[A-Z][A-Z][a-z]' src/) # check for initial miscapitalization
 	perl -ne 'die "$$ARGV\n" if /bold (\d+) .*?words(\w+)/g and $$1 != ord($$2) - ord("A") + 1' src/*.ly
 	perl -ne 'next unless ($$written) = /hymnnumber = "(\d+)"/; die $$ARGV if $$written != ($$ARGV =~ /EOGa?(\d+)/)[0]' src/*.ly
+
+metrics/%.metrics: PDF/eogsized/%.pdf | metrics
+	convert "$<" -trim info:"$@" || rm $@
+
+texels/%.texel: PDF/eogsized/%.pdf metrics/%.metrics | texels
+	scripts/makebook.pl $< > $@ || rm $@
+
+booklayout/book.tex: booklayout/header.texi $(LYS:%.ly=texels/%.texel) booklayout/footer.texi
+	cat $^ > $@ || rm $@
+
+%.pdf: %.tex
+	lualatex --output-directory=$(@D) $<
+
+book: booklayout/book.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
