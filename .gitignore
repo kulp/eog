@@ -15,3 +15,5 @@ scripts/kulpstuff.js
 deps/
 headers/
 *.m3u
+texels/
+metrics/
