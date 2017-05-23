@@ -161,15 +161,19 @@ check:
 	perl -ne 'die "$$ARGV\n" if /bold (\d+) .*?words(\w+)/g and $$1 != ord($$2) - ord("A") + 1' src/*.ly
 	perl -ne 'next unless ($$written) = /hymnnumber = "(\d+)"/; die $$ARGV if $$written != ($$ARGV =~ /EOGa?(\d+)/)[0]' src/*.ly
 
+CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	convert "$<" -trim info:"$@" || rm $@
 
+CLOBBERFILES += texels/
 texels/%.texel: PDF/eogsized/%.pdf metrics/%.metrics | texels
 	scripts/makebook.pl $< > $@ || rm $@
 
+CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: booklayout/header.texi $(LYS:%.ly=texels/%.texel) booklayout/footer.texi
 	cat $^ > $@ || rm $@
 
+CLOBBERFILES += booklayout/book.pdf
 %.pdf: %.tex
 	lualatex --output-directory=$(@D) $<
 
