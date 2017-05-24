@@ -1,24 +1,15 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
-
-% TODO don't duplicate the music ? it's not duplicated in the original EOG ...
-% but on the other hand, the music had to be adapted to these words, so
-% EOG043's music is not identical to EOG042's.
 
 \header{
   hymnnumber = "43"
   title = "“Behold the Lamb” Enthroned on High"
   tunename = ""
   meter = "P. M."
-  %poet = ""
+  poet = ""
   composer = "Arr. by J. H. Stockton"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -190,7 +181,7 @@ wordsD = \markuplist {
 
     \vspace #0.5
 
-    \fill-line \smaller { "Sing to above tune and refrain" }
+    \fill-line \smaller { "Sing to previous tune and refrain" }
 
     \vspace #0.5
 
