@@ -170,8 +170,11 @@ texels/%.texel: PDF/eogsized/%.pdf metrics/%.metrics | texels
 	scripts/makebook.pl $< > $@ || rm $@
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
-booklayout/book.tex: booklayout/header.texi $(LYS:%.ly=texels/%.texel) booklayout/footer.texi
-	cat $^ > $@ || rm $@
+booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
+	cat $(word 1,$^) > $@ || rm $@
+	scripts/makebook.pl $| >> $@ || rm $@
+	cat $(word 2,$^) >> $@ || rm $@
+
 
 CLOBBERFILES += booklayout/book.pdf
 %.pdf: %.tex
