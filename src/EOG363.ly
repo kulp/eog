@@ -192,16 +192,11 @@ wordsE = \markuplist {
   }
 }
 
-\noPageBreak
+\eogpagebreak
 
 \markup { \fill-line { \column {
-  \raise #5
+  \vspace #1
   \line{ \bold 4 \column { \wordsD } }
-} } }
-
-\pageBreak
-
-\markup { \fill-line { \column {
   \vspace #0.8
   \line{ \bold 5 \column { \wordsE } }
 } } }

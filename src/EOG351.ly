@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 14
 }
 
 \header{

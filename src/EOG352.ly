@@ -4,6 +4,7 @@
   ragged-bottom = ##t
   system-count = #(cond (is-eogsized 3) (#t #f)) % squeezed into 3 systems -- needs spacing adjustment below, in \layout { }
   page-count = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 14
 }
 
 \header{

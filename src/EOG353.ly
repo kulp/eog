@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
+  system-system-spacing.padding = 14
 }
 
 \header{
