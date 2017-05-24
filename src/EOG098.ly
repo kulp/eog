@@ -129,10 +129,10 @@ Sing, with the ran -- somed, E -- ter -- ni -- ty’s song! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Just on the thresh -- old! O, why not come in,
-Leav -- ing the maz -- es of dark -- ness and sin?
-For -- ward the light, and the glo -- ry di -- vine;
-Back -- ward the dan -- gers, and woes that were thine.
+Just on the thresh -- old! O, why not come in, \bar "."
+Leav -- ing the maz -- es of dark -- ness and sin? \bar "."
+For -- ward the light, and the glo -- ry di -- vine; \bar "."
+Back -- ward the dan -- gers, and woes that were thine. \bar "."
 
 }
 
