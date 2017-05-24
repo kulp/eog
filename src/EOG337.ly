@@ -2,8 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  %systems-per-page = ##f
   page-count = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 11
 }
 
 \header{

@@ -151,10 +151,10 @@ wordsB = \markuplist {
 
     \fill-line {
       \column {
-        \vspace #1 \line { \bold 1 \column { \wordsA } }
-        \vspace #1 \line { \bold 2 \column { \wordsB } }
+        \vspace #2 \line { \bold 1 \column { \wordsA } }
+        \vspace #2 \line { \bold 2 \column { \wordsB } }
 
-        \vspace #1 \line { \smaller { May be sung to tune No. 304 – opposite page } }
+        \vspace #2 \line { \smaller { May be sung to tune No. 304 – opposite page } }
       }
     }
   }
