@@ -114,10 +114,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Are you wash’d in the blood—
-In the soul -- clean -- sing blood of the Lamb?
-Are your gar -- ments spot -- less? Are they white as snow?
-Are you wash’d in the blood of the Lamb?
+Are you wash’d in the blood— \bar "."
+In the soul -- clean -- sing blood of the Lamb? \bar "."
+Are your gar -- ments spot -- less? Are they white as snow? \bar "."
+Are you wash’d in the blood of the Lamb? \bar "."
 
 }
 
