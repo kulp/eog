@@ -4,6 +4,8 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   page-count = ##f
+  score-markup-spacing.padding = 3
+  score-markup-spacing.basic-distance = 3
 }
 
 \header{

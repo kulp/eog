@@ -3,6 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
 }
 
 \header{
@@ -33,10 +34,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-  e8. f16 | g4 e g | c2 c8. c16 | b4 a f | a2
-  a4 | g e g | f d f | e2. ~ | e4 r
-  e8. f16 | g4 e g | c2 c8. c16 | b4 a f | a2
-  a4 | g e c' | b a b | c2. ~ | c4 r
+  e8. f16 | g4 e g | c2 c8. c16 | b4 a f | a2 \eogbreak
+  a4 | g e g | f d f | e2. ~ | e4 r \eogbreak
+  e8. f16 | g4 e g | c2 c8. c16 | b4 a f | a2 \eogbreak
+  a4 | g e c' | b a b | c2. ~ | c4 r \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { b8. c16 | d2. ~ | d4 c d | e2. ~ | e2 } >>

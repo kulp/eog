@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 4) (#t #f))
-  system-count = #(cond (is-eogsized 5) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{
@@ -37,7 +37,7 @@ notesSoprano = {
   ees8 | g g g g( aes) bes | c bes a bes4
   bes8 | bes aes g f g aes | aes g fis g4
   ees8 | g g g g aes bes | c bes a bes4
-  g8 | f4 bes8 bes4 a8 | bes4. ~ \tb bes4 \fermata \ta
+  g8 | f4 bes8 bes4 a8 | bes4. ~ \tb bes4 \fermata \ta \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { bes8 | bes4 bes8 g8[ aes] bes | c4. ~ c4 } >>

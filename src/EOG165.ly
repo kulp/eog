@@ -1,9 +1,10 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 11
+  markup-markup-spacing.padding = 6
 }
 
 \header{

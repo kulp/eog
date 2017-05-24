@@ -3,6 +3,8 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -52,7 +54,7 @@ notesSoprano = {
   \changePitch \patternAA { f g | a f d g g | f e f }
   \changePitch \patternAB { a a | g g g c e, f | e d c }
   \changePitch \patternAA { c c | f a g c, c | g' bes a }
-  \changePitch \patternBA { f a | c c c bes f g | a g f }
+  \changePitch \patternBA { f a | c c c bes f g | a g f } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternCA { c' c c c c c | d c c } >>
