@@ -26,6 +26,8 @@ ENCODING_PERSON = Darren Kulp <darren@kulp.ch>
 BOOK_NAME = Echoes of Grace
 TOTAL_FILE_COUNT = 384
 
+LILYPOND ?= lilypond
+
 space :=#
 space +=#
 comma :=,
@@ -186,7 +188,7 @@ CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
 PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
 	mkdir -p $(@D)
-	lilypond $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
+	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
 	-mv $(@D)/$(*F).pdf  PDF/$(*D)/
 	-mv $(@D)/$(*F).midi MIDI/$(*D)/
 	-mv $(@D)/$(basename $(*F)).$(HEADER_BRACES) headers/
