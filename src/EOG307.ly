@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   system-count = #(cond (is-eogsized 4) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 40." } }
 }
 
 \header{
@@ -168,8 +169,6 @@ Or Je -- sus Christ in glo -- ry see.
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 40. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

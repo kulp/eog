@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 150." } }
 }
 
 \header{
@@ -175,8 +176,6 @@ How oft re -- peat be -- fore the throne,
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 150. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

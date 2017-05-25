@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   system-count = #(cond (is-eogsized 4) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 190, 191, 291." } }
 }
 
 \header{
@@ -11,7 +12,6 @@
   meter = "8. 7. 8. 7. 4. 7."
   poet = "W. Williams"
   composer = "From Friedrich Filitz"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -151,10 +151,6 @@ Take Thy wait -- ing peo -- ple home.
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak
-
-\markup { \fill-line { \lower #4 \line { Alternate tunes: No.’s 190, 191, 291. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

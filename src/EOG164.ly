@@ -5,11 +5,7 @@
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 5) (#t #f))
   page-count = ##f
-  oddFooterMarkup = \markup {
-    \fill-line {
-      \on-the-fly \first-page \line { Alternate tunes: No.’s 144, 248. }
-    }
-  }
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 144, 248." } }
 }
 
 \header{

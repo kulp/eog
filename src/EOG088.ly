@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 3 in Supplement." } }
 }
 
 \header{
@@ -202,10 +203,6 @@ wordsH = \markuplist {
   \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
   \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
 } } }
-
-\noPageBreak
-
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 3 in Supplement. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

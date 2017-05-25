@@ -3,6 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 164." } }
 }
 
 \header{
@@ -12,7 +13,6 @@
   meter = "L. M. D."
   poet = "J. G. Deck"
   composer = "Wm. B. Bradbury"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -190,8 +190,6 @@ In ev -- ’ry -- thing con -- formed to Thee!
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 164. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

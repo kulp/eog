@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 328." } }
 }
 
 \header{
@@ -198,8 +198,6 @@ wordsE = \markuplist {
   \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
 } }
-
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 328. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

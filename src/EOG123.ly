@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   system-count = #(cond (is-eogsized 4) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 7." } }
 }
 
 \header{
@@ -11,7 +12,6 @@
   meter = "8. 8. 8. 8. 4. 8."
   poet = "G. W. Frazer"
   composer = "J. B. Dykes"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -154,10 +154,6 @@ For light di -- vine He’s made us meet.
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak
-
-\markup { \fill-line { \line { Alternate tune: No. 7. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

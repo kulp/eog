@@ -5,6 +5,7 @@
   systems-per-page = #(cond (is-eogsized 4) (#t #f))
   system-count = #(cond (is-eogsized 6) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 155 and 308." } }
 }
 
 \header{
@@ -215,9 +216,6 @@ Of Je -- sus and His love.
     \include "common/midi.ily"
   }
 }
-
-% TODO move to first page, like original
-\noPageBreak \markup { \fill-line { "Alternate tune: No.’s 155 and 308." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

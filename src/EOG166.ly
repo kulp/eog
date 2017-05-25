@@ -3,6 +3,7 @@
   \include "common/paper.ily"
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 3) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 270." } }
 }
 
 \header{
@@ -12,7 +13,6 @@
   meter = "10s."
   poet = "J. G. Deck"
   composer = "Dr. E. J. Hopkins"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -161,10 +161,6 @@ wordsE = \markuplist {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
-
-\noPageBreak
-
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 270. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

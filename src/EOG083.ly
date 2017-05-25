@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   system-count = #(cond (is-eogsized 4) (#t #f))
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 349." } }
 }
 
 \header{
@@ -11,7 +12,6 @@
   meter = "11’s."
   poet = "H. K. Burlingham"
   composer = "Handel"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -40,7 +40,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key e \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -251,10 +250,6 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak
-
-\markup { \fill-line { \line { Alternate tune: No. 349. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
