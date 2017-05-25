@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 5." } }
 }
 
 \header{
@@ -14,7 +11,6 @@
   meter = "8. 3. 8. 3. 8. 8. 3"
   poet = "Howard Kingsbury"
   composer = "R. G. Halls"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -181,10 +177,6 @@ God is love, God is love.
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak
-
-\markup { \fill-line { \line { Alternate tune: No. 5. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

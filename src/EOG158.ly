@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 321." } }
 }
 
 \header{
@@ -14,7 +11,6 @@
   meter = "8. 8. 6. D."
   poet = "S. Medley"
   composer = "Anon."
-  %copyright = ""
   tagline = ##f
 }
 
@@ -176,10 +172,6 @@ In sing -- ing still His grace.
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak
-
-\markup { \fill-line { \raise #5 \line { Alternate tune: No. 321. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

@@ -1,10 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 6." } }
 }
 
 \header{
@@ -14,7 +12,6 @@
   meter = "10s"
   poet = "H. d’A. Champney"
   composer = "W. H. Monk"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -186,10 +183,6 @@ wordsF = \markuplist {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
 } } }
-
-\noPageBreak
-
-\markup { \vspace #2 \fill-line { \line { Alternate tune: No. 6. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

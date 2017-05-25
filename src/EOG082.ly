@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 34." } }
 }
 
 \header{
@@ -180,9 +177,6 @@ Says, “Sin -- ner, I am thine!”
   }
 }
 
-\noPageBreak
-
-\markup { \fill-line { \line { Alternate tune: No. 34. } } }
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
