@@ -112,10 +112,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Once for all, O, sin -- ner, re -- ceive it;
-Once for all, O, bro -- ther, be -- lieve it;
-Cling to the cross, the bur -- den will fall;
-Christ hath re -- deem’d us once for all.
+Once for all, O, sin -- ner, re -- ceive it; \bar "."
+Once for all, O, bro -- ther, be -- lieve it; \bar "."
+Cling to the cross, the bur -- den will fall; \bar "."
+Christ hath re -- deem’d us once for all. \bar "."
 
 }
 
