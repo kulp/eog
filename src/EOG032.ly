@@ -90,14 +90,16 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Room, room, still room! O, en -- ter, en -- ter now!
+Room, room, still room! \bar "."
+O, en -- ter, en -- ter now! \bar "."
 
 }
 
 RefrainH = \lyricmode {
 
  { \italicsOn }
-No room! no room! O, woe -- ful cry!— “No room!”
+No room! no room! \bar "."
+O, woe -- ful cry!— “No room!” \bar "."
  { \italicsOff }
 
 }

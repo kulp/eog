@@ -97,12 +97,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Al -- most per -- suad -- ed” now to be -- lieve;
-“Al -- most per -- suad -- ed:” Christ to re -- ceive;
-Seems now some soul to say?
-“Go, Spi -- rit, go Thy way:
-Some more con -- ve -- nient day
-On Thee I’ll call.”
+“Al -- most per -- suad -- ed” now to be -- lieve; \bar "."
+“Al -- most per -- suad -- ed:” Christ to re -- ceive; \bar "."
+Seems now some soul to say? \bar "."
+“Go, Spi -- rit, go Thy way: \bar "."
+Some more con -- ve -- nient day \bar "."
+On Thee I’ll call.” \bar "."
 
 }
 

@@ -97,18 +97,18 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-  O -- pen the door, He’ll en -- ter in,
-  And sup with you, and you with Him.
+  O -- pen the door, He’ll en -- ter in, \bar "."
+  And sup with you, and you with Him. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  Be -- hold the Sav -- iour at the door!
-  He gen -- tly knocks— has knocked be -- fore;
-  Has wait -- ed long— is wait -- ing still:
-  You use no oth -- er friend so ill.
+  Be -- hold the Sav -- iour at the door! \bar "."
+  He gen -- tly knocks— has knocked be -- fore; \bar "."
+  Has wait -- ed long— is wait -- ing still: \bar "."
+  You use no oth -- er friend so ill. \bar "."
 
 }
 

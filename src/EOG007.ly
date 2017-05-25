@@ -35,15 +35,16 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternA { d  | g b d b | b a a   } \bar "."
-  \changePitch \patternA { b  | c c c a | g fis g } \bar "."
-  \changePitch \patternA { d  | g b d b | b a a   } \bar "."
-  \changePitch \patternA { b  | c c c a | g fis g } \bar "."
+  \changePitch \patternA { d  | g b d b | b a a   }
+  \changePitch \patternA { b  | c c c a | g fis g }
+  \changePitch \patternA { d  | g b d b | b a a   }
+  \changePitch \patternA { b  | c c c a | g fis g }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternA { d' | d d d d | e e e   } \bar "." >>
-  \changePitch \patternA { e  | d b b g | b b a   } \bar "."
-  \changePitch \patternA { d, | g g g b | a a g   } \bar "|."
+  \changePitch \patternA { d' | d d d d | e e e   } >>
+  \changePitch \patternA { e  | d b b g | b b a   }
+  \changePitch \patternA { d, | g g g b | a a g   }
+  \bar "|."
 
 }
 }
@@ -100,19 +101,19 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-  On Christ, the sol -- id Rock, I stand;
-  All oth -- er ground is sink -- ing sand,
-  All oth -- er ground is sink -- ing sand.
+  On Christ, the sol -- id Rock, I stand; \bar "."
+  All oth -- er ground is sink -- ing sand, \bar "."
+  All oth -- er ground is sink -- ing sand. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  My hope on noth -- ing less is built
-  Than Je -- sus, and the blood He spilt;
-  I dare not trust the sweet -- est frame,
-  But whol -- ly lean on His blest name.
+  My hope on noth -- ing less is built \bar "."
+  Than Je -- sus, and the blood He spilt; \bar "."
+  I dare not trust the sweet -- est frame, \bar "."
+  But whol -- ly lean on His blest name. \bar "."
 }
 
 wordsB = \lyricmode {

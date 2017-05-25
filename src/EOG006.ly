@@ -120,9 +120,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-  “Come un -- to Me,” “Come un -- to Me,”
-  “Come un -- to Me, and I will give you rest,”
-  I will give you rest, I will give you rest.
+  “Come un -- to Me,” “Come un -- to Me,” \bar "."
+  “Come un -- to Me, and I will give you rest,” \bar "."
+  I will give you rest, I will give you rest. \bar "."
 
 }
 

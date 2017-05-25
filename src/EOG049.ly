@@ -11,7 +11,6 @@
   meter = "P. M."
   poet = "James McGranahan"
   composer = "James McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -120,10 +119,10 @@ Ver -- i -- ly, ver -- i -- ly,” mes -- sage ev -- er new; \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O what a Sav -- iour that He died for me!
-From con -- dem -- na -- tion He hath made me free;
-“He \mon that be -- \moff liev -- eth on the Son,” saith He,
-{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
+O what a Sav -- iour that He died for me! \bar "."
+From con -- dem -- na -- tion He hath made me free; \bar "."
+“He \mon that be -- \moff liev -- eth on the Son,” saith He, \bar "."
+{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.” \bar "."
 
 }
 

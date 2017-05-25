@@ -89,7 +89,7 @@ wordsA = \lyricmode {
     He bids the guilt -- y now draw near; \bar "."
     Hark, hark! His pre -- cious words I hear— \bar "."
     So soft, so sweet, they ban -- ish fear: \bar "."
-    Mer -- cy’s free, mer -- cy’s free.
+    Mer -- cy’s free, mer -- cy’s free. \bar "."
 
 }
 

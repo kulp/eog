@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
   page-count = #(cond (is-eogsized 2) (#t #f))
@@ -14,7 +13,6 @@
   meter = "8. 7. 8. 7. and Refrain"
   poet = "P. P. Bliss"
   composer = "Mrs. Addie McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -156,10 +154,10 @@ On the cross __ He sealed my par -- don, \bar "." \break
 % This refrain not used in layout, just for lyrics extraction
 RefrainA = \lyricmode {
 
-Sing, O! sing of my Re -- deem -- er,
-With His blood He pur -- chased me, He pur -- chased me;
-On the cross He sealed my par -- don,
-Paid the debt, and made me free.
+Sing, O! sing of my Re -- deem -- er, \bar "."
+With His blood He pur -- chased me, He pur -- chased me; \bar "."
+On the cross He sealed my par -- don, \bar "."
+Paid the debt, and made me free. \bar "."
 
 }
 

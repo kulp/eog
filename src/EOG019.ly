@@ -120,10 +120,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“It is fin -- ished!” yes, in -- deed,
-Fin -- ished ev -- ’ry jot;
-Sin -- ner, this is all you need,
-Tell me, is it not?
+“It is fin -- ished!” yes, in -- deed, \bar "."
+Fin -- ished ev -- ’ry jot; \bar "."
+Sin -- ner, this is all you need, \bar "."
+Tell me, is it not? \bar "."
 
 }
 

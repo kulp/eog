@@ -136,7 +136,6 @@ notesBass = {
 
 RefrainA = \lyricmode {
 
-%\repeat unfold 57 { \skip 4 }
 Gos -- pel bells, how they ring, \bar "."
 O -- ver land, from sea to sea; \bar "." \break
 Gos -- pel bells, free -- ly bring \bar "."

@@ -71,15 +71,15 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { g | g g e g | a c b } \bar "."
-  \changePitch \patternBA { a | g g f g | e ~ e } \bar "."
-  \changePitch \patternAA { g | g g e g | a c b } \bar "."
-  \changePitch \patternBB { a | g g b a b | c ~ c } %\bar "."
+  \changePitch \patternAA { g | g g e g | a c b }
+  \changePitch \patternBA { a | g g f g | e ~ e }
+  \changePitch \patternAA { g | g g e g | a c b }
+  \changePitch \patternBB { a | g g b a b | c ~ c }
 
 	\bar ".|:-||"
 	\repeat volta 2 {
 
-  \changePitch \patternAC { c | d d d c b | c( g) } \bar "."
+  \changePitch \patternAC { c | d d d c b | c( g) }
   \changePitch \patternBB { c | b b b a b | c ~ c }
 
 	}
@@ -147,12 +147,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I gave my life for thee,
-My pre -- cious blood I shed, \break
-That thou might’st ran -- somed be,
-And quick -- ened from the dead; \break
-I gave my life for thee,
-What has thou given for Me? \break
+I gave my life for thee, \bar "."
+My pre -- cious blood I shed, \bar "."
+That thou might’st ran -- somed be, \bar "."
+And quick -- ened from the dead; \bar "."
+I gave my life for thee, \bar "."
+What has thou given for Me? \bar "."
 
 }
 

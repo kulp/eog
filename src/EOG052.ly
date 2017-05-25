@@ -12,9 +12,8 @@
   title = "Hark! Hark! Hear the Glad Tidings"
   tunename = ""
   meter = "P. M."
-  %poet = ""
+  poet = ""
   composer = "German"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -100,26 +99,24 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Hark! hark! hear the glad ti -- dings,
-Soon, soon, Je -- sus will come, %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%}
-Robed, robed in hon -- or and glo -- ry,
-To gath -- er His ran -- somed ones home.
-Yes, yes, O yes,
-To gath -- er His ran -- somed ones home.  %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
+Hark! hark! hear the glad ti -- dings, \bar "."
+Soon, soon, Je -- sus will come, %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} \bar "."
+Robed, robed in hon -- or and glo -- ry, \bar "."
+To gath -- er His ran -- somed ones home. \bar "."
+Yes, yes, O yes, \bar "."
+To gath -- er His ran -- somed ones home.  %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%} \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-% measure bars put on second verse instead of first due to unusual line
-% splitting
-Joy, joy, sound it more loud -- ly, \bar "."
-Sing, sing, glo -- ry to God: \bar "." \break
+Joy, joy, sound it more loud -- ly,
+Sing, sing, glo -- ry to God:
 Soon, soon, Je -- sus is com -- ing,
-Pub -- lish the ti -- dings a -- broad. \bar "." \break
+Pub -- lish the ti -- dings a -- broad.
 Yes, yes, O yes,
-Pub -- lish the ti -- dings a -- broad. \bar "." \break
+Pub -- lish the ti -- dings a -- broad.
 
 }
 
