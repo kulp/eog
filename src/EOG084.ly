@@ -4,8 +4,8 @@
   ragged-last-bottom = ##t
   % original has 5 systems on first page, one on second
   % that's a bit squashed for us
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
-  system-count = #(cond (is-eogsized 5) (#t #f))
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
 }
 
 \header{
@@ -46,7 +46,7 @@ notesSoprano = {
   \changePitch \patternAA { ees g c | bes g g f ees | g f }
   \changePitch \patternAA { f e f | aes c c bes aes | aes g }
   \changePitch \patternAA { ees g bes | ees bes bes aes g | c ~ c }
-  \changePitch \patternAB { c aes c | bes g g f | ees ~ ees }
+  \changePitch \patternAB { c aes c | bes g g f | ees ~ ees } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { bes'[ c] d | ees ees ees d c | c bes } >>

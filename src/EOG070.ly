@@ -4,7 +4,7 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -14,7 +14,6 @@
   meter = "8. 7."
   poet = "Mrs. A. H. Rule"
   composer = "K. Voigtlander"
-  %copyright = ""
   tagline = ##f
 }
 

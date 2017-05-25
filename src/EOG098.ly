@@ -1,11 +1,10 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 5) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
-  system-count = #(cond (is-eogsized 6) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
 }
 
 \header{
@@ -15,7 +14,6 @@
   meter = "P. M."
   poet = "G. Cooper"
   composer = "Mary Whittle Moody"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -47,10 +45,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { c f g | a a a | bes f g | a r }
-  \changePitch \patternBA { a g fis | g a g | f e d | g }
-  \changePitch \patternAA { c, f g | a a a | bes bes b | c r }
-  \changePitch \patternCA { c bes a | d, g f | e a \fermata g | f }
+  \changePitch \patternAA { c f g | a a a | bes f g | a r } \eogbreak
+  \changePitch \patternBA { a g fis | g a g | f e d | g } \eogbreak
+  \changePitch \patternAA { c, f g | a a a | bes bes b | c r } \eogbreak
+  \changePitch \patternCA { c bes a | d, g f | e a \fermata g | f } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternDA { a bes c | a g f | e f g | a r } >>

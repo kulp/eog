@@ -4,7 +4,7 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -14,7 +14,6 @@
   meter = "8. 8. 8. 6."
   poet = "Charlotte Elliot"
   composer = "Wm. B. Bradbury"
-  %copyright = ""
   tagline = ##f
 }
 

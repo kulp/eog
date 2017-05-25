@@ -4,7 +4,7 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -14,7 +14,6 @@
   meter = "6. 6. 6. 6. 8. 8."
   poet = "A. Midlane"
   composer = "J. Darwall"
-  %copyright = ""
   tagline = ##f
 }
 

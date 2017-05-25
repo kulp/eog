@@ -157,12 +157,12 @@ wordsC = \markuplist {
 
     \fill-line {
       \column {
-        \vspace #1 \line { \bold 1 \column { \wordsA } }
-        \vspace #1 \line { \column { \italic { Refrain: } \column { \Refrain } } }
-        \vspace #1 \line { \bold 2 \column { \wordsB } }
-        \vspace #1 \line { \bold 3 \column { \wordsC } }
+        \vspace #2 \line { \bold 1 \column { \wordsA } }
+        \vspace #2 \line { \column { \italic { Refrain: } \column { \Refrain } } }
+        \vspace #2 \line { \bold 2 \column { \wordsB } }
+        \vspace #2 \line { \bold 3 \column { \wordsC } }
 
-        \vspace #1 \line { \smaller { May be sung to tune No. 126. } }
+        \vspace #2 \line { \smaller { May be sung to tune No. 126. } }
       }
     }
   }

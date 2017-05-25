@@ -2,9 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -12,9 +11,8 @@
   title = "O, Blessed Gospel Sound!"
   tunename = "Happy Land"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -34,7 +32,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
-  %\partial 4
   \autoBeamOff
 }
 

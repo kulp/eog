@@ -2,9 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  %ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -14,7 +13,6 @@
   meter = "L. M."
   poet = "T. Kelly"
   composer = "R. Harrison"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -29,7 +27,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
-  %\partial 4
   \autoBeamOff
 }
 

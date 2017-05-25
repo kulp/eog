@@ -4,7 +4,7 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
+  system-system-spacing.padding = 7
 }
 
 \header{
@@ -12,9 +12,8 @@
   title = "Hark! The Saviour’s Voice From Heaven"
   tunename = "Even Me"
   meter = "8. 7. 8. 7. with Refrain"
-  %poet = ""
+  poet = ""
   composer = "W. B. Bradbury"
-  %copyright = ""
   tagline = ##f
 }
 

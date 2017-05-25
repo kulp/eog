@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  % this is a bit squashed. we might be able to fit two systems on the second page
-  system-count = #(cond (is-eogsized 6) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
   systems-per-page = #(cond (is-eogsized 5) (#t #f))
 }
 

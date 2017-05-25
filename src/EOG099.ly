@@ -5,6 +5,7 @@
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
   page-count = #(cond (is-eogsized 1) (#t #f))
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -14,7 +15,6 @@
   meter = "S. M."
   poet = "I. Watts (Psalm 103)"
   composer = "Genevan Psalter"
-  %copyright = ""
   tagline = ##f
 }
 

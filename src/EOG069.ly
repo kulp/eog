@@ -197,7 +197,7 @@ wordsE = \markuplist {
 \eogpagebreak
 
 \markup {
-\vspace #1 % need space between title (evenHeaderMarkup) and verses
+\vspace #2 % need space between title (evenHeaderMarkup) and verses
 \fill-line {
   \hspace #0.1
   \line{ \bold 4 \column { \wordsD } }
