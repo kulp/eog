@@ -34,7 +34,7 @@ patternBE = {       c4 | c2. c4 | c2 c4 }
 
 global = {
   \include "common/overrides.ily"
-  %\override Staff.TimeSignature.style = #'numbered % original has 'C' instead of '4/4' for this hymn
+  \override Staff.TimeSignature.style = #'numbered % original has `c`
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta

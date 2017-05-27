@@ -20,7 +20,7 @@ tb = { \tempo 4=45 }
 
 global = {
   \include "common/overrides.ily"
-  %\override Staff.TimeSignature.style = #'numbered % TODO unify with other styles
+  \override Staff.TimeSignature.style = #'numbered % original has `c`
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
