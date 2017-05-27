@@ -24,7 +24,8 @@ HEADERS       = hymnnumber title poet composer meter tunename
 WEB_BASE = http://purl.org/echoesofgrace/
 ENCODING_PERSON = Darren Kulp <darren@kulp.ch>
 BOOK_NAME = Echoes of Grace
-TOTAL_FILE_COUNT = 384
+PRIMARY_FILE_COUNT = 379
+TOTAL_FILE_COUNT = 387
 
 LILYPOND ?= lilypond
 
@@ -131,10 +132,13 @@ WAV/%.wav: MIDI/vanilla/$$(*F).midi
 	mkdir -p $(@D)
 	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
 
+MP3/%.mp3: hymnnumber = $$(< headers/$(HEADER_BASE).hymnnumber)
+$(VARIANTS_MP3:%=MP3/%/EOGa%.mp3): hymnnumber = $$(( $(PRIMARY_FILE_COUNT) + $$(< headers/$(HEADER_BASE).hymnnumber) ))
+
 MP3/%.mp3: HEADER_BASE = $(basename $(*F))
 MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
 MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
-MP3/%.mp3: LAMEOPTS += --tn "$$(< headers/$(HEADER_BASE).hymnnumber)/$(TOTAL_FILE_COUNT)"
+MP3/%.mp3: LAMEOPTS += --tn "$(hymnnumber)/$(TOTAL_FILE_COUNT)"
 MP3/%.mp3: LAMEOPTS += --tl '$(BOOK_NAME)'
 MP3/%.mp3: LAMEOPTS += --tv TCMP=1 # iTunes compilation flag
 MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(< headers/$(HEADER_BASE).composer)"
