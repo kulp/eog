@@ -1,7 +1,7 @@
 # All rules are subject to SECONDEXPANSION
 .SECONDEXPANSION:
 
-# Dependencies: lilypond, mp3info, MP3::Tag (for mp3info2), midish, zip, fluidsynth, lame
+# Dependencies: lilypond, mp3info2, MP3::Tag (for mp3info2), id3v2, midish, zip, fluidsynth, lame
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
 VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
@@ -136,15 +136,16 @@ MP3/%.mp3: hymnnumber = $$(< headers/$(HEADER_BASE).hymnnumber)
 $(VARIANTS_MP3:%=MP3/%/EOGa%.mp3): hymnnumber = $$(( $(PRIMARY_FILE_COUNT) + $$(< headers/$(HEADER_BASE).hymnnumber) ))
 
 MP3/%.mp3: HEADER_BASE = $(basename $(*F))
-MP3/%.mp3: LAMEOPTS += --tt "$$(< headers/$(HEADER_BASE).title)"
-MP3/%.mp3: LAMEOPTS += --ta "$$(< headers/$(HEADER_BASE).poet)"
+MP3/%.mp3: LAMEOPTS += --id3v2-only
+MP3/%.mp3: LAMEOPTS += --tt "$$(./scripts/latinize.sh headers/$(HEADER_BASE).title)"
+MP3/%.mp3: LAMEOPTS += --ta "$$(./scripts/latinize.sh headers/$(HEADER_BASE).poet)"
 MP3/%.mp3: LAMEOPTS += --tn "$(hymnnumber)/$(TOTAL_FILE_COUNT)"
 MP3/%.mp3: LAMEOPTS += --tl '$(BOOK_NAME)'
 MP3/%.mp3: LAMEOPTS += --tv TCMP=1 # iTunes compilation flag
-MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(< headers/$(HEADER_BASE).composer)"
+MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(./scripts/latinize.sh headers/$(HEADER_BASE).composer)"
 MP3/%.mp3: LAMEOPTS += --tv TENC="$(ENCODING_PERSON)"
-MP3/%.mp3: LAMEOPTS += --tv TEXT="$$(< headers/$(HEADER_BASE).poet)"
-MP3/%.mp3: LAMEOPTS += --tv TIT3="$$(< headers/$(HEADER_BASE).tunename)"
+MP3/%.mp3: LAMEOPTS += --tv TEXT="$$(./scripts/latinize.sh headers/$(HEADER_BASE).poet)"
+MP3/%.mp3: LAMEOPTS += --tv TIT3="$$(./scripts/latinize.sh headers/$(HEADER_BASE).tunename)"
 MP3/%.mp3: LAMEOPTS += --tv TLAN='English'
 MP3/%.mp3: LAMEOPTS += --tv WOAF="$(WEB_BASE)$@"
 MP3/%.mp3: LAMEOPTS += --tv WPUB="$(WEB_BASE)"
@@ -152,12 +153,11 @@ MP3/%.mp3: LAMEOPTS += --tv WPUB="$(WEB_BASE)"
 $(LYRICAL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
-	mp3info2 -u -F "USLT(eng)[0] < $(filter %.txt,$^)" $@
+	id3v2 --USLT "$$(< $(filter %.txt,$^))" $@
 
 $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
-	mp3info2 -u $@
 
 headers TXT/latinized metrics texels:
 	mkdir -p $@
