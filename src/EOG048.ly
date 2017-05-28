@@ -36,7 +36,7 @@ patternCA = { \ta c8( c8) | c4 c8 c8 c4 c8. c16 | c2. c4 }
 patternCB = { \ta c8 ~ c8 | c4 c8 c8 c4 c8. c16 | c2. c4 }
 patternCC = { \ta c8   c8 | c4 c8 c8 c4 c8. c16 | c2 c4 }
 
-patternDA = { \ta c4 c4 c4 c4 | c4 c4 \tb c4 \fermata \ta }
+patternDA = { \ta c4 c4 c4 c4 | c4 c4 \tb c4 \ta }
 
 global = {
   \include "common/overrides.ily"
@@ -59,7 +59,7 @@ notesSoprano = {
   \changePitch \patternCA { b c | d b g a b a | g r }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternDA { a^! r b^! r | cis^! cis^! d } >>
+  \changePitch \patternDA { a^! r b^! r | cis^! cis^! d\fermata } >>
   \changePitch \patternAE { g, a | b b b b c b | b a g a b }
   \changePitch \patternCC { b c | d b g a b a | g r }
 
@@ -100,7 +100,7 @@ notesBass = {
   \changePitch \patternAD { g | g g g g g g | d d d g }
   \changePitch \patternCB { g g | g g b, d d d | g r }
 
-  \changePitch \patternDA { d^! r g^! r | e^! e^! d }
+  \changePitch \patternDA { d^! r g^! r | e^! e^! d_\fermata }
   \changePitch \patternAF { g g | g g g g g g | d d d | g }
   \changePitch \patternCC { g g | g g b, d d d | g r }
 

@@ -34,7 +34,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -147,12 +146,11 @@ Je -- sus is near to pro -- claim.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-% measure bars put partly on fifth verse due to grace notes
 Still, still, rest on the prom -- ise,
 Cling, cling, fast to His word;
-Wait, wait, if He should %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} tar -- ry, \bar "."
+Wait, wait, if He should %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} tar -- ry,
 We’ll pa -- tient -- ly wait for the Lord.
-Yes, yes, O yes, \bar "."
+Yes, yes, O yes,
 We’ll pa -- tient -- ly wait for the Lord. %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 
 }

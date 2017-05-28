@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
   page-count = #(cond (is-eogsized 2) (#t #f))
@@ -12,9 +11,8 @@
   title = "Why ’Neath the Load of Your Sins Do Ye Toil?"
   tunename = ""
   meter = "P. M."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -22,13 +20,11 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
-patternAA = { c4 c8 c8 c4 c8 c8 | c4 c8 c8           c4 c4 }
-patternAB = { c4 c8 c8 c4 c8 c8 | c4 c8 c16[ c16]    c4 c4 }
-patternAC = { c4 c8 c8 c4 c8 c8 | c4 c8 c8 c4 c4 \grace c4 }
+patternAA = { c4 c8 c8 c4 c8 c8 | c4 c8 c8 c4 c4 }
+patternAB = { c4 c8 c8 c4 c8 c8 | c4 c8 c16[ c16] c4 c4 }
 
 patternBA = { c4 c8 c8 c4 c8 c8 | c2. c4 }
 patternBB = { c4 c8 c8 c4 c8 c8 | c2  c2 }
-patternBC = { c4 c8 c8 c4 c8 c8 | c2. c4 \grace c4 }
 
 global = {
   \include "common/overrides.ily"
@@ -37,7 +33,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -48,11 +43,11 @@ notesSoprano = {
   \changePitch \patternAA { f f g a a bes | c d c a r }
   \changePitch \patternBA { c bes a g a g | f r }
   \changePitch \patternAA { f f g a a bes | c d( c) a r }
-  \changePitch \patternBC { c bes a g a g | f c' }
+  \changePitch \patternBA { c bes a g a g | f r }
 
-  \changePitch \patternAA { c bes a g c, ~ c | bes' a g f r }
-  \changePitch \patternAC { c' bes a g c, ~ c | bes' a g f f }
-  \changePitch \patternAA { f f g a a bes | c d c a r }
+  \grace c'4 \changePitch \patternAA { c bes a g c, ~ c | bes' a g f r }
+  \changePitch \patternAA { c' bes a g c, ~ c | bes' a g f r }
+  \grace f4 \changePitch \patternAA { f f g a a bes | c d c a r }
   \changePitch \patternBB { c bes a g a g | f r }
 
   \bar "|."
@@ -69,9 +64,9 @@ notesAlto = {
   \changePitch \patternAA { c c e f f e | f f ~ f f r }
   \changePitch \patternBA { e g f e f e | f r }
 
-  \changePitch \patternAA { e g f e c c | g' f e f r }
-  \changePitch \patternAA { e g f e c c | g' f e f r }
-  \changePitch \patternAB { c c e f f e | f f g e f r }
+  \grace e \changePitch \patternAA { e g f e c ~ c | g' f e f r }
+  \changePitch \patternAA { e g f e c ~ c | g' f e f r }
+  \grace c \changePitch \patternAB { c c e f f e | f f g e f r }
   \changePitch \patternBB { f g f e f e | c r }
 
 }
@@ -86,9 +81,9 @@ notesTenor = {
   \changePitch \patternAA { a a c c c c | a bes( a) c r }
   \changePitch \patternBA { g c c c c bes | a r }
 
-  \changePitch \patternAA { c c c c c, ~ c | c' c c c r }
+  \grace c \changePitch \patternAA { c c c c c, ~ c | c' c c c r }
   \changePitch \patternAA { c c c c c, ~ c | c' c bes a r }
-  \changePitch \patternAA { a a c c c c | a bes bes a r }
+  \grace a \changePitch \patternAA { a a c c c c | a bes bes a r }
   \changePitch \patternBB { a c c c c bes | a r }
 
 }
@@ -103,9 +98,9 @@ notesBass = {
   \changePitch \patternAA { f f c f f g | f f ~ f f r }
   \changePitch \patternBA { c e f c c c | f r }
 
-  \changePitch \patternAA { c e f c c ~ c | e f bes a r }
+  \grace c \changePitch \patternAA { c e f c c ~ c | e f bes a r }
   \changePitch \patternAA { c, e f c c ~ c | e c c f r }
-  \changePitch \patternAA { f f c f f g | f bes, c f r }
+  \grace f \changePitch \patternAA { f f c f f g | f bes, c f r }
   \changePitch \patternBB { c e f bes f c | f r }
 
 }
@@ -133,7 +128,7 @@ Christ giv -- eth rest, giv -- eth rest.
 Why are ye hope -- less -- ly sad { \mon } and for -- { \moff } lorn?
 You may be blest, may be blest.
 Je -- sus the bur -- { \mon } den did { \moff } bear on the tree,
-He was af -- flict -- ed for sin -- ners like thee;
+He was af -- flict -- { \mon } ed for { \moff } sin -- ners like thee;
 If you there Christ as your Sub -- sti -- tute see,
 You shall have rest, shall have rest.
 
