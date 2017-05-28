@@ -169,10 +169,9 @@ wordsE = \markuplist {
         \vspace #1 \line { \bold 3 \column { \wordsC } }
         \vspace #1 \line { \bold 4 \column { \wordsD } }
         \vspace #1 \line { \bold 5 \column { \wordsE } }
-
-        \vspace #1 \line { \smaller { May be sung to tune No. 61. } }
       }
     }
+    \vspace #1 \fill-line { \smaller { "May be sung to tune No. 61." } }
   }
 }
 

@@ -161,10 +161,9 @@ wordsC = \markuplist {
         \vspace #2 \line { \column { \italic { Refrain: } \column { \Refrain } } }
         \vspace #2 \line { \bold 2 \column { \wordsB } }
         \vspace #2 \line { \bold 3 \column { \wordsC } }
-
-        \vspace #2 \line { \smaller { May be sung to tune No. 126. } }
       }
     }
+    \vspace #2 \fill-line { \smaller { "May be sung to tune No. 126." } }
   }
 }
 
