@@ -117,7 +117,7 @@ Spread the tid -- ings all a -- round: \bar "."
 Je -- sus saves! Je -- sus saves! \bar "." \break
 Bear the news to ev -- ’ry land, \bar "."
 Climb the steeps and cross the waves; \bar "." \break
-On -- ward!— ’tis our Lord’s com -- mand; \bar "."
+On -- ward!– ’tis our Lord’s com -- mand; \bar "."
 Je -- sus saves! Je -- sus saves! \bar "." \break
 
 }
@@ -145,7 +145,7 @@ By His death and end -- less life,
 Je -- sus saves! Je -- sus saves!
 Sing it soft -- ly thro’ the gloom,
 When the heart for mer -- cy craves;
-Sing in tri -- umph o’er the tomb,—
+Sing in tri -- umph o’er the tomb,–
 Je -- sus saves! Je -- sus saves!
 
 }
@@ -155,11 +155,11 @@ wordsD = \lyricmode {
 
 Give the winds a might -- y voice,
 Je -- sus saves! Je -- sus saves!
-Let the na -- tions now re -- joice,—
+Let the na -- tions now re -- joice,–
 Je -- sus saves! Je -- sus saves!
 Shout sal -- va -- tion full and free;
 High -- est hills and deep -- est caves;
-This our song of vic -- to -- ry,—
+This our song of vic -- to -- ry,–
 Je -- sus saves! Je -- sus saves!
 
 }

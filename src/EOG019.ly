@@ -130,7 +130,7 @@ Tell me, is it not? \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Noth -- ing, ei -- ther great or small— \bar "."
+Noth -- ing, ei -- ther great or small– \bar "."
 Noth -- ing, sin -- ner, no; \bar "." \break
 Je -- sus did it, did it all, \bar "."
 Long, long a -- go. \bar "." \break
@@ -144,7 +144,7 @@ When He, from His loft -- y throne,
 Stooped to do and die,
 Ev -- ’ry -- thing was full -- y done;
 % XXX this doesn't look quite right
-{ \mon } Heark -- en { \moff } to His cry—
+{ \mon } Heark -- en { \moff } to His cry–
 
 \Refrain
 
@@ -165,7 +165,7 @@ wordsD = \lyricmode {
 
 Till to Je -- sus’ work you cling,
 By a sim -- ple faith,
-“Do -- ing” is a dead -- ly thing—
+“Do -- ing” is a dead -- ly thing–
 { \mon } “Do -- ing” { \moff } ends in death.
 
 }
@@ -173,7 +173,7 @@ By a sim -- ple faith,
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Cast your dead -- ly “do -- ing” down—
+Cast your dead -- ly “do -- ing” down–
 Down at Je -- sus’ feet;
 Stand “in Him,” “in Him” a -- lone,
 { \mon } Glo -- rious -- ly { \moff } com -- plete.

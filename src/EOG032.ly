@@ -99,7 +99,7 @@ RefrainH = \lyricmode {
 
  { \italicsOn }
 No room! no room! \bar "."
-O, woe -- ful cry!— “No room!” \bar "."
+O, woe -- ful cry!– “No room!” \bar "."
  { \italicsOff }
 
 }

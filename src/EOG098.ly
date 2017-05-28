@@ -140,7 +140,7 @@ wordsB = \lyricmode {
 Just on the thresh -- old, and joy near at hand;
 Yon -- der’s the gleam of Im -- man -- u -- el’s land;
 Ref -- uge and rest are now of -- fered to thee:
-Sin or sal -- va -- tion— O, which shall it be?
+Sin or sal -- va -- tion– O, which shall it be?
 
 \Refrain
 

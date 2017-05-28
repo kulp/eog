@@ -140,7 +140,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 No room for Thee, Thou bless -- ed One, \bar "."
-The Fa -- ther’s ho -- ly Child— \bar "." \break
+The Fa -- ther’s ho -- ly Child– \bar "." \break
 His well -- be -- lov -- ed on -- ly Son, \bar "."
 The Sav -- iour un -- de -- filed! \bar "." \break
 No room for Thee in crowd -- ed inn \bar "."
@@ -155,7 +155,7 @@ wordsB = \lyricmode {
 
 No room for Thee! Thy love didst seek
 To win Thine own in vain;
-For they were proud and Thou wert meek—
+For they were proud and Thou wert meek–
 They would not let Thee reign.
 No room at last on earth for Thee,
 As ’neath the start -- led sky,
@@ -172,7 +172,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 No room for Thee! Ah, still ’tis true!
-Men cast Thy claims a -- side—
+Men cast Thy claims a -- side–
 The rec -- ord old is ev -- er new;
 They hate the Cru -- ci -- fied!
 No room for Thee in bus -- y marts;
@@ -187,7 +187,7 @@ wordsD = \lyricmode {
 
 No room for Him whose sac -- ri -- fice
 Can put thy guilt a -- way?
-O doubt -- ing soul, a -- rise, a -- rise—
+O doubt -- ing soul, a -- rise, a -- rise–
 Re -- ceive the Christ to -- day!
 His grace ex -- tol! His prais -- es sing!
 Make room for Him a -- lone!

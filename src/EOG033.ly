@@ -112,11 +112,11 @@ Now there’s no load for me. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Death and the curse were in our cup—
+Death and the curse were in our cup–
 O Christ, ’twas full for Thee;
-But Thou hast drained the last dark drop—
+But Thou hast drained the last dark drop–
 ’Tis emp -- ty now for me.
-That bit -- ter cup— love drank it up;
+That bit -- ter cup– love drank it up;
 Left but the love for me.
 
 }
@@ -124,7 +124,7 @@ Left but the love for me.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- ho -- vah lift -- ed up His rod—
+Je -- ho -- vah lift -- ed up His rod–
 O Christ, it fell on Thee!
 Thou wast for -- sa -- ken of Thy God;
 No dis -- tance now for me.

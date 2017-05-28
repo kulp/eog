@@ -145,7 +145,7 @@ Once the Vic -- tim, now vic -- to -- rious,
 Je -- sus lives in glo -- ry fair.
 Him who met the claims of glo -- ry,
 And the need of ru -- ined man,
-On the cross— O, won -- drous sto -- ry!
+On the cross– O, won -- drous sto -- ry!
 God has set at His right hand.
 
 }

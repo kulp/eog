@@ -163,7 +163,7 @@ O, what shall the an -- swer be?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, think of the King of Glo -- ry—
+O, think of the King of Glo -- ry–
 From heav’n to earth come down;
 His life so pure and ho -- ly;
 His death, His cross, His crown;

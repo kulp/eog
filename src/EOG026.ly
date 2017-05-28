@@ -104,7 +104,7 @@ wordsB = \lyricmode {
 O! none can re -- store, nor such deep sin ef -- face,
 { \mon } But the { \moff } One who comes forth in such in -- fin -- ite grace;
 For grace is a -- bove all his sin and dis -- tress,
-{ \mon } And he’s { \moff } noth -- ing to do— { \mon } save his { \moff } sin to con -- fess!
+{ \mon } And he’s { \moff } noth -- ing to do– { \mon } save his { \moff } sin to con -- fess!
 
 }
 
@@ -123,8 +123,8 @@ wordsD = \lyricmode {
 
 { \mon } And the { \moff } ver -- y best robe, and the fat -- ling and wine,
 { \mon } (What a { \moff } change from the rags, and the husks, and the swine!)
-With mu -- sic and danc -- ing— ’tis some -- thing so new,
-{ \mon } Such a { \moff } ful -- ness of bless -- ing— and noth -- ing to do!
+With mu -- sic and danc -- ing– ’tis some -- thing so new,
+{ \mon } Such a { \moff } ful -- ness of bless -- ing– and noth -- ing to do!
 
 }
 

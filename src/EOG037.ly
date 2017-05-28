@@ -173,7 +173,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Tell me the Sto -- ry slow -- ly,
-That I may take it in—
+That I may take it in–
 That won -- der -- ful re -- demp -- tion,
 God’s rem -- e -- dy for sin.
 Tell me the Sto -- ry oft -- en,
@@ -194,7 +194,7 @@ That this world’s emp -- ty glo -- ry
 Is cost -- ing me too dear.
 And when { \italicsOn } that { \italicsOff } world’s bright glo -- ry
 Is dawn -- ing on my soul,
-Tell me the Old, Old Sto -- ry—
+Tell me the Old, Old Sto -- ry–
 Christ Je -- sus makes thee whole.
 
 }

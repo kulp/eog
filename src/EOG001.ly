@@ -96,7 +96,7 @@ wordsA = \lyricmode {
 
 “Come!” ’tis Je -- sus gen -- tly cal -- ling \bar "."
 “Ye with care and toil op -- pressed, \bar "." \break
-With your guilt how -- e’er ap -- pall -- ing— \bar "."
+With your guilt how -- e’er ap -- pall -- ing– \bar "."
 Come, and I will give you rest.” \bar "." \break
 For your sin He “once has suf -- fered,” \bar "."
 On the cross the work was done, \bar "." \break
@@ -126,10 +126,10 @@ wordsC = \lyricmode {
 O’er the world’s fast -- fleet -- ing day:
 If you lin -- ger till the dark -- ness
 You will sure -- ly miss your way.
-And still wait -- ing— sad -- ly wait -- ing,
+And still wait -- ing– sad -- ly wait -- ing,
 Till the day its course has run,
 With His pa -- tience un -- a -- ba -- ting
-Je -- sus lin -- gers for you— “Come!”
+Je -- sus lin -- gers for you– “Come!”
 
 }
 
@@ -138,7 +138,7 @@ wordsD = \lyricmode {
 
 “Come!” for an -- gel -- hosts are mus -- ing
 O’er this sight so strange -- ly sad:
-God “be -- seech -- ing”— man re -- fus -- ing
+God “be -- seech -- ing”– man re -- fus -- ing
 To be made for -- ev -- er glad!
 From the world and its de -- lu -- sion
 Now our voi -- ces rise as one;

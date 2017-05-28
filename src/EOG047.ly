@@ -104,7 +104,7 @@ wordsA = \lyricmode {
 Rise, dear soul! be -- hold thy Sav -- iour, \bar "."
 Seat -- ed on the Fa -- ther’s throne; \bar "." \break
 Ob -- ject of God’s high -- est fa -- vor; \bar "."
-See Him— God’s be -- lov -- ed Son. \bar "." \break
+See Him– God’s be -- lov -- ed Son. \bar "." \break
 
 }
 

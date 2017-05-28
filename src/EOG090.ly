@@ -113,7 +113,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Are you wash’d in the blood— \bar "."
+Are you wash’d in the blood– \bar "."
 In the soul -- clean -- sing blood of the Lamb? \bar "."
 Are your gar -- ments spot -- less? Are they white as snow? \bar "."
 Are you wash’d in the blood of the Lamb? \bar "."
@@ -157,7 +157,7 @@ wordsD = \lyricmode {
 
 Lay a -- side the gar -- ments that are stained with sin,
 And be wash’d in the blood of the Lamb!
-There’s a foun -- tain flow -- ing for the soul un -- clean—
+There’s a foun -- tain flow -- ing for the soul un -- clean–
 O, be wash’d in the blood of the Lamb!
 
 }
@@ -165,7 +165,7 @@ O, be wash’d in the blood of the Lamb!
 underWords = \lyricmode {
 
 { \repeat unfold 40 { \skip 4 } }
-Are you wash’d in the blood—
+Are you wash’d in the blood–
 { \repeat unfold 9 { \skip 4 } }
 of the Lamb?
 

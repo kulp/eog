@@ -126,7 +126,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Yes; we’ll gath -- er at His com -- ing, \bar "."
-His glo -- ri -- ous, His glo -- ri -- ous com -- ing— \bar "."
+His glo -- ri -- ous, His glo -- ri -- ous com -- ing– \bar "."
 Gath -- er with His saints at His com -- ing, \bar "."
 If washed in the Sav -- iour’s blood. \bar "."
 

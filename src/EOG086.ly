@@ -132,7 +132,7 @@ Lost one, loved one, ’tis for thee.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Hear His love and mer -- cy speak -- ing—
+Hear His love and mer -- cy speak -- ing–
 Come and trust thy soul with Me;
 Though thy heart for sin be break -- ing,
 I have rest and peace for thee.

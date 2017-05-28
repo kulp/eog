@@ -85,7 +85,7 @@ wordsA = \lyricmode {
 
   Come, wear -- y, anx -- ious, la -- den soul, \bar "."
   To Je -- sus come, and be made whole; \bar "." \break
-  On Him your heav -- y bur -- den roll— \bar "."
+  On Him your heav -- y bur -- den roll– \bar "."
   Come, anx -- ious sin -- ner, come! \bar "."
 
 }
@@ -95,7 +95,7 @@ wordsB = \lyricmode {
 
   Be -- hold the cross on which He died;
   Be -- hold His wound -- ed, bleed -- ing side:
-  Come, in His pre -- cious love con -- fide—
+  Come, in His pre -- cious love con -- fide–
   Come, anx -- ious sin -- ner, come!
 
 }
@@ -105,7 +105,7 @@ wordsC = \lyricmode {
 
   True joy the world can ne’er af -- ford,
   ’Tis found a -- lone in Christ the Lord,
-  In Him for wretch -- ed sin -- ners stored—
+  In Him for wretch -- ed sin -- ners stored–
   Come, anx -- ious sin -- ner, come!
 
 }
@@ -115,7 +115,7 @@ wordsD = \lyricmode {
 
   God loves to hear the con -- trite cry,
   He loves to see the tear -- ful eye,
-  To read the spir -- it’s deep -- felt sigh—
+  To read the spir -- it’s deep -- felt sigh–
   Come, anx -- ious sin -- ner, come!
 
 }
@@ -125,7 +125,7 @@ wordsE = \lyricmode {
 
   O, if to Je -- sus you re -- pair,
   You’ll find e -- ter -- nal com -- fort there,
-  And soon shall heav’n -- ly glo -- ry share—
+  And soon shall heav’n -- ly glo -- ry share–
   Come, anx -- ious sin -- ner, come!
 
 }

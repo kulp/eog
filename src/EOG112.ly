@@ -113,7 +113,7 @@ Refrain = \lyricmode {
 
 On -- ly a sin -- ner saved by grace! \bar "."
 On -- ly a sin -- ner saved by grace! \bar "."
-This is my sto -- ry, to God be the glo -- ry,— \bar "."
+This is my sto -- ry, to God be the glo -- ry,– \bar "."
 I’m on -- ly a sin -- ner saved by grace! \bar "."
 
 }
@@ -155,7 +155,7 @@ wordsD = \lyricmode {
 
 Suf -- fer a sin -- ner whose hear o -- ver -- flows,
 Lov -- ing his Sav -- iour to tell what he knows;
-Once more to tell it would I em -- brace—
+Once more to tell it would I em -- brace–
 I’m on -- ly a sin -- ner saved by grace!
 
 }

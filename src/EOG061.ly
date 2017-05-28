@@ -89,7 +89,7 @@ wordsA = \lyricmode {
 
 Be -- hold the Lamb! ’tis He who bore \bar "."
 My sins up -- on the tree, \bar "." \break
-And paid in death the dread -- ful score— \bar "."
+And paid in death the dread -- ful score– \bar "."
 The guilt that lay on me. \bar "." \break
 
 }
@@ -117,8 +117,8 @@ O’er bod -- y, spir -- it, soul.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-To Him I look, while still I run—
-My nev -- er -- fail -- ing Friend—
+To Him I look, while still I run–
+My nev -- er -- fail -- ing Friend–
 Fin -- ish, He will, the work be -- gun,
 And grace in glo -- ry end.
 

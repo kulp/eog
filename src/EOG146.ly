@@ -147,7 +147,7 @@ His the earn -- est of our por -- tion,
 We must reach the goal at last.
 Yes, He prais -- es! grace re -- count -- ing,
 All the path al -- rea -- dy trod,
-We as -- so -- ci -- a -- ted with Him—
+We as -- so -- ci -- a -- ted with Him–
 God, our Fa -- ther and our God.
 
 }

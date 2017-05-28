@@ -112,7 +112,7 @@ wordsA = \lyricmode {
 I know not why God’s won -- drous grace \bar "."
 To me He hath made known, \bar "."
 Nor why un -- worth -- y as I am \bar "."
-He claimed me for His own— \bar "."
+He claimed me for His own– \bar "."
 
 }
 
@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 I know not how this sav -- ing faith
 To me He did im -- part,
 Or how be -- liev -- ing in His word
-Wrought peace with -- in my heart—
+Wrought peace with -- in my heart–
 
 \Refrain
 
@@ -134,7 +134,7 @@ wordsC = \lyricmode {
 I know not how the Spi -- rit moves–
 Con -- vinc -- ing men of sin–
 Re -- veal -- ing Je -- sus through the word–
-Cre -- a -- ting faith in Him—
+Cre -- a -- ting faith in Him–
 
 }
 
@@ -144,7 +144,7 @@ wordsD = \lyricmode {
 I know not what of good or ill
 May be re -- serv’d for me,
 Of wear -- y ways or gold -- en days
-Be -- fore His face I see—
+Be -- fore His face I see–
 
 }
 

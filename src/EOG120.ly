@@ -144,7 +144,7 @@ wordsA = \lyricmode {
 The Fa -- ther sent the Son \bar "."
 A ru -- ined world to save; \bar "."
 Man me -- ted to the Sin -- less One \bar "."
-The cross— the grave; \bar "."
+The cross– the grave; \bar "."
 Blest Sub -- sti -- tute from God, \bar "."
 Wrath’s aw -- ful cup He drained; \bar "."
 Laid down His life, and e’en the tomb’s \bar "."

@@ -113,7 +113,7 @@ Refrain = \lyricmode {
 
 Christ has died up -- on the tree, \bar "."
 Grace flows down from God to thee, \bar "." \break
-Grace— free— grace flows down from God to thee. \bar "."
+Grace– free– grace flows down from God to thee. \bar "."
 
 }
 

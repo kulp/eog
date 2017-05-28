@@ -132,7 +132,7 @@ Grace hath re -- deem’d us once for all. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Now are we free— there’s no con -- dem -- na -- tion;
+Now are we free– there’s no con -- dem -- na -- tion;
 Je -- sus pro -- vides a per -- fect  sal -- va -- tion;
 Come un -- to Me! O, hear His sweet call!
 Come and He saves us once for all.

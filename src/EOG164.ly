@@ -112,7 +112,7 @@ wordsA = \lyricmode {
 
 Have I an ob -- ject, Lord, be -- low \bar "."
 Which would di -- vide my heart with Thee, \bar "."
-—Which would di -- vert its e -- ven flow \bar "."
+–Which would di -- vert its e -- ven flow \bar "."
 In an -- swer to Thy con -- stan -- cy? \bar "."
 O teach me quick -- ly to re -- turn, \bar "."
 And cause my heart a -- fresh to burn. \bar "."
@@ -126,7 +126,7 @@ wordsB = \lyricmode {
 
 Have I a hope, how -- ev -- er dear,
 Which would de -- fer Thy com -- ing, Lord,
-—Which would de -- tain my spir -- it here
+–Which would de -- tain my spir -- it here
 Where naught can last -- ing joy af -- ford?
 From it, my Sav -- iour, set me free,
 To look and long and wait for Thee.
