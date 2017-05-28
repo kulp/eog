@@ -33,10 +33,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-    \changePitch \patternOne  { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
-    \changePitch \patternOne  { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f }
-    \changePitch \patternTwo  { c' | c bes g d' d c | a a c | c bes g d' d c | a a }
-    \changePitch \patternFour { c bes | a a a a a bes c | d c c bes a | g bes a g | f f }
+    \changePitch \patternOne  { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f } \eogbreak
+    \changePitch \patternOne  { c' bes | a a a a a bes c | d c c bes a | g bes a g | f f } \eogbreak
+    \changePitch \patternTwo  { c' | c bes g d' d c | a a c | c bes g d' d c | a a } \eogbreak
+    \changePitch \patternFour { c bes | a a a a a bes c | d c c bes a | g bes a g | f f } \eogbreak
 
     \bar "|."
 

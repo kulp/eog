@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -14,7 +10,6 @@
   meter = "P. M."
   poet = "Emma Campbell"
   composer = "T. E. Perkins"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -22,11 +17,11 @@
 ta = { \tempo 4=86 }
 tb = { \tempo 4=43 }
 
-patternAA = { \ta c8 | c4 c8 c4 c8      | c4 c8 \tb c4 \fermata \ta } %
-patternAB = { \ta c8 | c4 c8 c4 c8      | c4 c8 c4.                 } %
+patternAA = { \ta c8 | c4 c8 c4 c8      | c4 c8 \tb c4 \ta } %
+patternAB = { \ta c8 | c4 c8 c4 c8      | c4 c8 c4.        } %
 
-patternBA = { \ta c8 | c4 c8 c8.[ c16] c8 | c4 c8 c4                  } %
-patternBB = { \ta c8 | c4 c8 c4 c8      | c4 c8 c4                  } %
+patternBA = { \ta c8 | c4 c8 c8.[ c16] c8 | c4 c8 c4       } %
+patternBB = { \ta c8 | c4 c8 c4 c8      | c4 c8 c4         } %
 
 patternCA = { \ta c8. c16 c8 c8. c16 c8 | c4 c8 c4 } %
 patternCB = { \ta c8. c16 c8 c8 c8 c8   | c4 c8 c4 } %
@@ -46,9 +41,9 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { d  | d g g a     | b c d }
+  \changePitch \patternAA { d  | d g g a     | b c d\fermata }
   \changePitch \patternBA { e  | d b g fis g | a b a }
-  \changePitch \patternAA { d, | d g g a     | b c d }
+  \changePitch \patternAA { d, | d g g a     | b c d\fermata }
   \changePitch \patternBA { e  | d b g fis g | b a g }
 
   \changePitch \patternAB { b              | a b c a | b c d }
@@ -99,9 +94,9 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { g | g g g d   | g g g  }
+  \changePitch \patternAA { g | g g g d   | g g g_\fermata }
   \changePitch \patternBA { g | g g b a g | d d d  }
-  \changePitch \patternAA { d | g g g d   | g g g  }
+  \changePitch \patternAA { d | g g g d   | g g g_\fermata }
   \changePitch \patternBA { g | g g b a g | d d g, }
 
   \changePitch \patternAB { g'          | d d d d | g g g }

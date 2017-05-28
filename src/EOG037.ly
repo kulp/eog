@@ -27,10 +27,10 @@ patternBA = { \ta c4 | c4 c4 c4 c8.[ c16] | c2. }
 patternBB = { \ta c4 | c4 c4 c4 c8.[ c16] | c2( c4) }
 patternBC = { \ta c4 | c4 c4 c4 c4        | c2( c4) }
 patternBD = { \ta c4 | c4 c4 c4 c4        | c2.     }
-patternCA = { \ta c4 | c4 c4 c8[ c8] c8[ c8] | c4( c4) \tb c4 \fermata }
-patternCB = { \ta c4 | c4 c4 c4      c4      | c2      \tb c4 \fermata }
-patternCC = { \ta c4 | c4 c4 c8[ c8] c8[ c8] | c4( c4) \tb c4          }
-patternCD = { \ta c4 | c4 c4 c4      c4      | c2      \tb c4          }
+patternCA = { \ta c4 | c4 c4 c8[ c8] c8[ c8] | c4( c4) \tb c4 }
+patternCB = { \ta c4 | c4 c4 c4      c4      | c2      \tb c4 }
+patternCC = { \ta c4 | c4 c4 c8[ c8] c8[ c8] | c4( c4) \tb c4 }
+patternCD = { \ta c4 | c4 c4 c4      c4      | c2      \tb c4 }
 patternDA = { \ta c4 | c4 c8[ c8] c4 c8[ c8] | c2. c4 }
 patternDB = { \ta c4 | c4 c4      c4 c4      | c2. c4 }
 patternEA = { \ta c8.[ c16] c8. c16 c4 c4 | c8.[ c16] c2 }
@@ -39,10 +39,10 @@ patternFA = { \ta c4 | c8[ c8] c8[ c8] c4 c4 | c2. }
 patternFB = { \ta c4 | c4      c4      c4 c4 | c2. }
 patternGA = { \ta c4 c8. c16 c4 c4 | c2 c4 c4 }
 patternGB = { \ta c4 c8. c16 c4 c4 | c2 c4 }
-patternHA = { \ta c4 | c4 c4 c8[ c8] \tb c4 \fermata \ta | c2. c4 }
-patternHB = { \ta c4 | c4 c4 c4      \tb c4 \fermata \ta | c2. c4 }
-patternHC = { \ta c4 | c4 c4 c8[ c8] \tb c4          \ta | c2. c4 }
-patternHD = { \ta c4 | c4 c4 c4      \tb c4          \ta | c2. c4 }
+patternHA = { \ta c4 | c4 c4 c8[ c8] \tb c4 \ta | c2. c4 }
+patternHB = { \ta c4 | c4 c4 c4      \tb c4 \ta | c2. c4 }
+patternHC = { \ta c4 | c4 c4 c8[ c8] \tb c4 \ta | c2. c4 }
+patternHD = { \ta c4 | c4 c4 c4      \tb c4 \ta | c2. c4 }
 
 global = {
   \include "common/overrides.ily"
@@ -61,19 +61,19 @@ notesSoprano = {
 
   \changePitch \patternAA { e e f g g | a g }
   \changePitch \patternBA { g | c c c e, fis | g }
-  \changePitch \patternCA { g | c c c b a g | a b c }
+  \changePitch \patternCA { g | c c c b a g | a b c\fermata }
   \changePitch \patternDA { a | g f e d g f | e r }
 
   \changePitch \patternEA { d c d e f f | e f g }
   \changePitch \patternFA { g | fis g a b c fis, | g }
-  \changePitch \patternCA { g | c c c b a g | a b c }
+  \changePitch \patternCA { g | c c c b a g | a b c\fermata }
   \changePitch \patternDA { a | g f e d g f | e r }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternGA { e e f g g | a g r } >>
   \changePitch \patternGA { b b c d d | d c r }
   \changePitch \patternGB { e e d c c | c a }
-  \changePitch \patternHA { a | g c b c d | c }
+  \changePitch \patternHA { a | g c b c d\fermata | c r }
 
   \bar "|."
 
@@ -97,7 +97,7 @@ notesAlto = {
   \changePitch \patternGA { c c d e e | f e r }
   \changePitch \patternGA { f f e f f | f e r }
   \changePitch \patternGB { g g f e g | f f }
-  \changePitch \patternHC { f | e e d e f | e }
+  \changePitch \patternHC { f | e e d e f | e r }
 
 }
 }
@@ -119,7 +119,7 @@ notesTenor = {
   \changePitch \patternGA { g g g c c | c c r }
   \changePitch \patternGA { d d c b b | b c r }
   \changePitch \patternGB { c c g g bes | a c }
-  \changePitch \patternHD { c | c g g g | g }
+  \changePitch \patternHD { c | c g g g | g r }
 
 }
 }
@@ -130,18 +130,18 @@ notesBass = {
 
   \changePitch \patternAA { c c c c c | c c }
   \changePitch \patternBD { c | a' a a a | g }
-  \changePitch \patternCB { g | c, c c c | f f }
+  \changePitch \patternCB { g | c, c c c | f f_\fermata }
   \changePitch \patternDB { f | g g g, g | c r }
 
   \changePitch \patternEB { g g g g g | c c }
   \changePitch \patternFB { c | d d d d | g, }
-  \changePitch \patternCB { g' | c, c c c | f f }
+  \changePitch \patternCB { g' | c, c c c | f f_\fermata }
   \changePitch \patternDB { f | g g g, g | c r }
 
   \changePitch \patternGA { c c c c c | f c r }
   \changePitch \patternGA { g' g g g g | g c, r }
   \changePitch \patternGB { c c c c c | f f }
-  \changePitch \patternHB { f | g g g g, | c }
+  \changePitch \patternHB { f | g g g g,_\fermata | c r }
 
 }
 }
