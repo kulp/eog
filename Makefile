@@ -26,6 +26,7 @@ ENCODING_PERSON = Darren Kulp <darren@kulp.ch>
 BOOK_NAME = Echoes of Grace
 PRIMARY_FILE_COUNT = 379
 TOTAL_FILE_COUNT = 387
+TOTAL_PAGE_COUNT = 343
 
 LILYPOND ?= lilypond
 
@@ -163,6 +164,7 @@ headers TXT/latinized metrics texels:
 	mkdir -p $@
 
 check:
+	[[ $$(pdfinfo booklayout/book.pdf | grep Pages: | (read a b ; echo $$b)) = $(TOTAL_PAGE_COUNT) ]]
 	!(git grep -n '\b[A-Z][A-Z][a-z]' src/) # check for initial miscapitalization
 	perl -ne 'die "$$ARGV\n" if /bold (\d+) .*?words(\w+)/g and $$1 != ord($$2) - ord("A") + 1' src/*.ly
 	perl -ne 'next unless ($$written) = /hymnnumber = "(\d+)"/; die $$ARGV if $$written != ($$ARGV =~ /EOGa?(\d+)/)[0]' src/*.ly
@@ -181,7 +183,6 @@ booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=me
 	cat $(word 1,$^) > $@ || rm $@
 	scripts/makebook.pl $| >> $@ || rm $@
 	cat $(word 2,$^) >> $@ || rm $@
-
 
 CLOBBERFILES += booklayout/book.pdf
 %.pdf: %.tex
