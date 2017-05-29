@@ -79,8 +79,8 @@ Refrain = \lyricmode {
 
 Christ is the Sav -- iour, He nev -- er will fail; \bar "."
 All hope to save one -- self could noth -- ing a -- vail; \bar "."
-Man is a to -- tal wreck, can nev -- er reach the shore. \bar "." \break
-All who trust in Je -- sus Christ are saved ev -- er -- more. \bar "."
+Man is a to -- tal wreck, can nev -- er reach the shore. \bar "." \eogbreak
+All who trust in Je -- sus Christ are saved ev -- er -- more.
 
 }
 
@@ -93,6 +93,8 @@ notesSopranoRefrain = {
   \changePitch \patternAA { c a b c c c d | e d c b }
   \changePitch \patternAD { d, b' c b a b d | g, g a b c }
   \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
+
+  \bar "|."
 
 }
 }
@@ -184,43 +186,38 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
       \context Staff = upper <<
         \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-        \set ChoirStaff.printPartCombineTexts = ##f
         \context Voice  = sopranos { \voiceOne << \notesSoprano >> }
         \context Lyrics = one   \lyricsto sopranos \wordsA
         \context Lyrics = two   \lyricsto sopranos \wordsB
         \context Lyrics = three \lyricsto sopranos \wordsC
         \context Lyrics = four  \lyricsto sopranos \wordsD
-        \override Staff.TimeSignature.stencil = ##f
       >>
       \context PianoStaff = men <<
-        \set Staff.autoBeaming = ##f
-        \override PianoStaff.TimeSignature.stencil = ##f
         \set ChoirStaff.printPartCombineTexts = ##f
         \context Voice  = righthand { \voiceTwo << \notesRightHand >> }
         \context Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
       >>
     >>
+    \once \omit Staff.TimeSignature
+    \once \omit PianoStaff.TimeSignature
+    \pageBreak % forced in all variants to work around gapped system issue
     <<
       \context Staff = upper <<
+        \once \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
         \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-        \override Staff.KeySignature.stencil = ##f
-        \override Staff.TimeSignature.stencil = ##f
         \set ChoirStaff.printPartCombineTexts = ##f
         \partcombine #'(2 . 9) \notesSopranoRefrain \notesAlto
         \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
-        \context NullVoice = altos { \voiceTwo << \notesAlto >> }
         \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
       >>
       \context Staff = men <<
+        \once \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
         \set Staff.autoBeaming = ##f
-        \override Staff.KeySignature.stencil = ##f
-        \override Staff.TimeSignature.stencil = ##f
         \clef bass
         \set ChoirStaff.printPartCombineTexts = ##f
+        \override Staff.TimeSignature.stencil = ##f
         \partcombine #'(2 . 9) \notesTenor \notesBass
-        \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-        \context NullVoice = basses { \voiceTwo << \notesBass >> }
       >>
     >>
   }
@@ -229,22 +226,14 @@ Thou wilt safely bring Thine own home to the Bet -- ter Land.
   }
 }
 
-
 \score {
   \new Score {
     \context ChoirStaff <<
       \new Staff = upper <<
-        \set Staff.autoBeaming = ##f
-        \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \new Voice  = sopranos { \voiceOne { << \notesSoprano >> << \notesSopranoRefrain >> } }
         \new Voice  = altos { \voiceTwo { \repeat unfold 32 { \skip 4 } << \notesAlto >> } }
-        \new Lyrics = one   \lyricsto sopranos \wordsA \Refrain
-        \new Lyrics = two   \lyricsto sopranos \wordsB
-        \new Lyrics = three \lyricsto sopranos \wordsC
-        \new Lyrics = four  \lyricsto sopranos \wordsD
       >>
       \new PianoStaff = men <<
-        \set Staff.autoBeaming = ##f
         \new Voice  = righthand { \voiceTwo << \notesRightHand >> }
         \new Voice  = lefthand { \voiceTwo << \notesLeftHand >> }
         \new Voice  = tenors { \voiceOne { \repeat unfold 32 { \skip 4 } << \notesTenor >> } }
