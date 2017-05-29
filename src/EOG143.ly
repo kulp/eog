@@ -115,7 +115,7 @@ And staff they com -- fort still.
 
 wordsD = \markuplist {
 
-\line { My table Thou hast furnished }
+\line { My table Thou hast furnishèd }
 \line { In presence of my foes; }
 \line { My head thou dost with oil anoint, }
 \line { And my cup over-flows. }
