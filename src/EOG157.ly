@@ -9,14 +9,14 @@
   title = "Christ the Lord Is Coming"
   tunename = ""
   meter = "11’s."
-  %poet = ""
+  poet = ""
   composer = "M. Koch"
-  %copyright = ""
   tagline = ##f
 }
 
 global = {
   \include "common/overrides.ily"
+  \override Staff.TimeSignature.style = #'numbered % original has `c`
   \time 4/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \tempo 4=80
