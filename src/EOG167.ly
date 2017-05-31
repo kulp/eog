@@ -11,7 +11,6 @@
   meter = "C. M. with Refrain"
   poet = "El Nathan"
   composer = "J. McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -33,7 +32,7 @@ notesSoprano = {
   ees4 | g4. g8 aes[ g] f[ ees] | c'4 bes bes
   g4 | bes4. bes8 c[ bes] aes[ g] | f2.
   aes4 | g4. g8 aes[ g] f[ ees] | c'4 bes bes
-  g4 | bes4. bes8 c[ bes] aes[ f] | ees2.
+  g4 | bes4. bes8 c[ bes] aes[ f] | ees2. \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { ees8 ees | ees'4 ees4. ees8 d c | c4 bes4. } >>

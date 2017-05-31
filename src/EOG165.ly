@@ -3,8 +3,8 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
-  system-system-spacing.padding = 11
-  markup-markup-spacing.padding = 6
+  score-markup-spacing.padding = 2
+  score-markup-spacing.basic-distance = 2
 }
 
 \header{

@@ -2,8 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = ##f
-  system-count = #(cond (is-eogsized 5) (#t #f))
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
   page-count = ##f
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 144, 248." } }
 }
@@ -15,7 +15,6 @@
   meter = "L. M. D."
   poet = "G. W. Frazer"
   composer = "W. S. Weeden"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -43,7 +42,7 @@ notesSoprano = {
   \changePitch \patternAA { f | f ges aes des, | c des ees }
   \changePitch \patternAA { ges | ges ges c bes | bes aes aes }
   \changePitch \patternAB { f | f ees des des | ges bes aes }
-  \changePitch \patternBA { aes | bes des f, des | des ees des }
+  \changePitch \patternBA { aes | bes des f, des | des ees des } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { des' | des c c bes | bes aes aes } >>
