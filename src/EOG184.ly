@@ -10,7 +10,6 @@
   meter = "P. M."
   poet = "From the Slovak of Maria Royova"
   composer = "Maria Royova"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -21,6 +20,7 @@ patternD = { c8. c16 | \bar "||" \time 4/4 c8 c c8. c16 c8 c c c | c4 c c }
 
 global = {
   \include "common/overrides.ily"
+  \override Staff.TimeSignature.style = #'numbered % original has `c`
   \time 3/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \tempo 8=120
