@@ -2,7 +2,28 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-system-spacing.padding = 11
+  system-system-spacing.padding = 6
+  system-count = #(cond (is-eogsized 4) (#t #f))
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          \lower #4 \fromproperty #'header:poet
+          \smaller \bold \mysubtitle
+          \lower #4 \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{
