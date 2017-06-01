@@ -132,31 +132,26 @@ wordsE = \markuplist {
       }
     }
 
-    \vspace #2
+    \vspace #1
 
     \fill-line {
       \null
 
       \column {
         \line{ \bold 1 \column { \wordsA } }
-        \vspace #2
+        \vspace #1
         \line{ \bold 2 \column { \wordsB } }
-        \vspace #2
+        \vspace #1
         \line{ \bold 3 \column { \wordsC } }
-      }
-
-      \null
-
-      \column {
-        \line \smaller { "(Sing to above tune)" }
-        \vspace #2
+        \vspace #1
         \line{ \bold 4 \column { \wordsD } }
-        \vspace #2
+        \vspace #1
         \line{ \bold 5 \column { \wordsE } }
       }
 
       \null
     }
+    \vspace #1 \fill-line \smaller { "(Sing to above tune)" }
   }
 }
 

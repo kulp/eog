@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  system-count = #(cond (is-eogsized 3) (#t #f))
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -31,9 +31,9 @@ notesSoprano = {
 \global
 \relative c' {
 
-  d4 | b' g e | d2 d4 | b' g e | d2
-  g4 | c c a | d2 b4 | a fis e | d2
-  a'4 | fis g b | b a b | c d e | d2
+  d4 | b' g e | d2 d4 | b' g e | d2 \eogbreak
+  g4 | c c a | d2 b4 | a fis e | d2 \eogbreak
+  a'4 | fis g b | b a b | c d e | d2 \eogbreak
   d4 | d c c | c b b | a g fis | g2
 
   \bar "|."

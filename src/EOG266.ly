@@ -2,7 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  system-system-spacing.padding = 11
+  score-markup-spacing.padding = 1.9
+  score-markup-spacing.basic-distance = 1.9
 }
 
 \header{
@@ -31,7 +32,7 @@ notesSoprano = {
 \relative c' {
 
   d4 | g b a a | g2.
-  a8[ b] | c4 b8[ a] b4 a8[ g] | a2.
+  a8[ b] | c4 b8[ a] b4 a8[ g] | a2. \eogbreak
   d4 | d b b a8[ g] | g4 e c'
   c4 | b4 g b a | g2.
 

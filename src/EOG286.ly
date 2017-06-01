@@ -167,14 +167,14 @@ wordsF = \markuplist {
   }
 }
 
-\noPageBreak
-
 \markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
-  \line{ \bold 6 \column { \wordsF } }
-  \hspace #0.1
+  \null
+  \column {
+    \line{ \bold 5 \column { \wordsE } }
+    \vspace #1
+    \line{ \bold 6 \column { \wordsF } }
+  }
+  \null
 } }
 
 \noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 46. } } }

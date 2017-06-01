@@ -32,12 +32,12 @@ notesSoprano = {
 \relative c' {
 
   ees8[ g] | bes4 bes | bes ees8[ d] | c4 ees | bes2 |
-  bes4. aes8 | g2 | aes4. g8 | f4
+  bes4. aes8 | g2 | aes4. g8 | f4 \eogbreak
   ees8[ g] | bes4 bes | bes ees8[ d] | c4 ees | bes2 |
-  bes4. bes8 | c2 | d4. d8 | \tb ees4\fermata \ta
+  bes4. bes8 | c2 | d4. d8 | \tb ees4\fermata \ta \eogbreak
 
   ees8[ d] | c4 c | c d8[ c] | bes4 bes | bes
-  c8[ bes] | aes4 aes | aes bes8[ aes] | g4 g | g
+  c8[ bes] | aes4 aes | aes bes8[ aes] | g4 g | g \eogbreak
   ees8[ g] | bes4 bes | bes ees8[ d] | c4 ees | bes2 |
   bes4. bes8 | c2 | d4. d8 | \tb ees4\fermata \ta
 

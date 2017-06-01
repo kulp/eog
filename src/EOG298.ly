@@ -3,6 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   system-count = #(cond (is-eogsized 4) (#t #f))
+  system-system-spacing.padding = 8
 }
 
 \header{

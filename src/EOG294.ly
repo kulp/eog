@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
+  system-system-spacing.padding = 8
 }
 
 \header{
@@ -30,9 +31,9 @@ notesSoprano = {
 \relative c' {
 
   d8 | g g fis g | a a g
-  a8 | b a b c | d4 r8
+  a8 | b a b c | d4 r8 \eogbreak
   d8 | e d c b | c b a
-  g8 | a8. g16 fis8 e | d8[ e]
+  g8 | a8. g16 fis8 e | d8[ e] \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { fis8 d | g4 g8 r | a4 a8 r } >>

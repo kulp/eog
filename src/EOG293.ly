@@ -29,12 +29,12 @@ notesSoprano = {
 \relative c'' {
 
   g4 | c2 c4 e( d) c | a2 a4 c( b)
-  a4 | g2 g4 g( c) e | d2. ~ d2
+  a4 | g2 g4 g( c) e | d2. ~ d2 \eogbreak
   g,4 | c2 c4 e( d) c | a2 a4 c( b)
-  a4 | g( c) e a,2 b4 | c2. ~ c2
+  a4 | g( c) e a,2 b4 | c2. ~ c2 \eogbreak
 
   c4 | d2 d4 b( a) g | c2 c4 c2
-  c4 | d2 d4 b( a) g | c2. ~ c2
+  c4 | d2 d4 b( a) g | c2. ~ c2 \eogbreak
   g4 | c2 c4 e( d) c | a2 a4 c( b)
   a4 | g( c) e a,2 b4 | c2. ~ c2
 
