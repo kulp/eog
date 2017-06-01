@@ -37,7 +37,7 @@ for my $pdf (@ARGV) {
             print q(\vfill), "\n";
             my $points = $height + $prev_height - $max_height;
             if ($points > 0) {
-                warn "Can't fit $pdf onto page with preceding file -- over by $points pts";
+                die "Can't fit $pdf onto page with preceding file -- over by $points pts";
             }
             # reset state so that we don't try to "chain" fits -- we only fit two per page, ever
             $prev_height = 0;
