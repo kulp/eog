@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -12,9 +8,8 @@
   title = "We Know There’s a Bright and a Glorious Home"
   tunename = ""
   meter = "10. 7. 10. 7."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -88,12 +83,12 @@ notesTenor = {
 \relative a, {
 
   \changePitch \patternAC { c c | f f f f e f | f a bes! }
-  \changePitch \patternBA { bes bes | a c c b b | bes }
+  \changePitch \patternBA { bes bes | a c c b b | bes } \eogbreak
   \changePitch \patternAA { c, c | a' a bes c bes a | bes a bes }
-  \changePitch \patternBB { bes bes | a c bes c | a }
+  \changePitch \patternBB { bes bes | a c bes c | a } \eogbreak
 
   \changePitch \patternCC { a c | a bes a c bes a | bes }
-  \changePitch \patternBC { bes | a c c b | c }
+  \changePitch \patternBC { bes | a c c b | c } \eogbreak
   \changePitch \patternAC { e, e | f f f f e f | f a bes }
   \changePitch \patternBB { aes aes | a! a bes c | a }
 
@@ -121,13 +116,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 We know \mon there’s a \moff bright \mon and a \moff glo -- rious home, \bar "."
-A -- way \mon in the \moff heav -- ens high, \bar "." \break
+A -- way \mon in the \moff heav -- ens high, \bar "."
 Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell: \bar "."
-\mon But will \moff you be there, and I? \bar "." \break
+\mon But will \moff you be there, and I? \bar "."
 Will you be there, and I? \bar "."
 Will you be there, and I? \bar "."
 Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell: \bar "."
-\mon But will \moff you be there, and I? \bar "." \break
+\mon But will \moff you be there, and I? \bar "."
 
 }
 

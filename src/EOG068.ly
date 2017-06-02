@@ -1,6 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  score-markup-spacing.padding = 2
+  score-markup-spacing.basic-distance = 2
 }
 
 \header{
@@ -34,7 +36,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key bes \major
-  %\partial 4
   \autoBeamOff
 }
 

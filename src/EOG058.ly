@@ -2,9 +2,10 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  system-count = #(cond (is-eogsized 3) (#t #f))
+  system-count = #(cond (is-eogsized 4) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
-  system-system-spacing.padding = 11
+  system-system-spacing.padding = 0
+  system-system-spacing.basic-distance = 0
 }
 
 \header{
@@ -42,7 +43,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { bes ees g, | bes( aes) g | f ees f | g }
+  \changePitch \patternAA { bes ees g, | bes( aes) g | f ees f | g } \eogpagebreak
   \changePitch \patternAA { bes ees g, | bes( aes) g | aes g f | g }
   \changePitch \patternBA { f g aes | g aes bes }
   \changePitch \patternAD { c ees d c | bes aes g \fermata }
@@ -96,7 +97,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Why un -- be -- liev -- ing? { \bar "." } why wilt thou spurn \bar "."
-Love that so gen -- tly { \bar "." \eogpagebreak } pleads thy re -- turn? \bar "." % XXX this is an unnatural way to force there to be only one system on the first page
+Love that so gen -- tly { \bar "." } pleads thy re -- turn? \bar "." % XXX this is an unnatural way to force there to be only one system on the first page
 Come, ere thy fleet -- ing day \bar "."
 Fades in -- to night a -- way; \bar "."
 Now mer -- cy’s call o -- bey; \bar "."

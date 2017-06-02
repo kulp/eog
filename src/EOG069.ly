@@ -199,11 +199,13 @@ wordsE = \markuplist {
 \markup {
 \vspace #2 % need space between title (evenHeaderMarkup) and verses
 \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
+  \null
+  \column {
+    \line{ \bold 4 \column { \wordsD } }
+    \vspace #1
+    \line{ \bold 5 \column { \wordsE } }
+  }
+  \null
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

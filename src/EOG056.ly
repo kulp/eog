@@ -2,8 +2,9 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  system-system-spacing.padding = 11
+  system-count = #(cond (is-eogsized 4) (#t #f))
+  system-system-spacing.padding = 2
+  system-system-spacing.basic-distance = 2
 }
 
 \header{
@@ -40,12 +41,12 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { a a g | a c c }
-  \changePitch \patternBA { a a g | f }
+  \changePitch \patternBA { a a g | f } \eogbreak
   \changePitch \patternAA { a a g | a c c }
-  \changePitch \patternBA { a a g | f }
+  \changePitch \patternBA { a a g | f } \eogbreak
 
   \changePitch \patternAA { f' f c | d c c }
-  \changePitch \patternAB { a g a c | d c c }
+  \changePitch \patternAB { a g a c | d c c } \eogbreak
   \changePitch \patternAA { f f c | d c c }
   \changePitch \patternBA { a a g | f }
 
@@ -112,7 +113,7 @@ O, bless -- ed gos -- pel sound! \bar "."
 “Yet there is room!” \bar "."
 It tells to all a -- round– \bar "."
 “Yet there is room!” \bar "."
-The guilt -- y may draw near; \bar "." \break
+The guilt -- y may draw near; \bar "."
 Tho’ vile, they need not fear; \bar "."
 With joy they now may hear– \bar "."
 “Yet there is room!” \bar "."

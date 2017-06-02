@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 6." } }
+  oddFooterMarkup = \markup { \vspace #1 \fill-line { \on-the-fly \first-page "Alternate tune: No. 6." } }
 }
 
 \header{
@@ -34,7 +34,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key e \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -178,10 +177,10 @@ wordsF = \markuplist {
 \noPageBreak
 
 \markup { \fill-line { \column {
-  \raise #5
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } %\combine \null \vspace #0.4
+  \vspace #2
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
