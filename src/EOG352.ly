@@ -2,9 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  system-count = #(cond (is-eogsized 3) (#t #f)) % squeezed into 3 systems -- needs spacing adjustment below, in \layout { }
   page-count = #(cond (is-eogsized 2) (#t #f))
-  system-system-spacing.padding = 14
 }
 
 \header{
@@ -36,10 +34,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternA { ees | c' bes des c | c bes aes g | aes | aes r }
-  \changePitch \patternA { ees | f g aes bes | c des ees c | bes | bes r }
+  \changePitch \patternA { ees | c' bes des c | c bes aes g | aes | aes r } \eogpagebreak
+  \changePitch \patternA { ees | f g aes bes | c des ees c | bes | bes r } \eogbreak
   \changePitch \patternA { bes | c bes c des | ees c }
-  \changePitch \patternB { c bes | aes aes g g | f f }
+  \changePitch \patternB { c bes | aes aes g g | f f } \eogbreak
   \changePitch \patternB { aes f | ees aes aes c | c bes aes g | } aes2 ~ | aes4 r8 % original has extra bar lines that imply some notes might be 4 instead of 8
 
   \bar "|."
@@ -77,7 +75,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 O, won’t you come to Je -- sus while you’re young? \bar "."
-%{HIDE>%} O, won’t you come to { \eogpagebreak } Je -- sus while you’re young? %{<HIDE%} \bar "."
+%{HIDE>%} O, won’t you come to Je -- sus while you’re young? %{<HIDE%} \bar "."
 Don’t think it will be bet -- ter \bar "."
 To de -- lay it un -- til lat -- er, \bar "."
 But re -- mem -- ber your Cre -- at -- or while you’re young. \bar "."
@@ -140,11 +138,6 @@ You may weep in end -- less sor -- row, while you’re young.
   >>
   \layout {
     \include "common/layout.ily"
-    \context {
-      \Lyrics
-      % Compensate for wide lyrics by squashing things a bit
-      \override LyricSpace.minimum-distance = #0.3
-    }
   }
   \midi{
     \include "common/midi.ily"

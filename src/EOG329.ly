@@ -1,7 +1,9 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 328." } }
+  score-markup-spacing.padding = 3
+  score-markup-spacing.basic-distance = 3
+  oddFooterMarkup = \markup { \vspace #1.2 \fill-line { \on-the-fly \first-page "Alternate tune: No. 328." } }
 }
 
 \header{

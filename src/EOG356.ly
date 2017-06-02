@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{
@@ -35,7 +36,7 @@ notesSoprano = {
   \changePitch \patternA { f f g f d' bes | c bes g a bes }
   \changePitch \patternB { a bes c bes | d c ees a, | bes r }
   \changePitch \patternA { f f g f d' bes | c bes g a bes }
-  \changePitch \patternB { a bes c bes | d c ees a, | bes r }
+  \changePitch \patternB { a bes c bes | d c ees a, | bes r } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { \changePitch \patternC { d d f ees c a | bes bes } d2 } >>
