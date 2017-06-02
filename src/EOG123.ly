@@ -107,7 +107,7 @@ wordsB = \lyricmode {
 Pro -- claim -- er of that peace to all,
 He tells of full, un -- min -- gled grace,
 To high and low– who hear the call–
-To old and young of Adam’s race.
+To old and young of Ad -- am’s race.
 He preach -- es peace, He preach -- es peace,
 And love di -- vine shines in His face.
 
