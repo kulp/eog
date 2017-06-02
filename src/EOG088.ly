@@ -1,8 +1,10 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  systems-per-page = #(cond (is-eogsized 2) (#t #f))
+  ragged-last-bottom = ##t % keep markup verses from clinging to bottom of page
+  system-count = #(cond (is-eogsized 2) (#t #f))
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 3 in Supplement." } }
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -42,7 +44,7 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { g g f | ees bes' bes f g aes | g }
-  \changePitch \patternAA { ees' ees c | bes g | f d' d c | bes }
+  \changePitch \patternAA { ees' ees c | bes g | f d' d c | bes } \eogbreak
   \changePitch \patternAE { bes bes c | aes aes bes | g g aes | f }
   \changePitch \patternAF { g f ees ees | ees ees | d aes' aes d, | ees }
 
@@ -188,16 +190,18 @@ wordsH = \markuplist {
   >>
   \layout {
     \include "common/layout.ily"
+    \context {
+      \Lyrics
+      % Compensate for wide lyrics by squashing things a bit
+      \override LyricSpace.minimum-distance = #0.3
+    }
   }
   \midi{
     \include "common/midi.ily"
   }
 }
 
-\noPageBreak
-
 \markup { \fill-line { \column {
-	% TODO centre number above verse as in original
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
   \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4

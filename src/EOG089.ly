@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-bottom = ##t
-  ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
+  oddFooterMarkup = \markup { \vspace #1 \fill-line { \on-the-fly \first-page "Alternate tune: No. 64." } }
 }
 
 \header{
@@ -12,9 +9,8 @@
   title = "Hark Ye! Those Who Choose the Pleasures"
   tunename = "Ukraina"
   meter = "8. 7. 8. 7. D."
-  %poet = ""
+  poet = ""
   composer = "Russian Hymn Tune"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -221,10 +217,6 @@ wordsE = \markuplist {
   \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
   \hspace #0.1
 } } %}
-
-\noPageBreak
-
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 64. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
