@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -12,9 +8,8 @@
   title = "Sinner, Thine’s A Lost Condition"
   tunename = "Brooklyn"
   meter = "8. 7. 8. 7. D."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -29,7 +24,7 @@ patternBA = { c4 c4 | c4.( c8) c2 c4 c4                       | c4.( c8) c2 }
 patternBB = { c4 c4 | c4.( c8) c2 c4 c4                       | c1          }
 patternBC = { c4 c4 | c2       c2 c4 c4                       | c2       c2 }
 patternBD = { c4 c4 | c2       c2 c4 c4                       | c1          }
-patternBE = { c4 c4 | c2       c2 c4 \tuplet 3/2 { c8 c8 c8 } | c1          } % original has quarters in triplet instead of eighths
+patternBE = { c4 c4 | c2       c2 c4 \tuplet 3/2 { c8[ c8 c8] } | c1        } % original has quarters in triplet instead of eighths
 
 global = {
   \include "common/overrides.ily"
@@ -117,7 +112,7 @@ wordsA = \lyricmode {
 
 Sin -- ner, thine’s a lost con -- di -- tion, \bar "."
 Guil -- ty too be -- fore thy God; \bar "."
-In thy fol -- ly thou hast wan -- dered, \bar "." % original has "was" for "wast"
+In thy fol -- ly thou hast wan -- dered, \bar "." % original has "has" for "hast"
 Broad the road thy feet have trod. \bar "."
 Death and af -- ter death the judg -- ment \bar "."
 Will o’er -- take thee like a flood– \bar "."
