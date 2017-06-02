@@ -3,6 +3,8 @@
   \include "common/paper.ily"
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 3) (#t #f))
+  score-markup-spacing.padding = 3
+  score-markup-spacing.basic-distance = 3
 }
 
 \header{
@@ -12,7 +14,7 @@
   meter = "8. 8. 6. D."
   poet = "T. Kelly"
   composer = "J. Foster"
-  %copyright = ""
+  copyright = ""
   tagline = ##f
 }
 
@@ -36,9 +38,9 @@ notesSoprano = {
 \relative c'' {
 
   g2 | b( a) g | d'1 d2 | c( b) a | b1
-  b2 | a( e') d | g,( c) b | e,( a) g | fis1
+  b2 | a( e') d | g,( c) b | e,( a) g | fis1 \eogbreak
   a2 | b( cis) d | d1 cis2 | d1
-  d2 | d1 d2 | d( c) b | a( b) c | b1
+  d2 | d1 d2 | d( c) b | a( b) c | b1 \eogbreak
   b2 | b1 b2 | e1 \grace { b2( a2) } g2 | d'( c) b | a1
   b2 | c( d) e | d1 fis,2 | g1
 
@@ -177,14 +179,10 @@ wordsE = \markuplist {
   }
 }
 
-\noPageBreak
-
 \markup { \fill-line { \column {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
-
-\pageBreak
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

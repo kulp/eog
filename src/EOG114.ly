@@ -2,8 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
-  system-count = #(cond (is-eogsized 5) (#t #f))
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{
@@ -13,7 +13,6 @@
   meter = "7. 6. 7. 6. D."
   poet = "H. d’A. Champney"
   composer = "W. H. Doane"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -136,24 +135,24 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Saved through the blood of Je -- sus,
-Per -- fect and on -- ly plea;
-Nought else a -- vails for sin -- ners,
-Nought else a -- vails for me.
+Saved through the blood of Je -- sus, \bar "."
+Per -- fect and on -- ly plea; \bar "."
+Nought else a -- vails for sin -- ners, \bar "."
+Nought else a -- vails for me. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Saved through the blood of Je -- sus,
-Saved from the curse of sin,
-Saved now to share Christ’s glo -- ry,
-Are all who trust in Him,
-Joy is a -- mong the an -- gels,
-And in the heart of God,
-As each un -- wor -- thy sin -- ner
-Trusts in the pre -- cious blood.
+Saved through the blood of Je -- sus, \bar "."
+Saved from the curse of sin, \bar "."
+Saved now to share Christ’s glo -- ry, \bar "."
+Are all who trust in Him, \bar "."
+Joy is a -- mong the an -- gels, \bar "."
+And in the heart of God, \bar "."
+As each un -- wor -- thy sin -- ner \bar "."
+Trusts in the pre -- cious blood. \bar "."
 
 }
 

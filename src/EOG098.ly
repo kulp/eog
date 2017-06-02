@@ -2,9 +2,9 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
-  system-count = #(cond (is-eogsized 7) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{
@@ -45,13 +45,13 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { c f g | a a a | bes f g | a r } \eogbreak
-  \changePitch \patternBA { a g fis | g a g | f e d | g } \eogbreak
-  \changePitch \patternAA { c, f g | a a a | bes bes b | c r } \eogbreak
-  \changePitch \patternCA { c bes a | d, g f | e a \fermata g | f } \eogbreak
+  \changePitch \patternAA { c f g | a a a | bes f g | a r }
+  \changePitch \patternBA { a g fis | g a g | f e d | g }
+  \changePitch \patternAA { c, f g | a a a | bes bes b | c r }
+  \changePitch \patternCA { c bes a | d, g f | e a \fermata g | f }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternDA { a bes c | a g f | e f g | a r } >>
+  \changePitch \patternDA { a bes c | a g f | e f g | a r } >> \eogbreak
   \changePitch \patternEA { a bes c | a g f | d e f | g }
   \changePitch \patternFA { c, f g | a a a | d d c | bes r }
   \changePitch \patternGA { bes a g | d g f | e a g | f }

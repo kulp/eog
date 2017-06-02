@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  systems-per-page = #(cond (is-eogsized 3) (#t #f))
+  system-count = #(cond (is-eogsized 4) (#t #f))
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 131." } }
 }
 
@@ -39,9 +39,9 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { f | bes a | bes g | f ees | d }
-  \changePitch \patternAA { d' | c c | c bes | a g | f }
-  \changePitch \patternAA { f | f a | bes d | ees d | c }
+  \changePitch \patternAA { f | bes a | bes g | f ees | d } \eogbreak
+  \changePitch \patternAA { d' | c c | c bes | a g | f } \eogbreak
+  \changePitch \patternAA { f | f a | bes d | ees d | c } \eogbreak
   \changePitch \patternAA { c | f c | d bes | bes a | bes }
 
   \bar "|."

@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 4) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
@@ -13,9 +12,8 @@
   title = "Life At Best Is Very Brief"
   tunename = ""
   meter = "P. M."
-  %poet = ""
+  poet = ""
   composer = "William J. Kirkpatrick"
-  %copyright = ""
   tagline = ##f
 }
 
