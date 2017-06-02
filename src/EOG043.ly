@@ -179,18 +179,18 @@ wordsD = \markuplist {
       }
     }
 
-    \vspace #0.5
+    \vspace #0.7
 
     \fill-line \smaller { "Sing to previous tune and refrain" }
 
-    \vspace #0.5
+    \vspace #1
 
     \fill-line {
       \null
 
       \column {
         \line{ \bold 1 \column { \wordsA } }
-        \vspace #1
+        \vspace #2
         \line{ \bold 2 \column { \wordsB } }
       }
 
@@ -198,7 +198,7 @@ wordsD = \markuplist {
 
       \column {
         \line{ \bold 3 \column { \wordsC } }
-        \vspace #1
+        \vspace #2
         \line{ \bold 4 \column { \wordsD } }
       }
 

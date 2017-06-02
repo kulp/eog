@@ -4,7 +4,7 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -12,9 +12,8 @@
   title = "He Knew No Sin, That Holy One"
   tunename = "Sawley"
   meter = "C. M."
-  %poet = ""
+  poet = ""
   composer = "J. J. Walch"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -36,7 +35,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key bes \major
-  %\partial 4
   \autoBeamOff
 }
 
