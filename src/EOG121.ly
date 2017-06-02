@@ -2,9 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  %page-count = ##f
+  system-count = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -14,7 +13,6 @@
   meter = "S. M."
   poet = "A. Midlane"
   composer = "Genevan Psalter"
-  %copyright = ""
   tagline = ##f
 }
 
