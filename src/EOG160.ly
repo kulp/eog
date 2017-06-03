@@ -12,7 +12,6 @@
   meter = "S. M."
   poet = "Toplady"
   composer = "German Melody"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -155,15 +154,10 @@ wordsE = \markuplist {
   }
 }
 
-\noPageBreak
-
-\markup { \raise #3 \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
-} }
+\markup { \fill-line { \column {
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+} } }
 
 \noPageBreak
 

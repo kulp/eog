@@ -4,7 +4,7 @@
   ragged-last-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
   system-count = #(cond (is-eogsized 6) (#t #f))
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -127,7 +127,7 @@ wordsA = \lyricmode {
 “Who -- so -- ev -- er hear -- eth!” shout, shout the sound! \bar "."
 Send the bless -- ed ti -- dings all the world a -- round; \bar "."
 Spread the joy -- ful news wher -- ev -- er man is found, \bar "."
-“Who -- so -- ev -- er will may come.” \bar "." \break
+“Who -- so -- ev -- er will may come.” \bar "."
 
 }
 

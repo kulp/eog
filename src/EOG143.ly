@@ -1,11 +1,9 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
   system-count = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 11
 }
 
 \header{
@@ -15,7 +13,6 @@
   meter = "C. M."
   poet = "Scottish Psalter, 1650"
   composer = "Sir George Smart"
-  %copyright = ""
   tagline = ##f
 }
 

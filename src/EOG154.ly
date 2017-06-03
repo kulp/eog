@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -12,9 +9,8 @@
   title = "The Atoning Work Is Done"
   tunename = "Lenox"
   meter = "6. 6. 6. 6. 8. 8."
-  %poet = ""
+  poet = ""
   composer = "Lewis Edson"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -136,7 +132,7 @@ wordsC = \markuplist {
       }
     }
 
-    \vspace #1
+    \vspace #2
 
     \fill-line {
       \null
@@ -146,7 +142,7 @@ wordsC = \markuplist {
       \null
     }
 
-    \vspace #1
+    \vspace #2
 
     \fill-line {
       \hcenter-in #35

@@ -3,8 +3,8 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
-  system-count = #(cond (is-eogsized 6) (#t #f))
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -14,7 +14,6 @@
   meter = "P. M."
   poet = "J. E. Rankin"
   composer = "W. G. Tomer"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -104,7 +103,6 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-\break
 Till we meet,__ till we meet,__  \bar "."
 Till we meet at Je -- sus’ feet; \bar "."
 Till we meet,__ till we meet,__ \bar "."

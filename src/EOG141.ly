@@ -1,11 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
   system-count = #(cond (is-eogsized 2) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +12,6 @@
   meter = "S. M."
   poet = "A. Midlane"
   composer = "W. H. Monk"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -164,13 +160,10 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
-} }
+\markup { \fill-line { \column {
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #1
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #1
+} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

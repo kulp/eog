@@ -3,8 +3,8 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
-  system-count = #(cond (is-eogsized 6) (#t #f))
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -14,7 +14,6 @@
   meter = "P. M."
   poet = "Priscilla J. Owens"
   composer = "William Kirkpatrick"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -51,9 +50,9 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { f g | a f d g g | f e f }
-  \changePitch \patternAB { a a | g g g c e, f | e d c }
-  \changePitch \patternAA { c c | f a g c, c | g' bes a }
+  \changePitch \patternAA { f g | a f d g g | f e f } \eogbreak
+  \changePitch \patternAB { a a | g g g c e, f | e d c } \eogbreak
+  \changePitch \patternAA { c c | f a g c, c | g' bes a } \eogbreak
   \changePitch \patternBA { f a | c c c bes f g | a g f } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }

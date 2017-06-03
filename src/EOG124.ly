@@ -2,10 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
-  system-count = #(cond (is-eogsized 5) (#t #f))
-  score-markup-spacing.padding = 2
-  score-markup-spacing.basic-distance = 2
+  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  system-count = #(cond (is-eogsized 6) (#t #f))
 }
 
 \header{
@@ -37,10 +35,10 @@ notesSoprano = {
 \relative c' {
 
   \once \override NoteHead.font-size = #-4 d4 |
-  d2 d4 g | b2 g4 b | b( a) e fis | g2 d4
-  d4 | d2 g4 b | d2 b4 b | g2 a4 g | a2.
-  d,4 | d2 d4 g | b2 g4 b | b( a) e fis | g2 d4
-  g4 | g2 fis4 e | d2 g4 a | b2 a4 a | g2.
+  d2 d4 g | b2 g4 b | b( a) e fis | g2 d4 \eogbreak
+  d4 | d2 g4 b | d2 b4 b | g2 a4 g | a2. \eogbreak
+  d,4 | d2 d4 g | b2 g4 b | b( a) e fis | g2 d4 \eogbreak
+  g4 | g2 fis4 e | d2 g4 a | b2 a4 a | g2. \eogbreak
 
   << s^\markup { \small \caps "Refrain" } % TODO arrange REFRAIN and dynamic forte appropriately
   { b4^\markup \dynamic f | d2 d4 e d2 b4 } >>

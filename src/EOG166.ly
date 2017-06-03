@@ -4,8 +4,8 @@
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 4) (#t #f)) % original has 3 systems
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 270." } }
-  score-markup-spacing.padding = 2
-  score-markup-spacing.basic-distance = 2
+  score-markup-spacing.padding = 3
+  score-markup-spacing.basic-distance = 3
 }
 
 \header{

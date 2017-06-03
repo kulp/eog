@@ -48,7 +48,7 @@ notesSoprano = {
   \changePitch \patternAA { c c | c bes e, d' | c a }
   \changePitch \patternAB { a a | a g c, bes' | a }
   \changePitch \patternAA { c c | c bes e, d' | c c }
-  \changePitch \patternAB { c d | e c d c | c }
+  \changePitch \patternAB { c d | e c d c | c } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternBA { c | f c e d | c a } >>
