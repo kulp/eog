@@ -78,10 +78,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Noth -- ing but Christ, as on we tread,
-The gift un -- priced– God’s liv -- ing Bread;
-With staff in hand and feet well shod.
-Noth -- ing but Christ, the Christ of God.
+Noth -- ing but Christ, as on we tread, \bar "."
+The gift un -- priced– God’s liv -- ing Bread; \bar "."
+With staff in hand and feet well shod. \bar "."
+Noth -- ing but Christ, the Christ of God. \bar "."
 
 }
 
