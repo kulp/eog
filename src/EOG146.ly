@@ -101,7 +101,7 @@ notesBass = {
   f2 f f f | f f f f |
   f g a a | g g c,1
 
-  f2 a bes f | f a bes f | 
+  f2 a bes f | f a bes f |
   f4( e) d( c) bes( bes') a( g) | f2 a, c1
 
   f2 f f f | f f c f |

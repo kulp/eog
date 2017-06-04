@@ -90,9 +90,9 @@ notesBass = {
   e4 e e e | e e b b |
   b8 b b b b4 b | e2. r4 |
 
-  a4 a a a | e e e e | 
+  a4 a a a | e e e e |
   b4 b b b | e e e2 |
-  a4 a a a | e e e e | 
+  a4 a a a | e e e e |
   b8 b b b b4 b | e2. r4 |
 
 }

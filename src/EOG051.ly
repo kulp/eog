@@ -38,10 +38,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { ees     | c' bes c | aes r ees   | f g aes     | ees   } 
-  \changePitch \patternAB { ees ees | f g aes  | aes g aes   | bes aes bes | c r   } 
-  \changePitch \patternAA { ees,    | c' bes c | aes ees ees | f g aes     | ees r } 
-  \changePitch \patternAA { ees     | f g aes  | aes g aes   | bes c bes   | aes r } 
+  \changePitch \patternAA { ees     | c' bes c | aes r ees   | f g aes     | ees   }
+  \changePitch \patternAB { ees ees | f g aes  | aes g aes   | bes aes bes | c r   }
+  \changePitch \patternAA { ees,    | c' bes c | aes ees ees | f g aes     | ees r }
+  \changePitch \patternAA { ees     | f g aes  | aes g aes   | bes c bes   | aes r }
 
   \bar "|."
 
@@ -52,10 +52,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  \changePitch \patternAA { c   | ees des ees | c r c   | des ees f   | c     } 
-  \changePitch \patternAB { c c | des des des | c des c | ees ees ees | ees r } 
-  \changePitch \patternAA { c   | ees des ees | c c c   | des ees f   | c r   } 
-  \changePitch \patternAA { c   | des des des | c des c | des ees des | c     } 
+  \changePitch \patternAA { c   | ees des ees | c r c   | des ees f   | c     }
+  \changePitch \patternAB { c c | des des des | c des c | ees ees ees | ees r }
+  \changePitch \patternAA { c   | ees des ees | c c c   | des ees f   | c r   }
+  \changePitch \patternAA { c   | des des des | c des c | des ees des | c     }
 
 }
 }
@@ -64,10 +64,10 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { aes     | aes g g | aes r aes   | aes aes aes | aes   } 
-  \changePitch \patternAB { aes aes | aes g f | aes bes aes | g aes g     | aes r } 
-  \changePitch \patternAA { aes     | aes g g | aes aes aes | aes aes aes | aes r } 
-  \changePitch \patternAA { aes     | aes g f | aes bes aes | g g g       | aes r } 
+  \changePitch \patternAA { aes     | aes g g | aes r aes   | aes aes aes | aes   }
+  \changePitch \patternAB { aes aes | aes g f | aes bes aes | g aes g     | aes r }
+  \changePitch \patternAA { aes     | aes g g | aes aes aes | aes aes aes | aes r }
+  \changePitch \patternAA { aes     | aes g f | aes bes aes | g g g       | aes r }
 
 }
 }
@@ -76,10 +76,10 @@ notesBass = {
 \global
 \relative f, {
 
-\changePitch \patternAA { aes      | aes ees' ees  | aes, r aes    | des des des  | aes'   } 
-\changePitch \patternAB { aes, aes | des des des   | aes ees' aes, | ees' c ees   | aes r  } 
-\changePitch \patternAA { aes      | aes, ees' ees | aes, aes aes  | des des des  | aes' r } 
-\changePitch \patternAA { aes,     | des des des   | aes ees' aes, | ees' ees ees | aes,   } 
+\changePitch \patternAA { aes      | aes ees' ees  | aes, r aes    | des des des  | aes'   }
+\changePitch \patternAB { aes, aes | des des des   | aes ees' aes, | ees' c ees   | aes r  }
+\changePitch \patternAA { aes      | aes, ees' ees | aes, aes aes  | des des des  | aes' r }
+\changePitch \patternAA { aes,     | des des des   | aes ees' aes, | ees' ees ees | aes,   }
 
 }
 }

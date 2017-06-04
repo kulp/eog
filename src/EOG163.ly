@@ -48,7 +48,7 @@ notesAlto = {
   b2 e fis e | e dis e e |
   e2 fis fis e | e dis e1 |
   e2 e e e | e e e e |
-  fis2 dis e gis | fis e dis1 | 
+  fis2 dis e gis | fis e dis1 |
   b2 e fis e | e dis e e |
   e2 fis fis e | e dis e1 |
 

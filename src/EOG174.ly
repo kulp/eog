@@ -39,7 +39,7 @@ notesSoprano = {
   c2 c c | c2. b4 a2 |
   b2 c4( b) a( g) | b2. c4 d2 |
   e4( c) b2 a | g1. |
-  
+
   \bar "|."
 
 }

@@ -132,10 +132,10 @@ notesLeftHand = {
 \clef bass
 \relative f, {
 
-< g g' >2. r4 | < g g' >4 r4 < d d' >2 
-< d d' >2. r4 | < d d' >4 r4 < g g' >2 
-< g g' >2. r4 | < g g' >4 r4 < c, c' >2 
-< c c' >2. r4 | < d d' >4 r4 < g g' >2 
+< g g' >2. r4 | < g g' >4 r4 < d d' >2
+< d d' >2. r4 | < d d' >4 r4 < g g' >2
+< g g' >2. r4 | < g g' >4 r4 < c, c' >2
+< c c' >2. r4 | < d d' >4 r4 < g g' >2
 
 }
 }

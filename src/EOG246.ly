@@ -132,7 +132,7 @@ Je -- sus, Thou King of glo -- ry,
 We soon shall dwell with Thee,
 And sing Thy love’s bright sto -- ry,
 When we Thy glo -- ry see.
-E’en now our souls would en -- ter 
+E’en now our souls would en -- ter
 The ho -- li -- est on high,
 That all our love might cen -- ter
 On Thee who cam’st to die.

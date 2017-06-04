@@ -70,12 +70,12 @@ notesAlto = {
   \changePitch \patternAB { d ees d ees | ees ees ees r }
   \changePitch \patternAC { ees r ees ees | ees d r }
   \changePitch \patternAD { d ees f bes, | bes r }
-  
+
   \changePitch \patternBA { ees ees g bes | bes aes r }
   \changePitch \patternBB { d, d d f | ees ees ees ees r }
   \changePitch \patternBC { ees ees g g | bes aes aes r }
   \changePitch \patternBD { ees ees ees d | bes r }
-  
+
   \changePitch \patternCA { ees ees r ees | d d r }
   \changePitch \patternCB { d d d f | ees ees ees r }
   \changePitch \patternCC { ees ees r ees | d d r }
@@ -92,12 +92,12 @@ notesTenor = {
   \changePitch \patternAB { bes bes bes bes | c aes g r }
   \changePitch \patternAC { g r c bes | bes bes r }
   \changePitch \patternAD { bes bes bes aes | g r }
-  
+
   \changePitch \patternBA { bes g bes ees | ees ees r }
   \changePitch \patternBB { bes bes bes bes | bes aes g g r }
   \changePitch \patternBC { bes g bes ees | ees ees ees r }
   \changePitch \patternBD { g, g g aes | g r }
-  
+
   \changePitch \patternCA { bes bes r bes | bes bes r }
   \changePitch \patternCB { bes bes bes bes | bes aes g r }
   \changePitch \patternCC { bes bes r bes | bes bes r }
@@ -114,12 +114,12 @@ notesBass = {
   \changePitch \patternAB { bes ees f ees | ees ees ees r }
   \changePitch \patternAC { ees r ees ees | bes bes r }
   \changePitch \patternAD { bes bes bes bes | ees r }
-  
+
   \changePitch \patternBA { ees ees ees g | aes aes r }
   \changePitch \patternBB { bes, bes bes d | ees ees ees ees r }
   \changePitch \patternBC { ees ees ees ees aes aes aes r }
   \changePitch \patternBD { bes, bes bes bes | ees r }
-  
+
   \changePitch \patternCA { ees ees r ees | f f r }
   \changePitch \patternCB { bes, bes bes d | ees ees ees r }
   \changePitch \patternCC { ees ees r ees | f f r }
@@ -149,7 +149,7 @@ I would live to Thee. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-There, in the glo -- ry, 
+There, in the glo -- ry,
 I shall see my Lord who died;
 Throned in the glo -- ry,
 Lives the Cru -- ci -- fied.

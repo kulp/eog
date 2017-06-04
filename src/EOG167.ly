@@ -28,7 +28,7 @@ global = {
 notesSoprano = {
 \global
 \relative c' {
-  
+
   ees4 | g4. g8 aes[ g] f[ ees] | c'4 bes bes
   g4 | bes4. bes8 c[ bes] aes[ g] | f2.
   aes4 | g4. g8 aes[ g] f[ ees] | c'4 bes bes

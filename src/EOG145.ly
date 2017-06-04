@@ -55,9 +55,9 @@ notesSoprano = {
 \global
 \relative c'' {
 
-g2 bes aes bes | g bes f bes 
+g2 bes aes bes | g bes f bes
 g2 bes aes f | ees d ees1
-g2 bes aes bes | g bes f bes 
+g2 bes aes bes | g bes f bes
 g2 bes aes f | ees d ees1
 
 ees'2 d ees bes | aes f g bes

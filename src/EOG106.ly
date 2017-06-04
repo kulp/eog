@@ -81,7 +81,7 @@ notesTenor = {
   a4 | c4 d4 c4 a8[ c8] | a4 bes4 c4
   c4 | c4. c8 d4 d8[ g,8] | g4( a4 bes4)
 
-  bes4 | a4. a8 a8[ c8] bes8[ a8] | a4. bes8 c4 
+  bes4 | a4. a8 a8[ c8] bes8[ a8] | a4. bes8 c4
   a8[ bes8] | c4. c8 c4 c4 | c2.
   bes4 | a4. a8 c4. c8 | a8[ c8 bes8] a8 bes4
   bes4 | a8[ c8] g8[ bes8] a4 bes4 | a2.

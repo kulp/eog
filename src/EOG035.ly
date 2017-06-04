@@ -22,11 +22,11 @@
 ta = { \tempo 4=90 }
 tb = { \tempo 4=45 }
 
-patternAA = { c4 c4 c8. c16 c8. c16 | c2 c2   } 
-patternAB = { c4 c4 c8. c16 c8. c16 | c2( c2) } 
-patternAC = { c4 c4 c8. c16 c8. c16 | c1      } 
-patternAD = { c4 c4 c8. c16 c8. c16 | c2 c4   } 
-patternAE = { c4 c4 c8. c16 c8. c16 | c2 c4.  } 
+patternAA = { c4 c4 c8. c16 c8. c16 | c2 c2   }
+patternAB = { c4 c4 c8. c16 c8. c16 | c2( c2) }
+patternAC = { c4 c4 c8. c16 c8. c16 | c1      }
+patternAD = { c4 c4 c8. c16 c8. c16 | c2 c4   }
+patternAE = { c4 c4 c8. c16 c8. c16 | c2 c4.  }
 
 patternBA = { c8 c8 | c4 c8[ c8] c4 c8[ c8] | c1 }
 patternBB = { c8 c8 | c4 c4      c4 c8[ c8] | c1 }

@@ -186,10 +186,10 @@ When Je -- sus re -- ceives “His own.”
   >>
   \layout {
     \include "common/layout.ily"
-      \context { 
-        \Staff 
-        \override TimeSignature.break-visibility = #all-invisible 
-    } 
+      \context {
+        \Staff
+        \override TimeSignature.break-visibility = #all-invisible
+    }
   }
   \midi{
     \include "common/midi.ily"

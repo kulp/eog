@@ -57,7 +57,7 @@ notesTenor = {
 
   b2 d d b | d e d d |
   c2 b d d | c d d1 |
-  b2 b a d | d d d d | 
+  b2 b a d | d d d d |
   b2 c d e | d c b1 |
 
 }
