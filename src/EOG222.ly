@@ -37,14 +37,12 @@ notesSoprano = {
 \relative c'' {
 
   a4 | a8. a16 a4 d | fis,8. fis16 fis4
-  a4 | d,8. d16 d4 e | fis2
+  a4 | d,8. d16 d4 e | fis2 \eogbreak
   a4 | a8. a16 a4 d | fis,8. fis16 fis4
-  a4 | d,8. d16 d4 e | fis2
-
-  \break
+  a4 | d,8. d16 d4 e | fis2 \eogbreak
 
   \changePitch \patternA { a | g fis e g | fis g a }
-  \changePitch \patternC { d | e cis a g | g fis }
+  \changePitch \patternC { d | e cis a g | g fis } \eogbreak
   \changePitch \patternD { e | fis g a fis | b cis d }
   \changePitch \patternB { b | a g fis e | d }
 

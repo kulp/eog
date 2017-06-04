@@ -38,9 +38,9 @@ notesSoprano = {
 \relative c' {
 
   r4 r8 e e e | a4. a8 a e | fis2
-  fis4 | fis4. fis8 gis a | gis4 e8
+  fis4 | fis4. fis8 gis a | gis4 e8 \eogbreak
   e8 e e | a4. e8 a b | cis2
-  cis8[ d] | e4. a,8 b cis | b4 a
+  cis8[ d] | e4. a,8 b cis | b4 a \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { b4 | b4. b8 cis a | b4 b } >>

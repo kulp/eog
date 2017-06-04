@@ -38,7 +38,7 @@ notesSoprano = {
 
   g8 | c4. c8 b4 a | a8 g fis g e4.
   g8 | g4 d e4. f8 | a g fis g e4.
-  g8 | c4. c8 d c b a | a4 c g4.
+  g8 | c4. c8 d c b a | a4 c g4. \eogbreak
   g8 | c4. c8 d4. d8 | e4. e8 f e d
   c8 | c2 b2 | c2..
 
