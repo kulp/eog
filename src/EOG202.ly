@@ -52,7 +52,7 @@ notesAlto = {
   g8 | g[ ees] f g4 f8 | g8[ ees] f g[ f]
   ees8 | ees[ f] g f4 ees8 | ees8([ d c] d4) r8
   ees8 ees ees ees4 d8 | ees8[ d] des c[ e]
-  f8 | ees4 ees8 ees8[ c] d | ees4. ~ ees8 r8
+  f8 | ees4 ees8 ees8[ c] d | ees4. ~ ees4 r8
 
 }
 }
