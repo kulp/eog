@@ -2,7 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  system-system-spacing.padding = 8
+  score-markup-spacing.padding = 2.5
+  score-markup-spacing.basic-distance = 2.5
 }
 
 \header{
@@ -183,13 +184,10 @@ wordsG = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 6 \column { \wordsF } }
-  \hspace #0.1
-  \line{ \bold 7 \column { \wordsG } }
-  \hspace #0.1
-} }
+\markup { \fill-line { \column {
+  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
+} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
