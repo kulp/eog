@@ -142,7 +142,7 @@ wordsC = \lyricmode {
 
 I tried the bro -- ken cist -- erns, Lord,
 But, ah, the wa -- ters failed:
-Ev-en as I stopped to drink they fled,
+\mon Ev -- en \moff as I stopped to drink they fled,
 And mocked me as I wailed.
 
 }
