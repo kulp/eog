@@ -14,7 +14,7 @@ LYRICAL_MP3S  = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(STD_LYS:.ly=
 ADDL_MP3S     = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(ADDL_LYS:.ly=.mp3)))
 WAVS          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  WAV/$v/,$(LYS:.ly=.wav )))
 TXTS          = $(patsubst %.ly,TXT/default/%.txt,$(STD_LYS))
-LATINS        = $(TXTS:default=latinized)
+LATINS        = $(TXTS:TXT/default/%=TXT/latinized/%)
 M3US          = $(VARIANTS_MP3:%=%.m3u)
 ADDL_LYS      = $(filter EOGa%.ly,$(LYS))
 STD_LYS       = $(filter-out EOGa%.ly,$(LYS))
