@@ -3,6 +3,20 @@
   \include "common/paper.ily"
 }
 
+% dual-time is from http://lilypond.1069038.n5.nabble.com/multiple-timesignatures-tp25914p25915.html
+#(define ((dual-time one two denom) grob)
+  (grob-interpret-markup grob
+    (markup #:override '(baseline-skip . 0) #:number
+      (#:line ( (#:column (one denom)) (#:column (two denom)) ) )
+    )
+  )
+)
+
+dualTime = #(define-music-function (parser location num1 num2 denom) (string? string? string?) #{
+    \once\override Staff.TimeSignature.stencil = #(dual-time num1 num2 denom)
+    \once\revert TimeSignature #'break-visibility
+#})
+
 \header{
   hymnnumber = "212"
   title = "Christ Returneth"
@@ -152,6 +166,7 @@ When Je -- sus re -- ceives “His own.”
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
+      \dualTime "3" "4" "4"
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
@@ -163,6 +178,7 @@ When Je -- sus re -- ceives “His own.”
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
+      \dualTime "3" "4" "4"
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
@@ -170,6 +186,10 @@ When Je -- sus re -- ceives “His own.”
   >>
   \layout {
     \include "common/layout.ily"
+      \context { 
+        \Staff 
+        \override TimeSignature.break-visibility = #all-invisible 
+    } 
   }
   \midi{
     \include "common/midi.ily"
