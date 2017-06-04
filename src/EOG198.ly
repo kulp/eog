@@ -4,8 +4,8 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   % decrease system-to-system padding to fit onto page with next score
-  system-system-spacing.padding = 0.5
-  system-system-spacing.basic-distance = 0.5
+  system-system-spacing.padding = 2
+  system-system-spacing.basic-distance = 2
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {

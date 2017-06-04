@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -31,15 +32,15 @@ notesSoprano = {
 \relative c' {
 
   \changePitch \patternA { f g | a a g | f }
-  \changePitch \patternA { f a | c c bes | a }
+  \changePitch \patternA { f a | c c bes | a } \eogbreak
   a8 a8 | bes4 d bes | a c a | g2
-  \changePitch \patternA { f g | a a g | f }
+  \changePitch \patternA { f g | a a g | f } \eogbreak
   \changePitch \patternA { f a | c c bes | a }
-  a8 a8 | bes4 d bes | a f g | f2.
+  a8 a8 | bes4 d bes | a f g | f2. \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { c'4 g c | a2 } >>
-  \changePitch \patternA { a a | d a c | bes }
+  \changePitch \patternA { a a | d a c | bes } \eogbreak
   bes8 bes | bes4 a g | a c
   \changePitch \patternA { f,8 g | a4 f g | f2 }
 
@@ -107,22 +108,22 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Trust and o -- bey,
-For there’s no oth -- er way
-To be hap -- py in Je -- sus
-But to trust and o -- bey.
+Trust and o -- bey, \bar "."
+For there’s no oth -- er way \bar "."
+To be hap -- py in Je -- sus \bar "."
+But to trust and o -- bey. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-When we walk with the Lord
-In the light of His word,
-What a glo -- ry he sheds on our way!
-While we do His sweet will,
-How our hearts He can fill
-With His love as we trust and o -- bey.
+When we walk with the Lord \bar "."
+In the light of His word, \bar "."
+What a glo -- ry he sheds on our way! \bar "."
+While we do His sweet will, \bar "."
+How our hearts He can fill \bar "."
+With His love as we trust and o -- bey. \bar "."
 
 }
 

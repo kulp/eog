@@ -28,11 +28,11 @@ notesSoprano = {
 \relative c'' {
 
   g8 g g aes4 aes8 | bes8[ aes] g f[ g]
-  aes8 | bes[ ees,] aes g4 f8 | ees4. ~ ees4 r8
+  aes8 | bes[ ees,] aes g4 f8 | ees4. ~ ees4 r8 \eogbreak
   g8 g g aes4 aes8 | bes8[ aes] g f[ g]
-  aes8 | bes[ ees,] aes g4 f8 | ees4. ~ ees8 r8
+  aes8 | bes[ ees,] aes g4 f8 | ees4. ~ ees8 r8 \eogbreak
   bes'8 | bes[ g] bes ees4 bes8 | bes8[ g] bes bes4
-  bes8 | c4 bes8 bes[ aes] g | g4.( f4) r8
+  bes8 | c4 bes8 bes[ aes] g | g4.( f4) r8 \eogbreak
   g8 g g aes4 aes8 | bes8[ aes] g f[ g]
   aes8 | bes[ ees,] aes g4 f8 | ees4. ~ ees4 r8
 

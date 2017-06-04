@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -29,13 +30,13 @@ notesSoprano = {
 \relative c' {
 
   f4 | bes2 bes4 d | f,2 f4
-  g4 | f( ees) d f | bes2.
+  g4 | f( ees) d f | bes2. \eogbreak
   bes4 | c2 c4 c | d2 ees4
-  ees | d( c) bes a | bes2.
+  ees | d( c) bes a | bes2. \eogbreak
   bes4 | d2 d4 d | c2 c4
-  d4 | bes4.( a8) bes4 g | g4( f2)
+  d4 | bes4.( a8) bes4 g | g4( f2) \eogbreak
   ees4 | d( f) bes bes | bes2 f4
-  f4 | bes( d) f f | d4.( c8 bes4)
+  f4 | bes( d) f f | d4.( c8 bes4) \eogbreak
   bes4 | c2 c4 c | d2 ees4
   ees4 | d( c) bes a | bes2.
 

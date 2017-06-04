@@ -31,11 +31,11 @@ notesSoprano = {
 \relative c' {
 
   d4. g8 d g b g b | d4.
-  c4 ~ c8 | b8 d b a g a | g4.
+  c4 ~ c8 | b8 d b a g a | g4. \eogbreak
   d4. g8 d g b g b | d4.
-  c4. | b8 d b a g a | g4.
+  c4. | b8 d b a g a | g4. \eogbreak
   d'4. d8 b d d b d | e4.
-  c4. | b8 c d d c b | a4.
+  c4. | b8 c d d c b | a4. \eogbreak
   d,4. g8 d g b g b | d4.
   c4. | b8 d b a g a | g4.
 

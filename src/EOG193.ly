@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -35,14 +36,15 @@ notesSoprano = {
 \global
 \relative c' {
 
-  e8 | cis'8. b16 a8 cis, e a | gis4. ~ gis4
-  \changePitch \patternA { e | d' cis b fis gis fis | e ~ e }
+  e8 | cis'8. b16 a8 cis, e a | gis4. ~ gis4 \eogbreak
+  \changePitch \patternA { e | d' cis b fis gis fis | e ~ e } \eogbreak
   \changePitch \patternA { e | e' d cis b a gis | gis( fis) }
   \changePitch \patternC { fis | e a gis a b | a ~ a r }
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { cis4. a | d cis } >>
-  b8. b16 b8 b a fis | e4.~ \tb e4 \fermata \ta
+  b8. b16 b8 b a fis | e4.~ \tb e4 \fermata \ta \eogbreak
   \changePitch \patternA { e | a a a a b cis | d ~ d }
   fis,8 | e4 e8 e e e | e4. ~ e4
 

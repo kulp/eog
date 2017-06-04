@@ -5,8 +5,8 @@
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 2) (#t #f))
   % decrease system-to-system padding to fit onto page with previous score
-  system-system-spacing.padding = 0.5
-  system-system-spacing.basic-distance = 0.5
+  system-system-spacing.padding = 2
+  system-system-spacing.basic-distance = 2
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {
