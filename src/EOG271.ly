@@ -150,7 +150,7 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 The bride eyes on her gar -- ment,
-But her dear bride -- groom’s afece;
+But her dear bride -- groom’s face;
 I will not gaze on glo -- ry,
 But on my King of Grace.
 Not on the crown He giv -- eth,
