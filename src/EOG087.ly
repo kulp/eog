@@ -152,7 +152,7 @@ And saves His peo -- ple from e -- ter -- nal loss.
 
 wordsD = \markuplist {
 
-\line { Now, weary wouls, who rest and peace are seeking, }
+\line { Now, weary souls, who rest and peace are seeking, }
 \line { Who long for One to meet their deepest need, }
 \line { Hear in the Word the voice of Jesus speaking, }
 \line { And trust in Him who makes them free indeed. }

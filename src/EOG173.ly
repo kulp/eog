@@ -92,7 +92,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Long did I toil, and knew no earth -- ly rest; \bar "."
-Far did I rovel and found no cer -- tain home; \bar "."
+Far did I rove, and found no cer -- tain home; \bar "."
 At last I sought them in His shelter -- ing breast, \bar "." % original has shel -- ter -- ing
 Who opes His arms, and bids the wear -- y come: \bar "."
 With Him I found a home, a rest di -- vine, \bar "."

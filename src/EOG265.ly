@@ -102,7 +102,7 @@ wordsC = \lyricmode {
 
 We praise, then, our God; how rich is His grace!
 We were far from Him, es -- tranged from His face.
-By blood we are pur -- chased, are cleasned and made nigh,
+By blood we are pur -- chased, are cleansed and made nigh,
 And blest in His pres -- ence, in Je -- sus on high.
 
 }

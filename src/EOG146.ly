@@ -176,7 +176,7 @@ Full the joy, as fierce the wrath.
 Tak -- en up in res -- ur -- rec -- tion,
 Des -- ert ways re -- hearsed a -- bove,
 Tell the power of God’s Sal -- va -- tion,
-And His nev -- "er   -" fail -- ing love.
+And His nev -- er -- fail -- ing love.
 
 }
 

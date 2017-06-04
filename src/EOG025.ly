@@ -157,7 +157,7 @@ wordsC = \lyricmode {
 
 O, sweet is its { \mon } rest to { \moff } the wear -- y and worn,
 Who deep feel the { \mon } bur -- den { \moff } of sin;
-It seeks for no mer-it its bliss to { \mon } in -- her -- it, { \moff }
+It seeks for no { \mon } mer -- it { \moff } its bliss to { \mon } in -- her -- it, { \moff }
 No good -- ness with -- out or with -- in.
 
 }

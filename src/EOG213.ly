@@ -133,7 +133,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Not for ease or world -- ly pleas -- ure,
-Not for fame my prayer shall bel
+Not for fame my prayer shall be;
 Glad -- ly will I toil and suf -- fer,
 Keep me walk -- ing, Lord, with Thee.
 

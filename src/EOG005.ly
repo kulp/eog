@@ -124,7 +124,7 @@ wordsC = \lyricmode {
 wordsD = \lyricmode {
 \set stanza = "4."
 
-    How sweet the tuth, ye sin -- ners, hear it,
+    How sweet the truth, ye sin -- ners, hear it,
     Mer -- cy’s free, mer -- cy’s free.
     Ye saints of God, to all de -- clare it,
     Mer -- cy’s free, mer -- cy’s free.

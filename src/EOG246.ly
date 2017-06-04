@@ -145,7 +145,7 @@ wordsD = \lyricmode {
 At God’s right hand in glo -- ry
 Thou sitt’st, Thy work com -- plete,
 Till per -- fect -- ed the sto -- ry
-That ives us, too, our seat.
+That gives us, too, our seat.
 Then o’er the wide cre -- a -- tion
 Thy pow’r will stretch its arm;
 Se -- cure from all temp -- ta -- tion,

@@ -158,7 +158,7 @@ Wait -- ing will not save me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Faith in Christ wil save me;
+Faith in Christ will save me;
 Trust in Him, the ris -- en One,
 Trust the work that He has done;
 To His arms I now may run;

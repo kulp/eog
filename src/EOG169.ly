@@ -104,7 +104,7 @@ wordsC = \lyricmode {
 
 We share each oth -- er’s woes,
 Each oth -- er’s bur -- dens bear;
-And oft -- en for each oth --er flows
+And oft -- en for each oth -- er flows
 The sym -- pa -- thiz -- ing tear.
 
 }

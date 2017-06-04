@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 
 ’Twas love, pure love, which bro’t Him from
 A -- bove the bright blue sky;
-’Twas love, pure love, which made hime come
+’Twas love, pure love, which made Him come
 To suf -- fer, bleed, and die.
 
 }
