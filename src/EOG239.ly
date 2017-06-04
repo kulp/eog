@@ -96,13 +96,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Midst the dark -- ness, storm, and sor -- row, \bar "." % TODO Oxford comma here is not present in title
-One bright gleam I see;
-Well I know, the bless -- ed mor -- row,
-Christ will come for me.
-Midst the light, and peace, and glo -- ry,
-Of the Fa -- ther’s home;
-Christ for me is watch -- ing, wait -- ing,
-Wait -- ing till I come.
+One bright gleam I see; \bar "."
+Well I know, the bless -- ed mor -- row, \bar "."
+Christ will come for me. \bar "."
+Midst the light, and peace, and glo -- ry, \bar "."
+Of the Fa -- ther’s home; \bar "."
+Christ for me is watch -- ing, wait -- ing, \bar "."
+Wait -- ing till I come. \bar "."
 
 }
 
