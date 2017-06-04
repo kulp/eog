@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 5) (#t #f))
 }
 
 % dual-time is from http://lilypond.1069038.n5.nabble.com/multiple-timesignatures-tp25914p25915.html
@@ -57,6 +58,7 @@ notesSoprano = {
   a4 | \time 3/4 a b cis | d2 cis8. d16 | e4. d8 e4 | fis4 d
   d8. ~ d16 | d4. cis8 b4 | a4( d) cis | d2. |
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { a2  fis4 | fis g a | b2 b4 | d2 } >>
   d8. d16 | d4 cis b | a2 cis8. cis16 | d4 d
@@ -167,7 +169,7 @@ When Je -- sus re -- ceives “His own.”
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \dualTime "3" "4" "4"
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
@@ -179,7 +181,7 @@ When Je -- sus re -- ceives “His own.”
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \dualTime "3" "4" "4"
-      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
