@@ -28,8 +28,8 @@ patternBC = { c2 c2 c2 c2      | c2 c2      c1 }
 
 patternCA = { \patternAB }
 
-patternDA = { c2 c2 c2 c2 | c1 c1      | \override Staff.NoteHead.style = #'altdefault c\breve \revert Staff.NoteHead.style }
-patternDB = { c2 c2 c2 c2 | c1 c2( c2) | \override Staff.NoteHead.style = #'altdefault c\breve \revert Staff.NoteHead.style }
+patternDA = { c2 c2 c2 c2 | c1 c1      | c\breve }
+patternDB = { c2 c2 c2 c2 | c1 c2( c2) | c\breve }
 
 global = {
   \include "common/overrides.ily"
