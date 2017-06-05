@@ -1,5 +1,5 @@
-\documentclass{letter}
-\usepackage[tmargin=15pt,bmargin=16pt,inner=0pt,outer=0pt,paperwidth=6in,paperheight=9in]{geometry}
+\documentclass{book}
+\usepackage[tmargin=15pt,bmargin=16pt,inner=25pt,outer=0pt,paperwidth=6in,paperheight=9in]{geometry}
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
 
