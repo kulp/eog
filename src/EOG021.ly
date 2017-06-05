@@ -2,7 +2,6 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
   system-count = #(cond (is-eogsized 6) (#t #f))
   page-count = #(cond (is-eogsized 2) (#t #f))
 }
@@ -14,7 +13,6 @@
   meter = "C. M. D. and Refrain"
   poet = "A. A. P."
   composer = "G. C. Stebbins"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -140,13 +138,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 No room for Thee, Thou bless -- ed One, \bar "."
-The Fa -- ther’s ho -- ly Child– \bar "." \break
+The Fa -- ther’s ho -- ly Child– \bar "." \eogbreak
 His well -- be -- lov -- ed on -- ly Son, \bar "."
-The Sav -- iour un -- de -- filed! \bar "." \break
+The Sav -- iour un -- de -- filed! \bar "." \eogbreak
 No room for Thee in crowd -- ed inn \bar "."
-That eve -- ning long a -- go! \bar "." \break
+That eve -- ning long a -- go! \bar "." \eogbreak
 “Be -- hold the Lamb” who bore our sin \bar "."
-Shut out by hearts be -- low! \bar "." \break
+Shut out by hearts be -- low! \bar "."
 
 }
 
@@ -162,7 +160,7 @@ As ’neath the start -- led sky,
 With cru -- el scourge and mock -- er -- y
 They led Thee forth to die.
 
-{ \pageBreak }
+{ \eogpagebreak }
 
 \Refrain
 

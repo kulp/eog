@@ -188,8 +188,6 @@ wordsF = \markuplist {
   }
 }
 
-\noPageBreak
-
 \markup { \fill-line { \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
