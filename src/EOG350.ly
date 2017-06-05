@@ -170,7 +170,7 @@ extraA = \markuplist {
 \noPageBreak \markup { \fill-line { \raise #4 \wordwrap { Copyright, 1927. Renewal, 1955, by H. D. Clarke. Assigned to Hope Publishing Company. All rights reserved. Used by permission. } } }
 
 \noPageBreak \markup { \lower #2 \fill-line { \center-column {
-  "May be sung to above tune"
+  \bold "May be sung to above tune"
   \lower #2 \line { \column { \extraA } }
 } } }
 
