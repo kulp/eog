@@ -32,7 +32,7 @@ notesSoprano = {
   g4 a | g2 fis fis1 |
   a4 d, d d d2 a'2 |
   a4 g g a b1 |
-  b4 c b a g2 d |
+  b4 c b a g2 d | \eogbreak
   e4( g) fis e d1 |
   d4 d g a b d2
   c4 | b2 a g1 |

@@ -1,8 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t % original has 3 systems
-  system-system-spacing.padding = 11
+  ragged-last-bottom = ##t
+  system-count = #(cond (is-eogsized 3) (#t #f)) % fits in 2 systems, but page fit favours 3
 }
 
 \header{

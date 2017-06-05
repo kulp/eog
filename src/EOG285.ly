@@ -30,7 +30,7 @@ notesSoprano = {
 \relative c'' {
 
   d4 cis8. b16 | a4. g8 | fis4 e | d4.
-  a'8 | b4. b8 | cis4. cis8 | d4.
+  a'8 | b4. b8 | cis4. cis8 | d4. \eogbreak
   d8 | d8[ cis] b[ a] | a8.[ g16 fis8] d'8 | d8[ cis] b[ a] | a8.[ g16 fis8]
   fis8 | fis fis fis fis16[ g] | a4.
   g16[ fis] | e8 e e e16[ fis] | g4.

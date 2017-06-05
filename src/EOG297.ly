@@ -36,6 +36,7 @@ notesSoprano = {
   cis4 | e cis a | fis8[ a] a4 a | d d d | cis2
   e,4 | e a cis | cis4. b8 a4 | b4. a8 b4 | a2.
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { b4 b b | b2 a4 | cis a fis | e2 } >>
   e4 | e a cis | cis4. b8 a4 | b4. a8 b4 | a2.

@@ -32,7 +32,7 @@ notesSoprano = {
   ees8.( f16) | ees4 des c' | bes2
   ees,4 | f ees bes' | aes2
   c8 ~ c8 | ees4 c aes | g f des' | c2. ~ | c4 r
-  ees,8 ~ ees | f4 ees bes' | aes2
+  ees,8 ~ ees | f4 ees bes' | aes2 \eogbreak
   c4 | des aes bes | c2
   ees,8 ~ ees | f4 aes des | c ees, bes' | aes2
 
