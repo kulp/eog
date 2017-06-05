@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 5) (#t #f))
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {
@@ -63,6 +64,7 @@ notesSoprano = {
   \changePitch \patternA { cis cis d cis | b b | a a b a | gis gis }
   \changePitch \patternC { fis fis gis a | e a | cis cis b a b | a a }
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternB { e e e fis e | e a } >>
   \changePitch \patternB { b b b a b | cis a }

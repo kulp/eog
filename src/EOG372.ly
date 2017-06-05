@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  % TODO consider using four systems, since they will fit, and since there are four lines in each stanza
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -157,7 +157,7 @@ wordsE = \markuplist {
 \markup { \fill-line { \column {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } }
-  \vspace #3
+  \vspace #1
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
