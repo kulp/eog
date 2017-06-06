@@ -62,7 +62,7 @@ notesSoprano = {
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternR { g g f g           | bes bes | bes bes c bes   | ees ees r } >>
   \changePitch \patternS { ees ees d c       | bes g   | aes aes aes aes | aes g r   }
-  \changePitch \patternT { bes bes bes c bes | g g     | g g g aes g     | ees ees   }
+  \changePitch \patternT { bes bes bes c bes | g^\markup{\italic{ritard.}} g     | g g g aes g     | ees ees   }
 
 
   \bar "|."
