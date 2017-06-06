@@ -79,7 +79,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Christ the Lord will come a -- gain, \bar "."
-None shall wait for Him in vain; \bar "." \pageBreak
+None shall wait for Him in vain; \bar "."
 We shall then His glo -- ry see: \bar "."
 His who died to set us free. \bar "."
 
