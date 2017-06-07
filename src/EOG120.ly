@@ -9,7 +9,7 @@
   hymnnumber = "120"
   title = "The Father Sent the Son"
   tunename = "Anywhere With Jesus"
-  meter = "6. 6. 8. 4. D. with Refrain."
+  meter = "6. 6. 8. 4. D. with Refrain"
   poet = "J. G. Deck"
   composer = "D. B. Towner"
   %copyright = ""

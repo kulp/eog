@@ -7,7 +7,7 @@
   hymnnumber = "106"
   title = "O Christ, In Thee My Soul Hath Found"
   tunename = "None But Christ Can Satisfy" % from Metrical Index of Tunes
-  meter = "C. M. with Refrain."
+  meter = "C. M. with Refrain"
   poet = "B. E. (Arr.)"
   composer = "J. McGranahan"
   tagline = ##f

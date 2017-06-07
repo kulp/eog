@@ -11,7 +11,7 @@
   hymnnumber = "108"
   title = "O Precious Blood"
   tunename = "He Leadeth Me"
-  meter = "L. M. and Refrain."
+  meter = "L. M. and Refrain"
   poet = "A. A. P."
   composer = "Wm. B. Bradbury"
   %copyright = ""
