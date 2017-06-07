@@ -8,7 +8,7 @@
   hymnnumber = "335"
   title = "I Am So Glad That Our Father In Heaven"
   tunename = ""
-  meter = "10s with Refrain"
+  meter = "10s. with Refrain"
   poet = "P. P. Bliss"
   composer = "P. P. Bliss"
   tagline = ##f

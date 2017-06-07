@@ -1,20 +1,15 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
   hymnnumber = "110"
   title = "O, Turn Ye! O, Turn Ye!"
   tunename = "Hiding In Thee"
-  meter = "11’s with Refrain."
+  meter = "11s. with Refrain."
   poet = "J. Hopkins"
   composer = "Ira D. Sankey"
-  %copyright = ""
   tagline = ##f
 }
 
