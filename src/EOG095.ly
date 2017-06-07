@@ -11,7 +11,7 @@
   hymnnumber = "95"
   title = "I Have A Glorious Saviour"
   tunename = "Beneath the Cross of Jesus"
-  meter = "7. 6. 8. 6. 8. 6. 8. 6"
+  meter = "7. 6. 8. 6. 8. 6. 8. 6."
   poet = "Charlotte Gipps"
   composer = "Ira D. Sankey"
   %copyright = ""

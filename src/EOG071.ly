@@ -8,7 +8,7 @@
   hymnnumber = "71"
   title = "Come, Let Us All Unite to Sing"
   tunename = "Christ for me"
-  meter = "8. 3. 8. 3. 8. 8. 3"
+  meter = "8. 3. 8. 3. 8. 8. 3."
   poet = "Howard Kingsbury"
   composer = "R. G. Halls"
   tagline = ##f

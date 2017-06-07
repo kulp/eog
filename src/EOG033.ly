@@ -11,7 +11,7 @@
   hymnnumber = "33"
   title = "O Christ, What Burdens Bowed Thy Head!"
   tunename = ""
-  meter = "8. 6. 8. 6. 8. 6"
+  meter = "8. 6. 8. 6. 8. 6."
   poet = "Mrs. A. R. Cousin"
   composer = "Ira D. Sankey"
   %copyright = ""
