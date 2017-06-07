@@ -185,7 +185,7 @@ booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=me
 	cat $(word 2,$^) >> $@ || rm $@
 
 index.meter: pdf
-	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "$$b" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || rm $@
+	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || rm $@
 
 CLOBBERFILES += booklayout/book.pdf
 %.pdf: %.tex
