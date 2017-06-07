@@ -11,10 +11,10 @@
 \header{
   hymnnumber = "150"
   title = "Break Forth and Sing the Song"
-  tunename = "St. Thomas II"
+  tunename = "St. Thomas"
   meter = "S. M."
   poet = "I. Watts"
-  composer = "Williams"
+  composer = "G. F. Handel, A. Williams" % http://hymnary.org/tune/st_thomas_williams
   tagline = ##f
 }
 
