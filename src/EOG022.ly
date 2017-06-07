@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -12,9 +11,8 @@
   title = "Jesus Is a Loving Saviour"
   tunename = "Wellesley"
   meter = "8. 7. 8. 7."
-  %poet = ""
-  composer = "L.S. Tourjee"
-  %copyright = ""
+  poet = ""
+  composer = "L. S. Tourjee"
   tagline = ##f
 }
 
