@@ -11,7 +11,7 @@
   tunename = "Webb" % identical to EOG220
   meter = "7. 6. 7. 6. D."
   poet = ""
-  composer = "G. J. Webb"
+  composer = "George. J. Webb"
   tagline = ##f
 }
 
