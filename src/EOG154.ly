@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "154"
   title = "The Atoning Work Is Done"
-  tunename = "Lenox"
-  meter = "6. 6. 6. 6. 8. 8."
+  tunename = ""
+  meter = ""
   poet = ""
-  composer = "Lewis Edson"
+  composer = ""
   tagline = ##f
 }
 

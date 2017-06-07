@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "223"
   title = "I See the Crowd In Pilate’s Hall"
-  tunename = "Varina"
-  meter = "C. M. D."
-  poet = "H. Bonar"
-  composer = "Geo. F. Root"
+  tunename = ""
+  meter = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 

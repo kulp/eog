@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "255"
   title = "Not To Ourselves We Owe"
-  tunename = "Boylston"
+  tunename = ""
   meter = "S. M."
   poet = ""
-  composer = "Dr. Lowell Mason"
+  composer = ""
   tagline = ##f
 }
 

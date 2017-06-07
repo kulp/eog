@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "305"
   title = "The Saviour Is Loving"
-  tunename = "My Jesus, I Love Thee"
-  meter = "11s."
+  tunename = ""
+  meter = ""
   poet = ""
-  composer = "A. J. Gordon"
+  composer = ""
   tagline = ##f
 }
 

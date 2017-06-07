@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "62"
   title = "Behold the Lamb Whose Precious Blood"
-  tunename = "St. Louis"
+  tunename = ""
   meter = "C. M."
   poet = ""
-  composer = "Southern Air"
+  composer = ""
   tagline = ##f
 }
 

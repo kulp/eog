@@ -6,8 +6,8 @@
 \header{
   hymnnumber = "277"
   title = "We Speak of the Mercy of God"
-  tunename = "Celeste"
-  meter = "4-8s."
+  tunename = ""
+  meter = ""
   poet = ""
   composer = ""
   tagline = ##f
