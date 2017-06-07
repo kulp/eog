@@ -9,7 +9,7 @@
 \header{
   hymnnumber = "137"
   title = "He Left the Brightness of His Home"
-  tunename = "Troyte (Adapted)" % original says "Troyte. Adpt."
+  tunename = "Troyte. Adpt"
   meter = "8. 6. 8. 4."
   poet = ""
   composer = "A. D. H. Troyte"
