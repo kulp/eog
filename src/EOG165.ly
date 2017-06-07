@@ -10,9 +10,10 @@
 \header{
   hymnnumber = "165"
   title = "Jesus! How Much Thy Name Unfolds"
-  tunename = ""
+  tunename = "Belmont" % from Metrical Index of Tunes
   meter = "C. M."
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
