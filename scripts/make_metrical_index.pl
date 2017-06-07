@@ -13,7 +13,7 @@ cat $@ |
                 cat headers/$file.tunename
                 echo "	$file"
             else
-                echo 'ZZZAlso Tune '$file
+                echo -e 'ZZZAlso Tune\t'$file
             fi
         done) | sort
     done) |
@@ -28,7 +28,7 @@ cat $@ |
         then
             echo -n , $rest
         else
-            echo -ne "\n$first $rest"
+            echo -ne "\n$first\t$rest"
         fi
         prev=$first
     done)
