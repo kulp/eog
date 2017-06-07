@@ -1,5 +1,5 @@
 #!/bin/bash
-cat $@ |
+(cat $@ ; echo x x) | # need one line of garbage at end to drain pump
     (IFS='	';
     while read meter list
     do
@@ -19,16 +19,64 @@ cat $@ |
     done) |
     (IFS='	';
     prev=
+    list=()
+    had_prev=0
     while read first rest
     do
-        if [[ ${first# } = $first ]]
+        if [[ $first = $prev ]]
         then
-            echo -ne "\n$first"
-        elif [[ $first = $prev ]]
-        then
-            echo -n , $rest
+            # duplicate use of tune name
+            list+=($rest)
         else
-            echo -ne "\n$first\t$rest"
+            # either a meter line or the first of a new set of tune names
+            if [[ ${#list[@]} = 0 ]]
+            then
+                # meter line
+                echo -ne "\n$prev"
+                had_prev=0
+            else
+                if [[ $prev = " ZZZ"* ]]
+                then
+                    if (( had_prev ))
+                    then
+                        prev="Also Tune"
+                    else
+                        prev=Tune
+                    fi
+
+                    if [[ ${#list[@]} > 1 ]]
+                    then
+                        prev+=s
+                    fi
+                    prev=" $prev"
+                fi
+                echo -ne "\n$prev\t${list[0]}"
+            fi
+            for f in "${list[@]:1}"
+            do
+                echo -ne ", $f"
+            done
+
+            if [[ ${first# } = $first ]]
+            then
+                # meter line
+                list=()
+                had_prev=0
+            else
+                # song line
+                list=($rest)
+                had_prev=1
+            fi
+
+            if [[ ${prev# } = $prev ]]
+            then
+                # meter line
+                had_prev=0
+            else
+                # song line
+                had_prev=1
+            fi
+
         fi
         prev=$first
-    done)
+    done ; echo)
