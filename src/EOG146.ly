@@ -1,20 +1,15 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
   hymnnumber = "146"
   title = "All the Path the Saints Are Treading"
   tunename = ""
-  meter = "8. 7. D."
+  meter = "8. 7. 8. 7. D."
   poet = "Mrs. J. A. Trench"
   composer = "Handel (adapted)"
-  %copyright = ""
   tagline = ##f
 }
 
