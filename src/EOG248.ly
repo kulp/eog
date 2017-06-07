@@ -7,7 +7,7 @@
   hymnnumber = "248"
   title = "O Happy Day, That Fixed My Choice"
   tunename = ""
-  meter = "L. M. and Refrain"
+  meter = "L. M. with Refrain"
   poet = "P. Doddridge"
   composer = "From E. F. Rimbault"
   tagline = ##f

@@ -7,7 +7,7 @@
   hymnnumber = "29"
   title = "Only Trust Him"
   tunename = ""
-  meter = "C. M. and Refrain"
+  meter = "C. M. with Refrain"
   poet = "J. H. Stockton"
   composer = "J. H. Stockton"
   tagline = ##f

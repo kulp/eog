@@ -11,7 +11,7 @@
   hymnnumber = "12"
   title = "God Loved the World So Tenderly"
   tunename = ""
-  meter = "C. M. and Refrain"
+  meter = "C. M. with Refrain"
   poet = "Fanny J. Crosby"
   composer = "W. J. Kirkpatrick"
   %copyright = ""

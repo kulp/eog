@@ -37,7 +37,7 @@
   hymnnumber = "324"
   title = "Tell It Again!"
   tunename = ""
-  meter = "10. 10. 10. 10. and Refrain"
+  meter = "10. 10. 10. 10. with Refrain"
   poet = "Mrs. M. B. C. Slade"
   composer = "B. M. McIntosh"
   tagline = ##f

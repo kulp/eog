@@ -9,7 +9,7 @@
   hymnnumber = "312"
   title = "Jesus Loves Me!"
   tunename = ""
-  meter = "7. 7. 7. 7. and Refrain"
+  meter = "7. 7. 7. 7. with Refrain"
   poet = "Anna Warner"
   composer = "W. B. Bradbury"
   tagline = ##f

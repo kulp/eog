@@ -10,7 +10,7 @@
   hymnnumber = "207"
   title = "“But For a Moment”"
   tunename = ""
-  meter = "10. 10. 11. 10. and Refrain"
+  meter = "10. 10. 11. 10. with Refrain"
   poet = "A. A. P."
   composer = "G. C. Stebbins"
   tagline = ##f

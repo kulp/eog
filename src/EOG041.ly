@@ -8,7 +8,7 @@
   hymnnumber = "41"
   title = "The Heavenly Bridegroom Soon Will Come"
   tunename = ""
-  meter = "8. 8. 6. and Refrain"
+  meter = "8. 8. 6. with Refrain"
   %poet = ""
   %composer = ""
   %copyright = ""

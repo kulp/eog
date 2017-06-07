@@ -11,7 +11,7 @@
   hymnnumber = "107"
   title = "O, Do Not Let the Word Depart"
   tunename = ""
-  meter = "L. M. and Refrain"
+  meter = "L. M. with Refrain"
   poet = "Mrs. E. Reed"
   composer = "Ira D. Sankey"
   %copyright = ""

@@ -10,7 +10,7 @@
   hymnnumber = "218"
   title = "He Is Coming"
   tunename = ""
-  meter = "8. 7. 8. 7. D. and Refrain"
+  meter = "8. 7. 8. 7. D. with Refrain"
   poet = ""
   composer = "German Melody"
   tagline = ##f

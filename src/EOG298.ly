@@ -10,7 +10,7 @@
   hymnnumber = "298"
   title = "Jesus Is Calling the Children"
   tunename = "Shepherd"
-  meter = "8. 4. 8. 4. and Refrain"
+  meter = "8. 4. 8. 4. with Refrain"
   poet = "Alice Gausby"
   composer = "Alice Gausby"
   tagline = ##f

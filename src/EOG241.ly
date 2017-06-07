@@ -7,7 +7,7 @@
   hymnnumber = "241"
   title = "More Than Tongue Can Tell"
   tunename = ""
-  meter = "8. 8. 8. 6. and Refrain"
+  meter = "8. 8. 8. 6. with Refrain"
   poet = "J. E. Hall"
   composer = "J. E. Hall"
   tagline = ##f

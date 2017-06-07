@@ -7,7 +7,7 @@
   hymnnumber = "213"
   title = "Close to Thee"
   tunename = ""
-  meter = "8. 7. 8. 7. and Refrain"
+  meter = "8. 7. 8. 7. with Refrain"
   poet = "F. J. Crosby"
   composer = "S. J. Vail"
   tagline = ##f

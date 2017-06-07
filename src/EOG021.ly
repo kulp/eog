@@ -10,7 +10,7 @@
   hymnnumber = "21"
   title = "Make Room For Him"
   tunename = ""
-  meter = "C. M. D. and Refrain"
+  meter = "C. M. D. with Refrain"
   poet = "A. A. P."
   composer = "G. C. Stebbins"
   tagline = ##f

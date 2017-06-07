@@ -7,7 +7,7 @@
   hymnnumber = "318"
   title = "Jesus Will Bless the Little Ones"
   tunename = ""
-  meter = "C. M. and Refrain"
+  meter = "C. M. with Refrain"
   poet = "John"
   composer = "J. G. F."
   tagline = ##f

@@ -9,7 +9,7 @@
   hymnnumber = "294"
   title = "Around the Throne of God in Heaven"
   tunename = ""
-  meter = "C. M. and Refrain"
+  meter = "C. M. with Refrain"
   poet = "Anna Shepherd"
   composer = "Henry E. Matthews"
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "175"
   title = "Low In the Grave He Lay"
   tunename = "Christ Arose"
-  meter = "6. 5. 6. 4. With Refrain"
+  meter = "6. 5. 6. 4. with Refrain"
   poet = "R. Lowry"
   composer = "R. Lowry"
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "23"
   title = "My Redeemer"
   tunename = ""
-  meter = "8. 7. 8. 7. and Refrain"
+  meter = "8. 7. 8. 7. with Refrain"
   poet = "P. P. Bliss"
   composer = "Mrs. Addie McGranahan"
   tagline = ##f

@@ -8,7 +8,7 @@
   hymnnumber = "13"
   title = "Grace! ’Tis a Charming Sound"
   tunename = ""
-  meter = "S. M. and Refrain"
+  meter = "S. M. with Refrain"
   poet = "Dr. Philip Doddridge"
   composer = "Ira D. Sankey"
   tagline = ##f

@@ -11,7 +11,7 @@
   hymnnumber = "37"
   title = "Tell Me the Old, Old Story"
   tunename = ""
-  meter = "7. 6. 7. 6. D. and Refrain"
+  meter = "7. 6. 7. 6. D. with Refrain"
   poet = "Miss Kate Hankey"
   composer = "W. H. Doane"
   %copyright = ""

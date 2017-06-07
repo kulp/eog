@@ -7,7 +7,7 @@
   hymnnumber = "234"
   title = "Lead Me, Saviour"
   tunename = ""
-  meter = "7. 7. 7. 7. and Refrain"
+  meter = "7. 7. 7. 7. with Refrain"
   poet = "F. M. Davis"
   composer = "F. M. Davis"
   tagline = ##f
