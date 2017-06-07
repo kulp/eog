@@ -16,4 +16,19 @@ cat $@ |
                 echo 'ZZZAlso Tune '$file
             fi
         done) | sort
+    done) |
+    (IFS='	';
+    prev=
+    while read first rest
+    do
+        if [[ ${first# } = $first ]]
+        then
+            echo -ne "\n$first"
+        elif [[ $first = $prev ]]
+        then
+            echo -n , $rest
+        else
+            echo -ne "\n$first $rest"
+        fi
+        prev=$first
     done)
