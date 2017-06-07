@@ -8,7 +8,7 @@
   hymnnumber = "157"
   title = "Christ the Lord Is Coming"
   tunename = ""
-  meter = "11s."
+  meter = "4-11s."
   poet = ""
   composer = "M. Koch"
   tagline = ##f

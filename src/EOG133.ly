@@ -8,7 +8,7 @@
   title = "With Joy and With Gladness There Stand A Great Throng"
   markuptitle = \markup \center-column { "With Joy and With Gladness" "There Stand A Great Throng" \vspace #0.4 }
   tunename = ""
-  meter = "11s."
+  meter = "4-11s."
   poet = "A. T. Pierson"
   composer = "P. P. Bliss"
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "26"
   title = "In Rags and in Ruin"
   tunename = "Comfort"
-  meter = "11s."
+  meter = "4-11s."
   poet = ""
   composer = ""
   tagline = ##f

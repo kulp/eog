@@ -7,7 +7,7 @@
   hymnnumber = "304"
   title = "How Loving is Jesus"
   tunename = "My Jesus, I Love Thee"
-  meter = "11s."
+  meter = "4-11s."
   poet = "R. H. Ballantyne"
   composer = "A. J. Gordon"
   tagline = ##f
