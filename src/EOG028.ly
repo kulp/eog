@@ -1,20 +1,14 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
   hymnnumber = "28"
   title = "O! What a Saviour Is Jesus the Lord!"
   tunename = "Joyfully"
-  meter = "4-10s. Dactylic."
+  meter = "4-10s. Dactylic"
   poet = "A. Midlane"
-  %composer = ""
-  %copyright = ""
   tagline = ##f
 }
 
