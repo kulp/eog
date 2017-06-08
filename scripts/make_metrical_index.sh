@@ -79,4 +79,5 @@
 
         fi
         prev=$first
-    done ; echo)
+    done ; echo) |
+    sed 's/EOGa0*/Additional Tune /g; s/EOG0*//g'
