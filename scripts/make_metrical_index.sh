@@ -1,4 +1,5 @@
 #!/bin/bash
+export LC_ALL=C
 (cat $@ ; echo x x) | # need one line of garbage at end to drain pump
     (IFS='	';
     while read meter list
@@ -13,9 +14,9 @@
                 cat headers/$file.tunename
                 echo "	$file"
             else
-                echo -e 'ZZZAlso Tune\t'$file
+                echo -e 'zzzAlso Tune\t'$file
             fi
-        done) | sort
+        done) | sort -d
     done) |
     (IFS='	';
     prev=
@@ -35,7 +36,7 @@
                 echo -ne "\n$prev"
                 had_prev=0
             else
-                if [[ $prev = " ZZZ"* ]]
+                if [[ $prev = " zzz"* ]]
                 then
                     if (( had_prev ))
                     then
