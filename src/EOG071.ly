@@ -7,7 +7,7 @@
 \header{
   hymnnumber = "71"
   title = "Come, Let Us All Unite to Sing"
-  tunename = "Christ for me"
+  tunename = "Christ For Me"
   meter = "8. 3. 8. 3. 8. 8. 3."
   poet = "Howard Kingsbury"
   composer = "R. G. Halls"
