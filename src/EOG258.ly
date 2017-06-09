@@ -9,7 +9,7 @@
   hymnnumber = "258"
   title = "Many Sons To Glory Bringing"
   tunename = "Rhineland"
-  meter = "8. 7."
+  meter = "8. 7. 8. 7."
   poet = "Mary Bowley"
   composer = "German"
   tagline = ##f

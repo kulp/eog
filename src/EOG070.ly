@@ -11,7 +11,7 @@
   hymnnumber = "70"
   title = "Christ Is Coming, O Be Ready"
   tunename = "Lasst Mich Gehen"
-  meter = "8. 7."
+  meter = "8. 7. 8. 7."
   poet = "Mrs. A. H. Rule"
   composer = "K. Voigtlander"
   tagline = ##f

@@ -9,7 +9,7 @@
   hymnnumber = "287"
   title = "O, The Peace Forever Flowing"
   tunename = "Batavia"
-  meter = "8. 7."
+  meter = "8. 7. 8. 7."
   poet = "A. P. Cecil"
   composer = "German"
   tagline = ##f
