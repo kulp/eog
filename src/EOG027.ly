@@ -7,7 +7,7 @@
   hymnnumber = "27"
   title = "O, What a Glorious Truth is This!"
   tunename = "Mercy’s Free"
-  meter = "8. 6. 8. 6. 8. 6. 8. 6."
+  meter = "8. 6. 8. 6. D." % original has 8. 6. 8. 6. 8. 6. 8. 6.
   poet = "A. Midlane"
   composer = "D. F. E. Auber"
   tagline = ##f
