@@ -13,7 +13,7 @@ sub normalize {
 }
 
 sub is_num {
-    return shift =~ /^\d+\.?$/;
+    return shift =~ /^\d+\.?/;
 }
 
 sub compare_recurse {
@@ -35,10 +35,24 @@ sub by_meter {
     my $aa = normalize $a;
     my $bb = normalize $b;
 
-    if ($aa =~ /\d+/ and $bb =~ /\d+/) {
-        return compare_recurse [ split " ", $aa ], [ split " ", $bb ];
+    if (is_num($aa)) {
+        if (is_num($bb)) {
+            return compare_recurse [ split " ", $aa ], [ split " ", $bb ];
+        } else {
+            return 1;
+        }
     } else {
-        return $aa, $bb;
+        if (is_num($bb)) {
+            return -1;
+        } else {
+            my ($ax) = $aa =~ /^(\w\. M\.)( D.)?/;
+            my ($bx) = $bb =~ /^(\w\. M\.)( D.)?/;
+            my ($an) = $aa =~ /^((\w\.\s*)+)\s*(with Refrain)?/;
+            my ($bn) = $bb =~ /^((\w\.\s*)+)\s*(with Refrain)?/;
+            return $ax cmp $bx
+                || $an cmp $bn
+                || ($aa =~ /Refrain/) - ($bb =~ /Refrain/);
+        }
     }
 }
 
