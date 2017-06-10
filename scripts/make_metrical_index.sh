@@ -51,11 +51,11 @@ export LC_ALL=C
                     fi
                     prev=" $prev"
                 fi
-                echo -ne "\n$prev\t${list[0]}"
+                echo -ne "\n$prev\t"
             fi
-            for f in "${list[@]:1}"
+            for f in ${list[@]}
             do
-                echo -ne ", $f"
+                echo -ne "$f, "
             done
 
             if [[ ${first# } = $first ]]
@@ -80,5 +80,5 @@ export LC_ALL=C
 
         fi
         prev=$first
-    done ; echo) |
+    done | sed 's/, $//' ; echo) |
     sed 's/EOGa0*/Additional Tune /g; s/EOG0*//g'
