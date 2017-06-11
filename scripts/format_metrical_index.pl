@@ -11,7 +11,7 @@ while (<>) {
         # meter
         print qq(\\end{flushright}\n) if $open and $closeright;
         print qq(\\needspace{\\baselineskip}\n);
-        print qq({\\centering\\textbf{$_}\\par}\n);
+        print qq({\\centering\\textbf{$_}\\par});
         $open = 1;
         $closeright = 0;
     } else {
