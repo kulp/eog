@@ -24,7 +24,7 @@ while (<>) {
             my @words = split " ", $name;
             my @first = @words[0 .. $#words / 2];
             my @last  = @words[$#words / 2 + 1 .. $#words];
-            print qq({\\flushleft @first \\\\ @last\\dotfill }$nums\n);
+            print qq({\\flushleft @first \\\\ ~~~@last\\dotfill }$nums\n);
         } else {
             print qq(\n$name\\dotfill $nums\n);
         }
