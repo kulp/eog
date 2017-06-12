@@ -184,14 +184,19 @@ booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=me
 	scripts/makebook.pl $| >> $@ || rm $@
 	cat $(word 2,$^) >> $@ || rm $@
 
-index.meter: pdf
+index.meter: $(PDFS)
 	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || rm $@
 
 CLOBBERFILES += booklayout/book.pdf
 %.pdf: %.tex
 	lualatex --output-directory=$(@D) $<
 
-book: booklayout/book.pdf
+booklayout/metrical.pdf: booklayout/metrical_insert.tex
+
+booklayout/metrical_insert.tex: index.meter
+	scripts/sort_meters.pl $< | scripts/make_metrical_index.sh | scripts/format_metrical_index.pl > $@
+
+book: booklayout/book.pdf booklayout/metrical.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
