@@ -196,6 +196,9 @@ booklayout/metrical.pdf: booklayout/metrical_insert.tex
 booklayout/metrical_insert.tex: index.meter
 	scripts/sort_meters.pl $< | scripts/make_metrical_index.sh | scripts/format_metrical_index.pl > $@
 
+booklayout/first_insert.tex:
+	scripts/make_alpha_index.pl $(PRIMARY_FILE_COUNT) > $@ || rm $@
+
 book: booklayout/book.pdf booklayout/metrical.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
