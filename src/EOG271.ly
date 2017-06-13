@@ -9,7 +9,7 @@
   tunename = "Rutherford"
   meter = "7. 6. 7. 6. 7. 6. 7. 5."
   poet = "Mrs. Cousins"
-  composer = "Chretien Urhan"
+  composer = "Chrétien Urhan"
   tagline = ##f
 }
 
