@@ -26,5 +26,11 @@ sub dictionary_order {
     return $aa cmp $bb;
 }
 
-print map "$_->[0]\\dotfill{}$_->[1]\n\n",
-    sort dictionary_order @list;
+my $last = '';
+for (sort dictionary_order @list) {
+    my ($letter) = $_->[0] =~ /(\w)/;
+    print qq({\\centering\\textbf{—\u$letter—}\\par}\n\n) if $letter ne $last;
+    print qq($_->[0]\\dotfill{}$_->[1]\n\n);
+    $last = $letter;
+}
+
