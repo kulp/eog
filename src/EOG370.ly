@@ -32,6 +32,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "370"
   title = "Yield Not To Temptation"
   tunename = ""

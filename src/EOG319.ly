@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "319"
   title = "Little Child, Do You Love Jesus?"
   tunename = "Whither Pilgrims"

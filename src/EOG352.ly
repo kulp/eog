@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "352"
   title = "O, Won’t You Come to Jesus While You’re Young"
   markuptitle = \markup \center-column { "O, Won’t You Come to Jesus" "While You’re Young" \vspace #0.4 } % original has different line breaking

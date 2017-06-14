@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "334"
   title = "Glad T-I-D-I-N-G-S"
   tunename = "At the Cross" % original has this as the poet

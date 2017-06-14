@@ -34,6 +34,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "324"
   title = "Tell It Again!"
   tunename = ""

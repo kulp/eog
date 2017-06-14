@@ -8,6 +8,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "348"
   title = "Little Children, Heavy-Laden"
   tunename = "Rideau Ferry"

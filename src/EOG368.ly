@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "368"
   title = "Who Came Down From Heaven To Earth?"
   tunename = ""

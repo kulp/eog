@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "307"
   title = "How Many Children Say"
   tunename = "Lischer"

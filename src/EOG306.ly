@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "306"
   title = "Like A Little Wandering Lamb"
   tunename = "Homeward"

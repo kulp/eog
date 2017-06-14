@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "321"
   title = "And Is It True, As I Am Told?"
   tunename = "Meribah" % similar to, but not identical to, EOG128

@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "302"
   title = "The Bible Tells Us Jesus Came"
   tunename = "Clark"

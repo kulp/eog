@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "360"
   title = "There Is a City Bright"
   tunename = "City Bright"

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "354"
   title = "O! Would You Know My Saviour?"
   tunename = "Spes Celestis"

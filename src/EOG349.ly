@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "349"
   title = "News For Little Children"
   tunename = "St. Gertrude" % original has all caps

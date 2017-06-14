@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "347"
   title = "Jesus, When He Left the Sky"
   tunename = ""

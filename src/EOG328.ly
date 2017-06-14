@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "328"
   title = "A Little Child of Seven"
   tunename = "Webb" % identical to EOG220

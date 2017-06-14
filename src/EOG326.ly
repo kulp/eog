@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "326"
   title = "To Israel’s Land, When Israel Sinned"
   tunename = "Wilson"

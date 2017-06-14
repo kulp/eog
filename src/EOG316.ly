@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "316"
   title = "Children Once to Israel’s King"
   tunename = "Hendon"

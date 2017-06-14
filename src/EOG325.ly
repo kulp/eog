@@ -8,6 +8,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "325"
   title = "Suffer Little Children"
   tunename = ""

@@ -9,6 +9,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "339"
   title = "I Love To Sing of Jesus"
   tunename = "Hora Novissima"

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "304"
   title = "How Loving is Jesus"
   tunename = "My Jesus, I Love Thee"

@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "297"
   title = "Christ Could Not Be Hid"
   tunename = ""

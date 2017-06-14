@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "314"
   title = "Dear Children, Have You Ever Heard?"
   tunename = "Cambridge" % not the same as EOG283's Cambridge in S. M.

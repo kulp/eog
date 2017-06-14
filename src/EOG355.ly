@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "355"
   title = "Safe in Christ"
   tunename = "Near the Cross"

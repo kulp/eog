@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "356"
   title = "Sing the Saviour’s Praises"
   tunename = "Ring the Bells of Heaven"

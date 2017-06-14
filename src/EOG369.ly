@@ -8,6 +8,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "369"
   title = "Wide As The Ocean"
   tunename = ""

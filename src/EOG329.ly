@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "329"
   title = "A Little Lamb Went Straying"
   tunename = "Springfield"

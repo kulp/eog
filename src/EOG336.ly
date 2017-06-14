@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "336"
   title = "I Am the Door"
   tunename = ""

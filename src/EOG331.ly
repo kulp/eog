@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "331"
   title = "For God So Loved the World"
   tunename = ""

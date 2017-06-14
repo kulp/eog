@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "357"
   title = "Something More Than Gold"
   tunename = ""

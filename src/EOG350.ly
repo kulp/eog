@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "350"
   title = "Hear Christ Calling, Come Unto Me"
   % TODO original has subtitle "Fishers of Men"

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "367"
   title = "When He Cometh"
   tunename = "Jewels"

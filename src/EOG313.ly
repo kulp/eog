@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "313"
   title = "“God Is In Heaven: Can He Hear?”"
   tunename = ""

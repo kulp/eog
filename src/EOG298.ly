@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "298"
   title = "Jesus Is Calling the Children"
   tunename = "Shepherd"

@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "335"
   title = "I Am So Glad That Our Father In Heaven"
   tunename = ""

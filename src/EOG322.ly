@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "322"
   title = "O! Come to Jesus, Children, Come"
   tunename = "Don’t Delay"

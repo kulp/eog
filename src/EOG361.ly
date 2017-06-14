@@ -9,6 +9,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "361"
   title = "There Is a Happy Land"
   tunename = "Happy Land" % similar to EOG056

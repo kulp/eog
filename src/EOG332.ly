@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "332"
   title = "Christ The Saviour of Sinners Came"
   tunename = "Wonderful Words of Life"

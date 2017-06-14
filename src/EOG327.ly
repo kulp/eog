@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "327"
   title = "When Mothers of Salem"
   tunename = "Benedictus"

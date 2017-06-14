@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "320"
   title = "Only An Act of Kindness"
   tunename = "Only a Beam of Sunshine"

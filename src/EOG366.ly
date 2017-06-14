@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "366"
   title = "We Are Little Children, Very Young Indeed"
   tunename = "Portbrush"

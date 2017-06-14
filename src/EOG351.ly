@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "351"
   title = "One Door and Only One"
   tunename = ""

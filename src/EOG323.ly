@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "323"
   title = "There’s a Friend For Little Children"
   tunename = "Watcher"

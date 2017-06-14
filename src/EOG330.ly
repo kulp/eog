@@ -8,6 +8,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "330"
   title = "A Message Came from Heaven"
   tunename = ""

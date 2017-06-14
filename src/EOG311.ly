@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "311"
   title = "Children, Can You Tell Me Why?"
   tunename = "Pilot"

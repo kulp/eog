@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "303"
   title = "Jesus Christ Is Passing By"
   tunename = "Mozart"

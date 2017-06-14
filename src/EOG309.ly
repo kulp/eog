@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "309"
   title = "I Think When I Read That Sweet Story"
   tunename = "Sweet Story"

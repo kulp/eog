@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "358"
   title = "Tell Me the Story of Jesus"
   tunename = ""

@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "187"
   title = "Scarlet, Scarlet!"
   tunename = ""

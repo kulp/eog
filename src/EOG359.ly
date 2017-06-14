@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "359"
   title = "Those Who Are Young, O God"
   tunename = "Bethany II"

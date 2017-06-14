@@ -9,6 +9,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "310"
   title = "Come to Jesus Just Now"
   tunename = ""

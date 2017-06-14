@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "362"
   title = "Two Little Eyes"
   tunename = ""

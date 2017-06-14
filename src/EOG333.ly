@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "333"
   title = "Come To the Saviour, Make No Delay"
   tunename = ""

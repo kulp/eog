@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "338"
   title = "I Love My Saviour" % TODO original has subtitle "(I Have A Saviour)"
   tunename = ""

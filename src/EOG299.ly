@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "299"
   title = "Come, Children, and Learn of the Infinite Grace"
   markuptitle = \markup \center-column { "Come, Children, and Learn of the" "Infinite Grace" \vspace #0.4 }

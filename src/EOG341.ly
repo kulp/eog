@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "341"
   title = "Jesus Bids Us Shine"
   tunename = ""

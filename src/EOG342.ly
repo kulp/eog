@@ -4,6 +4,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "342"
   title = "Jesus Came from Heaven"
   tunename = ""

@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "346"
   title = "Jesus Who Lives Above the Sky"
   tunename = "Grateful Praise"

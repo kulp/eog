@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "301"
   title = "Here’s a Message of Love"
   tunename = "Waters"

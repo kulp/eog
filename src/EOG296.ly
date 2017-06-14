@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "296"
   title = "Awake! Awake! In Happy Song"
   tunename = "Warwick"

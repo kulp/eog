@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "295"
   title = "Hark! The Voice of Jesus Calling"
   tunename = "Evening Prayer"

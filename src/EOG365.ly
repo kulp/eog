@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "365"
   title = "We Are Glad We Ever Heard the Blessed News"
   tunename = "Marching On"

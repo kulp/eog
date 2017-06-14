@@ -7,6 +7,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "337"
   title = "If I Come To Jesus"
   tunename = ""

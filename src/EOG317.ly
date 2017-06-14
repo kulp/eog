@@ -6,6 +6,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "317"
   title = "The Lord Attends When Children Pray"
   tunename = "Brown"

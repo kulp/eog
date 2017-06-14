@@ -8,6 +8,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "344"
   title = "Jesus, My Saviour, To Bethlehem Came"
   tunename = ""

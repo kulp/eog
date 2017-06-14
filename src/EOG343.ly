@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "343"
   title = "Jesus Is Our Shepherd"
   tunename = "Broughton"

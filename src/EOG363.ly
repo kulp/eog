@@ -5,6 +5,7 @@
 }
 
 \header{
+  %children
   hymnnumber = "363"
   title = "The Flood"
   tunename = "Chamouni" % original has all capitals
