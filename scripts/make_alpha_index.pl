@@ -8,17 +8,24 @@ binmode \*STDOUT, ":utf8";
 my $count = shift;
 my @list;
 
-for my $i (1 .. $count) {
-    my $txt = sprintf "TXT/default/EOG%03d.txt", $i;
-    open my $fh, "<:utf8", $txt;
-
-    local $_ = <$fh>;
+sub add {
+    my $i = shift;
+    local $_ = shift;
     s/è/e/g;
     my @F = split " ";
     pop @F while length("@F") > 34;
     $_ = "@F";
     s/[,:;–—]$//g;
     push @list, [ $_, $i ];
+}
+
+for my $i (1 .. $count) {
+    my $txt = sprintf "TXT/default/EOG%03d.txt", $i;
+    open my $fh, "<:utf8", $txt;
+
+    add($i, scalar <$fh>);
+    my ($refrain) = grep /^ /, <$fh>;
+    add($i, $refrain) if defined $refrain;
 }
 
 sub dictionary_order {
