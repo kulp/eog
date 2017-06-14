@@ -192,6 +192,7 @@ CLOBBERFILES += booklayout/book.pdf
 	lualatex --output-directory=$(@D) $<
 
 booklayout/metrical.pdf: booklayout/metrical_insert.tex
+booklayout/first.pdf: booklayout/first_insert.tex
 
 booklayout/metrical_insert.tex: index.meter
 	scripts/sort_meters.pl $< | scripts/make_metrical_index.sh | scripts/format_metrical_index.pl > $@
@@ -199,7 +200,7 @@ booklayout/metrical_insert.tex: index.meter
 booklayout/first_insert.tex:
 	scripts/make_alpha_index.pl $(PRIMARY_FILE_COUNT) > $@ || rm $@
 
-book: booklayout/book.pdf booklayout/metrical.pdf
+book: booklayout/book.pdf booklayout/metrical.pdf booklayout/first.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
