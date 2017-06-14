@@ -14,10 +14,11 @@ for my $i (1 .. $count) {
 
     local $_ = <$fh>;
     s/è/e/g;
-    s/[,:;–—]$//g;
     my @F = split " ";
     pop @F while length("@F") > 34;
-    push @list, [ "@F", $i ];
+    $_ = "@F";
+    s/[,:;–—]$//g;
+    push @list, [ $_, $i ];
 }
 
 sub dictionary_order {
