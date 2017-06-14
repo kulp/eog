@@ -26,7 +26,7 @@ for my $file (@ARGV) {
 
     add($i, scalar <$fh>);
     my ($refrain) = grep /^ /, <$fh>;
-    add($i, $refrain) if defined $refrain;
+    add($i, $refrain) if defined $refrain and $ENV{USE_REFRAIN};
 }
 
 sub dictionary_order {

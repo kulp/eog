@@ -187,23 +187,26 @@ booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=me
 index.meter: $(PDFS)
 	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || rm $@
 
-CLOBBERFILES += booklayout/book.pdf
+INDICES += $(addprefix booklayout/,metrical.pdf first.pdf gospel.pdf children.pdf)
+CLOBBERFILES += $(INDICES)
 %.pdf: %.tex
 	lualatex --output-directory=$(@D) $<
 
-booklayout/metrical.pdf: booklayout/metrical_insert.tex
-booklayout/first.pdf: booklayout/first_insert.tex
-booklayout/gospel.pdf: booklayout/gospel_insert.tex
+$(INDICES): booklayout/%.pdf: booklayout/%_insert.tex
 
 booklayout/metrical_insert.tex: index.meter
 	scripts/sort_meters.pl $< | scripts/make_metrical_index.sh | scripts/format_metrical_index.pl > $@
 
 booklayout/first_insert.tex: $(wildcard src/EOG[0123]*.ly)
 booklayout/gospel_insert.tex: $(shell grep -l '%gospel' src/EOG*.ly)
-booklayout/first_insert.tex booklayout/gospel_insert.tex:
+booklayout/children_insert.tex: $(shell grep -l '%children' src/EOG*.ly)
+booklayout/first_insert.tex: export USE_REFRAIN=1
+booklayout/gospel_insert.tex: export USE_REFRAIN=1
+booklayout/children_insert.tex: export USE_REFRAIN=0
+booklayout/%_insert.tex:
 	scripts/make_alpha_index.pl $^ > $@ || rm $@
 
-book: booklayout/book.pdf booklayout/metrical.pdf booklayout/first.pdf booklayout/gospel.pdf
+book: booklayout/book.pdf $(INDICES)
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
