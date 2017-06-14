@@ -19,7 +19,8 @@ sub add {
     push @list, [ $_, $i ];
 }
 
-for my $i (1 .. $count) {
+for my $file (@ARGV) {
+    my ($i) = $file =~ /EOG0*(\d+)/;
     my $txt = sprintf "TXT/default/EOG%03d.txt", $i;
     open my $fh, "<:utf8", $txt;
 

@@ -193,14 +193,17 @@ CLOBBERFILES += booklayout/book.pdf
 
 booklayout/metrical.pdf: booklayout/metrical_insert.tex
 booklayout/first.pdf: booklayout/first_insert.tex
+booklayout/gospel.pdf: booklayout/gospel_insert.tex
 
 booklayout/metrical_insert.tex: index.meter
 	scripts/sort_meters.pl $< | scripts/make_metrical_index.sh | scripts/format_metrical_index.pl > $@
 
-booklayout/first_insert.tex:
-	scripts/make_alpha_index.pl $(PRIMARY_FILE_COUNT) > $@ || rm $@
+booklayout/first_insert.tex: $(wildcard src/EOG*.ly)
+booklayout/gospel_insert.tex: $(shell grep -l '%gospel' src/EOG*.ly)
+booklayout/first_insert.tex booklayout/gospel_insert.tex:
+	scripts/make_alpha_index.pl $^ > $@ || rm $@
 
-book: booklayout/book.pdf booklayout/metrical.pdf booklayout/first.pdf
+book: booklayout/book.pdf booklayout/metrical.pdf booklayout/first.pdf booklayout/gospel.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
