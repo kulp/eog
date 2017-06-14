@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "97"
   title = "O, How Sweet the Gospel Message"
   tunename = "Halle"

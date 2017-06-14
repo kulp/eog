@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "267"
   title = "There Is a Better World Above"
   tunename = "Better World"

@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "264"
   title = "The Perfect Righteousness of God"
   tunename = "Duke Street"

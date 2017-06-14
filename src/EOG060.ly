@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "60"
   title = "All Ye That Pass By"
   tunename = "Harwich"

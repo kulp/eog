@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "13"
   title = "Grace! ’Tis a Charming Sound"
   tunename = ""

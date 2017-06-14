@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "106"
   title = "O Christ, In Thee My Soul Hath Found"
   tunename = "None But Christ Can Satisfy" % from Metrical Index of Tunes

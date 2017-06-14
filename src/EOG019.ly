@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "19"
   title = "It Is Finished"
   tunename = ""

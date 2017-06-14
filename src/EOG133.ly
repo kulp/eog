@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "133"
   title = "With Joy and With Gladness There Stand A Great Throng"
   markuptitle = \markup \center-column { "With Joy and With Gladness" "There Stand A Great Throng" \vspace #0.4 }

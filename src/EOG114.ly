@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "114"
   title = "Saved Through the Blood of Jesus"
   tunename = "Heart’s Refuge"

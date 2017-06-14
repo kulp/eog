@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "100"
   title = "Let All Who Know The Joyful Sound"
   tunename = "Pembroke"

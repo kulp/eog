@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "122"
   title = "The Holy Lamb Has Died"
   tunename = ""

@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "4"
   title = "Behold the Saviour At the Door"
   tunename = "St. Catherine"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "18"
   title = "How Precious and Pure is the Truth"
   tunename = "De Fleury"

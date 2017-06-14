@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "125"
   title = "Who Shall Give Me Rest?"
   tunename = ""

@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "126"
   title = "There’s a Voice That Is Calling"
   tunename = "Sweet Bye and Bye"

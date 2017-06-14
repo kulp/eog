@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "70"
   title = "Christ Is Coming, O Be Ready"
   tunename = "Laßt mich gehen"

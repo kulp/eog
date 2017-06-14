@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "92"
   title = "Have You Any Room for Jesus?"
   tunename = ""

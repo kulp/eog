@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "142"
   title = "Ye Must Be Born Again"
   tunename = ""

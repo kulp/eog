@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "132"
   title = "We Have Heard The Joyful Sound"
   tunename = "Jesus Saves"

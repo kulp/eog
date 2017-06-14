@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "38"
   title = "The Gospel Bells"
   tunename = ""

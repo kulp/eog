@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "375"
   title = "O Soul, Are You Weary"
   tunename = ""

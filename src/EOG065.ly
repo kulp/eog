@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "65"
   title = "Christ Is the Only Saviour"
   tunename = "The Lifeboat"

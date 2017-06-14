@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "115"
   title = "“Himself He Could Not Save”"
   tunename = "Darwall"

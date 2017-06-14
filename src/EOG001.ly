@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "1"
   title = "“Come!” ’Tis Jesus Gently Calling"
   tunename = "’Tis So Sweet to Trust in Jesus"

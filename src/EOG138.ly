@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "138"
   title = "“Whosoever Will”"
   tunename = ""

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "27"
   title = "O, What a Glorious Truth is This!"
   tunename = "Mercy’s Free"

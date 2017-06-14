@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "44"
   title = "Just As I Am — Without One Plea"
   tunename = "Woodworth"

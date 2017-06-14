@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "41"
   title = "The Heavenly Bridegroom Soon Will Come"
   tunename = ""

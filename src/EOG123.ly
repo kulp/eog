@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "123"
   title = "The Lamb Was Slain, His Precious Blood"
   tunename = "Melita"

@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "139"
   title = "What Can Wash Away My Sins?"
   tunename = ""

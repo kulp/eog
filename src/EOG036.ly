@@ -11,6 +11,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "36"
   title = "“Stricken, Smitten, and Afflicted”"
   tunename = "Austria"

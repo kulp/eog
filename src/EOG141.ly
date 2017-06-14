@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "141"
   title = "How Vast, How Full, How Free"
   tunename = "St. Ethelwald"

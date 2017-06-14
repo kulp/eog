@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "285"
   title = "Well May We Sing, With Triumph Sing"
   tunename = "Antioch"

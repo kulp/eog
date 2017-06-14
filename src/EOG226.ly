@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "226"
   title = "I Once Was a Stranger"
   tunename = "Adeste Fideles"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "104"
   title = "Not All the Gold of All the World"
   tunename = "Materna"

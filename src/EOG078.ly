@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "78"
   title = "Come, Ye That Fear the Lord"
   tunename = "Lorneville"

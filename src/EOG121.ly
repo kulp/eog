@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "121"
   title = "“All Things Are Ready,” Come"
   tunename = "St. Michael"

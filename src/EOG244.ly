@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "244"
   title = "One Priest Alone Can Pardon Me"
   tunename = ""

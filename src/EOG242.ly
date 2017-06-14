@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "242"
   title = "My God, I Have Found"
   tunename = ""

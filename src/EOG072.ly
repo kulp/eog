@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "72"
   title = "Come to the Saviour, Come to the Saviour"
   tunename = ""

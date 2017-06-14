@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "168"
   title = "In Tenderness He Sought Me"
   tunename = ""

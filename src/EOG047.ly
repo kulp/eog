@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "47"
   title = "Rise, Dear Soul! Behold Thy Saviour"
   tunename = "Suffield"

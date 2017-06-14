@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "25"
   title = "O, Have You Not Heard of That Wonderful Love?"
   tunename = ""

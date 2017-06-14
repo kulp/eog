@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "136"
   title = "When The Harvest Is Past"
   tunename = ""

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "111"
   title = "Once Again the Gospel Message"
   tunename = "Come Believing"

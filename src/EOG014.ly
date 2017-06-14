@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "14"
   title = "God Loved the World Of Sinners Lost"
   tunename = "Wondrous Love" % from Metrical Index of Tunes

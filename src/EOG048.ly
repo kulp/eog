@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "48"
   title = "There Is Life In a Look"
   tunename = ""

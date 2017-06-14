@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "56"
   title = "O, Blessed Gospel Sound!"
   tunename = "Happy Land"

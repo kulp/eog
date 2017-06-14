@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "42"
   title = "The Great Physician"
   tunename = ""

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "11"
   title = "On Calvary’s Cross, Behold the One"
   tunename = "Hamburg"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "94"
   title = "Ho, Ye Thirsty, Jesus Calls You"
   tunename = "Hold the Fort"

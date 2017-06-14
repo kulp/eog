@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "87"
   title = "Hark! Hark! The Voice of Christ"
   tunename = "Pilgrims"

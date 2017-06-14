@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "101"
   title = "Look, Thou Lost One, To the Saviour"
   tunename = "Look Ye Saints"

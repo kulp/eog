@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "69"
   title = "Come Sing, My Soul, and Praise the Lord"
   tunename = "Redemption Ground"

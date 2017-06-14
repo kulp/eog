@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "7"
   title = "My Hope On Nothing Less Is Built"
   tunename = "Foundation"

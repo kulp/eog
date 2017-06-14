@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "90"
   title = "Have You Been To Jesus for the Cleansing Power?"
   markuptitle = \markup \center-column { "Have You Been To Jesus" "for the Cleansing Power?" \vspace #0.4 }

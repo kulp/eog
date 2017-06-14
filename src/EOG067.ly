@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "67"
   title = "Christ Is Coming, Are You Ready?"
   tunename = ""

@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "55"
   title = "Why ’Neath the Load of Your Sins Do Ye Toil?"
   tunename = ""

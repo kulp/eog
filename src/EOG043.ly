@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "43"
   title = "“Behold the Lamb” Enthroned on High"
   tunename = ""

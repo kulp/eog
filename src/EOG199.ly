@@ -31,6 +31,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "199"
   title = "When We Survey the Wondrous Cross"
   tunename = "Rockingham"

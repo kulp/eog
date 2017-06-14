@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "8"
   title = "Come, Weary, Anxious, Laden Soul"
   tunename = "Troyte"

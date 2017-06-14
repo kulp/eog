@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "112"
   title = "Only a Sinner"
   tunename = ""

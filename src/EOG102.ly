@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "102"
   title = "Life At Best Is Very Brief"
   tunename = ""

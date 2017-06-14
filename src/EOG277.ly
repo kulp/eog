@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "277"
   title = "We Speak of the Mercy of God"
   tunename = ""

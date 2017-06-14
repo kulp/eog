@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "134"
   title = "What Will You Do With Jesus?"
   tunename = ""

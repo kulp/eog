@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "79"
   title = "Decide For Christ Today"
   tunename = "Welcome Voice"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "93"
   title = "Ho! Ye That Thirst, Approach the Spring"
   tunename = "Torino"

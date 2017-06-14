@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "77"
   title = "Come, Ye Sinners, Poor and Needy"
   tunename = "Caersalem"

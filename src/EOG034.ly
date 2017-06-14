@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "34"
   title = "Salvation Through Christ Jesus"
   tunename = "Missionary"

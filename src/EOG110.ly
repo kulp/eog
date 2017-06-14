@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "110"
   title = "O, Turn Ye! O, Turn Ye!"
   tunename = "Hiding In Thee"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "17"
   title = "He Comes! He Comes!"
   tunename = "Ostend"

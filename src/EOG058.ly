@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "58"
   title = "Why Unbelieving"
   tunename = ""

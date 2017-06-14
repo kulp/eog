@@ -5,6 +5,7 @@
 
 
 \header{
+  %gospel
   hymnnumber = "3"
   title = "Behold, Behold the Lamb of God"
   tunename = "Mercy’s Free"

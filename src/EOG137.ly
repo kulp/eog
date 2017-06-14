@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "137"
   title = "He Left the Brightness of His Home"
   tunename = "Troyte. Adpt"

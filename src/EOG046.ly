@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "46"
   title = "“Too Late, Too Late!” How Sad the Sound"
   tunename = "Arlington"

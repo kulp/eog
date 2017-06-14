@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "124"
   title = "There Is A Saviour On High in the Glory"
   tunename = ""

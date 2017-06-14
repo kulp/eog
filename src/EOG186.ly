@@ -10,6 +10,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "186"
   title = "One Day!"
   tunename = ""

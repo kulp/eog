@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "23"
   title = "My Redeemer"
   tunename = ""

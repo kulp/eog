@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "68"
   title = "Christ Is the Saviour of Sinners"
   tunename = "Showers of Blessing"

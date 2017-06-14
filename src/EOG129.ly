@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "129"
   title = "’Tis A True And Faithful Saying"
   tunename = ""

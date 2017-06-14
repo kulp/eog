@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "20"
   title = "Jesus of Nazareth Passeth By"
   tunename = ""

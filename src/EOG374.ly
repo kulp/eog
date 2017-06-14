@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "374"
   title = "O Come To Jesus, Sinner, Come"
   tunename = "None But Christ Can Satisfy"

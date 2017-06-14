@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "28"
   title = "O! What a Saviour Is Jesus the Lord!"
   tunename = "Joyfully"

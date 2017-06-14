@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "5"
   title = "By Faith I See the Saviour Dying"
   tunename = "Mercy’s Free"

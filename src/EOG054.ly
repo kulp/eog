@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "54"
   title = "We Know There’s a Bright and a Glorious Home"
   tunename = ""

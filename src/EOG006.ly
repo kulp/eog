@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "6"
   title = "“Come Unto Me”"
   tunename = ""

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "16"
   title = "God in Mercy Sent His Son"
   tunename = "Herald Angels"

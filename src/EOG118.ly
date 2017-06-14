@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "118"
   title = "Softly and Tenderly"
   tunename = ""

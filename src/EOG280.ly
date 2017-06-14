@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "280"
   title = "What, Sinner, Can You Do?"
   tunename = "London"

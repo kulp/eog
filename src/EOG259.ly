@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "259"
   title = "Rock of Ages!"
   tunename = "Toplady"

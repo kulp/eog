@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "225"
   title = "I Left It All With Jesus"
   tunename = ""

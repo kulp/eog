@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "372"
   title = "How Wondrous A Saviour"
   tunename = "Take Time To Be Holy"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "81"
   title = "“It is Finished!” Sinners, Hear It"
   tunename = "Regent Square"

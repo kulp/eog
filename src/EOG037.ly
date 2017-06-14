@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "37"
   title = "Tell Me the Old, Old Story"
   tunename = ""

@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "154"
   title = "The Atoning Work Is Done"
   tunename = ""

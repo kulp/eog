@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "62"
   title = "Behold the Lamb Whose Precious Blood"
   tunename = ""

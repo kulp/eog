@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "22"
   title = "Jesus Is a Loving Saviour"
   tunename = "Wellesley"

@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "49"
   title = "Verily, Verily"
   tunename = ""

@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "51"
   title = "Eternity! Where? It Floats in the Air"
   tunename = "Eternity"

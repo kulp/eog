@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "26"
   title = "In Rags and in Ruin"
   tunename = "Comfort"

@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "96"
   title = "If I Gained the World"
   tunename = ""

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "40"
   title = "The Gospel of Thy Grace"
   tunename = ""

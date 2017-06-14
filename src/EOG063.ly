@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "63"
   title = "Broken Heart! The Fountain’s Open"
   tunename = ""

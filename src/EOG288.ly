@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "288"
   title = "Rise, My Soul! Behold, ’Tis Jesus"
   tunename = "Sicilian Mariners"

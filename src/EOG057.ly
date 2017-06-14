@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "57"
   title = "Almost Persuaded"
   tunename = ""

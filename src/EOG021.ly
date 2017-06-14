@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "21"
   title = "Make Room For Him"
   tunename = ""

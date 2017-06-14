@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "222"
   title = "I Heard the Voice of Jesus Say"
   tunename = "Varina"

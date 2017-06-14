@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "80"
   title = "Down From the Glory Came God’s Blessed Son"
   tunename = "Jesus Is Calling"

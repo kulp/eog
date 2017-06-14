@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "15"
   title = "O What a Gift the Father Gave"
   tunename = ""

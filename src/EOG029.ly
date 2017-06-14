@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "29"
   title = "Only Trust Him"
   tunename = ""

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "140"
   title = "Will Your Anchor Hold?"
   tunename = ""

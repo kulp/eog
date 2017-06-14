@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "153"
   title = "Jesus! Life-Giving Sound"
   tunename = "Lenox"

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "227"
   title = "I Was a Wandering Sheep"
   tunename = "Lebanon"

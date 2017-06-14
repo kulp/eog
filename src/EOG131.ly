@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "131"
   title = "We Sing the Praise of Him Who Died"
   tunename = "Warrington"

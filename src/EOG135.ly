@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "135"
   title = "There Is No Other Name Than Thine"
   tunename = "Old Hundred"

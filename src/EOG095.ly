@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "95"
   title = "I Have A Glorious Saviour"
   tunename = "Beneath the Cross of Jesus"

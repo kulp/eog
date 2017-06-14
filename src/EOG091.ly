@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "91"
   title = "On Christ Salvation Rests Secure"
   tunename = "Hebron"

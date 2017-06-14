@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "32"
   title = "Yet There Is Room"
   tunename = ""

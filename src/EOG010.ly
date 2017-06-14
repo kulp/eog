@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "10"
   title = "Faith Is a Very Simple Thing"
   tunename = "Remember Me"

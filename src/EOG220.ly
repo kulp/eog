@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "220"
   title = "I Am Not Told to Labor"
   tunename = "Webb"

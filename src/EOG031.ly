@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "31"
   title = "Precious, Precious Blood of Jesus"
   tunename = "Stephanos"

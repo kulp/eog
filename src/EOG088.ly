@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "88"
   title = "Hail, Sovereign Love"
   tunename = "Bera"

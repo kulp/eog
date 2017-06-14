@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "89"
   title = "Hark Ye! Those Who Choose the Pleasures"
   tunename = "Ukraina"

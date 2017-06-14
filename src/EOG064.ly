@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "64"
   title = "“Call Them In” — The Poor, the Wretched"
   tunename = "Lower Lights"

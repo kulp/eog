@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "117"
   title = "Sinner, Thine’s A Lost Condition"
   tunename = "Brooklyn"

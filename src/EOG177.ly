@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "177"
   title = "Nor Silver Nor Gold"
   tunename = ""

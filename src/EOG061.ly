@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "61"
   title = "Behold the Lamb! ’Tis He Who Bore"
   tunename = "St. Louis"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "12"
   title = "God Loved the World So Tenderly"
   tunename = ""

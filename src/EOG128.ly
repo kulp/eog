@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "128"
   title = "Though All the Beasts That Live and Feed"
   tunename = "Meribah"

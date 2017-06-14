@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "116"
   title = "See Mercy, Mercy From On High"
   tunename = "Dusseldorf"

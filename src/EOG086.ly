@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "86"
   title = "Hark! The Saviour’s Voice From Heaven"
   tunename = "Even Me"

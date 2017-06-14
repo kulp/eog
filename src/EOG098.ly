@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "98"
   title = "Just On the Threshold"
   tunename = "Moment By Moment"

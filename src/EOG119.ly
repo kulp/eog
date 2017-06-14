@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "119"
   title = "The Blood Upon The Door"
   tunename = "Otter Lake"

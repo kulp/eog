@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "45"
   title = "The Wanderer No More Will Roam"
   tunename = "Silent Night"

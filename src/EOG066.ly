@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "66"
   title = "A Look to Jesus Saves the Soul"
   tunename = "Remember Me"

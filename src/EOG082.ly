@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "82"
   title = "Ere God Had Built the Mountains"
   tunename = "Aurelia"

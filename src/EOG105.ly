@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "105"
   title = "Nothing But the Name of Jesus"
   tunename = "Refuge"

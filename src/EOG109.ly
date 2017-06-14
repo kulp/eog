@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "109"
   title = "O, The Love of God is Boundless"
   tunename = "Tyrol"

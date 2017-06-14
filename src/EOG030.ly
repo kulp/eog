@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "30"
   title = "Passing Onward, Quickly Passing"
   tunename = "Zion"

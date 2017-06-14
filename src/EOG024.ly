@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "24"
   title = "Jesus Only Can Impart"
   tunename = "Weber"

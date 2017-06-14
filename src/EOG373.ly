@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "373"
   title = "The Master Is Come"
   tunename = "He Hideth My Soul"

@@ -7,6 +7,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "103"
   title = "Man Of Sorrows! What A Name"
   tunename = ""

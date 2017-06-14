@@ -9,6 +9,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "84"
   title = "Free From the Law"
   tunename = "Once For All"

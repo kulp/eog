@@ -5,6 +5,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "71"
   title = "Come, Let Us All Unite to Sing"
   tunename = "Christ For Me"

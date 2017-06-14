@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "74"
   title = "Come to the Blood-Stained Tree"
   tunename = "Maker"

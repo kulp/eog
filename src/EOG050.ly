@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "50"
   title = "Vain Is The Thought of Man"
   tunename = "Moreland"

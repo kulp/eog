@@ -34,6 +34,7 @@
 
 
 \header{
+  %gospel
   hymnnumber = "75"
   title = "I Gave My Life For Thee"
   tunename = "Gift"

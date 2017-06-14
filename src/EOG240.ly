@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "240"
   title = "Mighty, Mighty Love of Jesus"
   tunename = ""

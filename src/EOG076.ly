@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "76"
   title = "“Come Unto Me, And I Will Give You Rest”"
   tunename = "Eventide"

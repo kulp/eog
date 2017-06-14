@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "35"
   title = "Shall We Gather At His Coming?"
   tunename = "Beautiful River"

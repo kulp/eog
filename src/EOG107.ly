@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "107"
   title = "O, Do Not Let the Word Depart"
   tunename = ""

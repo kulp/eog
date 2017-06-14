@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "33"
   title = "O Christ, What Burdens Bowed Thy Head!"
   tunename = ""

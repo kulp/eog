@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "52"
   title = "Hark! Hark! Hear the Glad Tidings"
   tunename = ""

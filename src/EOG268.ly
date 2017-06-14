@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "268"
   title = "There Is a Stream of Precious Blood"
   tunename = "Cowper"

@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "241"
   title = "More Than Tongue Can Tell"
   tunename = ""

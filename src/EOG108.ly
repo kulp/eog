@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "108"
   title = "O Precious Blood"
   tunename = "He Leadeth Me"

@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "39"
   title = "He Knew No Sin, That Holy One"
   tunename = "Sawley"

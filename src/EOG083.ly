@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "83"
   title = "Everlasting Glory"
   tunename = "Maccabeus"

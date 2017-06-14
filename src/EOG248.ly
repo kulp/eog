@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "248"
   title = "O Happy Day, That Fixed My Choice"
   tunename = ""

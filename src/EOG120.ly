@@ -6,6 +6,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "120"
   title = "The Father Sent the Son"
   tunename = "Anywhere With Jesus"

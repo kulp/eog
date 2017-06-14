@@ -4,6 +4,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "59"
   title = "Why Wilt Thou Linger"
   tunename = ""

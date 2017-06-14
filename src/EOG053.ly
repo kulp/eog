@@ -8,6 +8,7 @@
 }
 
 \header{
+  %gospel
   hymnnumber = "53"
   title = "Weeping Will Not Save Me!"
   tunename = ""
