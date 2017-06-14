@@ -198,7 +198,7 @@ booklayout/gospel.pdf: booklayout/gospel_insert.tex
 booklayout/metrical_insert.tex: index.meter
 	scripts/sort_meters.pl $< | scripts/make_metrical_index.sh | scripts/format_metrical_index.pl > $@
 
-booklayout/first_insert.tex: $(wildcard src/EOG*.ly)
+booklayout/first_insert.tex: $(wildcard src/EOG[0123]*.ly)
 booklayout/gospel_insert.tex: $(shell grep -l '%gospel' src/EOG*.ly)
 booklayout/first_insert.tex booklayout/gospel_insert.tex:
 	scripts/make_alpha_index.pl $^ > $@ || rm $@
