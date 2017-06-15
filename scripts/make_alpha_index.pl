@@ -39,7 +39,7 @@ my $last = '';
 for (sort dictionary_order @list) {
     my ($letter) = $_->[0] =~ /(\w)/;
     print qq(\\vfil\n);
-    print qq({\\centering\\textbf{—\u$letter—}\\par}\n\n) if $letter ne $last;
+    print qq({\\centering\\textbf{—\u$letter—}\\par}\\nopagebreak\n\n) if $letter ne $last;
     print qq($_->[0]\\dotfill{}$_->[1]\n\n);
     $last = $letter;
 }
