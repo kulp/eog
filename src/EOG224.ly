@@ -13,7 +13,7 @@
   hymnnumber = "224"
   title = "He Is Coming! — Who Is Coming?"
   tunename = "Regent Square"
-  meter = "8. 7. 8. 7. 8. 7."
+  meter = "8. 7. 8. 7. 4. 7."
   poet = ""
   composer = "Henry Smart"
   tagline = ##f

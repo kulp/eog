@@ -11,7 +11,7 @@
   hymnnumber = "130"
   title = "To God Be the Glory"
   tunename = ""
-  meter = "11. 11. 11. 11. with Refrain"
+  meter = "4-11s. with Refrain"
   poet = "F. J. Crosby"
   composer = "W. H. Doane"
   tagline = ##f
