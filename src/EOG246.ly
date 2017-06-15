@@ -149,7 +149,7 @@ That gives us, too, our seat.
 Then o’er the wide cre -- a -- tion
 Thy pow’r will stretch its arm;
 Se -- cure from all temp -- ta -- tion,
-Free form all hu -- man harm.
+Free from all hu -- man harm.
 
 }
 
