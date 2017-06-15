@@ -39,7 +39,7 @@ notesSoprano = {
   \changePitch \patternC { g g g g a | bes a g }
   \changePitch \patternB { a^\markup{\italic cres.} a a a b | c r }
   \changePitch \patternA { c a bes c c | d c }
-  \changePitch \patternB { f, f f f g | a r }
+  \changePitch \patternB { f, f g a g | f r }
 
   \bar "|."
 
@@ -75,7 +75,7 @@ notesTenor = {
   \changePitch \patternA { c c c c c | c c }
   \changePitch \patternB { c c c a f | g r }
   \changePitch \patternA { f f f f f | f f }
-  \changePitch \patternB { a a a a c | c r }
+  \changePitch \patternB { c' c d c bes | a r }
 
 }
 }
@@ -92,7 +92,7 @@ notesBass = {
   \changePitch \patternA { c c c c c | c c }
   \changePitch \patternB { f f f f d | c r }
   \changePitch \patternA { f f f f f | bes, f' }
-  \changePitch \patternB { f f f f c | f r }
+  \changePitch \patternB { a a bes c c, | f r }
 
 }
 }
