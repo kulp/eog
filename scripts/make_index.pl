@@ -56,7 +56,7 @@ print
         thead(
             Tr(
                 th({ -class => "corner" }, "Filter:"),
-                th({ -class => "sortbox", -colspan => 3 }, # title poet composer
+                th({ -class => "sortbox", -colspan => 4 }, # title poet composer tunename
                     start_form({ -onSubmit => "return false;", -action => "" }),
                         input({ -id      => "searchbox",
                                 -name    => "filter",
@@ -71,7 +71,7 @@ print
              (map th({ -class => "wide", -colspan => $vcount{$_} }, $_), @dirs),
             ),
             Tr({ -class => "realhead" },
-                (map th($_), qw(No. Title Poet Composer)),
+                (map th($_), qw(No. Title Poet Composer Tune)),
                 (map th({ -class => "nosort" }, $_), map @{ $variants{$_} }, @dirs),
             ),
         ),
@@ -83,6 +83,7 @@ print
                 my $title    = get_key $stem => "title";
                 my $poet     = get_key $stem => "poet";
                 my $composer = get_key $stem => "composer";
+                my $tunename = get_key $stem => "tunename";
 
                 (my $safetitle = $title) =~ s/[^\s\w]//g;
 
@@ -94,6 +95,7 @@ print
                     td({ -class => "title", customkey => $safetitle } , $title),
                     td({ -class => "poet"                           } , $poet),
                     td({ -class => "composer"                       } , $composer),
+                    td({ -class => "tunename"                       } , $tunename),
                     (map { my $dir = $_; map {
                         my $where = "$dir/$_/$stem.$exts{$dir}";
                         td({ -class => "link" }, (-e $where) ? a({ -href => $where }, $dir) : ""),
