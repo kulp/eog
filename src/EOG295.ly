@@ -91,7 +91,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“Take sal -- va -- tion, %{HIDE>%} take -- sal -- va -- tion– %{<HIDE%} \bar "." % meter says 8.7.8.7.4.7., so put only four syllables in lyrics
+“Take sal -- va -- tion, take sal -- va -- tion– \bar "."
 Take it now and hap -- py be.” \bar "."
 
 }
