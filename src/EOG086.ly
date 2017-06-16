@@ -47,7 +47,8 @@ notesSoprano = {
   \changePitch \patternAA { b c d g, | c b b a }
   \changePitch \patternBA { a b c a | g fis g }
 
-  \changePitch \patternCA { d' b d | b g b \fermata }
+  << s^\markup { \small \caps "Refrain" }
+  \changePitch \patternCA { d' b d | b g b \fermata } >>
   \changePitch \patternBA { b c d g, | b a g }
 
   \bar "|."
