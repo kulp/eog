@@ -3,6 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
+  system-count = #(cond (is-eogsized 5) (#t #f))
   system-system-spacing.padding = 11
 }
 
@@ -56,6 +57,7 @@ notesSoprano = {
   \changePitch \patternAA { gis b a | gis fis | e fis gis ais | cis b }
   \changePitch \patternEB { cis dis cis | b fis gis cis | b ais | b }
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternCA { fis gis a | b e, | cis' b a | gis } >>
   \changePitch \patternDA { e' dis cis | b gis e a | gis gis a fis | e }
@@ -112,9 +114,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-{ \break }
 Mes -- sage of Je -- sus, mes -- sage of love, \bar "."
-{ \break } % original has break in Tell -- ing
 Tell -- ing of wel -- come to that bright home a -- bove. \bar "."
 
 }
@@ -123,7 +123,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Hark! hark! the voice of Christ, the sin -- ner’s Sav -- iour, \bar "."
-In glo -- ry { \eogpagebreak } seat -- ed on His Fa -- ther’s throne, \bar "." % XXX an ungainly way to keep only one system on the first page
+In glo -- ry { \eogpagebreak } seat -- ed on His Fa -- ther’s throne, \bar "." % an ungainly way to keep only one system on the first page
 Tel -- ling of love and ev -- er -- last -- ing fa -- vor \bar "."
 For sin -- ners far from God, by sin un -- done. \bar "."
 
