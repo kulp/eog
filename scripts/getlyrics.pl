@@ -77,7 +77,7 @@ my %segments = pairmap { defined($b) ? ($a => $b) : ()                          
 my %bare     = pairmap { $b =~ s/$versepat/$1/; $a => $b                                    } %segments;
 my %unmarkup = pairmap { $b =~ s/$markuppat/$1/g; $a => $b                                  } %bare;
 my %hidden   = pairmap { $b =~ s/$hidden//; $a => $b                                        } %unmarkup;
-my %lyrics   = pairmap { $b =~ s/%LYRICS//; $a => $b                                        } %hidden;
+my %lyrics   = pairmap { $b =~ s/%LYRICS\s+//g; $a => $b                                    } %hidden;
 my %trimmed  = pairmap { $b =~ s/$braces/substr($1,1,-1)/gem; $a => $b                      } %lyrics;
 my %rescued  = pairmap { $b =~ s/\\markup\s*($braces)/substr($1,1,-1)/ge; $a => $b          } %trimmed;
 my %lines    = pairmap { $b =~ s/$strips//g; $a => [ grep !/^$/, map trim, split /\n/, $b ] } %rescued;
