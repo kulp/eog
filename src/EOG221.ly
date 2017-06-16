@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -45,6 +45,7 @@ notesSoprano = {
   c'8. des16 | c4 bes bes bes8. c16 | bes4 aes aes
   bes8 c | des4 des g, g | aes2 r4
 
+  \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { c8. des16 | ees2 c | bes8 aes g f ees4 } >>
   aes8 g | f4 aes des c | bes2 r4
@@ -109,10 +110,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-\break
 Draw me near -- er, near -- er bless -- ed Lord, \bar "."
 To the cross where Thou hast died; \bar "."
-\break
 Draw me near -- er, near -- er, near -- er bless -- ed Lord, \bar "."
 To Thy pre -- cious, woun -- ded side. \bar "."
 
@@ -122,9 +121,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 I am Thine, O Lord; I have heard Thy voice, \bar "."
-And it told Thy love to me; \bar "." \break
+And it told Thy love to me; \bar "."
 But I long to rise in the arms of faith, \bar "."
-And be clo -- ser drawn to Thee. \bar "." \break
+And be clo -- ser drawn to Thee. \bar "."
 
 }
 
