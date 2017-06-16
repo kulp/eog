@@ -7,6 +7,7 @@ binmode \*STDOUT, ":utf8";
 
 my $count = shift;
 my @list;
+my %uniq;
 
 sub add {
     my $i = shift;
@@ -16,7 +17,7 @@ sub add {
     pop @F while length("@F") > 34;
     $_ = "@F";
     s/[,:;–—]$//g;
-    push @list, [ $_, $i ];
+    push @list, [ $_, $i ] unless $uniq{"$_/$i"}++;
 }
 
 for my $file (@ARGV) {
