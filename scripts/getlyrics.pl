@@ -89,6 +89,7 @@ my $spell = Text::Aspell->new;
 sub collapse_whitespace
 {
     (my $line = shift) =~ s/\s+/ /g;
+    $line =~ s/\b([–—])(\s)\b/$2$1$2/g; # symmetric spacing around dashes
     return $line;
 }
 
