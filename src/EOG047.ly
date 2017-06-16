@@ -122,7 +122,7 @@ Love to sin -- ners to dis -- play.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Sin -- ner! see they God be -- side thee,
+Sin -- ner! see thy God be -- side thee,
 In a ser -- vant’s form come near,
 Sit -- ting, walk -- ing, talk -- ing with thee,
 Si -- nai’s mount no lon -- ger fear.
@@ -132,7 +132,7 @@ Si -- nai’s mount no lon -- ger fear.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Sin -- ner! see they bleed -- ing Sav -- iour,
+Sin -- ner! see thy bleed -- ing Sav -- iour,
 Pierced and nailed to Cal -- v’ry’s tree;
 Sac -- ri -- fice of sweet -- est sa -- vor,
 Ob -- ject of man’s en -- mi -- ty.
