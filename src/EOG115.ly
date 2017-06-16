@@ -126,8 +126,8 @@ Him -- self He could not save,
 For just -- ice must be done;
 And sin’s full weight must fall
 Up -- on a sin -- less One;
-For noth -- ing else could God ac -- cept
-In pay -- ment for the fear -- ful debt.
+For noth -- ing less can God ac -- cept
+In pay -- ment of that fear -- ful debt.
 
 }
 
@@ -136,7 +136,8 @@ wordsC = \lyricmode {
 
 Him -- self He could not save,
 For He the Sure -- ty stood
-For all who now re -- ly Up -- on His pre -- cious blood.
+For all who now re -- ly
+Up -- on His pre -- cious blood.
 He bore the pen -- al -- ty of guilt
 When on the cross His blood was spilt.
 

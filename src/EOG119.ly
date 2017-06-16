@@ -110,7 +110,7 @@ When God’s judg -- ment fell on E -- gypt, \bar "."
 There was weep -- ing ev -- ’ry -- where, \bar "."
 For the an -- gel smote the first -- born \bar "."
 Of the peo -- ple dwell -- ing there. \bar "."
-But some hous -- es God passed o -- ver \bar "."
+But some hous -- es God passed o -- ver, \bar "."
 As His word had said be -- fore, \bar "."
 And death en -- tered not the dwell -- ings \bar "."
 Where the blood was on the door. \bar "."
@@ -123,7 +123,7 @@ wordsB = \lyricmode {
 Tears and pray’rs can nev -- er save us,
 All our works are but in vain,
 Lives pos -- sessed of pur -- est me -- rits
-Can -- not cleanse sin’s aw -- ful stain,
+Can -- not cleanse sin’s aw -- ful stain;
 On -- ly by the blood of Je -- sus,
 Who for us the judg -- ment bore,
 We can calm -- ly face the fu -- ture,
@@ -134,12 +134,12 @@ When His blood is on the door.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Come, now trust in Christ the Sav -- iour,
+Come, now, trust in Christ the Sav -- iour,
 Him who died up -- on the tree.
 His a -- ton -- ing blood most pre -- cious
 There was shed for you and me.
 Shel -- tered by the blood of Je -- sus,
-Who for us the judg -- ment bore,
+We are saved for -- ev -- er -- more,
 Saved from hell and saved for heav -- en
 By the blood up -- on the door.
 

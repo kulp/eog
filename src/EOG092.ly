@@ -57,12 +57,12 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternAA { e f e e g f | f e r }
-  d4. cis8 d8 e8 f8. e16 | e2( c4) \once \override NoteHead.font-size = #-4 << f4 d4 >>
-  e4. f8 e8 e8 g8. f16 | f2 e4 \once \override NoteHead.font-size = #-4 << fis4 dis4 >>
+  d4. cis8 d8 e8 f8. e16 | e2( c4) r4
+  e4. f8 e8 e8 g8. f16 | f2 e4 r4
   \changePitch \patternAB { d cis d e f f | e r }
 
   \changePitch \patternAA { f f f f g f | e e r }
-  e4. e8 e8 e8 e8 e8 | f2. \once \override NoteHead.font-size = #-4 << dis'4 fis,4 >>
+  e4. e8 e8 e8 e8 e8 | f2. r4
   \changePitch \patternAA { g g a g e f | e c r }
   \changePitch \patternAB { c f e e d f | e r }
 
@@ -106,9 +106,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Room for Je -- sus, Lord of glo -- ry! \bar "."
-Has -- ten now His word o -- bey; \bar "."
+Has -- ten now, His word o -- bey; \bar "."
 Swing the heart’s door wide -- ly o -- pen, \bar "."
-Bid Him en -- ter while you may. \bar "."
+Let Him en -- ter while you may. \bar "."
 
 }
 
@@ -128,7 +128,7 @@ wordsB = \lyricmode {
 Room for pleas -- ure, room for busi -- ness,
 But for Christ the Cru -- ci -- fied,
 Not a place that He can en -- ter,
-In the heart for which He died?
+In the heart for which He died.
 
 \Refrain
 
@@ -140,8 +140,7 @@ wordsC = \lyricmode {
 Have you an -- y time for Je -- sus,
 As in grace He calls a -- gain?
 O, to -- day is time ac -- cept -- ed,
-% XXX the "To" in "To -- mor -- row" is supposed to go with the grace notes
-Tomor -- row you may call in vain?
+La -- ter you may call in vain.
 
 }
 
@@ -150,7 +149,7 @@ wordsD = \lyricmode {
 
 Room and time now give to Je -- sus,
 Soon will pass God’s day of grace;
-Soon thy heart left cold and si -- lent,
+Soon thy heart be cold and si -- lent,
 And the Sav -- iour’s plead -- ing cease.
 
 }

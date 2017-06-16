@@ -120,10 +120,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Yes; we’ll gath -- er at His com -- ing, \bar "."
+Yes, we’ll gath -- er at His com -- ing, \bar "."
 His glo -- ri -- ous, His glo -- ri -- ous com -- ing– \bar "."
 Gath -- er with His saints at His com -- ing, \bar "."
-If washed in the Sav -- iour’s blood. \bar "."
+If cleansed by the Sav -- iour’s blood. \bar "."
 
 }
 
@@ -132,8 +132,8 @@ wordsA = \lyricmode {
 
 Shall we gath -- er at His com -- ing, \bar "."
 When the dead in Christ a -- rise? \bar "."
-Shall we hear the Sav -- iour’s sum -- mons \bar "."
-To God’s home, be -- yond the skies? \bar "."
+Shall we hear the Sav -- iour call us \bar "."
+To His home be -- yond the skies? \bar "."
 
 }
 
@@ -143,7 +143,7 @@ wordsB = \lyricmode {
 Dai -- ly near -- er draws His com -- ing,
 This makes all His own re -- joice;
 Who are they that fear to meet Him?
-Such as now love not His voice.
+Those who now love not His voice.
 
 \Refrain
 
@@ -155,17 +155,17 @@ wordsC = \lyricmode {
 When the Sav -- iour at His com -- ing
 Shall His own in glo -- ry bring,
 Will { \italicsOn } you { \italicsOff } be a -- mong the num -- ber?
-Will { \italicsOn } you, { \italicsOff } too, His prais -- es sing?
+Will { \italicsOn } you { \italicsOff } too His prais -- es sing?
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Ere the day of Je -- sus’ com -- ing,
+Now be -- fore the Sav -- iour’s com -- ing,
 Seek His par -- don free to know;
 Be your stains of sin as scar -- let,
-He will wash you white as snow.
+He will make you white as snow.
 
 }
 
