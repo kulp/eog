@@ -14,7 +14,6 @@
   meter = "P. M."
   poet = "Russian Hymn"
   composer = "From the Russian"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -34,7 +33,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 

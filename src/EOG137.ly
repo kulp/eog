@@ -32,7 +32,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
-  %\partial 4
   \autoBeamOff
 }
 

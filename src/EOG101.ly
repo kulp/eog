@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "Look, Thou Lost One, To the Saviour"
   tunename = "Look Ye Saints"
   meter = "8. 7. 8. 7. 4. 7."
-  %poet = ""
+  poet = ""
   composer = "Arr. by G. C. Stebbins"
-  %copyright = ""
   tagline = ##f
 }
 

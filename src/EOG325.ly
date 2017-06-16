@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +12,8 @@
   title = "Suffer Little Children"
   tunename = ""
   meter = "P. M."
-  %poet = ""
+  poet = ""
   composer = "Mrs. Page"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -37,7 +35,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key d \major
-  %\partial 4
   \autoBeamOff
 }
 

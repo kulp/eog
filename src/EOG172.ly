@@ -11,7 +11,6 @@
   meter = "8. 7. 8. 7. 4. 7."
   poet = "Elizabeth Darkey"
   composer = "J. J. Rousseau"
-  %copyright = ""
   tagline = ##f
 }
 

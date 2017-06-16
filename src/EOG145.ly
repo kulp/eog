@@ -33,7 +33,6 @@
   meter = "8. 7. 8. 7. D."
   poet = "J. Newton"
   composer = "Russian Melody, Arr. by J. A. Stevenson"
-  %copyright = ""
   tagline = ##f
 }
 
