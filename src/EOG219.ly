@@ -29,11 +29,11 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  a4 gis a | d2 f,4 | a2( g4) | \bar "."
-  bes4 a bes | e2 d4 | c2.( | a ) | \bar "."
+  a4 gis a | d2 f,4 | a2( g4) |
+  bes4 a bes | e2 d4 | c2.( | a ) |
   f'4 c a | e'2 d4 | c2 g4 | bes2( a4) | \bar "."
   \time 2/2
-  r2^\pp f2 | f^\< f\! | f^\> e\! | f1 \bar "."
+  r2^\pp f2 | f^\< f\! | f^\> e\! | f1
 
   \bar "|."
 
@@ -79,10 +79,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-His be “the Vic -- tor’s name”
-Who fought the fight a -- lone;
-Tri -- um -- phant saints no hon -- or claim,
-His con -- quest was their own.
+His be “the Vic -- tor’s name” \bar "."
+Who fought the fight a -- lone; \bar "."
+Tri -- um -- phant saints no hon -- or claim, % \bar "."
+His con -- quest was their own. \bar "."
 
 }
 

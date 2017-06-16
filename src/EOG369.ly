@@ -39,6 +39,7 @@ notesSoprano = {
   aes8 | bes bes bes des[ c] bes | aes aes aes des4
   bes8 | c4 des8 c4 bes8 | aes4. ~ aes4. |
 
+  \eogbreak % mainly to avoid refrain vertical alignment cosmetic issues
   << s^\markup { \small \caps "Refrain" }
   { des4. des8 c bes | aes4. f4. } >>
   f8 f f f[ ges] aes | bes4. ~ bes4. |
@@ -119,7 +120,6 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-\eogbreak
 Wide, wide as the o -- cean, \bar "."
 High as the { \mon } heav -- ens { \moff } a -- bove; \bar "."
 Deep, deep as the deep -- est sea, \bar "."

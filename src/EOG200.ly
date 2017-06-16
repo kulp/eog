@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  indent = #0
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -11,7 +11,6 @@
   meter = "6-11s."
   poet = "Mrs. A. R. Rule"
   composer = "P. P. Bliss"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -34,8 +33,8 @@ notesSoprano = {
 \global
 \relative c' {
 
-d8. d16 | g4 g g | g a b | b a g | a2
-d,4 | a' a a | a b c | c b a | b2
+d8. d16 | g4 g g | g a b | b a g | a2 \eogbreak
+d,4 | a' a a | a b c | c b a | b2 \eogbreak
 \repeat volta 2 { d4 | d d d | e d b | b b b | c( b) a
                   g g g | a g }
 \alternative {
@@ -102,14 +101,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 ’Tis the hope of His com -- ing \bar "."
-That glad -- dens my heart, \bar "." \break
+That glad -- dens my heart, \bar "."
 That drives a -- way sad -- ness \bar "."
-And bids care de -- part; \break \bar ".|:-||"
+And bids care de -- part; \bar ".|:-||"
 No dread of the mor -- row, \bar "."
-No sor -- row I see, \bar "." \break
+No sor -- row I see, \bar "."
 For Je -- sus is com -- ing \bar "."
-He’s com -- ing for me.
-%{HIDE>%} He’s com -- ing for me. %{<HIDE%}
+He’s com -- ing for me. \bar "." %{HIDE>%} He’s com -- ing for me. %{<HIDE%}
 
 }
 
@@ -123,8 +121,7 @@ I’ll wea -- ther the gale;
 The storm is with -- out me,
 No trou -- ble with -- in,
 For Je -- sus, my Sav -- iour,
-Has cleansed me from sin.
-%{HIDE>%} Has cleansed me from sin. %{<HIDE%}
+Has cleansed me from sin. %{HIDE>%} Has cleansed me from sin. %{<HIDE%}
 
 }
 
@@ -138,8 +135,7 @@ Whose com -- ing is nigh.
 I rest on His prom -- ise,
 I trust His sure word;
 Then quick -- ly, come quick -- ly,
-O Je -- sus my Lord.
-%{HIDE>%} O Je -- sus my Lord. %{<HIDE%}
+O Je -- sus my Lord. %{HIDE>%} O Je -- sus my Lord. %{<HIDE%}
 
 }
 

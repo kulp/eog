@@ -90,18 +90,18 @@ Refrain = \lyricmode {
 
 { \eogbreak }
 
-A -- men, come Lord Je -- sus! Claim Thy peo -- ple for Thine own!
-Crown Thy church in glo -- ry, seat -- ed in Thy throne!
+A -- men, come Lord Je -- sus! Claim Thy peo -- ple for Thine own! \bar "."
+Crown Thy church in glo -- ry, seat -- ed in Thy throne! \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Shine forth, O Lord, Thou bright and morn -- ing Star!
-Come quick -- ly come! Thy peo -- ple wait -- ing are,
-Shout, shout the word that bids Thy dead a -- rise,
-And calls Thy saints to meet Thee in the skies.
+Shine forth, O Lord, Thou bright and morn -- ing Star! \bar "."
+Come quick -- ly come! Thy peo -- ple wait -- ing are, \bar "."
+Shout, shout the word that bids Thy dead a -- rise, \bar "."
+And calls Thy saints to meet Thee in the skies. \bar "."
 
 }
 

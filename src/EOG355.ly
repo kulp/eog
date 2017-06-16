@@ -107,10 +107,10 @@ They shall per -- ish nev -- er. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Safe in Christ, the weak -- est child
-Stands in all God’s fa -- vor;
-All in Christ are re -- con -- ciled
-Through that on -- ly Sav -- iour.
+Safe in Christ, the weak -- est child \bar "."
+Stands in all God’s fa -- vor; \bar "."
+All in Christ are re -- con -- ciled \bar "."
+Through that on -- ly Sav -- iour. \bar "."
 
 }
 

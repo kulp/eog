@@ -153,12 +153,12 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Bless -- ed news
-Joy -- ful news
-%{HIDE>%} Bless -- ed news %{<HIDE%}
-%{HIDE>%} Joy -- ful news %{<HIDE%}
-%{HIDE>%} Bless -- ed news %{<HIDE%}
-%{HIDE>%} Joy -- ful news %{<HIDE%}
+Bless -- ed news % \bar is not appropriate
+Joy -- ful news % \bar is not appropriate
+%{HIDE>%} Bless -- ed news %{<HIDE%} % \bar is not appropriate
+%{HIDE>%} Joy -- ful news %{<HIDE%} % \bar is not appropriate
+%{HIDE>%} Bless -- ed news %{<HIDE%} % \bar is not appropriate
+%{HIDE>%} Joy -- ful news %{<HIDE%} \bar "."
 Sound the joy -- ful tid -- ings forth. \bar "."
 
 }

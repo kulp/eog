@@ -211,9 +211,9 @@ Be in time! Be in time! \bar "."
 While the voice of Je -- sus calls you, \bar "."
 Be in time! \bar "."
 If in sin you long -- er wait, \bar "."
-You may %{HIDE>%} \lyricsInvis %{<HIDE%} find no open gate,
-And your cry be just too late,
-Be in time! %{HIDE>%} \lyricsVis %{<HIDE%}
+You may %LYRICS find no open gate, % \bar "."
+%LYRICS And your cry be just too late,
+%LYRICS Be in time!
 
 }
 

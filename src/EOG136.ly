@@ -107,7 +107,7 @@ Refrain = \lyricmode {
 When the har -- vest is past, \bar "."
 And the sum -- mer is o’er, \bar "."
 When the beams cease to break of the blest Lord’s day morn, \bar "."
-And Je -- sus in -- vites you no more. % "you" in refrain vs. "thee" in verses
+And Je -- sus in -- vites you no more. \bar "." % "you" in refrain vs. "thee" in verses
 
 }
 

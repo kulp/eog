@@ -88,10 +88,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-He left the bright -- ness of His home
-For sin -- ners such as I;
-Re -- ject -- ed and a stran -- ger here,
-He came to die!
+He left the bright -- ness of His home \bar "."
+For sin -- ners such as I; \bar "."
+Re -- ject -- ed and a stran -- ger here, \bar "."
+He came to die! \bar "."
 
 }
 

@@ -123,14 +123,14 @@ ees d c aes | bes bes ees1
 
 wordsA = \lyricmode {
 
-May the grace of Christ our Sav -- iour,
-And the Fa -- ther’s bound -- less love,
-With the Ho -- ly Spi -- rit’s fa -- vor,
-Rest up -- on us from a -- bove.
-Thus may we a -- bide in un -- ion
-With each oth -- er and the Lord,
-And pos -- sess, in sweet com -- mun -- ion,
-Joys which earth can ne’er af -- ford.
+May the grace of Christ our Sav -- iour, \bar "."
+And the Fa -- ther’s bound -- less love, \bar "."
+With the Ho -- ly Spi -- rit’s fa -- vor, \bar "."
+Rest up -- on us from a -- bove. \bar "."
+Thus may we a -- bide in un -- ion \bar "."
+With each oth -- er and the Lord, \bar "."
+And pos -- sess, in sweet com -- mun -- ion, \bar "."
+Joys which earth can ne’er af -- ford. \bar "."
 
 }
 

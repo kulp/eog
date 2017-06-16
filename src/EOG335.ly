@@ -110,9 +110,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 I am so glad that Je -- sus loves me, \bar "."
-Je -- sus loves me, Je -- sus loves me, %{HIDE>%} e -- ven me. %{<HIDE%}
-I am so glad that Je -- sus loves me,
-Je -- sus loves e -- ven me.
+Je -- sus loves me, Je -- sus loves me, %{HIDE>%} e -- ven me. %{<HIDE%} % \bar "."
+I am so glad that Je -- sus loves me, % \bar "."
+Je -- sus loves e -- ven me. % \bar "."
 
 }
 
@@ -122,7 +122,7 @@ wordsA = \lyricmode {
 I am so glad that our Fa -- ther in heav’n \bar "."
 Tells of His love in the Book He has giv’n; \bar "."
 Won -- der -- ful things in the Bi -- ble I see; \bar "."
-This is the dear -- est that Je -- sus loves me.
+This is the dear -- est that Je -- sus loves me. % \bar "."
 
 }
 

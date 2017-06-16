@@ -102,20 +102,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Match -- less Sav -- iour! match -- less Sav -- iour!
-Je -- sus all the work has done.
-Come to Je -- sus, come to Je -- sus–
-Je -- sus, God’s be -- lov -- ed Son.
+Match -- less Sav -- iour! match -- less Sav -- iour! \bar "."
+Je -- sus all the work has done. \bar "."
+Come to Je -- sus, come to Je -- sus– \bar "."
+Je -- sus, God’s be -- lov -- ed Son. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Look, thou lost one, to the Sav -- iour,
-Seat -- ed on yon glor -- ious throne;
-Look! this mo -- ment, He will save you,
-For He has sal -- va -- tion won.
+Look, thou lost one, to the Sav -- iour, \bar "."
+Seat -- ed on yon glor -- ious throne; \bar "."
+Look! this mo -- ment, He will save you, \bar "."
+For He has sal -- va -- tion won. \bar "."
 
 }
 

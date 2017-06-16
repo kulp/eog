@@ -109,20 +109,20 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O pre -- cious is the flow
-That makes me white as snow:
-No oth -- er fount I know,
-Noth -- ing but the blood of Je -- sus.
+O pre -- cious is the flow \bar "."
+That makes me white as snow: \bar "."
+No oth -- er fount I know, \bar "."
+Noth -- ing but the blood of Je -- sus. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-What can wash a -- way my sins?
-Noth -- ing but the blood of Je -- sus;
-What can make me whole a -- gain?
-Noth -- ing but the blood of Je -- sus.
+What can wash a -- way my sins? \bar "."
+Noth -- ing but the blood of Je -- sus; \bar "."
+What can make me whole a -- gain? \bar "."
+Noth -- ing but the blood of Je -- sus. \bar "."
 
 }
 

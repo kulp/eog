@@ -97,14 +97,14 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Christ the Lord is com -- ing,
-Com -- ing ve -- ry soon,
-Sud -- den -- ly some morn -- ing,
-Eve, or night, or noon.
-Quick -- ly, in a mo -- ment,
-Saints shall quit the earth;
-See Him in His beau -- ty,
-Glo -- ry, grace and worth.
+Christ the Lord is com -- ing, \bar "."
+Com -- ing ve -- ry soon, \bar "."
+Sud -- den -- ly some morn -- ing, \bar "."
+Eve, or night, or noon. \bar "."
+Quick -- ly, in a mo -- ment, \bar "."
+Saints shall quit the earth; \bar "."
+See Him in His beau -- ty, \bar "."
+Glo -- ry, grace and worth. \bar "."
 
 }
 

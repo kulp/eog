@@ -102,7 +102,6 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-\break
 Pre -- cious name, O, how sweet! \bar "."
 Hope of earth and joy of heav’n; \bar "."
 Pre -- cious name, O, how sweet! \bar "."

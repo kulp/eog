@@ -85,17 +85,17 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Who shall give me rest?
-In my grief I cried.
-Peace I found and hap -- pi -- ness at Je -- sus’ side.
+Who shall give me rest? \bar "."
+In my grief I cried. \bar "."
+Peace I found and hap -- pi -- ness at Je -- sus’ side. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Yea, in Him are found \bar "."
-All my joy and bliss, \bar "."
+Yea, in Him are found
+All my joy and bliss,
 Life and light where all a -- round but dark -- ness is.
 
 }

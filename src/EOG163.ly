@@ -90,8 +90,7 @@ Guide us, O Thou gra -- cious Sav -- iour, \bar "."
 Pil -- grims thro’ this bar -- ren land; \bar "."
 We are weak, but Thou art might -- y; \bar "."
 Hold us with Thy power -- ful hand. \bar "."
-Bread of heav -- en,
-%{HIDE>%} Bread of heav -- en! %{<HIDE%} \bar "."
+Bread of heav -- en, %{HIDE>%} Bread of heav -- en! %{<HIDE%} \bar "."
 Feed us now and ev -- er -- more. \bar "."
 
 }
@@ -103,8 +102,7 @@ While we tread this vale of sor -- row,
 May we in Thy love a -- bide;
 Keep us ev -- er, gra -- cious Sav -- iour,
 Cleav -- ing close -- ly to Thy side;
-Still re -- ly -- ing,
-%{HIDE>%} still re -- ly -- ing, %{<HIDE%}
+Still re -- ly -- ing, %{HIDE>%} still re -- ly -- ing, %{<HIDE%}
 On the Fa -- ther’s change -- less love.
 
 }
@@ -116,8 +114,7 @@ Sav -- iour, come, we long to see Thee,
 Long to dwell with Thee a -- bove,
 And to know in full com -- mun -- ion
 All the sweet -- ness of Thy love.
-Come, Lord Je -- sus,
-%{HIDE>%} come, Lord Je -- sus, %{<HIDE%}
+Come, Lord Je -- sus, %{HIDE>%} come, Lord Je -- sus, %{<HIDE%}
 Take Thy wait -- ing peo -- ple home.
 
 }

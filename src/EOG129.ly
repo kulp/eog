@@ -114,8 +114,6 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-\break
-{ { \repeat unfold 30 { \skip 4 } } }
 O, glad and glo -- rious gos -- pel! \bar "."
 With joy we now pro -- claim __ \bar "."
 A full and free sal -- va -- tion, \bar "."
@@ -140,6 +138,8 @@ He has made a full a -- tone -- ment,
 Now His sav -- ing work is done;
 He has sat -- is -- fied the Fa -- ther,
 Who ac -- cepts us in His Son.
+
+\Refrain
 
 }
 
@@ -180,11 +180,10 @@ we now pro -- claim
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = two   \lyricsto altos    \wordsB % has Refrain, needs long extension line
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
-    \new Lyrics \with { alignBelowContext = upper } \lyricsto altos \Refrain
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
       \clef bass

@@ -42,12 +42,12 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { d fis a b | a fis } \bar "."
-  \changePitch \patternBA { fis | e a b gis | a } \bar "." \break
-  \changePitch \patternCA { a | d a a a | b d a } \bar "."
-  \changePitch \patternDA { fis | a g e a | fis } \bar "." \break
-  \changePitch \patternEA { d fis g e | a ais b } \bar "."
-  \changePitch \patternFA { b b a fis | g e d } \bar "." \break
+  \changePitch \patternAA { d fis a b | a fis }
+  \changePitch \patternBA { fis | e a b gis | a } \eogbreak
+  \changePitch \patternCA { a | d a a a | b d a }
+  \changePitch \patternDA { fis | a g e a | fis } \eogbreak
+  \changePitch \patternEA { d fis g e | a ais b }
+  \changePitch \patternFA { b b a fis | g e d }
 
   \bar "|."
 
@@ -99,12 +99,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Suf -- fer lit -- tle chil -- dren,
-So kind -- ly Je -- sus said,
-And gen -- tly then He placed His hands
-Up -- on each lit -- tle head;
-Full of ten -- der -- ness and grace,
-Love was beam -- ing in His face.
+Suf -- fer lit -- tle chil -- dren, \bar "."
+So kind -- ly Je -- sus said, \bar "."
+And gen -- tly then He placed His hands \bar "."
+Up -- on each lit -- tle head; \bar "."
+Full of ten -- der -- ness and grace, \bar "."
+Love was beam -- ing in His face. \bar "."
 
 }
 

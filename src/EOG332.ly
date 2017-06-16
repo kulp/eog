@@ -124,8 +124,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Je -- sus a -- lone, Je -- sus a -- lone, \bar "."
-Je -- sus a -- lone can save.
-%{HIDE>%} save. %{<HIDE%}
+Je -- sus a -- lone can save. %{HIDE>%} save. %{<HIDE%} % \bar "."
 
 }
 
@@ -137,7 +136,7 @@ In -- to the world to save; \bar "."
 Sing His glo -- ry, His worth, His fame, \bar "."
 Je -- sus a -- lone can save. \bar "."
 No name else is giv -- en, \bar "."
-Search through earth and heav -- en–
+Search through earth and heav -- en– % \bar "."
 
 }
 
