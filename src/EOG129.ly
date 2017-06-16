@@ -12,7 +12,6 @@
   meter = "8. 7. 8. 7. with Refrain"
   poet = "M. Fraser"
   composer = "James McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 

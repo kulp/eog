@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +14,6 @@
   meter = "8. 6. 8. 6. 8. 6."
   poet = "Mrs. A. R. Cousin"
   composer = "Ira D. Sankey"
-  %copyright = ""
   tagline = ##f
 }
 

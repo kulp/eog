@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "Shall We Gather At His Coming?"
   tunename = "Beautiful River"
   meter = "8. 7. 8. 7. with Refrain"
-  %poet = ""
+  poet = ""
   composer = "R. Lowry, 1864"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -49,7 +44,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
-  %\partial 4
   \autoBeamOff
 }
 

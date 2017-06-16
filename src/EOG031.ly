@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +14,6 @@
   meter = "8. 5. 8. 3."
   poet = "F. R. Havergal"
   composer = "H. W. Baker"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -37,7 +35,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 

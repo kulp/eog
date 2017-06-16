@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "The Blood Upon The Door"
   tunename = "Otter Lake"
   meter = "8. 7. 8. 7. D."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 

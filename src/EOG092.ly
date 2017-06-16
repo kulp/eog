@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %systems-per-page = #(cond (is-eogsized 5) (#t #f)) % original has 5 systems
 }
 
 \header{
@@ -30,7 +29,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
-  %\partial 4
   \autoBeamOff
 }
 
