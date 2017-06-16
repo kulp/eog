@@ -81,7 +81,7 @@ Refrain = \lyricmode {
 Christ is the Sav -- iour, He nev -- er will fail; \bar "."
 All hope to save one -- self could noth -- ing a -- vail; \bar "."
 Man is a to -- tal wreck, can nev -- er reach the shore. \bar "." \eogbreak
-All who trust in Je -- sus Christ are saved ev -- er -- more.
+All who trust in Je -- sus Christ are saved ev -- er -- more. \bar "."
 
 }
 

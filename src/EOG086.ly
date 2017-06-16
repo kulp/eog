@@ -35,7 +35,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -104,7 +103,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Ev -- en thee, ev -- en thee, \bar "."
-Bound -- less mer -- cy flows for thee.
+Bound -- less mer -- cy flows for thee. \bar "."
 
 }
 
