@@ -163,7 +163,7 @@ wordsE = \markuplist {
 \line { { \hspace #2 } Though sung eternally; }
 \line { A song which even angels }
 \line { { \hspace #2 } Can never, never sing; }
-\line { They known not Christ as \italic Saviour, }
+\line { They know not Christ as \italic Saviour, }
 \line { { \hspace #2 } But worship Him as \italic King. }
 
 }
