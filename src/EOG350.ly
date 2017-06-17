@@ -12,6 +12,7 @@
   meter = ""
   poet = "Harry D. Clarke"
   composer = "Harry D. Clarke"
+  copyright = \markup { \wordwrap { Copyright, 1927. Renewal, 1955, by H. D. Clarke. Assigned to Hope Publishing Company. All rights reserved. Used by permission. } }
   tagline = ##f
 }
 
@@ -166,15 +167,6 @@ If you fol -- low me.”
     \include "common/midi.ily"
   }
 }
-
-% We don't use the `copyright` header field because we need the copyright to
-% appear just under the last system, rather than at the bottom of the page.
-\noPageBreak \markup { \fill-line { \raise #4 \wordwrap { Copyright, 1927. Renewal, 1955, by H. D. Clarke. Assigned to Hope Publishing Company. All rights reserved. Used by permission. } } }
-
-\noPageBreak \markup { \lower #2 \fill-line { \center-column {
-  \bold "May be sung to above tune"
-  \lower #2 \line { \column { \extraA } }
-} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
