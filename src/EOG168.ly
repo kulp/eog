@@ -182,7 +182,7 @@ wordsE = \markuplist {
 
 \line { So while the hours are passing, }
 \line { All now is perfect rest; }
-\line { I'm waiting for the morning, }
+\line { I’m waiting for the morning, }
 \line { The brightest and the best, }
 \line { When He will call me to His side, }
 \line { The portion of His spotless bride. }

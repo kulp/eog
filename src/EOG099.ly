@@ -103,7 +103,7 @@ wordsB = \lyricmode {
 
 High as the heavens are raised % original has "heaven's here ! probably wanted heav'ns
 A -- bove the earth we tread,
-So far the rich -- es of God's grace
+So far the rich -- es of God’s grace
 Our high -- est thoughts ex -- ceed.
 
 }
@@ -120,9 +120,9 @@ Did all our guilt re -- move.
 
 wordsD = \markuplist {
 
-\line { Man's life is as the grass, }
+\line { Man’s life is as the grass, }
 \line { Or like the morning flower; }
-\line { If one sharp blast sweep o'er the field, }
+\line { If one sharp blast sweep o’er the field, }
 \line { It withers in an hour. }
 
 }

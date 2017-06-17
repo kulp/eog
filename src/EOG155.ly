@@ -110,7 +110,7 @@ wordsB = \lyricmode {
 O God of mer -- cy– Fa -- ther;
 The one un -- chang -- ing claim,
 The bright -- est hopes we gath -- er
-From Christ's most pre -- cious name;
+From Christ’s most pre -- cious name;
 What al -- ways sounds so sweet -- ly
 In Thine un -- wear -- ied ear,
 Has freed our souls com -- plete -- ly
