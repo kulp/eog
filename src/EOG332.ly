@@ -124,8 +124,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Je -- sus a -- lone, Je -- sus a -- lone, \bar "."
-Je -- sus a -- lone can save.
-%{HIDE>%} save. %{<HIDE%}
+Je -- sus a -- lone can save.  %{HIDE>%} save. %{<HIDE%}
+%LYRICS Je -- sus a -- lone, Je -- sus a -- lone,
+%LYRICS Je -- sus a -- lone can save.
 
 }
 
