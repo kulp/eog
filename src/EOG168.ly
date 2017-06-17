@@ -16,7 +16,6 @@
   meter = "P. M."
   poet = "W. Spencer Walton"
   composer = "A. J. Gordon"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -47,11 +46,11 @@ notesSoprano = {
 \relative c' {
 
   \changePitch \patternAA { d | d g g a | g fis }
-  \changePitch \patternAA { g | a gis a b | g ~ g  }
+  \changePitch \patternAA { g | a gis a b | g ~ g  } \eogbreak
   \changePitch \patternAA { d | d b' b c | b a }
-  \changePitch \patternAA { a | a fis g e | d ~ d }
+  \changePitch \patternAA { a | a fis g e | d ~ d } \eogbreak
   \changePitch \patternBA { d | c' c b b | a a g }
-  \changePitch \patternCA { g | e e a g | fis e | d ~ \tb d \fermata \ta }
+  \changePitch \patternCA { g | e e a g | fis e | d ~ \tb d \fermata \ta } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternDA { d g g a | g fis } >>

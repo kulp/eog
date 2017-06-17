@@ -132,8 +132,6 @@ Heav -- en’s gate to o -- pen wide;
 He will wash a -- way my sin,
 Let a lit -- tle child come in.
 
-\Refrain
-
 }
 
 wordsC = \lyricmode {
@@ -143,6 +141,8 @@ Je -- sus loves me tho’ I’m bad,
 And He waits to make me glad,
 Waits to fold me in His arm,
 Keeps me safe from ev -- ’ry harm.
+
+\Refrain
 
 }
 
