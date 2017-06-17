@@ -115,7 +115,7 @@ Refrain = \lyricmode {
 
 Lis -- ten to the mes -- sage, \bar "." % original has "List -- en"
 Pre -- cious words and true– \bar "."
-Joy and peace and par -- don, \bar "."
+Joy and peace and par -- don \bar "."
 God is of -- fering you. \bar "."
 
 }
@@ -124,13 +124,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 News for lit -- tle chil -- dren! \bar "."
-Hark! how sweet the sound, \bar "."
+Oh! how sweet the sound, \bar "."
 Roll -- ing in its ful -- ness \bar "."
 To earth’s far -- thest bound! \bar "."
 News of God’s sal -- va -- tion, \bar "."
-News with bless -- ings rife, \bar "."
-Sav -- ing, help -- ing, cheer -- ing, \bar "."
-–Won -- drous words of life. \bar "."
+Bless -- ings from a -- bove, \bar "."
+Sav -- ing, help -- ing, cheer -- ing– \bar "."
+Words of life and love. \bar "."
 
 }
 
@@ -139,7 +139,7 @@ wordsB = \lyricmode {
 
 Love for lit -- tle chil -- dren!
 Sent from God’s own throne,
-Love! how sweet the tid -- ings!
+Love! how sweet the tid -- ings
 Each can make his own;
 Love that mak -- eth hap -- py,
 Love that mak -- eth blest,
@@ -158,8 +158,8 @@ Peace from God on high,
 Brought by Christ the Sav -- iour,
 When He came to die;
 Made in Cal -- v’ry’s dark -- ness,
-Sealed with Je -- sus’ blood
-To the world pro -- claim -- ed
+Sealed with Je -- sus’ blood;
+To the world pro -- claim it–
 Per -- fect peace with God.
 
 }
@@ -168,9 +168,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Joy for lit -- tle chil -- dren!
-O such per -- fect joy,–
-Not like earth’s en -- chant -- ments,
-Full of earth’s al -- loy;
+Per -- fect joy so true,
+Not like the at -- trac -- tions
+This world of -- fers you,
 But a joy that rest -- eth
 On foun -- da -- tion sure,
 Joy– for God hath said it–

@@ -98,8 +98,8 @@ Je -- sus bids us shine \bar "."
 With a pure, clear light, \bar "."
 Like a lit -- tle can -- dle \bar "."
 Burn -- ing in the night; \bar "."
-In this world of dark -- ness, \bar "."
-So we must shine– \bar "."
+In this world of dark -- ness \bar "."
+So we must shine, \bar "."
 You in your small cor -- ner, \bar "."
 And I in mine. \bar "."
 
@@ -111,9 +111,9 @@ wordsB = \lyricmode {
 Je -- sus bids us shine
 First of all for Him;
 Well He sees and knows it
-If our light grows dim:
-He looks down from heav -- en,
-To see us shine–
+If our light grows dim;
+He looks down from heav -- en
+To see us shine,
 You in your small cor -- ner,
 And I in mine.
 
@@ -125,9 +125,9 @@ wordsC = \lyricmode {
 Je -- sus bids us shine
 Next for all a -- round;
 Man -- y kinds of dark -- ness
-In the world a -- bound,–
+In this world a -- bound–
 Sin and want and sor -- row;
-So we must shine–
+So we must shine,
 You in your small cor -- ner,
 And I in mine.
 

@@ -119,7 +119,7 @@ wordsB = \lyricmode {
 
 He will gath -- er, He will gath -- er,
 The gems for His king -- dom;
-All the pure ones, all the bright ones,
+All the saved ones, all the bright ones,
 His loved and His own.
 
 \Refrain

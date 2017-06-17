@@ -7,8 +7,7 @@
 \header{
   %children
   hymnnumber = "350"
-  title = "Hear Christ Calling, Come Unto Me"
-  % TODO original has subtitle "Fishers of Men"
+  title = "Hear Christ Calling, “Come Unto Me”"
   tunename = ""
   meter = ""
   poet = "Harry D. Clarke"
@@ -99,41 +98,42 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I will make you fish -- ers of men, \bar "."
-Fish -- ers of men, fish -- ers of men, \bar "."
-I will make you fish -- ers of men \bar "."
-If you fol -- low me; \bar "."
-If you fol -- low me, \bar "."
-If you fol -- low me, \bar "."
-I will make you fish -- ers of men \bar "."
-If you fol -- low me. \bar "."
+Hear Christ call -- ing, “Come un -- to Me, \bar "."
+Come un -- to Me, Come un -- to Me”; \bar "."
+Hear Christ call -- ing, “Come un -- to Me, \bar "."
+I will give you rest. \bar "."
+I will give you rest, \bar "."
+I will give you rest”; \bar "."
+Hear Christ call -- ing, “Come un -- to Me, \bar "."
+I will give you rest.” \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Hear Christ call -- ing, Come un -- to Me,
-Come un -- to Me, Come un -- to Me;
-Hear Christ call -- ing, Come un -- to Me,
-I will give you rest,
-I will give you rest,
-I will give you rest;
-Hear Christ call -- ing, Come un -- to Me,
-I will give you rest.
+Read your Bi -- ble, pray ev -- ery day,
+Pray ev -- ery day, pray ev -- ery day;
+Read your Bi -- ble, pray ev -- ery day,
+And you’ll grow, grow, grow.
+And you’ll grow, grow, grow,
+And you’ll grow, grow, grow;
+Read your Bi -- ble, pray ev -- ery day,
+And you’ll grow, grow, grow.
 
 }
 
-extraA = \markuplist {
+wordsC = \lyricmode {
+\set stanza = "3."
 
-\line { Read your Bible, pray every day, }
-\line { Pray every day, pray every day; }
-\line { Read your Bible, pray every day, }
-\line { And you’ll grow, grow, grow, }
-\line { And you’ll grow, grow, grow, }
-\line { And you’ll grow, grow, grow: }
-\line { Read your Bible, pray every day, }
-\line { And you’ll grow, grow, grow. }
+“I will make you fish -- ers of men,
+Fish -- ers of men, fish -- ers of men;
+I will make you fish -- ers of men,
+If you fol -- low me.
+If you fol -- low me,
+If you fol -- low me;
+I will make you fish -- ers of men
+If you fol -- low me.”
 
 }
 
@@ -148,6 +148,7 @@ extraA = \markuplist {
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f

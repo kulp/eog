@@ -1,4 +1,3 @@
-% TODO check lyrics against latest printing
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
@@ -83,10 +82,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus Who lives a -- bove the sky, \bar "."
+Je -- sus, who lives a -- bove the sky, \bar "."
 Came down to be a man and die, \bar "."
-And in the Bi -- ble we may see, \bar "."
-How ve -- ry good He used to be. \bar "."
+And in the Bi -- ble we may read \bar "."
+His love to those who were in need. \bar "."
 
 }
 
@@ -112,28 +111,28 @@ He would have list -- ened to a child.
 
 wordsD = \markuplist {
 
-\line { But such a cruel death He died! }
-\line { He was hung up and crucified: }
-\line { And those kind hands that did such good, }
-\line { They nailed them to cross of wood. }
+\line { He knew how wicked man had been, }
+\line { And knew that God must punish sin; }
+\line { So out of pity Jesus said }
+\line { He’d bear the punishment instead. }
 
 }
 
 wordsE = \markuplist {
 
-\line { And so He died. And this is why }
-\line { He came to be a man and die: }
-\line { The Bible says He came from heaven }
-\line { That we might have our sins forgiven. }
+\line { But such a cruel death He died! }
+\line { He was hung up and crucified; }
+\line { And those kind hands that did such good, }
+\line { They nailed them to cross of wood. }
 
 }
 
 wordsF = \markuplist {
 
-\line { He knew how wicked man had been, }
-\line { And knew that God must punish sin; }
-\line { So out of pity Jesus said }
-\line { He’d bear the punishment instead. }
+\line { And so He died, and rose again; }
+\line { He lives on high and God’s right hand; }
+\line { Soon He’ll return for us from heaven– }
+\line { For those whose sins have been forgiven. }
 
 }
 

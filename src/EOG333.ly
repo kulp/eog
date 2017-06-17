@@ -104,8 +104,8 @@ notesBass = {
 Refrain = \lyricmode {
 
 Joy -- ful, joy -- ful, will the meet -- ing be, \bar "."
-When from sin our hearts are pure and free; \bar "."
-And we shall gath -- er, Sav -- iour, with Thee, \bar "."
+When from sin our hearts are pure and free, \bar "."
+And we shall gath -- er, Sav -- iour, with Thee \bar "."
 In our e -- ter -- nal home. \bar "."
 
 }
@@ -114,7 +114,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Come to the Sav -- iour, make no de -- lay; \bar "."
-Here in His Word { \mon } He has { \moff } shown us the way; \bar "."
+Here in His Word He’s shown us the way; \bar "."
 Here in our midst He’s stand -- ing to -- day, \bar "."
 Ten -- der -- ly say -- ing, “Come!” \bar "."
 
@@ -123,9 +123,9 @@ Ten -- der -- ly say -- ing, “Come!” \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Suf -- fer the chil -- dren!” O, hear His voice!
-Let ev -- ’ry heart leap forth and re -- joice;
-And let us free -- ly make Him our choice:
+Let all the chil -- dren now hear His voice;
+Let ev -- ’ry heart make Je -- sus the choice;
+And let us free -- ly trust and re -- joice;
 Do not de -- lay, but come.
 
 \Refrain
@@ -138,7 +138,7 @@ wordsC = \lyricmode {
 Think once a -- gain, He’s with us to -- day;
 Heed now His blest com -- mand, and o -- bey;
 Hear now His ac -- cents ten -- der -- ly say,
-“Will you, my chil -- dren come?”
+“Will you, dear chil -- dren, come?”
 
 }
 
