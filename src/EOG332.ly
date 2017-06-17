@@ -134,7 +134,7 @@ wordsA = \lyricmode {
 
 Christ the Sav -- iour of sin -- ners came \bar "." % original does not have line-end bars
 In -- to the world to save; \bar "."
-Sing His glo -- ry, His worth, His fame, \bar "."
+Sing His glo -- ry, His worth, His fame: \bar "."
 Je -- sus a -- lone can save. \bar "."
 No name else is giv -- en, \bar "."
 Search through earth and heav -- en–
@@ -149,7 +149,7 @@ Je -- sus a -- lone can save;
 Where -- so -- ev -- er His steps we trace,
 Je -- sus a -- lone can save.
 Death and woe dis -- pell -- ing,
-God’s great mer -- cy tel -- ling.
+God’s great mer -- cy tel -- ling–
 
 \Refrain
 
@@ -160,22 +160,22 @@ wordsC = \lyricmode {
 
 Tears can nev -- er for -- give -- ness gain,
 Je -- sus a -- lone can save;
-God will ev -- er dead works dis -- dain,
+God will ev -- er dead works dis -- dain;
 Je -- sus a -- lone can save.
 Hear his blest voice call -- ing,
-Bless -- ings rich are fall -- ing.
+Bless -- ings rich are fall -- ing–
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Suf -- fer chil -- dren, for -- bid them not,
+Call the chil -- dren, for -- bid them not,
 Je -- sus a -- lone can save;
-He can cleanse them from ev -- ery spot,
+He can cleanse them from ev -- ery spot;
 Je -- sus a -- lone can save.
 Now His work’s com -- plet -- ed,
-Now in glo -- ry seat -- ed.
+Now in glo -- ry seat -- ed–
 
 }
 

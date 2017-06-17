@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 When moth -- ers of Sa -- lem their chil -- dren bro’t to Je -- sus, \bar "."
-The stern dis -- ci -- ples drove them back, and bade them de -- part; \bar "."
+The stern dis -- ci -- ples drove them back and bade them de -- part; \bar "."
 But Je -- sus saw them ere they fled, \bar "."
 And took them in His arms and said, \bar "."
 “Suf -- fer the chil -- dren to come un -- to Me.” \bar "."
@@ -94,8 +94,8 @@ And took them in His arms and said, \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“For I will re -- ceive them, and fold them to My bos -- om;
-I’ll be a Shep -- herd to these lambs– O! { \mon } drive them { \moff } not a -- way;
+“For I will re -- ceive them and fold them to My bos -- om;
+I’ll be a Shep -- herd to these lambs– oh, { \mon } drive them { \moff } not a -- way;
 For if their hearts to Me they give,
 They shall with Me in glo -- ry live;
 Suf -- fer the chil -- dren to come un -- to Me.”
@@ -119,7 +119,7 @@ wordsD = \lyricmode {
 And still the kind Sav -- iour bids lit -- tle chil -- dren wel -- come,
 For Je -- sus’ lov -- ing, ten -- der heart to { \mon } chil -- dren { \moff } is the same;
 Tho’ here His voice is no more heard,
-From heav’n it -- self He speaks this word,
+From heav’n He tells us in His word,
 “Suf -- fer the chil -- dren to come un -- to Me.”
 
 }

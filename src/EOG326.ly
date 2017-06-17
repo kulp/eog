@@ -118,7 +118,7 @@ wordsB = \lyricmode {
 The lit -- tle cap -- tive soon makes known
 What won -- ders may be wrought
 By God’s own proph -- et, in her land,
-And begs He may be sought. % original has "He" but isn't this referring to the prophet ?
+And begs he may be sought.
 Proud Naa -- man left his na -- tive land,
 Com -- mend -- ed by his lord,
 And car -- ried in his lep -- rous hand

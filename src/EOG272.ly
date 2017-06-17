@@ -9,7 +9,7 @@
 
 \header{
   hymnnumber = "272"
-  title = "Thou Art Coming, Mighty Saviour"
+  title = "Thou Art Coming, Loving Saviour"
   tunename = "Autumn"
   meter = "8. 7. 8. 7. D."
   poet = "H. K. Burlingham"
@@ -116,29 +116,28 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Thou art com -- ing, might -- y Sav -- iour, \bar "."
-“King of kings,” Thy writ -- ten name, \bar "." \break
-Thou art com -- ing, roy -- al Sav -- iour, \bar "."
-Com -- ing for Thy prom -- ised reign. \bar "." \break
-O, the joy, when sin’s con -- fu -- sion \bar "."
-Ends be -- neath Thy right -- eous sway; \bar "." \break
-O, the peace, when all de -- lu -- sion \bar "."
-At Thy pres -- ence dies a -- way. \bar "." \break
-
+Thou art com -- ing, lov -- ing Sav -- iour, \bar "."
+Com -- ing first to claim Thine own; \bar "."
+Thou art com -- ing, faith -- ful Sav -- iour, \bar "."
+Thou couldst not a -- bide a -- lone. \bar "."
+In Thy Fa -- ther’s house in glo -- ry, \bar "."
+Sin -- ners saved shall dwell with Thee; \bar "."
+Oh, the sweet -- ness of the sto -- ry; \bar "."
+Love’s own rec -- ord we shall be. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Thou art com -- ing, lov -- ing Sav -- iour,
-Com -- ing first to claim Thine own;
-Thou art com -- ing, faith -- ful Sav -- iour,
-Thou couldst not a -- bide a -- lone.
-In Thy Fa -- ther’s house in glo -- ry,
-Sin -- ners saved shall dwell with Thee;
-O, the sweet -- ness of the sto -- ry;
-Love’s own rec -- ord we shall be.
+Once thy com -- ing, ho -- ly Sav -- iour,
+Ex -- pi -- a -- tion made for sin;
+Won -- drous com -- ing, low -- ly Sav -- iour,
+Won -- drous Child in Beth -- le -- hem.
+Thine the wis -- dom, in the man -- ger,
+Thine the power, up -- on the cross,
+Thine the glo -- ry as the Stran -- ger!
+Rich -- es, though in ut -- ter loss.
 
 }
 
@@ -150,23 +149,23 @@ Ah, to see Thy face we long;
 Thou art com -- ing, bless -- ed Sav -- iour,
 Right -- ing all cre -- a -- tion’s wrong.
 Na -- tion ris -- es a -- gainst na -- tion,
-Trou -- ble spreads from shore to shore;
+Trou -- ble spreads from shore to shore.
 Thou art God’s su -- preme sal -- va -- tion,
-Come and cha -- os shall be o’er.
+Come, and cha -- os shall be o’er.
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Thou art com -- ing, Ho -- ly Sav -- iour,
-Ex -- pi -- a -- tion made for sin;
-Won -- drous com -- ing, low -- ly Sav -- iour,
-Won -- drous Child in Beth -- le -- hem.
-Thine the wis -- dom in the man -- ger,
-Thine the power, up -- on the cross,
-Thine the glo -- ry as the stran -- ger!
-Rich -- es, though in ut -- ter loss.
+Thou art com -- ing, might -- y Sav -- iour,
+“King of kings,” Thy writ -- ten name;
+Thou art com -- ing, roy -- al Sav -- iour!
+Com -- ing for Thy prom -- ised reign.
+Oh, the joy, when sin’s con -- fu -- sion
+Ends be -- neath Thy right -- eous sway;
+Oh, the peace, when all de -- lu -- sion
+At Thy pres -- ence dies a -- way.
 
 }
 
@@ -177,9 +176,9 @@ Thou art com -- ing, crown -- ed Sav -- iour,
 Not “the sec -- ond time” for sin;
 Thou art com -- ing, thron -- ed Sav -- iour,
 Bring -- ing all the glo -- ry in.
-All Thy Fa -- ther’s house its glo -- ry,
-Hangs by sure be -- hest on Thee!
-O, the sweet -- ness of the sto -- ry,
+All Thy Fa -- ther’s house, its glo -- ry,
+Hangs, by sure be -- hest, on Thee!
+Oh, the sweet -- ness of the sto -- ry,
 Sav -- iour, come, we wait for Thee.
 
 }

@@ -90,7 +90,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 I wish that His hands had been placed on my head,
-His arms had been thrown a -- round me,
+\mon That His \moff arms had been thrown a -- round me,
 And that I might have seen His kind look when He said,
 “Let the lit -- tle ones come un -- to Me.”
 
@@ -102,16 +102,16 @@ wordsC = \lyricmode {
 Yet still to His pres -- ence in prayer I may go,
 I know I may trust in His love;
 And if thus I will ear -- nest -- ly seek Him be -- low,
-I shall see Him and hear Him a -- bove.
+I shall see Him and hear Him a -- bove
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-A beau -- ti -- ful place He has gone to pre -- pare
+\mon In that \moff beau -- ti -- ful place He has gone to pre -- pare
 For all who are washed and for -- giv’n;
-And now man -- y dear chil -- dren are gath -- er -- ing there,
+And _ man -- y dear chil -- dren are gath -- er -- ing there,
 “For of such is the king -- dom of heav’n.”
 
 }

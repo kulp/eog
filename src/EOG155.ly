@@ -101,7 +101,7 @@ wordsA = \lyricmode {
 By Thee, O God, in -- vit -- ed, \bar "."
 We look un -- to the Son, \bar "." \break
 In whom Thy soul de -- light -- ed, \bar "."
-Who all thy will hath done, \bar "." \break
+Who all thy will hath done; \bar "." \break
 And by the one chief trea -- sure \bar "."
 Thy bos -- om free -- ly gave, \bar "." \break
 Thine one pure love we meas -- ure, \bar "."
@@ -112,7 +112,7 @@ Thy will -- ing mind to save. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O God of mer -- cy, Fa -- ther!
+O God of mer -- cy– Fa -- ther;
 The one un -- chang -- ing claim,
 The bright -- est hopes we gath -- er
 From Christ's most pre -- cious name;
@@ -127,7 +127,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 The trem -- bling sin -- ner fear -- eth
-That God can ne’er for -- get;
+That God can ne’er for -- get,
 But one full pay -- ment clear -- eth
 His mem -- ’ry of all debt.
 When nought be -- side could ease us,

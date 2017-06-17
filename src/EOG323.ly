@@ -102,22 +102,22 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-There’s a \italicsOn Friend \italicsOff for lit -- tle chil -- dren, \bar "."
-A -- bove the bright blue sky– \bar "."
-A Friend who nev -- er chang -- eth, \bar "."
+There’s a \italicsOn Friend \italicsOff for lit -- tle chil -- dren \bar "."
+A -- bove the bright blue sky; \bar "."
+A Friend who nev -- er chang -- es \bar "."
 Whose love can nev -- er die. \bar "."
 Un -- like our friends by na -- ture, \bar "."
-Who change with chang -- ing years, \bar "."
+Who change from year to year, \bar "."
 This Friend is al -- ways wor -- thy \bar "."
-The pre -- cious name He bears. \bar "."
+And He is al -- ways near. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-There’s a \italicsOn rest \italicsOff for lit -- tle chil -- dren,
-A -- bove the bright blue sky,
+There’s a \italicsOn rest \italicsOff for lit -- tle chil -- dren
+A -- bove the bright blue sky;
 Who love the bless -- ed Sav -- iour,
 And “Ab -- ba, Fa -- ther,” cry:
 A rest from ev -- ’ry tur -- moil,
@@ -130,8 +130,8 @@ Shall rest e -- ter -- nal -- ly.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-There’s a \italicsOn home \italicsOff for lit -- tle chil -- dren,
-A -- bove the bright blue sky,
+There’s a \italicsOn home \italicsOff for lit -- tle chil -- dren
+A -- bove the bright blue sky;
 Where Je -- sus reigns in glo -- ry,
 A home of peace and joy.
 No home on earth is like it,
@@ -144,21 +144,21 @@ Nor could be hap -- pier there.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-There’s a \italicsOn crown \italicsOff for lit -- tle chil -- dren,
-A -- bove the bright blue sky,
+There’s a \italicsOn crown \italicsOff for lit -- tle chil -- dren
+A -- bove the bright blue sky;
 And all who look for Je -- sus,
 Shall wear it by and by. % original has by-and-by, but "by -- and -- by" might be unfortunately compacted without hyphens TODO figure out hard hyphens
 A crown of bright -- est glo -- ry,
 Which He will then be -- stow
-On all who’ve found His fa -- vor
+On all who’ve found His fa -- vor,
 And loved His name be -- low.
 
 }
 
 wordsE = \markuplist {
 
-\line { There’s a \italic song for little children, }
-\line { { \hspace #2 } Above the bright blue sky– }
+\line { There’s a \italic song for little children }
+\line { { \hspace #2 } Above the bright blue sky; }
 \line { A song that will not weary, }
 \line { { \hspace #2 } Though sung eternally; }
 \line { A song which even angels }
@@ -170,13 +170,13 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { There’s a \italic robe for little children, }
-\line { { \hspace #2 } Above the bright blue sky, }
+\line { There’s a \italic robe for little children }
+\line { { \hspace #2 } Above the bright blue sky; }
 \line { And a \italic harp of sweetest music, }
 \line { { \hspace #2 } And a \italic palm of victory; }
 \line { All, all above is treasured, }
 \line { { \hspace #2 } And found in Christ alone; }
-\line { O, come, dear little children, }
+\line { Oh, come, dear little children, }
 \line { { \hspace #2 } That all may be your own. }
 
 }
