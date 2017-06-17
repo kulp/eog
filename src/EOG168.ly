@@ -16,7 +16,6 @@
   meter = "P. M."
   poet = "W. Spencer Walton"
   composer = "A. J. Gordon"
-  %copyright = ""
   tagline = ##f
 }
 
