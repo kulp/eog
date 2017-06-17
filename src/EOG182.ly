@@ -108,7 +108,7 @@ It ends in per -- fect day. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Nought, nought I court as pleas -- ure,
+Naught, naught I court as pleas -- ure,
 Com -- pared, O Christ with Thee,
 Thy sor -- row with -- out meas -- ure
 Earned peace and joy for me!

@@ -125,7 +125,7 @@ The trem -- bling sin -- ner fear -- eth
 That God can ne’er for -- get,
 But one full pay -- ment clear -- eth
 His mem -- ’ry of all debt.
-When nought be -- side could ease us,
+When naught be -- side could free us,
 Or set our souls at large,
 Thy ho -- ly work, Lord Je -- sus,
 Se -- cured a full dis -- charge.
