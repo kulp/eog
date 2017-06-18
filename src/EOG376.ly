@@ -115,7 +115,7 @@ For Thou hast found Thy sheep, \bar "." \break
 I fled, but Thy love would fol -- low, \bar "."
 I strayed but Thy love would keep, \bar "." \break
 Thou’st grant -- ed my heart’s de -- sire, \bar "."
-Most bless’d of the { \mon } bless -- ed { \moff } is he, \bar "." \break
+Most blest of the { \mon } bless -- ed { \moff } is he, \bar "." \break
 Who find -- eth no { \mon } rest and { \moff } no sweet -- ness, \bar "."
 Till he rest -- eth, { \mon } O Lord, { \moff } in Thee. \bar "." \break
 

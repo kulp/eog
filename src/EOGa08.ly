@@ -129,7 +129,7 @@ For Thou hast found Thy sheep, \bar "."
 I fled, but Thy love would fol -- low, \bar "."
 I strayed { \mon } but Thy { \moff } grace would keep, \bar "." % by contrast, EOG376 has "love" for "grace"
 Thou’st grant -- ed my heart’s de -- sire, \bar "."
-{ \mon } Most bless’d of the bless -- ed is he, { \moff } \bar "."
+{ \mon } Most blest of the bless -- ed is he, { \moff } \bar "."
 Who { \mon } find -- eth no rest and no { \moff } sweet -- ness, \bar "."
 { \mon } Till he { \moff } rest -- eth, O Lord, in Thee. \bar "."
 
