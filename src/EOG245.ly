@@ -111,7 +111,7 @@ Thou art all in all to me. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Thy beau -- ty, O, my Sav -- iour,
+Thy beau -- ty, O my Sav -- iour,
 Is far be -- yond com -- pare;
 { \mon } Thou art { \moff } chief -- est of ten thou -- sand,
 Than sons of men more fair,
