@@ -139,7 +139,7 @@ wordsC = \lyricmode {
 
 Have you an -- y time for Je -- sus,
 As in grace He calls a -- gain?
-O, to -- day is time ac -- cept -- ed,
+Oh, to -- day is time ac -- cept -- ed,
 La -- ter you may call in vain.
 
 }

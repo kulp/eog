@@ -142,11 +142,11 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O, the crown -- ing day is com -- ing, \bar "."
+Oh, the crown -- ing day is com -- ing, \bar "."
 Is com -- ing by and by! \bar "."
 When our Lord shall come in “pow -- er” \bar "."
 And “glo -- ry” from on high! \bar "."
-O, the glo -- rious sight will glad -- den \bar "."
+Oh, the glo -- rious sight will glad -- den \bar "."
 Each wait -- ing watch -- ful eye, \bar "."
 In the crown -- ing day that’s com -- ing by and by. \bar "."
 

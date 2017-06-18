@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "374"
-  title = "O Come To Jesus, Sinner, Come"
+  title = "Oh Come To Jesus, Sinner, Come"
   tunename = "None But Christ Can Satisfy"
   meter = "C. M. with Refrain"
   poet = "J. T. Armet (Arr.)"
@@ -106,7 +106,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O come to Je -- sus, sin -- ner come! \bar "."
+Oh come to Je -- sus, sin -- ner come! \bar "."
 Come, while He of -- fers thee \bar "."
 His won -- drous love, a home a -- bove \bar "."
 For all e -- ter -- ni -- ty. \bar "."
@@ -116,7 +116,7 @@ For all e -- ter -- ni -- ty. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O come to Je -- sus, sin -- ner come, \bar "."
+Oh come to Je -- sus, sin -- ner come, \bar "."
 And have thy sins for -- giv’n. \bar "."
 A man -- sion bright, a robe of white \bar "."
 He of -- fers thee in heav’n. \bar "."

@@ -255,7 +255,7 @@ wordsB = \lyricmode {
 
 Fair -- est flow -- ers soon de -- cay,
 Youth and beau -- ty pass a -- way;
-O, you have not long to stay:
+Oh, you have not long to stay:
 Be in time!
 While God’s Spi -- rit bids you come,
 Sin -- ner, do not long -- er roam,
@@ -273,7 +273,7 @@ Time is glid -- ing swift -- ly by,
 Death and judg -- ment both draw nigh,
 To the arms of Je -- sus fly.
 Be in time!
-O, I pray you count the cost,
+Oh, I pray you count the cost,
 Ere the fa -- tal line be crossed,
 And your Christ -- less soul be lost,
 Be in time!

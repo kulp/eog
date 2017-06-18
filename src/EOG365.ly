@@ -188,9 +188,9 @@ Those who trust in Je -- sus’ blood. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, what love of God to send Him from on high,
-O, what love of Je -- sus thus to bleed and die;
-O, what love we owe for par -- don brought so nigh,
+Oh, what love of God to send Him from on high,
+Oh, what love of Je -- sus thus to bleed and die;
+Oh, what love we owe for par -- don brought so nigh,
 Through _ faith in Je -- sus’ blood.
 
 \Refrain

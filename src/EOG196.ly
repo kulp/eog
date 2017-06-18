@@ -118,7 +118,7 @@ At God’s right hand on high–
 God’s just and right -- eous an -- swer
 To grace with stooped to die;
 In Him we too are seat -- ed,
-O, bless -- ed won -- drous grace!
+Oh, bless -- ed won -- drous grace!
 Ac -- cept -- ed and be -- lov -- ed,
 In Him, in son -- ship’s place.
 
@@ -131,7 +131,7 @@ The Lord of life is com -- ing
 To per -- fect all His grace;
 To take His blood -- bought peo -- ple
 To fill their heav -- enly place;
-O, with what joy as -- cend -- ing
+Oh, with what joy as -- cend -- ing
 We’ll meet Him in the air,
 To dwell with Him in glo -- ry,
 And His blest im -- age bear.

@@ -155,7 +155,7 @@ wordsF = \markuplist {
 \line { “A little while!” and He shall come }
 \line { Forth from the inner shrine, }
 \line { To call His pardoned brethren home: }
-\line { O bliss supreme, divine! }
+\line { Oh bliss supreme, divine! }
 \line { When every blood-bought child shall see }
 \line { The Priest who said, “Absolvo te.” }
 

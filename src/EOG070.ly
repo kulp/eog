@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "70"
-  title = "Christ Is Coming, O Be Ready"
+  title = "Christ Is Coming, Oh Be Ready"
   tunename = "Laßt mich gehen"
   meter = "8. 7. 8. 7."
   poet = "Mrs. A. H. Rule"
@@ -100,11 +100,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Christ is com -- ing, O, be read -- y; \bar "."
+Christ is com -- ing, oh, be read -- y; \bar "."
 Let not slum -- ber dull your eyes; \bar "."
 Do not say, “My Lord de -- lay -- eth;” \bar "."
-He is com -- ing, O, be wise! \bar "."
-He is com -- ing, O, be wise! \bar "."
+He is com -- ing, oh, be wise! \bar "."
+He is com -- ing, oh, be wise! \bar "."
 
 }
 
@@ -133,7 +133,7 @@ He will say, “I know you not.”
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Then be read -- y, O, be read -- y;
+Then be read -- y, oh, be read -- y;
 Heed the cry while yet you may;
 With lamps trimmed and burn -- ing bright -- ly,
 Wait that com -- ing, bless -- ed day.

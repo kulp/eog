@@ -103,7 +103,7 @@ Hark! hark! hear the glad ti -- dings, \bar "."
 Soon, soon, Je -- sus will come, %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} \bar "."
 Robed, robed in hon -- or and glo -- ry, \bar "."
 To gath -- er His ran -- somed ones home. \bar "."
-Yes, yes, O yes, \bar "."
+Yes, yes, oh yes, \bar "."
 To gath -- er His ran -- somed ones home.  %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%} \bar "."
 
 }
@@ -115,7 +115,7 @@ Joy, joy, sound it more loud -- ly,
 Sing, sing, glo -- ry to God:
 Soon, soon, Je -- sus is com -- ing,
 Pub -- lish the ti -- dings a -- broad.
-Yes, yes, O yes,
+Yes, yes, oh yes,
 Pub -- lish the ti -- dings a -- broad.
 
 }
@@ -127,7 +127,7 @@ Now, now, thro’ a glass dark -- ly,
 Shine, shine, vi -- sions to come;
 Soon, soon, we shall be -- hold Him,
 Cloud -- less and bright in our home.
-Yes, yes, O yes,
+Yes, yes, oh yes,
 Cloud -- less and bright in our home.
 
 }
@@ -139,7 +139,7 @@ Long, long, have we been wait -- ing,
 Who, who, love His blest name;
 Now, now, we are de -- light -- ing,
 Je -- sus is near to pro -- claim.
-Yes, yes, O yes,
+Yes, yes, oh yes,
 Je -- sus is near to pro -- claim.
 
 }
@@ -151,7 +151,7 @@ Still, still, rest on the prom -- ise,
 Cling, cling, fast to His word;
 Wait, wait, if He should %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} tar -- ry,
 We’ll pa -- tient -- ly wait for the Lord.
-Yes, yes, O yes,
+Yes, yes, oh yes,
 We’ll pa -- tient -- ly wait for the Lord. %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 
 }

@@ -98,7 +98,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O, yes, O, yes, there’s some -- thing more, \bar "."
+Oh, yes, Oh, yes, there’s some -- thing more, \bar "."
 Some -- thing more than gold; \bar "." % original has this on preceding line
 To know your sins are all for -- given \bar "."
 Is some -- thing more than gold. \bar "."

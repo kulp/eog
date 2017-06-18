@@ -178,7 +178,7 @@ No tongue but shall con -- fess Him then,
 The Lamb once slain:
 Je -- sus is wor -- thy now
 All hom -- age to re -- ceive;
-O, sin -- ner, to the Sav -- iour bow,
+Oh, sin -- ner, to the Sav -- iour bow,
 The truth be -- lieve!
 
 }

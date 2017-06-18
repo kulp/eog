@@ -107,7 +107,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Mer -- cy and truth u -- nite,
-O! ’tis a won -- drous sight,
+Oh! ’tis a won -- drous sight,
 All sights a -- bove!
 Je -- sus the curse sus -- tains!
 Guilt’s bit -- ter cup He drains!

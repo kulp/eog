@@ -130,7 +130,7 @@ wordsF = \lyricmode {
 
 O Lord! we cast each care on Thee,
 And tri -- umph and a -- dore;
-O that our great con -- cern may be,
+Oh that our great con -- cern may be,
 To love and praise Thee more.
 
 }

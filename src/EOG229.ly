@@ -142,7 +142,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { O fill me, Jesus, Saviour, with Thy love; }
+\line { Oh fill me, Jesus, Saviour, with Thy love; }
 \line { Lead, lead me to the living fount above! }
 \line { Thither may I in simple faith draw nigh, }
 \line { And never to another fountain fly, }

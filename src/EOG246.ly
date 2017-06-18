@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "246"
-  title = "O! For the Robe of Whiteness"
+  title = "Oh! For the Robe of Whiteness"
   tunename = "Work"
   meter = "7. 6. 7. 6. D."
   poet = "Miss C. L. Smith"
@@ -100,9 +100,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O! for the role of white -- ness, \bar "."
+Oh! for the role of white -- ness, \bar "."
 To walk with Christ in light! \bar "."
-O! for the glo -- rious bright -- ness \bar "."
+Oh! for the glo -- rious bright -- ness \bar "."
 Of day with -- out a night! \bar "."
 We would a name of fa -- vor, \bar "."
 Graved on the stone of white; \bar "."

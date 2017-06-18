@@ -164,7 +164,7 @@ Son of Man and Son of God, He rose from the dead.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, what a might -- y Sav -- iour, Je -- sus who died!
+Oh, what a might -- y Sav -- iour, Je -- sus who died!
 Strong e -- nough to bear His own above the an -- gry tide; % a -- bove ?
 Not e’en the feeb -- lest saint will Christ ev -- er fail,
 Nev -- er will the gates of hell a -- gainst Him pre -- vail.

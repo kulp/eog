@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "28"
-  title = "O! What a Saviour Is Jesus the Lord!"
+  title = "Oh! What a Saviour Is Jesus the Lord!"
   tunename = "Joyfully"
   meter = "4-10s. Dactylic"
   poet = "A. Midlane"
@@ -103,7 +103,7 @@ Je -- sus hath tri -- umphed o’er death and the grave. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O! what a Sav -- iour is Je -- sus the Lord! \bar "."
+Oh! what a Sav -- iour is Je -- sus the Lord! \bar "."
 Well may His name by His saints be a -- dored! \bar "."
 He has re -- deemed them from hell by His blood, \bar "."
 Saved them for -- ev -- er and brought them to God. \bar "."

@@ -144,7 +144,7 @@ They great -- ly won -- dered– so may we,
 And ask as well as they,
 Who could this glo -- rious Per -- son be,
 Whom winds and seas o -- bey?
-O, well we know it was the Lord,
+Oh, well we know it was the Lord,
 The Sav -- iour and the Friend,
 Whose care of those who trust His word
 Will nev -- er, nev -- er end.

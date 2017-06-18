@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "184"
-  title = "O, Remember"
+  title = "Oh, Remember"
   tunename = ""
   meter = "P. M."
   poet = "From the Slovak of Maria Royova"
@@ -90,39 +90,39 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, re -- mem -- ber! O, re -- mem -- ber! \bar "."
+Oh, re -- mem -- ber! Oh, re -- mem -- ber! \bar "."
 At what price the Sav -- iour bought thee; \bar "."
 To re -- deem thee, home to bring thee, \bar "."
 From the throne He came and sought thee. \bar "."
 Glo -- ry’s splen -- dor He sur -- ren -- dered, \bar "."
 Shame de -- spis -- ing for thy priz -- ing– \bar "."
-O, re -- mem -- ber! \bar "."
+Oh, re -- mem -- ber! \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, re -- mem -- ber! O, re -- mem -- ber!
+Oh, re -- mem -- ber! Oh, re -- mem -- ber!
 What that night thy sins pre -- pared Him,
 Deep a -- base -- ment, sore a -- maze -- ment,
 Not one tithe of an -- guish spared Him.
 Wrath’s a -- wak -- ing– God’s for -- sak -- ing–
 Thou didst earn it, He has borne it–
-O, re -- mem -- ber!
+Oh, re -- mem -- ber!
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, re -- mem -- ber! O, re -- mem -- ber!
+Oh, re -- mem -- ber! Oh, re -- mem -- ber!
 He Him -- self in death has giv -- en
 To re -- deem thee, home to bring thee–
 Child of wrath!– as heir of heav -- en.
 From earth’s sor -- row, judg -- ment’s mor -- row,
 He has drawn thee, mer -- cy shown thee–
-O, re -- mem -- ber!
+Oh, re -- mem -- ber!
 
 }
 

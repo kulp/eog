@@ -136,7 +136,7 @@ No good wilt Thou with -- hold.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O world -- ly pomp and glo -- ry,
+Oh world -- ly pomp and glo -- ry,
 Your charms are spread in vain!
 I’ve heard a sweet -- er sto -- ry,
 I’ve found a tru -- er gain:

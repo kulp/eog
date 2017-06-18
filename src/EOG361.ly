@@ -116,7 +116,7 @@ There is a hap -- py land, \bar "."
 Far, far a -- way; \bar "."
 Where saints in glo -- ry stand, \bar "."
 Bright, bright as day. \bar "."
-O, how they sweet -- ly sing! \bar "."
+Oh, how they sweet -- ly sing! \bar "."
 Wor -- thy is the Sav -- iour King; \bar "."
 Loud let His prais -- es ring, \bar "."
 Praise, praise for aye. \bar "."
@@ -130,7 +130,7 @@ Come to that hap -- py land,
 Come, come a -- way–
 Why will you doubt -- ing stand?
 Why still de -- lay?
-O, we shall hap -- py be!
+Oh, we shall hap -- py be!
 When from sin and sor -- row free:
 Lord, we shall live with Thee!
 Blest, blest for aye.

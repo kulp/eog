@@ -8,7 +8,7 @@
 
 \header{
   hymnnumber = "170"
-  title = "Jesus! O Name Divinely Sweet!"
+  title = "Jesus! Oh Name Divinely Sweet!"
   tunename = "Mendip"
   meter = "C. M."
   poet = "S. Stennett"
@@ -81,7 +81,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus! O name di -- vine -- ly sweet! \bar "."
+Je -- sus! Oh name di -- vine -- ly sweet! \bar "."
 How sooth -- ing is the sound! \bar "."
 What joy -- ful news, what heav’n -- ly pow’r, \bar "."
 In that blest name is found! \bar "."

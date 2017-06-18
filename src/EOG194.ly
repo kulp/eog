@@ -102,9 +102,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Pre -- cious name, O, how sweet! \bar "."
+Pre -- cious name, oh, how sweet! \bar "."
 Hope of earth and joy of heav’n; \bar "."
-Pre -- cious name, O, how sweet! \bar "."
+Pre -- cious name, oh, how sweet! \bar "."
 Hope of earth and joy of heav’n. \bar "."
 
 }
@@ -134,7 +134,7 @@ Breathe that ho -- ly name in prayer.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, the pre -- cious name of Je -- sus!
+Oh, the pre -- cious name of Je -- sus!
 How it thrills our souls with joy,
 When His lov -- ing arms re -- ceive us,
 And His songs our tongues em -- ploy!
@@ -154,9 +154,9 @@ When our jour -- ney is com -- plete.
 underWords = \lyricmode {
 
 { \repeat unfold 30 \skip 4 }
-Pre -- cious name, O, how sweet!
+Pre -- cious name, oh, how sweet!
 { \repeat unfold 7 \skip 4 }
-Pre -- cious name, O, how sweet, how sweet!
+Pre -- cious name, oh, how sweet, how sweet!
 
 }
 

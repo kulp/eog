@@ -116,9 +116,9 @@ wordsA = \lyricmode {
 wordsB = \lyricmode {
 \set stanza = "2."
 
-  O love -- ly at -- ti -- tude! He stands
+  Oh love -- ly at -- ti -- tude! He stands
   With o -- pen heart and out -- stretched hands;
-  O match -- less kind -- ness! and He shows
+  Oh match -- less kind -- ness! and He shows
   His match -- less kind -- ness to His foes.
   \Refrain
 }

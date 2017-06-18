@@ -106,13 +106,13 @@ wordsA = \lyricmode {
 
 Je -- sus, my Sav -- iour, to Beth -- le -- hem came, \bar "."
 Born in a man -- ger to sor -- row and shame; \bar "."
-O, it was won -- der -- ful– blest be His name! \bar "."
+Oh, it was won -- der -- ful– blest be His name! \bar "."
 Seek -- ing for me, for me! \bar "."
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "." \eogbreak
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
-%{HIDE>%} O, it was won -- der -- ful– blest be His name! %{<HIDE%} \bar "."
+%{HIDE>%} Oh, it was won -- der -- ful– blest be His name! %{<HIDE%} \bar "."
 %{HIDE>%} Seek -- ing for me, for me! %{<HIDE%} \bar "."
 
 }
@@ -122,13 +122,13 @@ wordsB = \lyricmode {
 
 Je -- sus, my Sav -- iour, on Cal -- va -- ry’s tree,
 Paid the great debt, and my soul He set free;
-O, it was won -- der -- ful– how could it be?–
+Oh, it was won -- der -- ful– how could it be?–
 Dy -- ing for me, for me!
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
-%{HIDE>%} O, it was won -- der -- ful– how could it be?– %{<HIDE%}
+%{HIDE>%} Oh, it was won -- der -- ful– how could it be?– %{<HIDE%}
 %{HIDE>%} Dy -- ing for me, for me! %{<HIDE%}
 
 }
@@ -154,13 +154,13 @@ wordsD = \lyricmode {
 
 Je -- sus, my Sav -- iour, shall come from on high–
 Sweet is the prom -- ise as wear -- y years fly; % original has "pro -- mise" and "wea -- ry"
-O, I shall see Him de -- scend from the sky,
+Oh, I shall see Him de -- scend from the sky,
 Com -- ing for me, for me!
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
-%{HIDE>%} O, I shall see Him de -- scend from the sky, %{<HIDE%}
+%{HIDE>%} Oh, I shall see Him de -- scend from the sky, %{<HIDE%}
 %{HIDE>%} Com -- ing for me, for me! %{<HIDE%}
 
 }

@@ -100,7 +100,7 @@ On Thy breast; \bar "."
 No more doubt -- ing, \bar "."
 %{HIDE>%} No more trem -- bling, %{<HIDE%} \bar "."
 No more trem -- bling, \bar "."
-O, what rest! \bar "."
+Oh, what rest! \bar "."
 
 }
 
@@ -139,7 +139,7 @@ Lis -- t’ning for Thy shout, Lord Je -- sus,
 In the air;
 When Thy saints shall rise with joy, to
 Meet Thee there.
-O what glad -- ness!
+Oh what glad -- ness!
 %{HIDE>%} No more sad -- ness, %{<HIDE%}
 No more sad -- ness,
 Sin, nor care.
@@ -174,9 +174,9 @@ wordsF = \markuplist {
 
 wordsG = \markuplist {
 
-\line { O, to praise Thee there, Lord Jesus, }
+\line { Oh, to praise Thee there, Lord Jesus, }
 \line { { \hspace #2 } Evermore! }
-\line { O, to grieve and wander from Thee }
+\line { Oh, to grieve and wander from Thee }
 \line { { \hspace #2 } Nevermore! }
 \line { Earth’s sad story }
 \line { %{HIDE>%} Closed in glory, %{<HIDE%} }

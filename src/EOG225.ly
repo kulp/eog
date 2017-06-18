@@ -178,7 +178,7 @@ At His side.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O, leave it \italicsOn all \italicsOff with Je -- sus,
+Oh, leave it \italicsOn all \italicsOff with Je -- sus,
 Droop -- ing soul!
 Tell not \italicsOn half \italicsOff thy sto -- ry,
 But the whole.
@@ -188,10 +188,10 @@ Life and death are wait -- ing
 His com -- mand;
 %{HIDE>%} Yet His ten -- der bos -- om
 Makes \italicsOn thee \italicsOff room–
-O, come home! %{<HIDE%}
+Oh, come home! %{<HIDE%}
 Yet His ten -- der bos -- om
 Makes \italicsOn thee \italicsOff room–
-O, come home!
+Oh, come home!
 
 }
 

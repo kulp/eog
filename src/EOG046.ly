@@ -131,9 +131,9 @@ With no place then to hide.
 
 wordsE = \markuplist {
 
-\line { O! sinner, pause ere yet “too late;” }
+\line { Oh! sinner, pause ere yet “too late;” }
 \line { { \hspace #2 } Now is the day of grace, }
-\line { Now Jesus calls, O! do obey }
+\line { Now Jesus calls, oh! do obey }
 \line { { \hspace #2 } His pleading, loving voice. }
 
 }

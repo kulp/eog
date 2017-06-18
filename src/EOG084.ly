@@ -113,8 +113,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Once for all, O, sin -- ner, re -- ceive it; \bar "."
-Once for all, O, bro -- ther, be -- lieve it; \bar "."
+Once for all, oh, sin -- ner, re -- ceive it; \bar "."
+Once for all, oh, bro -- ther, be -- lieve it; \bar "."
 Cling to the cross, the bur -- den will fall; \bar "."
 Christ hath re -- deem’d us once for all. \bar "."
 
@@ -123,7 +123,7 @@ Christ hath re -- deem’d us once for all. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Free from the law, O, hap -- py con -- di -- tion! \bar "."
+Free from the law, oh, hap -- py con -- di -- tion! \bar "."
 Je -- sus hath bled, and there is re -- mis -- sion! \bar "."
 Cursed by the law, and bruised by the fall, \bar "."
 Grace hath re -- deem’d us once for all. \bar "."
@@ -135,7 +135,7 @@ wordsB = \lyricmode {
 
 Now are we free– there’s no con -- dem -- na -- tion;
 Je -- sus pro -- vides a per -- fect  sal -- va -- tion;
-Come un -- to Me! O, hear His sweet call!
+Come un -- to Me! oh, hear His sweet call!
 Come and He saves us once for all.
 
 \Refrain
@@ -145,7 +145,7 @@ Come and He saves us once for all.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“Chil -- dren of God!” O, glo -- ri -- ous call -- ing!
+“Chil -- dren of God!” oh, glo -- ri -- ous call -- ing!
 Sure -- ly His grace will keep us from fall -- ing;
 Pass -- ing from death to life at His call,
 Bless -- ed sal -- va -- tion once for all.

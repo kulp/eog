@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "108"
-  title = "O Precious Blood"
+  title = "Oh Precious Blood"
   tunename = "He Leadeth Me"
   meter = "L. M. with Refrain"
   poet = "A. A. P."
@@ -122,19 +122,19 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O pre -- cious blood! O liv -- ing way, \bar "."
+Oh pre -- cious blood! oh liv -- ing way, \bar "."
 By which the chief of sin -- ners may, \bar "."
 Ac -- cept -- ed stand be -- fore his God! \bar "."
-O pre -- cious re -- con -- cil -- ing blood. \bar "."
+Oh pre -- cious re -- con -- cil -- ing blood. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O pre -- cious blood, on Cal -- v’ry shed \bar "."
+Oh pre -- cious blood, on Cal -- v’ry shed \bar "."
 For sin -- ful souls in tres -- pass dead! \bar "."
-O crim -- son flood that makes a path \bar "."
+Oh crim -- son flood that makes a path \bar "."
 Of sure es -- cape from com -- ing wrath! \bar "."
 
 }
@@ -142,7 +142,7 @@ Of sure es -- cape from com -- ing wrath! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O pre -- cious blood, the peace di -- vine
+Oh pre -- cious blood, the peace di -- vine
 The cross has pur -- chased now is mine;
 No more of judg -- ment then a -- fraid
 Since all my guilt on Christ was laid.
@@ -154,7 +154,7 @@ Since all my guilt on Christ was laid.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O pre -- cious blood, the sub -- tle foe
+Oh pre -- cious blood, the sub -- tle foe
 Its all pre -- vail -- ing pow’r shall know
 As saints o’er -- come him by its might,
 And si -- lence ev -- ’ry voice of night.
@@ -164,7 +164,7 @@ And si -- lence ev -- ’ry voice of night.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O pre -- cious blood, the ran -- somed throng
+Oh pre -- cious blood, the ran -- somed throng
 Ex -- tol its worth in thrill -- ing song;
 And seat -- ed on the throne is He
 Whose pre -- cious blood a -- toned for me.

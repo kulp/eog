@@ -120,7 +120,7 @@ Ver -- i -- ly, ver -- i -- ly,” mes -- sage ev -- er new; \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O what a Sav -- iour that He died for me! \bar "."
+Oh what a Sav -- iour that He died for me! \bar "."
 From con -- dem -- na -- tion He hath made me free; \bar "."
 “He \mon that be -- \moff liev -- eth on the Son,” saith He, \bar "."
 { \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.” \bar "."
@@ -144,7 +144,7 @@ wordsC = \lyricmode {
 
 Tho’ poor and need -- y, I can trust my Lord,
 Tho’ weak and sin -- ful, I be -- lieve His word;
-O \mon bless -- ed \moff mes -- sage! ev -- ’ry child of God,
+Oh \mon bless -- ed \moff mes -- sage! ev -- ’ry child of God,
 { \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 
@@ -155,7 +155,7 @@ wordsD = \lyricmode {
 
 Tho’ all un -- wor -- thy, yet I will not doubt,
 For him that com -- eth, He will not cast out,
-“He \mon that be -- \moff liev -- eth,” O! the good news shout,
+“He \mon that be -- \moff liev -- eth,” oh! the good news shout,
 % XXX the opening quote isn't quite close enough to the \caps Hath
 %LYRICS “Hath ev -- er -- last -- ing life.”
 %{HIDE>%} \markup{ “\caps Hath } ev -- er -- last -- ing life.” %{<HIDE%}

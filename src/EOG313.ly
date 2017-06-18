@@ -92,7 +92,7 @@ wordsB = \lyricmode {
 
 “God is in heav -- en: can He see
 If I am do -- ing wrong?”
-“O, yes, He can; He looks at thee
+“Oh, yes, He can; He looks at thee
 All day and all night long.”
 
 }

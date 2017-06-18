@@ -128,7 +128,7 @@ wordsA = \lyricmode {
 The great Phy -- si -- cian now is near, \bar "."
 The sym -- pa -- thiz -- ing Je -- sus; \bar "." \break
 He speaks, the droop -- ing heart to cheer, \bar "."
-O, hear the voice of Je -- sus. \bar "." \break
+Oh, hear the voice of Je -- sus. \bar "." \break
 
 }
 
@@ -136,7 +136,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Your man -- y sins are all for -- giv’n;
-O, hear the voice of Je -- sus;
+Oh, hear the voice of Je -- sus;
 Go on your way in peace to heav’n,
 And wear a crown with Je -- sus.
 
@@ -159,7 +159,7 @@ wordsD = \lyricmode {
 
 His name dis -- pels my guilt and fear,
 No oth -- er name but Je -- sus;
-O, how my soul de -- lights to hear
+Oh, how my soul de -- lights to hear
 The pre -- cious name of Je -- sus.
 
 }

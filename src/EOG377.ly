@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 “Re -- vive Thy work, O Lord!”
 Cre -- ate soul -- thirst for Thee;
 And hung -- { \mon } er -- ing { \moff } for the bread of life,
-O, may our spir -- its be!
+Oh, may our spir -- its be!
 }
 
 wordsC = \lyricmode {

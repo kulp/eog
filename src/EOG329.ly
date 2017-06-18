@@ -157,7 +157,7 @@ wordsE = \markuplist {
 \line { Who all deserved to die. }
 \line { For sin each lamb had ruined, }
 \line { And far from God had led; }
-\line { But O! what love unbounded! }
+\line { But oh! what love unbounded! }
 \line { He suffered in their stead. }
 
 }

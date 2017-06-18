@@ -79,7 +79,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Lord Je -- sus, are we one with Thee? \bar "."
-O height, O depth, of love! \bar "."
+Oh height, oh depth, of love! \bar "."
 And cru -- ci -- fied and dead with Thee, \bar "."
 Now one in heav’n a -- bove. \bar "."
 

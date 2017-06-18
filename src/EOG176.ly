@@ -9,7 +9,7 @@
 
 \header{
   hymnnumber = "176"
-  title = "O What a Debt We Owe"
+  title = "Oh What a Debt We Owe"
   tunename = "Silchester"
   meter = "S. M."
   poet = "G. V. Wigram"
@@ -80,7 +80,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O what a debt we owe \bar "."
+Oh what a debt we owe \bar "."
 To Him who shed His blood, \bar "."
 And cleansed our souls and gave us power \bar "."
 To stand be -- fore His God. \bar "."

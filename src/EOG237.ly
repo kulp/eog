@@ -127,7 +127,7 @@ He is speak -- ing to His Fa -- ther,
 Tast -- ing deep that bit -- ter cup,
 Yet He takes it, will  -- ing rath -- er
 For our sakes to drink it up.
-O, what love! He lov -- ed me!
+Oh, what love! He lov -- ed me!
 Gave Him -- self, my soul, for thee.
 
 }

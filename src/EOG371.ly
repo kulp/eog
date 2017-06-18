@@ -134,9 +134,9 @@ To Cal -- va -- ry.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, the love that drew sal -- va -- tion’s plan!
-O, the grace that bro’t it down to man!
-O, the might -- y gulf that God did span
+Oh, the love that drew sal -- va -- tion’s plan!
+Oh, the grace that bro’t it down to man!
+Oh, the might -- y gulf that God did span
 At Cal -- va -- ry!
 
 }

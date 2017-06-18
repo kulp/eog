@@ -174,7 +174,7 @@ wordsC = \lyricmode {
 
   O dy -- ing man, with guilt and sin dis -- mayed,
   With con -- science wak -- ened, of thy God a -- fraid;
-  ’Twixt hopes and fears– O, end the anx -- ious strife!–
+  ’Twixt hopes and fears– oh, end the anx -- ious strife!–
   “Come un -- to Me,” and I will give you life.
 
 }

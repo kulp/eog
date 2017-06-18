@@ -99,7 +99,7 @@ Come, He call -- eth thee, in -- deed.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O! how sweet the love and peace,
+Oh! how sweet the love and peace,
 Shin -- ing in the Sav -- iour’s face;
 Je -- sus gives from sin re -- lease,
 He can save and give thee peace.

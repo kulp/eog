@@ -144,7 +144,7 @@ Paid the debt, __ and made me free. __ \bar "." \break
 % probably easier to divide them this way than an unanalysed alternative.
 AltoRefrain = \lyricmode {
 
-Sing, O! sing __ of my Re -- deem -- er, \bar "." \break
+Sing, oh! sing __ of my Re -- deem -- er, \bar "." \break
 With His blood He pur -- chased me, He pur -- chased me; __ \bar "." \break
 \pageBreak
 On the cross __ He sealed my par -- don, \bar "." \break
@@ -155,7 +155,7 @@ On the cross __ He sealed my par -- don, \bar "." \break
 % This refrain not used in layout, just for lyrics extraction
 RefrainA = \lyricmode {
 
-Sing, O! sing of my Re -- deem -- er, \bar "."
+Sing, oh! sing of my Re -- deem -- er, \bar "."
 With His blood He pur -- chased me, He pur -- chased me; \bar "."
 On the cross He sealed my par -- don, \bar "."
 Paid the debt, and made me free. \bar "."
@@ -176,7 +176,7 @@ BassRefrain = \lyricmode {
 
 \override LyricText.font-size = #-2
 \repeat unfold 30 { \skip 4 }
-Sing, O! sing of my Re -- deem -- er, Sing, O! sing of my Re -- deem -- er,
+Sing, oh! sing of my Re -- deem -- er, Sing, oh! sing of my Re -- deem -- er,
 With His blood He pur -- chased me, With His blood He pur -- chased me;
 \repeat unfold 26 { \skip 4 }
 free. __

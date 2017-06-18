@@ -98,10 +98,10 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Why dost thou lin -- ger? why dost thou lin -- ger?
-O, when wilt thou come to the Lord?
+Oh, when wilt thou come to the Lord?
 Thy time is fly -- ing fast,
 And thy day will soon be past,
-O, a -- rouse thee, and come to be saved.
+Oh, a -- rouse thee, and come to be saved.
 
 }
 

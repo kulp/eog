@@ -127,7 +127,7 @@ Cheer -- ing many a wak -- ing watch -- er, \bar "."
 As the star whose kind -- ly ray \bar "."
 Her -- alds the ap -- proach -- ing morn -- ing \bar "."
 Just be -- fore the break of day. \bar "."
-O, what joy, as night hangs round us, \bar "."
+Oh, what joy, as night hangs round us, \bar "."
 ’Tis to think of morn -- ing’s ray! \bar "."
 Sweet to know He’s com -- ing for us, \bar "."
 Just be -- fore the break of day. \bar "."
@@ -145,7 +145,7 @@ Shall be caught up all to -- geth -- er,
 For the meet -- ing in the air;
 With a shout the Lord de -- scend -- ing,
 Shall Him -- self a -- wait us there.
-O, what joy that great fore -- gath -- ’ring,
+Oh, what joy that great fore -- gath -- ’ring,
 Tryst -- ed meet -- ing in the air!
 Sweet to know He’s com -- ing for us,
 Call -- ing us to join Him there.
@@ -163,7 +163,7 @@ And the Bride, to her is grant -- ed
 In His beau -- ty then to shine,
 As in rap -- ture she ex -- claim -- eth,
 “I am His, and He is mine!”
-O, what joy that mar -- riage un -- ion,
+Oh, what joy that mar -- riage un -- ion,
 Mys -- ter -- y of love di -- vine!
 Sweet to sing in all its ful -- ness,
 “I am His, and He is mine.”

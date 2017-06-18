@@ -110,9 +110,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-The Mas -- ter is come, O thou lost one a -- rise, \bar "."
+The Mas -- ter is come, oh thou lost one a -- rise, \bar "."
 And hear His soft breath -- ing to you. \bar "."
-O list to His voice, He has come from the skies \bar "."
+Oh list to His voice, He has come from the skies \bar "."
 Your soul with His mer -- cies to strew. \bar "."
 { \mon } He has { \moff } come with a balm for the wound -- ed and sore, \bar "."
 { \mon } For the { \moff } wea -- ry and bur -- dened be -- low; \bar "."
@@ -129,7 +129,7 @@ He has come and has shed His own pre -- cious blood,
 The lost and the ru -- ined to save; % original has "ruin -- ed"
 { \mon } He has { \moff } shown His great love to His Fa -- ther and God
 { \mon } By ac -- { \moff } cept -- ing the cross and the grave.
-{ \mon } O my { \moff } soul, He has come to en -- cir -- cle thee round
+{ \mon } Oh my { \moff } soul, He has come to en -- cir -- cle thee round
 { \mon } With a { \moff } bless -- ing too won -- drous to tell,
 And thou shalt for -- ev -- er re -- joice in the sound
 %{HIDE>%} That “Je -- sus hath done all things well.” %{<HIDE%}

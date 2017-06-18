@@ -144,7 +144,7 @@ wordsC = \lyricmode {
 Je -- sus loves me and I know I love Him;
 Love bro’t Him down my lost soul to re -- deem;
 Yes, it was love made Him die on the tree;
-O, I am cer -- tain that Je -- sus loves me.
+Oh, I am cer -- tain that Je -- sus loves me.
 
 }
 

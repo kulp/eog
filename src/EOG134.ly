@@ -127,35 +127,35 @@ Refrain = \lyricmode {
 What shall the an -- swer be? \bar "."
 What shall the an -- swer be? \bar "." \break
 What will you do with Je -- sus? \bar "."
-O, what shall the an -- swer be? \bar "." \break
+Oh, what shall the an -- swer be? \bar "." \break
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, what will you do with Je -- sus? \bar "."
+Oh, what will you do with Je -- sus? \bar "."
 The call comes low and sweet; \bar "." \break
 And ten -- der -- ly He bids you \bar "."
 Your bur -- dens { \mon } lay at { \moff } His feet; \bar "." \break
 O soul, so sad and wear -- y, \bar "."
 That sweet voice speaks to thee: \bar "." \break
 Then what will you do with Je -- sus? \bar "."
-O, what shall the an -- swer be? \bar "." \break
+Oh, what shall the an -- swer be? \bar "." \break
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, what will you do with Je -- sus?
+Oh, what will you do with Je -- sus?
 The call comes low and clear;
 The sol -- emn words are sound -- ing
 In ev -- ’ry list -- ’ning ear;
 Im -- mor -- tal { \mon } life’s in { \moff } the ques -- tion,
 And { \mon } joy thro’ { \moff } e -- ter -- ni -- ty:
 Then what will you do with Je -- sus?
-O, what shall the an -- swer be?
+Oh, what shall the an -- swer be?
 
 \Refrain
 
@@ -164,14 +164,14 @@ O, what shall the an -- swer be?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, think of the King of Glo -- ry–
+Oh, think of the King of Glo -- ry–
 From heav’n to earth come down;
 His life so pure and ho -- ly;
 His death, His cross, His crown;
 Of His Di -- vine com -- pas -- sion,
 His sac -- ri -- fice for thee:
 Then what will you do with Je -- sus?
-O, what shall the an -- swer be?
+Oh, what shall the an -- swer be?
 
 }
 

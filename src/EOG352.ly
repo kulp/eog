@@ -8,8 +8,8 @@
 \header{
   %children
   hymnnumber = "352"
-  title = "O, Won’t You Come to Jesus While You’re Young"
-  markuptitle = \markup \center-column { "O, Won’t You Come to Jesus" "While You’re Young" \vspace #0.4 } % original has different line breaking
+  title = "Oh, Won’t You Come to Jesus While You’re Young"
+  markuptitle = \markup \center-column { "Oh, Won’t You Come to Jesus" "While You’re Young" \vspace #0.4 } % original has different line breaking
   tunename = ""
   meter = "P. M."
   poet = ""
@@ -75,8 +75,8 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, won’t you come to Je -- sus while you’re young? \bar "."
-%{HIDE>%} O, won’t you come to Je -- sus while you’re young? %{<HIDE%} \bar "."
+Oh, won’t you come to Je -- sus while you’re young? \bar "."
+%{HIDE>%} Oh, won’t you come to Je -- sus while you’re young? %{<HIDE%} \bar "."
 Don’t think it will be bet -- ter \bar "."
 To de -- lay it un -- til lat -- er, \bar "."
 But re -- mem -- ber your Cre -- at -- or while you’re young. \bar "."
@@ -97,8 +97,8 @@ O’er the grass -- y graves where sleep -- ing lie the young.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, walk the path to glo -- ry while you’re young;
-%{HIDE>%} O, walk the path to glo -- ry while you’re young. %{<HIDE%}
+Oh, walk the path to glo -- ry while you’re young;
+%{HIDE>%} Oh, walk the path to glo -- ry while you’re young. %{<HIDE%}
 And Je -- sus will be -- friend you,
 And from dan -- ger will de -- fend you,
 And a peace di -- vine will send you, while you’re young.

@@ -166,7 +166,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 On -- ly a step to Je -- sus!
-O why not come, and say,
+Oh why not come, and say,
 Glad -- ly to Thee, my Sav -- iour,
 I give my -- self to -- day.
 

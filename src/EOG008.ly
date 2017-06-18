@@ -124,7 +124,7 @@ wordsD = \lyricmode {
 wordsE = \lyricmode {
 \set stanza = "5."
 
-  O, if to Je -- sus you re -- pair,
+  Oh, if to Je -- sus you re -- pair,
   You’ll find e -- ter -- nal com -- fort there,
   And soon shall heav’n -- ly glo -- ry share–
   Come, anx -- ious sin -- ner, come!

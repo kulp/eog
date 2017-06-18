@@ -138,7 +138,7 @@ wordsC = \lyricmode {
 
 “A lit -- tle while” ’twill soon be past,
 Why should we shun the prom -- ised cross?
-O let us in His foot -- steps haste,
+Oh let us in His foot -- steps haste,
 Count -- ing for Him all else but loss!
 For how will re -- com -- pense His smile,
 The suffer -- ings of this “lit -- tle while.”

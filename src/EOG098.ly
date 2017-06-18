@@ -128,7 +128,7 @@ Sing, with the ran -- somed, E -- ter -- ni -- ty’s song! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Just on the thresh -- old! O, why not come in, \bar "."
+Just on the thresh -- old! Oh, why not come in, \bar "."
 Leav -- ing the maz -- es of dark -- ness and sin? \bar "."
 For -- ward the light, and the glo -- ry di -- vine; \bar "."
 Back -- ward the dan -- gers, and woes that were thine. \bar "."
@@ -141,7 +141,7 @@ wordsB = \lyricmode {
 Just on the thresh -- old, and joy near at hand;
 Yon -- der’s the gleam of Im -- man -- u -- el’s land;
 Ref -- uge and rest are now of -- fered to thee:
-Sin or sal -- va -- tion– O, which shall it be?
+Sin or sal -- va -- tion– oh, which shall it be?
 
 \Refrain
 
@@ -150,9 +150,9 @@ Sin or sal -- va -- tion– O, which shall it be?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Just on the thresh -- old,– O, make now thy choice;
+Just on the thresh -- old,– oh, make now thy choice;
 Come with the ser -- vants of Christ, and re -- joice!
-Je -- sus is call -- ing, O, turn not a -- side!
+Je -- sus is call -- ing, oh, turn not a -- side!
 Come! ’tis the voice of the Spir -- it and Bride!
 
 }

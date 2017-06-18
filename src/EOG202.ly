@@ -106,7 +106,7 @@ The full de -- light of heav’n. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, what a home! The Son who knows,
+Oh, what a home! The Son who knows,
 He on -- ly– all His love;
 And brings us as His well -- be -- loved,
 To that bright rest a -- bove,
@@ -120,7 +120,7 @@ That we might share His joys.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, what a home! There full -- est love
+Oh, what a home! There full -- est love
 Flows thro’ its courts of light;
 The Son’s di -- vine af -- fec -- tions flow
 Thro’ -- out its depth and height.
@@ -134,7 +134,7 @@ Or shad -- ow to im -- part.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O, what a home! But such His love
+Oh, what a home! But such His love
 That He must bring us there,
 To fill that home, to be with Him,
 And all His glo -- ry share.

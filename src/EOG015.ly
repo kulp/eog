@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "15"
-  title = "O What a Gift the Father Gave"
+  title = "Oh What a Gift the Father Gave"
   tunename = ""
   meter = "C. M. D."
   composer = "Wm. G. Fischer"
@@ -116,7 +116,7 @@ notesBass = {
 
 wordsA = \markuplist {
 
-\line { O what a gift the Father gave }
+\line { Oh what a gift the Father gave }
 \line { { \hspace #2 } When He bestowed His Son! }
 \line { To save poor ruined, guilty man, }
 \line { { \hspace #2 } By sin defiled, undone. }
@@ -157,7 +157,7 @@ wordsD = \markuplist {
       \fill-line {
         \huge \larger \larger \bold {
           "  15"
-          "O What a Gift the Father Gave"
+          "Oh What a Gift the Father Gave"
           \null
         }
       }

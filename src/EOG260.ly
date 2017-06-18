@@ -122,7 +122,7 @@ Sins re -- count -- ing, death I fear -- ed,
 Loomed be -- fore me end -- less wrath.
 Now His voice, so sweet and ten -- der,
 Gen -- tly whis -- pers to my soul,
-\italicsOn “Trust, \italicsOff O, trust in Me, thy Sav -- iour,
+\italicsOn “Trust, \italicsOff oh, trust in Me, thy Sav -- iour,
 %{HIDE>%} I am He who makes thee whole, %{<HIDE%}
 I am He who makes thee whole.”
 
@@ -137,7 +137,7 @@ Waves and bil -- lows roll -- ing o’er Thee,
 Sor -- row Thine none else could know.
 Doubt Thee, Je -- sus, will -- ing vic -- tim,
 In my stead on Cal -- v’ry’s tree!
-O, what love, Lord, all -- tran -- scend -- ing,
+Oh, what love, Lord, all -- tran -- scend -- ing,
 %{HIDE>%} Led Thee there to die for me, %{<HIDE%}
 Led Thee there to die for me.
 

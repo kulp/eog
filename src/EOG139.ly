@@ -109,7 +109,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O pre -- cious is the flow \bar "."
+Oh pre -- cious is the flow \bar "."
 That makes me white as snow; \bar "."
 No oth -- er fount I know, \bar "."
 Noth -- ing but the blood of Je -- sus. \bar "."

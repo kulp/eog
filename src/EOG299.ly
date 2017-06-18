@@ -109,7 +109,7 @@ Come, chil -- dren and learn of the in -- fin -- ite grace \bar "."
 Of Je -- sus in com -- ing to die; \bar "."
 { \mon } How He { \moff } left His high throne, in the glo -- ry a -- bove, \bar "."
 His beau -- ti -- ful home in the sky. \bar "."
-O, think of the Lamb who on Cal -- va -- ry died, \bar "."
+Oh, think of the Lamb who on Cal -- va -- ry died, \bar "."
 And died for such sin -- ners as we; \bar "."
 Of the thorns on His brow, and the spear in His side, \bar "."
 When He suf -- fered and bled on the tree. \bar "."
@@ -123,7 +123,7 @@ Ah! nev -- er was sor -- row so bit -- ter as this,
 The an -- guish He suf -- fered be -- low,
 { \mon } For the { \moff } dear Son of God had done noth -- ing a -- miss,
 { \mon } ’Twas for { \moff } oth -- ers He tast -- ed such woe.
-O, think of His love when He gave up His life
+Oh, think of His love when He gave up His life
 For sin -- ners so guilt -- y as we;
 ’Twas for them that He fin -- ished the con -- flict and strife,
 ’Twas for them that He bled on the tree.
@@ -137,7 +137,7 @@ Give ear, lit -- tle ones, is it noth -- ing to you,
 The tale of His won -- der -- ful grace?
 { \mon } When He { \moff } comes in the clouds, will you joy -- ful -- ly view,
 Or trem -- ble to look at His face?
-O, think of the Lamb who on Cal -- va -- ry died,
+Oh, think of the Lamb who on Cal -- va -- ry died,
 And died for such sin -- ners as we;
 Of the thorns on His brow, and the spear in His side,
 When He suf -- fered and bled on the tree.
@@ -151,7 +151,7 @@ When He com -- eth back in His glo -- ry so bright,
 The wick -- ed may well have de -- spair;
 But chil -- dren who love Him will rise with de -- light,
 To meet their blest Lord in the air.
-O, think of His love when He gave up His life
+Oh, think of His love when He gave up His life
 For sin -- ners so guilt -- y as we;
 ’Twas for them that He fin -- ished the con -- flict and strife,
 ’Twas for them that He bled on the tree.

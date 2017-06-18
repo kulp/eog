@@ -102,7 +102,7 @@ In the clouds He will ap -- pear. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, how hap -- py!– those who love Him,
+Oh, how hap -- py!– those who love Him,
 All His beau -- ty then shall see;
 And the glo -- rious sight will make them
 Bright and beau -- ti -- ful as He,–

@@ -124,7 +124,7 @@ God is love, God is love. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, tell to earth’s re -- mot -- est bound,
+Oh, tell to earth’s re -- mot -- est bound,
 God is love, God is love.
 In Christ we have re -- demp -- tion found:
 God is love, God is love.

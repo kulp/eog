@@ -108,7 +108,7 @@ Refrain = \lyricmode {
 
 Peace, peace, sweet peace! \bar "."
 Won -- der -- ful gift from a -- bove! %{HIDE>%} (a -- bove!) %{<HIDE%} \bar "."
-O, won -- der -- ful, won -- der -- ful peace! \bar "."
+Oh, won -- der -- ful, won -- der -- ful peace! \bar "."
 Sweet peace, the gift of God’s love! \bar "."
 
 }

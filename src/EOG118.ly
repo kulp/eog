@@ -137,7 +137,7 @@ Mer -- cies for you and for me?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O! for the won -- der -- ful love He has prom -- ised,
+Oh! for the won -- der -- ful love He has prom -- ised,
 Prom -- ised for you and for me;
 Tho’ we have sinned, He has mer -- cy and par -- don,
 Par -- don for you and for me.

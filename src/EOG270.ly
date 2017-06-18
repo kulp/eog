@@ -97,7 +97,7 @@ In glo -- ry to His own blest like -- ness bro’t! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, Je -- sus, Lord, who loved me like to Thee?
+Oh, Je -- sus, Lord, who loved me like to Thee?
 Fruit of Thy work, with Thee, too, there to see
 Thy glo -- ry, Lord, while end -- less a -- ges roll,
 My -- self the prize and trav -- ail of Thy soul.

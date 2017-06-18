@@ -109,7 +109,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Re -- demp -- tion ground, the ground of peace! \bar "."
-Re -- demp -- tion ground, O won -- drous grace! \bar "."
+Re -- demp -- tion ground, oh, won -- drous grace! \bar "."
 Here let our praise to God a -- bound, \bar "."
 Who saves us on Re -- demp -- tion ground! \bar "."
 
@@ -140,7 +140,7 @@ I’m stand -- ing on re -- demp -- tion ground.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, joy -- ous hour when God to me
+Oh, joy -- ous hour when God to me
 A vis -- ion gave of Cal -- va -- ry:
 My bonds were loosed, my soul un -- bound;
 I sang up -- on re -- demp -- tion ground.

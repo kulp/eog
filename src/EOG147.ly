@@ -108,7 +108,7 @@ wordsC = \lyricmode {
 
 He took the guilt -- y cul -- prit’s place,
 And suf -- fered in his stead;
-For man! (O mir -- a -- cle of grace!)
+For man! (oh mir -- a -- cle of grace!)
 For man the Sav -- iour bled.
 
 }

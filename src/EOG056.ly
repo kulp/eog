@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "56"
-  title = "O, Blessed Gospel Sound!"
+  title = "Oh, Blessed Gospel Sound!"
   tunename = "Happy Land"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
   poet = ""
@@ -110,7 +110,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, bless -- ed gos -- pel sound! \bar "."
+Oh, bless -- ed gos -- pel sound! \bar "."
 “Yet there is room!” \bar "."
 It tells to all a -- round– \bar "."
 “Yet there is room!” \bar "."

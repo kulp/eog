@@ -129,9 +129,9 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { “Come unto Me,” O, blessed open door }
+\line { “Come unto Me,” oh, blessed open door }
 \line { For those who but for Christ had hoped no more! }
-\line { O, love of God told out in full extent }
+\line { Oh, love of God told out in full extent }
 \line { When Jesus to those depths of darkness went. }
 
 }

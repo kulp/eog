@@ -157,7 +157,7 @@ Mer -- cies ev -- er sure.
 
 wordsD = \markuplist {
 
-\line { O, His tender love and pity! }
+\line { Oh, His tender love and pity! }
 \line { Still He calls today; }
 \line { Never one to Him who cometh }
 \line { Shall be cast away. }

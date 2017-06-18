@@ -164,7 +164,7 @@ Fill -- ing my hap -- py heart with rap -- ture,
 He will His love un -- fold.
 My wan -- d’rings then shall all be o -- ver,
 Hap -- py I’ll be;
-O, quick -- ly come and take me, Sav -- iour,
+Oh, quick -- ly come and take me, Sav -- iour,
 Ev -- er to be with Thee.
 
 }

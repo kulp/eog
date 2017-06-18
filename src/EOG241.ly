@@ -127,7 +127,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 The bit -- ter sor -- row that He bore,
-And O, the crown of thorns He wore,
+And oh, the crown of thorns He wore,
 That I might live for -- ev -- er -- more,__
 Is more than tongue can tell!
 

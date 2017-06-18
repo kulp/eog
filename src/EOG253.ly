@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "253"
-  title = "O! Why Did Jesus Leave His Home?"
+  title = "Oh! Why Did Jesus Leave His Home?"
   tunename = "Munhall"
   meter = "C. M."
   poet = ""
@@ -79,7 +79,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O! why did Je -- sus leave His home \bar "."
+Oh! why did Je -- sus leave His home \bar "."
 A -- bove the bright blue sky, \bar "."
 And all the joy and trans -- ports there, \bar "."
 To come to earth to die? \bar "."
@@ -109,7 +109,7 @@ Shall live with Him on high.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O, bless -- ed home of end -- less rest,
+Oh, bless -- ed home of end -- less rest,
 The home of peace and joy!
 How sweet will be the song of praise
 A -- bove the bright blue sky!

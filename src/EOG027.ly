@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "27"
-  title = "O, What a Glorious Truth is This!"
+  title = "Oh, What a Glorious Truth is This!"
   tunename = "Mercy’s Free"
   meter = "8. 6. 8. 6. D." % original has 8. 6. 8. 6. 8. 6. 8. 6.
   poet = "A. Midlane"
@@ -83,7 +83,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, what a glo -- rious truth is this– \bar "."
+Oh, what a glo -- rious truth is this– \bar "."
 Je -- sus died, Je -- sus died; \bar "." \break
 Has o -- pened up the path to bliss; \bar "."
 Je -- sus died, Je -- sus died; \bar "." \break
@@ -111,7 +111,7 @@ Je -- sus died, Je -- sus died.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, tell it un -- to all a -- round,
+Oh, tell it un -- to all a -- round,
 Je -- sus died, Je -- sus died;
 ’Tis such a pre -- cious, bless -- ed sound–
 Je -- sus died, Je -- sus died;
@@ -131,7 +131,7 @@ Which end -- less a -- ges shall pro -- long,
 Je -- sus died, Je -- sus died;
 By vir -- tue of that pre -- cious blood
 Be -- liev -- ers are brought nigh to God;
-O, spread the glo -- rious news a -- broad–
+Oh, spread the glo -- rious news a -- broad–
 Je -- sus died, Je -- sus died.
 
 }

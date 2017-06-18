@@ -112,7 +112,7 @@ When earth shall pass a -- way,
 Je -- sus is mine;
 In the great judg -- ment day,
 Je -- sus is mine;
-O! what a glo -- rious thing
+Oh! what a glo -- rious thing
 When we be -- hold the King,
 On tune -- ful harp to sing,
 Je -- sus is mine.

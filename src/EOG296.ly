@@ -127,7 +127,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { O! may we all, a joyous band, }
+\line { Oh! may we all, a joyous band, }
 \line { { \hspace #2 } Give praises pure and sweet, }
 \line { To please His heart, to make Him glad, }
 \line { { \hspace #2 } Till round His throne we meet. }

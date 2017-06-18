@@ -83,7 +83,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 A mind at “per -- fect peace” with God, \bar "."
-O, what a word is this! \bar "."
+Oh, what a word is this! \bar "."
 A sin -- ner, rec -- on -- ciled thro’ blood– \bar "."
 This, this in -- deed is peace. \bar "."
 

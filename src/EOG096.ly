@@ -141,13 +141,13 @@ Whith -- er in my an -- guish I might flee?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O what emp -- ti -- ness!– With -- out the Sav -- iour
+Oh what emp -- ti -- ness!– With -- out the Sav -- iour
 ’Mid the sins and sor -- rows here be -- low!
 And e -- ter -- ni -- ty, how dark with -- out Him–
 On -- ly night and tears and end -- less woe!
 What though I might live with -- out the Sav -- iour,
 When I come to die, how would it be?
-O to face the Val -- ley’s gloom with -- out Him!
+Oh to face the Val -- ley’s gloom with -- out Him!
 And with -- out Him for e -- ter -- ni -- ty!
 
 }
@@ -155,13 +155,13 @@ And with -- out Him for e -- ter -- ni -- ty!
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O the joy of hav -- ing all in Je -- sus!
+Oh the joy of hav -- ing all in Je -- sus!
 What a balm the bro -- ken heart to heal!
 Ne’er a sin so great, but He can cleanse it,
 Not a sor -- row that He does not feel!
 If I have but Je -- sus on -- ly Je -- sus,
 Noth -- ing else in all the world be -- side–
-O then ev -- ery -- thing is mine in Je -- sus;
+Oh then ev -- ery -- thing is mine in Je -- sus;
 For my needs and more He will pro -- vide.
 
 }

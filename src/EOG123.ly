@@ -119,7 +119,7 @@ wordsC = \lyricmode {
 
 Be -- hold Him now, ex -- alt -- ed, high,
 Up -- on the throne He took His seat,
-O, won -- drous grace, that we brought nigh
+Oh, won -- drous grace, that we brought nigh
 And in Him seat -- ed are com -- plete.
 He is our peace, He is our peace,
 For light di -- vine He’s made us meet.

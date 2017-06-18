@@ -139,7 +139,7 @@ Ere yet an -- oth -- er morn -- ing
 My spi -- rit may be free,
 As ab -- sent from the bod -- y,
 At home, O Lord, with Thee.
-O sleep, O rest, how pre -- cious!
+Oh sleep, oh rest, how pre -- cious!
 As guard -- ed by Thy care,
 I’m wait -- ing for Thy prom -- ise
 To meet Thee in the air.
@@ -153,7 +153,7 @@ The Lord Him -- self, e’en Je -- sus,
 A -- mid the ran -- somed throng,
 Its glo -- ry, joy, and beau -- ty,
 Its nev -- er -- end -- ing song.
-O day of won -- drous prom -- ise!
+Oh day of won -- drous prom -- ise!
 The Bride -- groom and the bride
 Are seen in glo -- ry ev -- er;
 For -- ev -- er sat -- is -- fied!

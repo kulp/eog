@@ -118,7 +118,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O! ’twas love, ’twas won -- drous love! \bar "."
+Oh! ’twas love, ’twas won -- drous love! \bar "."
 The love of God to me; \bar "." \break
 It brought my Sav -- iour from a -- bove, \bar "."
 To die on Cal -- va -- ry. \bar "." \break

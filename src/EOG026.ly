@@ -102,7 +102,7 @@ He turns to the home { \mon } he once { \moff } ea -- ger -- ly left. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O! none can re -- store, nor such deep sin ef -- face,
+Oh! none can re -- store, nor such deep sin ef -- face,
 { \mon } But the { \moff } One who comes forth in such in -- fin -- ite grace;
 For grace is a -- bove all his sin and dis -- tress,
 { \mon } And he’s { \moff } noth -- ing to do– { \mon } save his { \moff } sin to con -- fess!

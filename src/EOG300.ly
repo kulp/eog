@@ -109,7 +109,7 @@ Thine hence -- forth I will be”?
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O, pre -- cious choice! If such be thine,
+Oh, pre -- cious choice! If such be thine,
 Then thou in -- deed art blest;
 Peace thy com -- pan -- ion here shall be,
 There, ev -- er -- last -- ing rest!

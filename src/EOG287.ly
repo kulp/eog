@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "287"
-  title = "O, The Peace Forever Flowing"
+  title = "Oh, The Peace Forever Flowing"
   tunename = "Batavia"
   meter = "8. 7. 8. 7."
   poet = "A. P. Cecil"
@@ -78,9 +78,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, the peace for -- ev -- er flow -- ing \bar "."
+Oh, the peace for -- ev -- er flow -- ing \bar "."
 From God’s tho’ts of His own Son! \bar "."
-O, the peace of sim -- ply know -- ing \bar "."
+Oh, the peace of sim -- ply know -- ing \bar "."
 On the cross that all was done! \bar "."
 
 }

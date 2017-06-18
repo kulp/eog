@@ -11,7 +11,7 @@
 \header{
   %gospel
   hymnnumber = "25"
-  title = "O, Have You Not Heard of That Wonderful Love?"
+  title = "Oh, Have You Not Heard of That Wonderful Love?"
   tunename = ""
   meter = "P. M."
   %poet = ""
@@ -132,7 +132,7 @@ Be -- lieve God’s won -- der -- ful love. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, have you not { \mon } heard of { \moff } that won -- der -- ful love, \bar "."
+Oh, have you not { \mon } heard of { \moff } that won -- der -- ful love, \bar "."
 That flows from God’s heart so free, \bar "."
 Which led Him to { \mon } give for { \moff } a per -- ish -- ing world \bar "."
 His Son to be nailed to the tree? \bar "."
@@ -156,7 +156,7 @@ When once on God’s word we be -- lieve.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, sweet is its { \mon } rest to { \moff } the wear -- y and worn,
+Oh, sweet is its { \mon } rest to { \moff } the wear -- y and worn,
 Who deep feel the { \mon } bur -- den { \moff } of sin;
 It seeks for no { \mon } mer -- it { \moff } its bliss to { \mon } in -- her -- it, { \moff }
 No good -- ness with -- out or with -- in.

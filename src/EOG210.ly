@@ -114,9 +114,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O Cal -- va -- ry! dark Cal -- va -- ry! \bar "."
+Oh Cal -- va -- ry! dark Cal -- va -- ry! \bar "."
 Where Je -- sus shed His blood for me; \bar "."
-O Cal -- va -- ry! blest Cal -- va -- ry! \bar "."
+Oh Cal -- va -- ry! blest Cal -- va -- ry! \bar "."
 ’Twas there my Sav -- iour died for me. \bar "."
 
 }

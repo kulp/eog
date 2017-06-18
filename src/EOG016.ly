@@ -121,7 +121,7 @@ notesLower = {
 
 Refrain = \lyricmode {
 
-O, the glo -- ry of the grace, \bar "."
+Oh, the glo -- ry of the grace, \bar "."
 Shin -- ing in the Sav -- iour’s face! \bar "." \break
 Tell -- ing sin -- ners from a -- bove, \bar "."
 “God is light,” and “God is love.” \bar "." \break

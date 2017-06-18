@@ -124,7 +124,7 @@ wordsE = \markuplist {
 
 \line { Poor trembling sinner, “come,” }
 \line { God waits to comfort thee; }
-\line { O cast thyself upon His love, }
+\line { Oh cast thyself upon His love, }
 \line { So vast, so full, so free! }
 
 }

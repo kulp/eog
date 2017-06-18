@@ -114,7 +114,7 @@ wordsC = \lyricmode {
 
 “All things are rea -- dy,” Come,
 The door is o -- pen wide;
-O feast up -- on the love of God,
+Oh feast up -- on the love of God,
 For Christ His Son has died.
 
 }

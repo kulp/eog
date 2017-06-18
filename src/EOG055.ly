@@ -144,7 +144,7 @@ Tho’ aft -- er death there comes judg -- ment, too
 You may be blest, may be blest.
 Christ bore God’s judg -- { \mon } ment, poor sin -- ners to save,
 He gained the vic -- t’ry o’er death and the grave,
-O, now be -- lieve Him, and life you shall have,
+Oh, now be -- lieve Him, and life you shall have,
 You shall have rest, shall have rest.
 
 }

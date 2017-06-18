@@ -107,7 +107,7 @@ In Im -- man -- uel’s land. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O! Christ, He is the foun -- tain,
+Oh! Christ, He is the foun -- tain,
 The deep sweet well of love;
 The streams on earth I’ve tast -- ed,
 More deep I’ll drink a -- bove.
@@ -135,7 +135,7 @@ In Im -- man -- uel’s land.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O! I am my Be -- lov -- ed’s,
+Oh! I am my Be -- lov -- ed’s,
 And my Be -- lov -- ed’s mine,
 He brings a poor vile sin -- ner
 In -- to His “house of wine.”

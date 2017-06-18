@@ -89,7 +89,7 @@ Where pow’r -- less is the last of foes! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-A -- sleep in Je -- sus, O how sweet
+A -- sleep in Je -- sus, oh how sweet
 To be for such a slum -- ber meet,
 With ho -- ly con -- fi -- dence to sing
 That death has lost its ven -- omed sting!

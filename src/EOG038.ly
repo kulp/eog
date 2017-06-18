@@ -195,7 +195,7 @@ Of the fate which doth a -- wait them
 Who for -- ev -- er will de -- lay.
 “Es -- cape ye, for thy life;
 Tar -- ry not in all the plain,
-Nor be -- hind thee look, O, nev -- er,
+Nor be -- hind thee look, oh, nev -- er,
 Lest thou be con -- sumed in pain.”
 
 }

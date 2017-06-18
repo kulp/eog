@@ -142,7 +142,7 @@ wordsC = \lyricmode {
 \mon We are \moff healed \mon by His \moff stripes; wouldst thou add to the word?
 And He is our right -- eous -- ness made;
 The best robe of heav -- en He bids thee put on:
-O, couldst thou be bet -- ter ar -- rayed?
+Oh, couldst thou be bet -- ter ar -- rayed?
 
 \Refrain
 

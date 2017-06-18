@@ -127,7 +127,7 @@ Praise the Lord! praise the Lord! \bar "."
 Let the earth hear His voice! \bar "."
 Praise the Lord! praise the Lord! \bar "."
 Let His peo -- ple re -- joice! \bar "."
-O, come to the Fa -- ther thro’ Je -- sus the Son; \bar "."
+Oh, come to the Fa -- ther thro’ Je -- sus the Son; \bar "."
 And give Him the glo -- ry– great things He hath done! \bar "."
 
 }
@@ -145,7 +145,7 @@ And o -- pen’d the Life -- gate that all may go in. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, per -- fect re -- demp -- tion, the pur -- chase of blood,
+Oh, per -- fect re -- demp -- tion, the pur -- chase of blood,
 To ev -- ’ry be -- liev -- er the prom -- ise of God;
 The vi -- lest of -- fend -- er who tru -- ly be -- lieves,
 That mo -- ment from Je -- sus a par -- don re -- ceives.

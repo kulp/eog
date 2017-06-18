@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "248"
-  title = "O Happy Day, That Fixed My Choice"
+  title = "Oh Happy Day, That Fixed My Choice"
   tunename = ""
   meter = "L. M. with Refrain"
   poet = "P. Doddridge"
@@ -122,7 +122,7 @@ When Je -- sus washed my sins a -- way; \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O hap -- py day, that fixed my choice \bar "."
+Oh hap -- py day, that fixed my choice \bar "."
 On Thee, my Sav -- iour and my God! \bar "."
 Well may this glow -- ing heart re -- joice, \bar "."
 And tell its rap -- tures all a -- broad. \bar "."

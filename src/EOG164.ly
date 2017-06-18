@@ -113,9 +113,9 @@ Have I an ob -- ject, Lord, be -- low \bar "."
 Which would di -- vide my heart with Thee, \bar "."
 –Which would di -- vert its e -- ven flow \bar "."
 In an -- swer to Thy con -- stan -- cy? \bar "."
-O teach me quick -- ly to re -- turn, \bar "."
+Oh teach me quick -- ly to re -- turn, \bar "."
 And cause my heart a -- fresh to burn. \bar "."
-%{HIDE>%} O teach me quick -- ly to re -- turn, \bar "."
+%{HIDE>%} Oh teach me quick -- ly to re -- turn, \bar "."
 And cause my heart a -- fresh to burn. %{<HIDE%} \bar "."
 
 }

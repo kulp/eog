@@ -101,7 +101,7 @@ wordsB = \lyricmode {
     Think of me, think of me?
     And did He save my soul from ru -- in?
     Can it be? can it be?
-    O yes, He did sal -- va -- tion bring;
+    Oh yes, He did sal -- va -- tion bring;
     He is a Proph -- et, Priest, and King;
     And now my hap -- py soul can sing,
     Mer -- cy’s free, mer -- cy’s free.
@@ -131,7 +131,7 @@ wordsD = \lyricmode {
     Mer -- cy’s free, mer -- cy’s free.
     Vis -- it your neigh -- bor’s dark a -- bode,
     Pro -- claim to all this love of God,
-    O spread the joy -- ful news a -- broad,
+    Oh spread the joy -- ful news a -- broad,
     Mer -- cy’s free, mer -- cy’s free.
 
 }

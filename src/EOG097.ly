@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "97"
-  title = "O, How Sweet the Gospel Message"
+  title = "Oh, How Sweet the Gospel Message"
   tunename = "Halle"
   meter = "8. 7. 8. 7."
   poet = ""
@@ -90,7 +90,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, how sweet the gos -- pel mes -- sage, \bar "."
+Oh, how sweet the gos -- pel mes -- sage, \bar "."
 Rich and bound -- less, full and free; \bar "." \break
 Sin -- ner, wilt thou pause and lis -- ten? \bar "."
 Je -- sus died, and died for thee. \bar "." \break

@@ -111,7 +111,7 @@ Glo -- ry, grace and worth. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Then O, won -- drous bless -- ing!
+Then– oh, won -- drous bless -- ing!
 They shall be like Him;
 Nev -- er more have sor -- row,
 Ev -- er free from sin.

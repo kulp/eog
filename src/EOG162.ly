@@ -103,7 +103,7 @@ Thy glo -- ries wilt dis -- play.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-And, O! ’tis joy the path to trace,
+And, oh! ’tis joy the path to trace,
 By Thee so meek -- ly trod;
 Learn -- ing of Thee to walk in grace,
 And fel -- low -- ship with God!

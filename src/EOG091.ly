@@ -119,7 +119,7 @@ wordsD = \markuplist {
 
 \line { View the vast building, see it rise; }
 \line { The work how great! the plan how wise! }
-\line { O wondrous fabric! power unknown }
+\line { Oh wondrous fabric! power unknown }
 \line { That rears it on the “Living Stone.” }
 
 }

@@ -142,7 +142,7 @@ The Lord for him had died.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, what can e -- qual joy di -- vine?
+Oh, what can e -- qual joy di -- vine?
 And what can sweet -- er be
 Than know -- ing that this Christ is mine
 To all e -- ter -- ni -- ty?

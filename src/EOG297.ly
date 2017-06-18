@@ -146,7 +146,7 @@ wordsE = \lyricmode {
 
 Christ could not be hid, for hark! hark to that shout–
 “Ho -- san -- na, ho -- san -- na!” the chil -- dren cry out:
-For us, O, how bless -- ed! tho’ some would for -- bid
+For us, oh, how bless -- ed! tho’ some would for -- bid
 To tell of the Sav -- iour who could not be hid.
 
 }

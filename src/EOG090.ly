@@ -160,7 +160,7 @@ wordsD = \lyricmode {
 Lay a -- side the gar -- ments that are stained with sin,
 And be wash’d in the blood of the Lamb!
 There’s a foun -- tain flow -- ing for the soul un -- clean–
-O, be wash’d in the blood of the Lamb!
+Oh, be wash’d in the blood of the Lamb!
 
 }
 

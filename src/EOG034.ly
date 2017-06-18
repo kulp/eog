@@ -148,7 +148,7 @@ Sal -- va -- tion with -- out price,
 Sal -- va -- tion with -- out la -- bor–
 Be -- liev -- ing doth suf -- fice:
 Sal -- va -- tion now, this mo -- ment;
-Then why, O, why de -- lay?
+Then why, oh, why de -- lay?
 You may not see to -- mor -- row,
 Now is sal -- va -- tion’s day.
 

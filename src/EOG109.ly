@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "109"
-  title = "O, The Love of God is Boundless"
+  title = "Oh, The Love of God is Boundless"
   tunename = "Tyrol"
   meter = "8. 7. 8. 7. D."
   poet = "R. D. Edwards"
@@ -112,7 +112,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, the love of God is bound -- less, \bar "."
+Oh, the love of God is bound -- less, \bar "."
 Per -- fect, cause -- less, full and free! \bar "." \break
 Doubts have van -- ished, fears are ground -- less, \bar "."
 Now I know that love to me. \bar "." \break
@@ -126,7 +126,7 @@ Love told out at Cal -- va -- ry. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, the cross of Christ is won -- drous!
+Oh, the cross of Christ is won -- drous!
 There I learn God’s heart to me;
 Midst the si -- lent, deep -- ening dark -- ness,
 “God is light,” I al -- so see.
@@ -140,13 +140,13 @@ What yon woe and suf -- ferings mean.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, the sight in heaven is glo -- rious!
+Oh, the sight in heaven is glo -- rious!
 Man in right -- eous -- ness is there;
 Once the Vic -- tim, now vic -- to -- rious,
 Je -- sus lives in glo -- ry fair.
 Him who met the claims of glo -- ry,
 And the need of ru -- ined man,
-On the cross– O, won -- drous sto -- ry!
+On the cross– oh, won -- drous sto -- ry!
 God has set at His right hand.
 
 }
@@ -154,7 +154,7 @@ God has set at His right hand.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O, what rest of soul in view -- ing
+Oh, what rest of soul in view -- ing
 Je -- sus on the Fa -- ther’s throne!
 Yea, what peace for -- ev -- er flow -- ing
 From God’s rest in His own Son!

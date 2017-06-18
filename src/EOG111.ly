@@ -147,7 +147,7 @@ come!
 { \repeat unfold 4 { \skip 4 } }
 come!
 { \repeat unfold 4 { \skip 4 } }
-look! O, look and live!
+look! Oh, look and live!
 { \repeat unfold 4 { \skip 4 } }
 come!
 { \repeat unfold 4 { \skip 4 } }

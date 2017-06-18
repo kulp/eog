@@ -107,7 +107,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O come now to Je -- sus, \bar "."
+Oh come now to Je -- sus, \bar "."
 That dear lov -- ing Sav -- iour, \bar "."
 Re -- ceive Him this mo -- ment, \bar "."
 And peace shall be thine. \bar "."

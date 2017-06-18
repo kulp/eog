@@ -87,7 +87,7 @@ wordsA = \lyricmode {
     On the cross! On the cross! \bar "." \break
     For us He shed his Pre -- cious blood \bar "."
     On the cross! On the cross! \bar "." \break
-    O hear the o -- ver whelm -- ing cry– \bar "."
+    Oh hear the o -- ver whelm -- ing cry– \bar "."
     “E -- li la -- ma sa -- bach -- tha -- ni.” \bar "." \break
     Draw near and see the Sav -- iour die \bar "."
     On the cross! On the cross! \bar "."

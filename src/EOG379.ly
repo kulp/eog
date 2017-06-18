@@ -109,7 +109,7 @@ wordsD = \lyricmode {
 
 In His spot -- less soul’s dis -- tress,
 I have learned my guilt -- i -- ness;
-O, how vile my low es -- tate,
+Oh, how vile my low es -- tate,
 Since my ran -- som was so great!
 
 }

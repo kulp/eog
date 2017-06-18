@@ -142,7 +142,7 @@ And my will be lost in Thine.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, the pure de -- light of a sin -- gle hour
+Oh, the pure de -- light of a sin -- gle hour
 That be -- fore Thy throne I spend,
 When I kneel in prayer, and with Thee my God,
 I com -- mune as friend with friend.

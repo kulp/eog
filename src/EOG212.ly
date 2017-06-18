@@ -155,7 +155,7 @@ When Je -- sus re -- ceives “His own.”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, joy! O, de -- light! should we go with -- out dy -- ing,
+Oh, joy! Oh, de -- light! should we go with -- out dy -- ing,
 No sick -- ness, no sad -- ness, no dread and no cry -- ing,
 Caught up thro’ the clouds with our Lord in -- to glo -- ry,
 When Je -- sus re -- ceives “His own.”

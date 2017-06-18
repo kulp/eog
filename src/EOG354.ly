@@ -6,7 +6,7 @@
 \header{
   %children
   hymnnumber = "354"
-  title = "O! Would You Know My Saviour?"
+  title = "Oh! Would You Know My Saviour?"
   tunename = "Spes Celestis"
   meter = "C. M. D."
   poet = "Charlotte Gipps"
@@ -94,7 +94,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O, would you know my Sav -- iour, \bar "."
+Oh, would you know my Sav -- iour, \bar "."
 Ye who are young and gay, \bar "."
 Yet some -- times feel that earth’s de -- lights \bar "."
 Must fade and pass a -- way? \bar "."
@@ -108,7 +108,7 @@ And God can say, in right -- eous -- ness, \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, would you know my Sav -- iour,
+Oh, would you know my Sav -- iour,
 Ye trav -- ’lers to the tomb?
 He takes the sting of death a -- way,
 And chas -- es all the gloom.
@@ -122,7 +122,7 @@ How God can say, in right -- eous -- ness,
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, would you know my Sav -- iour,
+Oh, would you know my Sav -- iour,
 Ye hun -- gry souls and poor?
 I can -- not tell you all He is,
 I want to know Him more:

@@ -102,13 +102,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 There is a bet -- ter world a -- bove, \bar "."
-O, so bright! O, so bright! \bar "."
+Oh, so bright! Oh, so bright! \bar "."
 Where all is peace, and joy, and love, \bar "."
-O, so bright! O, so bright! \bar "."
+Oh, so bright! Oh, so bright! \bar "."
 And all are free from ev -- ’ry care, \bar "."
 And an -- gels of the Lord are there, \bar "."
 And harps of God, and man -- sions fair, \bar "."
-O, so bright! O, so bright! \bar "."
+Oh, so bright! Oh, so bright! \bar "."
 
 }
 

@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "217"
-  title = "O Bright and Blessed Scenes"
+  title = "Oh Bright and Blessed Scenes"
   tunename = "Solyma"
   meter = "S. M."
   poet = "J. N. Darby"
@@ -82,7 +82,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O bright and bless -- ed scenes, \bar "."
+Oh bright and bless -- ed scenes, \bar "."
 Where sin can nev -- er come, \bar "."
 Whose sight our long -- ing spir -- it weans \bar "."
 From earth where yet we roam! \bar "."
@@ -157,7 +157,7 @@ wordsH = \markuplist {
 
 wordsI = \markuplist {
 
-\line { Like Him! O grace supreme! }
+\line { Like Him! Oh grace supreme! }
 \line { { \hspace #2 } Like Him before Thy face, }
 \line { Like Him to know that glory beam }
 \line { { \hspace #2 } Unhindered face to face! }
@@ -166,7 +166,7 @@ wordsI = \markuplist {
 
 wordsJ = \markuplist {
 
-\line { O love supreme and bright, }
+\line { Oh love supreme and bright, }
 \line { { \hspace #2 } Good to the feeblest heart, }
 \line { That gives us now, as heavenly light }
 \line { { \hspace #2 } What soon shall be our part. }

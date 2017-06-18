@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "107"
-  title = "O, Do Not Let the Word Depart"
+  title = "Oh, Do Not Let the Word Depart"
   tunename = ""
   meter = "L. M. with Refrain"
   poet = "Mrs. E. Reed"
@@ -121,7 +121,7 @@ Thou wouldst be saved, why not to -- night? \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O do not let the word de -- part, \bar "."
+Oh do not let the word de -- part, \bar "."
 And close thine eye a -- gainst the light! \bar "."
 Poor sin -- ner, har -- den not thine heart; \bar "."
 Thou wouldst be saved, why not to -- night? \bar "."
@@ -133,7 +133,7 @@ wordsB = \lyricmode {
 
 To -- mor -- row’s sun may nev -- er rise
 To bless thy long de -- lud -- ed sight;
-This is the time, O, then, be wise;
+This is the time, oh, then, be wise;
 Thou wouldst be saved, why not to -- night?
 
 \Refrain

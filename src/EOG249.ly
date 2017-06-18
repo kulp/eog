@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "249"
-  title = "O, How He Loves!"
+  title = "Oh, How He Loves!"
   tunename = ""
   meter = "8. 4. 8. 4. 8. 8. 8. 4."
   poet = "Adp. by Miss M. Nunn"
@@ -104,13 +104,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 One there is a -- bove all oth -- ers, \bar "."
-O, how He loves! \bar "."
+Oh, how He loves! \bar "."
 His is love be -- yond a broth -- er’s, \bar "."
-O, how He loves! \bar "."
+Oh, how He loves! \bar "."
 Earth -- ly friends may fail or leave us, \bar "."
 One day soothe, the next day grieve us; \bar "."
 But this Friend will ne’er de -- ceive us, \bar "."
-O, how He loves! \bar "."
+Oh, how He loves! \bar "."
 
 }
 
@@ -118,13 +118,13 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Joy and peace it is to know Him,
-O, how He loves!
-Think, O, think how much we owe Him,
-O, how He loves!
+Oh, how He loves!
+Think, oh, think how much we owe Him,
+Oh, how He loves!
 With His pre -- cious blood He bought us,
 In the wil -- der -- ness He sought us,
 To His loved ones safe -- ly brought us,
-O, how He loves!
+Oh, how He loves!
 
 }
 
@@ -132,13 +132,13 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 We have found a friend in Je -- sus,
-O, how He loves!
+Oh, how He loves!
 ’Tis His great de -- light to bless us,
-O, how He loves!
+Oh, how He loves!
 How our hearts de -- light to hear Him
 Bid us dwell in safe -- ty near Him!
 Why should we dis -- trust or fear Him?
-O, how He loves!
+Oh, how He loves!
 
 }
 
@@ -146,13 +146,13 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Thro’ His name we are for -- giv -- en,
-O, how He loves!
+Oh, how He loves!
 Back -- ward shall our foes be driv -- en,
-O, how He loves!
+Oh, how He loves!
 Best of bless -- ings He’ll pro -- vide us,
 Naught but good shall e’er be -- tide us,
 Safe to glo -- ry He will guide us,
-O, how He loves!
+Oh, how He loves!
 
 }
 

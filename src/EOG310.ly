@@ -103,10 +103,10 @@ He will save you just now.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, be -- lieve Him, O, be -- lieve Him,
-O, be -- lieve Him just now;
-Just now, O, be -- lieve Him,
-O, be -- lieve Him just now.
+Oh, be -- lieve Him, Oh, be -- lieve Him,
+Oh, be -- lieve Him just now;
+Just now, oh, be -- lieve Him,
+Oh, be -- lieve Him just now.
 
 }
 
