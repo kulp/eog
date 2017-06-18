@@ -135,7 +135,7 @@ wordsB = \lyricmode {
 
 Now are we free– there’s no con -- dem -- na -- tion;
 Je -- sus pro -- vides a per -- fect  sal -- va -- tion;
-Come un -- to Me! oh, hear His sweet call!
+“Come un -- to Me”– oh, hear His sweet call!
 Come and He saves us once for all.
 
 \Refrain
