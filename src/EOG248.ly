@@ -145,7 +145,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Now rest, my long -- di -- vi -- ded heart,
-Fixed on that bless -- ed cen -- tre, rest;
+Fixed on that bless -- ed cen -- ter, rest;
 Nor ev -- er from thy Lord de -- part,
 With Him of ev -- ’ry good pos -- sessed.
 

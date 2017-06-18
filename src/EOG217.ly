@@ -121,7 +121,7 @@ And time shall ne’er grow old.
 
 wordsE = \markuplist {
 
-\line { Our God the centre is, }
+\line { Our God the center is, }
 \line { { \hspace #2 } His presence fills that land, }
 \line { And countless myriads owned as His, }
 \line { { \hspace #2 } Round Him adoring stand. }
