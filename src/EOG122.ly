@@ -131,7 +131,7 @@ He bowed be -- neath the load,
 By Him the might -- y debt was paid–
 The debt we owed;
 Now see Him on the throne
-Who once on Calv’ -- ry bled,
+Who once on Cal -- v’ry bled,
 The One who did for guilt a -- tone,
 O’er all as Head.
 

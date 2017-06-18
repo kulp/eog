@@ -134,7 +134,7 @@ Have you ev -- er quest -- ioned deep -- ly,
 What the goal of paths you trod?
 Have you heard the won -- drous sto -- ry
 Of the love of God dis -- played;
-When He sent His Well -- Be -- lov -- ed,
+When He sent His well -- be -- lov -- ed,
 Such the sac -- ri -- fice He made?
 
 }

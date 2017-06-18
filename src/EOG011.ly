@@ -89,7 +89,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-On Calv’ -- ry’s cross, be -- hold the One \bar "."
+On Cal -- v’ry’s cross, be -- hold the One \bar "."
 Who is God’s Fel -- low and His Son, \bar "."
 Ac -- curs -- ed there up  -- on the tree, \bar "."
 He died to set the guilt -- y free. \bar "."

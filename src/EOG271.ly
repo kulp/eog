@@ -124,7 +124,7 @@ wordsC = \lyricmode {
 With mer -- cy and with judg -- ment
 My web of time He wove,
 And aye the dews of sor -- row
-Were lus -- tred with His love.
+Were lus -- tered with His love.
 I’ll bless the hand that guid -- ed,
 I’ll bless the heart that planned,
 When throned were glo -- ry dwell -- eth

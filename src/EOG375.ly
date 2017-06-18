@@ -174,7 +174,7 @@ wordsB = \lyricmode {
 Thro’ death in -- to life ev -- er -- last -- ing
 He passed, and we fol -- low Him there;
 { \mon } O -- ver { \moff } us sin no more hath do -- min -- ion–
-For more than con -- qu’rors we are!
+For more than con -- querors we are!
 
 \Refrain
 

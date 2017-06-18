@@ -143,7 +143,7 @@ E -- ven death up -- on the cross!
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Con -- q’ring, con -- q’ring love of Je -- sus!
+Con -- quering, con -- quering love of Je -- sus!
 Vic -- tor o’er the seal -- ed grave!
 Tramp -- ling down the hosts of dark -- ness,
 From their pow’r my soul to save.

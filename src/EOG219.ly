@@ -99,7 +99,7 @@ By be -- ing trod -- den down.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Bless, bless the Con -- q’ror slain,
+Bless, bless the Con -- queror slain,
 Slain in His vic -- to -- ry;
 Who lived, who died, who lives a -- gain–
 For thee, His Church, for thee!

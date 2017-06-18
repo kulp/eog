@@ -99,7 +99,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 There is a stream of pre -- cious blood \bar "."
-Which flowed from Je -- su’s veins; \bar "."
+Which flowed from Je -- sus’ veins; \bar "."
 And sin -- ners washed in that blest flood \bar "."
 %{HIDE>%} Lose all their guilt -- y stains, \bar "." %{HIDE<%}
 %{HIDE>%} Lose all their guilt -- y stains, __ \bar "." %{HIDE<%}
