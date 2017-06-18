@@ -84,28 +84,28 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 I love my Sav -- iour, my pre -- cious Sav -- iour, \bar "."
-He died on Cal -- v’ry’s cross for me; \bar "."
-And now He’s ris -- en, gone back to Heav -- en, \bar "."
-Some day He’s com -- ing back for me. \bar "."
+Who died on Cal -- v’ry’s cross for me; \bar "."
+And now He’s ris -- en, gone back to heav -- en, \bar "."
+Some -- day He’s com -- ing back for me. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O trust my Sav -- iour, my pre -- cious Sav -- iour,
-He died for you as well as me;
-He’ll keep you ev -- er, for -- sake you nev -- er;
-He’ll make you glad e -- ter -- nal -- ly.
+And while I’m wait -- ing, I’ll try to please Him
+In ev -- ery -- thing I do and say;
+And when I see Him, oh, how I’ll praise Him,
+For wash -- ing all my sins a -- way.
 
 }
 
-extraA = \markuplist {
+wordsC = \lyricmode {
 
-\line { And while I’m waiting, I’ll seek to please Him }
-\line { { \hspace #2 } In everything I do and say; }
-\line { And when I see Him, Oh how I’ll praise Him, }
-\line { { \hspace #2 } For washing all my sins away. }
+Oh, trust my Sav -- iour, my pre -- cious Sav -- iour;
+He died for you as well as me;
+He’ll keep you ev -- er, for -- sake you nev -- er;
+He’ll make you glad e -- ter -- nal -- ly.
 
 }
 
@@ -120,6 +120,7 @@ extraA = \markuplist {
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = three \lyricsto sopranos \wordsC
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
@@ -141,17 +142,6 @@ extraA = \markuplist {
 % We don't use the `copyright` header field because we need the copyright to
 % appear just under the last system, rather than at the bottom of the page.
 \noPageBreak \markup { \fill-line { \raise #4 { "Words copyright 1941 by Singspiration, Inc. All rights reserved. Used by permission." } } }
-
-headA = \markuplist {
-\line { \bold { May be sung with hymn 338 } }
-}
-
-\markup { \fill-line { \center-column {
-  \line{ \column { \headA } } \combine \null \vspace #0.4
-  \column {
-    \line{ \column { \extraA } }
-  }
-} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

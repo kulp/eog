@@ -138,8 +138,8 @@ Refrain = \lyricmode {
 
 Saved through the blood of Je -- sus, \bar "."
 Per -- fect and on -- ly plea; \bar "."
-Nought else a -- vails for sin -- ners, \bar "."
-Nought else a -- vails for me. \bar "."
+Naught else a -- vails for sin -- ners, \bar "."
+Naught else a -- vails for me. \bar "."
 
 }
 

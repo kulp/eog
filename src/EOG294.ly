@@ -101,8 +101,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 A -- round the throne of God in heav’n \bar "."
-Will man -- y chil -- dren sing, \bar "."
-Chil -- dren, whose sins are all for -- giv’n, \bar "."
+Will man -- y chil -- dren sing; \bar "."
+Chil -- dren whose sins are all for -- giv’n, \bar "."
 Will heav’n -- ly an -- thems bring, \bar "."
 
 }
@@ -113,7 +113,7 @@ wordsB = \lyricmode {
 In shin -- ing robes of spot -- less white
 Each one will be ar -- rayed!
 Dwell -- ing in ev -- er -- last -- ing light,
-And joys that nev -- er fade–
+And joys that nev -- er fade,
 
 \Refrain
 
@@ -125,7 +125,7 @@ wordsC = \lyricmode {
 What brings them to that world a -- bove,
 That heav’n so bright and fair,
 Where all is peace, and joy, and love?
-How come those chil -- dren there,
+How came those chil -- dren there?
 
 }
 
@@ -133,7 +133,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Be -- cause the Sav -- iour shed His blood
-To purge a -- way their sin
+To wash a -- way their sin;
 Now washed in that most pre -- cious flood,
 Be -- hold them white and clean,
 

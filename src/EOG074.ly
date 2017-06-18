@@ -137,7 +137,7 @@ wordsB = \markuplist {
 wordsC = \markuplist {
 
 \line { Look not within for peace, }
-\line { { \hspace #2 } Within there’s nought to cheer; }
+\line { { \hspace #2 } Within there’s naught to cheer; }
 \line { Look up and find release }
 \line { { \hspace #2 } From sin, and self, and fear; }
 \line { If gloom thy soul enshroud, }

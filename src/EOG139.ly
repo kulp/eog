@@ -110,7 +110,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 O pre -- cious is the flow \bar "."
-That makes me white as snow: \bar "."
+That makes me white as snow; \bar "."
 No oth -- er fount I know, \bar "."
 Noth -- ing but the blood of Je -- sus. \bar "."
 
@@ -121,7 +121,7 @@ wordsA = \lyricmode {
 
 What can wash a -- way my sins? \bar "."
 Noth -- ing but the blood of Je -- sus; \bar "."
-What can make me whole a -- gain? \bar "."
+So that not one spot re -- mains? \bar "."
 Noth -- ing but the blood of Je -- sus. \bar "."
 
 }
@@ -129,9 +129,9 @@ Noth -- ing but the blood of Je -- sus. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-For my par -- don this I see–
+For my par -- don this I see,
 Noth -- ing but the blood of Je -- sus;
-For my cleans -- ing, this my plea–
+For my cleans -- ing this my plea,
 Noth -- ing but the blood of Je -- sus.
 
 \Refrain
@@ -141,9 +141,9 @@ Noth -- ing but the blood of Je -- sus.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Noth -- ing can for sins a -- tone–
+Noth -- ing can for sins a -- tone,
 Noth -- ing but the blood of Je -- sus;
-Naught of good that I have done–
+Noth -- ing good that I have done,
 Noth -- ing but the blood of Je -- sus.
 
 }
@@ -151,9 +151,9 @@ Noth -- ing but the blood of Je -- sus.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-This is all my hope and peace–
+This is all my hope and peace,
 Noth -- ing but the blood of Je -- sus;
-This is all my right -- eous -- ness–
+This is all my right -- eous -- ness,
 Noth -- ing but the blood of Je -- sus.
 
 }

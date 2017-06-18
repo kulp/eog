@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +11,6 @@
   meter = "7. 6. 8. 6. 8. 6. 8. 6."
   poet = "Charlotte Gipps"
   composer = "Ira D. Sankey"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -123,8 +118,8 @@ My sins He bare, and suf -- fered there \bar "."
 The wrath of God for me! \bar "." \break
 And my sal -- va -- tion now is sure \bar "."
 Since Christ the work has done, \bar "." \break
-For God de -- clares, in right -- eous -- ness, \bar "."
-He owes it to His Son. \bar "." \break
+For God dis -- plays, in right -- eous -- ness, \bar "."
+His glo -- ry in His Son. \bar "." \break
 
 }
 
@@ -145,7 +140,7 @@ God saves me by His Son.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, Je -- sus is my Sav -- iour;
+Oh! Je -- sus is my Sav -- iour;
 “The Might -- y God!” His name;
 To seek and save the lost and vile
 As Son of Man He came.

@@ -104,10 +104,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“Ye must be born a -- gain!” %{HIDE>%} “a -- gain!” %{<HIDE%} \bar "."
-“Ye must be born a -- gain!” %{HIDE>%} “a -- gain!” %{<HIDE%} \bar "."
-“I ver -- i -- ly, ver -- i -- ly, say un -- to thee, \bar "."
-Ye must be born a -- gain!” %{HIDE>%} “a -- gain!” %{<HIDE%} \bar "."
+“Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
+“Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
+I ver -- i -- ly, ver -- i -- ly, say un -- to thee, \bar "."
+“Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
 
 }
 
@@ -116,8 +116,8 @@ wordsA = \lyricmode {
 
 A ru -- ler once came to Je -- sus by night, \bar "."
 To ask Him the way of sal -- va -- tion and light; \bar "."
-The Mas -- ter made an -- swer in words true and plain, \bar "."
-“Ye must be born a -- gain!” %{HIDE>%} “a -- gain!” %{<HIDE%} \bar "."
+The Sav -- iour made an -- swer in words true and plain, \bar "."
+“Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
 
 }
 
@@ -125,9 +125,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Ye chil -- dren of men, at -- tend to the word
-So so -- lemn -- ly ut -- tered by Je -- sus, the Lord;
+So so -- lemn -- ly ut -- tered by Je -- sus the Lord;
 And let not this mes -- sage to you be in vain:
-“Ye must be born a -- gain!” %{HIDE>%} “a -- gain!” %{<HIDE%}
+“Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%}
 
 \Refrain
 
@@ -137,9 +137,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 O ye who would { \mon } en -- ter { \moff } this glo -- ri -- ous rest,
-And sing with the ran -- somed the song of the blest,
+And sing with the ran -- somed the song of the blest;
 The life ev -- er -- last -- ing if ye would ob -- tain,
-“Ye must be born a -- gain!” %{HIDE>%} “a -- gain!” %{<HIDE%}
+“Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%}
 
 }
 

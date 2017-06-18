@@ -106,7 +106,7 @@ Refrain = \lyricmode {
 
 When the har -- vest is past, \bar "."
 And the sum -- mer is o’er, \bar "."
-When the beams cease to break of the blest Lord’s day morn, \bar "."
+When the beams cease to break of the blest Lord’s Day morn, \bar "."
 And Je -- sus in -- vites you no more. \bar "." % "you" in refrain vs. "thee" in verses
 
 }
@@ -116,7 +116,7 @@ wordsA = \lyricmode {
 
 When the har -- vest is past and the sum -- mer is gone, \bar "."
 And God’s gra -- cious plead -- ings are o’er, \bar "."
-When the beams cease to break of the blest Lord’s day morn, \bar "."
+When the beams cease to break of the blest Lord’s Day morn, \bar "."
 And Je -- sus in -- vites thee no more– \bar "."
 
 }
@@ -136,7 +136,7 @@ How suf -- fer the night of de -- spair?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-When the ho -- ly have gone to the re -- gion of peace,
+When the saved ones have gone to the re -- gion of peace,
 To dwell in the man -- sions a -- bove,
 When their har -- mo -- ny wakes in the full -- ness of bliss,
 Their song to the Sav -- iour of love–

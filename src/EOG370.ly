@@ -137,12 +137,13 @@ He will car -- ry you through. \bar "."
 
 }
 
+% blue book splits each verse lyrics line in the middle
 wordsA = \lyricmode {
 \set stanza = "1."
 
 Yield not to temp -- ta -- tion, for yield -- ing is sin; \bar "."
 Each vic -- tory will help you some oth -- er to win; \bar "."
-Fight faith -- ful -- ly on -- ward, dark pas -- sions sub -- due, \bar "."
+Fight prayer -- ful -- ly on -- ward, dark pas -- sions sub -- due, \bar "."
 Look ev -- er to Je -- sus, He will car -- ry you through. \bar "."
 
 }
@@ -151,8 +152,8 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Shun e -- vil com -- pan -- ions, bad lan -- guage dis -- dain,
-God’s name hold in rev -- erence, nor take it in vain
-Be thought -- ful and ear -- nest, kind -- heart -- ed and true,
+God’s name hold in rev -- erence– don't take it in vain;
+Be thought -- ful and ear -- nest, kind -- heart -- ed and true;
 Look ev -- er to Je -- sus, He will car -- ry you through.
 
 \Refrain
@@ -162,9 +163,9 @@ Look ev -- er to Je -- sus, He will car -- ry you through.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-To him that o’er -- com -- eth God giv -- eth a crown,
+To him that o’er -- com -- eth, God giv -- eth a crown,
 Thro’ faith we shall con -- quer, though of -- ten cast down;
-He, who is our Sav -- iour, our strength will re -- new;
+He who is our Sav -- iour our strength will re -- new;
 Look ev -- er to Je -- sus, He will car -- ry you through.
 
 }

@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "110"
-  title = "O, Turn Ye! O, Turn Ye!"
+  title = "Oh, Turn Now! Oh, Turn Now!"
   tunename = "Hiding In Thee"
   meter = "11s. with Refrain"
   poet = "J. Hopkins"
@@ -114,9 +114,9 @@ Take God’s free sal -- va -- tion, ’tis of -- fered to -- day! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O turn ye! O turn ye! for why will ye die, \bar "."
+Oh, turn now! Oh, turn now! For why will you die, \bar "."
 When God, in great mer -- cy, is com -- ing so nigh? \bar "."
-Now Je -- sus in -- vites you; the Spir -- it says “Come,” \bar "."
+Now Je -- sus in -- vites you; the Spir -- it says, “Come,” \bar "."
 And an -- gels are wait -- ing to wel -- come you home. \bar "."
 
 }
@@ -136,9 +136,9 @@ While streams of sal -- va -- tion are flow -- ing so free.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O, how can we leave you? Why will ye not come?
+Oh, how can we leave you? Why will you not come?
 ’Tis Je -- sus en -- treats you, He bids you come home;
-O turn ye! O turn ye! for why will ye die,
+Oh, turn now! Oh, turn now! For why will you die,
 When God in great mer -- cy, is com -- ing so nigh?
 
 }

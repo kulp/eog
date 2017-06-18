@@ -110,14 +110,14 @@ Refrain = \lyricmode {
 Yes, Je -- sus loves me! \bar "."
 Yes, Je -- sus loves me! \bar "."
 Yes, Je -- sus loves me! \bar "."
-The Bi -- ble tells me so! \bar "."
+The Bi -- ble tells me so. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus loves me! this I know, \bar "."
+Je -- sus loves me, this I know, \bar "."
 For the Bi -- ble tells me so; \bar "."
 Lit -- tle ones to Him be -- long; \bar "."
 They are weak, but He is strong. \bar "."
@@ -151,8 +151,8 @@ wordsD = \lyricmode {
 
 Je -- sus loves me, loves me still,
 When I’m ver -- y weak and ill,
-From His shin -- ing place on high,
-Comes to watch me where I lie.
+From His shin -- ing home on high,
+He will watch me where I lie.
 
 }
 

@@ -97,7 +97,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 How man -- y chil -- dren say, \bar "."
-“I’d like to go to heav’n;” \bar "."
+“I’d like to go to heav’n,” \bar "."
 Yet nev -- er think that they \bar "."
 Must have their sins for -- giv’n, \bar "."
 Be -- fore they can in glo -- ry be, \bar "."
@@ -111,11 +111,11 @@ wordsB = \lyricmode {
 
 None can to glo -- ry go,
 Or dwell with God a -- bove,
-Save they who Je -- sus know,
-And taste a Sav -- iour’s love;
+But they who Je -- sus know,
+And trust the Sav -- iour’s love;
 The ho -- ly words of truth de -- clare
 %{HIDE>%} No oth -- er grounds of en -- trance there, %{<HIDE%}
-No oth -- er grounds of en -- trance there.
+No oth -- er way of en -- trance there.
 
 }
 

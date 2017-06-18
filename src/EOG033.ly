@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +14,6 @@
   meter = "8. 6. 8. 6. 8. 6."
   poet = "Mrs. A. R. Cousin"
   composer = "Ira D. Sankey"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -104,8 +102,8 @@ wordsA = \lyricmode {
 O Christ, what bur -- dens bowed Thy head! \bar "."
 Our load was laid on Thee; \bar "." \break
 Thou stood -- est in the sin -- ner’s stead, \bar "."
-Didst bear all ill for me. \bar "." \break
-A Vic -- tim led, Thy blood was shed; \bar "."
+To bear all ill for me. \bar "." \break
+A vic -- tim led, Thy blood was shed; \bar "."
 Now there’s no load for me. \bar "." \break
 
 }
@@ -126,7 +124,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Je -- ho -- vah lift -- ed up His rod–
-O Christ, it fell on Thee!
+O Christ, it fell on Thee;
 Thou wast for -- sa -- ken of Thy God;
 No dis -- tance now for me.
 Thy blood be -- neath that rod has flowed;
@@ -151,7 +149,7 @@ wordsE = \lyricmode {
 
 For me, Lord Je -- sus Thou hast died,
 And I have died in Thee;
-Thou’rt ris’n: my bands are all un -- tied;
+Thou’rt ris’n: my bands are all un -- tied,
 And now Thou liv’st in me.
 The Fa -- ther’s face of ra -- diant grace
 Shines now in light on me.

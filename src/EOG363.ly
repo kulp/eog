@@ -101,7 +101,7 @@ wordsA = \lyricmode {
 Long a -- go a flood was com -- ing \bar "."
 On the world with e -- vil filled, \bar "."
 But a man of faith, named No -- ah, \bar "."
-Warned of God an ark did build. \bar "."
+Warned of God, an ark did build. \bar "."
 Years pass’d by, while God in pa -- tience, \bar "."
 Wait -- ed ere the flood be -- gan; \bar "."
 No -- ah preach’d, and warn’d and plead -- ed, \bar "."
@@ -112,7 +112,7 @@ Tell -- ing of God’s gra -- cious plan. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Boys and girls, and men and wo -- men,
+Boys and girls, and men, and wo -- men,
 Laugh’d and scoff’d at what they heard;
 Chose to fol -- low sin -- ful pleas -- ures,
 Thought -- less of the warn -- ing word.
@@ -126,11 +126,11 @@ Gath -- ’red in, with food for all.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Creep -- ing things were not for -- got -- ten,
+Creep -- ing things were not for -- got -- ten.
 Two of each were shelt -- ’red there–
 For while fool -- ish men are scoff -- ing,
 Lit -- tle things will show God’s care!
-No -- ah next, and all his house -- hold,
+No -- ah too, and all his house -- hold,
 Safe -- ly o’er the thresh -- old passed; % original has "treshold"
 Then God shut the door up -- on them–
 Judg -- ment’s day had come at last.
@@ -154,7 +154,7 @@ wordsE = \markuplist {
 
 \line { God has warned of greater sorrows, }
 \line { { \hspace #2 } He has told of judgment sore }
-\line { Which will fall on Christ rejectors, }
+\line { Which will fall on Christ-rejectors, }
 \line { { \hspace #2 } When the day of grace is o’er. }
 \line { But His only Son once suffered, }
 \line { { \hspace #2 } He for us the judgment bore; }

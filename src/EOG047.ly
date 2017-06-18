@@ -102,7 +102,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Rise, dear soul! be -- hold thy Sav -- iour, \bar "."
+Rise, dear soul! be -- hold the Sav -- iour, \bar "."
 Seat -- ed on the Fa -- ther’s throne; \bar "." \break
 Ob -- ject of God’s high -- est fa -- vor; \bar "."
 See Him– God’s be -- lov -- ed Son. \bar "." \break
@@ -113,7 +113,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Once on earth in Beth -- l’em’s man -- ger,
-As a help -- less babe He lay;
+As a new -- born babe He lay;
 God come down a heav’n -- ly stran -- ger,
 Love to sin -- ners to dis -- play.
 
@@ -122,7 +122,7 @@ Love to sin -- ners to dis -- play.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Sin -- ner! see they God be -- side thee,
+Sin -- ner! see thy God be -- side thee,
 In a ser -- vant’s form come near,
 Sit -- ting, walk -- ing, talk -- ing with thee,
 Si -- nai’s mount no lon -- ger fear.
@@ -132,7 +132,7 @@ Si -- nai’s mount no lon -- ger fear.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Sin -- ner! see they bleed -- ing Sav -- iour,
+Sin -- ner! see the bleed -- ing Sav -- iour,
 Pierced and nailed to Cal -- v’ry’s tree;
 Sac -- ri -- fice of sweet -- est sa -- vor,
 Ob -- ject of man’s en -- mi -- ty.
@@ -141,7 +141,7 @@ Ob -- ject of man’s en -- mi -- ty.
 
 wordsE = \markuplist {
 
-\line { See the sun at noon-day hidden, }
+\line { See the sun at noonday hidden, }
 \line { { \hspace #2 } See the rocks and mountains shake, }
 \line { See the Man ’midst darkness smitten, }
 \line { { \hspace #2 } Why did God his Son forsake? }
@@ -150,7 +150,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { Sinner—hear the wondrous story }
+\line { Sinner—hear the wondrous story: }
 \line { { \hspace #2 } Jesus died and rose for thee; }
 \line { God in heaven now waits to save thee, }
 \line { { \hspace #2 } Now, believing, thou art free. }

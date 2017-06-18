@@ -144,7 +144,7 @@ Its won -- drous pow’r will save. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O, love that on -- ly God can feel,
+Oh, love that on -- ly God can feel,
 And on -- ly He can show!
 Its height and depth, its length and breadth,
 Nor heav’n nor earth can know!
@@ -167,7 +167,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 O Sav -- iour, melt these hearts of theirs,
-And teach them to be -- lieve
+And bring them to be -- lieve
 That who -- so -- ev -- er comes to Thee,
 Shall end -- less life re -- ceive.
 
@@ -187,7 +187,6 @@ Shall end -- less life re -- ceive.
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f

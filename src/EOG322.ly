@@ -98,13 +98,13 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O! come to Je -- sus, chil -- dren, come, \bar "."
-Don’t de -- lay, don’t de -- lay, \bar "."
+Oh! come to Je -- sus, chil -- dren, come, \bar "."
+Don’t de -- lay, don’t de -- lay; \bar "."
 Se -- cure a place in heav’n’s bright home, \bar "."
 While ’tis day, while ’tis day; \bar "."
 That bless -- ed home is fill -- ing fast, \bar "."
 And mer -- cy’s day will soon be past, \bar "."
-Soon earth will hear the trump -- et’s blast; \bar "."
+Soon saints shall hear the trump -- et’s blast; \bar "."
 Come a -- way, come a -- way. \bar "."
 
 }
@@ -112,8 +112,8 @@ Come a -- way, come a -- way. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O sad, if thou shouldst be too late–
-Don’t de -- lay, don’t de -- lay,
+Oh, sad, if thou shouldst be too late–
+Don’t de -- lay, don’t de -- lay;
 A -- rise, and en -- ter mer -- cy’s gate,
 While ’tis day, while ’tis day;
 A lov -- ing Sav -- iour will ap -- pear
@@ -127,8 +127,8 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 His blood can wash the vil -- est clean,
-Don’t de -- lay, don’t de -- lay,
-O come, con -- fess -- ing what thou’st been,
+Don’t de -- lay, don’t de -- lay;
+Oh, come, con -- fess -- ing what thou’st been,
 While ’tis day, while ’tis day;
 A full sal -- va -- tion, vast and free,
 Wrought out, by Christ, a -- wait -- eth thee;

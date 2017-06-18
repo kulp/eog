@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +12,6 @@
   meter = "7. 6. 7. 6. D. with Refrain"
   poet = "Miss Kate Hankey"
   composer = "W. H. Doane"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -52,7 +48,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -149,9 +144,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Tell me the Old, Old Sto -- ry, \bar "."
-Tell me the Old, Old Sto -- ry, \bar "."
-Tell me the Old, Old Sto -- ry \bar "."
+Tell me the old, old sto -- ry, \bar "."
+Tell me the old, old sto -- ry, \bar "."
+Tell me the old, old sto -- ry \bar "."
 Of Je -- sus and His love. \bar "."
 
 }
@@ -159,11 +154,11 @@ Of Je -- sus and His love. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Tell me the Old, Old Sto -- ry, \bar "."
+Tell me the old, old sto -- ry, \bar "."
 Of un -- seen things a -- bove, \bar "."
 Of Je -- sus and His glo -- ry, \bar "."
 Of Je -- sus and His love. \bar "."
-Tell me the Sto -- ry sim -- ply, \bar "."
+Tell me the sto -- ry sim -- ply, \bar "."
 As to a lit -- tle child, \bar "."
 For I am weak and wear -- y, \bar "."
 And help -- less and de -- filed. \bar "."
@@ -173,13 +168,13 @@ And help -- less and de -- filed. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Tell me the Sto -- ry slow -- ly,
+Tell me the sto -- ry slow -- ly,
 That I may take it in–
 That won -- der -- ful re -- demp -- tion,
 God’s rem -- e -- dy for sin.
-Tell me the Sto -- ry oft -- en,
+Tell me the sto -- ry oft -- en,
 For I for -- get so soon:
-The “ear -- ly dew” of morn -- ing
+The ear -- ly dew of morn -- ing
 Has passed a -- way at noon.
 
 \Refrain
@@ -189,13 +184,13 @@ Has passed a -- way at noon.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Tell me the same Old Sto -- ry,
+Tell me the same old sto -- ry,
 When you have cause to fear
 That this world’s emp -- ty glo -- ry
 Is cost -- ing me too dear.
-And when { \italicsOn } that { \italicsOff } world’s bright glo -- ry
+Yes, and when that world’s glo -- ry
 Is dawn -- ing on my soul,
-Tell me the Old, Old Sto -- ry–
+Tell me the old, old sto -- ry:
 Christ Je -- sus makes thee whole.
 
 }

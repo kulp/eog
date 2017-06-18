@@ -162,8 +162,8 @@ wordsD = \lyricmode {
 \mon Who for \moff sin -- ners once did die,
 \mon When He ga -- thers His own \moff in that bright home,
 Then you’ll be there, and I.
-Then you’ll be there, and I,
-Then you’ll be there, and I,
+Then you’ll be there, and I;
+Then you’ll be there, and I;
 \mon When He ga -- thers His own \moff in that bright home,
 Then you’ll be there, and I.
 
@@ -176,8 +176,8 @@ If we are shel -- tered by the cross,
 And thro’ the blood bro’t nigh,
 Our ut -- most gain we’ll count but loss,
 Since you’ll be there, and I.
-Since you’ll be there, and I,
-Since you’ll be there, and I,
+Since you’ll be there, and I;
+Since you’ll be there, and I;
 Our ut -- most gain we’ll count but loss,
 Since you’ll be there, and I.
 
