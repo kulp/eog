@@ -129,7 +129,7 @@ BassRefrainA = \lyricmode {
 
   \override LyricText.font-size = #-2
   \repeat unfold 40 { \skip 4 }
-  “Come un -- to Me,” “O come un -- to Me,”
+  “Come un -- to Me,” “Oh come un -- to Me,”
   “Come un -- to Me, and
 
 }
