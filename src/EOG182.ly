@@ -109,7 +109,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Naught, naught I court as pleas -- ure,
-Com -- pared, O Christ with Thee,
+Com -- pared, O Christ, with Thee,
 Thy sor -- row with -- out meas -- ure
 Earned peace and joy for me!
 I love to own, Lord Je -- sus,
