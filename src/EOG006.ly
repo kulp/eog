@@ -15,7 +15,6 @@
   meter = "10. 10. 10. 10. with Refrain"
   poet = "Nath. Norton"
   composer = "G. C. Stebbins"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -46,7 +45,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t
   \ta
   \key ees \major
-  %\partial 4.
   \autoBeamOff
 }
 
@@ -163,9 +161,6 @@ wordsB = \lyricmode {
   The doubts shall van -- ish, and thy sor -- rows cease:
   “Come un -- to Me,” and I will give you peace.
 
-  % This \break appears in the original (eogsized) but unnecessarily prevents
-  % the letter variant from laying out on one page.
-  %\break
   \Refrain
 }
 
