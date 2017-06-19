@@ -10,7 +10,7 @@
   hymnnumber = "83"
   title = "Everlasting Glory"
   tunename = "Maccabeus"
-  meter = "4-11s."
+  meter = "11. 11. 11. 11."
   poet = "H. K. Burlingham"
   composer = "Handel"
   tagline = ##f

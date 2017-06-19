@@ -8,7 +8,7 @@
   hymnnumber = "226"
   title = "I Once Was a Stranger"
   tunename = "Adeste Fideles"
-  meter = "4-11s."
+  meter = "11. 11. 11. 11."
   poet = "R. M. McCheyne"
   composer = "18th Century Melody"
   tagline = ##f

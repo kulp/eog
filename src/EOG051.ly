@@ -11,7 +11,7 @@
   hymnnumber = "51"
   title = "Eternity! Where? It Floats in the Air"
   tunename = "Eternity"
-  meter = "4-11s."
+  meter = "11. 11. 11. 11."
   poet = ""
   composer = "Wm. M. Horsey"
   tagline = ##f

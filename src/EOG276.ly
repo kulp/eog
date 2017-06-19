@@ -9,7 +9,7 @@
   hymnnumber = "276"
   title = "We Sing of the Realms of the Blest"
   tunename = "Celeste"
-  meter = "4-8s."
+  meter = "8. 8. 8. 8."
   poet = "Mrs. E. Mills"
   composer = ""
   tagline = ##f
