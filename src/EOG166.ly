@@ -12,7 +12,7 @@
   hymnnumber = "166"
   title = "In Hope We Lift Our Wishful, Longing Eyes"
   tunename = "Ellers"
-  meter = "10s."
+  meter = "10. 10. 10. 10."
   poet = "J. G. Deck"
   composer = "Dr. E. J. Hopkins"
   tagline = ##f

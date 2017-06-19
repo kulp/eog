@@ -9,7 +9,7 @@
   hymnnumber = "270"
   title = "And Is It So – I Shall Be Like Thy Son?"
   tunename = "Eventide" % see EOG076
-  meter = "10s." % original has 4-10s. but EOG076 has "10s."
+  meter = "10. 10. 10. 10."
   poet = "J. N. Darby"
   composer = "W. H. Monk"
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "76"
   title = "“Come Unto Me, And I Will Give You Rest”"
   tunename = "Eventide"
-  meter = "10s."
+  meter = "10. 10. 10. 10."
   poet = "H. d’A. Champney"
   composer = "W. H. Monk"
   tagline = ##f
