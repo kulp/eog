@@ -28,8 +28,7 @@ sub compare_recurse {
             || compare_recurse($ar, $br);
     } else {
         my ($w) = (@$ar, @$br);
-        # flip sort direction if only non-numerics remaining
-        return ($#$ar - $#$br) *1;# (is_num($w) ? 1 : -1);
+        return $#$ar - $#$br;
     }
 }
 
