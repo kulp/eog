@@ -14,7 +14,7 @@ sub add {
     local $_ = shift;
     s/è/e/g;
     my @F = split " ";
-    pop @F while length("@F") > 34;
+    pop @F while length("@F") > 33;
     $_ = "@F";
     s/[,:;–—]$//g;
     push @list, [ $_, $i ] unless $uniq{"$_/$i"}++;
