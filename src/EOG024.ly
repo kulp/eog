@@ -12,7 +12,7 @@
   hymnnumber = "24"
   title = "Jesus Only Can Impart"
   tunename = "Weber"
-  meter = "7. 7. 7. 7. "
+  meter = "7. 7. 7. 7."
   poet = ""
   composer = "C. M. von Weber"
   tagline = ##f
