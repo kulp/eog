@@ -9,11 +9,10 @@ while (<>) {
     next if /^$/;
     if (/^(?! )/) {
         # meter
-        print qq(\\end{flushright}\n) if $open;
+        print qq(\\end{flushright}\\medbreak\n) if $open;
         print qq(\n);
-        print qq(\\needspace{8pt}\n);
         print qq({\\centering\\textbf{$_}\\par}\n);
-        print qq(\\begin{flushright}\n);
+        print qq(\\noindent\\begin{flushright}\n);
         $open = 1;
     } else {
         my ($name, $nums) = split /\t/;
