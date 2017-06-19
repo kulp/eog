@@ -20,7 +20,7 @@ sub is_num {
 
 sub compare_recurse {
     my ($ar, $br) = @_;
-    if ($#$ar > 0 and $#$br > 0) {
+    if (@$ar > 0 and @$br > 0) {
         my $a = shift @$ar;
         my $b = shift @$br;
         return is_num($a) - is_num($b)
