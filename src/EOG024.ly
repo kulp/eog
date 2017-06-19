@@ -13,9 +13,8 @@
   title = "Jesus Only Can Impart"
   tunename = "Weber"
   meter = "7. 7. 7. 7. "
-  %poet = ""
+  poet = ""
   composer = "C. M. von Weber"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -35,7 +34,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
-  %\partial 4
   \autoBeamOff
 }
 
