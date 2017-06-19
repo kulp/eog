@@ -11,7 +11,7 @@
   hymnnumber = "297"
   title = "Christ Could Not Be Hid"
   tunename = ""
-  meter = "11s. with Refrain"
+  meter = "11. 11. 11. 11. with Refrain"
   poet = ""
   composer = "Wm. G. Fisher"
   tagline = ##f

@@ -8,7 +8,7 @@
   hymnnumber = "110"
   title = "Oh, Turn Now! Oh, Turn Now!"
   tunename = "Hiding In Thee"
-  meter = "11s. with Refrain"
+  meter = "11. 11. 11. 11. with Refrain"
   poet = "J. Hopkins"
   composer = "Ira D. Sankey"
   tagline = ##f
