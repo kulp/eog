@@ -12,7 +12,7 @@
   hymnnumber = "7"
   title = "Martyn"
   tunename = ""
-  meter = "7. 7. 7. 7. D."
+  meter = "8-7s."
   composer = "S. B. Marsh"
   tagline = ##f
 }
