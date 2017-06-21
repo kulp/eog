@@ -82,7 +82,7 @@ EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 index: vanilla index.html
 CLEANFILES += index.html
 index.html: pdf midi mp3 m3u latin
-	scripts/make_index.pl > $@ || rm $@
+	scripts/make_index.pl > $@ || (rm $@ ; false)
 
 clean:
 	$(RM) *.log $(CLEANFILES)
@@ -104,12 +104,12 @@ CLOBBERFILES += $(TXTS)
 # The same applies for the lyrics generator script.
 $(TXTS): TXT/default/%.txt: src/%.ly | scripts/getlyrics.pl transforms.map
 	@mkdir -p $(@D)
-	scripts/getlyrics.pl $< 2>> transforms.map > $@ || rm $@
+	scripts/getlyrics.pl $< 2>> transforms.map > $@ || (rm $@ ; false)
 
 latin: $(LATINS)
 CLOBBERFILES += $(LATINS)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
-	scripts/latinize.sh $< > $@ || rm $@
+	scripts/latinize.sh $< > $@ || (rm $@ ; false)
 
 # TODO rewrite this rule (it's rather roundabout and messy)
 $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
@@ -172,20 +172,20 @@ check:
 
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
-	convert "$<" -trim info:"$@" || rm $@
+	convert "$<" -trim info:"$@" || (rm $@ ; false)
 
 CLOBBERFILES += texels/
 texels/%.texel: PDF/eogsized/%.pdf metrics/%.metrics | texels
-	scripts/makebook.pl $< > $@ || rm $@
+	scripts/makebook.pl $< > $@ || (rm $@ ; false)
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
-	cat $(word 1,$^) > $@ || rm $@
-	scripts/makebook.pl $| >> $@ || rm $@
-	cat $(word 2,$^) >> $@ || rm $@
+	cat $(word 1,$^) > $@ || (rm $@ ; false)
+	scripts/makebook.pl $| >> $@ || (rm $@ ; false)
+	cat $(word 2,$^) >> $@ || (rm $@ ; false)
 
 index.meter: $(PDFS)
-	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || rm $@
+	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || (rm $@ ; false)
 
 INDICES += $(addprefix booklayout/,metrical.pdf first.pdf gospel.pdf children.pdf)
 CLOBBERFILES += $(INDICES)
@@ -204,7 +204,7 @@ booklayout/first_insert.tex: export USE_REFRAIN=1
 booklayout/gospel_insert.tex: export USE_REFRAIN=1
 booklayout/children_insert.tex: export USE_REFRAIN=0
 booklayout/%_insert.tex:
-	scripts/make_alpha_index.pl $^ > $@ || rm $@
+	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
 
 book: booklayout/book.pdf $(INDICES)
 
