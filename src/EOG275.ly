@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 
 We are by Christ re -- deemed; \bar "."
 The cost– His pre -- cious blood; \bar "."
-Be noth -- ing like our souls es -- teemed \bar "."
+Be noth -- ing by our souls es -- teemed \bar "."
 Like this great good. \bar "."
 Were the vast world our own, \bar "."
 With all its va -- ried store, \bar "."

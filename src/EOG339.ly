@@ -167,7 +167,7 @@ And tast -- ed death for me;
 Yes, there the work He fin -- ished,
 That sets me ev -- er free.
 My sins all laid up -- on Him,
-The wrath and judg -- ment borne.;
+The wrath and judg -- ment borne;
 The power of Sa -- tan bro -- ken,
 In Je -- sus’ death of scorn.
 

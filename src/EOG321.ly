@@ -124,7 +124,7 @@ wordsC = \lyricmode {
 
 Oth -- ers there are who love me, too;
 But who, with all their love could do
-What Je -- sus Christ as done?
+What Je -- sus Christ has done?
 And when He teach -- es me to pray,
 I’ll sure -- ly go to Him and say,
 “Lord, keep Thy lit -- tle one.”

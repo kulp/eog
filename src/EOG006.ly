@@ -158,7 +158,7 @@ wordsB = \lyricmode {
 
   Wear -- y with life’s long strug -- gle, full of pain,
   O doubt -- ing soul, thy Sav -- iour calls a -- gain;
-  The doubts shall van -- ish, and thy sor -- rows cease:
+  Thy doubts shall van -- ish, and thy sor -- rows cease:
   “Come un -- to Me,” and I will give you peace.
 
   \Refrain

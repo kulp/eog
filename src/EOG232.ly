@@ -88,7 +88,7 @@ His who died to set us free. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Then, whom the Arch -- an -- gel’s voice
+Then, when the Arch -- an -- gel’s voice
 Calls the sleep -- ing saints to rise,
 Ris -- ing mil -- lions shall pro -- claim
 Bless -- ings on the Sav -- iour’s name.

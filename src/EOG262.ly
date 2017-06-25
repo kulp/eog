@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 
 Sat -- is -- fied with Thee, Lord Je -- sus, \bar "."
 I am blest; \bar "."
-Peace with pass -- eth un -- der -- stand -- ing, \bar "."
+Peace which pass -- eth un -- der -- stand -- ing, \bar "."
 On Thy breast; \bar "."
 No more doubt -- ing, \bar "."
 %{HIDE>%} No more trem -- bling, %{<HIDE%} \bar "."

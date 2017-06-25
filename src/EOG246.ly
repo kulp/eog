@@ -100,7 +100,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh! for the role of white -- ness, \bar "."
+Oh! for the robe of white -- ness, \bar "."
 To walk with Christ in light! \bar "."
 Oh! for the glo -- rious bright -- ness \bar "."
 Of day with -- out a night! \bar "."

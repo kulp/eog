@@ -119,7 +119,7 @@ wordsB = \lyricmode {
 
 Once their sins on ev -- ery side,
 Seemed to tow -- er o’er them;
-Christ has stemmed the an -- gry tied;
+Christ has stemmed the an -- gry tide;
 Been through death be -- fore them.
 
 \Refrain

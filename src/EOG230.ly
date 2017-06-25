@@ -121,7 +121,7 @@ wordsB = \lyricmode {
 
 I’ve found a Friend; oh, such a Friend!
 He bled, He died to save me;
-And not a -- lone the gift of lie,
+And not a -- lone the gift of life,
 But His own self He gave me.
 Naught that I have my own I call,
 I hold it for the Giv -- er:

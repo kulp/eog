@@ -151,7 +151,7 @@ When the Lord was cru -- ci -- fied.
 In a cold, cold grave they laid Him,
 Think -- ing not what they had done;
 Killed the Lord of life and glo -- ry,
-Killed the Christ, God’ much -- loved Son.
+Killed the Christ, God’s much -- loved Son.
 
 }
 

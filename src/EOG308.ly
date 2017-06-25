@@ -130,7 +130,7 @@ wordsC = \lyricmode {
 To sing His love and mer -- cy,
 My sweet -- est songs I’ll raise,
 And tho’ I can -- not see Him,
-I know He bears my praise;
+I know He hears my praise;
 For He has kind -- ly prom -- ised
 That I shall sure -- ly go
 To sing with His re -- deemed ones,

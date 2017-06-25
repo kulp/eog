@@ -123,14 +123,14 @@ wordsE = \markuplist {
 \line { But such a cruel death He died! }
 \line { He was hung up and crucified; }
 \line { And those kind hands that did such good, }
-\line { They nailed them to cross of wood. }
+\line { They nailed them to a cross of wood. }
 
 }
 
 wordsF = \markuplist {
 
 \line { And so He died, and rose again; }
-\line { He lives on high and God’s right hand; }
+\line { He lives on high at God’s right hand; }
 \line { Soon He’ll return for us from heaven– }
 \line { For those whose sins have been forgiven. }
 

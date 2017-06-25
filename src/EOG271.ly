@@ -127,7 +127,7 @@ And aye the dews of sor -- row
 Were lus -- tered with His love.
 I’ll bless the hand that guid -- ed,
 I’ll bless the heart that planned,
-When throned were glo -- ry dwell -- eth
+When throned where glo -- ry dwell -- eth
 In Im -- man -- uel’s land.
 
 }
@@ -149,7 +149,7 @@ In Im -- man -- uel’s land.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-The bride eyes on her gar -- ment,
+The bride eyes not her gar -- ment,
 But her dear bride -- groom’s face;
 I will not gaze on glo -- ry,
 But on my King of Grace.

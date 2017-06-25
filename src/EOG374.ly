@@ -127,7 +127,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 A lov -- ing Sav -- iour He, Whose blood
-A -- vails to cleans from sin.
+A -- vails to cleanse from sin.
 He died the might -- y debt to pay
 And give thee peace with -- in.
 

@@ -31,7 +31,7 @@ global = {
 wordsE = \markuplist {
 
 \line { The Bible tells us He will come }
-\line { To Take His saints away, }
+\line { To take His saints away, }
 \line { To dwell with Him in His blest home }
 \line { Through everlasting day. }
 
