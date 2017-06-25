@@ -167,7 +167,7 @@ wordsE = \markuplist {
 
 \line { Behold Him, O soul, where He told it, }
 \line { { \hspace #2 } Pale, bleeding, and bearing thy sin; }
-\line { He knocking, said, “Open, beloved, }
+\line { He knocking, said, “Open, belovèd, }
 \line { { \hspace #2 } I pray thee to let Me come in! }
 
 \line { Behold, I have borne all the judgment, }
