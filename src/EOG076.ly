@@ -101,7 +101,7 @@ And felt for sin -- ners as none here be -- low. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Come un -- to Me,” Yes, come in all your sin!
+“Come un -- to Me!” Yes, come in all your sin!
 Through Je -- sus’ blood the vile may en -- ter in:
 May come to God, who ful -- ly knows their guilt,
 As -- sured that for them -- selves that blood was spilt.
@@ -111,8 +111,8 @@ As -- sured that for them -- selves that blood was spilt.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“Come un -- to Me,” The bless -- ed Son of God
-Thus told on earth, in ev -- ery step He trod.
+“Come un -- to Me!” The bless -- ed Son of God
+Thus told on earth, in ev -- ery step He trod,
 The heart of Him who is in na -- ture love,
 And is be -- seech -- ing men that love to prove.
 
@@ -120,7 +120,7 @@ And is be -- seech -- ing men that love to prove.
 
 wordsD = \markuplist {
 
-\line { “Come unto Me,” Yes, God Himself says “Come!” }
+\line { “Come unto Me!” Yes, God Himself says, “Come!” }
 \line { He sees afar, and runs to welcome home }
 \line { Unworthy sinners, who have naught to plead, }
 \line { But God’s own love, and their exceeding need. }
@@ -129,17 +129,17 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { “Come unto Me,” oh, blessed open door }
-\line { For those who but for Christ had hoped no more! }
-\line { Oh, love of God told out in full extent }
+\line { “Come unto Me!” Oh, blessed open door }
+\line { For those who, but for Christ, had hoped no more! }
+\line { Oh love of God told out in full extent }
 \line { When Jesus to those depths of darkness went. }
 
 }
 
 wordsF = \markuplist {
 
-\line { “Come unto Me,” For Christ the risen Lord }
-\line { Now speaks from glory through the written word; }
+\line { “Come unto Me!” For Christ the risen Lord }
+\line { Now speaks from glory through the written Word; }
 \line { As Victor now He can with triumph shout, }
 \line { That none who come to Him will He cast out. }
 

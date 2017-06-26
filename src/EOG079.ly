@@ -162,7 +162,7 @@ wordsC = \lyricmode {
 De -- cide for Christ to -- day,
 Con -- fess Him as thy Lord;
 Pro -- claim to all the Sav -- iour’s worth,
-How faith -- ful is His word.
+How faith -- ful is His Word.
 
 }
 

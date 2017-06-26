@@ -108,7 +108,7 @@ Ban -- ish -- ing all dread and fear. \bar "."
 “Trust,” yes, “trust,” ’tis sweet -- ly sound -- ing, \bar "."
 Voice of Him who came to die, \bar "."
 “Trust in Me and rest, thus find -- ing \bar "."
-%{HIDE>%} Cloud -- less joy with Me on high, %{<HIDE%} \bar "."
+Cloud -- less joy with Me on high, \bar "."
 Cloud -- less joy with Me on high.” \bar "."
 
 }
@@ -122,8 +122,8 @@ Sins re -- count -- ing, death I fear -- ed,
 Loomed be -- fore me end -- less wrath.
 Now His voice, so sweet and ten -- der,
 Gen -- tly whis -- pers to my soul,
-\italicsOn “Trust, \italicsOff oh, trust in Me, thy Sav -- iour,
-%{HIDE>%} I am He who makes thee whole, %{<HIDE%}
+\italicsOn “Trust, \italicsOff oh, trust in Me, the Sav -- iour,
+I am He who makes thee whole,
 I am He who makes thee whole.”
 
 }
@@ -132,13 +132,13 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Can I doubt, Lord, when I view Thee
-In Thine hours of deep -- est woe?
+In Thine hours of deep -- est woe;
 Waves and bil -- lows roll -- ing o’er Thee,
-Sor -- row Thine none else could know.
-Doubt Thee, Je -- sus, will -- ing vic -- tim,
+Sor -- row Thine none else could know?
+Doubt Thee, Je -- sus, will -- ing vic -- tim
 In my stead on Cal -- v’ry’s tree!
-Oh, what love, Lord, all -- tran -- scend -- ing,
-%{HIDE>%} Led Thee there to die for me, %{<HIDE%}
+Oh, what love, Lord, all tran -- scend -- ing,
+Led Thee there to die for me,
 Led Thee there to die for me.
 
 }
@@ -153,7 +153,7 @@ To Thy match -- less, per -- fect grace;
 And thus trust -- ing, sim -- ply trust -- ing,
 Joy and peace my heart pos -- sess;
 Wait -- ing now for Thine own com -- ing,
-%{HIDE>%} Then to shine in end -- less bliss, %{<HIDE%}
+Then to shine in end -- less bliss,
 Then to shine in end -- less bliss.
 
 }

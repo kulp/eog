@@ -95,7 +95,7 @@ wordsB = \lyricmode {
 
 And while I’m wait -- ing, I’ll try to please Him
 In ev -- ery -- thing I do and say;
-And when I see Him, oh, how I’ll praise Him,
+And when I see Him, oh, how I’ll praise Him
 For wash -- ing all my sins a -- way.
 
 }

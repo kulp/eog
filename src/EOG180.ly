@@ -122,7 +122,7 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { Higher and higher yet! }
-\line { Pleading that same life-blood; }
+\line { Pleading that same lifeblood; }
 \line { We taste the love that knows no let, }
 \line { Of Abba, as of God. }
 

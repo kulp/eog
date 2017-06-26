@@ -155,8 +155,8 @@ This is the Sav -- iour for me.
 wordsD = \markuplist {
 
 \line { Loved with a love that’s unchanging, }
-\line { { \hspace #2 } Blessed with all blessings so free, }
-\line { How shall I tell out His praises! }
+\line { { \hspace #2 } Blest with all blessings so free, }
+\line { How shall I tell out His praises? }
 \line { { \hspace #2 } This is the Saviour for me. }
 
 }

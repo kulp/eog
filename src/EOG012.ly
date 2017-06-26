@@ -155,7 +155,7 @@ Nor heav’n nor earth can know!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Why per -- ish, then ye care -- less ones?
+Why per -- ish, then, ye care -- less ones?
 Why slight the gra -- cious call?
 Why turn from Him whose words pro -- claim
 E -- ter -- nal life to all?
@@ -167,7 +167,7 @@ wordsD = \lyricmode {
 
 O Sav -- iour, melt these hearts of theirs,
 And bring them to be -- lieve
-That who -- so -- ev -- er comes to Thee,
+That who -- so -- ev -- er comes to Thee
 Shall end -- less life re -- ceive.
 
 }

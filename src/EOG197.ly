@@ -104,7 +104,7 @@ wordsA = \lyricmode {
 
 The Sav -- iour is com -- ing, \bar "."
 The mo -- ment is near; \bar "."
-The bright Star of Morn -- ing \bar "."
+The bright Star of morn -- ing \bar "."
 Will quick -- ly ap -- pear. \bar "."
 Then will His be -- loved ones \bar "."
 With swift -- ness a -- rise, \bar "."

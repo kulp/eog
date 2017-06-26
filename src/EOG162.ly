@@ -86,7 +86,7 @@ wordsA = \lyricmode {
 O Lord! ’tis joy to look a -- bove, \bar "."
 And see Thee on the throne, \bar "." \break
 To search the heights and depths of love \bar "."
-Which Thou to us hast shown; \bar "."
+Which Thou to us hast shown. \bar "." % XXX blue book puts full stop, but next stanza is not a complete sentence
 
 }
 
@@ -106,7 +106,7 @@ wordsC = \lyricmode {
 And, oh! ’tis joy the path to trace,
 By Thee so meek -- ly trod;
 Learn -- ing of Thee to walk in grace,
-And fel -- low -- ship with God!
+And fel -- low -- ship with God.
 
 }
 
@@ -115,7 +115,7 @@ wordsD = \lyricmode {
 
 Joy to con -- fess Thy bless -- ed name,
 The vir -- tues of Thy blood,
-And to the wear -- ied heart pro -- claim
+And to the wear -- ied heart pro -- claim,
 Be -- hold the Lamb of God!
 
 }

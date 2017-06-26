@@ -96,12 +96,12 @@ wordsA = \lyricmode {
 
 O Head once full of bruis -- es, \bar "."
 So full of pain and scorn, \bar "."
-’Mid oth -- er sore a -- bus -- es, \bar "."
+Mid oth -- er sore a -- bus -- es, \bar "."
 Mocked with a crown of thorn; \bar "."
 O Head e’en now sur -- round -- ed \bar "."
 With bright -- est ma -- jes -- ty, \bar "."
 In death once bowed and wound -- ed \bar "."
-On the ac -- curs -- ed tree: \bar "."
+On the ac -- curs -- ed tree. \bar "." % XXX blue book puts full stop here but the sentence hasn't ended
 
 }
 
@@ -125,10 +125,10 @@ wordsC = \lyricmode {
 We give Thee thanks un -- feign -- ed,
 O Sav -- iour, Friend in need,
 For what Thy soul sus -- tain -- ed
-When Thou for us dist bleed.
+When Thou for us didst bleed.
 Grant us to lean un -- sha -- ken
 Up -- on Thy faith -- ful -- ness,
-Un -- til to glo -- ry ta -- ken,
+Un -- til, to glo -- ry ta -- ken,
 We see Thee face to face.
 
 }

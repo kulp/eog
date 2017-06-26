@@ -98,7 +98,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 This is my sto -- ry, this is my song, \bar "."
-Prais -- ing my Sav -- iour all the day long; \bar "."
+Prais -- ing my Sav -- iour all the day long. \bar "."
 This is my sto -- ry, this is my song, \bar "."
 Prais -- ing my Sav -- iour all the day long. \bar "."
 
@@ -120,7 +120,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Per -- fect sal -- va -- tion, all is at rest,
-I in my Sav -- iour am hap -- py and blest,
+I in my Sav -- iour am hap -- py and blest;
 Watch -- ing and wait -- ing, look -- ing a -- bove,
 Fill’d with His good -- ness, lost in His love.
 

@@ -125,7 +125,7 @@ wordsA = \lyricmode {
 
 News for lit -- tle chil -- dren! \bar "."
 Oh! how sweet the sound, \bar "."
-Roll -- ing in its ful -- ness \bar "."
+Roll -- ing in its full -- ness \bar "."
 To earth’s far -- thest bound! \bar "."
 News of God’s sal -- va -- tion, \bar "."
 Bless -- ings from a -- bove, \bar "."
@@ -138,7 +138,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Love for lit -- tle chil -- dren!
-Sent from God’s own throne,
+Sent from God’s own throne;
 Love! how sweet the tid -- ings
 Each can make his own;
 Love that mak -- eth hap -- py,

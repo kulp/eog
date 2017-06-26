@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 
 Se -- cure with -- in the veil
 Christ is our an -- chor strong;
-While power su -- preme, and love di -- vine
+While power su -- preme and love di -- vine
 Still guide us safe a -- long.
 
 }

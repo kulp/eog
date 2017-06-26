@@ -155,7 +155,7 @@ wordsC = \lyricmode {
 Will your an -- chor hold in the floods of death,
 { \mon } When the { \moff } wa -- ters { \mon } cold chill { \moff } your lat -- est breath?
 On the ris -- ing tide you can nev -- er fail
-While your an -- chor holds with -- in the vail.
+While your an -- chor holds with -- in the veil.
 
 }
 

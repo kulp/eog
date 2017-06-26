@@ -99,9 +99,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “Al -- most per -- suad -- ed” now to be -- lieve; \bar "."
-“Al -- most per -- suad -- ed:” Christ to re -- ceive; \bar "."
-Seems now some soul to say? \bar "."
-“Go, Spi -- rit, go Thy way: \bar "."
+“Al -- most per -- suad -- ed” Christ to re -- ceive; \bar "."
+Seems now some soul to say, \bar "."
+“Go, Spi -- rit, go Thy way, \bar "."
 Some more con -- ve -- nient day \bar "."
 On Thee I’ll call.” \bar "."
 
@@ -110,23 +110,23 @@ On Thee I’ll call.” \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Al -- most per -- suad -- ed:” come, come to -- day!
-“Al -- most per -- suad -- ed:” turn not a -- way!
+“Al -- most per -- suad -- ed,” come, come to -- day;
+“Al -- most per -- suad -- ed,” turn not a -- way;
 Je -- sus in -- vites you here,
 List to His voice so clear
-Now fall -- ing on thine ear:
-Come, wan -- derer, come!
+Now fall -- ing on thine ear;
+“Come, wan -- derer, come!”
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“Al -- most per -- suad -- ed:” har -- vest is past!
-“Al -- most per -- suad -- ed:” doom comes at last!
+“Al -- most per -- suad -- ed,” har -- vest is past!
+“Al -- most per -- suad -- ed,” doom comes at last!
 “Al -- most” can -- not a -- vail;
-“Al -- most” is but to fail;
-Sad, sad that bit -- ter wail–
+“Al -- most” is but to fail!
+Sad, sad, that bit -- ter wail–
 “Al -- most”– but lost!
 
 }

@@ -129,9 +129,9 @@ wordsC = \lyricmode {
 How glad -- ly does Je -- sus
 Free par -- don im -- part
 To all who re -- ceive Him
-By faith in their heart:
+By faith in their heart;
 And glo -- ry is for them,
-Their home is a -- bove:
+Their home is a -- bove;
 Soon Je -- sus will fetch them
 To dwell in His love.
 

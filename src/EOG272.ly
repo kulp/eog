@@ -117,7 +117,7 @@ Thou art com -- ing, faith -- ful Sav -- iour, \bar "."
 Thou couldst not a -- bide a -- lone. \bar "."
 In Thy Fa -- ther’s house in glo -- ry, \bar "."
 Sin -- ners saved shall dwell with Thee; \bar "."
-Oh, the sweet -- ness of the sto -- ry; \bar "."
+Oh, the sweet -- ness of the sto -- ry, \bar "."
 Love’s own rec -- ord we shall be. \bar "."
 
 }
@@ -125,7 +125,7 @@ Love’s own rec -- ord we shall be. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Once thy com -- ing, ho -- ly Sav -- iour,
+Once Thy com -- ing, ho -- ly Sav -- iour,
 Ex -- pi -- a -- tion made for sin;
 Won -- drous com -- ing, low -- ly Sav -- iour,
 Won -- drous Child in Beth -- le -- hem.
@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 
 Thou art com -- ing, gra -- cious Sav -- iour,
 Ah, to see Thy face we long;
-Thou art com -- ing, bless -- ed Sav -- iour,
+Thou art com -- ing, bless -- ed Sav -- iour, % XXX blue book has comma after blessed
 Right -- ing all cre -- a -- tion’s wrong.
 Na -- tion ris -- es a -- gainst na -- tion,
 Trou -- ble spreads from shore to shore.

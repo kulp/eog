@@ -114,7 +114,7 @@ When the last tear shall dim our eyes,
 When He will wipe these tears a -- way,
 And fill our hearts with glad sur -- prise;
 To hear His voice, and see His face,
-And know the ful -- ness of His grace.
+And know the full -- ness of His grace.
 
 }
 

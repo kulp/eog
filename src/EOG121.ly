@@ -91,9 +91,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“All things are rea -- dy,” Come, \bar "."
+“All things are rea -- dy,” come, \bar "."
 Come to the sup -- per spread; \bar "." \break
-Come rich and poor, come old and young, \bar "."
+Come, rich and poor; come, old and young; \bar "."
 Come, and be rich -- ly fed. \bar "." \break
 
 }
@@ -101,7 +101,7 @@ Come, and be rich -- ly fed. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“All things are rea -- dy,” Come,
+“All things are rea -- dy,” come,
 
 The in -- vi -- ta -- tion’s given,
 Through Him who now in glo -- ry sits
@@ -112,27 +112,27 @@ At God’s right hand in heaven.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“All things are rea -- dy,” Come,
+“All things are rea -- dy,” come,
 The door is o -- pen wide;
-Oh feast up -- on the love of God,
+Oh, feast up -- on the love of God,
 For Christ His Son has died.
 
 }
 
 wordsD = \markuplist {
 
-\line { “All things are ready,” Come, }
+\line { “All things are ready,” come, }
 \line { All hindrance is removed; }
-\line { And God in Christ, His precious love, }
+\line { And God, in Christ, His precious love }
 \line { To fallen man has proved. }
 
 }
 
 wordsE = \markuplist {
 
-\line { “All things are ready,” Come, }
+\line { “All things are ready,” come, }
 \line { Tomorrow may not be; }
-\line { O sinner, come, the Saviour waits }
+\line { O sinner, come; the Saviour waits }
 \line { This hour to welcome thee! }
 
 }

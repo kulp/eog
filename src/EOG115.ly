@@ -125,7 +125,7 @@ wordsB = \lyricmode {
 Him -- self He could not save,
 For just -- ice must be done;
 And sin’s full weight must fall
-Up -- on a sin -- less One;
+Up -- on the sin -- less One;
 For noth -- ing less can God ac -- cept
 In pay -- ment of that fear -- ful debt.
 

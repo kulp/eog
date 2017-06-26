@@ -101,8 +101,8 @@ notesBass = {
 Refrain = \lyricmode {
 
 Lead me, lead me, \bar "."
-Sav -- iour, lead me lest I stray;__ \bar "."
-Gen -- tly down the stream of time, \bar "."
+Sav -- iour, lead me, lest I stray;__ \bar "."
+Gen -- tly down the stream of time \bar "."
 Lead me, Sav -- iour, all the way. \bar "."
 
 }

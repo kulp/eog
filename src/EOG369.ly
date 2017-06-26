@@ -121,12 +121,13 @@ notesBass = {
 Refrain = \lyricmode {
 
 Wide, wide as the o -- cean, \bar "."
-High as the { \mon } heav -- ens { \moff } a -- bove; \bar "."
+High as the { \mon } heav -- ens { \moff } a -- bove, \bar "."
 Deep, deep as the deep -- est sea, \bar "."
-Is my Sav -- iour’s love; \bar "."
+Is my Sav -- iour’s love. \bar "."
 I, tho’ so un -- wor -- thy, \bar "."
 Still am a child of His care, \bar "."
-For His Word teach -- es me that His love reach -- es me \bar "."
+For His Word teach -- es me \bar "."
+That His love reach -- es me \bar "."
 Ev -- ’ry -- where. \bar "."
 
 }
@@ -135,8 +136,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 I claim for my own a King on a throne, \bar "."
-The Mak -- er of land and of sea, \bar "."
-Whose throne is on high; He ev -- er is nigh, \bar "."
+The Mak -- er of land and of sea; \bar "."
+Whose throne is on high, who ev -- er is nigh, \bar "."
 To love and care for me. \bar "."
 
 }
@@ -185,7 +186,7 @@ His care,
 extraA = \markuplist {
 
 \line { He left His bright home, His glorious throne, }
-\line { { \hspace #2 } To die upon Calvary’s tree, }
+\line { { \hspace #2 } To die upon Calvary’s tree; }
 \line { His blood there was spilt, to cleanse me from guilt, }
 \line { { \hspace #2 } He died– He lives for me. }
 
@@ -195,7 +196,7 @@ extraB = \markuplist {
 
 \line { The path is marked out, till called by the shout, }
 \line { { \hspace #2 } To meet with my Lord in the air. }
-\line { The Spirit’s the power, to walk till that hour,– }
+\line { The Spirit’s the power, to walk till that hour, }
 \line { { \hspace #2 } The object of God’s care. }
 
 }

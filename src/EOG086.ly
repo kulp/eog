@@ -111,9 +111,9 @@ Bound -- less mer -- cy flows for thee. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Hark! the Sav -- iour’s voice from heav -- en, \bar "."
+Hark! the Sav -- iour’s voice from heav -- en \bar "."
 Speak -- ing par -- don full and free; \bar "."
-Come, and thou shalt be for -- giv -- en, \bar "."
+Come, and thou shalt be for -- giv -- en; \bar "."
 Bound -- less mer -- cy flows for thee. \bar "."
 
 }
@@ -123,7 +123,7 @@ wordsB = \lyricmode {
 
 See the heal -- ing foun -- tain spring -- ing
 From the Sav -- iour on the tree;
-Par -- don, peace and cleans -- ing bring -- ing;
+Par -- don, peace and cleans -- ing bring -- ing,
 Lost one, loved one, ’tis for thee.
 
 \Refrain
@@ -133,7 +133,7 @@ Lost one, loved one, ’tis for thee.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Hear His love and mer -- cy speak -- ing–
+Hear His love and mer -- cy speak -- ing,
 Come and trust thy soul with Me;
 Though thy heart for sin be break -- ing,
 I have rest and peace for thee.
@@ -144,8 +144,8 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Ev -- ery sin shall be for -- giv -- en,
-Thou thro’ grace a child shall be,
-Child of God and heir of heav -- en;
+Thou, thro’ grace, a child shalt be;
+Child of God, and heir of heav -- en,
 Yes, a man -- sion waits for thee.
 
 }

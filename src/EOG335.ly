@@ -122,16 +122,16 @@ wordsA = \lyricmode {
 I am so glad that our Fa -- ther in heav’n \bar "."
 Tells of His love in the Book He has giv’n; \bar "."
 Won -- der -- ful things in the Bi -- ble I see; \bar "."
-This is the dear -- est that Je -- sus loves me. % \bar "."
+This is the dear -- est, that Je -- sus loves me. % \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Though I for -- get Him, and wan -- der a -- way,
-Still He doth love me wher -- ev -- er I stray;
-Back to His dear, lov -- ing arms would I flee,
+Though I for -- get Him and wan -- der a -- way,
+Still He does love me wher -- ev -- er I stray;
+Back to His dear, lov -- ing arms would I flee
 When I re -- mem -- ber that Je -- sus loves me.
 
 \Refrain
@@ -141,8 +141,8 @@ When I re -- mem -- ber that Je -- sus loves me.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus loves me and I know I love Him;
-Love bro’t Him down my lost soul to re -- deem;
+Je -- sus loves me, and I know I love Him,
+Love bro’t Him down my poor soul to re -- deem;
 Yes, it was love made Him die on the tree;
 Oh, I am cer -- tain that Je -- sus loves me.
 

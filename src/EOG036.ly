@@ -122,14 +122,14 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Strick -- en, smit -- ten, and af -- flict -- ed,” \bar "."
+“Strick -- en, smit -- ten and af -- flict -- ed,” \bar "."
 See Him dy -- ing on the tree! \bar "."
 ’Tis the Christ by man re -- ject -- ed! \bar "."
 Yes, my soul, ’tis He! ’tis He! \bar "."
 Mark the sac -- ri -- fice ap -- point -- ed! \bar "."
 See who bears the aw -- ful load! \bar "."
-’Tis the Word, ’tis God’s A -- noint -- ed, \bar "."
-–Son of Man, and Son of God. \bar "."
+’Tis the Word, ’tis God’s A -- noint -- ed– \bar "."
+Son of Man and Son of God. \bar "."
 
 }
 

@@ -119,9 +119,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-That means me, \bar "."
-That means me, \bar "."
-“Who -- so -- ev -- er will be -- lieve,” and that means me, \bar "." % TODO check end punctuation against blue book
+That means me, that means me, \bar "."
+“Who -- so -- ev -- er will be -- lieve,” and that means me; \bar "."
 I am so ve -- ry glad be -- cause the Sav -- iour said, \bar "."
 “Who -- so -- ev -- er will be -- lieve,” and that means me. \bar "."
 
@@ -130,13 +129,13 @@ I am so ve -- ry glad be -- cause the Sav -- iour said, \bar "."
 wordsA = \lyricmode {
 \set stanza = "1." % original does not have stanza numbers
 
-A mes -- sage came from heav -- en, \bar "."
+A mes -- sage came from heav -- en \bar "."
 To cheer my heart one day; \bar "."
 It set the joy -- bells ring -- ing, \bar "."
 And chased my gloom a -- way. \bar "."
-’Twas in the Ho -- ly Bi -- ble, \bar "."
-John’s gos -- pel, chap -- ter three, \bar "."
-Verse six -- teen I dis -- cov -- ered, \bar "."
+’Twas in the ho -- ly Bi -- ble, \bar "."
+John’s Gos -- pel, chap -- ter three, \bar "."
+Verse six -- teen I dis -- cov -- ered \bar "."
 Was writ -- ten there for me. \bar "."
 
 }
@@ -144,11 +143,11 @@ Was writ -- ten there for me. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-I read the won -- drous sto -- ry,
-How God in heav -- en high,
-So loved a world of sin -- ners
+I read the won -- drous sto -- ry
+How God in heav -- en high
+So loved a world of sin -- ners,
 He sent His Son to die;
-And that word “Who -- so -- ev -- er,”
+And that word “who -- so -- ev -- er,”
 Be -- liev -- ing I could see,
 Though meant for ev -- ery -- bod -- y,
 Was most -- ly meant for me.

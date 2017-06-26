@@ -132,7 +132,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Down from the glo -- ry came God’s bless -- ed Son, \bar "."
-Lost ones { \break } to save, lost ones to save, \bar "."
+Lost ones { \break } to save, lost ones to save; \bar "."
 Went in -- to death and the vic -- to -- ry won, \bar "." { \break }
 Tri -- um -- phant rose from the grave. __ \bar "."
 
@@ -144,7 +144,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Sin’s bit -- ter judg -- ment He bore on the tree,
-Dy -- ing to save, dy -- ing to save,
+Dy -- ing to save, dy -- ing to save;
 So that the sin -- ner might just -- ly go free,
 His pre -- cious blood Je -- sus gave. __
 
@@ -155,10 +155,10 @@ His pre -- cious blood Je -- sus gave. __
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Sin -- ner, God bids thee, on Je -- sus be -- lieve,
-Now while you may, now while you may,
+Sin -- ner, God bids thee on Je -- sus be -- lieve,
+Now while you may, now while you may;
 Peace and sal -- va -- tion through Him you’ll re -- ceive,
-Do not, o, do not de -- lay! __
+Do not, oh, do not de -- lay! __
 
 \RefrainC
 

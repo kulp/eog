@@ -97,7 +97,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Why un -- be -- liev -- ing? { \bar "." } why wilt thou spurn \bar "."
+Why un -- be -- liev -- ing? { \bar "." } Why wilt thou spurn \bar "."
 Love that so gen -- tly { \bar "." } pleads thy re -- turn? \bar "."
 Come, ere thy fleet -- ing day \bar "."
 Fades in -- to night a -- way; \bar "."
@@ -110,10 +110,10 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Why not, be -- liev -- ing, come to the Lord?
-Trust in the Sav -- iour, doubt not His word,
+Trust in the Sav -- iour, doubt not His Word;
 Think ’twas for thee He died,
 Think of Him cru -- ci -- fied;
-Now to the Glo -- ri -- fied;
+Now to the Glo -- ri -- fied,
 To Je -- sus come.
 
 }
@@ -121,9 +121,8 @@ To Je -- sus come.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Why un -- be -- liev -- ing? thou canst be blessed,
-Je -- sus will par -- don,
-He’ll give thee rest.
+Why un -- be -- liev -- ing? Thou canst be blest,
+Je -- sus will par -- don, He’ll give thee rest.
 Why wilt thou lon -- ger wait?
 Haste to the o -- pen gate,
 Come ere it be too late,
@@ -134,7 +133,7 @@ To Je -- sus come.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Why un -- be -- liev -- ing? tri -- fle no more;
+Why un -- be -- liev -- ing? Tri -- fle no more;
 Death may be near thee, e’en at thy door.
 Come with a brok -- en heart,
 Come help -- less as thou art,

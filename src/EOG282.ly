@@ -95,12 +95,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-What a Friend we have in Je -- sus, \bar "."
+What a friend we have in Je -- sus, \bar "."
 All our sins and griefs to bear; \bar "."
 What a priv -- i -- lege to car -- ry \bar "."
-Ev -- ’ry -- thing to God in prayer. \bar "."
+Ev -- ’ry -- thing to God in prayer! \bar "."
 Oh, what peace we oft -- en for -- feit, \bar "."
-Oh, what need -- less pain we bear; \bar "."
+Oh, what need -- less pain we bear, \bar "."
 All be -- cause we do not car -- ry \bar "."
 Ev -- ’ry -- thing to God in prayer. \bar "."
 
@@ -111,11 +111,11 @@ wordsB = \lyricmode {
 
 Have we tri -- als and temp -- ta -- tions?
 Is there troub -- le an -- y -- where?
-We should nev -- er be dis -- cour -- aged;
+We should nev -- er be dis -- cour -- aged:
 Take it to the Lord in prayer.
-Can we find a Friend so faith -- ful,
+Can we find a friend so faith -- ful
 Who will all our sor -- rows share?
-Je -- sus knows our ev -- ’ry weak -- ness–
+Je -- sus knows our ev -- ’ry weak -- ness;
 Take it to the Lord in prayer.
 
 }
@@ -123,13 +123,13 @@ Take it to the Lord in prayer.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Are we weak and heav -- y -- la -- den,
+Are we weak and heav -- y la -- den,
 Cum -- bered with a load of care?
-Pre -- cious Sav -- iour, still our ref -- uge,–
+Pre -- cious Sav -- iour, still our ref -- uge;
 Take it to the Lord in prayer.
-Do thy friends de -- spise, for -- sake thee?–
+Do thy friends de -- spise, for -- sake thee?
 Take it to the Lord in prayer;
-In His arm He’ll take and shield thee,
+In His arms He’ll take and shield thee;
 Thou wilt find a sol -- ace there.
 
 }

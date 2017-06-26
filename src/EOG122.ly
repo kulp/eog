@@ -117,7 +117,7 @@ A vic -- tim on the tree, \bar "." \break
 For sin -- ners He was cru -- ci -- fied, \bar "."
 To set them free; \bar "." \break
 He bore the right -- eous stroke \bar "."
-Of God’s right hand of pow’r \bar "." \break
+Of God’s right hand of pow’r, \bar "." \break
 O’er Him the waves and bil -- lows broke, \bar "."
 In that dark hour. \bar "." \break
 
@@ -140,14 +140,14 @@ O’er all as Head.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-The Fa -- ther runs to meet,
+The Fa -- ther runs to meet
 His lost and guil -- ty son;
-The robe, the ring, the san -- dled feet,
+The robe, the ring, the san -- daled feet,
 Tell what He’s done;
-“The fat -- ted calf” bring here,
+“The fat -- ted calf bring here,
 ’Tis meet we mer -- ry be,
 My son far off, is now brought near–
-Re -- joice with Me.
+Re -- joice with Me.”
 
 }
 
@@ -156,7 +156,7 @@ wordsD = \lyricmode {
 
 Come, guil -- ty sin -- ner, come,
 Why wilt thou still de -- lay?
-With -- in the Fa -- ther’s house there’s room;
+With -- in the Fa -- ther’s house there’s room,
 Christ is the way;
 The Fa -- ther’s kiss still waits,
 For thee His heart doth mourn,

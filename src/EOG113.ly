@@ -119,7 +119,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-On -- ly a step, On -- ly a step; \bar "."
+On -- ly a step, on -- ly a step; \bar "."
 Come, He waits for thee; \bar "."
 Come, and thy sin con -- fess -- ing, \bar "."
 Thou shalt re -- ceive a bless -- ing; \bar "."
@@ -133,8 +133,8 @@ wordsA = \lyricmode {
 
 On -- ly a step to Je -- sus! \bar "."
 Then why not take it now? \bar "."
-Come, and, thy sin con -- fess -- ing, \bar "."
-To Him, thy Sav -- iour bow. \bar "." % original has "Thy"
+Come, and thy sin con -- fess -- ing, \bar "."
+To Him, the Sav -- iour, bow. \bar "."
 
 }
 
@@ -164,7 +164,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 On -- ly a step to Je -- sus!
-Oh why not come, and say,
+Oh, why not come and say,
 Glad -- ly to Thee, my Sav -- iour,
 I give my -- self to -- day.
 

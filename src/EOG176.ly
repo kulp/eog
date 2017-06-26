@@ -9,7 +9,7 @@
 
 \header{
   hymnnumber = "176"
-  title = "Oh What a Debt We Owe"
+  title = "Oh, What a Debt We Owe"
   tunename = "Silchester"
   meter = "S. M."
   poet = "G. V. Wigram"
@@ -80,7 +80,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh what a debt we owe \bar "."
+Oh, what a debt we owe \bar "."
 To Him who shed His blood, \bar "."
 And cleansed our souls and gave us power \bar "."
 To stand be -- fore His God. \bar "."
@@ -90,7 +90,7 @@ To stand be -- fore His God. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Sav -- iour and Lord! we own
+Sav -- iour and Lord! We own
 The rich -- es of Thy grace;
 For we can call Thy God, our God–
 Can bow be -- fore His face.
@@ -101,7 +101,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Thy Fa -- ther, too, a -- bove,
-We wor -- ship as our own,
+We wor -- ship as our own;
 Who gave with Thee the Spir -- it’s cry,
 To us His sons fore -- known.
 

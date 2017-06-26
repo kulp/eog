@@ -135,9 +135,9 @@ Wick -- ed men de -- spised and slew,
 On the cru -- el cross they nailed Him,
 With a spear they pierced Him, too.
 “It is fin -- ished!” said the Sav -- iour;
-Well He knew His work was done,
-He for sin had made a -- tone -- ment
-He God’s ho -- ly, spot -- less Son.
+Well He knew His work was done;
+He for sin had made a -- tone -- ment,
+He, God’s ho -- ly, spot -- less Son.
 
 }
 

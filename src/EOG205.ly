@@ -80,16 +80,16 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 A -- sleep in Je -- sus, bless -- ed sleep! \bar "."
-From which none ev -- er wakes to weep: \bar "."
+From which none ev -- er wakes to weep; \bar "."
 A calm and un -- dis -- turbed re -- pose, \bar "."
-Where pow’r -- less is the last of foes! \bar "."
+Where pow’r -- less is the last of foes. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-A -- sleep in Je -- sus, oh how sweet
+A -- sleep in Je -- sus; oh, how sweet
 To be for such a slum -- ber meet,
 With ho -- ly con -- fi -- dence to sing
 That death has lost its ven -- omed sting!

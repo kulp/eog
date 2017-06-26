@@ -98,9 +98,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 That res -- ur -- rec -- tion word, \bar "."
-That shout of vic -- to -- ry \bar "." \break
+That shout of vic -- to -- ry– \bar "." \break
 Once more: “For -- ev -- er with the Lord.” \bar "."
-A -- men so let it be. \bar "." \break
+A -- men, so let it be. \bar "." \break
 
 }
 
@@ -118,7 +118,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Then as we up -- ward fly,
-That res -- ur -- rec -- tion word
+The res -- ur -- rec -- tion word
 Shall be our shout of vic -- to -- ry,
 “For -- ev -- er with the Lord.”
 

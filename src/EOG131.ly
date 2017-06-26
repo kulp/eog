@@ -95,7 +95,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 In -- scribed up -- on the cross we see,
-In shin -- ing let -- ters, “GOD IS LOVE!”
+In shin -- ing let -- ters, “God is love”!
 The Lamb who died up -- on the tree
 Has brought us mer -- cy from a -- bove.
 
@@ -113,7 +113,7 @@ And sweet -- ens ev -- ery bit -- ter cup.
 
 wordsD = \markuplist {
 
-\line { It makes the coward spirit brave }
+\line { It makes the coward spirit brave, }
 \line { And nerves the feeble arm for fight; }
 \line { It takes its terror from the grave, }
 \line { And gilds the bed of death with light. }

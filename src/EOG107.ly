@@ -107,19 +107,19 @@ notesBass = {
 Refrain = \lyricmode {
 
 Why not to -- night? Why not to -- night? \bar "."
-Thou wouldst be saved, why not to -- night? \bar "."
+Thou wouldst be saved: Why not to -- night? \bar "."
 Why not to -- night? Why not to -- night? \bar "."
-Thou wouldst be saved, why not to -- night? \bar "."
+Thou wouldst be saved: Why not to -- night? \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh do not let the word de -- part, \bar "."
+Oh, do not let the word de -- part, \bar "."
 And close thine eye a -- gainst the light! \bar "."
 Poor sin -- ner, har -- den not thine heart; \bar "."
-Thou wouldst be saved, why not to -- night? \bar "."
+Thou wouldst be saved: Why not to -- night? \bar "."
 
 }
 
@@ -127,9 +127,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 To -- mor -- row’s sun may nev -- er rise
-To bless thy long de -- lud -- ed sight;
+To bless thy long -- de -- lud -- ed sight;
 This is the time, oh, then, be wise;
-Thou wouldst be saved, why not to -- night?
+Thou wouldst be saved: Why not to -- night?
 
 \Refrain
 
@@ -139,9 +139,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Our God in pi -- ty ling -- ers still,
-And will thou thus His love re -- quite?
+And wilt thou thus His love re -- quite?
 Re -- nounce at length thy stub -- born will;
-Thou wouldst be saved, why not to -- night?
+Thou wouldst be saved: Why not to -- night?
 
 }
 
@@ -151,7 +151,7 @@ wordsD = \lyricmode {
 The world has noth -- ing new to give,
 It has no true, no pure de -- light.
 Look now to Je -- sus Christ and live!
-Thou wouldst be saved, why not to -- night?
+Thou wouldst be saved: Why not to -- night?
 
 }
 

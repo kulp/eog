@@ -94,7 +94,7 @@ Hap -- py they who trust in Je -- sus; \bar "."
 Sweet their por -- tion is and sure; \bar "."
 When the foe on oth -- ers seiz -- es, \bar "."
 He will keep His own se -- cure. \bar "."
-Hap -- py peo -- ple, %{HIDE>%} hap -- py peo -- ple; %{<HIDE%} \bar "."
+Hap -- py peo -- ple; hap -- py peo -- ple; \bar "."
 Hap -- py, tho’ de -- spised and poor. \bar "."
 
 }
@@ -106,7 +106,7 @@ Since His love and mer -- cy found us,
 We are pre -- cious in His sight;
 Thou -- sands now may fall a -- round us,
 Thou -- sands more be put to flight;
-But His pres -- ence, %{HIDE>%} but His pres -- ence, %{<HIDE%}
+But His pres -- ence, but His pres -- ence,
 Keeps us safe by day and night.
 
 }
@@ -118,8 +118,8 @@ Lo! our Sav -- iour nev -- er slum -- bers,
 Ev -- er watch -- ful is His care;
 Tho’ we can -- not boast of num -- bers,
 In His strength se -- cure we are.
-Sweet their por -- tion, %{HIDE>%} sweet their por -- tion, %{<HIDE%}
-Who our Sav -- iour’s kind -- ness share!
+Sweet their por -- tion, sweet their por -- tion,
+Who our Sav -- iour’s kind -- ness share.
 
 }
 
@@ -130,7 +130,7 @@ As the bird, be -- neath her feath -- ers,
 Guards the ob -- jects of her care,
 So the Lord His chil -- dren gath -- ers,
 Spreads His wings and hides them there.
-Thus pro -- tect -- ed, %{HIDE>%} thus pro -- tect -- ed, %{<HIDE%}
+Thus pro -- tect -- ed, thus pro -- tect -- ed,
 All their foes they bold -- ly dare.
 
 }

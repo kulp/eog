@@ -112,7 +112,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Je -- sus seeks the lit -- tle ones,
-Wan -- d’ring far in sin:
+Wan -- d’ring far in sin;
 They lit -- tle know the { \mon } pa -- tient { \moff } love
 That seeks their souls to win,
 And save lost lit -- tle ones.
@@ -122,7 +122,7 @@ And save lost lit -- tle ones.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus died for lit -- tle ones
+Je -- sus died for lit -- tle ones,
 On that dread -- ful tree;
 And then what bit -- ter { \mon } pain He { \moff } bore,
 And un -- told ag -- o -- ny,
@@ -144,7 +144,7 @@ And are His lit -- tle ones.
 wordsE = \markuplist {
 
 \line { Jesus thinks of little ones }
-\line { { \hspace #2 } All the night and day,– }
+\line { { \hspace #2 } All the night and day, }
 \line { And all the time they’re sleeping, }
 \line { { \hspace #2 } And while they are at play, }
 \line { { \hspace #4 } And guards His little ones. }

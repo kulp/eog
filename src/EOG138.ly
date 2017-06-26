@@ -125,7 +125,7 @@ Send the pro -- cla -- ma -- tion o -- ver vale and hill. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Who -- so -- ev -- er hear -- eth!” shout, shout the sound! \bar "."
+“Who -- so -- ev -- er hear -- eth,” shout, shout the sound! \bar "."
 Send the bless -- ed ti -- dings all the world a -- round; \bar "."
 Spread the joy -- ful news wher -- ev -- er man is found, \bar "."
 “Who -- so -- ev -- er will may come.” \bar "."
@@ -137,7 +137,7 @@ wordsB = \lyricmode {
 
 Who -- so -- ev -- er com -- eth must not de -- lay;
 Now the door is o -- pen, en -- ter while you may;
-Je -- sus is the true, the on -- ly Liv -- ing Way,
+Je -- sus is the true, the on -- ly liv -- ing Way:
 “Who -- so -- ev -- er will may come.”
 
 \Refrain

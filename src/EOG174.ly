@@ -106,7 +106,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Mer -- cy and truth u -- nite,
-Oh! ’tis a won -- drous sight,
+Oh, ’tis a won -- drous sight,
 All sights a -- bove!
 Je -- sus the curse sus -- tains!
 Guilt’s bit -- ter cup He drains!
@@ -123,7 +123,7 @@ Love that no thought can reach,
 No love like His.
 God is its bless -- ed source,
 Death ne’er can stop its course,
-Noth -- ing can stay its force;
+Noth -- ing can stay its force:
 Match -- less it is.
 
 }
@@ -134,7 +134,7 @@ wordsD = \lyricmode {
 Blest in this love, we sing;
 To God our prais -- es bring;
 All sins for -- given.
-Je -- sus, our Lord to Thee
+Je -- sus, our Lord, to Thee,
 Hon -- or and ma -- jes -- ty,
 Now and for -- ev -- er be,
 Here and in heaven.

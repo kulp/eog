@@ -120,7 +120,7 @@ What a day of joy ’t_will be,
 When His glo -- rious face they see!
 When His im -- age they will bear,
 %{HIDE>%} And His throne of glo -- ry share, %{<HIDE%}
-And His throne of glo -- ry share.
+And His throne of glo -- ry share!
 
 }
 

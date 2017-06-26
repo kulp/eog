@@ -108,7 +108,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 When He com -- eth, when He com -- eth, \bar "."
-To make up His jew -- els; \bar "."
+To make up His jew -- els, \bar "."
 All His jew -- els, pre -- cious jew -- els, \bar "."
 His loved and His own. \bar "."
 
@@ -117,7 +117,7 @@ His loved and His own. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-He will gath -- er, He will gath -- er,
+He will gath -- er, He will gath -- er
 The gems for His king -- dom;
 All the saved ones, all the bright ones,
 His loved and His own.

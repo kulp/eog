@@ -128,7 +128,7 @@ wordsB = \lyricmode {
 
 Some day my com -- ing Lord will call,
 I can -- not tell how soon ’t_will be,
-But this I know, my All in all
+But this I know, my “All in all”
 Has now a place in heav’n for me.
 
 \Refrain
@@ -139,7 +139,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Some day I’ll meet Him in the air,
-It may be morn, or noon, or night,
+It may be morn, or noon, or night;
 And this I know, His voice I’ll hear,
 And gaze up -- on His glo -- ry bright.
 
@@ -149,7 +149,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Some day, I know ’t_will not be long;
-He says, “Be -- hold, I quick -- ly come;”
+He says, “Be -- hold, I quick -- ly come”;
 Soon, soon I’ll join in heav -- en’s song,
 And dwell with Him in His bright home.
 

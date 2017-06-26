@@ -116,8 +116,8 @@ Those who are old -- er too,
 Make them Thine own;
 Give them af -- fec -- tions new,
 Make them Thine own;
-Now in their man -- hood prime,
-Now in sal -- va -- tion’s time,
+Now, in their man -- hood’s prime,
+Now, in sal -- va -- tion’s time,
 To Thee their hearts in -- cline,
 Make them Thine own.
 
@@ -132,7 +132,7 @@ Now may the lost be found,
 Make them Thine own;
 Soon must their jour -- ney end,
 Fast to the grave they wend;
-Fa -- ther their souls be -- friend,
+Fa -- ther, their souls be -- friend,
 Make them Thine own.
 
 }
@@ -143,11 +143,11 @@ wordsD = \lyricmode {
 Then shall they hap -- py be,
 All made Thine own;
 Shout then the vic -- to -- ry,
-All, all, Thine own;
+All, all Thine own!
 Sa -- tan shall lose his prey,
 Mer -- cy shall win the day;
-Each shall with rap -- ture say
-“All, all Thine own.”
+Each shall with rap -- ture say,
+“All, all Thine own!”
 
 }
 

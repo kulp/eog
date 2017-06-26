@@ -87,7 +87,8 @@ wordsA = \lyricmode {
 
 Who shall give me rest? \bar "."
 In my grief I cried. \bar "."
-Peace I found and hap -- pi -- ness at Je -- sus’ side. \bar "."
+Peace I found and hap -- pi -- ness \bar "."
+At Je -- sus’ side. \bar "."
 
 }
 
@@ -96,7 +97,8 @@ wordsB = \lyricmode {
 
 Yea, in Him are found
 All my joy and bliss,
-Life and light where all a -- round but dark -- ness is.
+Life and light, where all a -- round
+But dark -- ness is.
 
 }
 
@@ -105,7 +107,8 @@ wordsC = \lyricmode {
 
 Now with Him a -- lone
 Must my por -- tion be;
-He for -- ev -- er as His own has pur -- chased me.
+He for -- ev -- er as His own
+Has pur -- chased me.
 
 }
 
@@ -113,7 +116,8 @@ wordsD = \markuplist {
 
 \line { Hear His loving voice— }
 \line { { \hspace #2 } Jesus calleth still, }
-\line { Waits with heaven’s divinest } \line { { \hspace #2 } joys your heart to fill. }
+\line { Waits with heaven’s divinest joys }
+\line { { \hspace #2 } Your heart to fill. }
 
 }
 
@@ -121,7 +125,8 @@ wordsE = \markuplist {
 
 \line { In simplicity }
 \line { { \hspace #2 } Yield to Him your heart: }
-\line { Bliss with Him eternally } \line { { \hspace #2 } shall be your part! }
+\line { Bliss with Him eternally }
+\line { { \hspace #2 } Shall be your part! }
 
 }
 

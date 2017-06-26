@@ -95,13 +95,13 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Midst the dark -- ness, storm, and sor -- row, \bar "." % TODO Oxford comma here is not present in title
+Midst the dark -- ness, storm and sor -- row \bar "."
 One bright gleam I see; \bar "."
 Well I know, the bless -- ed mor -- row, \bar "."
 Christ will come for me. \bar "."
-Midst the light, and peace, and glo -- ry, \bar "."
-Of the Fa -- ther’s home; \bar "."
-Christ for me is watch -- ing, wait -- ing, \bar "."
+Midst the light, and peace, and glo -- ry \bar "."
+Of the Fa -- ther’s home, \bar "."
+Christ for me is watch -- ing, wait -- ing– \bar "."
 Wait -- ing till I come. \bar "."
 
 }
@@ -115,7 +115,7 @@ Is the foot -- fall thro’ the des -- ert,
 Ev -- er draw -- ing near.
 There made read -- y are the man -- sions,
 Glo -- rious, bright and fair;
-But the Bride the Fa -- ther gave Him
+But the bride the Fa -- ther gave Him
 Still is want -- ing there.
 
 }
@@ -128,7 +128,7 @@ Those bright courts a -- bove;
 He and I to -- geth -- er shar -- ing
 All the Fa -- ther’s love.
 Where no shade or stain can en -- ter,
-Nor the gold be dim,
+Or the gold be dim; % XXX blue book puts "Or" for "Nor"
 In that ho -- li -- ness un -- sul -- lied,
 I shall walk with Him.
 

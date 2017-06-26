@@ -149,7 +149,7 @@ wordsA = \lyricmode {
 Saved through the blood of Je -- sus, \bar "."
 Saved from the curse of sin, \bar "."
 Saved now to share Christ’s glo -- ry, \bar "."
-Are all who trust in Him, \bar "."
+Are all who trust in Him. \bar "."
 Joy is a -- mong the an -- gels, \bar "."
 And in the heart of God, \bar "."
 As each un -- wor -- thy sin -- ner \bar "."
@@ -162,10 +162,10 @@ wordsB = \lyricmode {
 
 Saved through the blood of Je -- sus,
 That great High Priest a -- bove,
-Who bears them on His shoul -- ders,
+Who bears them on His shoul -- ders
 And on His heart of love.
 No lamb shall ev -- er per -- ish,
-En -- trust -- ed to His care;
+En -- trust -- ed to His care,
 So those who trust in Je -- sus
 Are saved from doubt and fear.
 
@@ -193,7 +193,7 @@ wordsD = \lyricmode {
 Saved too to tell the sto -- ry
 To sin -- ners ev -- ’ry -- where,
 To tell of Christ in glo -- ry,
-Who bled and suf -- fered here,
+Who bled and suf -- fered here.
 Saved now to wait with pa -- tience,
 Look -- ing by faith a -- far,
 Till just be -- fore the dawn -- ing

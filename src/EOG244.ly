@@ -95,11 +95,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 One Priest a -- lone can par -- don me, \bar "."
-Or bid me “Go in peace,” \bar "."
-Can breathe that word “Ab -- sol -- vo te” \bar "."
+Or bid me, “Go in peace,” \bar "."
+Can breathe that word, “Ab -- sol -- vo te,” \bar "."
 And make these heart -- throbs cease; \bar "."
 My soul has heard His priest -- ly voice; \bar "."
-It said, “I bore thy sins, re -- joice!” \bar "."
+It said, “I bore thy sins; re -- joice!” \bar "."
 
 }
 
@@ -107,11 +107,11 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 He showed the spear -- mark in His side,
-The nail -- print on His palm:
+The nail -- print on His palm;
 Said, “Look on Me, the Cru -- ci -- fied;
 Why trem -- ble thus? Be calm!
 All pow’r is Mine– I set thee free–
-Be not a -- fraid– ‘Ab -- sol -- vo te.’”
+Be not a -- fraid– Ab -- sol -- vo te.”
 
 }
 
@@ -133,8 +133,8 @@ wordsD = \lyricmode {
 He robed me in a priest -- ly dress,
 That I might in -- cense bring
 Of prayer, and praise, and right -- eous -- ness,
-To heav’n’s E -- ter -- nal King;
-And when he gave this robe to me,
+To heav’n’s e -- ter -- nal King;
+And when He gave this robe to me,
 He smiled and said, “Ab -- sol -- vo te.”
 
 }
@@ -142,7 +142,7 @@ He smiled and said, “Ab -- sol -- vo te.”
 wordsE = \markuplist {
 
 \line { In heaven He stands before the throne, }
-\line { The Great High Priest above, }
+\line { The great High Priest above, }
 \line { “Melchisedec”– that One alone }
 \line { Can sin’s dark stain remove; }
 \line { To Him I look on bended knee, }
@@ -152,9 +152,9 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { “A little while!” and He shall come }
+\line { “A little while” and He shall come }
 \line { Forth from the inner shrine, }
-\line { To call His pardoned brethren home: }
+\line { To call His pardoned brethren home; }
 \line { Oh bliss supreme, divine! }
 \line { When every blood-bought child shall see }
 \line { The Priest who said, “Absolvo te.” }

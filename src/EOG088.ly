@@ -123,7 +123,7 @@ Se -- cure with -- out a hid -- ing place.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-And thus th’e -- ter -- nal coun -- sels ran,
+And thus the_e -- ter -- nal coun -- sels ran,
 “Al -- might -- y love, ar -- rest that man!”
 I felt the ar -- rows of dis -- tress,
 And found I had no hid -- ing place.

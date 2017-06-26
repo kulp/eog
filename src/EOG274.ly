@@ -119,7 +119,7 @@ More and more con -- formed to Thee.
 Changed from glo -- ry in -- to glo -- ry,
 Till in heav’n we take our place,
 Then to wor -- ship and a -- dore Thee,
-Lost in won -- der, love, and praise!
+Lost in won -- der, love and praise!
 
 }
 

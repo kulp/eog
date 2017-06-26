@@ -152,12 +152,12 @@ Shut out by hearts be -- low! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-No room for Thee! Thy love didst seek
+No room for Thee! Thy love did seek
 To win Thine own in vain;
-For they were proud and Thou wert meek–
+For they were proud and Thou wast meek–
 They would not let Thee reign.
 No room at last on earth for Thee,
-As ’neath the start -- led sky,
+As neath the start -- led sky,
 With cru -- el scourge and mock -- er -- y
 They led Thee forth to die.
 
@@ -186,7 +186,7 @@ wordsD = \lyricmode {
 
 No room for Him whose sac -- ri -- fice
 Can put thy guilt a -- way?
-O doubt -- ing soul, a -- rise, a -- rise–
+O doubt -- ing soul, a -- rise, a -- rise,
 Re -- ceive the Christ to -- day!
 His grace ex -- tol! His prais -- es sing!
 Make room for Him a -- lone!

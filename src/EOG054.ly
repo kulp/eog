@@ -122,7 +122,7 @@ Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell: \ba
 \mon But will \moff you be there, and I? \bar "."
 Will you be there, and I? \bar "."
 Will you be there, and I? \bar "."
-Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell: \bar "."
+Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell; \bar "."
 \mon But will \moff you be there, and I? \bar "."
 
 }
@@ -146,11 +146,11 @@ wordsC = \lyricmode {
 
 From ev -- ’ry king -- \mon dom of \moff earth they come
 To join \mon the tri -- \moff um -- phal cry,
-\mon Sing -- ing, \moff “Wor -- \mon thy the \moff Lamb that once was slain;”
+\mon Sing -- ing, \moff “Wor -- \mon thy the \moff Lamb that once was slain”;
 \mon But will \moff you be there, and I?
 Will you be there, and I?
 Will you be there, and I?
-\mon Sing -- ing, \moff “Wor -- \mon thy the \moff Lamb that once was slain;”
+\mon Sing -- ing, \moff “Wor -- \mon thy the \moff Lamb that once was slain”;
 \mon But will \moff you be there, and I?
 
 }

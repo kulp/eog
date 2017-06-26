@@ -115,7 +115,7 @@ Let heav’n and earth their prais -- es bring: \bar "."
 God is love, God is love. \bar "." \break
 Let ev -- ery soul from sin a -- wake, \bar "."
 Each in his heart sweet mu -- sic make, \bar "."
-And sing with us for Je -- sus’ sake, \bar "."
+And sing with us, for Je -- sus’ sake, \bar "."
 God is love, God is love. \bar "."
 
 }
@@ -142,7 +142,7 @@ God is love, God is love.
 His prom -- is -- es our spir -- its cheer:
 God is love, God is love.
 He is our Sun and Shield by day,
-Our Help, our Hope, our Strength and Stay;
+Our Help, our Hope, our Strength, and Stay;
 He will be with us all the way.
 God is love, God is love.
 

@@ -106,9 +106,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-His love is more than tongue can tell! \bar "."
-His love is more than tongue can tell! \bar "."
-The love that Je -- sus had for me,__ \bar "."
+His love is more than tongue can tell; \bar "."
+His love is more than tongue can tell; \bar "."
+The love that Je -- sus had for me__ \bar "."
 Is more than tongue can tell! \bar "."
 
 }
@@ -127,7 +127,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 The bit -- ter sor -- row that He bore,
-And oh, the crown of thorns He wore,
+And, oh, the crown of thorns He wore,
 That I might live for -- ev -- er -- more,__
 Is more than tongue can tell!
 
@@ -148,9 +148,9 @@ Is more than tongue can tell!
 wordsD = \lyricmode {
 \set stanza = "4."
 
-The joy that comes when he is near,
+The joy that comes when He is near,
 The rest He gives, so free from fear,
-The hope in Him, so bright and clear,__
+The hope in Him so bright and clear__
 Is more than tongue can tell!
 
 }

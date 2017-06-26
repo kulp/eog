@@ -99,7 +99,7 @@ How sweet, how plea -- sant is the sound! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Soon as the reign of sin be -- gan,
+Soon as the reign of sin be -- gan
 The light of mer -- cy dawned on man,
 When God an -- nounced the bless -- ed news,
 “The wo -- man’s seed thy head shall bruise.”
@@ -109,7 +109,7 @@ When God an -- nounced the bless -- ed news,
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Bright -- ly it beamed on men for -- lorn,
+Bright -- ly it beamed on men for -- lorn
 When Christ, the ho -- ly child, was born;
 And bright -- er still in splen -- dor shone
 When Je -- sus, dy -- ing, cried, ’Tis done!
@@ -120,7 +120,7 @@ wordsD = \markuplist {
 
 \line { Complete in power, when He arose }
 \line { And burst the bands of all His foes; }
-\line { Then Captive led captivity, }
+\line { Then captive led captivity, }
 \line { And took for us His seat on high. }
 
 }

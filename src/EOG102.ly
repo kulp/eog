@@ -207,7 +207,8 @@ aes8. aes16 aes8. aes16
 
 Refrain = \lyricmode {
 
-Be in time! Be in time! \bar "."
+%{HIDE>%} Be in time! be in time! \bar "." %{<HIDE%}
+%LYRICS Be in time ... be in time ... \bar "."
 While the voice of Je -- sus calls you, \bar "."
 Be in time! \bar "."
 If in sin you long -- er wait, \bar "."
@@ -271,9 +272,9 @@ wordsC = \lyricmode {
 
 Time is glid -- ing swift -- ly by,
 Death and judg -- ment both draw nigh,
-To the arms of Je -- sus fly.
+To the arms of Je -- sus fly:
 Be in time!
-Oh, I pray you count the cost,
+Oh! I pray you count the cost,
 Ere the fa -- tal line be crossed,
 And your Christ -- less soul be lost,
 Be in time!
@@ -285,10 +286,10 @@ wordsD = \lyricmode {
 
 Sin -- ner, heed the warn -- ing voice,
 Make the Lord your hap -- py choice,
-Then all heav -- en will re -- joice.
+Then all heav -- en will re -- joice:
 Be in time!
 Come from dark -- ness in -- to light,
-From the way that seem -- eth right,
+From the way that seem -- eth right;
 Come and start for heaven to -- night,
 Be in time!
 

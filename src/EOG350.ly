@@ -100,7 +100,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Hear Christ call -- ing, “Come un -- to Me, \bar "."
-Come un -- to Me, Come un -- to Me”; \bar "."
+Come un -- to Me, come un -- to Me”; \bar "."
 Hear Christ call -- ing, “Come un -- to Me, \bar "."
 I will give you rest. \bar "."
 I will give you rest, \bar "."
@@ -130,11 +130,11 @@ wordsC = \lyricmode {
 “I will make you fish -- ers of men,
 Fish -- ers of men, fish -- ers of men;
 I will make you fish -- ers of men,
-If you fol -- low me.
-If you fol -- low me,
-If you fol -- low me;
-I will make you fish -- ers of men
-If you fol -- low me.”
+If you fol -- low Me.
+If you fol -- low Me,
+If you fol -- low Me;
+I will make you fish -- ers of men,
+If you fol -- low Me.”
 
 }
 

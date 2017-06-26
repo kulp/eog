@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "246"
-  title = "Oh! For the Robe of Whiteness"
+  title = "Oh, For the Robe of Whiteness"
   tunename = "Work"
   meter = "7. 6. 7. 6. D."
   poet = "Miss C. L. Smith"
@@ -100,9 +100,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh! for the robe of white -- ness, \bar "."
+Oh, for the robe of white -- ness, \bar "."
 To walk with Christ in light! \bar "."
-Oh! for the glo -- rious bright -- ness \bar "."
+Oh, for the glo -- rious bright -- ness \bar "."
 Of day with -- out a night! \bar "."
 We would a name of fa -- vor, \bar "."
 Graved on the stone of white; \bar "."
@@ -145,7 +145,7 @@ wordsD = \lyricmode {
 At God’s right hand in glo -- ry
 Thou sitt’st, Thy work com -- plete,
 Till per -- fect -- ed the sto -- ry
-That gives us, too, our seat.
+That gives us too our seat.
 Then o’er the wide cre -- a -- tion
 Thy pow’r will stretch its arm;
 Se -- cure from all temp -- ta -- tion,

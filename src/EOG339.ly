@@ -139,14 +139,14 @@ The old but ev -- er new. \bar "."
 He came from bright -- est glo -- ry, \bar "."
 From ra -- diant courts on high; \bar "."
 How match -- less is the sto -- ry \bar "."
-Of Him Who came to die! \bar "."
+Of Him who came to die! \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-The Babe in Beth -- lehem’s man -- ger,
+The babe in Beth -- lehem’s man -- ger,
 The low -- ly One on earth;
 Re -- ject -- ed and a stran -- ger,
 Few cared to know His worth.
@@ -181,8 +181,8 @@ His trav -- ail ev -- er o’er;
 Seat -- ed in high -- est heav -- en,
 A -- live to die no more.
 And soon He’s com -- ing for me,
-To take me home a -- bove
-Where still I’ll sing the sto -- ry,
+To take me home a -- bove;
+Where still I’ll sing the sto -- ry
 Of Je -- sus and His love.
 
 }

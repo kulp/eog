@@ -121,8 +121,8 @@ wordsB = \lyricmode {
 
 In Him I see the God -- head shine,
 Christ for me, Christ for me;
-He is the Maj -- es -- ty Di -- vine,
-Christ for me, Christ for me;
+He is the Maj -- es -- ty di -- vine,
+Christ for me, Christ for me.
 The Fa -- ther’s well -- be -- lov -- ed Son,
 Co -- part -- ner of His roy -- al throne,
 Who did for hu -- man guilt a -- tone,
@@ -135,10 +135,10 @@ wordsC = \lyricmode {
 
 Let oth -- ers boast of heaps of gold,
 Christ for me, Christ for me;
-His rich -- es nev -- er can be told;
+His rich -- es nev -- er can be told,
 Christ for me, Christ for me.
 Your gold will waste and wear a -- way,
-Your hon -- ors per -- ish in a day,
+Your hon -- ors per -- ish in a day;
 My por -- tion nev -- er can de -- cay,
 Christ for me, Christ for me.
 
@@ -147,7 +147,7 @@ Christ for me, Christ for me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-In pin -- ing sick -- ness or in health,
+In pin -- ing sick -- ness, or in health,
 Christ for me, Christ for me;
 In deep -- est pov -- er -- ty or wealth,
 Christ for me, Christ for me.
@@ -163,10 +163,10 @@ wordsE = \lyricmode {
 
 At home, a -- broad, by night and day,
 Christ for me, Christ for me;
-Wher -- e’er I speak, or sing, or pray,
+Wher -- e’er I speak, or sing, or pray;
 Christ for me, Christ for me.
 Him first, Him last, Him all day long,
-My hope, my sol -- ace, and my song;
+My hope, my sol -- ace and my song;
 He sweet -- ly leads my soul a -- long,
 Christ for me, Christ for me.
 

@@ -89,7 +89,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 When hu -- man cis -- terns all are dried,
-Thy ful -- ness is the same;
+Thy full -- ness is the same;
 May we with this be sat -- is -- fied,
 And glo -- ry in Thy name.
 
@@ -110,7 +110,7 @@ wordsD = \lyricmode {
 
 No good in crea -- tures can be found,
 All, all is found in Thee;
-We must have all things, and a -- bound
+We must have all things and a -- bound,
 Thro’ Thy suf -- fi -- cien -- cy.
 
 }
@@ -118,9 +118,9 @@ Thro’ Thy suf -- fi -- cien -- cy.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Thou that has made our heav’n se -- cure,
+Thou that hast made our heav’n se -- cure,
 Wilt here all good pro -- vide;
-While Christ is rich can we be poor?
+While Christ is rich, can we be poor?
 Christ, who for us has died!
 
 }
@@ -130,7 +130,7 @@ wordsF = \lyricmode {
 
 O Lord! we cast each care on Thee,
 And tri -- umph and a -- dore;
-Oh that our great con -- cern may be,
+Oh, that our great con -- cern may be
 To love and praise Thee more.
 
 }

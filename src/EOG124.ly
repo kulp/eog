@@ -107,8 +107,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Oh come now to Je -- sus, \bar "."
-That dear lov -- ing Sav -- iour, \bar "."
+Oh, come now to Je -- sus, \bar "."
+That dear, lov -- ing Sav -- iour, \bar "."
 Re -- ceive Him this mo -- ment, \bar "."
 And peace shall be thine. \bar "."
 
@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 
 %{HIDE>%} "" %{<HIDE%} Those hours of dark -- ness He suf -- fered for sin -- ners
 On Cal -- va -- ry’s cross, all for -- sak -- en, a -- lone,
-While mak -- ing a -- tone -- ment, and bear -- ing the judg -- ment
+While mak -- ing a -- tone -- ment and bear -- ing the judg -- ment,
 Are end -- ed, and now He’s on high on the throne.
 
 }
@@ -159,7 +159,7 @@ wordsE = \markuplist {
 
 \line { No time should be wasted, thy moments are precious, }
 \line { { \hspace #2 } Thy time for departing from earth draweth nigh; }
-\line { Then come now this moment and He will receive you }
+\line { Then come now this moment and He will receive you, }
 \line { { \hspace #2 } And spend your eternity with Him on high. }
 
 }

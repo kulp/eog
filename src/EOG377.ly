@@ -99,7 +99,7 @@ wordsC = \lyricmode {
 
 “Re -- vive Thy work, O Lord!”
 Ex -- alt Thy pre -- cious name;
-And by the Ho -- ly Ghost, our love
+And, by the Ho -- ly Ghost, our love
 For Thee and Thine in -- flame.
 
 }
@@ -107,8 +107,8 @@ For Thee and Thine in -- flame.
 wordsD = \markuplist {
 
 \line { “Revive Thy work, O Lord!” }
-\line { { \hspace #2 } Give power unto Thy word, }
-\line { Grant that Thy blessed Gospel may }
+\line { { \hspace #2 } Give power unto Thy Word, }
+\line { Grant that Thy blessed gospel may }
 \line { { \hspace #2 } In living faith be heard. }
 
 }
@@ -118,7 +118,7 @@ wordsE = \markuplist {
 \line { “Revive Thy work, O Lord!” }
 \line { { \hspace #2 } And give refreshing showers; }
 \line { The glory shall be all Thine own, }
-\line { { \hspace #2 } The blessing, Lord be ours! }
+\line { { \hspace #2 } The blessing, Lord, be ours! }
 
 }
 

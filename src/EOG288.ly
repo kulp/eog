@@ -79,9 +79,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Rise, my soul! be -- hold, ’tis \italicsOn Je -- sus, \bar "."
-Je -- sus \italicsOff fills thy won -- d’ring eyes: \bar "."
-See Him now in glo -- ry seat -- ed, \bar "."
+Rise, my soul! Be -- hold, ’tis \italicsOn Je -- sus, \bar "."
+Je -- sus \italicsOff fills thy won -- d’ring eyes; \bar "."
+See Him now, in glo -- ry seat -- ed, \bar "."
 Where thy sins no more can rise. \bar "."
 
 }
@@ -89,7 +89,7 @@ Where thy sins no more can rise. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-There, in right -- eous -- ness tran -- scend -- ent,
+There in right -- eous -- ness tran -- scend -- ent,
 Lo! He doth in heav’n ap -- pear,
 Shows the \italicsOn blood of His a -- tone -- ment
 As thy ti -- tle to be there. \italicsOff

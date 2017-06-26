@@ -122,7 +122,7 @@ wordsA = \markuplist {
 wordsB = \markuplist {
 
 \line { I see the scourgers rend the flesh }
-\line { { \hspace #2 } Of God’s beloved Son; }
+\line { { \hspace #2 } Of God’s belovèd Son; }
 \line { And as they smite I feel afresh }
 \line { { \hspace #2 } That I of them am one. }
 \line { Around the cross the throng I see }

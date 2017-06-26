@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 
 Hap -- py is the boy who be -- lieves in Him, \bar "."
 Hap -- py is the boy who is cleansed from sin; \bar "."
-Nev -- er to a boy did the Lord say “No”; \bar "." % original has ”No;”
+Nev -- er to a boy did the Lord say, “No!” \bar "."
 Let us ev -- ’ry -- one to the Sav -- iour go. \bar "."
 
 }
@@ -94,7 +94,7 @@ wordsB = \lyricmode {
 
 Hap -- py is the girl who be -- lieves in Him, \bar "."
 Hap -- py is the girl who is cleansed from sin; \bar "."
-Nev -- er to a girl did the Lord say “No”; \bar "." % original has ”No;”
+Nev -- er to a girl did the Lord say, “No!” \bar "."
 Let us ev -- ’ry -- one to the Sav -- iour go. \bar "."
 
 }

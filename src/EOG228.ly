@@ -94,8 +94,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 In heav’n -- ly love a -- bid -- ing, \bar "."
-No change my heart shall fear; \bar "."
-And safe in such con -- fid -- ing, \bar "."
+No change my heart shall fear, \bar "."
+And safe is such con -- fid -- ing, \bar "."
 For noth -- ing chang -- es here. \bar "."
 The storm may roar with -- out me, \bar "."
 My heart may low be laid, \bar "."
@@ -112,7 +112,7 @@ No want shall turn me back;
 My Shep -- herd is be -- side me,
 And noth -- ing can I lack.
 His wis -- dom ev -- er wak -- eth,
-His sight is nev -- er dim:
+His sight is nev -- er dim,
 He knows the way He tak -- eth,
 And I will walk with Him.
 
@@ -122,7 +122,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Green pas -- tures are be -- fore me,
-Which yet I have not seen;
+Which yet I have not seen,
 Bright skies will soon be o’er me,
 Where the dark clouds have been.
 My hope I can -- not meas -- ure,
@@ -140,7 +140,7 @@ My spi -- rit may be free,
 As ab -- sent from the bod -- y,
 At home, O Lord, with Thee.
 Oh sleep, oh rest, how pre -- cious!
-As guard -- ed by Thy care,
+As, guard -- ed by Thy care,
 I’m wait -- ing for Thy prom -- ise
 To meet Thee in the air.
 
@@ -151,11 +151,11 @@ wordsE = \lyricmode {
 
 The Lord Him -- self, e’en Je -- sus,
 A -- mid the ran -- somed throng,
-Its glo -- ry, joy, and beau -- ty,
+Its glo -- ry, joy and beau -- ty,
 Its nev -- er -- end -- ing song.
-Oh day of won -- drous prom -- ise!
+Oh day of won -- drous prom -- ise,
 The Bride -- groom and the bride
-Are seen in glo -- ry ev -- er;
+Are seen in glo -- ry ev -- er:
 For -- ev -- er sat -- is -- fied!
 
 }

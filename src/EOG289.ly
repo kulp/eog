@@ -88,8 +88,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-’Tis the Lord! Oh won -- drous sto -- ry! \bar "."
-’Tis the Lord! The King of glo -- ry! \bar "."
+’Tis the Lord! Oh, won -- drous sto -- ry! \bar "."
+’Tis the Lord, the King of glo -- ry! \bar "."
 At His feet we hum -- bly fall– \bar "."
 Crown Him, crown Him Lord of all! \bar "."
 
@@ -124,7 +124,7 @@ At the grave where Laz -- ’rus sleeps?
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Lo! at mid -- night who is He
+Lo! at mid -- night, who is He
 Prays in dark Geth -- sem -- a -- ne?
 
 }
@@ -132,7 +132,7 @@ Prays in dark Geth -- sem -- a -- ne?
 wordsE = \markuplist {
 
 \line { Who is He in Calvary’s throes, }
-\line { Asks for blessing on His foes? }
+\line { Asks for blessings on His foes? }
 
 }
 
@@ -145,7 +145,7 @@ wordsF = \markuplist {
 
 wordsG = \markuplist {
 
-\line { Lo! ascending who is He }
+\line { Lo! ascending, who is He }
 \line { Captive leads captivity? }
 
 }

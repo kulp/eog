@@ -99,7 +99,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-And He calls, and He calls, all the G -- I -- R -- L -- S, \bar "."
+And He calls, and He calls all the G -- I -- R -- L -- S, \bar "."
 And He wants all the B -- O -- Y -- S too, \bar "."
 To _ T -- R -- U -- S -- _ T in Him, \bar "." % original has melismata here, but why ? for piano ?
 And have all their sins now washed a -- way. \bar "."
@@ -110,7 +110,7 @@ wordsA = \lyricmode {
 
 Glad T -- I -- D -- I -- N -- G -- S, \bar "." % original does not have bar here
 I B -- R -- I -- N -- G, \bar "."
-That J -- E -- S -- U -- S has come, \bar "." % original does not have bar here
+That J -- E -- S -- U -- S has come \bar "." % original does not have bar here
 To S -- A -- V -- E me. \bar "."
 
 \Refrain

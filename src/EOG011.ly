@@ -102,7 +102,7 @@ wordsB = \lyricmode {
 He “knew no sin,” yet He must there
 God’s right -- eous, ho -- ly judg -- ment bear,
 Must suf -- fer in our guilt -- y stead,
-And num -- bered be a -- mongst the dead.
+And num -- bered be a -- mong the dead.
 
 }
 
@@ -112,7 +112,7 @@ wordsC = \lyricmode {
 He’s ris -- en now, the work is done,
 And God has glo -- ri -- fied His Son;
 Has set Him in the high -- est place,
-The Source of rich, un -- bound -- ed grace.
+The source of rich, un -- bound -- ed grace.
 
 }
 

@@ -80,8 +80,7 @@ wordsA = \lyricmode {
 
 I am the Door, I am the Door, \bar "."
 By Me if an -- y man en -- ter in, \bar "."
-He shall be saved, \bar "."
-He shall be saved, \bar "."
+He shall be saved, he shall be saved, \bar "."
 He shall be saved. \bar "."
 
 }
@@ -90,8 +89,7 @@ wordsB = \lyricmode {
 
 I am the { \mon } Door, the { \moff } words are but four;
 Mil -- lions are in, but there’s room for { \mon } more;
-The { \moff } door’s o -- pen wide,
-Come right in -- { \mon } side,
+The { \moff } door’s o -- pen wide, come right in -- { \mon } side,
 And { \moff } thou shalt be saved. % original has lowercase 'and'
 
 }

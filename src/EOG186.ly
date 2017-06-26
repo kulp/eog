@@ -108,7 +108,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Liv -- ing, He loved me; dy -- ing He saved me; \bar "."
+Liv -- ing, He loved me; dy -- ing, He saved me; \bar "."
 Bur -- ied, He car -- ried my sins far a -- way; \bar "."
 Ris -- ing, He jus -- ti -- fied free -- ly for -- ev -- er: \bar "."
 One day He’s com -- ing– oh glo -- ri -- ous day! \bar "."
@@ -120,7 +120,7 @@ wordsA = \lyricmode {
 
 One day when heav -- en was filled with His prais -- es, \bar "."
 When our con -- di -- tion was black as could be, \bar "."
-Je -- sus -- Em -- man -- nuel was born of a vir -- gin– \bar "."
+Je -- sus Em -- man -- nuel was born of a vir -- gin, \bar "."
 Dwell -- ing with men, my ex -- am -- ple is He! \bar "."
 
 }
@@ -129,7 +129,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 One day they led Him up Cal -- va -- ry’s moun -- tain,
-One day they nailed Him to die on the three;
+One day they nailed Him to die on the tree;
 Suf -- fer -- ing an -- guish, de -- spised and re -- ject -- ed;
 Bear -- ing our sins, my Re -- deem -- er is He!
 
@@ -151,7 +151,7 @@ wordsD = \markuplist {
 
 \line { One day the grave could conceal Him no longer, }
 \line { One day the stone rolled away from the door; }
-\line { He had aris’n, over death he had conquered; }
+\line { He had arisen, over death He had conquered; }
 \line { Now is ascended, my Lord ever more! }
 
 }
@@ -160,7 +160,7 @@ wordsE = \markuplist {
 
 \line { One day the trumpet will sound for His coming, }
 \line { One day the skies with His glory will shine; }
-\line { Wonderful day, my beloved ones bringing; }
+\line { Wonderful day, my belovèd ones bringing; }
 \line { Glorious Saviour, this Jesus is mine! }
 
 }

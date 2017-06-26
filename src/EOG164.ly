@@ -111,11 +111,11 @@ wordsA = \lyricmode {
 
 Have I an ob -- ject, Lord, be -- low \bar "."
 Which would di -- vide my heart with Thee, \bar "."
-–Which would di -- vert its e -- ven flow \bar "."
+Which would di -- vert its e -- ven flow \bar "."
 In an -- swer to Thy con -- stan -- cy? \bar "."
-Oh teach me quick -- ly to re -- turn, \bar "."
+Oh, teach me quick -- ly to re -- turn, \bar "."
 And cause my heart a -- fresh to burn. \bar "."
-%{HIDE>%} Oh teach me quick -- ly to re -- turn, \bar "."
+%{HIDE>%} Oh, teach me quick -- ly to re -- turn, \bar "."
 And cause my heart a -- fresh to burn. %{<HIDE%} \bar "."
 
 }
@@ -125,7 +125,7 @@ wordsB = \lyricmode {
 
 Have I a hope, how -- ev -- er dear,
 Which would de -- fer Thy com -- ing, Lord,
-–Which would de -- tain my spir -- it here
+Which would de -- tain my spir -- it here
 Where naught can last -- ing joy af -- ford?
 From it, my Sav -- iour, set me free,
 To look and long and wait for Thee.
@@ -142,9 +142,9 @@ To fill and sat -- is -- fy the heart;
 My hope to meet Thee in the air,
 And nev -- er more from Thee to part:
 That I may un -- dis -- tract -- ed be
-To fol -- low, serve, and wait for Thee.
+To fol -- low, serve and wait for Thee.
 %{HIDE>%} That I may un -- dis -- tract -- ed be
-To fol -- low, serve, and wait for Thee. %{<HIDE%}
+To fol -- low, serve and wait for Thee. %{<HIDE%}
 
 }
 

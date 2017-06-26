@@ -115,7 +115,7 @@ He gen -- tly call -- eth thee; \bar "." \break
 In true re -- pent -- ance bow, \bar "."
 Be -- fore Him bend the knee; \bar "." \break
 He wait -- eth to be -- stow \bar "."
-Sal -- va -- tion, peace, and love, \bar "."
+Sal -- va -- tion, peace and love, \bar "."
 True joy on earth be -- low, \bar "."
 A home in heav’n a -- bove. \bar "."
 Come, come, come. \bar "."
@@ -130,7 +130,7 @@ Gaze on that cleans -- ing tide–
 Wa -- ter and blood that flow
 Forth from His wound -- ed side.
 Hark to the suff -- ’ring One:
-“’Tis fin -- ish’d” now He cries;
+“’Tis fin -- ish’d!” now He cries;
 Re -- demp -- tion’s work is done,
 Then bows His head and dies.
 Come, come, come.
@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Come to the Sav -- iour now!
-He suf -- fer’d all for thee;
+He suf -- fer’d there for thee;
 And in His mer -- its thou
 Hast an un -- fail -- ing plea;
 No vain ex -- cu -- ses frame,

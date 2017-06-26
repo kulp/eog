@@ -94,8 +94,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The sands of time are sink -- ing, \bar "."
-The dawn of heav -- en breaks; \bar "."
-The sum -- mer morn I’ve sighed for, \bar "."
+The dawn of heav -- en breaks, \bar "."
+The sum -- mer morn I’ve sighed for– \bar "."
 The fair, sweet morn a -- wakes. \bar "."
 Dark, dark hath been the mid -- night, \bar "."
 But day -- spring is at hand, \bar "."
@@ -107,11 +107,11 @@ In Im -- man -- uel’s land. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh! Christ, He is the foun -- tain,
-The deep sweet well of love;
+Oh Christ, He is the foun -- tain,
+The deep, sweet well of love;
 The streams on earth I’ve tast -- ed,
 More deep I’ll drink a -- bove.
-There to an o -- cean ful -- ness
+There to an o -- cean full -- ness
 His mer -- cy doth ex -- pand,
 And glo -- ry, glo -- ry dwell -- eth
 In Im -- man -- uel’s land.
@@ -135,9 +135,9 @@ In Im -- man -- uel’s land.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Oh! I am my Be -- lov -- ed’s,
+Oh, I am my Be -- lov -- ed’s,
 And my Be -- lov -- ed’s mine,
-He brings a poor vile sin -- ner
+He brings a poor, vile sin -- ner
 In -- to His “house of wine.”
 I stand up -- on His mer -- it,
 I know no saf -- er stand,
@@ -152,9 +152,9 @@ wordsE = \lyricmode {
 The bride eyes not her gar -- ment,
 But her dear bride -- groom’s face;
 I will not gaze on glo -- ry,
-But on my King of Grace.
+But on my King of grace.
 Not on the crown He giv -- eth,
-But on His pier -- ced hand;
+But on His pierc -- ed hand;
 The Lamb is all the glo -- ry
 Of Im -- man -- uel’s land.
 

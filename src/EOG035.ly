@@ -121,7 +121,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Yes, we’ll gath -- er at His com -- ing, \bar "."
-His glo -- ri -- ous, His glo -- ri -- ous com -- ing– \bar "."
+His glo -- ri -- ous, His glo -- ri -- ous com -- ing, \bar "."
 Gath -- er with His saints at His com -- ing, \bar "."
 If cleansed by the Sav -- iour’s blood. \bar "."
 
@@ -140,7 +140,7 @@ To His home be -- yond the skies? \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Dai -- ly near -- er draws His com -- ing,
+Dai -- ly near -- er draws His com -- ing;
 This makes all His own re -- joice;
 Who are they that fear to meet Him?
 Those who now love not His voice.

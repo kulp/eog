@@ -102,9 +102,9 @@ Our place of lib -- er -- ty?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Yes! in that light un -- stained,
+Yes! In that light un -- stained,
 Our stain -- less souls shall live,
-Our heart’s deep long -- ings more than gained,
+Our hearts’ deep long -- ings more than gained,
 When God His rest shall give.
 
 }
@@ -131,7 +131,7 @@ wordsE = \markuplist {
 wordsF = \markuplist {
 
 \line { Our God whom we have known, }
-\line { { \hspace #2 } Well known in Jesus’ love, }
+\line { { \hspace #2 } Well-known in Jesus’ love, }
 \line { Rests in the blessing of His own, }
 \line { { \hspace #2 } Before Himself above. }
 
@@ -150,7 +150,7 @@ wordsH = \markuplist {
 
 \line { Like Jesus in that place }
 \line { { \hspace #2 } Of light and love supreme; }
-\line { Once Man of Sorrows full of grace, }
+\line { Once Man of sorrows full of grace, } % XXX blue book has small `s` in `sorrows`
 \line { { \hspace #2 } Heaven’s blest and endless theme. }
 
 }
@@ -168,7 +168,7 @@ wordsJ = \markuplist {
 
 \line { Oh love supreme and bright, }
 \line { { \hspace #2 } Good to the feeblest heart, }
-\line { That gives us now, as heavenly light }
+\line { That gives us now, as heavenly light, }
 \line { { \hspace #2 } What soon shall be our part. }
 
 }

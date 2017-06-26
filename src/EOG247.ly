@@ -106,10 +106,10 @@ O gra -- cious Sav -- iour, Thou hast giv’n \bar "."
 My trem -- bling soul to know \bar "."
 That, trust -- ing in Thy pre -- cious blood, \bar "."
 I’m washed as white as snow. \bar "."
-%{HIDE>%} I’m washed as white as snow, \bar "."
+I’m washed as white as snow, \bar "."
 I’m washed as white as snow, \bar "."
 That, trust -- ing in Thy pre -- cious blood, \bar "."
-I’m washed as white as snow. %{<HIDE%} \bar "."
+I’m washed as white as snow. \bar "."
 
 }
 
@@ -117,13 +117,13 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Since Thou hast borne sin’s heav -- y load,
-My guilt -- y fear is o’er;
-Made Thine by vir -- tue of Thy blood,
+My guilt -- y fear is o’er.
+Made Thine, by vir -- tue of Thy blood,
 I’m sealed for -- ev -- er -- more.
-%{HIDE>%} I’m sealed for -- ev -- er -- more,
 I’m sealed for -- ev -- er -- more,
-Made Thine by vir -- tue of Thy blood,
-I’m sealed for -- ev -- er -- more. %{<HIDE%}
+I’m sealed for -- ev -- er -- more,
+Made Thine, by vir -- tue of Thy blood,
+I’m sealed for -- ev -- er -- more.
 
 }
 
@@ -134,10 +134,10 @@ What wait I for, most bless -- ed Lord,
 Ex -- cept Thy face to see?
 If such the ear -- nest Thou hast giv’n,
 What must Thy pres -- ence be?
-%{HIDE>%} What must Thy pres -- ence be?
+What must Thy pres -- ence be?
 What must Thy pres -- ence be?
 If such the ear -- nest Thou hast giv’n,
-What must Thy pres -- ence be? %{<HIDE%}
+What must Thy pres -- ence be?
 
 }
 
@@ -146,12 +146,12 @@ wordsD = \lyricmode {
 
 To hear Thy voice, to see Thy face,
 And grieve Thy heart no more;
-But drink the ful -- ness of Thy grace,
+But drink the full -- ness of Thy grace,
 Thy love for -- ev -- er -- more.
-%{HIDE>%} Thy love for -- ev -- er -- more,
 Thy love for -- ev -- er -- more,
-But drink the ful -- ness of Thy grace,
-Thy love for -- ev -- er -- more. %{<HIDE%}
+Thy love for -- ev -- er -- more,
+But drink the full -- ness of Thy grace,
+Thy love for -- ev -- er -- more.
 
 }
 

@@ -125,7 +125,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 On Cal -- v’ry’s brow __ my Sav -- iour died, __ \bar "."
-’Twas there my Lord __ was cru -- ci -- fied: __ \bar "."
+’Twas there my Lord __ was cru -- ci -- fied; __ \bar "."
 ’Twas on the cross __ He bled for me, __ \bar "."
 And pur -- chased there __ my par -- don free. \bar "."
 
@@ -134,9 +134,9 @@ And pur -- chased there __ my par -- don free. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-’Mid rend -- ing rocks __ and dark -- ’ning skies, __
+Mid rend -- ing rocks __ and dark -- ’ning skies, __
 My Sav -- iour bows __ His head and dies; __
-The o -- pened vail __ re -- veals the way __
+The o -- pened veil __ re -- veals the way __
 To heav -- en’s joys __ and end -- less day.
 
 \Refrain
@@ -146,8 +146,8 @@ To heav -- en’s joys __ and end -- less day.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-O Je -- sus, Lord, __ how can it be, __
-That Thou shouldst give __ Thy life for me, __
+O Je -- sus, Lord, __ how can it be __
+That Thou shouldst give __ Thy life for me; __
 To bear the cross __ and ag -- o -- ny, __
 In that dread hour __ on Cal -- va -- ry?
 

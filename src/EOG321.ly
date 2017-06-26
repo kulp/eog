@@ -103,7 +103,7 @@ That there are lambs with -- in the fold \bar "."
 Of God’s be -- lov -- ed Son? \bar "."
 That Je -- sus Christ, with ten -- der care, \bar "."
 Will in His arms most gen -- tly bear \bar "."
-The help -- less lit -- tle ones? \bar "."
+The help -- less lit -- tle one? \bar "."
 
 }
 
@@ -112,7 +112,7 @@ wordsB = \lyricmode {
 
 And I, a lit -- tle, stray -- ing lamb,
 May come to Je -- sus as I am,
-Tho’ good -- ness I have none:
+Tho’ good -- ness I have none;
 May now be fold -- ed to His breast,
 And there for -- ev -- er gen -- tly rest,
 And be His lit -- tle one.
@@ -123,7 +123,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Oth -- ers there are who love me, too;
-But who, with all their love could do
+But who, with all their love, could do
 What Je -- sus Christ has done?
 And when He teach -- es me to pray,
 I’ll sure -- ly go to Him and say,

@@ -108,7 +108,7 @@ Oh, how He loves! \bar "."
 His is love be -- yond a broth -- er’s, \bar "."
 Oh, how He loves! \bar "."
 Earth -- ly friends may fail or leave us, \bar "."
-One day soothe, the next day grieve us; \bar "."
+One day soothe, the next day grieve us, \bar "."
 But this Friend will ne’er de -- ceive us, \bar "."
 Oh, how He loves! \bar "."
 

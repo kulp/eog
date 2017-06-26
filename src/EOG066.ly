@@ -102,16 +102,16 @@ wordsB = \lyricmode {
 The thief be -- held, with eye of faith,
 The Sav -- iour by his side;
 He looked up -- on that bles -- sed One,
-Re -- ceived His word and died.
+Re -- ceived His word, and died.
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Thous -- sands be -- sides have looked to Him
-Who might -- y is to save,
-And proved the truth of God’s own word,
+Thous -- sands be -- sides have looked to Him,
+Who might -- y is to save;
+And proved the truth of God’s own Word:
 The soul that looks shall live.
 
 }

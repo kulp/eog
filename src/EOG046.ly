@@ -131,16 +131,16 @@ With no place then to hide.
 
 wordsE = \markuplist {
 
-\line { Oh! sinner, pause ere yet “too late;” }
+\line { O sinner, pause, ere yet “too late”; }
 \line { { \hspace #2 } Now is the day of grace, }
-\line { Now Jesus calls, oh! do obey }
+\line { Now Jesus calls, oh, do obey }
 \line { { \hspace #2 } His pleading, loving voice. }
 
 }
 
 wordsF = \markuplist {
 
-\line { Today, ’tis free to all who come, }
+\line { Today ’tis free to all who come, }
 \line { { \hspace #2 } And take Him at His word; }
 \line { Tomorrow’s sun may rise “too late” }
 \line { { \hspace #2 } For you who now have heard. }

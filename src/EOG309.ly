@@ -81,7 +81,7 @@ wordsA = \lyricmode {
 
 I think when I read that sweet sto -- ry of old, \bar "."
 When Je -- sus was here a -- mong men, \bar "."
-How he called lit -- tle chil -- dren as lambs to His fold, \bar "."
+How He called lit -- tle chil -- dren as lambs to His fold, \bar "."
 I should like to have been with Him then. \bar "."
 
 }

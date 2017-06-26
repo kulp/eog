@@ -102,9 +102,9 @@ A lit -- tle ship was on the sea, \bar "."
 It was a pret -- ty sight; \bar "."
 It sailed a -- long so pleas -- ant -- ly, \bar "."
 And all was calm and bright. \bar "."
-The sun was sink -- ing in the west; \bar "."
+The sun was sink -- ing in the west, \bar "."
 The shore was near at hand, \bar "."
-And those on board with hearts at rest, \bar "."
+And those on board with hearts at rest \bar "."
 Tho’t soon to reach the land. \bar "."
 
 }
@@ -127,7 +127,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 “Mas -- ter, we per -- ish! Mas -- ter, save!”
-They cried; their Mas -- ter heard:
+They cried; their Mas -- ter heard.
 He rose, re -- buked the wind and wave,
 And stilled them with a word.
 He to the storm said, “Peace, be still!”
@@ -146,7 +146,7 @@ Who could this glo -- rious Per -- son be,
 Whom winds and seas o -- bey?
 Oh, well we know it was the Lord,
 The Sav -- iour and the Friend,
-Whose care of those who trust His word
+Whose care of those who trust His Word
 Will nev -- er, nev -- er end.
 
 }

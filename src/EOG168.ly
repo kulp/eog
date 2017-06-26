@@ -122,9 +122,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Oh the love that sought me! \bar "."
-Oh the blood that bought me! \bar "."
-Oh the grace that brought me to Him -- self. \bar "."
+Oh, the love that sought me! \bar "."
+Oh, the blood that bought me! \bar "."
+Oh, the grace that brought me to Him -- self, \bar "."
 Won -- drous grace that brought me to Him -- self. \bar "."
 
 }
@@ -147,7 +147,7 @@ wordsB = \lyricmode {
 He washed the bleed -- ing sin -- wounds,
 And poured in oil and wine;
 He whis -- pered to as -- sure me,
-“I’ve found thee, thou art mine!”
+“I’ve found thee; thou art Mine”;
 I nev -- er heard a sweet -- er voice,
 It made my ach -- ing heart re -- joice.
 
@@ -158,8 +158,8 @@ It made my ach -- ing heart re -- joice.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-He point -- ed to the nail -- prints–
-For me His blood was shed–
+He point -- ed to the nail -- prints;
+For me His blood was shed,
 A mock -- ing crown so thorn -- y
 Was placed up -- on His head:
 I won -- dered what He saw in me
@@ -169,10 +169,10 @@ To suf -- fer such deep ag -- on -- y.
 
 wordsD = \markuplist {
 
-\line { I’m sitting in His presence– }
+\line { I’m sitting in His presence, }
 \line { The sunshine of His face, }
 \line { While with adoring wonder }
-\line { His blessings I retrace: }
+\line { His blessings I retrace. }
 \line { It seems as if eternal days }
 \line { Are far too short to sound His praise. }
 

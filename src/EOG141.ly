@@ -122,9 +122,9 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { Poor trembling sinner, “come,” }
+\line { Poor trembling sinner, “Come,” }
 \line { God waits to comfort thee; }
-\line { Oh cast thyself upon His love, }
+\line { Oh, cast thyself upon His love, }
 \line { So vast, so full, so free! }
 
 }

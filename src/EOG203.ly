@@ -90,8 +90,10 @@ Refrain = \lyricmode {
 
 { \eogbreak }
 
-A -- men, come Lord Je -- sus! Claim Thy peo -- ple for Thine own! \bar "."
-Crown Thy church in glo -- ry, seat -- ed in Thy throne! \bar "."
+A -- men, come, Lord Je -- sus! \bar "."
+Claim Thy peo -- ple for Thine own! \bar "."
+Crown Thy church in glo -- ry, \bar "."
+Seat -- ed in Thy throne! \bar "."
 
 }
 
@@ -99,7 +101,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Shine forth, O Lord, Thou bright and morn -- ing Star! \bar "."
-Come quick -- ly come! Thy peo -- ple wait -- ing are, \bar "."
+Come, quick -- ly come! Thy peo -- ple wait -- ing are, \bar "."
 Shout, shout the word that bids Thy dead a -- rise, \bar "."
 And calls Thy saints to meet Thee in the skies. \bar "."
 

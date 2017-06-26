@@ -103,7 +103,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus that name is love, \bar "."
+Je -- sus, that name is love, \bar "."
 Je -- sus our Lord! \bar "."
 Je -- sus, all names a -- bove, \bar "."
 Je -- sus our Lord! \bar "."

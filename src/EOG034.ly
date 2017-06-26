@@ -117,7 +117,7 @@ To earth’s re -- mot -- est bound– \bar "." \break
 Sal -- va -- tion for the guilt -- y, \bar "."
 Sal -- va -- tion for the lost; \bar "." \break
 Sal -- va -- tion for the wretch -- ed, \bar "."
-The sad and tem -- pest tossed. \bar "." \break
+The sad and tem -- pest -- tossed. \bar "." \break
 
 }
 
@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 Sal -- va -- tion with -- out mon -- ey,
 Sal -- va -- tion with -- out price,
 Sal -- va -- tion with -- out la -- bor–
-Be -- liev -- ing doth suf -- fice:
+Be -- liev -- ing doth suf -- fice;
 Sal -- va -- tion now, this mo -- ment;
 Then why, oh, why de -- lay?
 You may not see to -- mor -- row,

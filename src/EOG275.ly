@@ -97,7 +97,7 @@ We are by Christ re -- deemed; \bar "."
 The cost– His pre -- cious blood; \bar "."
 Be noth -- ing by our souls es -- teemed \bar "."
 Like this great good. \bar "."
-Were the vast world our own, \bar "."
+Were the vast world our own \bar "."
 With all its va -- ried store, \bar "."
 And Thou, Lord Je -- sus, wert un -- known, \bar "."
 We still were poor. \bar "."
@@ -121,7 +121,7 @@ And hush its groan.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Thus far, by grace pre -- served,
+Thus far by grace pre -- served,
 Each mo -- ment speeds us on;
 The crown and king -- dom are re -- served
 Where Christ is gone.

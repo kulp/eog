@@ -85,13 +85,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Well may we sing, with tri -- umph sing, \bar "."
+Well may we sing, with tri -- umph sing \bar "."
 The great Re -- deem -- er’s praise; \bar "."
 The glo -- ries of our \markup\caps Sav -- \markup\caps iour \markup\caps God, \bar "."
-%{HIDE>%} Re -- vealed in Je -- sus’ face, %{<HIDE%}
-%{HIDE>%} Re -- vealed in Je -- sus’ face, %{<HIDE%}
-%{HIDE>%} Re -- vealed, %{<HIDE%}
-Re -- vealed in Je -- sus’ face. \bar "."
+Re -- vealed in Je -- sus’ face,
+Re -- vealed in Je -- sus’ face,
+Re -- vealed, re -- vealed in Je -- sus’ face. \bar "."
 
 }
 
@@ -101,10 +100,9 @@ wordsB = \lyricmode {
 The Fa -- ther’s love it was that sought
 From hell to set us free;
 That gave the Lamb whose pre -- cious blood
-%{HIDE>%} Has bought our lib -- er -- ty, %{<HIDE%}
-%{HIDE>%} Has bought our lib -- er -- ty, %{<HIDE%}
-%{HIDE>%} Has bought, %{<HIDE%}
-Has bought our lib -- er -- ty.
+Has bought our lib -- er -- ty,
+Has bought our lib -- er -- ty,
+Has bought, has bought our lib -- er -- ty.
 
 }
 
@@ -112,12 +110,11 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 In Him we read the Fa -- ther’s love,
-And find e -- ter -- nal peace:
+And find e -- ter -- nal peace;
 In Him we meet a \markup\caps Sav -- \markup\caps iour \markup\caps God,
-%{HIDE>%} And fear and ter -- ror cease, %{<HIDE%}
-%{HIDE>%} And fear and ter -- ror cease, %{<HIDE%}
-%{HIDE>%} And fear, %{<HIDE%}
-And fear and ter -- ror cease.
+And fear and ter -- ror cease,
+And fear and ter -- ror cease,
+And fear, and fear and ter -- ror cease.
 
 }
 
@@ -127,10 +124,9 @@ wordsD = \lyricmode {
 Then glad -- ly sing and sound a -- broad
 The great Re -- deem -- er’s praise,
 The glo -- ries of our \markup\caps Sav -- \markup\caps iour \markup\caps God,
-%{HIDE>%} The rich -- es of His grace, %{<HIDE%}
-%{HIDE>%} The rich -- es of His grace, %{<HIDE%}
-%{HIDE>%} The { \mon } rich -- es, { \moff } %{<HIDE%}
-The rich -- es of His grace.
+The rich -- es of His grace,
+The rich -- es of His grace,
+The { \mon } rich -- es, { \moff } the rich -- es of His grace.
 
 }
 

@@ -110,7 +110,7 @@ Refrain = \lyricmode {
 Je -- sus will bless the lit -- tle ones, \bar "."
 Je -- sus will bless the lit -- tle ones, \bar "."
 Je -- sus will bless the lit -- tle ones, \bar "."
-Oh praise His pre -- cious name. \bar "."
+Oh, praise His pre -- cious name. \bar "."
 
 }
 
@@ -118,9 +118,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The in -- fant chil -- dren Christ re -- ceived, \bar "."
-Oh praise His pre -- cious name; \bar "."
+Oh, praise His pre -- cious name; \bar "."
 He took them up in -- to His arms, \bar "."
-He blessed each babe that came. \bar "."
+He blessed each babe that came. \bar "." % XXX blue book has "blest" but that is adjectival only (past participle, not past tense verb)
 
 }
 
@@ -140,9 +140,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Go, gath -- er in these lit -- tle ones
-From off the field of sin;
+From off the field of sin:
 The har -- vest great, the la -- b’rers few,
-Then bring, oh bring them in.
+Then bring, oh, bring them in.
 
 }
 

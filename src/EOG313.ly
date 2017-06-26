@@ -100,7 +100,7 @@ All day and all night long.”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“God is in heav -- en: would he know
+“God is in heav -- en: would He know
 If I should tell a lie?”
 “Yes; if thou saidst it soft and low,
 He’d hear it in the sky.”

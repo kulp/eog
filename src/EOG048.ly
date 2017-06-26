@@ -106,7 +106,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Look! look! look and live! \bar "."
-There is life in a look at the Cru -- ci -- fied One, \bar "."
+There is life in a look at the cru -- ci -- fied One, \bar "."
 There is life at this mo -- ment for thee. \bar "."
 
 }
@@ -114,7 +114,7 @@ There is life at this mo -- ment for thee. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-\mon There is \moff life \mon in a \moff look at the Cru -- ci -- fied One, \bar "."
+\mon There is \moff life \mon in a \moff look at the cru -- ci -- fied One; \bar "."
 \mon There is \moff life at this mo -- ment for thee; \bar "."
 Then look, sin -- ner, look un -- to Him and be saved, \bar "."
 \mon Un -- to \moff Him who was nailed to the tree. \bar "."
@@ -149,14 +149,14 @@ wordsD = \lyricmode {
 Then doubt \mon not thy \moff wel -- come, since God has de -- clared
 \mon There re -- \moff main -- eth no more to be done,
 That once in the end of the world He ap -- peared,
-\mon And com -- \moff plet -- ed the work He be -- gun.
+\mon And com -- \moff plet -- ed the work He’d be -- gun.
 
 }
 
 wordsE = \lyricmode {
 \set stanza = "5."
 
-But take \mon with re -- \moff joi -- cing from Je -- sus at once,
+But take, \mon with re -- \moff joi -- cing, from Je -- sus at once
 The life ev -- er -- last -- ing He gives;
 And know with as -- sur -- ance thou nev -- er canst die,
 Since Je -- sus, thy right -- eous -- ness, lives.

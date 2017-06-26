@@ -101,10 +101,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Come be -- liev -- ing! come be -- liev -- ing! \bar "."
-Come to Je -- sus! look and live! \bar "."
-Come be -- liev -- ing! come be -- liev -- ing! \bar "."
-Come to Je -- sus! look and live. \bar "."
+Come be -- liev -- ing! Come be -- liev -- ing! \bar "."
+Come to Je -- sus! Look, and live! \bar "."
+Come be -- liev -- ing! Come be -- liev -- ing! \bar "."
+Come to Je -- sus! Look, and live! \bar "."
 
 }
 

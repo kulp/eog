@@ -128,9 +128,9 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { “Come to me, ye weary, }
+\line { “Come to Me, ye weary, }
 \line { { \hspace #2 } I have rest to give”; }
-\line { Hearken then unto Him }
+\line { Hearken then unto Him, }
 \line { { \hspace #2 } And your soul shall live. }
 
 }

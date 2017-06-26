@@ -133,52 +133,46 @@ wordsA = \lyricmode {
 
 Bright in the glo -- ry, \bar "."
 Where my Lord has gone be -- fore; \bar "."
-Safe in the glo -- ry, \bar "."
+Safe in the glo -- ry \bar "."
 To go out no more. \bar "."
 I shall soon have en -- tered, \bar "."
 In His like -- ness sat -- is -- fied, \bar "."
 All my thoughts con -- cen -- tered \bar "."
 In the Glo -- ri -- fied. \bar "."
-Je -- sus, Lord Je -- sus, \bar "."
-Thou art all in all to me \bar "."
-Je -- sus, Lord Je -- sus, \bar "."
-I would live to Thee. \bar "."
+Je -- sus, Lord Je -- sus, Thou art all in all to me; \bar "."
+Je -- sus, Lord Je -- sus, I would live to Thee. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-There, in the glo -- ry,
+There in the glo -- ry,
 I shall see my Lord who died;
 Throned in the glo -- ry,
 Lives the Cru -- ci -- fied.
 Light -- ly weighs life’s bur -- den,
 As I glad -- ly jour -- ney on,
 Pre -- cious is my guer -- don,
-Christ, the Ris -- en One.
-Je -- sus, Lord Je -- sus,
-Praise and glo -- ry be to Thee;
-Je -- sus, Lord Je -- sus,
-All my joy’s in Thee.
+Christ the ris -- en One.
+Je -- sus, Lord Je -- sus, praise and glo -- ry be to Thee,
+Je -- sus, Lord Je -- sus, all my joy’s in Thee.
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Soon, in the glo -- ry,
+Soon in the glo -- ry,
 We shall gath -- er ev -- ’ry one;
 Loud in the glo -- ry,
 Raise the joy -- ful song.
 Un -- to Him who loves us,
-Ne -- ver -- ceas -- ing praise be given,
-Sing we Hal -- le -- lu -- jah,
+Ne -- ver ceas -- ing praise be given,
+Sing we hal -- le -- lu -- jah,
 To the Lord of heaven.
-Je -- sus, Lord Je -- sus,
-Soon for -- ev -- er -- more with Thee;
-Je -- sus, Lord Je -- sus,
-We Thy face shall see.
+Je -- sus, Lord Je -- sus, soon for -- ev -- er -- more with Thee,
+Je -- sus, Lord Je -- sus, we Thy face shall see.
 
 }
 

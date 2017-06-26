@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 
 What cheer -- ing words are these! \bar "." % TODO contrast `!` with `?` in title
 Their sweet -- ness who can tell? \bar "."
-In time and to e -- ter -- nal days,– \bar "."
+In time and to e -- ter -- nal days– \bar "."
 \italicsOn “’Tis with be -- liev -- ers well!” \italicsOff \bar "."
 
 }
@@ -104,7 +104,7 @@ wordsC = \lyricmode {
 
 Well in af -- flic -- tion’s ways,
 Or on the mount with God;
-Well when they joy and sing and praise,
+Well when they joy, and sing, and praise,
 Or buf -- fet with the flood.
 
 }

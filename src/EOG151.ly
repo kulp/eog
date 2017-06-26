@@ -79,8 +79,8 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“No con -- dem -- na -- tion!” –pre -- cious word! \bar "."
-Con -- sid -- er it, my soul! \bar "."
+“No con -- dem -- na -- tion” –pre -- cious word! \bar "."
+Con -- sid -- er it, my soul; \bar "."
 Thy sins were all on Je -- sus laid; \bar "."
 His stripes have made thee whole. \bar "."
 
@@ -99,10 +99,10 @@ Je -- sus doth ev -- er bear.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“No con -- dem -- na -- tion!” –O my soul,
+“No con -- dem -- na -- tion” –O my soul,
 ’Tis God that speaks the word,
 Per -- fect in come -- li -- ness art thou
-In Christ the ris -- en Lord.
+In Christ, the ris -- en Lord.
 
 }
 
@@ -111,7 +111,7 @@ wordsD = \lyricmode {
 
 Teach me, O God, to fix mine eyes
 On Christ, the spot -- less Lamb;
-So shall I love Thy pre -- cious will,
+So shall I love Thy pre -- cious will
 And glo -- ri -- fy His name.
 
 }

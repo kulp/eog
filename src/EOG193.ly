@@ -106,9 +106,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Peace, peace, sweet peace! \bar "."
-Won -- der -- ful gift from a -- bove! %{HIDE>%} (a -- bove!) %{<HIDE%} \bar "."
-Oh, won -- der -- ful, won -- der -- ful peace! \bar "."
+Peace, peace, sweet peace, \bar "."
+Won -- der -- ful gift from a -- bove; %{HIDE>%} (a -- bove;) %{<HIDE%} \bar "."
+Oh, won -- der -- ful, won -- der -- ful peace, \bar "."
 Sweet peace, the gift of God’s love! \bar "."
 
 }
@@ -116,7 +116,7 @@ Sweet peace, the gift of God’s love! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-There comes to my heart one sweet strain, %{HIDE>%} (sweet strain,) %{<HIDE%} \bar "."
+There comes to my heart a sweet strain, %{HIDE>%} (sweet strain,) %{<HIDE%} \bar "."
 A glad and a joy -- ous re -- frain; %{HIDE>%} (re -- frain;) %{<HIDE%} \bar "."
 I sing it a -- gain and a -- gain, \bar "."
 Sweet peace, the gift of God’s love. \bar "."
@@ -126,7 +126,7 @@ Sweet peace, the gift of God’s love. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Through Christ on the cross peace was made, %{HIDE>%} (was made,) %{<HIDE%}
+Through Christ on the cross peace was made; %{HIDE>%} (was made,) %{<HIDE%}
 My debt by His death was all paid; %{HIDE>%} (all paid;) %{<HIDE%}
 No oth -- er foun -- da -- tion is laid
 For peace, the gift of God’s love.
@@ -139,8 +139,8 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 When Je -- sus as Lord I had owned, %{HIDE>%} (had owned,) %{<HIDE%}
-My heart with this peace did a -- bound; %{HIDE>%} (a -- bound;) %{<HIDE%}
-In Him the rich bless -- ing I found,
+My heart with His peace did a -- bound; %{HIDE>%} (a -- bound;) %{<HIDE%}
+In Him a rich bless -- ing I found,
 Sweet peace, the gift of God’s love.
 
 }

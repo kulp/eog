@@ -139,10 +139,10 @@ Come, ye that fear the Lord, \bar "."
 Un -- to Me! \bar "."
 I’ve some -- thing good to say \bar "."
 A -- bout the nar -- row way: \bar "."
-For Christ the oth -- er day! \bar "."
-Saved my soul, Saved my soul! \bar "."
 For Christ the oth -- er day \bar "."
-Saved my soul! \bar "."
+Saved my soul, saved my soul! \bar "."
+%{HIDE>%} For Christ the oth -- er day \bar "." %{<HIDE%}
+%{HIDE>%} Saved my soul! \bar "." %{<HIDE%}
 
 }
 
@@ -156,9 +156,9 @@ What I was!
 He gave me first to see
 My guilt and mis -- e -- ry,
 And then He set me free!
-Bless His Name! Bless His Name!
-And then He set me free!
-Bless His Name!
+Bless His name! Bless His name!
+%{HIDE>%} And then He set me free! %{<HIDE%}
+%{HIDE>%} Bless His name! %{<HIDE%}
 
 }
 
@@ -172,9 +172,9 @@ My old com -- pan -- ions said,
 My old com -- pan -- ions said,
 “He’s sure -- ly go -- ing mad!”
 But Je -- sus makes me glad!
-Bless His Name! Bless His Name!
-But Je -- sus makes me glad!
-Bless His Name!
+Bless His name! Bless His name!
+%{HIDE>%} But Je -- sus makes me glad! %{<HIDE%}
+%{HIDE>%} Bless His name! %{<HIDE%}
 
 }
 
@@ -187,7 +187,7 @@ wordsD = \markuplist {
 \line { But time has passed away }
 \line { Since I began to pray, }
 \line { And I feel His love today! }
-\line { Bless His Name! Bless His Name! }
+\line { Bless His name! Bless His name! }
 
 }
 
@@ -197,7 +197,7 @@ wordsE = \markuplist {
 \line { To the Lord, to the Lord. }
 \line { So now I’m going home }
 \line { To the Lord. }
-\line { So now I’m going home }
+\line { So now I’m going home. }
 \line { Poor sinner, won’t you come? }
 \line { Or meet an awful doom }
 \line { From the Lord, from the Lord. }

@@ -97,8 +97,8 @@ wordsA = \lyricmode {
 
 Let all who know the joy -- ful sound, \bar "."
 With glad -- ness send the tid -- ings round, \bar "."
-And tell that God is love: \bar "."
-That God so loved the world He gave \bar "."
+And tell that God is love; \bar "."
+That God so loved the world, He gave \bar "."
 His own dear Son the world to save; \bar "."
 God’s mes -- sage from a -- bove. \bar "."
 
@@ -109,7 +109,7 @@ wordsB = \lyricmode {
 
 That all who in the Son be -- lieve,
 Shall nev -- er per -- ish, but re -- ceive
-Life end -- less and di -- vine:
+Life end -- less and di -- vine;
 No con -- dem -- na -- tion e’er shall know,
 From death to life they pass be -- low,
 And then in glo -- ry shine.
@@ -120,19 +120,19 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 ‘Tis not of works: let no man boast,
-Save in His name Who saves the lost–
+Save in His name who saves the lost–
 The Lord our Right -- eous -- ness!
 Poor sin -- ner, now from work -- ing cease,
 And claim from God a blood -- bought peace,
-And Je -- sus, Lord con -- fess.
+And Je -- sus, Lord, con -- fess.
 
 }
 
 wordsD = \markuplist {
 
-\line { Let all who know our God rejoice }
+\line { Let all who know our God rejoice, }
 \line { Praise Him in songs with cheerful voice, }
-\line { And live to Him alone: }
+\line { And live to Him alone; }
 \line { Let sinners too take up the strain, }
 \line { Exalt the Lamb for sinners slain, }
 \line { The coming Saviour own. }
@@ -143,7 +143,7 @@ wordsE = \markuplist {
 
 \line { The Spirit and the bride say, Come! }
 \line { Let him that heareth, too, say, Come! }
-\line { Whoever thirsts may come: }
+\line { Whoever thirsts may come; }
 \line { Water of life is freely given }
 \line { Till Christ the Lord descends from heaven; }
 \line { Lord Jesus, quickly come! }

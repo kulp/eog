@@ -93,12 +93,12 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 On His Fa -- ther’s throne is seat -- ed \bar "."
-Christ the Lord the liv -- ing One! \bar "."
+Christ the Lord, the liv -- ing One! \bar "."
 All His toil on earth comp -- let -- ed, \bar "."
 All His work for sin -- ners done. \bar "."
-%{HIDE>%} In the glo -- ry, In the glo -- ry \bar "." %{<HIDE%}
-In the glo -- ry \bar "."
-See Him God’s e -- ter -- nal Son! \bar "."
+In the glo -- ry, in the glo -- ry \bar "."
+%{HIDE>%} In the glo -- ry \bar "." %{<HIDE%}
+See Him– God’s e -- ter -- nal Son! \bar "."
 
 }
 
@@ -106,37 +106,37 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Ev -- ’ry knee shall bow be -- fore Him,
-Ev -- ’ry tongue con -- fess His Name:
-Ran -- somed myr -- i -- ads a -- dore Him
+Ev -- ’ry tongue con -- fess His name,
+Ran -- somed myr -- iads shall a -- dore Him,
 Who en -- dured the sin -- ner’s shame!
-%{HIDE>%} From the glo -- ry, From the glo -- ry %{<HIDE%}
-From the glo -- ry
-God doth now His worth pro -- claim!
+From the glo -- ry, from the glo -- ry
+%{HIDE>%} From the glo -- ry %{<HIDE%}
+God doth now His worth pro -- claim.
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Man the cross to Him a -- ward -- ed,
+Man the cross to Him a -- ward -- ed;
 Man the Sav -- iour cru -- ci -- fied!
 Thus man’s judg -- ment stands re -- cord -- ed,
 Thus was jus -- tice sat -- is -- fied!
-%{HIDE>%} By the glo -- ry, By the glo -- ry %{<HIDE%}
-By the glo -- ry
-Christ was claimed, on earth who died!
+By the glo -- ry, by the glo -- ry
+%{HIDE>%} By the glo -- ry %{<HIDE%}
+Christ was claimed, on earth who died.
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Son of Man! His in -- car -- na -- tion
+Son of Man, His in -- car -- na -- tion
 O -- pened first the tale of grace;
-Son of Man! in new cre -- a -- tion
+Son of Man, in new cre -- a -- tion
 Lead -- er of a chos -- en race!
-%{HIDE>%} Well may glo -- ry, Well may glo -- ry %{<HIDE%}
-Well may glo -- ry
+Well may glo -- ry, well may glo -- ry
+%{HIDE>%} Well may glo -- ry %{<HIDE%}
 Crown Him in the or -- dered place!
 
 }

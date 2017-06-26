@@ -119,10 +119,10 @@ And songs of praise his lips em -- ploy.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus! all praise a -- bove:
+Je -- sus! all praise a -- bove,
 We sing Thy bless -- ed name,
 We sing Thy dy -- ing love,
-Thy ris -- ing power pro -- claim:
+Thy ris -- ing power pro -- claim;
 But soon, to give Thee worth -- y praise,
 %{HIDE>%}Both heaven and earth their songs shall raise, %{<HIDE%}
 Both heaven and earth their songs shall raise.

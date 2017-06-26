@@ -115,9 +115,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“It is fin -- ished!” yes, in -- deed, \bar "."
-Fin -- ished ev -- ’ry jot; \bar "."
-Sin -- ner, this is all you need, \bar "."
+“It is fin -- ished!” Yes, in -- deed, \bar "."
+Fin -- ished ev -- ’ry jot. \bar "."
+Sin -- ner, this is all you need; \bar "."
 Tell me, is it not? \bar "."
 
 }
@@ -125,7 +125,7 @@ Tell me, is it not? \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Noth -- ing, ei -- ther great or small– \bar "."
+Noth -- ing, ei -- ther great or small, \bar "."
 Noth -- ing, sin -- ner, no; \bar "." \break
 Je -- sus did it, did it all, \bar "."
 Long, long a -- go. \bar "." \break
@@ -137,7 +137,7 @@ wordsB = \lyricmode {
 
 When He, from His loft -- y throne,
 Stooped to do and die,
-Ev -- ’ry -- thing was full -- y done;
+Ev -- ’ry -- thing was full -- y done:
 { \mon } Heark -- en { \moff } to His cry–
 
 \Refrain
@@ -167,7 +167,7 @@ By a sim -- ple faith,
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Cast your dead -- ly “do -- ing” down–
+Cast your dead -- ly “do -- ing” down,
 Down at Je -- sus’ feet;
 Stand “in Him,” “in Him” a -- lone,
 { \mon } Glo -- rious -- ly { \moff } com -- plete.

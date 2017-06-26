@@ -102,13 +102,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 There is a bet -- ter world a -- bove, \bar "."
-Oh, so bright! Oh, so bright! \bar "."
+Oh, so bright! oh, so bright! \bar "."
 Where all is peace, and joy, and love, \bar "."
-Oh, so bright! Oh, so bright! \bar "."
+Oh, so bright! oh, so bright! \bar "."
 And all are free from ev -- ’ry care, \bar "."
 And an -- gels of the Lord are there, \bar "."
 And harps of God, and man -- sions fair, \bar "."
-Oh, so bright! Oh, so bright! \bar "."
+Oh, so bright! oh, so bright! \bar "."
 
 }
 
@@ -116,13 +116,13 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 No clouds e’er pass a -- long its sky,
-Hap -- py land! Hap -- py land!
+Hap -- py land! hap -- py land!
 No tear -- drops glis -- ten in the eye,
-Hap -- py land! Hap -- py land!
+Hap -- py land! hap -- py land!
 They drink the gush -- ing streams of grace,
 And gaze up -- on the Sav -- iour’s face,
 Whose bright -- ness fills the ho -- ly place,
-Hap -- py land! Hap -- py land!
+Hap -- py land! hap -- py land!
 
 }
 
@@ -130,9 +130,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 But tho’ we’re sin -- ners ev -- ’ry one,
-Je -- sus died, Je -- sus died,
+Je -- sus died, Je -- sus died;
 And tho’ for -- lorn, con -- demned, un -- done,
-Je -- sus died, Je -- sus died,
+Je -- sus died, Je -- sus died;
 All may be cleansed from ev -- ’ry stain,
 All may be crowned with bliss a -- gain,
 And in that land of pleas -- ure reign,

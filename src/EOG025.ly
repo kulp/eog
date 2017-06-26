@@ -121,8 +121,7 @@ Refrain = \lyricmode {
 
 Be -- lieve that won -- der -- ful love, \bar "."
 Be -- lieve that won -- der -- ful love, \bar "."
-The gos -- pel is free, \bar "." { \pageBreak }
-God sends it to thee, \bar "."
+The gos -- pel is free, \bar "." God sends it to thee, \bar "."
 Be -- lieve God’s won -- der -- ful love. \bar "."
 
 }
@@ -143,7 +142,7 @@ wordsB = \lyricmode {
 Poor sin -- ners un -- done, and sin -- ful, and lost,
 This love of our { \mon } God now { \moff } re -- ceive;
 No heart is too sad this love to make glad,
-When once on God’s word we be -- lieve.
+When once on God’s Word we be -- lieve.
 
 \bar "."
 
@@ -166,7 +165,7 @@ wordsD = \lyricmode {
 
 Then will you not prove this won -- der -- ful love,
 That flows from God’s heart so free,
-Which led Him to give that sin -- ners might live,
+Which led Him to give, that sin -- ners might live,
 His Son to be nailed to the tree?
 
 }

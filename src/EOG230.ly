@@ -105,11 +105,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I’ve found a Friend; oh, such a Friend! \bar "."
+I’ve found a Friend, oh, such a Friend! \bar "."
 He loved me ere I knew Him; \bar "."
 He drew me with the cords of love, \bar "."
 And thus He bound me to Him. \bar "."
-And ’round my heart still close -- ly twine \bar "."
+And round my heart still close -- ly twine \bar "."
 Those ties which naught can sev -- er, \bar "."
 For I am His, and He is mine, \bar "."
 For -- ev -- er and for -- ev -- er! \bar "."
@@ -119,7 +119,7 @@ For -- ev -- er and for -- ev -- er! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-I’ve found a Friend; oh, such a Friend!
+I’ve found a Friend, oh, such a Friend!
 He bled, He died to save me;
 And not a -- lone the gift of life,
 But His own self He gave me.
@@ -133,7 +133,7 @@ Are His, and His for -- ev -- er!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-I’ve found a Friend; oh, such a Friend!
+I’ve found a Friend, oh, such a Friend!
 All pow’r to Him is giv -- en
 To guard me on my on -- ward course,
 And bring me safe to heav -- en.
@@ -147,11 +147,11 @@ And then to rest for -- ev -- er!
 wordsD = \lyricmode {
 \set stanza = "4."
 
-I’ve found a Friend; oh, such a Friend!
+I’ve found a Friend, oh, such a Friend!
 So kind, and true, and ten -- der,
 So wise a Coun -- sel -- lor and Guide,
 So might -- y a De -- fen -- der!
-From Him, who loves me now so well,
+From Him who loves me now so well,
 What pow’r my soul can sev -- er?
 Shall life or death, or earth or hell?
 No; I am His for -- ev -- er!

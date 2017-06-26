@@ -90,7 +90,7 @@ And knows nei -- ther meas -- ure nor end! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-’Tis Je -- sus the First and the Last,
+’Tis Je -- sus, the First and the Last,
 Whose Spir -- it shall guide us safe home;
 We’ll praise Him for all that is past,
 And trust Him for all that’s to come.

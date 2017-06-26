@@ -112,7 +112,7 @@ wordsD = \markuplist {
 
 \line { We too the cleansing power have known }
 \line { { \hspace #2 } Of the atoning blood, }
-\line { By grace have learnt His name to own, }
+\line { By grace have learned His name to own, }
 \line { { \hspace #2 } Which brings us back to God. }
 
 }

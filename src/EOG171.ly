@@ -94,7 +94,7 @@ In His blood are wash’d a -- way. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Sweet -- est rest and peace and filled us,
+Sweet -- est rest and peace have filled us,
 Sweet -- er praise than tongue can tell;
 God is sat -- is -- fied with Je -- sus,
 We are sat -- is -- fied as well.
@@ -115,7 +115,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Filled with this sweet peace for -- ev -- er,
-On we go, thro’ strife and care,
+On we go thro’ strife and care,
 Till we find that peace a -- round us
 In the Lamb’s high glo -- ry there.
 

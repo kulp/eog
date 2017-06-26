@@ -95,7 +95,7 @@ Un -- to Him be the glo -- ry for -- ev -- er. A -- men. \bar "." \break
 wordsA = \lyricmode {
 \set stanza = "1."
 
-With joy and with glad -- ness there stand a great throng, \bar "." \break
+With joy and with glad -- ness there stands a great throng, \bar "." \break % XXX blue book changes "stand" to "stands" but leaves "sing" in the next line
 In the pres -- ence of Je -- sus, and sing this new song: \bar "." \break
 
 }
@@ -104,7 +104,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 All these once were sin -- ners, de -- filed in His sight,
-Now ar -- rayed in pure gar -- ments in praise they u -- nite:
+Now ar -- rayed in pure gar -- ments in praise they u -- nite.
 
 \Refrain
 
@@ -114,7 +114,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 He mak -- eth the reb -- el a priest and a king;
-He hath brought him and taught him this new song to sing:
+He hath bought him and taught him this new song to sing:
 
 }
 
@@ -127,7 +127,7 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { Aloud in His praises } \line { { \hspace #2 } their voices shall ring. }
+\line { Aloud in His praises } \line { { \hspace #2 } their voices shall ring, }
 \line { So that others believing, } \line { { \hspace #2 } this new song shall sing. }
 
 }

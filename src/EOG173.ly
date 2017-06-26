@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 Long did I toil, and knew no earth -- ly rest; \bar "."
 Far did I rove, and found no cer -- tain home; \bar "."
 At last I sought them in His shelter -- ing breast, \bar "." % original has shel -- ter -- ing
-Who opes His arms, and bids the wear -- y come: \bar "."
+Who opes His arms, and bids the wear -- y come; \bar "."
 With Him I found a home, a rest di -- vine, \bar "."
 And I since then am His, and He is mine. \bar "."
 
@@ -115,7 +115,7 @@ Con -- tent, while I am His, while He is mine.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-While here a -- las, I know but half His love,
+While here, a -- las! I know but half His love,
 But half dis -- cern Him, and but half a -- dore;
 But when I meet Him in the realms a -- bove,
 I then will love Him bet -- ter, praise Him more,

@@ -107,8 +107,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“Ver -- i -- ly, ver -- i -- ly, I say un -- to you, \bar "."
-Ver -- i -- ly, ver -- i -- ly,” mes -- sage ev -- er new; \bar "."
+“Ver -- i -- ly, ver -- i -- ly, I say un -- to you,” \bar "."
+“Ver -- i -- ly, ver -- i -- ly,” mes -- sage ev -- er new; \bar "."
 “He that be -- liev -- eth on the Son,” ’tis true, \bar "."
 { \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.” \bar "."
 
@@ -117,7 +117,7 @@ Ver -- i -- ly, ver -- i -- ly,” mes -- sage ev -- er new; \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh what a Sav -- iour that He died for me! \bar "."
+Oh, what a Sav -- iour that He died for me! \bar "."
 From con -- dem -- na -- tion He hath made me free; \bar "."
 “He \mon that be -- \moff liev -- eth on the Son,” saith He, \bar "."
 { \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.” \bar "."
@@ -130,7 +130,7 @@ wordsB = \lyricmode {
 All my in -- iq -- ui -- ties on Him were laid,
 All my in -- debt -- ed -- ness by Him was paid;
 All \mon who be -- \moff lieve on Him, the Lord hath said,
-{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
+{ \italicsOn } Have { \italicsOff } “ev -- er -- last -- ing life.”
 
 \Refrain
 
@@ -139,9 +139,9 @@ All \mon who be -- \moff lieve on Him, the Lord hath said,
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Tho’ poor and need -- y, I can trust my Lord,
+Tho’ poor and need -- y, I can trust my Lord;
 Tho’ weak and sin -- ful, I be -- lieve His word;
-Oh \mon bless -- ed \moff mes -- sage! ev -- ’ry child of God,
+Oh, \mon bless -- ed \moff mes -- sage! ev -- ’ry child of God
 { \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 
@@ -151,8 +151,8 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Tho’ all un -- wor -- thy, yet I will not doubt,
-For him that com -- eth, He will not cast out,
-“He \mon that be -- \moff liev -- eth,” oh! the good news shout,
+For him that com -- eth He will not cast out;
+“He \mon that be -- \moff liev -- eth”– oh, the good news shout!
 % XXX the opening quote isn't quite close enough to the \caps Hath
 %LYRICS “Hath ev -- er -- last -- ing life.”
 %{HIDE>%} \markup{ “\caps Hath } ev -- er -- last -- ing life.” %{<HIDE%}

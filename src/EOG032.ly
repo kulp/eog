@@ -100,7 +100,7 @@ RefrainH = \lyricmode {
 
  { \italicsOn }
 No room! no room! \bar "."
-Oh, woe -- ful cry!– “No room!” \bar "."
+Oh, woe -- ful cry– “No room!” \bar "."
  { \italicsOff }
 
 }
@@ -108,7 +108,7 @@ Oh, woe -- ful cry!– “No room!” \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Yet there is room!” The Lamb’s bright hall of song, \bar "."
+Yet there is room! The Lamb’s bright hall of song, \bar "."
 With its fair glo -- ry, beck -- ons thee a -- long; \bar "."
 
 \Refrain
@@ -127,7 +127,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 The brid -- al hall is fill -- ing for the feast:
-Pass in! pass in! and be the Bride -- groom’s guest.
+Pass in, pass in, and be the Bride -- groom’s guest.
 %{HIDE>%} { \skip 4 \markup { \italic "(Last verse only)" } } %{<HIDE%}
 
 }
@@ -136,7 +136,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 It fills, it fills, that hall of ju -- bi -- lee!
-Make haste, make haste; ’tis not too full for thee.
+Make haste, make haste: ’tis not too full for thee.
 
 \RefrainH
 
@@ -151,7 +151,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { Pass in! pass in! That banquet is for thee; }
+\line { Pass in, pass in! That banquet is for thee: }
 \line { That cup of everlasting love is free.       }
 
 }
@@ -166,7 +166,7 @@ wordsG = \markuplist {
 wordsH = \markuplist {
 
 \line { Ere night that gate may close, and seal thy doom: }
-\line { Then the last low, long cry, “No room! no room!”  } % XXX original does not have closing quote
+\line { Then the last, low, long cry, “No room! no room!”  } % XXX original does not have closing quote
 
 }
 

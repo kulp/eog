@@ -116,9 +116,9 @@ notesBass = {
 
 wordsA = \markuplist {
 
-\line { Oh what a gift the Father gave }
+\line { Oh, what a gift the Father gave }
 \line { { \hspace #2 } When He bestowed His Son! }
-\line { To save poor ruined, guilty man, }
+\line { To save poor, ruined, guilty man, }
 \line { { \hspace #2 } By sin defiled, undone. }
 
 }
@@ -127,7 +127,7 @@ wordsB = \markuplist {
 
 \line { For I was lost and vile indeed! }
 \line { { \hspace #2 } To sin a willing prey; }
-\line { Till God in mercy interposed }
+\line { Till God in mercy interposed, }
 \line { { \hspace #2 } And turned my night to day. }
 
 }
@@ -145,7 +145,7 @@ wordsD = \markuplist {
 
 \line { Come all who trust in Jesus now, }
 \line { { \hspace #2 } And tell your joys abroad; }
-\line { Let thankful hymns of praise ascend, }
+\line { Let thankful hymns of praise ascend }
 \line { { \hspace #2 } For Christ, the gift of God. }
 
 }

@@ -89,9 +89,9 @@ Hold -- ing out His bless -- ed hands. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Come,” He says, “Come back to Me;
+“Come,” He says, “come back to Me;
 Lit -- tle lamb, I died for thee;
-I will take thee to My home,
+I will take thee to My home;
 Lit -- tle lamb, I pray thee, come.
 
 }
@@ -111,7 +111,7 @@ wordsD = \lyricmode {
 
 “I would have thee lie at rest,
 Lit -- tle lamb, up -- on My breast;
-Thou shalt be my sweet de -- light
+Thou shalt be My sweet de -- light
 All the day and all the night.
 
 }
@@ -121,7 +121,7 @@ wordsE = \lyricmode {
 
 “Tho’ thou hast a way -- ward will,
 Lit -- tle lamb, I love thee still;
-Come to Me and be for -- giv’n,
+Come to Me and be for -- giv’n;
 I will bear thee safe to heav’n.”
 
 }

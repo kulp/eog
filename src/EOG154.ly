@@ -89,7 +89,7 @@ notesBass = {
 
 wordsA = \markuplist {
 
-\line { Th’atoning work is done, }
+\line { The atoning work is done, }
 \line { { \hspace #2 } The Victim’s blood is shed, }
 \line { And Jesus now is gone }
 \line { { \hspace #2 } His people’s cause to plead: }
@@ -101,7 +101,7 @@ wordsA = \markuplist {
 wordsB = \markuplist {
 
 \line { See “sprinkled with the blood }
-\line { { \hspace #2 } The mercy seat” above; }
+\line { { \hspace #2 } The mercy-seat” above; }
 \line { For Justice had withstood }
 \line { { \hspace #2 } The purposes of Love; }
 \line { But Justice now withstands no more, }

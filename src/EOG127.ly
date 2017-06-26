@@ -119,7 +119,7 @@ wordsA = \markuplist {
 
 Refrain = \markuplist {
 
-\line { { \hspace #2 } In the sweet by-and-by, }
+\line { { \hspace #2 } In the sweet by-and-by }
 \line { { \hspace #2 } We shall meet in the home of our Lord. }
 
 }
@@ -129,14 +129,14 @@ wordsB = \markuplist {
 \line { There are cleansing and healing for all }
 \line { { \hspace #2 } Who will wash in the life-giving flood; }
 \line { There is life everlasting, and joy }
-\line { { \hspace #2 } At the right hand of God through the blood. }
+\line { { \hspace #2 } In the presence of God through the blood. }
 
 }
 
 wordsC = \markuplist {
 
 \line { Even now while we taste of His love, }
-\line { { \hspace #2 } We are filled with delight at His name: }
+\line { { \hspace #2 } We are filled with delight at His name; }
 \line { But what will it be when above }
 \line { { \hspace #2 } We shall join in the song of the Lamb! }
 

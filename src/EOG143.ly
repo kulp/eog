@@ -105,7 +105,7 @@ wordsC = \lyricmode {
 
 Yea, tho’ I walk in death’s dark vale,
 Yet I will fear no ill;
-For thou art with me, and Thy rod
+For Thou art with me; and Thy rod
 And staff they com -- fort still.
 
 }
@@ -115,7 +115,7 @@ wordsD = \markuplist {
 \line { My table Thou hast furnishèd }
 \line { In presence of my foes; }
 \line { My head thou dost with oil anoint, }
-\line { And my cup over-flows. }
+\line { And my cup overflows. }
 
 }
 

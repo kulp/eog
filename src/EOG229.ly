@@ -89,10 +89,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-It pass -- eth know -- ledge! that dear love of Thine, \bar "."
+It pass -- eth know -- ledge, that dear love of Thine, \bar "."
 My Je -- sus! Sav -- iour! yet this soul of mine \bar "."
-Would of Thy love in all its breadth and length, \bar "."
-Its height, and depth, and ev -- er -- last -- ing strength, \bar "."
+Would of Thy love, in all its breadth and length, \bar "."
+Its height and depth, and ev -- er -- last -- ing strength, \bar "."
 Know more and more. \bar "."
 
 }
@@ -100,7 +100,7 @@ Know more and more. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-It pass -- eth \italicsOn tell -- ing! \italicsOff that dear love of Thine,
+It pass -- eth \italicsOn tell -- ing, \italicsOff that dear love of Thine,
 My Je -- sus! Sav -- iour! yet these lips of mine
 Would fain pro -- claim to sin -- ners far and near
 A love which can re -- move all guilt -- y fear,
@@ -111,7 +111,7 @@ And love be -- get.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-It pass -- eth \italicsOn prais -- es! \italicsOff that dear love of Thine,
+It pass -- eth \italicsOn prais -- es, \italicsOff that dear love of Thine,
 My Je -- sus! Sav -- iour! yet this heart of mine
 Would sing a love so rich– so full– so free,
 Which brought a reb -- el sin -- ner, such as me,
@@ -133,7 +133,7 @@ wordsE = \markuplist {
 
 \line { I \italic am an empty vessel– scarce one thought }
 \line { Or look of love to Thee I’ve ever brought; }
-\line { Yet I \italic may come, and come again, to Thee }
+\line { Yet I \italic may come, and come again to Thee }
 \line { With this, the needy children’s only plea– }
 % `\italic { }` would get stripped in getlyrics
 \line { \italic “Thou \italic lovest \italic me!” }
@@ -142,9 +142,9 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { Oh fill me, Jesus, Saviour, with Thy love; }
+\line { Oh, fill me, Jesus, Saviour, with Thy love; }
 \line { Lead, lead me to the living fount above! }
-\line { Thither may I in simple faith draw nigh, }
+\line { Thither may I in simple faith draw nigh }
 \line { And never to another fountain fly, }
 \line { But unto Thee. }
 
@@ -155,7 +155,7 @@ wordsG = \markuplist {
 \line { And Jesus, when Thee face to face I see, }
 \line { When on Thy lofty throne I sit with Thee; }
 \line { Then of Thy love in all its breadth and length, }
-\line { Its height and depth, its everlasting strength }
+\line { Its height and depth, its everlasting strength, }
 \line { My soul shall sing. }
 
 }

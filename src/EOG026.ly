@@ -122,19 +122,19 @@ The lost one is found, and the ser -- vants must bring,
 wordsD = \lyricmode {
 \set stanza = "4."
 
-{ \mon } And the { \moff } ver -- y best robe, and the fat -- ling and wine,
+{ \mon } And the { \moff } ver -- y best robe, and the fat -- ling, and wine,
 { \mon } (What a { \moff } change from the rags, and the husks, and the swine!)
 With mu -- sic and danc -- ing– ’tis some -- thing so new,
-{ \mon } Such a { \moff } ful -- ness of bless -- ing– and noth -- ing to do!
+{ \mon } Such a { \moff } full -- ness of bless -- ing– and noth -- ing to do!
 
 }
 
 wordsE = \markuplist {
 
-\line { Ah! nothing to do! for the sinner that’s dead }
+\line { Ah! nothing to do, for the sinner that’s dead }
 \line { Must needs have another to work in his stead: }
 \line { And Jesus, in Calvary’s terrible hour,        }
-\line { Redemption accomplished in marvelous power.   }
+\line { Redemption accomplished in marvelous power,   }
 
 }
 

@@ -125,13 +125,13 @@ A flow -- ing full sup -- ply. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Gold could not give the heart re -- lief
+Gold could not give the heart -- re -- lief
 The mal -- e -- fac -- tor craved,
 Ah, no! ’twas Christ, the Christ of God,
 That dy -- ing sin -- ner saved;
-Faith’s view of Him Who bleed -- ing hung
+Faith’s view of Him who bleed -- ing hung
 A vic -- tim by his side.
-He saw, he knew, the Lord was there,
+He saw, he knew the Lord was there,
 The Lord for him had died.
 
 }
@@ -139,7 +139,7 @@ The Lord for him had died.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, what can e -- qual joy di -- vine?
+Oh, what can e -- qual joy di -- vine,
 And what can sweet -- er be
 Than know -- ing that this Christ is mine
 To all e -- ter -- ni -- ty?

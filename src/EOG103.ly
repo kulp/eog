@@ -93,7 +93,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “Man of sor -- rows,” what a name \bar "."
-For the Son of God, Who came, \bar "."
+For the Son of God, who came \bar "."
 Ru -- in’d sin -- ners to re -- claim! \bar "."
 Hal -- le -- lu -- jah! what a Sav -- iour! \bar "."
 
@@ -112,9 +112,9 @@ Hal -- le -- lu -- jah! what a Sav -- iour!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Guil -- ty, vile, and help -- less, we,
-Spot -- less Lamb of God was He,
-“Full a -- tone -- ment,” can it be?
+Guil -- ty, vile and help -- less, we,
+Spot -- less Lamb of God was He!
+“Full a -- tone -- ment”– can it be?
 Hal -- le -- lu -- jah! what a Sav -- iour!
 
 }
@@ -123,7 +123,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Lift -- ed up was He to die,
-“It is fin -- ish’d” was His cry,
+“It is fin -- ish’d” was His cry.
 Now in heav’n ex -- alt -- ed high;
 Hal -- le -- lu -- jah! what a Sav -- iour!
 

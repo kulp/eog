@@ -124,7 +124,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 God be with you till we meet a -- gain;
-’Neath His wings pro -- tect -- ing hide you,
+Neath His wings pro -- tect -- ing hide you,
 Dai -- ly man -- na still pro -- vide you;
 God be with you till we meet a -- gain.
 
@@ -146,7 +146,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 God be with you till we meet a -- gain;
-Keep love’s ban -- ner float -- ing o’er you;
+Keep love’s ban -- ner float -- ing o’er you,
 Smite death’s threat -- ’ning wave be -- fore you;
 God be with you till we meet a -- gain.
 

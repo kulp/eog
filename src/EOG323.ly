@@ -104,7 +104,7 @@ wordsA = \lyricmode {
 
 There’s a \italicsOn Friend \italicsOff for lit -- tle chil -- dren \bar "."
 A -- bove the bright blue sky; \bar "."
-A Friend who nev -- er chang -- es \bar "."
+A Friend who nev -- er chang -- es, \bar "."
 Whose love can nev -- er die. \bar "."
 Un -- like our friends by na -- ture, \bar "."
 Who change from year to year, \bar "."
@@ -119,7 +119,7 @@ wordsB = \lyricmode {
 There’s a \italicsOn rest \italicsOff for lit -- tle chil -- dren
 A -- bove the bright blue sky;
 Who love the bless -- ed Sav -- iour,
-And “Ab -- ba, Fa -- ther,” cry:
+And “Ab -- ba, Fa -- ther,” cry;
 A rest from ev -- ’ry tur -- moil,
 From sin and dan -- ger free;
 Where ev -- ’ry lit -- tle pil -- grim
@@ -146,7 +146,7 @@ wordsD = \lyricmode {
 
 There’s a \italicsOn crown \italicsOff for lit -- tle chil -- dren
 A -- bove the bright blue sky;
-And all who look for Je -- sus,
+And all who look for Je -- sus
 Shall wear it by and by. % original has by-and-by, but "by -- and -- by" might be unfortunately compacted without hyphens TODO figure out hard hyphens
 A crown of bright -- est glo -- ry,
 Which He will then be -- stow
@@ -174,7 +174,7 @@ wordsF = \markuplist {
 \line { { \hspace #2 } Above the bright blue sky; }
 \line { And a \italic harp of sweetest music, }
 \line { { \hspace #2 } And a \italic palm of victory; }
-\line { All, all above is treasured, }
+\line { All, all above is treasured }
 \line { { \hspace #2 } And found in Christ alone; }
 \line { Oh, come, dear little children, }
 \line { { \hspace #2 } That all may be your own. }

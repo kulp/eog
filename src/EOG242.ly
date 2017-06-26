@@ -99,7 +99,7 @@ Refrain = \lyricmode {
 Hal -- le -- lu -- jah! Thine the glo -- ry! \bar "."
 Hal -- le -- lu -- jah! A -- men! \bar "."
 Hal -- le -- lu -- jah! Thine the glo -- ry! \bar "."
-A -- men and A -- men! \bar "."
+A -- men and a -- men! \bar "."
 
 }
 
@@ -136,14 +136,14 @@ wordsD = \markuplist {
 
 \line { Accepted I am }
 \line { In the once-offered Lamb; }
-\line { ’Twas God who Himself had devised the plan }
+\line { ’Twas God who Himself had devisèd the plan. }
 
 }
 
 wordsE = \markuplist {
 
 \line { And though here below, }
-\line { ’Mid sorrow and woe, }
+\line { Mid sorrow and woe, }
 \line { My place is in heaven with Jesus I know. }
 
 }

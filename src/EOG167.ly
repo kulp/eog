@@ -98,7 +98,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-But “I know whom I have be -- liev -- ed, \bar "."
+But “I know whom I have be -- liev -- ed; \bar "."
 And am per -- suad -- ed that He is a -- ble \bar "."
 To keep that which I’ve com -- mit -- ted \bar "."
 Un -- to Him a -- gainst that day.” \bar "."
@@ -109,9 +109,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 I know not why God’s won -- drous grace \bar "."
-To me He hath made known, \bar "."
-Nor why un -- worth -- y as I am \bar "."
-He claimed me for His own– \bar "."
+To me He hath made known; \bar "."
+Nor why –un -- worth -- y as I am– \bar "."
+He claimed me for His own. \bar "."
 
 }
 
@@ -119,9 +119,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 I know not how this sav -- ing faith
-To me He did im -- part,
-Or how be -- liev -- ing in His word
-Wrought peace with -- in my heart–
+To me He did im -- part;
+Or how be -- liev -- ing in His Word
+Wrought peace with -- in my heart.
 
 \Refrain
 
@@ -130,10 +130,10 @@ Wrought peace with -- in my heart–
 wordsC = \lyricmode {
 \set stanza = "3."
 
-I know not how the Spi -- rit moves–
-Con -- vinc -- ing men of sin–
-Re -- veal -- ing Je -- sus through the word–
-Cre -- a -- ting faith in Him–
+I know not how the Spi -- rit moves,
+Con -- vinc -- ing men of sin;
+Re -- veal -- ing Je -- sus through the Word,
+Cre -- a -- ting faith in Him.
 
 }
 
@@ -143,7 +143,7 @@ wordsD = \lyricmode {
 I know not what of good or ill
 May be re -- serv’d for me,
 Of wear -- y ways or gold -- en days
-Be -- fore His face I see–
+Be -- fore His face I see.
 
 }
 

@@ -83,10 +83,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-    By faith I see the Sav -- iour dy -- ing, \bar "."
+    By faith I see the Sav -- iour dy -- ing \bar "."
     On the tree, on the tree; \bar "."
     To ru -- ined sin -- ners He is cry -- ing– \bar "."
-    Look to Me! look to Me! \bar "."
+    Look to Me, look to Me. \bar "."
     He bids the guilt -- y now draw near; \bar "."
     Hark, hark! His pre -- cious words I hear– \bar "."
     So soft, so sweet, they ban -- ish fear: \bar "."
@@ -100,9 +100,9 @@ wordsB = \lyricmode {
     Did Christ, when I was sin pur -- su -- ing,
     Think of me, think of me?
     And did He save my soul from ru -- in?
-    Can it be? can it be?
-    Oh yes, He did sal -- va -- tion bring;
-    He is a Proph -- et, Priest, and King;
+    Can it be, can it be?
+    Oh, yes, He did sal -- va -- tion bring;
+    He is a Proph -- et, Priest and King;
     And now my hap -- py soul can sing,
     Mer -- cy’s free, mer -- cy’s free.
 
@@ -111,8 +111,8 @@ wordsB = \lyricmode {
 wordsC = \lyricmode {
 \set stanza = "3."
 
-    Long as I live I’d still be cry -- ing–
-    Mer -- cy’s free, mer -- cy’s free:
+    Long as I live I’d still be cry -- ing,
+    Mer -- cy’s free, mer -- cy’s free;
     Point to the Lamb for sin -- ners dy -- ing
     On the tree, on the tree.
     There all my foes He hath with -- stood,
@@ -131,7 +131,7 @@ wordsD = \lyricmode {
     Mer -- cy’s free, mer -- cy’s free.
     Vis -- it your neigh -- bor’s dark a -- bode,
     Pro -- claim to all this love of God,
-    Oh spread the joy -- ful news a -- broad,
+    Oh, spread the joy -- ful news a -- broad,
     Mer -- cy’s free, mer -- cy’s free.
 
 }

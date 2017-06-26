@@ -125,7 +125,7 @@ wordsA = \lyricmode {
 Come, ev -- ’ry soul by sin op -- pressed, \bar "."
 There’s mer -- cy with the Lord, \bar "." \break
 And He will sure -- ly give you rest, \bar "."
-By trust -- ing in His word. \bar "." \break
+By trust -- ing in His Word. \bar "." \break
 
 }
 

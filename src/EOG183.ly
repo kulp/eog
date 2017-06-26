@@ -99,7 +99,7 @@ Close to Thy pierc -- ed side; \bar "."
 And peace we can a -- bide; \bar "."
 With foes and snares a -- round us, \bar "."
 And lusts and fears with -- in, \bar "."
-The grace that sought and found us, \bar "."
+The grace that sought and found us \bar "."
 A -- lone can keep us clean. \bar "."
 
 }
@@ -111,10 +111,10 @@ wordsB = \lyricmode {
 We feel our -- selves se -- cure;
 On -- ly in Thee a -- bid -- ing
 The con -- flict can en -- dure:
-Thine arm the vic -- t’ry gain -- eth,
+Thine arm the vic -- t’ry gain -- eth
 O’er ev -- ’ry hate -- ful foe;
 Thy love our hearts sus -- tain -- eth,
-In all their cares and woes.
+In all their cares and woe.
 
 }
 
@@ -124,8 +124,8 @@ wordsC = \lyricmode {
 Soon shall our eyes be -- hold Thee
 With rap -- ture, face to face;
 And rest -- ing there in glo -- ry,
-We’ll sing thy power and grace:
-Thy beau -- ty, Lord and glo -- ry,
+We’ll sing Thy power and grace:
+Thy beau -- ty, Lord, and glo -- ry,
 The won -- ders of Thy love,
 Shall be the end -- less sto -- ry
 Of all Thy saints a -- bove.

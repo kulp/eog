@@ -98,7 +98,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Child of God, by Christ’s sal -- va -- tion, \bar "."
-Rise o’er sin and fear and care \bar "."
+Rise o’er sin and fear and care; \bar "."
 Joy to find in ev -- ’ry sta -- tion, \bar "."
 Some -- thing still to do or bear. \bar "."
 Think what Spir -- it dwells with -- in thee, \bar "."

@@ -107,7 +107,7 @@ wordsC = \lyricmode {
 
 Our love is oft -- times low,
 Our joy still ebbs and flows;
-But peace with Him re -- mains the same,
+But peace with Him re -- mains the same:
 No change Je -- ho -- vah knows.
 
 }
@@ -116,8 +116,8 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 We change– He chan -- ges not;
-Our Christ can nev -- er die;
-His love, not ours, the rest -- ing place,
+Our Christ can nev -- er die:
+His love, not ours, the rest -- ing -- place,
 We on His truth re -- ly.
 
 }
@@ -145,7 +145,7 @@ wordsG = \markuplist {
 
 \line { { \hspace #2 } We know He liveth now }
 \line { { \hspace #2 } At God’s right hand above; }
-\line { We know the throne on which He sits }
+\line { We know the throne on which He sits, }
 \line { { \hspace #2 } We know His truth and love! }
 
 }

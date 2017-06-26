@@ -100,7 +100,7 @@ wordsA = \lyricmode {
 
 Just as I am– with -- out one plea, \bar "."
 But that Thy blood was shed for me, \bar "." \break
-And that Thou bid’st me come to Thee, \bar "."
+And that Thou bid’st me come to Thee: \bar "."
 O Lamb of God, I come! I come! \bar "." \break
 
 }
@@ -129,7 +129,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Just as I am– Thou wilt re -- ceive,
-Wilt wel -- come, par -- don, cleanse, re -- lieve,
+Wilt wel -- come, par -- don, cleanse, re -- lieve;
 Be -- cause Thy prom -- ise I be -- lieve:
 O Lamb of God, I come! I come!
 

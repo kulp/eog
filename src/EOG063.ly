@@ -116,7 +116,7 @@ Refrain = \lyricmode {
 
 Christ has died up -- on the tree, \bar "."
 Grace flows down from God to thee, \bar "." \break
-Grace– free– grace flows down from God to thee. \bar "."
+Grace, free grace, flows down from God to thee. \bar "."
 
 }
 
@@ -124,7 +124,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Bro -- ken heart! the foun -- tain’s o -- pen, \bar "."
-Christ hath died up -- on the tree, \bar "." \break
+Christ hath died up -- on the tree; \bar "." \break
 All the powers of hell are sha -- ken, \bar "."
 Grace flows down from God to thee. \bar "." \break
 
@@ -164,8 +164,8 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { Broken heart! the river’s flowing, }
-\line { { \hspace #2 } Haste, delay not! yet there’s room; }
-\line { Hear the word of God beseeching, }
+\line { { \hspace #2 } Haste, delay not! yet there’s room, }
+\line { Hear the Word of God beseeching, }
 \line { { \hspace #2 } “Whosoever thirsts may come.” }
 
 }

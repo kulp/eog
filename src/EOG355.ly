@@ -97,7 +97,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Safe in Christ! safe in Christ! \bar "."
+Safe in Christ; safe in Christ! \bar "."
 He’s their glo -- ry ev -- er; \bar "."
 None can pluck them from His hand, \bar "."
 They shall per -- ish nev -- er. \bar "."

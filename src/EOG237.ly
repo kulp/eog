@@ -102,7 +102,7 @@ wordsA = \lyricmode {
 Lord, Thy love has sought and found us \bar "."
 Wan -- d’ring in this des -- ert wide, \bar "."
 Thou hast thrown Thine arms a -- round us, \bar "."
-For us suf -- fered, bled, and died: \bar "."
+For us suf -- fered, bled and died: \bar "."
 Sing, my soul, He lov -- ed thee, \bar "."
 Je -- sus gave Him -- self for me. \bar "."
 
@@ -127,7 +127,7 @@ He is speak -- ing to His Fa -- ther,
 Tast -- ing deep that bit -- ter cup,
 Yet He takes it, will  -- ing rath -- er
 For our sakes to drink it up.
-Oh, what love! He lov -- ed me!
+Oh what love! He lov -- ed me!
 Gave Him -- self, my soul, for thee.
 
 }
@@ -159,7 +159,7 @@ wordsF = \markuplist {
 \line { Lord, we joy, Thy toils are ended, }
 \line { Glad Thy suffering time is o’er; }
 \line { To Thy Father’s throne ascended, }
-\line { There Thou liv’st, to die no more. }
+\line { There Thou liv’st to die no more. }
 \line { Yes, my soul, He lives for thee, }
 \line { He who gave Himself for me. }
 
@@ -168,7 +168,7 @@ wordsF = \markuplist {
 wordsG = \markuplist {
 
 \line { Lord, we worship and adore Thee }
-\line { For Thy rich, Thy matchless grace; }
+\line { For Thy rich, Thy matchless grace, }
 \line { Perfect soon in joy before Thee, }
 \line { We shall see Thee face to face. }
 \line { Yet e’en now our song shall be, }

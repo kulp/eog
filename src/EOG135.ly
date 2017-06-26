@@ -88,7 +88,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 There is no oth -- er name than Thine, \bar "."
-Je -- ho -- vah -- Je -- sus! name di -- vine; \bar "."
+Je -- ho -- vah -- Je -- sus– name di -- vine; \bar "."
 On which to rest for sins for -- given, \bar "."
 For peace with God, for hope of heaven. \bar "."
 
@@ -99,7 +99,7 @@ wordsB = \lyricmode {
 
 Name a -- bove ev -- ery name, Thy praise
 Shall fill yon courts through end -- less days,
-Je -- ho -- vah -- Je -- sus! name di -- vine,
+Je -- ho -- vah -- Je -- sus– name di -- vine,
 Rock of sal -- va -- tion– Thou art mine.
 
 }

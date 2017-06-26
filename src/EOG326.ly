@@ -148,7 +148,7 @@ In words both wise and kind,
 “If some great thing thou hadst to do,
 Wouldst thou have been be -- hind?”
 Then Naa -- man yield -- ed, spite of pride;
-He washed and he was clean:
+He washed and he was clean;
 And all who now in Christ con -- fide
 Are washed from ev -- ’ry sin.
 

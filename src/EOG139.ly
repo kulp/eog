@@ -109,7 +109,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Oh pre -- cious is the flow \bar "."
+Oh, pre -- cious is the flow \bar "."
 That makes me white as snow; \bar "."
 No oth -- er fount I know, \bar "."
 Noth -- ing but the blood of Je -- sus. \bar "."
@@ -153,7 +153,7 @@ wordsD = \lyricmode {
 
 This is all my hope and peace,
 Noth -- ing but the blood of Je -- sus;
-This is all my right -- eous -- ness,
+Through it all my right -- eous -- ness,
 Noth -- ing but the blood of Je -- sus.
 
 }

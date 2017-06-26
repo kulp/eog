@@ -124,9 +124,9 @@ wordsB = \lyricmode {
 Oh, the cross of Christ is won -- drous!
 There I learn God’s heart to me;
 Midst the si -- lent, deep -- ening dark -- ness,
-“God is light,” I al -- so see.
+“God is light” I al -- so see.
 Ho -- ly claims of jus -- tice find -- ing
-Full ex -- press -- ion in that scene,
+Full ex -- press -- ion in that scene;
 Light and love a -- like are tell -- ing
 What yon woe and suf -- ferings mean.
 
@@ -139,7 +139,7 @@ Oh, the sight in heaven is glo -- rious!
 Man in right -- eous -- ness is there;
 Once the Vic -- tim, now vic -- to -- rious,
 Je -- sus lives in glo -- ry fair.
-Him who met the claims of glo -- ry,
+Him, who met the claims of glo -- ry,
 And the need of ru -- ined man,
 On the cross– oh, won -- drous sto -- ry!
 God has set at His right hand.

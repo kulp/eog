@@ -93,7 +93,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 He knew no sin, that Ho -- ly One, \bar "."
-Yet was made sin for us; \bar "." \break
+Yet was made sin for us, \bar "." \break
 God gave His well -- be -- lov -- ed Son \bar "."
 To die for sin -- ners thus. \bar "." \break
 
@@ -113,7 +113,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Blood -- sprin -- kled is the mer -- cy -- seat,
-The throne is sat -- is -- fied,
+The throne is sat -- is -- fied;
 Re -- demp -- tion’s work is all com -- plete,
 And Christ is glo -- ri -- fied.
 
@@ -123,7 +123,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 In right -- eous -- ness God now can bless
-All who His word be -- lieve,
+All who His Word be -- lieve,
 And life e -- ter -- nal they pos -- sess
 Who Christ the Son re -- ceive.
 

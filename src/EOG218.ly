@@ -122,7 +122,7 @@ wordsA = \lyricmode {
 He is com -- ing, com -- ing for us; \bar "."
 Soon we’ll see His light a -- far, \bar "."
 On the dark ho -- ri -- zon ris -- ing, \bar "."
-As the Bright and Morn -- ing Star, \bar "."
+As the bright and morn -- ing Star, \bar "."
 Cheer -- ing many a wak -- ing watch -- er, \bar "."
 As the star whose kind -- ly ray \bar "."
 Her -- alds the ap -- proach -- ing morn -- ing \bar "."
@@ -159,13 +159,13 @@ He is com -- ing as the Bride -- groom,
 Com -- ing to un -- fold at last
 The great se -- cret of His pur -- pose,
 Mys -- ter -- y of a -- ges past.
-And the Bride, to her is grant -- ed
+And the bride, to her is grant -- ed,
 In His beau -- ty then to shine,
 As in rap -- ture she ex -- claim -- eth,
 “I am His, and He is mine!”
 Oh, what joy that mar -- riage un -- ion,
 Mys -- ter -- y of love di -- vine!
-Sweet to sing in all its ful -- ness,
+Sweet to sing in all its full -- ness,
 “I am His, and He is mine.”
 
 }

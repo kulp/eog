@@ -84,8 +84,8 @@ wordsA = \lyricmode {
 
 A mind at “per -- fect peace” with God, \bar "."
 Oh, what a word is this! \bar "."
-A sin -- ner, rec -- on -- ciled thro’ blood– \bar "."
-This, this in -- deed is peace. \bar "."
+A sin -- ner rec -- on -- ciled thro’ blood; \bar "."
+This, this in -- deed is peace! \bar "."
 
 }
 
@@ -94,7 +94,7 @@ wordsB = \lyricmode {
 
 By na -- ture and by prac -- tice far,
 How ver -- y far from God!
-Yet now by grace bro’t nigh to Him,
+Yet now, by grace, bro’t nigh to Him,
 Thro’ faith in Je -- sus’ blood.
 
 }
@@ -104,7 +104,7 @@ wordsC = \lyricmode {
 
 So nigh, so ver -- y nigh to God,
 I can -- not near -- er be;
-For in the per -- son of His Son
+For in the Per -- son of His Son,
 I am as near as He.
 
 }
@@ -124,8 +124,8 @@ wordsE = \lyricmode {
 
 Why should I ev -- er care -- ful be,
 Since such a God is mine?
-He watch -- es o’er me night and day,
-And tells me, “Thou art mine.”
+He watch -- es o’er me night and day
+And tells me, “Thou art Mine.”
 
 }
 

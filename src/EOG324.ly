@@ -18,7 +18,7 @@
         }
         \override #'(baseline-skip . 1)
         \smaller \bold \fill-line {
-          \wordwrap { \hspace #3 A home missionary visited a dying boy in a gipsy tent; bending over him, he said, “God so loved the world, that He gave His only Son, that whosoever believeth in Him should not perish, but have everlasting life.” The dying boy heard and whispered: “Nobody ever told me.”
+          \wordwrap { \hspace #3 A home missionary visited a dying boy in a gypsy tent; bending over him, he said, “God so loved the world, that He gave His only Son, that whosoever believeth in Him should not perish, but have everlasting life.” The dying boy heard and whispered: “Nobody ever told me.”
         } }
 
         \vspace #0.5
@@ -135,18 +135,18 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Tell it a -- gain! tell it a -- gain! \bar "."
-Sal -- va -- tion’s sto -- ry re -- peat o’er and o’er, \bar "."
+Tell it a -- gain! Tell it a -- gain! \bar "."
+Sal -- va -- tion’s sto -- ry re -- peat o’er and o’er \bar "."
 Till none can say of the chil -- dren of men, \bar "."
-No -- body ev -- er has told me be -- fore! \bar "."
+“No -- body ev -- er has told me be -- fore!” \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-In -- to the tent, where a gip -- sy boy lay– \bar "."
-Dy -- ing a -- lone at the close of the day– \bar "."
+In -- to a tent where a gyp -- sy boy lay, \bar "."
+Dy -- ing a -- lone, at the close of the day, \bar "."
 News of sal -- va -- tion we car -- ried. Said he, \bar "."
 “No -- bod -- y ev -- er has told it to me!” \bar "."
 
@@ -155,9 +155,9 @@ News of sal -- va -- tion we car -- ried. Said he, \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Did He so love me– a poor lit -- tle boy?
+“Did He so love me, a poor lit -- tle boy?
 Send un -- to me the good ti -- dings of joy?
-Need I not per -- ish? my hand will He hold?
+Need I not per -- ish? My hand will He hold?
 No -- bod -- y ev -- er the sto -- ry has told!”
 
 \Refrain
@@ -168,8 +168,8 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Bend -- ing, we caught the last words of his breath,
-Just as he en -- tered the val -- ley of death;
-“God sent His Son! –who -- so -- ev -- er!” said he;
+Just as he en -- tered the val -- ley of death:
+“God sent His Son– who -- so -- ev -- er!” said he;
 “Then I am sure that He sent Him for me!”
 
 }
@@ -177,10 +177,10 @@ Just as he en -- tered the val -- ley of death;
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Smil -- ing, he said, as his last sigh was spent,
+Smil -- ing he said, as his last sigh was spent,
 “I am so glad that for me He was sent!”
-Whis -- pered, while low sank the sun in the west:
-“Lord, I be -- lieve! tell it now to the rest!”
+Whis -- pered, while low sank the sun in the west,
+“Lord, I be -- lieve; tell it now to the rest.”
 
 }
 

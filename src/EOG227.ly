@@ -97,7 +97,7 @@ wordsA = \lyricmode {
 I was a wan -- d’ring sheep, \bar "."
 I did not love the fold; \bar "."
 I did not love my Shep -- herd’s voice, \bar "."
-I would not be con -- trolled. \bar "."
+I would not be con -- trolled: \bar "."
 I was a way -- ward child, \bar "."
 I did not love my home, \bar "."
 I did not love my Fa -- ther’s voice, \bar "."
@@ -111,10 +111,10 @@ wordsB = \lyricmode {
 The Shep -- herd sought His sheep,
 The Fa -- ther sought His child;
 They fol -- lowed me o’er vale and hill,
-O’er des -- erts waste and wild:
+O’er des -- erts waste and wild;
 They found me nigh to death,
 Fam -- ished, and faint, and lone;
-They bound me with the cords of love,
+They bound me with the bands of love,
 They saved the wan -- d’ring one.
 
 }
@@ -137,7 +137,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 I was a wan -- d’ring sheep,
-I would not be con -- trolled;
+I would not be con -- trolled,
 But now I love my Sav -- iour’s voice,
 I love, I love the fold.
 I was a way -- ward child,

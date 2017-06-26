@@ -111,7 +111,7 @@ wordsA = \markuplist {
 \line { Come to the blood-stained tree; }
 \line { { \hspace #2 } The Victim bleeding lies; }
 \line { God sets the sinner free, }
-\line { { \hspace #2 } Since Christ a ransom dies: }
+\line { { \hspace #2 } Since Christ a ransom dies; }
 \line { The Spirit will apply }
 \line { { \hspace #2 } His blood to cleanse each stain, }
 \line { O burdened soul, draw nigh, }
@@ -128,7 +128,7 @@ wordsB = \markuplist {
 \line { { \hspace #2 } Do not from mercy fly: }
 \line { Oh, do not doubt His word, }
 \line { { \hspace #2 } There’s pardon full and free, }
-\line { For Justice smote the Lord, }
+\line { For justice smote the Lord, }
 \line { { \hspace #2 } And sheathes her sword for thee— }
 \line { { \hspace #4 } Come, come, come. }
 

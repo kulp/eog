@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 ’Tis sweet to think of those at rest, \bar "."
 Who sleep in Christ the Lord, \bar "."
 Whose spir -- its now with Him are blest, \bar "."
-Ac -- cord -- ing to His word. \bar "."
+Ac -- cord -- ing to His Word. \bar "."
 
 }
 
@@ -101,10 +101,10 @@ As hope -- less can -- not weep.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-How bright the res -- ur -- rec -- tion -- morn
+How bright the res -- ur -- rec -- tion morn
 On all the saints will break!
 The Lord Him -- self will then re -- turn,
-His ran -- somed Church to take.
+His ran -- somed church to take.
 
 }
 
@@ -122,7 +122,7 @@ wordsE = \lyricmode {
 \set stanza = "4."
 
 We can -- not lin -- ger o’er the tomb;
-The res -- ur -- rec -- tion -- day
+The res -- ur -- rec -- tion day
 To faith shines bright be -- yond its gloom,
 Christ’s glo -- ry to dis -- play.
 

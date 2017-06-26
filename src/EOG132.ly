@@ -107,13 +107,13 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-We have heard the joy -- ful sound: \bar "."
+We have heard the joy -- ful sound, \bar "."
 Je -- sus saves! Je -- sus saves! \bar "." \break
 Tell the mes -- sage all a -- round, \bar "."
 Je -- sus saves! Je -- sus saves! \bar "." \break
 Bear the news to ev -- ’ry land, \bar "."
 Climb the steeps and cross the waves; \bar "." \break
-On -- ward! ’tis our Lord’s com -- mand; \bar "."
+On -- ward! ’tis our Lord’s com -- mand, \bar "."
 Je -- sus saves! Je -- sus saves! \bar "." \break
 
 }
@@ -153,9 +153,9 @@ Give the winds a might -- y voice,
 Je -- sus saves! Je -- sus saves!
 Let the na -- tions now re -- joice,
 Je -- sus saves! Je -- sus saves!
-Shout sal -- va -- tion full and free;
+Shout sal -- va -- tion full and free,
 Through the Lamb of Cal -- va -- ry;
-This our song of vic -- to -- ry,–
+This our song of vic -- to -- ry,
 Je -- sus saves! Je -- sus saves!
 
 }

@@ -111,7 +111,7 @@ Refrain = \lyricmode {
 Re -- demp -- tion ground, the ground of peace! \bar "."
 Re -- demp -- tion ground, oh, won -- drous grace! \bar "."
 Here let our praise to God a -- bound, \bar "."
-Who saves us on Re -- demp -- tion ground! \bar "."
+Who saves us on re -- demp -- tion ground! \bar "."
 
 }
 
@@ -129,7 +129,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Once from my God I wan -- dered far,
-And with His ho -- ly will made war:
+And with His ho -- ly will made war;
 But now my songs to God a -- bound;
 I’m stand -- ing on re -- demp -- tion ground.
 
@@ -140,7 +140,7 @@ I’m stand -- ing on re -- demp -- tion ground.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, joy -- ous hour when God to me
+Oh joy -- ous hour when God to me
 A vis -- ion gave of Cal -- va -- ry:
 My bonds were loosed, my soul un -- bound;
 I sang up -- on re -- demp -- tion ground.
@@ -159,9 +159,9 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { Come, weary soul, and here find rest; }
-\line { { \hspace #2 } Accept redemption, and be blessed: }
+\line { { \hspace #2 } Accept redemption, and be blest: }
 \line { The Christ who died, by God is crowned }
-\line { { \hspace #2 } To pardon on redemption ground. }
+\line { { \hspace #2 } And pardons on redemption ground. }
 
 }
 

@@ -92,7 +92,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Pre -- cious, pre -- cious blood of Je -- sus, \bar "."
-Shed on Cal -- va -- ry, \bar "." \break
+Shed on Cal -- va -- ry; \bar "." \break
 Shed for reb -- els, and for sin -- ners, \bar "."
 Shed for me. \bar "." \break
 
@@ -101,7 +101,7 @@ Shed for me. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Pre -- cious, pre -- cious blood of Je -- sus,
+Pre -- cious, pre -- cious blood of Je -- sus;
 All the price is paid!
 Per -- fect par -- don now is of -- fered,
 Peace is made.
@@ -124,7 +124,7 @@ wordsD = \lyricmode {
 Pre -- cious, pre -- cious blood of Je -- sus,
 Ev -- er of -- fered free!
 Oh, be -- lieve it, oh, re -- ceive it,
-’Tis for Thee! % XXX the capitalised Thee exists in the original, but is possibly not intended
+’Tis for thee!
 
 }
 

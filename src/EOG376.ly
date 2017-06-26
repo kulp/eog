@@ -113,9 +113,9 @@ wordsA = \lyricmode {
 Now have I seen Thee and found Thee, \bar "."
 For Thou hast found Thy sheep, \bar "." \break
 I fled, but Thy love would fol -- low, \bar "."
-I strayed but Thy love would keep, \bar "." \break
+I strayed, but Thy love would keep. \bar "." \break
 Thou’st grant -- ed my heart’s de -- sire, \bar "."
-Most blest of the { \mon } bless -- ed { \moff } is he, \bar "." \break
+Most blest of the { \mon } bless -- ed { \moff } is he \bar "." \break
 Who find -- eth no { \mon } rest and { \moff } no sweet -- ness, \bar "."
 Till he rest -- eth, { \mon } O Lord, { \moff } in Thee. \bar "." \break
 
@@ -127,9 +127,9 @@ wordsB = \lyricmode {
 To Thee, Lord, my heart un -- fold -- eth,
 { \mon } As the rose to { \moff } the gold -- en sun;
 To Thee, Lord, mine arms are cling -- ing,
-The e -- ter -- nal joy’s be -- gun,
+The e -- ter -- nal joy’s be -- gun;
 For -- ev -- er, thro’ { \mon } end -- less { \moff } a -- ges,
-Thy cross and Thy { \mon } sor -- rows { \moff } shall be,
+Thy cross and Thy { \mon } sor -- row { \moff } shall be
 The glo -- ry, the { \mon } song and { \moff } the sweet -- ness,
 That makes heav -- en, { \mon } heav -- en { \moff } to me.
 
@@ -141,8 +141,8 @@ wordsC = \lyricmode {
 Let one in his { \mon } in -- no -- cence { \moff } glo -- ry,
 An -- { \mon } o -- ther { \moff } in { \mon } works he { \moff } has done;
 Thy blood is my claim and ti -- tle,
-Be -- sides it, O Lord I’ve none.
-The Scorned, the { \mon } De -- spised, the Re -- ject -- ed, { \moff }
+Be -- sides it, O Lord, I’ve none.
+The scorned, the { \mon } de -- spised, the re -- ject -- ed, { \moff }
 Thou’st come to this heart of mine,
 In Thy robes of { \mon } e -- ter -- nal { \moff } glo -- ry,
 Thou wel -- com -- est me to Thine.
@@ -157,7 +157,7 @@ The { \mon } dy  -- ing, for life that { \moff } de -- parts;
 The Lord in His { \mon } glo -- ry { \moff } for sin -- ners,
 For the love of { \mon } re -- bel -- lious { \moff } hearts.
 Call back all the { \mon } days of the a -- ges, { \moff }
-All rain -- drops come { \mon } down from { \moff } a -- bove;
+All rain -- drops come { \mon } down from { \moff } a -- bove,
 All flow -- ers { \mon } of sum -- mers de -- part -- { \moff } ed,
 But think not to { \mon } mea -- sure { \moff } His love.
 
@@ -166,12 +166,12 @@ But think not to { \mon } mea -- sure { \moff } His love.
 wordsE = \markuplist {
 
 \line { Behold Him, O soul, where He told it, }
-\line { { \hspace #2 } Pale, bleeding, and bearing thy sin; }
-\line { He knocking, said, “Open, belovèd, }
-\line { { \hspace #2 } I pray thee to let Me come in! }
+\line { { \hspace #2 } Pale, bleeding and bearing thy sin; }
+\line { He knocking, said, “Open, belovèd, } % XXX blue book has close quote here
+\line { { \hspace #2 } I pray thee to let Me come in. }
 
 \line { Behold, I have borne all the judgment, }
-\line { { \hspace #2 } Thy sins, O beloved, are gone; }
+\line { { \hspace #2 } Thy sins, O belovèd, are gone; }
 \line { Forgotten, forgotten forever, }
 \line { { \hspace #2 } If sought for, God findeth not one. }
 

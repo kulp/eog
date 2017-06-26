@@ -96,7 +96,7 @@ We wait for Thee, O Son of God, \bar "."
 And long for Thine ap -- pear -- ing; \bar "."
 “A lit -- tle while,” Thou’lt come, O Lord, \bar "."
 Thy wait -- ing peo -- ple cheer -- ing. \bar "."
-Thus hast Thou said; we lift the head \bar "."
+Thus hast Thou said: we lift the head \bar "."
 In joy -- ful ex -- pec -- ta -- tion, \bar "."
 For Thou wilt bring sal -- va -- tion. \bar "."
 
@@ -108,7 +108,7 @@ wordsB = \lyricmode {
 We wait for Thee, con -- tent to share,
 In pa -- tience, days of tri -- al;
 So meek -- ly Thou the cross didst bear,
-Our sin, re -- proach, de -- ni -- al,
+Our sin, re -- proach, de -- ni -- al.
 And shall not we re -- ceive with Thee
 The cup of shame and sor -- row,
 Un -- til the prom -- ised mor -- row?
@@ -119,7 +119,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 We wait for Thee; for Thou, e’en here,
-Hast won our heart’s af -- fec -- tion;
+Hast won our hearts’ af -- fec -- tion;
 In spir -- it still we find Thee near,
 Our sol -- ace and pro -- tec -- tion.
 In cloud -- less light, and glo -- ry bright,
@@ -132,12 +132,12 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 We wait for Thee– Thou wilt a -- rise
-Whilst hope her watch is keep -- ing;
+While hope her watch is keep -- ing;
 For -- got -- ten then, in glad sur -- prise,
 Shall be our years of weep -- ing.
-Our hearts beat high, the dawn is nigh,
-That ends our pil -- grim sto -- ry,
-In Thine e -- ter -- nal glo -- ry.
+Our hearts beat high, the dawn is nigh
+That ends our pil -- grim sto -- ry
+In Thine e -- ter -- nal glo -- ry!
 
 }
 

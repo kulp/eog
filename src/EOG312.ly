@@ -127,7 +127,7 @@ They are weak, but He is strong. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Je -- sus loves me, He who died,
+Je -- sus loves me, He who died
 Heav -- en’s gate to o -- pen wide;
 He will wash a -- way my sin,
 Let a lit -- tle child come in.
@@ -150,7 +150,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Je -- sus loves me, loves me still,
-When I’m ver -- y weak and ill,
+When I’m ver -- y weak and ill;
 From His shin -- ing home on high,
 He will watch me where I lie.
 

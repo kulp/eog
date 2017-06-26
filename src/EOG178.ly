@@ -101,9 +101,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 This we know, and cease to mourn,
-Pa -- tient wait His sure re -- turn:
+Pa -- tient wait His sure re -- turn;
 For His saints with Him shall reign–
-“Come, Lord Je -- sus, Come! A -- men!”
+“Come, Lord Je -- sus, come! A -- men!”
 
 }
 

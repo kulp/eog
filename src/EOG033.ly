@@ -101,7 +101,7 @@ wordsA = \lyricmode {
 
 O Christ, what bur -- dens bowed Thy head! \bar "."
 Our load was laid on Thee; \bar "." \break
-Thou stood -- est in the sin -- ner’s stead, \bar "."
+Thou stood -- est in the sin -- ner’s stead \bar "."
 To bear all ill for me. \bar "." \break
 A vic -- tim led, Thy blood was shed; \bar "."
 Now there’s no load for me. \bar "." \break
@@ -113,7 +113,7 @@ wordsB = \lyricmode {
 
 Death and the curse were in our cup–
 O Christ, ’twas full for Thee;
-But Thou hast drained the last dark drop–
+But Thou hast drained the last dark drop,
 ’Tis emp -- ty now for me.
 That bit -- ter cup– love drank it up;
 Left but the love for me.
@@ -127,7 +127,7 @@ Je -- ho -- vah lift -- ed up His rod–
 O Christ, it fell on Thee;
 Thou wast for -- sa -- ken of Thy God;
 No dis -- tance now for me.
-Thy blood be -- neath that rod has flowed;
+Thy blood be -- neath that rod has flowed:
 Thy bruis -- ing heal -- eth me.
 
 }
@@ -135,7 +135,7 @@ Thy bruis -- ing heal -- eth me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-The tem -- pest’s aw -- ful voice was heard
+The tem -- pest’s aw -- ful voice was heard,
 O Christ, it broke on Thee;
 Thy o -- pen bos -- om was my ward;
 It bore the storm for me.
@@ -147,7 +147,7 @@ Now cloud -- less peace for me.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-For me, Lord Je -- sus Thou hast died,
+For me, Lord Je -- sus, Thou hast died,
 And I have died in Thee;
 Thou’rt ris’n: my bands are all un -- tied,
 And now Thou liv’st in me.

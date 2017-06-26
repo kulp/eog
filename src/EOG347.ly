@@ -78,7 +78,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus when He left the sky, \bar "."
+Je -- sus, when He left the sky, \bar "."
 And for sin -- ners came to die, \bar "."
 In His mer -- cy passed not by \bar "."
 Lit -- tle ones like me. \bar "."
@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 
 Did the Sav -- iour say them nay?
 No; He kind -- ly bade them stay–
-Suf -- fered none to turn a -- way–
+Suf -- fered none to turn a -- way
 Lit -- tle ones like me.
 
 }

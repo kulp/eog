@@ -145,8 +145,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Christ is the on -- ly Sav -- iour might -- y to save, \bar "."
-He who suf -- fered once for sins, and sank neath the wave, \bar "."
-Sing how the wrath of God on Calv’ry’s cross he bore; \bar "."
+He who suf -- fered once for sins, and sank neath the wave; \bar "."
+Sing how the wrath of God on Calv’ry’s cross He bore; \bar "."
 How by death He con -- quered death and lives ev -- er -- more. \bar "."
 
 }
@@ -175,9 +175,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 O bles -- sed ris -- en Sav -- iour, liv -- ing to -- day!
-Liv -- ing too, to guide Thine own thro’ all_the storm -- y way;
-None have the power to pluck Thy saints from thine hand,
-Thou wilt safely bring Thine own home to the Bet -- ter Land.
+Liv -- ing, too, to guide Thine own thro’ all_the storm -- y way;
+None have the power to pluck Thy saints from Thine hand,
+Thou wilt safely bring Thine own home to the bet -- ter land.
 
 }
 

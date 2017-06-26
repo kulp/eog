@@ -80,7 +80,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 A -- wake! a -- wake! in hap -- py song, \bar "."
-Ye chil -- dren great and small; \bar "."
+Ye chil -- dren great and small, \bar "."
 And join to sing the prais -- es sweet \bar "."
 Of Him who died for all. \bar "."
 
@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 He trod this earth, a low -- ly man,
-For three and thir -- ty years, % original has hyphen after `three`
+For three -- and -- thir -- ty years,
 And then was nailed on Cal -- v’ry’s tree,
 To still our guilt -- y fears.
 
@@ -110,7 +110,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 And now He’s gone to heav’n a -- gain,
-And sits on glo -- ry’s throne:–
+And sits on glo -- ry’s throne–
 With o -- pen arms and lov -- ing smile,
 He wel -- comes all who come.
 

@@ -124,7 +124,7 @@ Refrain = \lyricmode {
 Oh, the glo -- ry of the grace, \bar "."
 Shin -- ing in the Sav -- iour’s face! \bar "." \break
 Tell -- ing sin -- ners from a -- bove, \bar "."
-“God is light,” and “God is love.” \bar "." \break
+“God is light” and “God is love.” \bar "." \break
 
 }
 
@@ -142,7 +142,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Sin and death no more shall reign,
-Je -- sus died, and lives a -- gain;
+Je -- sus died, and lives a -- gain!
 In the glo -- ry’s high -- est height,
 See Him, God’s su -- preme de -- light.
 
@@ -153,7 +153,7 @@ See Him, God’s su -- preme de -- light.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-All who in His name be -- lieve,
+All who in His name be -- lieve
 Ev -- er -- last -- ing life re -- ceive;
 Lord of all is Je -- sus now,
 Ev -- ’ry knee to Him must bow.
@@ -164,9 +164,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Christ the Lord will come a -- gain,
-He who suf -- fered once will reign;
+He who suf -- fered once will reign,
 Ev -- ’ry tongue at last will own,
-“Je -- sus Christ is Lord,” a -- lone.
+“Je -- sus Christ is Lord” a -- lone.
 
 }
 

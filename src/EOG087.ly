@@ -133,7 +133,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 It is the voice of Him now crowned with glo -- ry,
-Tel -- ling of life for “who -- so -- ev -- er will,”
+Tel -- ling of life for “who -- so -- ev -- er will”;
 How sweet the sound of that en -- tranc -- ing sto -- ry,
 Which tells of love for guilt -- y sin -- ners still.
 
@@ -144,7 +144,7 @@ Which tells of love for guilt -- y sin -- ners still.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Blest words! they speak to us of God’s sal -- va -- tion,
+Blest words! They speak to us of God’s sal -- va -- tion,
 Worked out by Christ a -- lone up -- on the cross,
 Who by His blood re -- deems from ev -- ery na -- tion,
 And saves His peo -- ple from e -- ter -- nal loss.

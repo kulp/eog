@@ -104,7 +104,7 @@ wordsC = \lyricmode {
 
 He took the guilt -- y cul -- prit’s place,
 And suf -- fered in his stead;
-For man! (oh mir -- a -- cle of grace!)
+For man! (Oh mir -- a -- cle of grace!)
 For man the Sav -- iour bled.
 
 }
@@ -114,7 +114,7 @@ wordsD = \lyricmode {
 
 Je -- sus, my soul a -- dor -- ing bends
 To love, so full, so free;
-Thy word de -- clares that love ex -- tends,
+Thy Word de -- clares that love ex -- tends,
 In sav -- ing power, to me.
 
 }

@@ -94,7 +94,7 @@ wordsB = \lyricmode {
 
 For God must vis -- it sin
 With His dis -- pleas -- ure sore;
-Since He is ho -- ly, just, and true,
+Since He is ho -- ly, just and true,
 And right -- eous ev -- er -- more.
 
 }
@@ -113,7 +113,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Faith is the way of life:
-Be -- lieve in Christ and live:
+Be -- lieve in Christ and live;
 Fly to the shel -- ter of His blood,
 And peace with God re -- ceive.
 

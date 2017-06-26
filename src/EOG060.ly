@@ -115,8 +115,8 @@ The just God has pun -- ished for us His dear Son.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Love moved Him to die; on this I re -- ly:
-My Sav -- iour hath loved me, I can -- not tell why;
+Love moved Him to die; on this I re -- ly;
+My Sav -- iour hath loved me, I can -- not tell why!
 But this I can tell, He loved me so well
 { \mon } As to { \moff } lay down His life to re -- deem me from hell.
 

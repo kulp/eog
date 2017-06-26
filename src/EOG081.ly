@@ -103,13 +103,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“It is fin -- ished!” sin -- ners hear it, \bar "."
+“It is fin -- ished!” Sin -- ners, hear it, \bar "."
 ’Tis the dy -- ing Vic -- tor’s cry; \bar "." \break
-“It is fin -- ished!” an -- gels, bear it, \bar "."
+“It is fin -- ished!” An -- gels, bear it, \bar "."
 Bear the joy -- ful news on high! \bar "." \break
-% each segment of the 4-beat line should appear only once in the TXT output, to
-% accomodate other tunes
-“It is fin -- ished!” %{HIDE>%} “It is fin -- ished!” %{<HIDE%} \bar "."
+“It is fin -- ished!” “It is fin -- ished!” \bar "."
 Tell it thro’ the earth and sky. \bar "." \break
 
 }
@@ -119,9 +117,9 @@ wordsB = \lyricmode {
 
 Hear the Lord Him -- self de -- clar -- ing
 All per -- formed He came to do;
-Sin -- ners in your -- selves des -- pair -- ing,
+Sin -- ners, in your -- selves des -- pair -- ing,
 This is joy -- ful news for you;
-%{HIDE>%} Je -- sus speaks it, %{<HIDE%} Je -- sus speaks it–
+Je -- sus speaks it, Je -- sus speaks it–
 His are faith -- ful words and true.
 
 }
@@ -129,11 +127,11 @@ His are faith -- ful words and true.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“It is fin -- ished!” all is ov -- er;
+“It is fin -- ished!” All is ov -- er;
 Yes, the cup of wrath is drained;
 Such the truth these words dis -- cov -- er,
 Thus the vic -- tory was ob -- tained:
-’Tis a vic -- tory, %{HIDE>%} ’tis a vic -- tory, %{<HIDE%}
+’Tis a vic -- tory, ’tis a vic -- tory,
 None but Je -- sus could have gained.
 
 }
@@ -145,7 +143,7 @@ Crown the might -- y Con -- queror, crown Him,
 Who His peo -- ple’s foes o’er -- came;
 In the high -- est heaven en -- throne Him,
 Men and an -- gels sound His fame!
-%{HIDE>%} Great His glo -- ry! %{<HIDE%} Great His glo -- ry!
+Great His glo -- ry! Great His glo -- ry!
 Je -- sus bears a match -- less name.
 
 }

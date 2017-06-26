@@ -147,8 +147,9 @@ Is com -- ing by and by! \bar "."
 When our Lord shall come in “pow -- er” \bar "."
 And “glo -- ry” from on high! \bar "."
 Oh, the glo -- rious sight will glad -- den \bar "."
-Each wait -- ing watch -- ful eye, \bar "."
-In the crown -- ing day that’s com -- ing by and by. \bar "."
+Each wait -- ing, watch -- ful eye, \bar "."
+In the crown -- ing day that’s com -- ing \bar "."
+By and by. \bar "."
 
 }
 
@@ -158,23 +159,25 @@ wordsA = \lyricmode {
 Our Lord is now re -- ject -- ed, \bar "."
 And by the world dis -- owned; \bar "."
 { \mon } By the { \moff } ma -- ny still neg -- lect -- ed, \bar "."
-And by the few en -- throned; \bar "."
-But soon He’ll come in glo -- ry! \bar "."
-The hour is draw -- ing nigh, \bar "."
-For the crown -- ing day is com -- ing by and by. \bar "."
+And by the few en -- throned: \bar "."
+But soon He’ll come in glo -- ry– \bar "."
+The hour is draw -- ing nigh; \bar "."
+For the crown -- ing day is com -- ing \bar "."
+By and by. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-The heav’ns shall glow with splen -- dor;
-But bright -- er far than they,
+The heav’ns shall glow with splen -- dor,
+But bright -- er far than they
 The saints shall shine in glo -- ry,
-As Christ shall them ar -- ray:
+As Christ shall them ar -- ray.
 The beau -- ty of the Sav -- iour
 Shall daz -- zle ev -- ’ry eye,
-In the crown -- ing day that’s com -- ing by and by.
+In the crown -- ing day that’s com -- ing
+By and by.
 
 \Refrain
 
@@ -185,11 +188,12 @@ wordsC = \lyricmode {
 
 Let all that look for, “hast -- en”
 The com -- ing joy -- ful day,
-By earn -- est con -- se -- cra -- tion,
+By earn -- est con -- se -- cra -- tion
 To walk the nar -- row way;
-By gath -- ering in the lost ones,
+By gath -- ering in the lost ones
 For whom our Lord did die,
-For the crown -- ing day that’s com -- ing by and by.
+For the crown -- ing day that’s com -- ing
+By and by.
 
 }
 

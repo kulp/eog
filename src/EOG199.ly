@@ -116,7 +116,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 For -- bid it, Lord, that we should boast,
-Save in the death of Christ our God;
+Save in the death of Christ, our God;
 All the vain things that charm us most,
 We’d sac -- ri -- fice them to His blood.
 

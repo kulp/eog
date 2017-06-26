@@ -101,10 +101,10 @@ wordsA = \lyricmode {
 There is a stream of pre -- cious blood \bar "."
 Which flowed from Je -- sus’ veins; \bar "."
 And sin -- ners washed in that blest flood \bar "."
-%{HIDE>%} Lose all their guilt -- y stains, \bar "." %{HIDE<%}
-%{HIDE>%} Lose all their guilt -- y stains, __ \bar "." %{HIDE<%}
-%{HIDE>%} Lose all their guilt -- y stains, \bar "." %{HIDE<%}
-%{HIDE>%} And sin -- ners washed in that blest flood \bar "." %{HIDE<%}
+Lose all their guilt -- y stains. \bar "."
+Lose all their guilt -- y stains, __ \bar "."
+Lose all their guilt -- y stains, \bar "."
+And sin -- ners washed in that blest flood \bar "."
 Lose all their guilt -- y stains. \bar "."
 
 }
@@ -115,10 +115,10 @@ wordsB = \lyricmode {
 The dy -- ing thief re -- joiced to see
 That Sav -- iour in his day;
 And by that blood, tho’ vile as he,
-%{HIDE>%} Our sins are washed a -- way, %{<HIDE%}
-%{HIDE>%} Our sins are washed a -- way, __ %{<HIDE%}
-%{HIDE>%} Our sins are washed a -- way, %{<HIDE%}
-%{HIDE>%} And by that blood, tho’ vile as he, %{<HIDE%}
+Our sins are washed a -- way.
+Our sins are washed a -- way, __
+Our sins are washed a -- way,
+And by that blood, tho’ vile as he,
 Our sins are washed a -- way.
 
 }
@@ -129,10 +129,10 @@ wordsC = \lyricmode {
 Blest Lamb of God, Thy pre -- cious blood
 Shall nev -- er lose its pow’r,
 Till ev -- ’ry ran -- somed saint of God
-%{HIDE>%} Be saved to sin no more, %{<HIDE%}
-%{HIDE>%} Be saved to sin no more, __ %{<HIDE%}
-%{HIDE>%} Be saved to sin no more, %{<HIDE%}
-%{HIDE>%} Till ev -- ’ry ran -- somed saint of God %{<HIDE%}
+Be saved to sin no more.
+Be saved to sin no more, __
+Be saved to sin no more,
+Till ev -- ’ry ran -- somed saint of God
 Be saved to sin no more.
 
 }
@@ -143,10 +143,10 @@ wordsD = \lyricmode {
 E’er since, by faith, we saw the stream
 Thy wounds sup -- plied for sin,
 Re -- deem -- ing love has been our theme,
-%{HIDE>%} Our joy and peace has been, %{<HIDE%}
-%{HIDE>%} Our joy and peace has been, __ %{<HIDE%}
-%{HIDE>%} Our joy and peace has been, %{<HIDE%}
-%{HIDE>%} Re -- deem -- ing love has been our theme, %{<HIDE%}
+Our joy and peace has been.
+Our joy and peace has been, __
+Our joy and peace has been,
+Re -- deem -- ing love has been our theme,
 Our joy and peace has been.
 
 }
@@ -156,11 +156,11 @@ wordsE = \lyricmode {
 
 Soon in a no -- bler, sweet -- er song,
 We’ll sing Thy pow’r to save;
-No more with lisp -- ing stam -- m’ring tongue,
-%{HIDE>%} But con -- querors o’er the grave, %{<HIDE%}
-%{HIDE>%} But con -- querors o’er the grave, __ %{<HIDE%}
-%{HIDE>%} But con -- querors o’er the grave, %{<HIDE%}
-%{HIDE>%} No more with lisp -- ing stam -- m’ring tongue, %{<HIDE%}
+No more with lisp -- ing, stam -- m’ring tongue,
+But con -- querors o’er the grave.
+But con -- querors o’er the grave, __
+But con -- querors o’er the grave,
+No more with lisp -- ing, stam -- m’ring tongue,
 But con -- querors o’er the grave.
 
 }

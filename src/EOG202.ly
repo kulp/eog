@@ -92,13 +92,13 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-How blest a home! The Fa -- ther’s house! \bar "."
+How blest a home– the Fa -- ther’s house, \bar "."
 There love di -- vine doth rest; \bar "."
 What else could sat -- is -- fy the hearts \bar "."
 Of those in Je -- sus blest? \bar "."
 His home made ours– His Fa -- ther’s love \bar "."
 Our heart’s full por -- tion giv’n, \bar "."
-The por -- tion of the First -- born Son, \bar "."
+The por -- tion of the first -- born Son, \bar "."
 The full de -- light of heav’n. \bar "."
 
 }
@@ -108,7 +108,7 @@ wordsB = \lyricmode {
 
 Oh, what a home! The Son who knows,
 He on -- ly– all His love;
-And brings us as His well -- be -- loved,
+And brings us as His well -- be -- loved
 To that bright rest a -- bove,
 Dwells in His bos -- om– know -- eth all
 That in that bos -- om lies,
@@ -126,7 +126,7 @@ The Son’s di -- vine af -- fec -- tions flow
 Thro’ -- out its depth and height.
 And full re -- sponse the Fa -- ther gives,
 To fill with joy the heart–
-No cloud is there to dim the scene,
+No cloud is there to dim the scene
 Or shad -- ow to im -- part.
 
 }

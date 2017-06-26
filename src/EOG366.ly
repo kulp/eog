@@ -85,8 +85,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-If we seek Him ear -- ly, if we come to -- day, \bar "."
-We can be His lit -- tle friends, He has said we may. \bar "."
+If we seek Him ear -- ly, \bar "."
+If we come to -- day, \bar "."
+We can be His lit -- tle friends, \bar "."
+He has said we may. \bar "."
 
 }
 
@@ -112,15 +114,15 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Lit -- tle friends of Je -- sus, walk -- ing by His side,
-With His arm a -- round us, ev -- ’ry step to guide.
+With His arms a -- round us, ev -- ’ry step to guide.
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-We must love Him dear -- ly with a con -- stant love,
-Then we’ll go and see Him in our home a -- bove.
+We should love Him dear -- ly with a con -- stant love;
+Soon we’ll go and see Him in our home a -- bove.
 
 }
 

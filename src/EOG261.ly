@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 
 Our sins, our guilt, in love di -- vine,
 Con -- fessed and borne by Thee;
-The gall, the curse, the wrath, were Thine,
+The gall, the curse, the wrath were Thine,
 To set Thy ran -- somed free.
 
 }

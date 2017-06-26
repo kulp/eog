@@ -103,10 +103,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-There is a name we love to hear, \bar "."
+There is a Name we love to hear, \bar "."
 We love to sing its worth; \bar "."
 It sounds like mu -- sic in our ear, \bar "."
-The sweet -- est name on earth. \bar "."
+The sweet -- est Name on earth. \bar "."
 
 }
 
@@ -123,8 +123,8 @@ The sin -- ner’s per -- fect plea.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus! the name we love so well,
-The name we love to hear!
+Je -- sus! the Name we love so well,
+The Name we love to hear!
 No saint on earth its worth can tell,
 No heart con -- ceive how dear.
 
@@ -132,8 +132,8 @@ No heart con -- ceive how dear.
 
 wordsD = \markuplist {
 
-\line { This name shall shed its fragrance still }
-\line { { \hspace #2 } Along this thorny road }
+\line { This Name shall shed its fragrance still }
+\line { { \hspace #2 } Along this thorny road, }
 \line { Shall sweetly smooth the rugged hill }
 \line { { \hspace #2 } That leads us up to God. }
 
@@ -143,7 +143,7 @@ wordsE = \markuplist {
 
 \line { And there the whole triumphant throng, }
 \line { { \hspace #2 } Of blood-bought saints on high, }
-\line { Shall sing the new eternal song }
+\line { Shall sing the new, eternal song }
 \line { { \hspace #2 } With Jesus ever nigh. }
 
 }

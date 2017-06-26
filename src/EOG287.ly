@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "287"
-  title = "Oh, The Peace Forever Flowing"
+  title = "Oh! The Peace Forever Flowing"
   tunename = "Batavia"
   meter = "8. 7. 8. 7."
   poet = "A. P. Cecil"
@@ -78,10 +78,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh, the peace for -- ev -- er flow -- ing \bar "."
-From God’s tho’ts of His own Son! \bar "."
+Oh! the peace for -- ev -- er flow -- ing \bar "."
+From God’s tho’ts of His own Son, \bar "."
 Oh, the peace of sim -- ply know -- ing \bar "."
-On the cross that all was done! \bar "."
+On the cross that all was done. \bar "."
 
 }
 
@@ -90,7 +90,7 @@ wordsB = \lyricmode {
 
 Peace with God, the blood in heav -- en
 Speaks of par -- don now to me:
-Peace with God! the Lord is ris -- en!
+Peace with God! The Lord is ris -- en!
 Right -- eous -- ness now counts me free.
 
 }
@@ -98,7 +98,7 @@ Right -- eous -- ness now counts me free.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Peace with God is Christ in glo -- ry;
+Peace with God through Christ in glo -- ry;
 God is just and God is love;
 Je -- sus died to tell the sto -- ry,
 Foes to bring to God a -- bove.
@@ -119,7 +119,7 @@ wordsE = \lyricmode {
 \set stanza = "4."
 
 Je -- sus, Sav -- iour, we a -- dore Thee!
-Christ of God– A -- noint -- ed Son;
+Christ of God– a -- noint -- ed Son;
 We con -- fess Thee, Lord of glo -- ry,
 Fruits of vic -- t’ry Thou hast won!
 

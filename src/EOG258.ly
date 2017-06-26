@@ -110,7 +110,7 @@ wordsD = \lyricmode {
 
 In the ref -- uge God pro -- vid -- ed,
 Tho’ the world’s de -- struc -- tion low’rs,
-We are safe,– to Christ con -- fid -- ed,
+We are safe– to Christ con -- fid -- ed,
 Ev -- er -- last -- ing life is ours.
 
 }
@@ -119,8 +119,8 @@ wordsE = \lyricmode {
 \set stanza = "4."
 
 And, ere long, when come to glo -- ry,
-We shall sing a well -- known strain,–
-This (the nev -- er -- tir -- ing sto -- ry):–
+We shall sing a well -- known strain,
+This– the nev -- er -- tir -- ing sto -- ry–
 “Wor -- thy is the Lamb once slain!”
 
 }

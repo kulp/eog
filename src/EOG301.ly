@@ -88,7 +88,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 { \mon } Here’s a { \moff } mes -- sage of love \bar "."
-Come down from a -- bove, \bar "."
+Come down from a -- bove \bar "."
 { \mon } To in -- { \moff } vite lit -- tle chil -- dren to heav’n; \bar "."
 In God’s bless -- ed book \bar "."
 Lost sin -- ners may look, \bar "."
@@ -100,7 +100,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 For there they may read
-How Je -- sus did bleed,
+How Je -- sus did bleed
 And die for His dear lit -- tle ones;
 How clean He makes them,
 And af -- ter takes them
@@ -123,11 +123,11 @@ He nev -- er will part
 wordsD = \lyricmode {
 \set stanza = "4."
 
-And, oh, what de -- light,
+And oh, what de -- light,
 In heav -- en so bright,
 To see the kind Sav -- iour’s blest face!
-{ \mon } On His { \moff } beau -- ty to gaze,
-And sing to His praise,
+{ \mon } On His { \moff } beau -- ty to gaze
+And sing to His praise
 For -- ev -- er in that hap -- py place.
 
 }

@@ -97,10 +97,10 @@ And to o -- pen a foun -- tain for sin. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Why dost thou lin -- ger? why dost thou lin -- ger?
-Oh, when wilt thou come to the Lord?
+Why dost thou lin -- ger? Why dost thou lin -- ger?
+Oh! when wilt thou come to the Lord?
 Thy time is fly -- ing fast,
-And thy day will soon be past,
+And thy day will soon be past;
 Oh, a -- rouse thee, and come to be saved.
 
 }
@@ -109,9 +109,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Par -- don is of -- fered, par -- don is of -- fered;
-A par -- don full, pre -- sent, and free,
+A par -- don– full, pre -- sent and free;
 The might -- y debt was paid,
-When on Cal -- v’ry Je -- sus died,
+When on Cal -- v’ry Je -- sus died
 To a -- tone for a reb -- el like thee.
 
 }
@@ -121,15 +121,15 @@ wordsD = \markuplist {
 \line { Come to the fountain, come to the fountain, }
 \line { The fountain which cleanses the soul; }
 \line { { \hspace #2 } ’Tis cleansing far and near, }
-\line { { \hspace #2 } And its streams are flowing here, }
+\line { { \hspace #2 } And its streams are flowing here; }
 \line { Oh, believe it, and thou art made whole! }
 
 }
 
 wordsE = \markuplist {
 
-\line { I do believe it! I do believe it; }
-\line { I am saved through the blood of the Lamb; }
+\line { I do believe it! I do believe it! }
+\line { I’m saved through the blood of the Lamb; }
 \line { { \hspace #2 } My happy soul is free, }
 \line { { \hspace #2 } For the Lord has pardoned me, }
 \line { Hallelujah to Jesus’ name! }

@@ -81,7 +81,7 @@ wordsA = \lyricmode {
 
 Come to Je -- sus, come to -- day! \bar "." % original has capital second "Come"
 There is noth -- ing more to pay. \bar "."
-He will wash your sins a -- way, \bar "."
+He will wash your sins a -- way; \bar "."
 He’s a glo -- rious Sav -- iour. \bar "."
 
 }
@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 
 Trust in Je -- sus, trust to -- day! % original has capital second "Trust"
 “It is fin -- ished!” hear Him say.
-Je -- sus is the on -- ly way,
+Je -- sus is the on -- ly way;
 He’s a might -- y Sav -- iour.
 
 }

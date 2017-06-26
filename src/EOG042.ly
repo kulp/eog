@@ -115,10 +115,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“Sweet -- est note in ser -- aph song, \bar "."
+Sweet -- est note in ser -- aph song, \bar "."
 Sweet -- est car -- ol ev -- er sung, \bar "." \break
 Sweet -- est name on mor -- tal tongue, \bar "."
-Je -- sus, Je -- sus, Je -- sus.” \bar "." \break
+Je -- sus, Je -- sus, Je -- sus. \bar "." \break
 
 }
 
@@ -127,7 +127,7 @@ wordsA = \lyricmode {
 
 The great Phy -- si -- cian now is near, \bar "."
 The sym -- pa -- thiz -- ing Je -- sus; \bar "." \break
-He speaks, the droop -- ing heart to cheer, \bar "."
+He speaks, the droop -- ing heart to cheer; \bar "."
 Oh, hear the voice of Je -- sus. \bar "." \break
 
 }

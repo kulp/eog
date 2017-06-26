@@ -138,7 +138,7 @@ He of -- fers free to all. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Love brings the glo -- rious ful -- ness in,
+Love brings the glo -- rious full -- ness in,
 And to the lost makes known
 Sal -- va -- tion from the pow’r of sin,
 Through faith in Christ a -- lone.

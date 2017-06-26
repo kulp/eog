@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 
 Storms may as -- sail, my bark may be tossed,
 Voy -- ag -- ing o’er life’s sea;
-Thou, Lord, art near; I can -- not be lost,
+Thou, Lord, art near, I can -- not be lost,
 Ref -- uge art Thou to me.
 
 }
@@ -108,8 +108,9 @@ Ref -- uge art Thou to me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Je -- sus, my Lord, ’t_was sin’s heav -- y load,
-The_curse that was borne by Thee;
+%{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%}
+Je -- sus, my Lord, ’twas sin’s heav -- y load,
+Th’ curse that was borne by Thee; %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 Stroke up -- on stroke, as God’s wrath a -- woke,
 Fell up -- on Thee for me.
 

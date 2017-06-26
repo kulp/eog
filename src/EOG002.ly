@@ -81,8 +81,8 @@ wordsA = \lyricmode {
 
   As the ser -- pent raised by Mos -- es \bar "."
   Healed the fier -- y ser -- pent’s bite, \bar "."
-  Je -- sus now, Him -- self dis -- clos -- es \bar "."
-  To the wound -- ed sin -- ner’s sight: \bar "."
+  Je -- sus now Him -- self dis -- clos -- es \bar "."
+  To the wound -- ed sin -- ner’s sight. \bar "."
   Hear His gra -- cious in -- vi -- ta -- tion, \bar "."
   “I have life and peace to give, \bar "."
   I have wrought out full sal -- va -- tion, \bar "."
@@ -93,7 +93,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
   “Grieve a -- bout your sins no lon -- ger,
-  Well I know their might -- y guilt:
+  Well I know their might -- y guilt;
   But My love than death is stron -- ger,
   I My pre -- cious blood have spilt:
   Tho’ your heart has long been har -- dened,
@@ -108,7 +108,7 @@ wordsC = \lyricmode {
   “I have seen what you were do -- ing,
   Tho’ you lit -- tle tho’t of Me;
   You were mad -- ly bent on ru -- in,
-  But, I said– it shall not be:
+  But, I said– it shall not be;
   You had been for -- ev -- er wretch -- ed,
   Had I not es -- poused your part;
   Now be -- hold My arms out -- stretch -- ed

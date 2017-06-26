@@ -86,10 +86,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Je -- sus loves the lit -- tle chil -- dren \bar "."
-All the chil -- dren of the world, \bar "."
-Red and yel -- low, black and white \bar "."
-All are pre -- cious in His sight, \bar "."
+Je -- sus loves the lit -- tle chil -- dren, \bar "."
+All the chil -- dren of the world: \bar "."
+Red and yel -- low, black and white, \bar "."
+All are pre -- cious in His sight; \bar "."
 Je -- sus loves the lit -- tle chil -- dren of the world. \bar "."
 
 }
@@ -106,11 +106,11 @@ All the chil -- dren of the world
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Je -- sus died for lit -- tle chil -- dren
-All the chil -- dren of the world,
-Red and yel -- low, black and white
-All are pre -- cious in His sight,
-Je -- sus died for lit -- tle chil -- dren of the world.
+Je -- sus died for lit -- tle chil -- dren,
+All the chil -- dren of the world:
+Red and yel -- low, black and white,
+All are pre -- cious in His sight;
+Je -- sus died for all the chil -- dren of the world.
 
 }
 

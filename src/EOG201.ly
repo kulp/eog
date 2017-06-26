@@ -108,10 +108,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Trust and o -- bey, \bar "."
-For there’s no oth -- er way \bar "."
-To be hap -- py in Je -- sus \bar "."
-But to trust and o -- bey. \bar "."
+Trust and o -- bey, for there’s no oth -- er way \bar "."
+To be hap -- py in Je -- sus, but to trust and o -- bey. \bar "."
 
 }
 
@@ -119,8 +117,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 When we walk with the Lord \bar "."
-In the light of His word, \bar "."
-What a glo -- ry he sheds on our way! \bar "."
+In the light of His Word, \bar "."
+What a glo -- ry He sheds on our way! \bar "."
 While we do His sweet will, \bar "."
 How our hearts He can fill \bar "."
 With His love as we trust and o -- bey. \bar "."
@@ -132,10 +130,10 @@ wordsB = \lyricmode {
 
 Not a shad -- ow can rise,
 Not a cloud in the skies,
-But His smile quick -- ly drives it a -- way;
+But His smile quick -- ly drives it a -- way:
 Not a doubt nor a fear,
 Not a sigh nor a tear
-Can a -- bide, while we trust and o -- bey.
+Can a -- bide while we trust and o -- bey.
 
 \Refrain
 
@@ -148,7 +146,7 @@ But we nev -- er can prove
 The de -- lights of His love
 When in paths of self -- pleas -- ing we stray;
 For the fa -- vor He shows,
-And the joy He be -- stows
+And the joy He be -- stows,
 Are for those who will trust and o -- bey.
 
 }
@@ -160,7 +158,7 @@ Then in fel -- low -- ship sweet
 Let us sit at His feet,
 Or _ walk by His side in the way;
 What He says may we do,
-Where He sends may we go–
+Where He sends may we go,
 Nev -- er fear, on -- ly trust and o -- bey.
 
 }

@@ -115,7 +115,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Are you wash’d in the blood– \bar "."
+%{HIDE>%} Are you wash’d in the blood– \bar "." %{<HIDE%}
+%LYRICS Are you wash’d ... in the blood ...
 In the soul -- clean -- sing blood of the Lamb? \bar "."
 Are your gar -- ments spot -- less? Are they white as snow? \bar "."
 Are you wash’d in the blood of the Lamb? \bar "."
@@ -147,7 +148,7 @@ Are you wash’d in the blood of the Lamb?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-When the Bride -- groom com -- eth, will your robes be white?
+When the Bride -- groom com -- eth, will your robes be white,
 Pure and white in the blood of the Lamb?
 Will your soul be rea -- dy for the man -- sions bright,
 And be wash’d in the blood of the Lamb?
@@ -159,7 +160,7 @@ wordsD = \lyricmode {
 
 Lay a -- side the gar -- ments that are stained with sin,
 And be wash’d in the blood of the Lamb!
-There’s a foun -- tain flow -- ing for the soul un -- clean–
+There’s a foun -- tain flow -- ing for the soul un -- clean;
 Oh, be wash’d in the blood of the Lamb!
 
 }

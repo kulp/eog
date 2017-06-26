@@ -98,8 +98,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Oh, yes, Oh, yes, there’s some -- thing more, \bar "."
-Some -- thing more than gold; \bar "." % original has this on preceding line
+Oh, yes, oh, yes, there’s some -- thing more, \bar "."
+Some -- thing more than gold: \bar "."
 To know your sins are all for -- given \bar "."
 Is some -- thing more than gold. \bar "."
 
@@ -118,9 +118,9 @@ Of some -- thing more than gold. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-It hap -- pened on a cer -- tain day
+It hap -- pened on a cer -- tain day,
 This lit -- tle man was told
-That Je -- sus soon would pass that way,
+That Je -- sus soon would pass that way
 With some -- thing more than gold.
 
 \Refrain
@@ -132,16 +132,16 @@ wordsC = \lyricmode {
 
 He climbed a tree a -- bove the crowd,
 So that he might be -- hold
-The Bless -- ed One with pow’r to give _ % new version has "give him"
-Some -- thing more than gold.
+That bless -- ed One with pow’r to give
+Him some -- thing more than gold.
 
 }
 
 wordsD = \markuplist {
 
-\line { The Saviour came along the way, }
-\line { And saw him in the tree, }
-\line { Then calling to him Jesus said, }
+\line { The Saviour came along the way }
+\line { And saw him in the tree; }
+\line { Then calling to him, Jesus said, }
 \line { “I must abide with thee.” }
 
 }
@@ -149,7 +149,7 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { So he obeyed, and soon he found }
-\line { The half had not been told, }
+\line { The half had not been told; }
 \line { The blessing Jesus brought to him }
 \line { Was better far than gold. }
 

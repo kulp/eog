@@ -76,7 +76,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh, won’t you come to Je -- sus while you’re young? \bar "."
-%{HIDE>%} Oh, won’t you come to Je -- sus while you’re young? %{<HIDE%} \bar "."
+Oh, won’t you come to Je -- sus while you’re young? \bar "."
 Don’t think it will be bet -- ter \bar "."
 To de -- lay it un -- til lat -- er, \bar "."
 But re -- mem -- ber your Cre -- at -- or while you’re young. \bar "."
@@ -86,8 +86,8 @@ But re -- mem -- ber your Cre -- at -- or while you’re young. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Re -- mem -- ber, death may find you while you’re young; % original has an extra comma here
-%{HIDE>%} Re -- mem -- ber, death may find you while you’re young. %{<HIDE%} % original has differing punctuation between first and second lines here
+Re -- mem -- ber, death may find you, while you’re young;
+Re -- mem -- ber, death may find you, while you’re young;
 For friends are of -- ten weep -- ing
 And the stars their watch are keep -- ing
 O’er the grass -- y graves where sleep -- ing lie the young.
@@ -98,10 +98,10 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Oh, walk the path to glo -- ry while you’re young;
-%{HIDE>%} Oh, walk the path to glo -- ry while you’re young. %{<HIDE%}
+Oh, walk the path to glo -- ry while you’re young,
 And Je -- sus will be -- friend you,
 And from dan -- ger will de -- fend you,
-And a peace di -- vine will send you, while you’re young.
+And a peace di -- vine will send you while you’re young.
 
 }
 
@@ -109,7 +109,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Then won’t you come to Je -- sus while you’re young?
-%{HIDE>%} Then won’t you come to Je -- sus while you’re young? %{<HIDE%}
+Then won’t you come to Je -- sus while you’re young?
 Why from the fu -- ture bor -- row,
 When ere comes an -- oth -- er mor -- row,
 You may weep in end -- less sor -- row, while you’re young.

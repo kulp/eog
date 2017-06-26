@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Our sins were borne by Je -- sus, \bar "."
-The ho -- ly Lamb of God: \bar "."
+The ho -- ly Lamb of God; \bar "."
 He took them all and freed us \bar "."
 From that con -- demn -- ing load. \bar "."
 Our guilt was borne by Je -- sus, \bar "."
@@ -114,7 +114,7 @@ He heal -- eth all dis -- eas -- es
 Who did our souls re -- deem.
 We tell our griefs to Je -- sus–
 Our bur -- dens and our cares;
-He from them all re -- leas -- es
+He from them all re -- leas -- es–
 Who all our sor -- row shares.
 
 }

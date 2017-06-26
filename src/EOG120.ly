@@ -144,7 +144,7 @@ wordsA = \lyricmode {
 The Fa -- ther sent the Son \bar "."
 A ru -- ined world to save; \bar "."
 Man me -- ted to the Sin -- less One \bar "."
-The cross– the grave; \bar "."
+The cross, the grave. \bar "."
 Blest Sub -- sti -- tute from God, \bar "."
 Wrath’s aw -- ful cup He drained; \bar "."
 Laid down His life, and e’en the tomb’s \bar "."
@@ -159,7 +159,7 @@ The new and liv -- ing Way
 Stands o -- pen now to heaven;
 Thence, where the blood is seen al -- way,
 God’s gift is given.
-The riv -- er of His grace
+The riv -- er of His grace,
 Thro’ right -- eous -- ness sup -- plied,
 Is flow -- ing o’er the bar -- ren place
 Where Je -- sus died!
@@ -174,11 +174,11 @@ wordsC = \lyricmode {
 The Lord shall come a -- gain!
 The Con -- quer -- or must reign! % "Conquerer" (not "Conqueror") is the spelling in the original
 No tongue but shall con -- fess Him then,
-The Lamb once slain:
+The Lamb once slain.
 Je -- sus is wor -- thy now
-All hom -- age to re -- ceive;
-Oh, sin -- ner, to the Sav -- iour bow,
-The truth be -- lieve!
+All hom -- age to re -- ceive:
+O sin -- ner, to the Sav -- iour bow,
+The truth be -- lieve.
 
 }
 

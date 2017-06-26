@@ -93,16 +93,16 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 How will our eyes to see His face de -- light,
-Whose love has cheered us thro’ the dark -- some night;
+Whose love has cheered us thro’ the dark -- some night!
 How will our ears drink in His well -- known voice,
-Whose faint -- est whis -- pers make our soul re -- joice.
+Whose faint -- est whis -- pers make our souls re -- joice.
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-No stain with -- in; no foes, or snares a -- round;
+No stain with -- in; no foes or snares a -- round;
 No jar -- ring notes shall there dis -- cord -- ant sound;
 All pure with -- out, all pure with -- in the breast;
 No thorns to wound, no toil to mar our rest.
@@ -121,9 +121,9 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { What will the sunshine of His glory prove? }
-\line { What the unmingled fulness of His love? }
+\line { What the unmingled fullness of His love? }
 \line { What hallelujahs will His presence raise? }
-\line { What but one loud eternal burst of praise! }
+\line { What but one loud, eternal burst of praise! }
 
 }
 

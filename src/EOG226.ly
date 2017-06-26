@@ -85,7 +85,7 @@ wordsA = \lyricmode {
 I once was a stran -- ger to grace and to God; \bar "."
 I knew not my dan -- ger, I felt not my load; \bar "."
 Tho’ friends spoke in rap -- ture of Christ on the tree, \bar "."
-%{HIDE>%} “Je -- ho -- vah Tsid -- ke -- nu” was noth -- ing to me, %{<HIDE%} \bar "."
+“Je -- ho -- vah Tsid -- ke -- nu” was noth -- ing to me, \bar "."
 “Je -- ho -- vah Tsid -- ke -- nu” was noth -- ing to me. \bar "."
 
 }
@@ -96,7 +96,7 @@ wordsB = \lyricmode {
 When free grace a -- woke me by light from on high,
 Then le -- gal fears shook me, I trem -- bled to die:
 No ref -- uge, no safe -- ty, in self could I see;
-%{HIDE>%} “Je -- ho -- vah Tsid -- ke -- nu” my Sav -- iour must be, %{<HIDE%}
+“Je -- ho -- vah Tsid -- ke -- nu” my Sav -- iour must be,
 “Je -- ho -- vah Tsid -- ke -- nu” my Sav -- iour must be.
 
 }
@@ -106,8 +106,8 @@ wordsC = \lyricmode {
 
 My ter -- rors all van -- ished be -- fore the sweet name;
 My guilt -- y fears ban -- ished, with bold -- ness I came
-To drink at the foun -- tain, life -- giv -- ing and free,–
-%{HIDE>%} “Je -- ho -- vah Tsid -- ke -- nu”  is all things to me, %{<HIDE%}
+To drink at the foun -- tain, life -- giv -- ing and free,
+“Je -- ho -- vah Tsid -- ke -- nu”  is all things to me,
 “Je -- ho -- vah Tsid -- ke -- nu”  is all things to me.
 
 }
@@ -118,8 +118,8 @@ wordsD = \lyricmode {
 “Je -- ho -- vah Tsid -- ke -- nu!” my treas -- ure and boast;
 “Je -- ho -- vah Tsid -- ke -- nu!” I ne’er can be lost;
 In Thee I shall con -- quer by flood and by field,
-%{HIDE>%} My ca -- ble, my an -- chor, my breast -- plate and shield, %{<HIDE%}
-My ca -- ble, my an -- chor, my breast -- plate and shield.
+My ca -- ble, my an -- chor, my breast -- plate and shield,
+My ca -- ble, my an -- chor, my breast -- plate and shield!
 
 }
 

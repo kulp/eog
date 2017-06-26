@@ -111,7 +111,7 @@ They’ll meet Him in the sky.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh! say, if He should come to -- night,
+Oh, say, if He should come to -- day,
 Would you in ter -- ror be,
 Or would you lift your heads with joy
 %{HIDE>%} The bless -- ed Lord to see, %{<HIDE%}
@@ -123,7 +123,7 @@ The bless -- ed Lord to see?
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Oh! chil -- dren, seek the Sav -- iour now,
+Oh, chil -- dren, seek the Sav -- iour now,
 The Sav -- iour full of love;
 And when He comes He’ll take you up
 %{HIDE>%} To His bright home a -- bove, %{<HIDE%}

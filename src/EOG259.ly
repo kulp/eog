@@ -91,11 +91,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Rock of A -- ges! cleft for sin \bar "."
+Rock of A -- ges! cleft for sin, \bar "."
 Grace hath hid us safe with -- in! \bar "."
 Where the wa -- ter and the blood, \bar "."
 From Thy riv -- en side which flowed, \bar "."
-Are of sin the doub -- le cure– \bar "."
+Are of sin the doub -- le cure, \bar "."
 Cleans -- ing from its guilt and power. \bar "."
 
 }
@@ -104,10 +104,10 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Not the la -- bor of our hands
-Could ful -- fil the law’s de -- mands;
+Could ful -- fill the law’s de -- mands;
 Could our zeal no res -- pite know,
 Could our tears for -- ev -- er flow,
-Naught for sin could e’er a -- tone,
+Naught for sin could e’er a -- tone–
 But Thy blood, and Thine a -- lone!
 
 }
@@ -118,7 +118,7 @@ wordsC = \lyricmode {
 Found by Thee be -- fore we sought,
 Un -- to Thee in mer -- cy brought,
 We have Thee for right -- eous -- ness–
-From Thy ful -- ness, grace on grace;
+From Thy full -- ness, grace on grace;
 Thou hast washed us in Thy blood,
 Made us live, and live to God.
 

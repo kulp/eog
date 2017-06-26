@@ -112,8 +112,8 @@ When earth shall pass a -- way,
 Je -- sus is mine;
 In the great judg -- ment day,
 Je -- sus is mine;
-Oh! what a glo -- rious thing
-When we be -- hold the King,
+Oh, what a glo -- rious thing
+When I be -- hold the King,
 On tune -- ful harp to sing,
 Je -- sus is mine.
 
@@ -128,7 +128,7 @@ Wel -- come e -- ter -- ni -- ty!
 Je -- sus is mine;
 He my Re -- demp -- tion is,
 Wis -- dom and Right -- eous -- ness,
-Life, Light, and Ho -- li -- ness,
+Life, Light and Ho -- li -- ness,
 Je -- sus is mine.
 
 }

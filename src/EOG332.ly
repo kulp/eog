@@ -163,7 +163,7 @@ Tears can nev -- er for -- give -- ness gain,
 Je -- sus a -- lone can save;
 God will ev -- er dead works dis -- dain;
 Je -- sus a -- lone can save.
-Hear his blest voice call -- ing,
+Hear His blest voice call -- ing,
 Bless -- ings rich are fall -- ing–
 
 }
@@ -171,7 +171,7 @@ Bless -- ings rich are fall -- ing–
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Call the chil -- dren, for -- bid them not,
+Call the chil -- dren, for -- bid them not;
 Je -- sus a -- lone can save;
 He can cleanse them from ev -- ery spot;
 Je -- sus a -- lone can save.

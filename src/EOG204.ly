@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 A lit -- tle talk with Je -- sus– \bar "."
-{ \mon } How it { \moff } smoothes the rug -- ged road, \bar "."
+{ \mon } How it { \moff } smooths the rug -- ged road, \bar "."
 { \mon } How it { \moff } seems to help me on -- ward, \bar "."
 { \mon } When I { \moff } faint be -- neath my load: \bar "."
 { \mon } When my { \moff } heart is crushed with sor -- row, \bar "."
@@ -114,15 +114,15 @@ I tell Him I am wear -- y,
 { \mon } And He { \moff } an -- swers me so sweet -- ly,
 In tones of ten -- d’rest love,
 { \mon } “I am { \moff } com -- ing soon to take thee
-{ \mon } To my { \moff } hap -- py home a -- bove.”
+{ \mon } To My { \moff } hap -- py home a -- bove.”
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-I know the way is drear -- y,
-To yon -- der far -- off clime,
+I know the way is drear -- y
+To yon -- der far -- off clime, % XXX blue book has "far off" for "far-off"
 { \mon } But a { \moff } lit -- tle talk with Je -- sus
 Will while a -- way the time:
 And yet the more I know Him,
@@ -153,7 +153,7 @@ wordsE = \lyricmode {
 Till His ap -- point -- ed time,
 And glo -- ry in the know -- ledge
 That such a hope is mine;
-Then in my Fa -- ther’s dwell -- ing,
+Then in my Fa -- ther’s dwell -- ing
 Where man -- y man -- sions be,
 I’ll sweet -- ly talk with Je -- sus,
 And He shall talk with me.

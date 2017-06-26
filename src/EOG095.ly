@@ -127,7 +127,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 ’Twas God who sent this Sav -- iour,
-This spot -- less Lamb, Who died;
+This spot -- less Lamb, who died;
 And trust -- ing in His pre -- cious blood
 I’m free -- ly just -- i -- fied.
 Ah! not for me by deeds of law
@@ -159,7 +159,7 @@ A -- live for -- ev -- er -- more;
 He loves to ease the bur -- dened heart
 Of each whose sins He bore.
 Be -- lieve– and God’s sal -- va -- tion sure
-Is free to ev -- ery -- one:
+Is free to ev -- ery one;
 In man -- i -- fest -- ed right -- eous -- ness
 He hon -- ors thus His Son.
 

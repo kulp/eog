@@ -114,7 +114,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Sin -- ner hear, and o -- bey, \bar "."
+Sin -- ner, hear and o -- bey, \bar "."
 ’Tis the voice of the Spir -- it that cries; \bar "."
 While He strives, yield to Him, \bar "."
 Do not quench the con -- vic -- tions that rise. \bar "."
@@ -126,8 +126,8 @@ wordsA = \lyricmode {
 
 There’s a voice that is call -- ing to thee, \bar "."
 And it pleads with its ten -- der -- est tone, \bar "."
-Whilst it bids thee from God’s wrath to flee, \bar "."
-And whis -- pers, To Je -- sus now come! \bar "."
+While it bids thee from God’s wrath to flee, \bar "."
+And whis -- pers, “To Je -- sus now come!” \bar "."
 
 }
 
@@ -166,7 +166,7 @@ And e -- ter -- nal -- ly hap -- py thou’lt be
 underWords = \lyricmode {
 
 { \repeat unfold 36 { \skip 4 } }
-Sin -- ner, hear, { \repeat unfold 3 { \skip 4 } } and o -- bey,
+Sin -- ner, hear { \repeat unfold 3 { \skip 4 } } and o -- bey,
 { \repeat unfold 7 { \skip 4 } }
 the Spir -- it that cries;
 While He strives, { \repeat unfold 3 { \skip 4 } } yield to Him,

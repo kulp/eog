@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "248"
-  title = "Oh Happy Day, That Fixed My Choice"
+  title = "Oh Happy Day That Fixed My Choice"
   tunename = ""
   meter = "L. M. with Refrain"
   poet = "P. Doddridge"
@@ -110,21 +110,21 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Hap -- py day! hap -- py day! \bar "."
+Hap -- py day! Hap -- py day! \bar "."
 When Je -- sus washed my sins a -- way; \bar "."
 He taught me how to watch and pray, \bar "."
 And live re -- joi -- cing ev -- ’ry day; \bar "."
-Hap -- py day! hap -- py day! \bar "."
-When Je -- sus washed my sins a -- way; \bar "."
+Hap -- py day! Hap -- py day! \bar "."
+When Je -- sus washed my sins a -- way. \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh hap -- py day, that fixed my choice \bar "."
+Oh hap -- py day that fixed my choice \bar "."
 On Thee, my Sav -- iour and my God! \bar "."
-Well may this glow -- ing heart re -- joice, \bar "."
+Well may this glow -- ing heart re -- joice \bar "."
 And tell its rap -- tures all a -- broad. \bar "."
 
 }
@@ -145,7 +145,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Now rest, my long -- di -- vi -- ded heart,
-Fixed on that bless -- ed cen -- ter, rest;
+Fixed on that bless -- ed cen -- ter, rest:
 Nor ev -- er from thy Lord de -- part,
 With Him of ev -- ’ry good pos -- sessed.
 

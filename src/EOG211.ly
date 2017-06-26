@@ -96,14 +96,14 @@ RefrainA = \lyricmode {
 
 Chris -- tian, walk \italicsOn care -- ful -- ly, \italicsOff \bar "."
 Chris -- tian, walk \italicsOn care -- ful -- ly, \italicsOff \bar "."
-Chris -- tian, walk \italicsOn care -- ful -- ly, \italicsOff dan -- ger is near! \bar "."
+Chris -- tian, walk \italicsOn care -- ful -- ly: \italicsOff dan -- ger is near! \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Chris -- tian, walk \italicsOn care -- ful -- ly, \italicsOff dan -- ger is near; \bar "."
+Chris -- tian, walk \italicsOn care -- ful -- ly: \italicsOff dan -- ger is near; \bar "."
 On in thy jour -- ney with trem -- bling and fear. \bar "."
 Snares from with -- out and temp -- ta -- tions with -- in, \bar "."
 Seek to en -- tice thee once more in -- to sin. \bar "."
@@ -116,14 +116,14 @@ RefrainB = \lyricmode {
 
 Chris -- tian, walk \italicsOn cheer -- ful -- ly, \italicsOff
 Chris -- tian, walk \italicsOn cheer -- ful -- ly, \italicsOff
-Chris -- tian, walk \italicsOn cheer -- ful -- ly, \italicsOff thro’ the fierce storm.
+Chris -- tian, walk \italicsOn cheer -- ful -- ly \italicsOff thro’ the fierce storm.
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Chris -- tian, walk \italicsOn cheer -- ful -- ly, \italicsOff thro’ the fierce storm,
+Chris -- tian, walk \italicsOn cheer -- ful -- ly \italicsOff thro’ the fierce storm,
 Dark tho’ the sky with its threat of a -- larm;
 Soon will the clouds and the tem -- pest be o’er,
 Then with thy Sav -- iour thou’lt rest ev -- er -- more.
@@ -143,7 +143,7 @@ Chris -- tian, walk \italicsOn prayer -- ful -- ly, \italicsOff fear lest thou f
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Chris -- tian, walk \italicsOn prayer -- ful -- ly, \italicsOff oft wilt thou fall
+Chris -- tian, walk \italicsOn prayer -- ful -- ly; \italicsOff oft wilt thou fall
 If thou for -- get on thy Sav -- iour to call;
 Safe thou shalt walk thro’ each tri -- al and care,
 If thou art clad in the ar -- mor of prayer.
@@ -156,16 +156,16 @@ RefrainD = \lyricmode {
 
 Chris -- tian, walk \italicsOn hope -- ful -- ly, \italicsOff
 Chris -- tian, walk \italicsOn hope -- ful -- ly, \italicsOff
-Chris -- tian, walk \italicsOn hope -- ful -- ly, \italicsOff rest thou shalt gain.
+Chris -- tian, walk \italicsOn hope -- ful -- ly; \italicsOff rest thou shalt gain.
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Chris -- tian, walk \italicsOn hope -- ful -- ly, \italicsOff sor -- row and pain
+Chris -- tian, walk \italicsOn hope -- ful -- ly; \italicsOff sor -- row and pain
 Cease when the ha -- ven of rest thou shalt gain;
-Then from the lips of the Judge, thy re -- ward:
+Then from the lips of the Judge thy re -- ward–
 “En -- ter thou in -- to the joy of thy Lord.”
 
 \RefrainD

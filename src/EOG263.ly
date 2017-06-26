@@ -133,7 +133,7 @@ wordsC = \lyricmode {
 The Lamb is there the glo -- ry!
 The Lamb is there the light!
 There shall be no more weep -- ing,
-And there is no more night,
+And there is no more night.
 The voice of Je -- sus call -- eth me,
 My race will soon be run,
 The glo -- ry shines be -- fore me!
@@ -151,7 +151,7 @@ His prais -- es I would tell.
 The love of Christ con -- strain -- eth me,
 His blood hath washed me white,
 Where Je -- sus is in glo -- ry–
-’Tis home! and love! and light!
+’Tis home, and love, and light!
 
 }
 

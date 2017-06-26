@@ -112,7 +112,7 @@ Those He loves from Him.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Keep us Lord, oh! keep us cleav -- ing
+Keep us, Lord, oh! keep us cleav -- ing
 To Thy -- self, and still be -- liev -- ing,
 Till the hour of our re -- ceiv -- ing
 Prom -- ised joys with Thee.

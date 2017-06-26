@@ -130,9 +130,9 @@ notesBassChorus = {
 
 Refrain = \lyricmode {
 
-“But for a mo -- ment!” on -- ly a mo -- ment! \bar "."
+“But for a mo -- ment”– on -- ly a mo -- ment! \bar "."
 Light our af -- flic -- tion– ’twill soon pass a -- way. \bar "."
-“But for a mo -- ment!” on -- ly a mo -- ment! \bar "."
+“But for a mo -- ment”– on -- ly a mo -- ment! \bar "."
 Then comes the glo -- ry, for -- ev -- er and aye! \bar "."
 
 }
@@ -152,8 +152,8 @@ wordsB = \lyricmode {
 
 “Far more ex -- ceed -- ing” the heav -- en -- ly glo -- ry–
 Suf -- fer -- ings here with it can -- not com -- pare.
-Glo -- ry e -- ter -- nal the guer -- don for an -- guish–
-Ra -- di -- ant crowns, for the thorns, o -- ver there!
+Glo -- ry e -- ter -- nal the guer -- don for an -- guish,
+Ra -- di -- ant crowns, for the thorns, o -- ver there.
 
 \Refrain
 
@@ -163,7 +163,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Tem -- por -- al things like a va -- por shall van -- ish;
-High -- er than earth lies the land of our choice;
+High -- er than earth lies the land of our choice:
 Up -- ward we press to the home there e -- ter -- nal;
 Je -- sus, the Lord, we be -- hold and re -- joice!
 

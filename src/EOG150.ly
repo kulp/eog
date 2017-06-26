@@ -104,7 +104,7 @@ wordsC = \lyricmode {
 
 Sing on your heaven -- ly road,
 Ye sons of glo -- ry, sing;
-To the as -- cend -- ed Lamb of God,
+To the as -- cend -- ed Lamb of God
 Your cheer -- ful prais -- es bring.
 
 }

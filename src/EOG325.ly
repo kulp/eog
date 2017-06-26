@@ -111,7 +111,7 @@ Love was beam -- ing in His face. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Come, then lit -- tle chil -- dren,
+Come, then, lit -- tle chil -- dren,
 And lis -- ten to His love,
 For He is still the same to -- day,
 Tho’ now He dwells a -- bove;

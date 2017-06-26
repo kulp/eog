@@ -146,7 +146,7 @@ wordsB = \lyricmode {
 When the an -- xious moth -- ers round Him,
 With their ten -- der in -- fants press’d,
 He with o -- pen arms re -- ceived them,
-And the lit -- tle ones He blest.
+And the lit -- tle ones He blessed. % XXX old version and blue book both have "blest" here but that is not a verbal form (only adjectival)
 
 \Refrain
 
@@ -156,7 +156,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Lit -- tle chil -- dren, praise the Sav -- iour;
-Praise Him your un -- dy -- ing Friend;
+Praise Him, your un -- dy -- ing Friend;
 Praise Him, till a -- bove you meet Him;
 There to praise Him with -- out end.
 

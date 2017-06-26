@@ -98,7 +98,7 @@ I am blest; \bar "."
 Peace which pass -- eth un -- der -- stand -- ing, \bar "."
 On Thy breast; \bar "."
 No more doubt -- ing, \bar "."
-%{HIDE>%} No more trem -- bling, %{<HIDE%} \bar "."
+No more trem -- bling, \bar "."
 No more trem -- bling, \bar "."
 Oh, what rest! \bar "."
 
@@ -112,7 +112,7 @@ In Thy grace;
 All Thy ways and tho’ts a -- bout me,
 On -- ly trace
 Deep -- er sto -- ries
-%{HIDE>%} Of the glo -- ries, %{<HIDE%}
+Of the glo -- ries,
 Of the glo -- ries
 Of Thy grace.
 
@@ -126,7 +126,7 @@ I would be;
 Find -- ing joy and sat -- is -- fac -- tion
 All in Thee;
 Thou the near -- est
-%{HIDE>%} And the dear -- est, %{<HIDE%}
+And the dear -- est,
 And the dear -- est
 Un -- to me.
 
@@ -137,23 +137,23 @@ wordsD = \lyricmode {
 
 Lis -- t’ning for Thy shout, Lord Je -- sus,
 In the air;
-When Thy saints shall rise with joy, to
+When Thy saints shall rise, with joy, to
 Meet Thee there.
-Oh what glad -- ness!
-%{HIDE>%} No more sad -- ness, %{<HIDE%}
+Oh, what glad -- ness!
 No more sad -- ness,
-Sin, nor care.
+No more sad -- ness,
+Sin nor care.
 
 }
 
 wordsE = \markuplist {
 
-\line { Longing for the Bride, Lord Jesus, }
+\line { Longing for the bride, Lord Jesus, }
 \line { { \hspace #2 } Of Thy heart; }
 \line { To be with Thee in the glory, }
 \line { { \hspace #2 } Where Thou art. }
 \line { Love so groundless, }
-\line { %{HIDE>%} Grace so boundless, %{<HIDE%} }
+\line { Grace so boundless, }
 \line { Grace so boundless }
 \line { { \hspace #2 } Wins my heart. }
 
@@ -166,7 +166,7 @@ wordsF = \markuplist {
 \line { When each soul is safely landed }
 \line { { \hspace #2 } At Thy feet; }
 \line { What a story }
-\line { %{HIDE>%} In the glory, %{<HIDE%} }
+\line { In the glory, }
 \line { In the glory }
 \line { { \hspace #2 } She’ll repeat. }
 
@@ -179,7 +179,7 @@ wordsG = \markuplist {
 \line { Oh, to grieve and wander from Thee }
 \line { { \hspace #2 } Nevermore! }
 \line { Earth’s sad story }
-\line { %{HIDE>%} Closed in glory, %{<HIDE%} }
+\line { Closed in glory, }
 \line { Closed in glory }
 \line { { \hspace #2 } On yon shore. }
 
@@ -192,8 +192,8 @@ wordsH = \markuplist {
 \line { Of God’s richest grace and kindness }
 \line { { \hspace #2 } In that day; }
 \line { Marking pages, }
-\line { %{HIDE>%} Wondrous stages, %{<HIDE%} }
-\line { Wondrous stages }
+\line { Wondrous stages, }
+\line { Wondrous stages, }
 \line { { \hspace #2 } O’er earth’s way.}
 
 }

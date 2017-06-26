@@ -96,12 +96,12 @@ wordsA = \lyricmode {
 
 Sav -- iour! lead us by Thy pow -- er \bar "."
 Safe in -- to the prom -- ised rest; \bar "."
-Choose the path, the way what -- ev -- er \bar "."
+Choose the path– the way what -- ev -- er \bar "."
 Seems to Thee, O Lord, the best: \bar "."
-Be our Guide in ev -- ery per -- il, \bar "."
+Be our guide in ev -- ery per -- il, \bar "."
 Watch and keep us night and day, \bar "."
 Else our fool -- ish hearts will wan -- der \bar "."
-From the strait and nar -- row way. \bar "."
+From the strait and nar -- row way. \bar "." % XXX blue book changes "strait" to "straight"
 
 }
 

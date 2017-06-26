@@ -80,8 +80,8 @@ wordsA = \lyricmode {
 
 Noth -- ing but Christ, as on we tread, \bar "."
 The gift un -- priced– God’s liv -- ing Bread; \bar "."
-With staff in hand and feet well shod. \bar "."
-Noth -- ing but Christ, the Christ of God. \bar "."
+With staff in hand, and feet well shod, \bar "."
+Noth -- ing but Christ– the Christ of God. \bar "."
 
 }
 
@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 Ev -- ’ry -- thing loss for Him be -- low,
 Tak -- ing the cross wher -- e’re we go;
 Show -- ing to all, where once He trod,
-Noth -- ing but Christ, the Christ of God.
+Noth -- ing but Christ– the Christ of God.
 
 }
 
@@ -101,7 +101,7 @@ wordsC = \lyricmode {
 Noth -- ing save Him, in all our ways,
 Giv -- ing the theme for cease -- less praise;
 Our whole re -- source a -- long the road,
-Noth -- ing but Christ, the Christ of God.
+Noth -- ing but Christ– the Christ of God.
 
 }
 

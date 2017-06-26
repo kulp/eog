@@ -150,7 +150,7 @@ Oh, what will you do with Je -- sus?
 The call comes low and clear;
 The sol -- emn words are sound -- ing
 In ev -- ’ry list -- ’ning ear;
-Im -- mor -- tal { \mon } life’s in { \moff } the ques -- tion,
+Im -- mor -- tal life’s in ques -- tion,
 And { \mon } joy thro’ { \moff } e -- ter -- ni -- ty:
 Then what will you do with Je -- sus?
 Oh, what shall the an -- swer be?
@@ -162,11 +162,11 @@ Oh, what shall the an -- swer be?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, think of the King of Glo -- ry–
+Oh, think of the King of glo -- ry–
 From heav’n to earth come down;
 His life so pure and ho -- ly;
 His death, His cross, His crown;
-Of His Di -- vine com -- pas -- sion,
+Of His di -- vine com -- pas -- sion,
 His sac -- ri -- fice for thee:
 Then what will you do with Je -- sus?
 Oh, what shall the an -- swer be?

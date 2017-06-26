@@ -93,8 +93,8 @@ Come to Je -- sus just now. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-He will save you, he will save you,
-He will save you just now.
+He will save you, He will save you,
+He will save you just now;
 Just now He will save you,
 He will save you just now.
 
@@ -103,8 +103,8 @@ He will save you just now.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, be -- lieve Him, Oh, be -- lieve Him,
-Oh, be -- lieve Him just now;
+Oh, be -- lieve Him, oh, be -- lieve Him,
+Oh, be -- lieve Him just now.
 Just now, oh, be -- lieve Him,
 Oh, be -- lieve Him just now.
 

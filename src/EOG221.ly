@@ -110,9 +110,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Draw me near -- er, near -- er bless -- ed Lord, \bar "."
+Draw me near -- er, near -- er, bless -- ed Lord, \bar "."
 To the cross where Thou hast died; \bar "."
-Draw me near -- er, near -- er, near -- er bless -- ed Lord, \bar "."
+Draw me near -- er, near -- er, near -- er, bless -- ed Lord, \bar "."
 To Thy pre -- cious, woun -- ded side. \bar "."
 
 }
@@ -144,7 +144,7 @@ wordsC = \lyricmode {
 
 Oh, the pure de -- light of a sin -- gle hour
 That be -- fore Thy throne I spend,
-When I kneel in prayer, and with Thee my God,
+When I kneel in prayer, and with Thee, my God,
 I com -- mune as friend with friend.
 
 }

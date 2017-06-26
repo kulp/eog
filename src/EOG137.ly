@@ -137,7 +137,7 @@ wordsF = \markuplist {
 
 \line { He loved the ones for whom He died— }
 \line { Not ours to question why; }
-\line { But ours to know the love of Him, }
+\line { But ours to know the love of Him }
 \line { Who came to die! }
 
 }

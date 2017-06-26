@@ -135,7 +135,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Now be -- lieve in Him the Sav -- iour,
-Now be -- lieve what he has done;
+Now be -- lieve what He has done;
 Then with oth -- ers tell the sto -- ry,
 Je -- sus has sal -- va -- tion won.
 

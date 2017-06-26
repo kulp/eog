@@ -145,9 +145,9 @@ Tell me the sto -- ry of Je -- sus, \bar "."
 Write on my heart ev -- ery word! \bar "."
 Tell me the sto -- ry most pre -- cious, \bar "."
 Sweet -- est that ev -- er was heard; \bar "."
-Tell how the an -- gels, in cho -- rus \bar "."
+Tell how the an -- gels, in cho -- rus, \bar "."
 Spoke as they wel -- comed His birth: \bar "."
-“Glo -- ry to God in the high -- est, \bar "."
+“Glo -- ry to God in the high -- est; \bar "."
 Peace and good tid -- ings to earth.” \bar "."
 
 }

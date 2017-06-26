@@ -129,8 +129,8 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 E -- ter -- ni -- ty! Where? E -- ter -- ni -- ty! Where?
-Soon the Sav -- iour will come for His own in the air:
-Then sleep not, nor take in the world an -- y share,
+Soon the Sav -- iour will come for His own in the air;
+Then sleep not, nor take in the world an -- y share
 Till an -- swered this ques -- tion– E -- ter -- ni -- ty! Where?
 
 }

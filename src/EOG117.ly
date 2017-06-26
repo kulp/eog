@@ -130,7 +130,7 @@ Win its way in thy poor heart;
 From the glo -- ry He de -- scend -- ed,
 Here with man to take His part.
 Gra -- cious, sin -- less, on -- ward go -- ing,
-To the cross with all its shame,
+To the cross with all its shame;
 To the judg -- ment and for -- sak -- ing,
 Due to God’s most ho -- ly name.
 
@@ -146,7 +146,7 @@ Now be -- liev -- ing in His name.
 Then with joy thy Lord con -- fess -- ing,
 Press thou on, the glo -- ry’s thine,
 Wait His com -- ing, live un -- to Him,
-Let thy light thus bright -- ly shine. % original has "your" for "thy"
+Let your light thus bright -- ly shine. % original has "your" but why does the number change (from "thy") ?
 
 }
 

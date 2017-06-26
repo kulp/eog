@@ -105,13 +105,13 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Come, chil -- dren and learn of the in -- fin -- ite grace \bar "."
-Of Je -- sus in com -- ing to die; \bar "."
+Come, chil -- dren, and learn of the in -- fin -- ite grace \bar "."
+Of Je -- sus, in com -- ing to die; \bar "."
 { \mon } How He { \moff } left His high throne, in the glo -- ry a -- bove, \bar "."
 His beau -- ti -- ful home in the sky. \bar "."
 Oh, think of the Lamb who on Cal -- va -- ry died, \bar "."
 And died for such sin -- ners as we; \bar "."
-Of the thorns on His brow, and the spear in His side, \bar "."
+Of the thorns on His brow and the spear in His side, \bar "."
 When He suf -- fered and bled on the tree. \bar "."
 
 }

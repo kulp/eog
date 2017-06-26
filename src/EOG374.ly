@@ -105,7 +105,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Oh come to Je -- sus, sin -- ner come! \bar "."
+Oh, come to Je -- sus, sin -- ner, come! \bar "."
 Come, while He of -- fers thee \bar "."
 His won -- drous love, a home a -- bove \bar "."
 For all e -- ter -- ni -- ty. \bar "."
@@ -115,7 +115,7 @@ For all e -- ter -- ni -- ty. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh come to Je -- sus, sin -- ner come, \bar "."
+Oh, come to Je -- sus, sin -- ner, come, \bar "."
 And have thy sins for -- giv’n. \bar "."
 A man -- sion bright, a robe of white \bar "."
 He of -- fers thee in heav’n. \bar "."
@@ -125,7 +125,7 @@ He of -- fers thee in heav’n. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-A lov -- ing Sav -- iour He, Whose blood
+A lov -- ing Sav -- iour He, whose blood
 A -- vails to cleanse from sin.
 He died the might -- y debt to pay
 And give thee peace with -- in.

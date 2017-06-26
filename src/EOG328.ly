@@ -108,7 +108,7 @@ wordsA = \lyricmode {
 A lit -- tle child of sev -- en, \bar "."
 Or ev -- en three or four, \bar "."
 May en -- ter in -- to heav -- en \bar "."
-Through Christ, the O -- pen Door. \bar "."
+Through Christ, the o -- pen Door. \bar "."
 For when the heart be -- liev -- eth \bar "."
 On Christ, the Son of God, \bar "."
 ’Tis then the soul re -- ceiv -- eth \bar "."

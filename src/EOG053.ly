@@ -131,7 +131,7 @@ wordsB = \lyricmode {
 
 Work -- ing will not save me;
 Pu -- rest deeds that I can do,
-Ho -- liest tho’ts and feel -- ings, too,
+Ho -- liest tho’ts and feel -- ings too,
 Can -- not form my soul a -- new;
 Work -- ing will not save me.
 
@@ -143,7 +143,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Wait -- ing will not save me;
-Help -- less, guilt -- y, lost I lie,
+Help -- less, guilt -- y, lost I lie;
 In my ear is mer -- cy’s cry;
 If I wait I can but die;
 Wait -- ing will not save me.

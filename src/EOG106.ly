@@ -138,8 +138,8 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 I tried the bro -- ken cist -- erns, Lord,
-But, ah, the wa -- ters failed:
-\mon Ev -- en \moff as I stopped to drink they fled,
+But, ah, the wa -- ters failed!
+E’en as I stooped to drink they fled
 And mocked me as I wailed.
 
 }
@@ -149,7 +149,7 @@ wordsD = \lyricmode {
 
 The pleas -- ures lost I sad -- ly mourned,
 But nev -- er wept for Thee,
-Till grace the sight -- less eyes re -- ceived
+Till grace the sight -- less eyes re -- ceived,
 Thy love -- li -- ness to see.
 
 }

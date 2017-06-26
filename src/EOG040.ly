@@ -112,33 +112,33 @@ notesBass = {
 
 RefrainA = \lyricmode {
 
-That “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break life re -- ceive!” \bar "."
-“Shall ev -- er -- last -- ing life re -- ceive!”
+That who -- so -- ev -- er will be -- lieve \bar "."
+Shall ev -- er -- last -- ing \break life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing life re -- ceive!
 
 }
 
 RefrainB = \lyricmode {
 
-For “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive!” \bar "."
-“Shall ev -- er -- last -- ing life re -- ceive!” %{HIDE>%} \lyricsVis %{<HIDE%}
+For who -- so -- ev -- er will be -- lieve \bar "."
+Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
 
 RefrainC = \lyricmode {
 
-That “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive!” \bar "."
-“Shall ev -- er -- last -- ing life re -- ceive!” %{HIDE>%} \lyricsVis %{<HIDE%}
+That who -- so -- ev -- er will be -- lieve \bar "."
+Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
 
 RefrainD = \lyricmode {
 
-For “Who -- so -- ev -- er will be -- lieve, \bar "."
-Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive!” \bar "."
-“Shall ev -- er -- last -- ing life re -- ceive!” %{HIDE>%} \lyricsVis %{<HIDE%}
+For who -- so -- ev -- er will be -- lieve \bar "."
+Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
 
@@ -146,8 +146,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The gos -- pel of Thy grace \bar "."
-My stub -- born heart has won, \bar "." \break
-For God so loved the world \bar "."
+My stub -- born heart has won; \bar "." \break
+For God so loved the world, \bar "."
 He gave His on -- ly Son, \bar "." \break
 \RefrainA
 
@@ -157,9 +157,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 The ser -- pent “lift -- ed up”
-Could life and heal -- ing give,
+Could life and heal -- ing give;
 So Je -- sus on the cross
-Once died that we might live;
+Once died that we might live:
 \RefrainB
 
 }
@@ -167,10 +167,10 @@ Once died that we might live;
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“The soul that sin -- neth dies:”
+“The soul that sin -- neth dies”:
 My aw -- ful doom I heard;
-I was for -- ev -- er lost,
-But for Thy gra -- cious word,
+I was for -- ev -- er lost
+But for Thy gra -- cious word
 \RefrainC
 
 }
@@ -179,9 +179,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 “Not to con -- demn the world”
-The “Man of sor -- rows” came;
+The “Man of Sor -- rows” came;
 But that the world might have
-Sal -- va -- tion thro’ His name;
+Sal -- va -- tion thro’ His name:
 \RefrainD
 
 }

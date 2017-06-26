@@ -117,10 +117,10 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Oh pre -- cious blood! oh liv -- ing way, \bar "."
+Oh pre -- cious blood! Oh liv -- ing way, \bar "."
 By which the chief of sin -- ners may, \bar "."
 Ac -- cept -- ed stand be -- fore his God! \bar "."
-Oh pre -- cious re -- con -- cil -- ing blood. \bar "."
+Oh pre -- cious, re -- con -- cil -- ing blood! \bar "."
 
 }
 
@@ -137,7 +137,7 @@ Of sure es -- cape from com -- ing wrath! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh pre -- cious blood, the peace di -- vine
+Oh pre -- cious blood! The peace di -- vine
 The cross has pur -- chased now is mine;
 No more of judg -- ment then a -- fraid
 Since all my guilt on Christ was laid.
@@ -149,8 +149,8 @@ Since all my guilt on Christ was laid.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh pre -- cious blood, the sub -- tle foe
-Its all pre -- vail -- ing pow’r shall know
+Oh pre -- cious blood! The sub -- tle foe
+Its all -- pre -- vail -- ing pow’r shall know
 As saints o’er -- come him by its might,
 And si -- lence ev -- ’ry voice of night.
 
@@ -159,8 +159,8 @@ And si -- lence ev -- ’ry voice of night.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Oh pre -- cious blood, the ran -- somed throng
-Ex -- tol its worth in thrill -- ing song;
+Oh pre -- cious blood! The ran -- somed throng
+Ex -- tols its worth in thrill -- ing song;
 And seat -- ed on the throne is He
 Whose pre -- cious blood a -- toned for me.
 

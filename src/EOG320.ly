@@ -168,7 +168,7 @@ A word that will reach some sin -- ner
 Whom Je -- sus once came to seek.
 On -- ly a lit -- tle pa -- tience
 When some -- bod -- y does you wrong,
-For Je -- sus will judge of -- fen -- ses,–
+For Je -- sus will judge of -- fen -- ses,
 Dear child, it will not be long.
 
 }
@@ -177,12 +177,12 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 On -- ly a lit -- tle ser -- vice
-While seek -- ing to live for God,
-’Mid dark -- ness, and sin, and sor -- row,
+While seek -- ing to live for God
+Mid dark -- ness, and sin, and sor -- row,
 Where Je -- sus, Him -- self, once trod.
-On -- ly a lit -- tle wait -- ing,–
+On -- ly a lit -- tle wait -- ing,
 Dear child, let your light shine bright,
-For Je -- sus will come, and take you
+For Je -- sus will come and take you
 To glo -- ry, and love, and light.
 
 }

@@ -115,9 +115,9 @@ What means this ea -- ger, anx -- ious throng, \bar "."
 Which moves with bu -- sy haste a -- long, \bar "." \break
 These won -- drous gath -- ’rings day by day? \bar "."
 What means this strange com -- mo -- tion, pray? \bar "." \break
-In ac -- cents hushed the throng re -- ply: \bar "."
-“Je -- sus of Naz -- a -- reth pass -- eth by;” \bar "." \break
-In ac -- cents hushed the throng re -- ply: \bar "."
+In ac -- cents hushed the throng re -- ply, \bar "."
+“Je -- sus of Naz -- a -- reth pass -- eth by.” \bar "." \break
+In ac -- cents hushed the throng re -- ply, \bar "."
 “Je -- sus of Naz -- a -- reth pass -- eth by.” \bar "." \break
 
 }
@@ -126,11 +126,11 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Je -- sus! ’tis He who once be -- low
-Man’s path -- way trod, ’mid pain and woe;
+Man’s path -- way trod, mid pain and woe;
 And bur -- dened ones, wher -- e’er He came,
-Bro’t out their sick and deaf and lame.
+Bro’t out their sick, and deaf, and lame.
 The blind re -- joiced to hear the cry,
-“Je -- sus of Naz -- a -- reth pass -- eth by;”
+“Je -- sus of Naz -- a -- reth pass -- eth by.”
 The blind re -- joiced to hear the cry,
 “Je -- sus of Naz -- a -- reth pass -- eth by.”
 
@@ -139,12 +139,12 @@ The blind re -- joiced to hear the cry,
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Ho! all ye heav -- y -- la -- den, come!
+Ho! all ye heav -- y la -- den, come!
 Here’s par -- don, com -- fort, rest and home.
 Ye wan -- d’rers from a Fa -- ther’s face,
 Re -- turn, ac -- cept His prof -- fered grace.
 Ye tempt -- ed ones, there’s ref -- uge nigh:
-“Je -- sus of Naz -- a -- reth pass -- eth by;”
+“Je -- sus of Naz -- a -- reth pass -- eth by.”
 Ye tempt -- ed ones, there’s ref -- uge nigh:
 “Je -- sus of Naz -- a -- reth pass -- eth by.”
 
@@ -157,9 +157,9 @@ But if you still His call re -- fuse,
 And all His won -- drous love a -- buse,
 Soon will He sad -- ly from you turn,
 Your bit -- ter prayer for par -- don spurn.
-“Too late, too late,” will be the cry–
-“Je -- sus of Naz -- a -- reth has passed by;”
-“Too late, too late,” will be the cry–
+“Too late, too late” will be the cry–
+“Je -- sus of Naz -- a -- reth has passed by.”
+“Too late, too late” will be the cry–
 “Je -- sus of Naz -- a -- reth has passed by.”
 
 }

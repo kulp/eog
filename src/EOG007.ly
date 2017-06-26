@@ -100,7 +100,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-  On Christ, the sol -- id Rock, I stand; \bar "."
+  On Christ, the sol -- id Rock, I stand, \bar "."
   All oth -- er ground is sink -- ing sand, \bar "."
   All oth -- er ground is sink -- ing sand. \bar "."
 

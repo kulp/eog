@@ -102,20 +102,20 @@ wordsA = \lyricmode {
 
 Christ is com -- ing, oh, be read -- y; \bar "."
 Let not slum -- ber dull your eyes; \bar "."
-Do not say, “My Lord de -- lay -- eth;” \bar "."
+Do not say, “My Lord de -- lay -- eth”; \bar "."
 He is com -- ing, oh, be wise! \bar "."
-He is com -- ing, oh, be wise! \bar "."
+%{HIDE>%} He is com -- ing, oh, be wise! \bar "." %{<HIDE%}
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Some with emp -- ty lamps with hast -- en,
+Some with emp -- ty lamps will hast -- en,
 Seek -- ing oil for them to buy;
-But a -- las! they’ll nev -- er en -- ter;
+But, a -- las! they’ll nev -- er en -- ter;
 Vain for them has been the cry.
-Vain for them has been the cry.
+%{HIDE>%} Vain for them has been the cry. %{<HIDE%}
 
 }
 
@@ -124,9 +124,9 @@ wordsC = \lyricmode {
 
 Such, with hearts of an -- guish burn -- ing,
 When they find the door is shut,
-Will, in ter -- ror, cry, “Lord o -- pen;”
+Will, in ter -- ror, cry, “Lord, o -- pen”;
 He will say, “I know you not.”
-He will say, “I know you not.”
+%{HIDE>%} He will say, “I know you not.” %{<HIDE%}
 
 }
 
@@ -137,7 +137,7 @@ Then be read -- y, oh, be read -- y;
 Heed the cry while yet you may;
 With lamps trimmed and burn -- ing bright -- ly,
 Wait that com -- ing, bless -- ed day.
-Wait that com -- ing, bless -- ed day.
+%{HIDE>%} Wait that com -- ing, bless -- ed day. %{<HIDE%}
 
 }
 

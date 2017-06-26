@@ -110,12 +110,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Why ’neath the load of your sins do ye toil? \bar "."
+Why neath the load of your sins do ye toil? \bar "."
 Christ giv -- eth rest, giv -- eth rest. \bar "."
 Why be in sla -- ver -- y, why { \mon } Sa -- tan’s { \moff } spoil? \bar "."
 You may be blest, may be blest: % \bar "."
 Christ now in -- vites { \mon } you sweet { \moff } rest to re -- ceive, \bar "."
-Heav -- y’s your bur -- { \mon } den, but { \moff } He can re -- lieve, % \bar "."
+Heav -- y’s your bur -- { \mon } den, but { \moff } He can re -- lieve; % \bar "."
 If but this mo -- ment in { \pageBreak } Him you be -- lieve, \bar "."
 You shall have rest, shall have rest. \bar "."
 
@@ -140,10 +140,10 @@ wordsC = \lyricmode {
 
 Why are ye trou -- bled when death comes in view?
 Christ giv -- eth rest, giv -- eth rest.
-Tho’ aft -- er death there comes judg -- ment, too
+Tho’ aft -- er death there comes judg -- ment too,
 You may be blest, may be blest.
 Christ bore God’s judg -- { \mon } ment, poor sin -- ners to save,
-He gained the vic -- t’ry o’er death and the grave,
+He gained the vic -- t’ry o’er death and the grave;
 Oh, now be -- lieve Him, and life you shall have,
 You shall have rest, shall have rest.
 
@@ -154,11 +154,11 @@ wordsD = \lyricmode {
 
 Mon -- ey or price ye have no need to bring,
 Christ giv -- eth rest, giv -- eth rest.
-Why to your rage and your { \mon } pov -- er -- ty { \moff } cling?
+Why to your rags and your { \mon } pov -- er -- ty { \moff } cling?
 Come and be blest, and be %{HIDE>%} \set includeGraceNotes = ##t %{<HIDE%} blest. \bar "."
 A -- way with all fear, a -- way with all doubt,
 Hear His own words, which none can re -- fute, \bar "."
-–“Who -- e’er comes to Me, I’ll in no wise cast out;
+“Who -- e’er comes to Me, I’ll in no wise cast out;
 I’ll give him rest, give him rest.” %{HIDE>%} \set includeGraceNotes = ##f %{<HIDE%}
 
 }

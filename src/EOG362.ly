@@ -90,8 +90,8 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 One lit -- tle tongue to speak His truth,
-One lit -- tle { \mon } heart for Him now in { \moff } my youth,
-Take them, Lord { \mon } Je -- sus, { \moff } and let them be,
+One lit -- tle { \mon } heart for Him now in { \moff } my youth;
+Take them, Lord { \mon } Je -- sus, { \moff } and let them be
 Al -- ways o -- be -- dient and true to Thee.
 
 }

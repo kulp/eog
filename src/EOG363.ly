@@ -154,7 +154,7 @@ wordsE = \markuplist {
 
 \line { God has warned of greater sorrows, }
 \line { { \hspace #2 } He has told of judgment sore }
-\line { Which will fall on Christ-rejectors, }
+\line { Which will fall on Christ-rejectors }
 \line { { \hspace #2 } When the day of grace is o’er. }
 \line { But His only Son once suffered, }
 \line { { \hspace #2 } He for us the judgment bore; }

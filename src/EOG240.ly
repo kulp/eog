@@ -102,7 +102,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Pre -- cious, price -- less love of Je -- sus! \bar "."
-All -- suf -- fi -- cient ’tis for me; \bar "."
+All suf -- fi -- cient ’tis for me; \bar "."
 All my sins and all my sor -- rows \bar "."
 Ful -- ly met at Cal -- va -- ry. \bar "."
 
@@ -114,7 +114,7 @@ wordsA = \lyricmode {
 Might -- y, might -- y love of Je -- sus! \bar "."
 Great -- er love was nev -- er known; \bar "."
 Love that stooped from heights of glo -- ry– \bar "."
-Love that left, for me, a throne. \bar "."
+Love that left for me, a throne. \bar "." % XXX blue book removes comma oddly
 
 }
 
@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Won -- drous, won -- drous love of Je -- sus!
-Once for me He lived a child–
+Once for me He lived a child;
 Low -- ly Son of low -- ly moth -- er–
 He, the Christ, the Un -- de -- filed!
 
@@ -155,7 +155,7 @@ wordsE = \markuplist {
 \line { Tender, tender love of Jesus! }
 \line { At the Father’s side He stands, }
 \line { Interceding for me always, }
-\line { Holding up His pierced hands! }
+\line { Holding up His piercèd hands! }
 
 }
 

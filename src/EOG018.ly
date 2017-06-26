@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 The bird must be clean of its kind,
 Or else ’t_were un -- fit to be slain;
 And none could in Je -- sus e’er find
-A blem -- ish a spot, or a stain.
+A blem -- ish, a spot or a stain.
 The bird in a ves -- sel of earth
 Must yield up its blood and its breath;
 And Je -- sus, of heav -- en -- ly birth,
@@ -137,9 +137,9 @@ The blood of the bird that was slain
 The liv -- ing one bore to the sky;
 So Je -- sus, in ris -- ing a -- gain,
 The worth of His blood took on high.
-The lep -- er with blood sev -- en times
+The lep -- er, with blood sev -- en times
 Was sprin -- kled to ren -- der him clean;
-So sin -- ners are cleansed from their crimes,
+So sin -- ners are cleansed from their crimes
 In blood which a -- toned for their sin.
 
 }

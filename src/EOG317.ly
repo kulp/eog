@@ -80,7 +80,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-The Lord at -- tends when chil -- dren pray; \bar "."
+The Lord at -- tends when chil -- dren pray, \bar "."
 A whis -- per He can hear; \bar "."
 He knows not on -- ly what we say, \bar "."
 But what we wish or fear. \bar "."

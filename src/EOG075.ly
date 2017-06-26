@@ -147,12 +147,12 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I gave my life for thee, \bar "."
+I gave My life for thee, \bar "."
 My pre -- cious blood I shed, \bar "."
-That thou might’st ran -- somed be, \bar "."
+That thou might’st ran -- somed be \bar "."
 And quick -- ened from the dead; \bar "."
-I gave my life for thee, \bar "."
-What has thou given for Me? \bar "."
+I gave My life for thee, \bar "."
+What hast thou given for Me? \bar "."
 
 }
 
@@ -160,11 +160,11 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 My Fa -- ther’s house of light,
-My glo -- ry -- cir -- cled throne
-I left, for earth -- ly night,
+My glo -- ry -- cir -- cled throne,
+I left for earth -- ly night,
 For wan -- d’rings sad and lone;
 I left it all for thee,
-Hast thou left aught for Me?
+Hast thou left ought for Me?
 
 }
 
@@ -176,7 +176,7 @@ More than thy tongue can tell,
 Of bit -- terest ag -- on -- y,
 To res -- cue thee from hell;
 I’ve borne it all for thee,
-What has thou borne for Me?
+What hast thou borne for Me?
 
 }
 
@@ -184,9 +184,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 And I have brought to thee,
-Down from my home a -- bove,
+Down from My home a -- bove,
 Sal -- va -- tion full and free,
-My par -- don and my love;
+My par -- don and My love:
 I bring rich gifts to thee,
 What hast thou brought to Me?
 

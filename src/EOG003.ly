@@ -84,10 +84,10 @@ wordsA = \lyricmode {
 
     Be -- hold, be -- hold the Lamb of God \bar "."
     On the cross! On the cross! \bar "." \break
-    For us He shed his Pre -- cious blood \bar "."
+    For us He shed His pre -- cious blood \bar "."
     On the cross! On the cross! \bar "." \break
     Oh hear the o -- ver whelm -- ing cry– \bar "."
-    “E -- li la -- ma sa -- bach -- tha -- ni.” \bar "." \break
+    “E -- li la -- ma sa -- bach -- tha -- ni,” \bar "." \break
     Draw near and see the Sav -- iour die \bar "."
     On the cross! On the cross! \bar "."
 
@@ -101,7 +101,7 @@ wordsB = \lyricmode {
     Be -- hold His bleed -- ing hands and side
     On the cross! On the cross! \bar "."
     The sun with -- holds his rays of light,
-    The heav’ns are clothed in shades of night,
+    The heav’ns are clothed in shades of night;
     While Je -- sus wins the glo -- rious fight
     On the cross! On the cross! \bar "."
 
@@ -124,13 +124,13 @@ wordsC = \lyricmode {
 wordsD = \lyricmode {
 \set stanza = "4."
 
-    Wher -- e’er I go I’ll tell the story,
+    Wher -- e’er I go I’ll tell the story
     Of the cross! Of the cross! \bar "."
     In noth -- ing else my soul shall glory,
     Save the cross! Save the cross! \bar "."
     Yes; this my cons -- tant theme shall be,
     Thro’ time, and in e -- ter -- ni -- ty,
-    That Je -- sus tast -- ed death for me,
+    That Je -- sus tast -- ed death for me
     On the cross! On the cross! \bar "."
 
 }

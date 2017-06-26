@@ -90,11 +90,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-He is com -- ing!– Who is com -- ing? \bar "."
+He is com -- ing! Who is com -- ing? \bar "."
 Is it One whom I shall fear? \bar "."
-No!– the bless -- ed Sav -- iour, Je -- sus– \bar "."
+No! The bless -- ed Sav -- iour, Je -- sus– \bar "."
 He who suf -- fered for me here; \bar "."
-He is com -- ing! %{HIDE>%} He is com -- ing! %{<HIDE%} \bar "."
+He is com -- ing! He is com -- ing! \bar "."
 In the clouds He will ap -- pear. \bar "."
 
 }
@@ -102,11 +102,11 @@ In the clouds He will ap -- pear. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh, how hap -- py!– those who love Him,
+Oh, how hap -- py! Those who love Him,
 All His beau -- ty then shall see;
 And the glo -- rious sight will make them
-Bright and beau -- ti -- ful as He,–
-In a mo -- ment, %{HIDE>%} in a mo -- ment, %{<HIDE%}
+Bright and beau -- ti -- ful as He;
+In a mo -- ment, in a mo -- ment,
 Like their Sav -- iour they will be.
 
 }
@@ -117,8 +117,8 @@ wordsC = \lyricmode {
 He will take them up to heav -- en,
 From this world and sin a -- part,
 There His Fa -- ther will re -- ceive them
-To His home and to His heart,–
-In His glo -- ry, %{HIDE>%} in His glo -- ry, %{<HIDE%}
+To His home and to His heart;
+In His glo -- ry, in His glo -- ry,
 Nev -- er -- more from Him to part.
 
 }
@@ -130,7 +130,7 @@ Hap -- py peo -- ple who are wait -- ing
 For that bright and joy -- ful day,
 Know -- ing Je -- sus as their Sav -- iour,
 They can watch for Him and say,
-“Come, Lord Je -- sus! %{HIDE>%} come, Lord Je -- sus! %{<HIDE%}
+“Come, Lord Je -- sus! Come, Lord Je -- sus!
 Take Thy wait -- ing saints a -- way.”
 
 }

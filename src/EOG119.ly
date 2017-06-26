@@ -107,7 +107,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 When God’s judg -- ment fell on E -- gypt, \bar "."
-There was weep -- ing ev -- ’ry -- where, \bar "."
+There was weep -- ing ev -- ’ry -- where; \bar "."
 For the an -- gel smote the first -- born \bar "."
 Of the peo -- ple dwell -- ing there. \bar "."
 But some hous -- es God passed o -- ver, \bar "."
@@ -135,7 +135,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Come, now, trust in Christ the Sav -- iour,
-Him who died up -- on the tree.
+He who died up -- on the tree; % blue book changes "Him" to "He" erroneously
 His a -- ton -- ing blood most pre -- cious
 There was shed for you and me.
 Shel -- tered by the blood of Je -- sus,

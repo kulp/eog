@@ -87,17 +87,17 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-And is it so– I shall be like Thy son? \bar "."
+And is it so– I shall be like Thy Son? \bar "."
 Is this the grace which He for me has won? \bar "."
-Fa -- ther of glo -- ry, (tho’t be -- yond all tho’t!)– \bar "."
-In glo -- ry to His own blest like -- ness bro’t! \bar "."
+Fa -- ther of glo -- ry (tho’t be -- yond all tho’t!)– \bar "."
+In glo -- ry, to His own blest like -- ness bro’t! \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh, Je -- sus, Lord, who loved me like to Thee?
+O Je -- sus, Lord, who loved me like to Thee?
 Fruit of Thy work, with Thee, too, there to see
 Thy glo -- ry, Lord, while end -- less a -- ges roll,
 My -- self the prize and trav -- ail of Thy soul.
@@ -118,8 +118,8 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Nor I a -- lone; Thy loved ones all, com -- plete
-In glo -- ry round Thee there with joy shall meet,–
-All like Thee, for Thy glo -- ry, like Thee, Lord,
+In glo -- ry, round Thee there with joy shall meet,
+All like Thee, for Thy glo -- ry like Thee, Lord,
 Ob -- ject su -- preme of all, by all a -- dored.
 
 }

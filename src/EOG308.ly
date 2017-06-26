@@ -101,10 +101,10 @@ wordsA = \lyricmode {
 
 I love to hear the sto -- ry \bar "."
 Which an -- gel voi -- ces tell, \bar "."
-How once the King of Glo -- ry \bar "."
+How once the King of glo -- ry \bar "."
 Came down on earth to dwell; \bar "."
 I am both weak and sin -- ful, \bar "."
-But this I sure -- ly know; \bar "."
+But this I sure -- ly know, \bar "."
 The Lord came down to save me, \bar "."
 Be -- cause He loved me so. \bar "."
 

@@ -96,10 +96,10 @@ wordsA = \lyricmode {
 By Thee, O God, in -- vit -- ed, \bar "."
 We look un -- to the Son, \bar "." \break
 In whom Thy soul de -- light -- ed, \bar "."
-Who all thy will hath done; \bar "." \break
+Who all Thy will hath done; \bar "." \break
 And by the one chief trea -- sure \bar "."
 Thy bos -- om free -- ly gave, \bar "." \break
-Thine one pure love we meas -- ure, \bar "."
+Thine own pure love we meas -- ure, \bar "."
 Thy will -- ing mind to save. \bar "." \break
 
 }

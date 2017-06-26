@@ -117,7 +117,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 To Him I look, while still I run–
-My nev -- er -- fail -- ing Friend–
+My nev -- er -- fail -- ing Friend!
 Fin -- ish, He will, the work be -- gun,
 And grace in glo -- ry end.
 

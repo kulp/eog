@@ -80,7 +80,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Je -- sus Christ is pass -- ing by; \bar "."
-Child, now lift to Him thine eye; \bar "."
+Child, now lift to Him thine eye, \bar "."
 As the pre -- cious mo -- ments flee, \bar "."
 See, His mer -- cy waits for thee. \bar "."
 
@@ -109,7 +109,7 @@ He can save and give thee peace.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Je -- sus calls to you, dear one,
+Je -- sus calls to thee, dear one,
 “Ev -- ’ry -- thing is full -- y done;
 Come to Me, re -- ceive My love,
 Come and live with Me a -- bove.”

@@ -106,7 +106,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Come while you may! come while you may! \bar "."
+Come while you may! Come while you may! \bar "."
 Take God’s free sal -- va -- tion, ’tis of -- fered to -- day! \bar "."
 
 }
@@ -126,7 +126,7 @@ wordsB = \lyricmode {
 
 How vain the de -- lu -- sion, that while you de -- lay
 Your hearts may grow bet -- ter by stay -- ing a -- way;
-Come wretch -- ed, come star -- ving, come hap -- py to be,
+Come wretch -- ed, come star -- ving, come, hap -- py to be,
 While streams of sal -- va -- tion are flow -- ing so free.
 
 \Refrain
@@ -139,7 +139,7 @@ wordsC = \lyricmode {
 Oh, how can we leave you? Why will you not come?
 ’Tis Je -- sus en -- treats you, He bids you come home;
 Oh, turn now! Oh, turn now! For why will you die,
-When God in great mer -- cy, is com -- ing so nigh?
+When God, in great mer -- cy, is com -- ing so nigh?
 
 }
 

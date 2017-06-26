@@ -127,7 +127,7 @@ wordsB = \lyricmode {
 
 Room for pleas -- ure, room for busi -- ness,
 But for Christ the Cru -- ci -- fied,
-Not a place that He can en -- ter,
+Not a place that He can en -- ter
 In the heart for which He died.
 
 \Refrain

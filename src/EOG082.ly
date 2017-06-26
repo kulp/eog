@@ -111,7 +111,7 @@ wordsA = \lyricmode {
 Ere God had built the moun -- tains, \bar "."
 Or raised the fruit -- ful hills; \bar "." \break
 Be -- fore He fill’d the foun -- tains \bar "."
-That feed the run -- ning rills, \bar "." \break
+That feed the run -- ning rills; \bar "." \break
 In Thee, from ev -- er -- last -- ing, \bar "."
 The won -- der -- ful I AM \bar "." \break
 Found plea -- sures nev -- er wast -- ing, \bar "."
@@ -122,7 +122,7 @@ And Wis -- dom is Thy name. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-When like a tent to dwell in,
+When, like a tent to dwell in,
 He spread the skies a -- broad,
 And swathed a -- bout the swell -- ing
 Of o -- cean’s might -- y flood,
@@ -138,7 +138,7 @@ wordsC = \lyricmode {
 
 And couldst Thou be de -- light -- ed
 With crea -- tures such as we,
-Who, when we saw Thee slight -- ed
+Who, when we saw Thee, slight -- ed
 And nail’d Thee to a tree?
 Un -- fath -- om -- a -- ble won -- der!
 And mys -- te -- ry di -- vine!

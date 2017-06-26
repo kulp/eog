@@ -98,7 +98,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Could cease -- less prayers as -- cend,
-Could tears for -- ev -- er flow,
+Could tears for -- ev -- er flow;
 The soul were still un -- blest, un -- saved,
 And peace could nev -- er know.
 

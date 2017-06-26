@@ -92,7 +92,7 @@ wordsB = \lyricmode {
 ’Twas love, pure love, which bro’t Him from
 A -- bove the bright blue sky;
 ’Twas love, pure love, which made Him come
-To suf -- fer, bleed, and die.
+To suf -- fer, bleed and die.
 
 }
 
@@ -112,7 +112,7 @@ wordsD = \lyricmode {
 Oh, bless -- ed home of end -- less rest,
 The home of peace and joy!
 How sweet will be the song of praise
-A -- bove the bright blue sky!
+A -- bove the bright blue sky.
 
 }
 

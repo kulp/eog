@@ -109,8 +109,8 @@ RefrainA = \lyricmode {
 
 Who is the King of glo -- ry? \bar "."
 Who is the King of glo -- ry? \bar "."
-The great I AM, the Lord of hosts– \bar "."
-He is the King of glo -- ry! \bar "."
+The great I AM, the Lord of hosts, \bar "."
+He is the King of glo -- ry. \bar "."
 
 }
 
@@ -119,7 +119,7 @@ RefrainE = \lyricmode {
 
 Who is the King of glo -- ry?
 Who is the King of glo -- ry?
-’Tis Je -- sus wear -- ing many a crown–
+’Tis Je -- sus wear -- ing many a crown,
 He is the King of glo -- ry!
 
 }

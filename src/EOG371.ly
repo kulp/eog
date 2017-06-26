@@ -104,7 +104,7 @@ Refrain = \lyricmode {
 
 Mer -- cy there was great, and grace was free; \bar "."
 Par -- don there was mul -- ti -- plied to me; \bar "."
-There my bur -- dened soul found lib -- er -- ty, \bar "."
+There my bur -- dened soul found lib -- er -- ty \bar "."
 At Cal -- va -- ry. \bar "."
 
 }
@@ -113,7 +113,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Years I spent in van -- i -- ty and pride, \bar "."
-Car -- ing not my Lord was cru -- ci -- fied, \bar "."
+Car -- ing not my Lord was cru -- ci -- fied; \bar "."
 Know -- ing not it was for me He died \bar "."
 On Cal -- va -- ry. \bar "."
 
@@ -122,9 +122,9 @@ On Cal -- va -- ry. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-By God’s Word at last my sin I learned;
+By God’s Word at last my sin I learned,
 Then I trem -- bled at the truth I’d spurned,
-Till my guilt -- y soul im -- plor -- ing turned
+Till my guilt -- y soul, im -- plor -- ing, turned
 To Cal -- va -- ry.
 
 \Refrain
@@ -134,10 +134,10 @@ To Cal -- va -- ry.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, the love that drew sal -- va -- tion’s plan!
-Oh, the grace that bro’t it down to man!
-Oh, the might -- y gulf that God did span
-At Cal -- va -- ry!
+Oh! the love that drew sal -- va -- tion’s plan,
+Oh! the grace that bro’t it down to man,
+Oh! the might -- y gulf that God did span
+At Cal -- va -- ry.
 
 }
 

@@ -33,6 +33,7 @@ wordsE = \markuplist {
 \line { The Bible tells us He will come }
 \line { To take His saints away, }
 \line { To dwell with Him in His blest home }
+%LYRICS Through everlasting day,
 \line { Through everlasting day. }
 
 }
@@ -42,6 +43,7 @@ wordsF = \markuplist {
 \line { The Bible tells us He will reign }
 \line { O’er all the earth ere long; }
 \line { When heaven and earth shall wake the strain }
+%LYRICS Of an eternal song,
 \line { Of an eternal song. }
 
 }
@@ -51,6 +53,7 @@ wordsG = \markuplist {
 \line { The Bible tells us \italic all may come, }
 \line { And drink at mercy’s stream; }
 \line { That Jesus soon will share this home }
+%LYRICS With all who trust in Him,
 \line { With all who trust in Him. }
 
 }
@@ -138,7 +141,7 @@ wordsA = \lyricmode {
 The Bi -- ble tells us Je -- sus came \bar "."
 From glo -- ry bright and fair– \bar "." \eogpagebreak
 God’s per -- fect, sin -- less, spot -- less Lamb– \bar "."
-%{HIDE>%} His mer -- cy to de -- clare, \bar "." %{<HIDE%} \eogbreak
+His mer -- cy to de -- clare, \bar "." \eogbreak
 His mer -- cy to de -- clare. \bar "."
 
 }
@@ -147,9 +150,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 The Bi -- ble tells us Je -- sus died
-A sac -- ri -- fice for sin:
+A sac -- ri -- fice for sin;
 The gates of heav’n to o -- pen wide,
-%{HIDE>%} That we may en -- ter in, %{<HIDE%} \eogbreak
+That we may en -- ter in, \eogbreak
 That we may en -- ter in.
 
 }
@@ -160,7 +163,7 @@ wordsC = \lyricmode {
 The Bi -- ble tells us Je -- sus rose,
 And left the si -- lent grave,
 Tri -- um -- phant o -- ver all His foes,
-%{HIDE>%} The might -- y One to save, %{<HIDE%} \eogbreak
+The might -- y One to save, \eogbreak
 The might -- y One to save.
 
 }
@@ -169,9 +172,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 The Bi -- ble tells us Je -- sus lives
-A -- gain up -- on the throne:
+A -- gain up -- on the throne;
 The bless -- ed proof the Fa -- ther gives
-%{HIDE>%} That mer -- cy’s work is done, %{<HIDE%} \eogbreak
+That mer -- cy’s work is done, \eogbreak
 That mer -- cy’s work is done.
 
 }

@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "219"
-  title = "His Be “The Victor’s Name”"
+  title = "His Be The Victor’s Name"
   tunename = "Victor"
   meter = "S. M."
   poet = "Whittock Gandy" % Samuel *Whitelock* Gandy ?
@@ -79,7 +79,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-His be “the Vic -- tor’s name” \bar "."
+His be the vic -- tor’s name \bar "."
 Who fought the fight a -- lone; \bar "."
 Tri -- um -- phant saints no hon -- or claim, % \bar "."
 His con -- quest was their own. \bar "."
@@ -102,7 +102,7 @@ wordsC = \lyricmode {
 Bless, bless the Con -- queror slain,
 Slain in His vic -- to -- ry;
 Who lived, who died, who lives a -- gain–
-For thee, His Church, for thee!
+For thee, His church, for thee!
 
 }
 

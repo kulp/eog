@@ -93,10 +93,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Come let us sing the match -- less worth, \bar "."
+Come, let us sing the match -- less worth, \bar "."
 And sweet -- ly sound the glo -- ries forth \bar "."
-Which in the Sav -- iour shine: \bar "."
-To God and Christ our prais -- es bring: \bar "."
+Which in the Sav -- iour shine; \bar "."
+To God and Christ our prais -- es bring, \bar "."
 The song with which high heaven will ring, \bar "."
 Prais -- es for grace di -- vine. \bar "."
 %{HIDE>%} For grace di -- vine. %{<HIDE%}
@@ -122,7 +122,7 @@ wordsC = \lyricmode {
 How rich the char -- act -- er He bears,
 And all the form of love He wears,
 Ex -- alt -- ed on the throne;
-In songs of sweet, un -- tir -- ing love,
+In songs of sweet, un -- tir -- ing praise,
 We e’er would sing His per -- fect ways,
 And make His glo -- ries known.
 %{HIDE>%} His glo -- ries known. %{<HIDE%}
@@ -135,7 +135,7 @@ wordsD = \lyricmode {
 And soon that hap -- py day shall come,
 When we shall reach our des -- tined home,
 And see Him face to face;
-Then with our Sav -- iour, Lord, and Friend,
+Then with our Sav -- iour, Lord and Friend,
 The one un -- bro -- ken day we’ll spend
 In sing -- ing still His grace.
 %{HIDE>%} Still His _ grace. %{<HIDE%}

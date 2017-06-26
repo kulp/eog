@@ -132,29 +132,36 @@ Refrain = \lyricmode {
 
 Ask the Sav -- iour to help you, \bar "."
 Com -- fort, streng -- then and keep you; \bar "."
-He is will -- ing to aid you, \bar "."
+He is will -- ing to aid you; \bar "."
 He will car -- ry you through. \bar "."
 
 }
 
-% blue book splits each verse lyrics line in the middle
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Yield not to temp -- ta -- tion, for yield -- ing is sin; \bar "."
-Each vic -- tory will help you some oth -- er to win; \bar "."
-Fight prayer -- ful -- ly on -- ward, dark pas -- sions sub -- due, \bar "."
-Look ev -- er to Je -- sus, He will car -- ry you through. \bar "."
+Yield not to temp -- ta -- tion, \bar "."
+For yield -- ing is sin; \bar "."
+Each vic -- tory will help you \bar "."
+Some oth -- er to win; \bar "."
+Fight prayer -- ful -- ly on -- ward, \bar "."
+Dark pas -- sions sub -- due; \bar "."
+Look ev -- er to Je -- sus, \bar "."
+He will car -- ry you through. \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Shun e -- vil com -- pan -- ions, bad lan -- guage dis -- dain,
-God’s name hold in rev -- erence– don't take it in vain;
-Be thought -- ful and ear -- nest, kind -- heart -- ed and true;
-Look ev -- er to Je -- sus, He will car -- ry you through.
+Shun e -- vil com -- pan -- ions,
+Bad lan -- guage dis -- dain;
+God’s name hold in rev -- erence–
+Don't take it in vain;
+Be thought -- ful and ear -- nest,
+Kind -- heart -- ed and true;
+Look ev -- er to Je -- sus,
+He will car -- ry you through.
 
 \Refrain
 
@@ -163,10 +170,14 @@ Look ev -- er to Je -- sus, He will car -- ry you through.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-To him that o’er -- com -- eth, God giv -- eth a crown,
-Thro’ faith we shall con -- quer, though of -- ten cast down;
-He who is our Sav -- iour our strength will re -- new;
-Look ev -- er to Je -- sus, He will car -- ry you through.
+To him that o’er -- com -- eth
+God giv -- eth a crown;
+Thro’ faith we shall con -- quer,
+Though of -- ten cast down;
+He who is our Sav -- iour
+Our strength will re -- new;
+Look ev -- er to Je -- sus,
+He will car -- ry you through.
 
 }
 

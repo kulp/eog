@@ -117,8 +117,8 @@ Nev -- er more have sor -- row,
 Ev -- er free from sin.
 Then with Him in glo -- ry
 Bright -- ly they shall shine;
-Know His love more ful -- ly
-Love so true di -- vine!
+Know His love more ful -- ly–
+Love so true, di -- vine!
 
 }
 

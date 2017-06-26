@@ -123,7 +123,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Sin -- ner! see thy God be -- side thee,
-In a ser -- vant’s form come near,
+In a ser -- vant’s form come near;
 Sit -- ting, walk -- ing, talk -- ing with thee,
 Si -- nai’s mount no lon -- ger fear.
 
@@ -143,8 +143,8 @@ wordsE = \markuplist {
 
 \line { See the sun at noonday hidden, }
 \line { { \hspace #2 } See the rocks and mountains shake, }
-\line { See the Man ’midst darkness smitten, }
-\line { { \hspace #2 } Why did God his Son forsake? }
+\line { See the Man midst darkness smitten; }
+\line { { \hspace #2 } Why did God His Son forsake? }
 
 }
 

@@ -94,13 +94,13 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh, would you know my Sav -- iour, \bar "."
-Ye who are young and gay, \bar "."
+Oh! would you know my Sav -- iour, \bar "."
+Ye who are young today, \bar "."
 Yet some -- times feel that earth’s de -- lights \bar "."
 Must fade and pass a -- way? \bar "."
 Then ear -- ly heed the voice of love, \bar "."
 Which tells of joys in heaven. \bar "."
-And God can say, in right -- eous -- ness, \bar "."
+And God can say in right -- eous -- ness, \bar "."
 “Your sins are all for -- given.” \bar "."
 
 }
@@ -108,13 +108,13 @@ And God can say, in right -- eous -- ness, \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh, would you know my Sav -- iour,
+Oh! would you know my Sav -- iour,
 Ye trav -- ’lers to the tomb?
 He takes the sting of death a -- way,
-And chas -- es all the gloom.
+And chas -- es all its gloom.
 Then come, be -- lieve, while yet you may,
 The mes -- sage sent from heaven;
-How God can say, in right -- eous -- ness,
+How God can say in right -- eous -- ness,
 “Your sins are all for -- given.”
 
 }
@@ -122,13 +122,13 @@ How God can say, in right -- eous -- ness,
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, would you know my Sav -- iour,
+Oh! would you know my Sav -- iour,
 Ye hun -- gry souls and poor?
 I can -- not tell you all He is,
-I want to know Him more:
+I want to know Him more;
 But let me seek to spread a -- broad
 God’s bless -- ed news from heaven,
-How He can say, in right -- eous -- ness,
+How He can say in right -- eous -- ness,
 “Your sins are all for -- given.”
 
 }

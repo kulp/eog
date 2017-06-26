@@ -119,7 +119,7 @@ wordsC = \lyricmode {
 Oh, re -- mem -- ber! Oh, re -- mem -- ber!
 He Him -- self in death has giv -- en
 To re -- deem thee, home to bring thee–
-Child of wrath!– as heir of heav -- en.
+Child of wrath– as heir of heav -- en.
 From earth’s sor -- row, judg -- ment’s mor -- row,
 He has drawn thee, mer -- cy shown thee–
 Oh, re -- mem -- ber!

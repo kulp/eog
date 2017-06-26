@@ -109,11 +109,9 @@ Sav -- iour, through the des -- ert lead us, \bar "."
 With -- out Thee we can -- not go; \bar "."
 Thou from cru -- el chains hast freed us, \bar "."
 And hast laid the ty -- rant low: \bar "."
-%{HIDE>%} Let Thy pre -- sence, %{<HIDE%} \bar "."
-Let Thy pre -- sence \bar "."
+Let Thy pre -- sence, let Thy pre -- sence, \bar "."
 Cheer us all our jour -- ney through. \bar "."
-%{HIDE>%} Let Thy pre -- sence, \bar "."
-Let Thy pre -- sence \bar "."
+%{HIDE>%} Let Thy pre -- sence, let Thy pre -- sence \bar "."
 Cheer us all our jour -- ney through. %{<HIDE%} \bar "."
 
 }
@@ -121,15 +119,13 @@ Cheer us all our jour -- ney through. %{<HIDE%} \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Through a des -- ert waste and cheer -- less,
+Through a des -- ert waste and cheer -- less
 Though our des -- tined jour -- ney lie,
 Ren -- dered by Thy pre -- sence fear -- less,
 We may ev -- ’ry foe de -- fy:
-%{HIDE>%} Naught shall move us, %{<HIDE%}
-Naught shall move us,
+Naught shall move us, naught shall move us,
 While we see Thee, Sav -- iour, nigh.
-%{HIDE>%} Naught shall move us,
-Naught shall move us,
+%{HIDE>%} Naught shall move us, naught shall move us,
 While we see Thee, Sav -- iour, nigh. %{<HIDE%}
 
 }
@@ -141,11 +137,9 @@ With a price Thy love has bought us,
 Sav -- iour, what a love is Thine!
 Hith -- er -- to Thy power has brought us,
 Power and love in Thee com -- bine:
-%{HIDE>%} Lord of glo -- ry, %{<HIDE%}
-Lord of glo -- ry,
+Lord of glo -- ry, Lord of glo -- ry,
 Ev -- er on Thy house -- hold shine.
-%{HIDE>%} Lord of glo -- ry,
-Lord of glo -- ry,
+%{HIDE>%} Lord of glo -- ry, Lord of glo -- ry,
 Ev -- er on Thy house -- hold shine. %{<HIDE%}
 
 }

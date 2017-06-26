@@ -92,8 +92,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Sing -- ing, “Glo -- ry, glo -- ry, \bar "."
-Glo -- ry be to God on high!” \bar "."
+Sing -- ing, “Glo -- ry, glo -- ry, glo -- ry be to God on high.” \bar "."
 
 }
 
@@ -102,7 +101,7 @@ wordsA = \lyricmode {
 
 A -- round the throne of God in heav’n \bar "."
 Will man -- y chil -- dren sing; \bar "."
-Chil -- dren whose sins are all for -- giv’n, \bar "."
+Chil -- dren whose sins are all for -- giv’n \bar "."
 Will heav’n -- ly an -- thems bring, \bar "."
 
 }
@@ -145,7 +144,7 @@ wordsE = \lyricmode {
 On earth they sought the Sav -- iour’s grace,
 On earth they loved His name;
 So then they’ll see His bless -- ed face,
-And praise be -- fore the Lamb;
+And praise be -- fore the Lamb,
 
 }
 

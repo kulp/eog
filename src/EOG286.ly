@@ -103,7 +103,7 @@ wordsC = \lyricmode {
 
 Like them, we have a rest in view,
 Se -- cure from hos -- tile pow’rs;
-Like them, we pass a des -- ert, too,
+Like them, we pass a des -- ert too,
 But Is -- rael’s God is ours.
 
 }
@@ -111,7 +111,7 @@ But Is -- rael’s God is ours.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-His word a light be -- fore us spreads,
+His Word a light be -- fore us spreads,
 By which our path we see;
 His love, a ban -- ner o’er our heads,
 From harm pre -- serves us free.

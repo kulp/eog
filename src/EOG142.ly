@@ -106,7 +106,7 @@ Refrain = \lyricmode {
 
 “Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
 “Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
-I ver -- i -- ly, ver -- i -- ly, say un -- to thee, \bar "."
+I ver -- i -- ly, ver -- i -- ly say un -- to thee, \bar "."
 “Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%} \bar "."
 
 }
@@ -125,7 +125,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Ye chil -- dren of men, at -- tend to the word
-So so -- lemn -- ly ut -- tered by Je -- sus the Lord;
+So so -- lemn -- ly ut -- tered by Je -- sus the Lord,
 And let not this mes -- sage to you be in vain:
 “Ye must be born a -- gain”! %{HIDE>%} “a -- gain”! %{<HIDE%}
 

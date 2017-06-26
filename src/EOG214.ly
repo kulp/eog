@@ -125,7 +125,7 @@ A -- men! so let it be! \bar "."
 Life from the dead is in that word, \bar "."
 ’Tis im -- mor -- tal -- i -- ty! \bar "."
 Here in the bod -- y pent, \bar "."
-Ab -- sent from Him we roam: \bar "."
+Ab -- sent from Him we roam, \bar "."
 Yet night -- ly pitch our mov -- ing tent \bar "."
 A day’s march near -- er home. \bar "."
 
@@ -136,7 +136,7 @@ wordsB = \lyricmode {
 
 Our Fa -- ther’s home on high,
 Home to our souls how dear!
-E’en now, to faith’s trans -- pierc -- ing eye,
+E’en now, to faith’s trans -- pierc -- ing eye
 Thy gold -- en gates ap -- pear.
 Our thirst -- y spir -- its faint
 To reach the home we love,

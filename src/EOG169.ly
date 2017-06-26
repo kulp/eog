@@ -112,7 +112,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 When for a while we part,
-This thought will sooth our pain:
+This thought will soothe our pain:
 That we shall still be joined in heart,
 And one day meet a -- gain.
 
@@ -129,7 +129,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { When from all toil and pain, }
+\line { When from all toil and pain }
 \line { And sin we shall be free, }
 \line { And we shall with the Saviour reign }
 \line { Through all eternity. }

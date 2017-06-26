@@ -115,8 +115,8 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
   But lo! He’s ris -- en from the grave,
-  And bears the great -- est, sweet -- est name,
-  The Lord al -- might -- y now to save,
+  And bears the great -- est, sweet -- est name;
+  The Lord, al -- might -- y now to save,
   From sin, from death, from end -- less shame.
 
 }

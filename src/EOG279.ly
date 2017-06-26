@@ -91,7 +91,7 @@ wordsA = \lyricmode {
 I’m wait -- ing for Thee, Lord, \bar "."
 Thy beau -- ty to see, Lord, \bar "."
 I’m wait -- ing for Thee– for Thy com -- ing a -- gain. \bar "."
-Thou’rt gone o -- ver there, Lord, \bar "."
+\mon Thou art \moff gone o -- ver there, Lord, \bar "."
 A place to pre -- pare, Lord, \bar "."
 Thy home I shall share, at Thy com -- ing a -- gain. \bar "."
 
@@ -100,7 +100,7 @@ Thy home I shall share, at Thy com -- ing a -- gain. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-’Mid dan -- ger and fear, Lord,
+Mid dan -- ger and fear, Lord,
 I’m oft wear -- y here, Lord,
 The day must be near of Thy com -- ing a -- gain.
 ’Tis all sun -- shine there, Lord,
@@ -112,11 +112,11 @@ But glo -- ry so fair, at Thy com -- ing a -- gain.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Whilst Thou art a -- way, Lord,
+While Thou art a -- way, Lord,
 I stum -- ble and stray, Lord,
-Oh! has -- ten the day of Thy com -- ing a -- gain.
+Oh, has -- ten the day of Thy com -- ing a -- gain.
 This is not my rest, Lord,
-A pil -- grim con -- fest, Lord, % original has "confest"
+A pil -- grim con -- fessed, Lord, % original has "confest"
 I wait to be blest, at Thy com -- ing a -- gain.
 
 }

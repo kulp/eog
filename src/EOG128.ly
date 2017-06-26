@@ -115,7 +115,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 “A bet -- ter sac -- ri -- fice” than these
-It needs the con -- science to ap -- pease
+It needs, the con -- science to ap -- pease
 Or sat -- is -- fy the Lord:
 No blood hath vir -- tue to a -- tone
 For man’s of -- fence, but His a -- lone
@@ -126,10 +126,10 @@ Whose tit -- le is “The Word.”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-His who could say, Hi, -- self the Son,
+His who could say, Him -- self the Son,
 “My Fa -- ther and My -- self are one,”
 Who made the world a -- round;
-His, who Je -- ho -- vah’s Fel -- low stood,
+His who Je -- ho -- vah’s Fel -- low stood,
 And claim’d e -- qual -- i -- ty with God,
 Whose glo -- ry knows no bounds.
 

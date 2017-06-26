@@ -136,9 +136,11 @@ notesBass = {
 
 RefrainA = \lyricmode {
 
-Gos -- pel bells, how they ring, \bar "."
-O -- ver land, from sea to sea; \bar "." \break
-Gos -- pel bells, free -- ly bring \bar "."
+%{HIDE>%} Gos -- pel bells, how they ring \bar "." %{<HIDE%}
+%LYRICS Gos -- pel bells ...  how they ring
+O -- ver land from sea to sea; \bar "." \break
+%{HIDE>%} Gos -- pel bells, free -- ly bring \bar "." %{<HIDE%}
+%LYRICS Gos -- pel bells ... free -- ly bring
 Bless -- ed news to you and me. \bar "." \break
 
 }
@@ -158,12 +160,12 @@ free -- ly bring
 wordsA = \lyricmode {
 \set stanza = "1."
 
-The Gos -- pel bells are ring -- ing, \bar "."
-O -- ver land, from sea to sea: \bar "." \break
+The gos -- pel bells are ring -- ing \bar "."
+O -- ver land, from sea to sea; \bar "." \break
 Bless -- ed news of free sal -- va -- tion \bar "."
 Do they of -- fer you and me. \bar "." \break
 “For God so loved the world, \bar "."
-That His on -- ly Son He gave, \bar "." \break
+That His on -- ly Son He gave; \bar "." \break
 Who -- so -- e’er be -- liev -- eth in Him \bar "."
 Ev -- er -- last -- ing life shall have.” \bar "." \break
 
@@ -172,12 +174,12 @@ Ev -- er -- last -- ing life shall have.” \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-The Gos -- pel bells in -- vite us
+The gos -- pel bells in -- vite us
 To a feast pre -- pared for all;
 Do not slight the in -- vi -- ta -- tion,
 Nor re -- ject the gra -- cious call.
 “I am the bread of life;
-Eat of Me, thou hun -- gry soul,
+Eat of Me, thou hun -- gry soul;
 Tho’ your sins be red as crim -- son,
 They shall be as white as wool.”
 
@@ -188,12 +190,12 @@ They shall be as white as wool.”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-The Gos -- pel bells give warn -- ing,
+The gos -- pel bells give warn -- ing,
 As they sound from day to day,
 Of the fate which doth a -- wait them
 Who for -- ev -- er will de -- lay.
-“Es -- cape ye, for thy life;
-Tar -- ry not in all the plain,
+“Es -- cape thou for thy life!
+Tar -- ry not in all the plain;
 Nor be -- hind thee look, oh, nev -- er,
 Lest thou be con -- sumed in pain.”
 
@@ -202,14 +204,14 @@ Lest thou be con -- sumed in pain.”
 wordsD = \lyricmode {
 \set stanza = "4."
 
-The Gos -- pel bells are joy -- ful,
+The gos -- pel bells are joy -- ful
 As they ech -- o far and wide,
-Bear -- ing notes of per -- fect par -- don,
-Thro’ a Sav -- iour cru -- ci -- fied.
+Bear -- ing notes of per -- fect par -- don
+Thro’ a Sav -- iour cru -- ci -- fied;
 “Good ti -- dings of great joy
-To all peo -- ple do I bring,
+To all peo -- ple do I bring;
 Un -- to you is born a Sav -- iour,
-Which is Christ the Lord” and King.
+Which is Christ the Lord and King.”
 
 }
 

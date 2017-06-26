@@ -85,7 +85,7 @@ wordsA = \lyricmode {
 
 Oh, what a glo -- rious truth is this– \bar "."
 Je -- sus died, Je -- sus died; \bar "." \break
-Has o -- pened up the path to bliss; \bar "."
+Has o -- pened up the path of bliss; \bar "."
 Je -- sus died, Je -- sus died; \bar "." \break
 God loved the world, His Son He gave, \bar "."
 That all who do in Him be -- lieve \bar "." \break
@@ -116,7 +116,7 @@ Je -- sus died, Je -- sus died;
 ’Tis such a pre -- cious, bless -- ed sound–
 Je -- sus died, Je -- sus died;
 En -- treat poor sin -- ners to re -- ly
-On that which brings the guilt -- y nigh;
+On that which brings the guilt -- y nigh,
 E’en to the blood of Christ to fly;
 Je -- sus died, Je -- sus died.
 

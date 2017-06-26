@@ -109,7 +109,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 The sin -- ner who be -- lieves is free,
-Can say, “The Sav -- iour died for me;”
+Can say, “The Sav -- iour died for me”;
 Can point to the a -- ton -- ing blood,
 And say, “This made my peace with God.”
 

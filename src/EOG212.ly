@@ -123,10 +123,11 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-O Lord Je -- sus, how long? how long \bar "."
-Ere we shout the glad song? Christ re -- turn -- eth; \bar "."
+O Lord Je -- sus, how long? How long \bar "."
+Ere we shout the glad song? \bar "."
+Christ re -- turn -- eth; \bar "."
 Hal -- le -- lu -- jah! hal -- le -- lu -- jah! \bar "."
-A -- men, Hal -- le -- lu -- jah! A -- men. \bar "."
+A -- men, hal -- le -- lu -- jah! A -- men. \bar "."
 
 }
 
@@ -135,7 +136,7 @@ wordsA = \lyricmode {
 
 It may be at morn, when the day is a -- wak -- ing, \bar "."
 When sun -- light thro’ dark -- ness and shad -- ow is break -- ing, \bar "."
-That Je -- sus will come in the ful -- ness of glo -- ry, \bar "."
+That Je -- sus will come in the full -- ness of glo -- ry, \bar "."
 { \mon } To re -- { \moff } ceive from the world “His own.” \bar "."
 
 }
@@ -143,7 +144,7 @@ That Je -- sus will come in the ful -- ness of glo -- ry, \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-It may be at mid -- day, it may be at twi -- light,
+It may be at mid -- day; it may be at twi -- light;
 It may be, per -- chance, that the black -- ness of mid -- night
 Will burst in -- to light in the blaze of His glo -- ry,
 When Je -- sus re -- ceives “His own.”
@@ -155,7 +156,7 @@ When Je -- sus re -- ceives “His own.”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, joy! Oh, de -- light! should we go with -- out dy -- ing,
+Oh joy! oh de -- light! should we go with -- out dy -- ing,
 No sick -- ness, no sad -- ness, no dread and no cry -- ing,
 Caught up thro’ the clouds with our Lord in -- to glo -- ry,
 When Je -- sus re -- ceives “His own.”

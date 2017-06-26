@@ -88,7 +88,7 @@ wordsA = \lyricmode {
 There is a ci -- ty bright, \bar "."
 Closed are its gates to sin; \bar "."
 Naught that de -- fil -- eth, \bar "."
-%{HIDE>%} Naught that de -- fil -- eth, %{<HIDE%} \bar "."
+Naught that de -- fil -- eth, \bar "."
 Can ev -- er en -- ter in. \bar "."
 
 }
@@ -99,7 +99,7 @@ wordsB = \lyricmode {
 Sav -- iour, I come to Thee!
 O Lamb of God, I pray–
 Cleanse me and save me,
-%{HIDE>%} Cleanse me and save me, %{<HIDE%}
+Cleanse me and save me,
 Take all my sins a -- way.
 
 }
@@ -110,7 +110,7 @@ wordsC = \lyricmode {
 Lord, make me from this hour,
 Thy lov -- ing child to be,
 Kept by Thy pow -- er,
-%{HIDE>%} Kept by Thy pow -- er, %{<HIDE%}
+Kept by Thy pow -- er,
 From all that griev -- eth Thee.
 
 }
@@ -121,7 +121,7 @@ wordsD = \lyricmode {
 There in the snow -- y dress
 Of Thy re -- deemed I’ll stand,
 Fault -- less and stain -- less,
-%{HIDE>%} Fault -- less and stain -- less, %{<HIDE%}
+Fault -- less and stain -- less,
 Safe in that hap -- py land.
 
 }

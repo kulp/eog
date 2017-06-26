@@ -122,7 +122,7 @@ wordsA = \lyricmode {
 
 The heav’n -- ly Bride -- groom soon will come, \bar "."
 To claim His bride, and take her home, \bar "."
-To dwell with Him on high __ \bar "."
+To dwell with Him on high. \bar "."
 
 }
 
@@ -131,7 +131,7 @@ wordsB = \lyricmode {
 
 The Bride -- groom comes, let no man doubt,
 A -- las, for those whose lamps are out!
-They’ll find no oil to buy __
+They’ll find no oil to buy.
 
 }
 
@@ -140,7 +140,7 @@ wordsC = \lyricmode {
 
 Who read -- y are shall en -- ter in;
 The mar -- riage feast will then be -- gin,
-And ev -- ’ry tear be dry __
+And ev -- ’ry tear be dry.
 
 \Refrain
 
@@ -151,7 +151,7 @@ wordsD = \lyricmode {
 
 The right -- eous, saved for -- ev -- er -- more,
 Their God shall cease -- less -- ly a -- dore,
-In bliss be -- yond the sky __
+In bliss be -- yond the sky.
 
 }
 
@@ -159,8 +159,8 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 O sin -- ner! ere it be too late,
-Flee thou to mer -- cy’s o -- pen gate,
-And join Christ’s wait -- ing band __
+Flee now to mer -- cy’s o -- pen gate,
+And join Christ’s wait -- ing band.
 
 }
 

@@ -103,7 +103,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Joy -- ful, joy -- ful, will the meet -- ing be, \bar "."
+Joy -- ful, joy -- ful will the meet -- ing be, \bar "."
 When from sin our hearts are pure and free, \bar "."
 And we shall gath -- er, Sav -- iour, with Thee \bar "."
 In our e -- ter -- nal home. \bar "."
@@ -116,7 +116,7 @@ wordsA = \lyricmode {
 Come to the Sav -- iour, make no de -- lay; \bar "."
 Here in His Word He’s shown us the way; \bar "."
 Here in our midst He’s stand -- ing to -- day, \bar "."
-Ten -- der -- ly say -- ing, “Come!” \bar "."
+Ten -- der -- ly say -- ing, “Come.” \bar "."
 
 }
 

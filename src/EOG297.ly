@@ -94,7 +94,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Could not be hid, no could not be hid; \bar "."
+Could not be hid, no, could not be hid; \bar "."
 Then trust in that Sav -- iour who could not be hid. \bar "."
 
 }
@@ -102,10 +102,10 @@ Then trust in that Sav -- iour who could not be hid. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Christ could not be hid, for the sin -- ner would haste, \bar "."
+Christ could not be hid, for the sin -- ner would haste \bar "."
 Be -- hind Him to weep at the Phar -- i -- see’s feast; \bar "."
 To wipe with her hair, when she’d washed with her tears, \bar "."
-His feet who had blessed her and si -- lenced her fears. \bar "."
+His feet, who had blest her and si -- lenced her fears. \bar "."
 
 }
 
@@ -124,7 +124,7 @@ wordsC = \lyricmode {
 
 Christ could not be hid, for a -- round Him would press
 The chil -- dren of sor -- row, of pain, and dis -- tress;
-And faith, by the hem of His gar -- ment would prove
+And faith, by the hem of His gar -- ment, would prove
 What vir -- tue there is -- sued from Him who is love.
 
 \Refrain
@@ -136,7 +136,7 @@ wordsD = \lyricmode {
 
 Christ could not be hid, for the wid -- ow of Nain
 Would point to her son, now re -- stored her a -- gain–
-Would say, ’t_was His love, His com -- pas -- sion and grace,
+Would say ’twas His love, His com -- pas -- sion and grace,
 Gave back that lost son to a moth -- er’s em -- brace.
 
 }
@@ -145,7 +145,7 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 Christ could not be hid, for hark! hark to that shout–
-“Ho -- san -- na, ho -- san -- na!” the chil -- dren cry out:
+“Ho -- san -- na, ho -- san -- na!” the chil -- dren cry out;
 For us, oh, how bless -- ed! tho’ some would for -- bid
 To tell of the Sav -- iour who could not be hid.
 

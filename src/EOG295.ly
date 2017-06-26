@@ -91,7 +91,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-“Take sal -- va -- tion, take sal -- va -- tion– \bar "."
+“Take sal -- va -- tion, take sal -- va -- tion, \bar "."
 Take it now and hap -- py be.” \bar "."
 
 }
@@ -110,7 +110,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Yes; tho’ high in heav’n -- ly glo -- ry,
-Still the Sav -- iour calls to thee;
+Still the Sav -- iour calls to thee:
 Faith can hear His gra -- cious ac -- cents–
 “Come, dear chil -- dren, come to Me.”
 
@@ -122,7 +122,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Soon that voice will cease its call -- ing,
-Now it speaks and speaks to thee;
+Now it speaks, and speaks to thee:
 Chil -- dren, heed the gra -- cious mes -- sage–
 To the blood for ref -- uge flee:
 

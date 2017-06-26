@@ -124,7 +124,7 @@ wordsB = \lyricmode {
 
 He comes! He comes! the Son of Man!
 The fi -- nal Ad -- am now;
-“The King of kings and Lord of lords!”
+“The King of kings, and Lord of lords”!
 All knees be -- fore Him bow.
 He comes! His Is -- rael in the land
 Of prom -- ise to in -- stall;
@@ -139,11 +139,11 @@ wordsC = \lyricmode {
 He comes! He comes! the Bride -- groom comes!
 O sin -- ner, hear the sound;
 Ac -- cept Him now, if you a -- mong
-His cho -- sen would be found:
+His cho -- sen would be found;
 Still mer -- cy’s of -- fered– cost -- less– free–
 No lon -- ger turn a -- way;
-He comes! He comes! Oh! lin -- ger not,
-Come while ’tis called to -- day.
+He comes! He comes! oh, lin -- ger not,
+Come while ’tis called “to -- day.”
 
 }
 

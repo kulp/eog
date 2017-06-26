@@ -137,7 +137,7 @@ And drink the streams of heav’n’s de -- lights,
 Which Christ will give.
 He’ll weep no more on that blest shore;
 No mar -- vel this,
-For joys well up, and fill his cup,
+For joys well up, and fill his cup–
 There’s naught but bliss.
 
 }
@@ -146,9 +146,9 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Dear fel -- low -- pil -- grim in the path,
-Look up! look on!
+Look up! Look on!
 There waits a -- bove, a home of love,
-Where Christ is gone
+Where Christ is gone.
 And pleas -- ures bright in courts of light
 Will sat -- is -- fy
 A heart at rest, su -- preme -- ly blest,

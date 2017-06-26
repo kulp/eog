@@ -173,7 +173,7 @@ Praise to Him be giv -- en,
 “First -- born from the dead!”
 Je -- sus, meek and low -- ly,
 Came the lost to save;
-He the Vic -- tim Ho -- ly,
+He the Vic -- tim ho -- ly
 Tri -- umphed o’er the \markup{ grave.{\super{★}}}
 
 }
@@ -195,12 +195,12 @@ To the Fa -- ther’s \markup{ throne.{\super{★}}%{workaround for weird bug in
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Christ is Lord of Glo -- ry,
-Sing we now to -- day;
+Christ is Lord of glo -- ry,
+Sing we now to -- day!
 Tell a -- broad the sto -- ry,
 Own His right -- ful sway!
-Sing a -- loud! and nev -- er
-Cease to spread His fame,
+Sing a -- loud, and nev -- er
+Cease to spread His fame;
 Tri -- umph, now and ev -- er,
 In the Sav -- iour’s \markup{ name.{\super{★}}}
 

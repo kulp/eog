@@ -99,9 +99,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 No oth -- er hope shall in -- ter -- vene;
-To Him we look, on Him we lean,
+To Him we look, on Him we lean;
 Oth -- er foun -- da -- tions we dis -- own,
-And build on Christ the “Liv -- ing Stone.”
+And build on Christ, the “Liv -- ing Stone.”
 
 }
 
@@ -120,14 +120,14 @@ wordsD = \markuplist {
 \line { View the vast building, see it rise; }
 \line { The work how great! the plan how wise! }
 \line { Oh wondrous fabric! power unknown }
-\line { That rears it on the “Living Stone.” }
+\line { That rears it on the “Living Stone”! }
 
 }
 wordsE = \markuplist {
 
 \line { But most adore His precious name; }
 \line { His glory and His grace proclaim; }
-\line { For us, condemned, despised, undone; }
+\line { For us, condemned, despised, undone, }
 \line { He gave Himself, the “Living Stone.” }
 
 }

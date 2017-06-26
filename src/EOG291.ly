@@ -86,11 +86,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Glo -- ry, glo -- ry ev -- er -- last -- ing, \bar "."
+Glo -- ry, glo -- ry ev -- er -- last -- ing \bar "."
 Be to Him who bore the cross, \bar "."
 Who re -- deemed our souls by tast -- ing \bar "."
-Death, the death de -- served by us! \bar "."
-Spread His glo -- ry, %{HIDE>%} spread His glo -- ry, %{<HIDE%} \bar "."
+Death, the death de -- served by us; \bar "."
+Spread His glo -- ry, spread His glo -- ry, \bar "."
 Who re -- deemed His peo -- ple thus. \bar "."
 
 }
@@ -98,11 +98,11 @@ Who re -- deemed His peo -- ple thus. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-His is love, ’tis love un -- bound -- ed,
-With -- out meas -- ure, with -- out end:
+His is love: ’tis love un -- bound -- ed,
+With -- out meas -- ure, with -- out end;
 Hu -- man thought is here con -- found -- ed:
 ’Tis too vast to com -- pre -- hend!
-Praise the Sav -- iour! %{HIDE>%} praise the Sav -- iour! %{<HIDE%}
+Praise the Sav -- iour! Praise the Sav -- iour!
 Mag -- ni -- fy the sin -- ner’s Friend!
 
 }
@@ -110,11 +110,11 @@ Mag -- ni -- fy the sin -- ner’s Friend!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-While we tell the won -- drous sto -- ry,
+While we tell the won -- drous sto -- ry
 Of the Sav -- iour’s cross and shame,
-Sing we– “Ev -- er -- last -- ing glo -- ry
+Sing we, “Ev -- er -- last -- ing glo -- ry
 Be to God and to the Lamb!”
-Hal -- le -- lu -- jah! %{HIDE>%} hal -- le -- lu -- jah! %{<HIDE%}
+Hal -- le -- lu -- jah! Hal -- le -- lu -- jah!
 Give ye glo -- ry to His name!
 
 }

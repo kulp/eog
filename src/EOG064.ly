@@ -113,42 +113,42 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Call them in” the poor, the wret -- ched, \bar "."
+“Call them in”– the poor, the wret -- ched, \bar "."
 Sin -- stained wan -- d’rers from the fold: \bar "." \break
 Peace and par -- don free -- ly of -- fer; \bar "."
 Can you weigh their worth in gold? \bar "." \break
-“Call them in!” the weak, the wear -- y, \bar "."
+“Call them in!”– the weak, the wear -- y, \bar "."
 La -- den with the doom of sin; \bar "." \break
-Bid them come and rest in Je -- sus; \bar "."
-He is wait -- ing “call them in!” \bar "." \break
+Bid them come and rest in Je -- sus, \bar "."
+He is wait -- ing: “Call them in!” \bar "." \break
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Call them in” the Jew, the Gen -- tile;
-Bid the stran -- ger to the feast;
-“Call them in” the rich, the no -- ble,
+“Call them in!”– the Jew, the Gen -- tile,
+Bid the stran -- ger to the feast:
+“Call them in!”– the rich, the no -- ble,
 From the high -- est to the least.
 Forth the Fa -- ther runs to meet them,
 He hath all their sor -- rows seen;
-Robe, and ring, and roy -- al san -- dals
-Wait the lost ones “call them in.”
+Robe and ring and roy -- al san -- dals
+Wait the lost ones: “Call them in!”
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“Call them in” the brok -- en -- heart -- ed,
-Cow -- ’ring ’neath the brand of shame,
-Speak love’s mes -- sage low and ten -- der
+“Call them in!”– the brok -- en -- heart -- ed,
+Cow -- ’ring neath the brand of shame;
+Speak love’s mes -- sage low and ten -- der,
 ’Twas for sin -- ners Je -- sus came.
-See the sha -- dows length -- en round us,
+See! the sha -- dows length -- en round us,
 Soon the day -- dawn will be -- gin;
 Can you leave them lost and lone -- ly?
-Christ is com -- ing “call them in.”
+Christ is com -- ing: “Call them in!”
 
 }
 

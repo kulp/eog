@@ -100,8 +100,8 @@ Love that has made us Thine.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Love, in Thy lone -- ly life
-Of sor -- row here be -- low,
+Love in Thy lone -- ly life
+Of sor -- row here be -- low;
 Thy words of grace, with mer -- cy rife,
 Make grate -- ful prais -- es flow.
 
@@ -120,7 +120,7 @@ wordsE = \markuplist {
 
 \line { And now we see Thee risen, }
 \line { { \hspace #2 } Who once for us hast died, }
-\line { Seated above the highest heaven; }
+\line { Seated above the highest heaven: }
 \line { { \hspace #2 } The Father’s glorified. }
 
 }

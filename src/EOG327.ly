@@ -95,7 +95,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 “For I will re -- ceive them and fold them to My bos -- om;
-I’ll be a Shep -- herd to these lambs– oh, { \mon } drive them { \moff } not a -- way;
+I’ll be a shep -- herd to these lambs– oh, { \mon } drive them { \moff } not a -- way;
 For if their hearts to Me they give,
 They shall with Me in glo -- ry live;
 Suf -- fer the chil -- dren to come un -- to Me.”
@@ -107,7 +107,7 @@ wordsC = \lyricmode {
 
 How kind was the Sav -- iour to bid these chil -- dren wel -- come!
 But there are man -- y thou -- sands who have { \mon } nev -- er { \moff } heard His name;
-The Bi -- ble they have nev -- er read,
+The Bi -- ble they have nev -- er read;
 They know not that the Sav -- iour said,
 “Suf -- fer the chil -- dren to come un -- to Me.”
 
@@ -119,7 +119,7 @@ wordsD = \lyricmode {
 And still the kind Sav -- iour bids lit -- tle chil -- dren wel -- come,
 For Je -- sus’ lov -- ing, ten -- der heart to { \mon } chil -- dren { \moff } is the same;
 Tho’ here His voice is no more heard,
-From heav’n He tells us in His word,
+From heav’n He tells us in His Word,
 “Suf -- fer the chil -- dren to come un -- to Me.”
 
 }

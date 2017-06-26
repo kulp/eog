@@ -108,7 +108,7 @@ Fold -- ed in His bos -- om, \bar "."
 What have we to fear? \bar "."
 On -- ly let us fol -- low \bar "."
 Whith -- er He doth lead, \bar "."
-To the thirst -- y des -- ert \bar "."
+To the thirst -- y des -- ert, \bar "."
 Or the dew -- y mead. \bar "."
 
 }

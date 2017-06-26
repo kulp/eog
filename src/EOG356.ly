@@ -103,8 +103,8 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Praise Him! praise Him for His won -- drous love! \bar "."
-Praise Him! praise Him! till in heaven a -- bove \bar "."
+Praise Him! Praise Him for His won -- drous love! \bar "."
+Praise Him! Praise Him, till in heaven a -- bove \bar "."
 All the ran -- somed chil -- dren whom His love set free, \bar "."
 Praise Him thro’ a glad e -- ter -- ni -- ty. \bar "."
 
@@ -113,7 +113,7 @@ Praise Him thro’ a glad e -- ter -- ni -- ty. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Sing the Sav -- iour’s prais -- es! lit -- tle chil -- dren, sing! \bar "."
+Sing the Sav -- iour’s prais -- es; lit -- tle chil -- dren, sing! \bar "."
 Je -- sus loves you, died your souls to save. \bar "."
 Glad -- ly then thanks -- giv -- ing to the Sav -- iour bring; \bar "."
 Out of love for you Him -- self He gave. \bar "."
@@ -123,7 +123,7 @@ Out of love for you Him -- self He gave. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Sing the Sav -- iour’s prais -- es! lit -- tle chil -- dren, sing!
+Sing the Sav -- iour’s prais -- es; lit -- tle chil -- dren, sing!
 For He list -- ens to your fee -- ble song.
 Hearts and voi -- ces free -- ly to His ser -- vice bring;
 All you have and are to Him be -- long.

@@ -90,7 +90,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Come!” ’tis Je -- sus gen -- tly cal -- ling \bar "."
+“Come!” ’tis Je -- sus gen -- tly cal -- ling, \bar "."
 “Ye with care and toil op -- pressed, \bar "." \break
 With your guilt how -- e’er ap -- pall -- ing– \bar "."
 Come, and I will give you rest.” \bar "." \break
@@ -109,7 +109,7 @@ With its love and light and song;
 And re -- turn -- ing to that Fa -- ther,
 All to you may now be -- long.
 From sin’s dis -- tant land of fam -- ine,
-Toil -- ing ’neath the mid -- day sun,
+Toil -- ing neath the mid -- day sun,
 To a Fa -- ther’s house of plen -- ty,
 And a Fa -- ther’s wel -- come, “Come!”
 
@@ -119,7 +119,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 “Come!” for night is gath -- ’ring quick -- ly
-O’er the world’s fast -- fleet -- ing day:
+O’er the world’s fast -- fleet -- ing day;
 If you lin -- ger till the dark -- ness
 You will sure -- ly miss your way.
 And still wait -- ing– sad -- ly wait -- ing,
@@ -132,7 +132,7 @@ Je -- sus lin -- gers for you– “Come!”
 wordsD = \lyricmode {
 \set stanza = "4."
 
-“Come!” for an -- gel -- hosts are mus -- ing
+“Come!” for an -- gel hosts are mus -- ing
 O’er this sight so strange -- ly sad:
 God “be -- seech -- ing”– man re -- fus -- ing
 To be made for -- ev -- er glad!

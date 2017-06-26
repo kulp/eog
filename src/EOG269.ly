@@ -134,7 +134,7 @@ In the peace that His pres -- ence shall crown.
 { \mon } ’Tis the { \moff } treas -- ure we’ve found in His love
 That has made us now pil -- grims be -- low,
 And ’tis there, when we reach Him a -- bove,
-As we’re known, all His ful -- ness we’ll know.
+As we’re known, all His full -- ness we’ll know.
 
 }
 

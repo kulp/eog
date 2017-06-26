@@ -123,19 +123,17 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Praise the Lord! praise the Lord! \bar "."
-Let the earth hear His voice! \bar "."
-Praise the Lord! praise the Lord! \bar "."
-Let His peo -- ple re -- joice! \bar "."
-Oh, come to the Fa -- ther thro’ Je -- sus the Son; \bar "."
-And give Him the glo -- ry– great things He hath done! \bar "."
+Praise the Lord! praise the Lord! let the earth hear His voice! \bar "."
+Praise the Lord! praise the Lord! let His peo -- ple re -- joice! \bar "."
+Oh, come to the Fa -- ther, thro’ Je -- sus the Son, \bar "."
+And give Him the glo -- ry, great things He hath done! \bar "."
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-To God be the glo -- ry! great things He hath done: \bar "."
+To God be the glo -- ry, great things He hath done! \bar "."
 So loved He the world that He gave us His Son; \bar "."
 Who yield -- ed His life an a -- tone -- ment for sin, \bar "."
 And o -- pen’d the Life -- gate that all may go in. \bar "."
@@ -145,7 +143,7 @@ And o -- pen’d the Life -- gate that all may go in. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh, per -- fect re -- demp -- tion, the pur -- chase of blood,
+Oh per -- fect re -- demp -- tion, the pur -- chase of blood,
 To ev -- ’ry be -- liev -- er the prom -- ise of God;
 The vi -- lest of -- fend -- er who tru -- ly be -- lieves,
 That mo -- ment from Je -- sus a par -- don re -- ceives.

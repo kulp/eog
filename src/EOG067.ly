@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "67"
-  title = "Christ Is Coming, Are You Ready?"
+  title = "Christ Is Coming. Are You Ready?"
   tunename = ""
   meter = "8. 7. 8. 7. D."
   poet = "Mrs. A. H. Rule"
@@ -109,7 +109,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Christ is com -- ing, are you read -- y? \bar "."
+Christ is com -- ing. Are you read -- y? \bar "."
 He is com -- ing for His own; \bar "." \break
 He will call them up to meet Him, \bar "."
 And will place them on His throne. \bar "." \break
@@ -128,8 +128,8 @@ What the hour your Lord will come,
 Whe -- ther in the morn or mid -- night,
 Or _ in the ev -- ening gloam.
 Are your thoughts of Him when toil -- ing
-’Mid the bu -- sy cares of day?
-As the hours of night are pass -- ing
+Mid the bu -- sy cares of day?
+As the hours of night are pass -- ing,
 Do you wake to think and pray?
 
 }

@@ -108,12 +108,14 @@ Je -- sus, my Sav -- iour, to Beth -- le -- hem came, \bar "."
 Born in a man -- ger to sor -- row and shame; \bar "."
 Oh, it was won -- der -- ful– blest be His name! \bar "."
 Seek -- ing for me, for me! \bar "."
-%{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
+%LYRICS Seek -- ing for me, for me!
+%LYRICS Seek -- ing for me, for me!
+%{HIDE>%} Seek -- ing for me! \bar "." %{<HIDE%}
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "." \eogbreak
+%{HIDE>%} Seek -- ing for me! \bar "." %{<HIDE%}
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
-%{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
-%{HIDE>%} Oh, it was won -- der -- ful– blest be His name! %{<HIDE%} \bar "."
-%{HIDE>%} Seek -- ing for me, for me! %{<HIDE%} \bar "."
+Oh, it was won -- der -- ful– blest be His name! \bar "."
+Seek -- ing for me, for me! \bar "."
 
 }
 
@@ -122,14 +124,16 @@ wordsB = \lyricmode {
 
 Je -- sus, my Sav -- iour, on Cal -- va -- ry’s tree,
 Paid the great debt, and my soul He set free;
-Oh, it was won -- der -- ful– how could it be?–
+Oh, it was won -- der -- ful– how could it be?
 Dy -- ing for me, for me!
+%LYRICS Dy -- ing for me, for me!
+%LYRICS Dy -- ing for me, for me!
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
-%{HIDE>%} Oh, it was won -- der -- ful– how could it be?– %{<HIDE%}
-%{HIDE>%} Dy -- ing for me, for me! %{<HIDE%}
+Oh, it was won -- der -- ful– how could it be?
+Dy -- ing for me, for me!
 
 }
 
@@ -140,28 +144,32 @@ Je -- sus, my Sav -- iour, the same as of old,
 While I was wan -- d’ring a -- far from the fold,
 Gen -- tly and long did He plead with my soul, % original has "Gent -- ly"
 Call -- ing for me, for me!
+%LYRICS Call -- ing for me, for me!
+%LYRICS Call -- ing for me, for me!
 %{HIDE>%} Call -- ing for me! %{<HIDE%}
 %{HIDE>%} Call -- ing for me! %{<HIDE%}
 %{HIDE>%} Call -- ing for me! %{<HIDE%}
 %{HIDE>%} Call -- ing for me! %{<HIDE%}
-%{HIDE>%} Gen -- tly and long did He plead with my soul, %{<HIDE%}
-%{HIDE>%} Call -- ing for me, for me! %{<HIDE%}
+Gen -- tly and long did He plead with my soul,
+Call -- ing for me, for me!
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Je -- sus, my Sav -- iour, shall come from on high–
+Je -- sus, my Sav -- iour, shall come from on high;
 Sweet is the prom -- ise as wear -- y years fly; % original has "pro -- mise" and "wea -- ry"
 Oh, I shall see Him de -- scend from the sky,
 Com -- ing for me, for me!
+%LYRICS Com -- ing for me, for me!
+%LYRICS Com -- ing for me, for me!
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
 %{HIDE>%} Com -- ing for me! %{<HIDE%}
-%{HIDE>%} Oh, I shall see Him de -- scend from the sky, %{<HIDE%}
-%{HIDE>%} Com -- ing for me, for me! %{<HIDE%}
+Oh, I shall see Him de -- scend from the sky,
+Com -- ing for me, for me!
 
 }
 

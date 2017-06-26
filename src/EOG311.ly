@@ -100,7 +100,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Chil -- dren, I will tell you why
-Je -- sus left His home on high:
+Je -- sus left His home on high;
 He is gra -- cious, full of love,
 Kind, and gen -- tle as a dove,
 So He would not live a -- lone,

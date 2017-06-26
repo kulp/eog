@@ -78,9 +78,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Our times are in Thy hand, \bar "."
+Our times are in Thy hand; \bar "."
 Fa -- ther, we wish them there, \bar "."
-Our life, our soul, our all, we leave \bar "."
+Our life, our soul, our all we leave \bar "."
 En -- tire -- ly to Thy care. \bar "."
 
 }
@@ -98,7 +98,7 @@ As best may seem to Thee.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Our times are in Thy hand,
+Our times are in Thy hand:
 Why should we doubt or fear?
 A Fa -- ther’s hand will nev -- er cause
 His child a need -- less tear.

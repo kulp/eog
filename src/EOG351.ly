@@ -81,10 +81,15 @@ notesBass = {
 
 wordsA = \lyricmode {
 
-One door and on -- ly one, and yet its sides are two, \bar "."
-In -- side and out -- side; on which side are you? \bar "."
-One door and on -- ly one, and yet its sides are two. \bar "."
-I’m on the in -- side; on which side are you? \bar "."
+One door and on -- ly one, \bar "."
+And yet its sides are two– \bar "."
+In -- side and out -- side;
+On which side are you? \bar "."
+
+One door and on -- ly one, \bar "."
+And yet its sides are two. \bar "."
+I’m on the in -- side; \bar "."
+On which side are you? \bar "."
 
 }
 

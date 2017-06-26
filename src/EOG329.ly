@@ -130,7 +130,7 @@ Soon missed the lit -- tle thing,
 And on -- ward went to seek it,
 And home a -- gain to bring.
 He sought on hill and val -- ley,
-And called it by its name;
+And called it by its name:
 He sought, nor ceased his seek -- ing,
 Un -- til he found his lamb.
 

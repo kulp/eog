@@ -134,9 +134,9 @@ wordsB = \markuplist {
 \line { { \hspace #2 } Jesus, Jesus, Jesus. }
 \line { Before the throne we boldly stand, }
 \line { { \hspace #2 } Jesus, Jesus, Jesus. }
-\line { That blood-besprinkled mercy seat, }
+\line { The blood-besprinkled mercy-seat, }
 \line { His piercèd side, His hands, and feet, }
-\line { Proclaim redemption’s work complete, }
+\line { Proclaim redemption’s work complete. }
 \line { { \hspace #2 } Jesus, Jesus, Jesus. }
 
 }

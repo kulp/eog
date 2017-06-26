@@ -98,7 +98,7 @@ On Cal -- vary’s aw -- ful tree was shed; \bar "."
 He for the guil -- ty sin -- ner stood, \bar "."
 And bore the judg -- ment in his stead. \bar "."
 He has made peace, He has made peace, \bar "."
-And now He lives who once was dead. \bar "."
+And now He lives, who once was dead. \bar "."
 
 }
 
@@ -107,8 +107,8 @@ wordsB = \lyricmode {
 
 Pro -- claim -- er of that peace to all,
 He tells of full, un -- min -- gled grace,
-To high and low– who hear the call–
-To old and young of Ad -- am’s race.
+To high and low, who hear the call,
+To old and young, of Ad -- am’s race.
 He preach -- es peace, He preach -- es peace,
 And love di -- vine shines in His face.
 
@@ -118,9 +118,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Be -- hold Him now, ex -- alt -- ed, high,
-Up -- on the throne He took His seat,
-Oh, won -- drous grace, that we brought nigh
-And in Him seat -- ed are com -- plete.
+Up -- on the throne He took His seat;
+Oh won -- drous grace that we, brought nigh,
+And in Him seat -- ed, are com -- plete!
 He is our peace, He is our peace,
 For light di -- vine He’s made us meet.
 

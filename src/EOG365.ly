@@ -153,25 +153,19 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Bless -- ed news % \bar is not appropriate
-Joy -- ful news % \bar is not appropriate
-%{HIDE>%} Bless -- ed news %{<HIDE%} % \bar is not appropriate
-%{HIDE>%} Joy -- ful news %{<HIDE%} % \bar is not appropriate
-%{HIDE>%} Bless -- ed news %{<HIDE%} % \bar is not appropriate
-%{HIDE>%} Joy -- ful news %{<HIDE%} \bar "."
-Sound the joy -- ful tid -- ings forth. \bar "."
+Bless -- ed news! joy -- ful news! % \bar is not appropriate
+Bless -- ed news! joy -- ful news! % \bar is not appropriate
+Bless -- ed news! joy -- ful news! \bar "."
+Sound the joy -- ful tid -- ings forth! \bar "."
 
 }
 
 underWords = \lyricmode {
 
 \repeat unfold 40 \skip 4
-Bless -- ed news
-Joy -- ful news
-Bless -- ed news
-Joy -- ful news
-Bless -- ed news
-Joy -- ful news
+Bless -- ed news joy -- ful news
+Bless -- ed news joy -- ful news
+Bless -- ed news joy -- ful news
 
 }
 
@@ -180,7 +174,7 @@ wordsA = \lyricmode {
 
 We are glad we ev -- er heard the bless -- ed news, \bar "."
 How that Je -- sus died to pay our might -- y dues, \bar "."
-And that God has said, He nev -- er will re -- fuse \bar "."
+And that God has said He nev -- er will re -- fuse \bar "."
 Those who trust in Je -- sus’ blood. \bar "."
 
 }
@@ -188,10 +182,10 @@ Those who trust in Je -- sus’ blood. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh, what love of God to send Him from on high,
-Oh, what love of Je -- sus thus to bleed and die;
-Oh, what love we owe for par -- don brought so nigh,
-Through _ faith in Je -- sus’ blood.
+Oh! what love of God to send Him from on high,
+Oh! what love of Je -- sus thus to bleed and die,
+Oh! what love we owe for par -- don brought so nigh,
+Through _ faith in Je -- sus’ blood!
 
 \Refrain
 
@@ -200,7 +194,7 @@ Through _ faith in Je -- sus’ blood.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-But if we the ful -- ness of that love would know,
+But if we the full -- ness of that love would know,
 And to that bright home of peace and joy would go,
 We must know our sins for -- given while here be -- low,
 Through _ faith in Je -- sus’ blood.

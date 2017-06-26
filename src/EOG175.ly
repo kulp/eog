@@ -108,12 +108,12 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Up from the grave He a -- rose \bar "."
+Up from the grave He a -- rose, \bar "."
 With a might -- y tri -- umph o’er His foes; \bar "."
 He a -- rose a Vic -- tor from the dark do -- main, \bar "."
 And He lives for -- ev -- er with His saints to reign: \bar "."
 He a -- rose! He a -- rose! \bar "."
-Hal -- le -- lu -- jah! Christ a -- rose. \bar "."
+Hal -- le -- lu -- jah! Christ a -- rose! \bar "."
 
 }
 

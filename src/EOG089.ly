@@ -117,7 +117,7 @@ wordsA = \lyricmode {
 Hark ye! those who choose the plea -- sures, \bar "."
 That this wretch -- ed world im -- parts, \bar "." \break
 Dare you call this sat -- is -- fac -- tion \bar "."
-From your deep -- est in -- most heart? \bar "." \break
+From your deep -- est, in -- most heart? \bar "." \break
 Is the whirl of world’s con -- fus -- ion \bar "."
 So en -- gross -- ing to your mind, \bar "." \break
 That for thoughts of deep -- er im -- port \bar "."
@@ -144,8 +144,8 @@ wordsC = \lyricmode {
 
 God so loved this world of sin -- ners,
 That He sent His on -- ly Son,
-Say -- ing, who -- so -- e’er ac -- cepts Him,
-Ev -- er -- last -- ing life hath won!
+Say -- ing, “Who -- so -- e’er ac -- cepts Him,
+Ev -- er -- last -- ing life hath won!”
 All have sinned, He tells us plain -- ly,
 All in judg -- ment thus con -- demned,
 But God’s Christ hath suf -- fered for us,
@@ -168,12 +168,12 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { He is waiting for acceptance }
-\line { Lost one will you pass Him by, }
+\line { He is waiting for acceptance, }
+\line { Lost one, will you pass Him by, }
 \line { Will you rush along unheeding, }
 \line { While your ears ring with His cry? }
 \line { Don’t delay, as Paul’s accuser, }
-\line { Till a more convenient day, }
+\line { Till a more convenient day. }
 \line { God with open arms will meet you, }
 \line { Loved one, come while yet you may. }
 

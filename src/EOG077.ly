@@ -110,8 +110,8 @@ wordsA = \lyricmode {
 Come, ye sin -- ners, poor and need -- y, \bar "."
 Weak and wound -- ed, sick and sore, \bar "."
 Je -- sus read -- y stands to save you, \bar "."
-Full of pit -- y, love, and power; \bar "."
-He is a -- ble, He is a -- ble, %{HIDE>%} He is a -- ble, %{<HIDE%} \bar "."
+Full of pit -- y, love and power; \bar "."
+He is a -- ble, %{HIDE>%} He is a -- ble, %{<HIDE%} He is a -- ble, \bar "."
 He is will -- ing, doubt no more. \bar "."
 
 }
@@ -123,7 +123,7 @@ Let not con -- science make you lin -- ger,
 Nor of fit -- ness fond -- ly dream;
 All the fit -- ness He re -- quir -- eth
 Is to feel your need of Him;
-This He gives you, this He gives you, %{HIDE>%} this He gives you, %{<HIDE%}
+This He gives you, %{HIDE>%} this He gives you, %{<HIDE%} this He gives you,
 ’Tis the Spir -- it’s ris -- ing beam.
 
 }
@@ -135,7 +135,7 @@ Come, ye wear -- y, heav -- y -- la -- den,
 Lost and ru -- ined by the fall;
 If you tar -- ry till you’re bet -- ter,
 You will nev -- er come at all.
-Not the right -- eous, not the right -- eous, %{HIDE>%} not the right -- eous, %{<HIDE%}
+Not the right -- eous, %{HIDE>%} not the right -- eous, %{<HIDE%} not the right -- eous–
 Sin -- ners Je -- sus came to call.
 
 }
@@ -144,7 +144,7 @@ wordsD = \markuplist {
 
 \line { Agonizing in the garden, }
 \line { Lo! the Saviour prostrate lies; }
-\line { On the bloody tree behold Him. }
+\line { On the bloody tree behold Him, }
 \line { Hear Him cry before He dies, }
 \line { “It is finished!” “It is finished!” }
 \line { Sinner, will not this suffice? }

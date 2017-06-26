@@ -113,14 +113,14 @@ wordsD = \lyricmode {
 
 You can nev -- er make a -- tone -- ment,
 That is ful -- ly made;
-You can nev -- er pay the ran -- som,
+You can nev -- er pay the ran -- som
 He has paid.
 
 }
 
 wordsE = \markuplist {
 
-\line { Let your heart go out towards Him }
+\line { Let your heart go out toward Him }
 \line { In a simple faith, }
 \line { He is willing now to save you, }
 \line { As He saith. }

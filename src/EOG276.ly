@@ -90,7 +90,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 We speak of its free -- dom from sin,
-From sor -- row, temp -- ta -- tion, and care;
+From sor -- row, temp -- ta -- tion and care;
 From tri -- als with -- out and with -- in:
 But what must it be to be there!
 

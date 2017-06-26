@@ -94,7 +94,7 @@ Lo, He comes, from heav’n de -- scend -- ing, \bar "."
 Once for fa -- vored sin -- ners slain! \bar "."
 Thou -- sand, thou -- sand saints at -- tend -- ing, \bar "."
 Swell the tri -- umph of His train! \bar "."
-Hal -- le -- lu -- jah! %{HIDE>%} hal -- le -- lu -- jah! %{<HIDE%} \bar "."
+Hal -- le -- lu -- jah! Hal -- le -- lu -- jah! \bar "."
 Je -- sus comes, and comes to reign. \bar "."
 
 }
@@ -106,7 +106,7 @@ See the Sav -- iour, long ex -- pect -- ed,
 Now in sol -- emn pomp ap -- pear:
 And His saints, by man re -- ject -- ed,
 All His heav’n -- ly glo -- ry share:
-Hal -- le -- lu -- jah! %{HIDE>%} hal -- le -- lu -- jah! %{<HIDE%}
+Hal -- le -- lu -- jah! Hal -- le -- lu -- jah!
 See the Son of God ap -- pear.
 
 }
@@ -117,9 +117,9 @@ wordsC = \lyricmode {
 Lo! the to -- kens of His pas -- sion,
 Tho’ in glo -- ry, still He bears;
 Cause of end -- less ex -- ul -- ta -- tion,
-To His ran -- somed wor -- ship -- ers:
-Hal -- le -- lu -- jah! %{HIDE>%} hal -- le -- lu -- jah! %{<HIDE%}
-Christ the Lamb of God ap -- pears.
+To His ran -- somed wor -- ship -- pers;
+Hal -- le -- lu -- jah! Hal -- le -- lu -- jah!
+Christ, the Lamb of God, ap -- pears.
 
 }
 
@@ -129,8 +129,8 @@ wordsD = \lyricmode {
 Is -- rael’s race shall now be -- hold Him,
 Full of grace and maj -- es -- ty;
 Tho’ they set at naught and sold Him,
-Pierced and nailed Him to the tree:
-Now in glo -- ry, %{HIDE>%} now in glo -- ry, %{<HIDE%}
+Pierced and nailed Him to the tree;
+Now in glo -- ry, now in glo -- ry,
 Shall their great Mes -- si -- ah see.
 
 }
@@ -141,7 +141,7 @@ wordsE = \markuplist {
 \line { { \hspace #2 } Jesus, Lord, that bids Thee come, }
 \line { All the glory to inherit, }
 \line { { \hspace #2 } And to take Thy people home. }
-\line { { \hspace #4 } All creation, %{HIDE>%} all creation, %{<HIDE%} }
+\line { { \hspace #4 } All creation, all creation, }
 \line { { \hspace #2 } Travails, groans and bids Thee come. }
 
 }
@@ -152,8 +152,8 @@ wordsF = \markuplist {
 \line { { \hspace #2 } High on Thy exalted throne: }
 \line { Saviour, take the power and glory; }
 \line { { \hspace #2 } Claim the kingdoms for Thine own; }
-\line { { \hspace #4 } Come, Lord Jesus! %{HIDE>%} come, Lord Jesus! %{<HIDE%} }
-\line { { \hspace #2 } Hallelujah! come, Lord, come. }
+\line { { \hspace #4 } Come, Lord Jesus! Come, Lord Jesus! }
+\line { { \hspace #2 } Hallelujah! Come, Lord, come. }
 
 }
 

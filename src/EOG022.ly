@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 Je -- sus is a { \italicsOn } lov -- ing { \italicsOff } Sav -- iour, \bar "."
 Love it was that brought Him low; \bar "." \break
 Come, He says, in words of mer -- cy, \bar "."
-Prove My lov -- ing -- kind -- ness now. \bar "." \break
+Prove my lov -- ing -- kind -- ness now. \bar "." \break
 
 }
 
@@ -123,7 +123,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Je -- sus is a { \italicsOn } right -- eous { \italicsOff } Sav -- iour,
-He has suf -- fered once for sin;
+He has suf -- fered once for sins;
 Death He suf -- fered, ere in tri -- umph
 He could bring re -- demp -- tion in.
 

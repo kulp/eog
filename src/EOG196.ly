@@ -114,11 +114,11 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 The Lord of life is seat -- ed
-At God’s right hand on high–
+At God’s right hand on high,
 God’s just and right -- eous an -- swer
-To grace with stooped to die;
+To grace which stooped to die;
 In Him we too are seat -- ed,
-Oh, bless -- ed won -- drous grace!
+Oh bless -- ed, won -- drous grace!
 Ac -- cept -- ed and be -- lov -- ed,
 In Him, in son -- ship’s place.
 
@@ -133,7 +133,7 @@ To take His blood -- bought peo -- ple
 To fill their heav -- enly place;
 Oh, with what joy as -- cend -- ing
 We’ll meet Him in the air,
-To dwell with Him in glo -- ry,
+To dwell with Him in glo -- ry
 And His blest im -- age bear.
 
 }

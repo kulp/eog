@@ -184,7 +184,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 His word shall not fail you– He prom -- ised;
-Be -- lieve Him, and all will be well:
+Be -- lieve Him, and all will be well;
 Then go to a world that is dy -- ing,
 His { \mon } per -- fect { \moff } sal -- va -- tion to tell!
 

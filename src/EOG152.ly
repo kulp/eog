@@ -87,7 +87,7 @@ Bright -- ness of th’e -- ter -- nal glo -- ry, \bar "."
 Shall Thy praise un -- ut -- tered lie?__ \bar "."
 Who would hush the heaven- sent sto -- ry__ \bar "."
 %{HIDE>%}Of the Lamb who came to die,__ \bar "." %{<HIDE%}
-Of the Lamb who came to die. \bar "."
+Of the Lamb who came to die? \bar "."
 
 }
 

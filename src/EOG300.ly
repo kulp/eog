@@ -99,7 +99,7 @@ Come to My hap -- py home!”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Thus Je -- sus speaks; who makes re -- ply,
+Thus Je -- sus speaks. Who makes re -- ply,
 “O Lord, I come to Thee;
 Thy pre -- cious love hath won my heart,
 Thine hence -- forth I will be”?

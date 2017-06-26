@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 
 Our souls look back to see
 The bur -- den Thou didst bear,
-When hang -- ing on th’ac -- curs -- ed tree,
+When hang -- ing on the_ac -- curs -- ed tree,
 For all our guilt was there.
 
 }

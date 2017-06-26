@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "94"
-  title = "Ho, Ye Thirsty, Jesus Calls You"
+  title = "Ho, You Thirsty, Jesus Calls You"
   tunename = "Hold the Fort"
   meter = "8. 5. 8. 5. D."
   poet = ""
@@ -121,7 +121,7 @@ Come to Him and buy. \bar "." \break
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Ho, ye thirst -- y, Je -- sus calls you; \bar "."
+Ho, you thirst -- y, Je -- sus calls you; \bar "."
 Je -- sus came to give \bar "." \break
 Wine and milk of free sal -- va -- tion; \bar "."
 Come to Him and live. \bar "." \break
@@ -131,7 +131,7 @@ Come to Him and live. \bar "." \break
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Where -- fore do ye spend your trea -- sure
+Where -- fore do you spend your trea -- sure
 Where there is no bread?
 On -- ly by the liv -- ing Sav -- iour
 Dy -- ing souls are fed.
@@ -161,7 +161,7 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { From all sin He came to save us }
+\line { From all sin He came to save us, }
 \line { Satan’s slaves to free: }
 \line { To His royal feast He bids us; }
 \line { Sinner, taste and see. }

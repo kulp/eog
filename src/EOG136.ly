@@ -136,7 +136,7 @@ How suf -- fer the night of de -- spair?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-When the saved ones have gone to the re -- gion of peace,
+When the saved ones have gone to the re -- gion of peace
 To dwell in the man -- sions a -- bove,
 When their har -- mo -- ny wakes in the full -- ness of bliss,
 Their song to the Sav -- iour of love–

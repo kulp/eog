@@ -100,10 +100,10 @@ wordsA = \lyricmode {
 O bless -- ed, pre -- cious Sav -- iour, \bar "."
 How great Thy love to me! \bar "."
 { \mon } Thou for { \moff } me, the guilt -- y sin -- ner, \bar "."
-Hast died up -- on the tree,– \bar "."
+Hast died up -- on the tree, \bar "."
 Hast died up -- on the tree, \bar "."
 That I may dwell with Thee: \bar "."
-Oh, my bless -- ed Lord and Sav -- iour, \bar "."
+O my bless -- ed Lord and Sav -- iour, \bar "."
 Thou art all in all to me. \bar "."
 
 }
@@ -117,7 +117,7 @@ Is far be -- yond com -- pare;
 Than sons of men more fair,
 Than sons of men more fair;
 Thy beau -- ty now I see:
-Oh, my bless -- ed Lord and Sav -- iour,
+O my bless -- ed Lord and Sav -- iour,
 Thou art all in all to me.
 
 }
@@ -131,7 +131,7 @@ To gaze up -- on Thy glo -- ry,
 And nev -- er from Thee part,
 And nev -- er from Thee part,
 Thine, ev -- er Thine to be:
-Oh, my bless -- ed Lord and Sav -- iour,
+O my bless -- ed Lord and Sav -- iour,
 Thou art all in all to me.
 
 }

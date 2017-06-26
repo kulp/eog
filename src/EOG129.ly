@@ -116,7 +116,7 @@ Refrain = \lyricmode {
 
 Oh glad and glo -- rious gos -- pel! \bar "."
 With joy we now pro -- claim __ \bar "."
-A full and free sal -- va -- tion, \bar "."
+A full and free sal -- va -- tion \bar "."
 Thro’ faith in Je -- sus’ name! \bar "."
 
 }
@@ -148,7 +148,7 @@ wordsC = \lyricmode {
 
 Still up -- on His hands the nail -- prints
 For e -- ter -- ni -- ty He’ll bear;
-Our Re -- deem -- er, Lord, and Sav -- iour,
+Our Re -- deem -- er, Lord and Sav -- iour,
 In the glo -- ry sit -- teth there.
 
 }

@@ -112,8 +112,8 @@ All the path the saints are tread -- ing, \bar "."
 Trod -- den by the Son of God; \bar "."
 All the sor -- rows they are feel -- ing, \bar "."
 Felt by Him up -- on the road; \bar "."
-All the dark -- ness and the sor -- row \bar "."
-From a -- round and from with -- in \bar "."
+All the dark -- ness, and the sor -- row \bar "."
+From a -- round and from with -- in, \bar "."
 All the joy and all the tri -- umph, \bar "."
 He passed thro’ a -- part from sin. \bar "."
 
@@ -140,7 +140,7 @@ Now He prais -- es in th’as -- sem -- bly,
 Now the sor -- row all is passed;
 His the earn -- est of our por -- tion,
 We must reach the goal at last.
-Yes, He prais -- es! grace re -- count -- ing,
+Yes, He prais -- es; grace re -- count -- ing
 All the path al -- rea -- dy trod,
 We as -- so -- ci -- a -- ted with Him–
 God, our Fa -- ther and our God.
@@ -156,7 +156,7 @@ Ev’ -- ry step that we have trod -- den
 Is a tri -- umph of His grace:
 Wheth -- er joy, or wheth -- er tri -- al,
 All can on -- ly work for good,
-For He heal -- eth all who loves us,
+For He heal -- eth all– who loves us,
 And hath bought us with His blood.
 
 }
@@ -164,13 +164,13 @@ And hath bought us with His blood.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-It is fin -- ished! it is fin -- ished!
+It is fin -- ished! It is fin -- ished!
 Who can tell re -- demp -- tion’s worth?
 He who knows it leads the sing -- ing,
 Full the joy, as fierce the wrath.
 Tak -- en up in res -- ur -- rec -- tion,
 Des -- ert ways re -- hearsed a -- bove,
-Tell the power of God’s Sal -- va -- tion,
+Tell the power of God’s sal -- va -- tion,
 And His nev -- er -- fail -- ing love.
 
 }
