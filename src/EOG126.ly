@@ -14,7 +14,6 @@
   meter = ""
   poet = "Anon."
   composer = "J. P. Webster"
-  %copyright = ""
   tagline = ##f
 }
 

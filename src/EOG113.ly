@@ -11,7 +11,6 @@
   meter = "7. 6. 7. 6. with Refrain"
   poet = "Fanny J. Crosby"
   composer = "W. H. Doane"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -36,7 +35,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key aes \major
-  %\partial 4
   \autoBeamOff
 }
 

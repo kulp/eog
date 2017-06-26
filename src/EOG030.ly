@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "Passing Onward, Quickly Passing"
   tunename = "Zion"
   meter = "8. 7. 8. 7. 4. 7."
-  %poet = ""
+  poet = ""
   composer = "Dr. T. Hastings"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -27,8 +22,6 @@ patternAA = { c8. c16 | c4 c4 c8. c16 | c4 c4 }
 
 patternBA = { c8. c16 | c8. c16 c4 c4 | c2 }
 patternBB = { c4 | \once \override MultiMeasureRest.staff-position = #-8 R1*3/4 | c2 }
-% needs more tweaking that we can provide in a pattern
-%patternBC = { r4 | \once \override MultiMeasureRest.staff-position = #-2 R1*3/4 | r2 }
 
 patternCA = { c8. c16 | c4 c4 }
 patternCB = { c4 | c2 }
@@ -194,7 +187,6 @@ Of the ev -- er -- gra -- cious One–
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f

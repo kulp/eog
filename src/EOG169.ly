@@ -14,7 +14,6 @@
   meter = "S. M."
   poet = "J. Fawcett"
   composer = "H. G. Nageli"
-  %copyright = ""
   tagline = ##f
 }
 

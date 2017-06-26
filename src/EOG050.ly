@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -14,8 +13,7 @@
   tunename = "Moreland"
   meter = "S. M."
   poet = "Mary Bowley"
-  %composer = ""
-  %copyright = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -33,7 +31,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 

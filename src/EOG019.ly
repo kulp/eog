@@ -39,7 +39,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key a \major
-  %\partial 4
   \autoBeamOff
 }
 
@@ -139,7 +138,6 @@ wordsB = \lyricmode {
 When He, from His loft -- y throne,
 Stooped to do and die,
 Ev -- ’ry -- thing was full -- y done;
-% XXX this doesn't look quite right
 { \mon } Heark -- en { \moff } to His cry–
 
 \Refrain

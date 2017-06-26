@@ -11,7 +11,6 @@
   meter = "8. 7. 8. 7. 4. 7."
   poet = "H. K. Burlingham"
   composer = "T. Olivers"
-  %copyright = ""
   tagline = ##f
 }
 

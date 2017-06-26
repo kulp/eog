@@ -12,9 +12,8 @@
   title = "Redeemed By Blood"
   tunename = "Ernan"
   meter = "L. M."
-  %poet = ""
+  poet = ""
   composer = "Dr. Lowell Mason"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -136,7 +135,6 @@ wordsD = \lyricmode {
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      %\context Lyrics = five  \lyricsto sopranos \wordsE
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f

@@ -13,7 +13,6 @@
   meter = "8. 7. 8. 7. D. Iambic"
   poet = "Littlewood"
   composer = "Geo. F. Root"
-  %copyright = ""
   tagline = ##f
 }
 

@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "He Comes! He Comes!"
   tunename = "Ostend"
   meter = "C. M. D."
-  %poet = ""
+  poet = ""
   composer = "Dr. Lowell Mason"
-  %copyright = ""
   tagline = ##f
 }
 

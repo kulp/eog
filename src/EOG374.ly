@@ -12,7 +12,6 @@
   meter = "C. M. with Refrain"
   poet = "J. T. Armet (Arr.)"
   composer = "J. McGranahan"
-  %copyright = ""
   tagline = ##f
 }
 

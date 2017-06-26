@@ -10,7 +10,6 @@
   meter = "7. 6. 7. 6. D."
   poet = "J. G. Deck"
   composer = "Dr. Lowell Mason"
-  %copyright = ""
   tagline = ##f
 }
 

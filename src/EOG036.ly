@@ -1,13 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
   systems-per-page = ##f
-  % XXX lilypond wants to put this on four systems, so let it ; but we should
-  % probably expand font size until five systems is "natural"
-  %systems-per-page = #(cond (is-eogsized 5) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -18,7 +12,6 @@
   meter = "8. 7. 8. 7. D."
   poet = "T. Kelly"
   composer = "Haydn"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -53,7 +46,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key f \major
-  %\partial 4
   \autoBeamOff
 }
 

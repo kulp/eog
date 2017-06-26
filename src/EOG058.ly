@@ -98,7 +98,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Why un -- be -- liev -- ing? { \bar "." } why wilt thou spurn \bar "."
-Love that so gen -- tly { \bar "." } pleads thy re -- turn? \bar "." % XXX this is an unnatural way to force there to be only one system on the first page
+Love that so gen -- tly { \bar "." } pleads thy re -- turn? \bar "."
 Come, ere thy fleet -- ing day \bar "."
 Fades in -- to night a -- way; \bar "."
 Now mer -- cy’s call o -- bey; \bar "."

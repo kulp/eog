@@ -4,7 +4,6 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +12,8 @@
   title = "The Wanderer No More Will Roam"
   tunename = "Silent Night"
   meter = "8. 8. 8. 6."
-  %poet = ""
-  %composer = ""
-  %copyright = ""
+  poet = ""
+  composer = ""
   tagline = ##f
 }
 
@@ -44,7 +42,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key c \major
-  %\partial 4
   \autoBeamOff
 }
 

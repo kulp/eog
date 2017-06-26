@@ -14,7 +14,6 @@
   meter = "P. M."
   poet = "S. W. Martin" % XXX just S.W.M. in the original
   composer = "S. W. Martin"
-  %copyright = ""
   tagline = ##f
 }
 

@@ -15,7 +15,6 @@
   meter = "C. M. with Refrain"
   poet = "Fanny J. Crosby"
   composer = "W. J. Kirkpatrick"
-  %copyright = ""
   tagline = ##f
 }
 

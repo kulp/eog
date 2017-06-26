@@ -14,7 +14,6 @@
   meter = "6. 6. 4. 6. 6. 6. 4."
   poet = "T. Kelly"
   composer = "Unknown"
-  %copyright = ""
   tagline = ##f
 }
 

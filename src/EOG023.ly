@@ -146,9 +146,7 @@ AltoRefrain = \lyricmode {
 
 Sing, oh! sing __ of my Re -- deem -- er, \bar "." \break
 With His blood He pur -- chased me, He pur -- chased me; __ \bar "." \break
-\pageBreak
 On the cross __ He sealed my par -- don, \bar "." \break
-%Paid the debt, __ and made me free. __ \bar "." \break
 
 }
 

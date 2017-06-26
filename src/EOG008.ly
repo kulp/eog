@@ -13,9 +13,8 @@
   title = "Come, Weary, Anxious, Laden Soul"
   tunename = "Troyte"
   meter = "8. 8. 8. 6."
-  %poet = ""
+  poet = ""
   composer = "A. D. H. Troyte"
-  %copyright = ""
   tagline = ##f
 }
 

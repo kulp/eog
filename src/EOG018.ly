@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "How Precious and Pure is the Truth"
   tunename = "De Fleury"
   meter = "8. 8. 8. 8. D."
-  %poet = ""
+  poet = ""
   composer = "German"
-  %copyright = ""
   tagline = ##f
 }
 

@@ -2,9 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  ragged-last-bottom = ##t
   systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +11,8 @@
   title = "Just As Thou Art — Without One Trace"
   tunename = "St. Agnes — Blow"
   meter = "8. 8. 8. 6."
-  %poet = ""
+  poet = ""
   composer = "William Blow"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -40,7 +37,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key e \major
-  %\partial 4
   \autoBeamOff
 }
 

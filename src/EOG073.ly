@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +11,6 @@
   meter = "P. M."
   poet = "J. M. Wigner"
   composer = "R. C. Maker"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -35,7 +30,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key ees \major
-  %\partial 4
   \autoBeamOff
 }
 

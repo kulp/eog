@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 4) (#t #f))
   system-count = #(cond (is-eogsized 6) (#t #f))
@@ -16,7 +15,6 @@
   meter = "P. M."
   poet = "Nathaniel Norton"
   composer = "Geo. C. Stebbins"
-  %copyright = ""
   tagline = ##f
 }
 

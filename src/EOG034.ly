@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "Salvation Through Christ Jesus"
   tunename = "Missionary"
   meter = "7. 6. 7. 6. D."
-  %poet = ""
+  poet = ""
   composer = "Dr. Lowell Mason"
-  %copyright = ""
   tagline = ##f
 }
 

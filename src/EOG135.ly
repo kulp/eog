@@ -1,10 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
   system-count = #(cond (is-eogsized 3) (#t #f))
 }
 
@@ -14,9 +11,8 @@
   title = "There Is No Other Name Than Thine"
   tunename = "Old Hundred"
   meter = "L. M."
-  %poet = ""
+  poet = ""
   composer = "Genevan Psalter, 1551"
-  %copyright = ""
   tagline = ##f
 }
 

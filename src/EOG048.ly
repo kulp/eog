@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -15,7 +11,6 @@
   meter = "P. M."
   poet = "A. M. Hull"
   composer = "E. G. Taylor"
-  %copyright = ""
   tagline = ##f
 }
 

@@ -12,7 +12,6 @@
   meter = "8. 6. 8. 6. D." % original has 8. 6. 8. 6. 8. 6. 8. 6.
   poet = "A. Jukes"
   composer = "D. F. E. Auber"
-  %copyright = ""
   tagline = ##f
 }
 

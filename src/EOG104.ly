@@ -1,8 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 4) (#t #f))
   page-count = #(cond (is-eogsized 1) (#t #f))
 }
@@ -13,9 +11,8 @@
   title = "Not All the Gold of All the World"
   tunename = "Materna"
   meter = "C. M. D."
-  %poet = ""
+  poet = ""
   composer = "S. A. Ward"
-  %copyright = ""
   tagline = ##f
 }
 

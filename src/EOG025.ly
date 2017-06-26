@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
   system-count = #(cond (is-eogsized 5) (#t #f))
@@ -14,9 +13,8 @@
   title = "Oh, Have You Not Heard of That Wonderful Love?"
   tunename = ""
   meter = "P. M."
-  %poet = ""
+  poet = ""
   composer = "J. C. Englebrecht"
-  %copyright = ""
   tagline = ##f
 }
 

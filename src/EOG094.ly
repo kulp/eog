@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -13,9 +9,8 @@
   title = "Ho, Ye Thirsty, Jesus Calls You"
   tunename = "Hold the Fort"
   meter = "8. 5. 8. 5. D."
-  %poet = ""
+  poet = ""
   composer = "P. P. Bliss"
-  %copyright = ""
   tagline = ##f
 }
 

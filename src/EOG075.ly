@@ -41,7 +41,6 @@
   meter = "6. 6. 6. 6. 6. 6."
   poet = "F. R. Havergal"
   composer = "P. P. Bliss"
-  %copyright = ""
   tagline = ##f
 }
 

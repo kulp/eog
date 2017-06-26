@@ -13,7 +13,6 @@
   meter = "6. 6. 8. 4. D. with Refrain"
   poet = "J. G. Deck"
   composer = "D. B. Towner"
-  %copyright = ""
   tagline = ##f
 }
 

@@ -20,8 +20,6 @@ ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
 patternAA = { c4 c8   c8 c8 c8 c8 c8 | c4 c4 c2 }
-% None of the lines actually use the tie ; why is it there ?
-%patternAB = { c4 c8 ~ c8 c8 c8 c8 c8 | c4 c4 c2 }
 patternAB = { \patternAA }
 patternBA = { c4 c8 c8 c4 c4 | c1 }
 patternCA = { c8. c16 c4 c8. c16 c4 | c8 c8 c8 c8 c2 }
@@ -33,7 +31,6 @@ global = {
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key g \major
-  %\partial 4
   \autoBeamOff
 }
 
