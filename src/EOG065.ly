@@ -23,7 +23,7 @@ ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
 patternAA = { c4 c8. c16 c8 c8 c8 c8 | c4 c8. c16 c2 }
-patternAB = { c4 c8. c16 c8 c8 c8 c8 | c4 c8  c8  c2 }
+patternAB = { c4 c8. c16 c8 c8 c8 c8 | c8 ~ c8 c8  c8  c2 }
 patternAC = { c4 c8. c16 c4 c8.  c16 | c4 c8. c16 c2 }
 patternAD = { c4 c8. c16 c8 c8 c8 c8 | c8 c8 c8 c8 c2 }
 patternAE = { c8 c8 c8. c16 c8 c8 c8 c8 | c4 c8. c16 c2 }
@@ -106,7 +106,7 @@ notesSoprano = {
 
   \changePitch \patternAA { d b' c b a b d | g, b b a }
   \changePitch \patternAE { a a a gis a b c d | e d c b } % patternAA in the original, but nonsensical
-  \changePitch \patternAB { d, b' c b a b d | g, a b c }
+  \changePitch \patternAB { d, b' c b a b d | g, g a b c } % original does not have tie
   \changePitch \patternBA { c b a gis a b c e | d fis, fis g }
 
   \bar "||"
@@ -146,7 +146,7 @@ wordsA = \lyricmode {
 
 Christ is the on -- ly Sav -- iour might -- y to save, \bar "."
 He who suf -- fered once for sins, and sank neath the wave; \bar "."
-Sing how the wrath of God on Calv’ry’s cross He bore; \bar "."
+Sing how the wrath of God on \mon Cal -- v’ry’s \moff cross He bore; \bar "."
 How by death He con -- quered death and lives ev -- er -- more. \bar "."
 
 }
