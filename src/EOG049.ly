@@ -153,9 +153,7 @@ wordsD = \lyricmode {
 Tho’ all un -- wor -- thy, yet I will not doubt,
 For him that com -- eth He will not cast out;
 “He \mon that be -- \moff liev -- eth”– oh, the good news shout!
-% XXX the opening quote isn't quite close enough to the \caps Hath
-%LYRICS “Hath ev -- er -- last -- ing life.”
-%{HIDE>%} \markup{ “\caps Hath } ev -- er -- last -- ing life.” %{<HIDE%}
+{ \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 }
 
