@@ -222,13 +222,13 @@ O -- ver sin, and death, and hell.
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
-	  % Synch to altos for convenience
+      % Synch to altos for convenience
       \context Lyrics = one   \lyricsto altos \wordsA
       \context Lyrics = two   \lyricsto altos \wordsB
       \context Lyrics = three \lyricsto altos \wordsC
     >>
-	\new Lyrics \with { alignAboveContext = upper } \lyricsto sopranos \SopranoRefrainA
-	\new Lyrics \with { alignBelowContext = upper } \lyricsto sopranos \SopranoRefrainB
+    \new Lyrics \with { alignAboveContext = upper } \lyricsto sopranos \SopranoRefrainA
+    \new Lyrics \with { alignBelowContext = upper } \lyricsto sopranos \SopranoRefrainB
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
       \clef bass
@@ -237,8 +237,8 @@ O -- ver sin, and death, and hell.
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
-	\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \TenorRefrain
-	\new Lyrics \with { alignBelowContext = men } \lyricsto basses \BassRefrain
+    \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \TenorRefrain
+    \new Lyrics \with { alignBelowContext = men } \lyricsto basses \BassRefrain
   >>
   \layout {
     \include "common/layout.ily"
