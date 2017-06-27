@@ -117,7 +117,7 @@ And peace shall be thine. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-%{HIDE>%} "" %{<HIDE%} There is a Sav -- iour on high in the glo -- ry, \bar "."
+_ There is a Sav -- iour on high in the glo -- ry, \bar "."
 A Sav -- iour who suf -- fered on Cal -- va -- ry’s tree, \bar "."
 A Sav -- iour as will -- ing to save now as ev -- er, \bar "."
 His arm is al -- might -- y, His love great and free. \bar "."
@@ -139,7 +139,7 @@ And all this He suf -- fered from sin -- ners like thee.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-%{HIDE>%} "" %{<HIDE%} Those hours of dark -- ness He suf -- fered for sin -- ners
+_ Those hours of dark -- ness He suf -- fered for sin -- ners
 On Cal -- va -- ry’s cross, all for -- sak -- en, a -- lone,
 While mak -- ing a -- tone -- ment and bear -- ing the judg -- ment,
 Are end -- ed, and now He’s on high on the throne.
