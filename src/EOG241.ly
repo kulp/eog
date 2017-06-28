@@ -108,7 +108,7 @@ Refrain = \lyricmode {
 
 His love is more than tongue can tell; \bar "."
 His love is more than tongue can tell; \bar "."
-The love that Je -- sus had for me__ \bar "."
+The love that Je -- sus had for me __ \bar "."
 Is more than tongue can tell! \bar "."
 
 }
@@ -118,7 +118,7 @@ wordsA = \lyricmode {
 
 The love that Je -- sus had for me, \bar "."
 To suf -- fer on the cru -- el tree, \bar "."
-That I a ran -- somed soul might be,__ \bar "."
+That I a ran -- somed soul might be, __ \bar "."
 Is more than tongue can tell! \bar "."
 
 }
@@ -128,7 +128,7 @@ wordsB = \lyricmode {
 
 The bit -- ter sor -- row that He bore,
 And, oh, the crown of thorns He wore,
-That I might live for -- ev -- er -- more,__
+That I might live for -- ev -- er -- more, __
 Is more than tongue can tell!
 
 \Refrain
@@ -140,7 +140,7 @@ wordsC = \lyricmode {
 
 The peace I have in Him, my Lord,
 Who pleads be -- fore the throne of God
-The mer -- it of His pre -- cious blood,__
+The mer -- it of His pre -- cious blood, __
 Is more than tongue can tell!
 
 }
@@ -150,7 +150,7 @@ wordsD = \lyricmode {
 
 The joy that comes when He is near,
 The rest He gives, so free from fear,
-The hope in Him so bright and clear__
+The hope in Him so bright and clear __
 Is more than tongue can tell!
 
 }
