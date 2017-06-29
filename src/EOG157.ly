@@ -113,7 +113,7 @@ wordsB = \lyricmode {
 
 Then– oh, won -- drous bless -- ing!
 They shall be like Him;
-Nev -- er more have sor -- row,
+Nev -- er -- more have sor -- row,
 Ev -- er free from sin.
 Then with Him in glo -- ry
 Bright -- ly they shall shine;

@@ -136,7 +136,7 @@ Where Je -- sus reigns in glo -- ry,
 A home of peace and joy.
 No home on earth is like it,
 Or can with it com -- pare;
-For ev -- ’ry one is hap -- py,
+For ev -- ’ry -- one is hap -- py,
 Nor could be hap -- pier there.
 
 }

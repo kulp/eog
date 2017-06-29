@@ -91,7 +91,7 @@ For God so loved the world, \bar "."
 He gave His on -- ly Son, \bar "."
 To die on Cal -- v’ry’s tree, \bar "."
 From sin to set me free; \bar "."
-Some day He’s com -- ing back, \bar "."
+Some -- day He’s com -- ing back, \bar "."
 What glo -- ry that will be! \bar "."
 Won -- der -- ful His love to me. \bar "."
 

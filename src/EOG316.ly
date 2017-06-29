@@ -116,7 +116,7 @@ And can make the fee -- ble stand.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-What a day of joy ’t_will be,
+What a day of joy ’twill be,
 When His glo -- rious face they see!
 When His im -- age they will bear,
 %{HIDE>%} And His throne of glo -- ry share, %{<HIDE%}

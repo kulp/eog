@@ -96,7 +96,7 @@ wordsA = \lyricmode {
 Just as thou art– with -- out one trace \bar "."
 Of love, or joy, or in -- ward grace, \bar "."
 Or meet -- ness for the heaven -- ly place– \bar "."
-O guilt -- y sin -- ner, come ! \bar "."
+O guilt -- y sin -- ner, come! \bar "."
 
 }
 

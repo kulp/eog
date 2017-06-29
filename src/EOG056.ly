@@ -140,7 +140,7 @@ wordsC = \lyricmode {
 
 “All things are read -- y, come”!
 “Yet there is room”!
-Christ ev -- ’ry thing hath done–
+Christ ev -- ’ry -- thing hath done–
 “Yet there is room”!
 The work is now com -- plete,
 “Be -- fore the mer -- cy -- seat”

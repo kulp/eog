@@ -150,7 +150,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { Sinner—hear the wondrous story: }
+\line { Sinner – hear the wondrous story: }
 \line { { \hspace #2 } Jesus died and rose for thee; }
 \line { God in heaven now waits to save thee, }
 \line { { \hspace #2 } Now, believing, thou art free. }

@@ -90,7 +90,7 @@ And with the Lord of glo -- ry reign, \bar "."
 Since the blest know -- ledge of His love \bar "."
 So bright -- ens all this drear -- y plain? \bar "."
 No heart can think, no tongue can tell, \bar "."
-What joy ’t_will be with Christ to dwell. \bar "."
+What joy ’twill be with Christ to dwell. \bar "."
 
 }
 

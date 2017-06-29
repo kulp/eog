@@ -140,7 +140,7 @@ wordsC = \lyricmode {
 Be Thou the ob -- ject bright and fair
 To fill and sat -- is -- fy the heart;
 My hope to meet Thee in the air,
-And nev -- er more from Thee to part:
+And nev -- er -- more from Thee to part:
 That I may un -- dis -- tract -- ed be
 To fol -- low, serve and wait for Thee.
 %{HIDE>%} That I may un -- dis -- tract -- ed be

@@ -153,7 +153,7 @@ Where oth -- ers may fear to tread.
 On -- ly some self -- de -- ni -- al,
 At -- tend -- ed, per -- haps, with pain,
 But all that is loss at pres -- ent
-Will some day be rich -- est gain.
+Will some -- day be rich -- est gain.
 
 \Refrain
 

@@ -152,7 +152,7 @@ wordsD = \markuplist {
 \line { One day the grave could conceal Him no longer, }
 \line { One day the stone rolled away from the door; }
 \line { He had arisen, over death He had conquered; }
-\line { Now is ascended, my Lord ever more! }
+\line { Now is ascended, my Lord evermore! }
 
 }
 

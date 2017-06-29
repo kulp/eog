@@ -116,7 +116,7 @@ And tell the sto -- ry– saved by grace. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Some day I’ll quit this vale of tears, \bar "."
+Some -- day I’ll quit this vale of tears, \bar "."
 And I no more as now shall sigh; \bar "."
 I’ll bid fare -- well to all my fears, \bar "."
 And with my Sav -- iour rest on high. \bar "."
@@ -126,8 +126,8 @@ And with my Sav -- iour rest on high. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Some day my com -- ing Lord will call,
-I can -- not tell how soon ’t_will be,
+Some -- day my com -- ing Lord will call,
+I can -- not tell how soon ’twill be,
 But this I know, my “All in all”
 Has now a place in heaven for me.
 
@@ -138,7 +138,7 @@ Has now a place in heaven for me.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Some day I’ll meet Him in the air,
+Some -- day I’ll meet Him in the air,
 It may be morn, or noon, or night;
 And this I know, His voice I’ll hear,
 And gaze up -- on His glo -- ry bright.
@@ -148,7 +148,7 @@ And gaze up -- on His glo -- ry bright.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Some day, I know ’t_will not be long;
+Some -- day, I know ’twill not be long;
 He says, “Be -- hold, I quick -- ly come”;
 Soon, soon I’ll join in heav -- en’s song,
 And dwell with Him in His bright home.

@@ -121,7 +121,7 @@ From your deep -- est, in -- most heart? \bar "." \break
 Is the whirl of world’s con -- fus -- ion \bar "."
 So en -- gross -- ing to your mind, \bar "." \break
 That for thoughts of deep -- er im -- port \bar "."
-You can not a mo -- ment find? \bar "." \break
+You can -- not a mo -- ment find? \bar "." \break
 
 }
 

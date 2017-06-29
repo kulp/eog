@@ -124,7 +124,7 @@ Now __ He is right -- eous -- ly a -- ble the guil -- ty to save.
 RefrainC = \lyricmode {
 
 Haste __ thee a -- way, __ haste __ thee a -- way, __
-In __ fin -- ite love __ waits to wel -- come the sin -- ner to -- day.
+In -- fin -- ite love __ waits to wel -- come the sin -- ner to -- day.
 
 }
 

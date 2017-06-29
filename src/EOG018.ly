@@ -120,7 +120,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 The bird must be clean of its kind,
-Or else ’t_were un -- fit to be slain;
+Or else ’twere un -- fit to be slain;
 And none could in Je -- sus e’er find
 A blem -- ish, a spot or a stain.
 The bird in a ves -- sel of earth
