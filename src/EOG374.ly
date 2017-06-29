@@ -118,7 +118,7 @@ wordsA = \lyricmode {
 Oh, come to Je -- sus, sin -- ner, come, \bar "."
 And have thy sins for -- giv’n. \bar "."
 A man -- sion bright, a robe of white \bar "."
-He of -- fers thee in heav’n. \bar "."
+He of -- fers thee in heaven. \bar "."
 
 }
 

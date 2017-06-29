@@ -126,7 +126,7 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 The cross still stands un -- changed,
-Tho’ heav’n is now His home;
+Tho’ heaven is now His home;
 The might -- y stone is rolled a -- way,
 But yon -- der is His tomb!
 

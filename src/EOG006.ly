@@ -180,7 +180,7 @@ wordsD = \lyricmode {
   Life, rest and peace, the flow’rs of death -- less bloom,
   The Sav -- iour gives us– not be -- yond the tomb,
   But here, and now, on earth, the taste is giv’n
-  Of joys which wait us thro’ the gates of heav’n.
+  Of joys which wait us thro’ the gates of heaven.
 
 }
 

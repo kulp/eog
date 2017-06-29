@@ -164,7 +164,7 @@ wordsD = \lyricmode {
 
 Will your eyes be -- hold thro’ the morn -- ing light
 The { \mon } ci -- ty { \moff } of gold { \mon } and the { \moff } har -- bor bright?
-Will you an -- chor safe by the heav’n -- ly shore
+Will you an -- chor safe by the heaven -- ly shore
 When life’s storms are past for -- ev -- er -- more?
 
 }

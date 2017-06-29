@@ -119,7 +119,7 @@ wordsD = \lyricmode {
 And still the kind Sav -- iour bids lit -- tle chil -- dren wel -- come,
 For Je -- sus’ lov -- ing, ten -- der heart to { \mon } chil -- dren { \moff } is the same;
 Tho’ here His voice is no more heard,
-From heav’n He tells us in His Word,
+From heaven He tells us in His Word,
 “Suf -- fer the chil -- dren to come un -- to Me.”
 
 }

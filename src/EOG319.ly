@@ -160,7 +160,7 @@ wordsE = \lyricmode {
 
 Lit -- tle child, death could not hold Him,
 So the grave gave up its prey;
-Straight in -- to the heav’ns He en -- tered,
+Straight in -- to the heavens He en -- tered,
 \italicsOn Thence \italicsOff He speaks to you to -- day.
 Yes, His lov -- ing eye is on you,
 He from sin would set you free,

@@ -81,7 +81,7 @@ wordsA = \lyricmode {
 Lord Je -- sus, are we one with Thee? \bar "."
 Oh height, oh depth, of love! \bar "."
 And cru -- ci -- fied and dead with Thee, \bar "."
-Now one in heav’n a -- bove. \bar "."
+Now one in heaven a -- bove. \bar "."
 
 }
 
@@ -89,7 +89,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Such was Thy grace, that for our sake
-Thou didst from heav’n come down;
+Thou didst from heaven come down;
 With us of flesh and blood par -- take,
 And make our guilt Thine own.
 

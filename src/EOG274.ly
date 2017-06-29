@@ -99,7 +99,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Love di -- vine, all praise ex -- cel -- ling, \bar "."
-Joy of heav’n, to earth come down, \bar "."
+Joy of heaven, to earth come down, \bar "."
 Bless us with Thy rich in -- dwell -- ing, \bar "."
 All Thy faith -- ful mer -- cies crown! \bar "."
 Sav -- iour, Thee we’d still be bless -- ing, \bar "."
@@ -117,7 +117,7 @@ Faith -- ful, ho -- ly, may we be,
 Joy -- ful in Thy full sal -- va -- tion,
 More and more con -- formed to Thee.
 Changed from glo -- ry in -- to glo -- ry,
-Till in heav’n we take our place,
+Till in heaven we take our place,
 Then to wor -- ship and a -- dore Thee,
 Lost in won -- der, love and praise!
 

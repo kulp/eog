@@ -163,7 +163,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Oh, think of the King of glo -- ry–
-From heav’n to earth come down;
+From heaven to earth come down;
 His life so pure and ho -- ly;
 His death, His cross, His crown;
 Of His di -- vine com -- pas -- sion,

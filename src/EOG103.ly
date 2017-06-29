@@ -124,7 +124,7 @@ wordsD = \lyricmode {
 
 Lift -- ed up was He to die,
 “It is fin -- ished” was His cry.
-Now in heav’n ex -- alt -- ed high;
+Now in heaven ex -- alt -- ed high;
 Hal -- le -- lu -- jah! what a Sav -- iour!
 
 }

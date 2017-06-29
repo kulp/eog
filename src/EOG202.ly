@@ -99,7 +99,7 @@ Of those in Je -- sus blest? \bar "."
 His home made ours– His Fa -- ther’s love \bar "."
 Our heart’s full por -- tion giv’n, \bar "."
 The por -- tion of the first -- born Son, \bar "."
-The full de -- light of heav’n. \bar "."
+The full de -- light of heaven. \bar "."
 
 }
 
@@ -141,7 +141,7 @@ And all His glo -- ry share.
 The Fa -- ther’s house, the Fa -- ther’s heart,
 All that the Son is giv’n
 Made ours– the ob -- jects of His love
-And He, our joy in heav’n.
+And He, our joy in heaven.
 
 }
 

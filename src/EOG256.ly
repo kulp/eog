@@ -129,7 +129,7 @@ wordsB = \lyricmode {
 Some day my com -- ing Lord will call,
 I can -- not tell how soon ’t_will be,
 But this I know, my “All in all”
-Has now a place in heav’n for me.
+Has now a place in heaven for me.
 
 \Refrain
 

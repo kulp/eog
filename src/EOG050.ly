@@ -88,7 +88,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Vain is the tho’t of man \bar "."
-To mer -- it heav’n by prayer; \bar "."
+To mer -- it heaven by prayer; \bar "."
 ’Tis on -- ly Je -- sus’ pre -- cious blood \bar "."
 Can give ad -- mis -- sion there. \bar "."
 
@@ -120,7 +120,7 @@ wordsD = \lyricmode {
 None can with -- out the blood
 Of Je -- sus be for -- giv’n;
 ’Tis rest -- ing on the blood a -- lone
-That fits the soul for heav’n.
+That fits the soul for heaven.
 
 }
 

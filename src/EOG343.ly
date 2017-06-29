@@ -150,7 +150,7 @@ And His ten -- der mer -- cy,
 He doth us en -- dow.
 Let us sing His prais -- es
 With a glad -- some heart,
-Till in heav’n we meet Him,
+Till in heaven we meet Him,
 Nev -- er -- more to part.
 
 }

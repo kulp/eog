@@ -99,10 +99,10 @@ Sing -- ing, “Glo -- ry, glo -- ry, glo -- ry be to God on high.” \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-A -- round the throne of God in heav’n \bar "."
+A -- round the throne of God in heaven \bar "."
 Will man -- y chil -- dren sing; \bar "."
 Chil -- dren whose sins are all for -- giv’n \bar "."
-Will heav’n -- ly an -- thems bring, \bar "."
+Will heaven -- ly an -- thems bring, \bar "."
 
 }
 
@@ -122,7 +122,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 What brings them to that world a -- bove,
-That heav’n so bright and fair,
+That heaven so bright and fair,
 Where all is peace, and joy, and love?
 How came those chil -- dren there?
 

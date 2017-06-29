@@ -133,7 +133,7 @@ wordsC = \lyricmode {
 
 But he who does the will of God,
 For aye will live,
-And drink the streams of heav’n’s de -- lights,
+And drink the streams of heaven’s de -- lights,
 Which Christ will give.
 He’ll weep no more on that blest shore;
 No mar -- vel this,

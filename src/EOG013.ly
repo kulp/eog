@@ -144,7 +144,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Grace taught my rov -- ing feet
-To tread the heav’n -- ly road;
+To tread the heaven -- ly road;
 And new sup -- plies each hour I meet,
 While press -- ing on to God.
 

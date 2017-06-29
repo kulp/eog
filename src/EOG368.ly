@@ -107,7 +107,7 @@ Je -- sus Christ our Sav -- iour. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Who came down from heav’n to earth? \bar "."
+Who came down from heaven to earth? \bar "."
 Je -- sus Christ our Sav -- iour. \bar "."
 Came a child of low -- ly birth? \bar "."
 Je -- sus Christ our Sav -- iour. \bar "."

@@ -93,7 +93,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-In heav’n -- ly love a -- bid -- ing, \bar "."
+In heaven -- ly love a -- bid -- ing, \bar "."
 No change my heart shall fear, \bar "."
 And safe is such con -- fid -- ing, \bar "."
 For noth -- ing chang -- es here. \bar "."

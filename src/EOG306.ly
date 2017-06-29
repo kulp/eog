@@ -122,7 +122,7 @@ wordsE = \lyricmode {
 “Tho’ thou hast a way -- ward will,
 Lit -- tle lamb, I love thee still;
 Come to Me and be for -- giv’n;
-I will bear thee safe to heav’n.”
+I will bear thee safe to heaven.”
 
 }
 

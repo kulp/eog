@@ -134,7 +134,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Je -- sus lives for lit -- tle ones
-In the heav’n a -- bove,
+In the heaven a -- bove,
 And ne’er for -- gets the { \mon } pre -- cious { \moff } lambs,
 Who’ve trust -- ed in His love,
 And are His lit -- tle ones.

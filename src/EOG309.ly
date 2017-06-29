@@ -112,7 +112,7 @@ wordsD = \lyricmode {
 \mon In that \moff beau -- ti -- ful place He has gone to pre -- pare
 For all who are washed and for -- giv’n;
 And _ man -- y dear chil -- dren are gath -- er -- ing there,
-“For of such is the king -- dom of heav’n.”
+“For of such is the king -- dom of heaven.”
 
 }
 

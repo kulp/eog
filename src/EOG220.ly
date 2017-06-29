@@ -146,7 +146,7 @@ Yes, Christ must do it all!
 wordsD = \lyricmode {
 \set stanza = "4."
 
-And when in heav’n -- ly glo -- ry
+And when in heaven -- ly glo -- ry
 My ran -- somed soul shall be,
 From sin and all pol -- lu -- tion
 For -- ev -- er, ev -- er free;

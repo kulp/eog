@@ -133,7 +133,7 @@ wordsD = \lyricmode {
 He robed me in a priest -- ly dress,
 That I might in -- cense bring
 Of prayer, and praise, and right -- eous -- ness,
-To heav’n’s e -- ter -- nal King;
+To heaven’s e -- ter -- nal King;
 And when He gave this robe to me,
 He smiled and said, “Ab -- sol -- vo te.”
 

@@ -107,7 +107,7 @@ wordsC = \lyricmode {
 
 Sing His blest tri -- umph -- ant ris -- ing;
 Sing Him on the Fa -- ther’s throne;
-Sing– till heav’n and earth sur -- pris -- ing,__
+Sing– till heaven and earth sur -- pris -- ing,__
 %{HIDE>%}Reigns the Na -- za -- rene a -- lone.__ %{<HIDE%}
 Reigns the Na -- za -- rene a -- lone.__
 

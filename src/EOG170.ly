@@ -83,7 +83,7 @@ wordsA = \lyricmode {
 
 Je -- sus! Oh name di -- vine -- ly sweet! \bar "."
 How sooth -- ing is the sound! \bar "."
-What joy -- ful news, what heav’n -- ly pow’r, \bar "."
+What joy -- ful news, what heaven -- ly pow’r, \bar "."
 In that blest name is found! \bar "."
 
 }

@@ -118,7 +118,7 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 Rent the veil that closed the way
-To my home of heav’n -- ly day,
+To my home of heaven -- ly day,
 In the flesh of Christ the Lord,
 Ev -- er be His name a -- dored!
 

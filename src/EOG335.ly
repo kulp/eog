@@ -119,7 +119,7 @@ Je -- sus loves e -- ven me. % \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I am so glad that our Fa -- ther in heav’n \bar "."
+I am so glad that our Fa -- ther in heaven \bar "."
 Tells of His love in the Book He has giv’n; \bar "."
 Won -- der -- ful things in the Bi -- ble I see; \bar "."
 This is the dear -- est, that Je -- sus loves me. % \bar "."

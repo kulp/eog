@@ -109,7 +109,7 @@ Rest, dear chil -- dren, now for thee.” \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Yes; tho’ high in heav’n -- ly glo -- ry,
+Yes; tho’ high in heaven -- ly glo -- ry,
 Still the Sav -- iour calls to thee:
 Faith can hear His gra -- cious ac -- cents–
 “Come, dear chil -- dren, come to Me.”

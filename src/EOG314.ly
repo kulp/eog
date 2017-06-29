@@ -101,7 +101,7 @@ wordsB = \lyricmode {
 
 The saints of God, from death set free,
 With joy shall mount on high;
-The heav’n shall ring with prais -- es loud,
+The heaven shall ring with prais -- es loud,
 %{HIDE>%} They’ll meet Him in the sky, %{<HIDE%}
 %{HIDE>%} They’ll meet Him in the sky, %{<HIDE%}
 They’ll meet Him in the sky.

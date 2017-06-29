@@ -117,7 +117,7 @@ Be -- fore Him bend the knee; \bar "." \break
 He wait -- eth to be -- stow \bar "."
 Sal -- va -- tion, peace and love, \bar "."
 True joy on earth be -- low, \bar "."
-A home in heav’n a -- bove. \bar "."
+A home in heaven a -- bove. \bar "."
 Come, come, come. \bar "."
 
 }

@@ -90,7 +90,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 There in right -- eous -- ness tran -- scend -- ent,
-Lo! He doth in heav’n ap -- pear,
+Lo! He doth in heaven ap -- pear,
 Shows the \italicsOn blood of His a -- tone -- ment
 As thy ti -- tle to be there. \italicsOff
 

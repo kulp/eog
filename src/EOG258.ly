@@ -79,7 +79,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Man -- y sons to glo -- ry bring -- ing, \bar "."
-God sets forth His heav’n -- ly name; \bar "."
+God sets forth His heaven -- ly name; \bar "."
 On we march, in cho -- rus sing -- ing, \bar "."
 “Wor -- thy the as -- cend -- ed Lamb!” \bar "."
 

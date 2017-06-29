@@ -107,7 +107,7 @@ Of day with -- out a night! \bar "."
 We would a name of fa -- vor, \bar "."
 Graved on the stone of white; \bar "."
 We’d taste that man -- na’s fla -- vor, \bar "."
-Re -- served for heav’n’s de -- light. \bar "."
+Re -- served for heaven’s de -- light. \bar "."
 
 }
 

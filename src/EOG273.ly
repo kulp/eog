@@ -128,9 +128,9 @@ Wait -- ing to see Thee at home. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Up yon -- der, in a heav’n -- ly man -- sion, \bar "."
+Up yon -- der, in a heaven -- ly man -- sion, \bar "."
 Far, far a -- way, \bar "."
-There’s where I seek my heav’n -- ly por -- tion, \bar "."
+There’s where I seek my heaven -- ly por -- tion, \bar "."
 There’s where I long to stay. \bar "."
 This world is all a wear -- y des -- ert; \bar "."
 Stran -- ger I roam; \bar "."
@@ -144,11 +144,11 @@ wordsB = \lyricmode {
 
 O Sav -- iour, when shall end earth’s sto -- ry?
 When wilt Thou come?
-When shall I see Thy heav’n -- ly glo -- ry?
+When shall I see Thy heaven -- ly glo -- ry?
 When dwell with Thee at home?
 “A lit -- tle while” will bring sal -- va -- tion,
 No more I’ll roam;
-Soon I shall see my heav’n -- ly man -- sion,
+Soon I shall see my heaven -- ly man -- sion,
 My own e -- ter -- nal home.
 
 \Refrain

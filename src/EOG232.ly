@@ -101,7 +101,7 @@ wordsC = \lyricmode {
 “This is our re -- deem -- ing God,”
 Ran -- somed hosts will shout a -- loud:
 “Praise, e -- ter -- nal praise, be giv’n
-To the Lord of earth and heav’n!”
+To the Lord of earth and heaven!”
 
 }
 

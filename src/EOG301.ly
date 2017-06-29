@@ -89,7 +89,7 @@ wordsA = \lyricmode {
 
 { \mon } Here’s a { \moff } mes -- sage of love \bar "."
 Come down from a -- bove \bar "."
-{ \mon } To in -- { \moff } vite lit -- tle chil -- dren to heav’n; \bar "."
+{ \mon } To in -- { \moff } vite lit -- tle chil -- dren to heaven; \bar "."
 In God’s bless -- ed book \bar "."
 Lost sin -- ners may look, \bar "."
 And see how all sins are for -- giv’n. \bar "."

@@ -97,7 +97,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 How man -- y chil -- dren say, \bar "."
-“I’d like to go to heav’n,” \bar "."
+“I’d like to go to heaven,” \bar "."
 Yet nev -- er think that they \bar "."
 Must have their sins for -- giv’n, \bar "."
 Be -- fore they can in glo -- ry be, \bar "."
@@ -127,8 +127,8 @@ To all is o -- pen free;
 And ru -- ined sin -- ners may
 Go in and hap -- py be–
 May have their sins thro’ Christ for -- giv’n,
-%{HIDE>%} The on -- ly way to en -- ter heav’n, %{<HIDE%}
-The on -- ly way to en -- ter heav’n.
+%{HIDE>%} The on -- ly way to en -- ter heaven, %{<HIDE%}
+The on -- ly way to en -- ter heaven.
 
 }
 

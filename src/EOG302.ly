@@ -151,7 +151,7 @@ wordsB = \lyricmode {
 
 The Bi -- ble tells us Je -- sus died
 A sac -- ri -- fice for sin;
-The gates of heav’n to o -- pen wide,
+The gates of heaven to o -- pen wide,
 That we may en -- ter in, \eogbreak
 That we may en -- ter in.
 

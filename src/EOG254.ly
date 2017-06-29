@@ -88,7 +88,7 @@ Or wash a -- way its stain. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-But Christ, the heav’n -- ly Lamb,
+But Christ, the heaven -- ly Lamb,
 Took all our guilt a -- way,
 A sac -- ri -- fice of no -- bler name,
 And rich -- er blood than they.

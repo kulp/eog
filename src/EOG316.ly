@@ -94,7 +94,7 @@ Join to praise with one ac -- cord. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-He who reigns in heav’n a -- bove,
+He who reigns in heaven a -- bove,
 Once for sin -- ners died in love;
 Came from off the throne on high,
 %{HIDE>%} On the cross to bleed and die, %{<HIDE%}

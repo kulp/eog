@@ -120,7 +120,7 @@ For the Bride -- groom’s nigh. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-The heav’n -- ly Bride -- groom soon will come, \bar "."
+The heaven -- ly Bride -- groom soon will come, \bar "."
 To claim His bride, and take her home, \bar "."
 To dwell with Him on high. \bar "."
 

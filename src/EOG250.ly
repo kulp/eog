@@ -118,7 +118,7 @@ Thro’ Thy suf -- fi -- cien -- cy.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Thou that hast made our heav’n se -- cure,
+Thou that hast made our heaven se -- cure,
 Wilt here all good pro -- vide;
 While Christ is rich, can we be poor?
 Christ, who for us has died!

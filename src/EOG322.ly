@@ -100,7 +100,7 @@ wordsA = \lyricmode {
 
 Oh! come to Je -- sus, chil -- dren, come, \bar "."
 Don’t de -- lay, don’t de -- lay; \bar "."
-Se -- cure a place in heav’n’s bright home, \bar "."
+Se -- cure a place in heaven’s bright home, \bar "."
 While ’tis day, while ’tis day; \bar "."
 That bless -- ed home is fill -- ing fast, \bar "."
 And mer -- cy’s day will soon be past, \bar "."

@@ -170,7 +170,7 @@ By and by. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-The heav’ns shall glow with splen -- dor,
+The heavens shall glow with splen -- dor,
 But bright -- er far than they
 The saints shall shine in glo -- ry,
 As Christ shall them ar -- ray.

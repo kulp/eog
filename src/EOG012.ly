@@ -146,7 +146,7 @@ wordsB = \lyricmode {
 Oh, love that on -- ly God can feel,
 And on -- ly He can show!
 Its height and depth, its length and breadth,
-Nor heav’n nor earth can know!
+Nor heaven nor earth can know!
 
 \Refrain
 

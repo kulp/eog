@@ -137,7 +137,7 @@ wordsB = \lyricmode {
 
 Your man -- y sins are all for -- giv’n;
 Oh, hear the voice of Je -- sus;
-Go on your way in peace to heav’n,
+Go on your way in peace to heaven,
 And wear a crown with Je -- sus.
 
 \Refrain

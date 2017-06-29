@@ -111,7 +111,7 @@ wordsA = \lyricmode {
 
 Come, let us all u -- nite to sing, \bar "."
 God is love, God is love. \bar "." \break
-Let heav’n and earth their prais -- es bring: \bar "."
+Let heaven and earth their prais -- es bring: \bar "."
 God is love, God is love. \bar "." \break
 Let ev -- ery soul from sin a -- wake, \bar "."
 Each in his heart sweet mu -- sic make, \bar "."

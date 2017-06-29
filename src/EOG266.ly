@@ -83,7 +83,7 @@ wordsA = \lyricmode {
 We’ll praise Thee, glo -- rious Lord, \bar "."
 Who died to set us free, \bar "."
 No earth -- ly songs can joy af -- ford \bar "."
-Like heav’n -- ly mel -- o -- dy. \bar "."
+Like heaven -- ly mel -- o -- dy. \bar "."
 
 }
 

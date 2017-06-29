@@ -90,7 +90,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Lo, He comes, from heav’n de -- scend -- ing, \bar "."
+Lo, He comes, from heaven de -- scend -- ing, \bar "."
 Once for fa -- vored sin -- ners slain! \bar "."
 Thou -- sand, thou -- sand saints at -- tend -- ing, \bar "."
 Swell the tri -- umph of His train! \bar "."
@@ -105,7 +105,7 @@ wordsB = \lyricmode {
 See the Sav -- iour, long ex -- pect -- ed,
 Now in sol -- emn pomp ap -- pear:
 And His saints, by man re -- ject -- ed,
-All His heav’n -- ly glo -- ry share:
+All His heaven -- ly glo -- ry share:
 Hal -- le -- lu -- jah! Hal -- le -- lu -- jah!
 See the Son of God ap -- pear.
 

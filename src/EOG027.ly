@@ -125,7 +125,7 @@ Je -- sus died, Je -- sus died.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Soon heav’n shall raise the hap -- py song,
+Soon heaven shall raise the hap -- py song,
 Je -- sus died, Je -- sus died;
 Which end -- less a -- ges shall pro -- long,
 Je -- sus died, Je -- sus died;

@@ -135,7 +135,7 @@ wordsD = \lyricmode {
 Shine forth, O Lord, and bring to pass the day
 When ev -- ery clime shall own Thy right -- ful sway,
 When all man -- kind be -- fore Thy throne shall fall,
-And heav’n and earth shall crown Thee Lord of all.
+And heaven and earth shall crown Thee Lord of all.
 
 }
 
