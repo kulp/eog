@@ -135,7 +135,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Come, now, trust in Christ the Sav -- iour,
-He who died up -- on the tree; % blue book changes "Him" to "He" erroneously
+Him who died up -- on the tree; % blue book changes "Him" to "He" erroneously
 His a -- ton -- ing blood most pre -- cious
 There was shed for you and me.
 Shel -- tered by the blood of Je -- sus,
