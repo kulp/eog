@@ -115,7 +115,7 @@ Refrain = \lyricmode {
 Once for all, O sin -- ner, re -- ceive it; \bar "."
 Once for all, O bro -- ther, be -- lieve it; \bar "."
 Cling to the cross, the bur -- den will fall; \bar "."
-Christ has re -- deem’d us once for all. \bar "."
+Christ has re -- deemed us once for all. \bar "."
 
 }
 
@@ -125,7 +125,7 @@ wordsA = \lyricmode {
 Free from the law, oh, hap -- py con -- di -- tion! \bar "."
 Je -- sus has bled, and there is re -- mis -- sion! \bar "."
 Cursed by the law, and bruised by the fall, \bar "."
-Grace has re -- deem’d us once for all. \bar "."
+Grace has re -- deemed us once for all. \bar "."
 
 }
 

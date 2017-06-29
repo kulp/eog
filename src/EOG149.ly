@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 Per -- fect sal -- va -- tion, all is at rest,
 I in my Sav -- iour am hap -- py and blest;
 Watch -- ing and wait -- ing, look -- ing a -- bove,
-Fill’d with His good -- ness, lost in His love.
+Filled with His good -- ness, lost in His love.
 
 }
 

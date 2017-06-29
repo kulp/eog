@@ -115,11 +115,11 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-%{HIDE>%} Are you wash’d in the blood– \bar "." %{<HIDE%}
-%LYRICS Are you wash’d ... in the blood ...
+%{HIDE>%} Are you washed in the blood– \bar "." %{<HIDE%}
+%LYRICS Are you washed ... in the blood ...
 In the soul -- clean -- sing blood of the Lamb? \bar "."
 Are your gar -- ments spot -- less? Are they white as snow? \bar "."
-Are you wash’d in the blood of the Lamb? \bar "."
+Are you washed in the blood of the Lamb? \bar "."
 
 }
 
@@ -127,9 +127,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Have you been to Je -- sus for the clean -- sing power? \bar "."
-Are you wash’d in the blood of the Lamb? \bar "."
+Are you washed in the blood of the Lamb? \bar "."
 Are you ful -- ly trust -- ing in His grace this hour? \bar "."
-Are you wash’d in the blood of the Lamb? \bar "." \break
+Are you washed in the blood of the Lamb? \bar "." \break
 
 }
 
@@ -137,9 +137,9 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Are you walk -- ing dai -- ly by the Sav -- iour’s side?
-Are you wash’d in the blood of the Lamb?
+Are you washed in the blood of the Lamb?
 Do you rest each mo -- ment in the Cru -- ci -- fied?
-Are you wash’d in the blood of the Lamb?
+Are you washed in the blood of the Lamb?
 
 \Refrain
 
@@ -151,7 +151,7 @@ wordsC = \lyricmode {
 When the Bride -- groom com -- eth, will your robes be white,
 Pure and white in the blood of the Lamb?
 Will your soul be rea -- dy for the man -- sions bright,
-And be wash’d in the blood of the Lamb?
+And be washed in the blood of the Lamb?
 
 }
 
@@ -159,16 +159,16 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Lay a -- side the gar -- ments that are stained with sin,
-And be wash’d in the blood of the Lamb!
+And be washed in the blood of the Lamb!
 There’s a foun -- tain flow -- ing for the soul un -- clean;
-Oh, be wash’d in the blood of the Lamb!
+Oh, be washed in the blood of the Lamb!
 
 }
 
 underWords = \lyricmode {
 
 { \repeat unfold 40 { \skip 4 } }
-Are you wash’d in the blood–
+Are you washed in the blood–
 { \repeat unfold 9 { \skip 4 } }
 of the Lamb?
 

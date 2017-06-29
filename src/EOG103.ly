@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 
 “Man of sor -- rows,” what a name \bar "."
 For the Son of God, who came \bar "."
-Ru -- in’d sin -- ners to re -- claim! \bar "."
+Ru -- ined sin -- ners to re -- claim! \bar "."
 Hal -- le -- lu -- jah! what a Sav -- iour! \bar "."
 
 }
@@ -103,8 +103,8 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Bear -- ing shame and scof -- fing rude,
-In my place con -- demn’d He stood;
-Seal’d my par -- don with His blood:
+In my place con -- demned He stood;
+Sealed my par -- don with His blood:
 Hal -- le -- lu -- jah! what a Sav -- iour!
 
 }
@@ -123,7 +123,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Lift -- ed up was He to die,
-“It is fin -- ish’d” was His cry.
+“It is fin -- ished” was His cry.
 Now in heav’n ex -- alt -- ed high;
 Hal -- le -- lu -- jah! what a Sav -- iour!
 

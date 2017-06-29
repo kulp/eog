@@ -82,8 +82,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Je -- sus! how much Thy name un -- folds \bar "."
-To ev -- ery o -- pen’d ear; \bar "."
-The par -- don’d sin -- ner’s mem -- ory holds \bar "."
+To ev -- ery o -- pened ear; \bar "."
+The par -- doned sin -- ner’s mem -- ory holds \bar "."
 None oth -- er half so dear. \bar "."
 
 }

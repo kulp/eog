@@ -103,7 +103,7 @@ O guilt -- y sin -- ner, come ! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Bur -- den’d with guilt, wouldst thou be blest?
+Bur -- dened with guilt, wouldst thou be blest?
 Trust not the world; it gives no rest;
 Christ brings re -- lief to hearts op -- pressed–
 O wear -- y sin -- ner, come!

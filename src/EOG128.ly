@@ -130,7 +130,7 @@ His who could say, Him -- self the Son,
 “My Fa -- ther and My -- self are one,”
 Who made the world a -- round;
 His who Je -- ho -- vah’s Fel -- low stood,
-And claim’d e -- qual -- i -- ty with God,
+And claimed e -- qual -- i -- ty with God,
 Whose glo -- ry knows no bounds.
 
 }

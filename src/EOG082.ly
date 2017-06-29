@@ -110,7 +110,7 @@ wordsA = \lyricmode {
 
 Ere God had built the moun -- tains, \bar "."
 Or raised the fruit -- ful hills; \bar "." \break
-Be -- fore He fill’d the foun -- tains \bar "."
+Be -- fore He filled the foun -- tains \bar "."
 That feed the run -- ning rills; \bar "." \break
 In Thee, from ev -- er -- last -- ing, \bar "."
 The won -- der -- ful I AM \bar "." \break
@@ -139,7 +139,7 @@ wordsC = \lyricmode {
 And couldst Thou be de -- light -- ed
 With crea -- tures such as we,
 Who, when we saw Thee, slight -- ed
-And nail’d Thee to a tree?
+And nailed Thee to a tree?
 Un -- fath -- om -- a -- ble won -- der!
 And mys -- te -- ry di -- vine!
 The voice that speaks in thun -- der

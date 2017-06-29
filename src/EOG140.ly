@@ -122,7 +122,7 @@ Refrain = \lyricmode {
 
 We have an an -- chor that keeps the soul \bar "."
 Stead -- fast and sure while the bil -- lows roll; \bar "."
-Fast -- en’d to the Rock which can -- not move, \bar "."
+Fast -- ened to the Rock which can -- not move, \bar "."
 Ground -- ed firm and deep in the Sav -- iour’s love. \bar "."
 
 }

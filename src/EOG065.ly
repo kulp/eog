@@ -155,7 +155,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Christ in that hour of dark -- ness, lost ones to save,
-Brav’d Him -- self the o -- cean depths, and bat -- tled the wave;
+Braved Him -- self the o -- cean depths, and bat -- tled the wave;
 Though all Je -- ho -- vah’s bil -- lows rolled o’er His head,
 Son of Man and Son of God, He rose from the dead.
 

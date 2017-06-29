@@ -102,9 +102,9 @@ Long a -- go a flood was com -- ing \bar "."
 On the world with e -- vil filled, \bar "."
 But a man of faith, named No -- ah, \bar "."
 Warned of God, an ark did build. \bar "."
-Years pass’d by, while God in pa -- tience, \bar "."
+Years passed by, while God in pa -- tience, \bar "."
 Wait -- ed ere the flood be -- gan; \bar "."
-No -- ah preach’d, and warn’d and plead -- ed, \bar "."
+No -- ah preached, and warned, and plead -- ed, \bar "."
 Tell -- ing of God’s gra -- cious plan. \bar "."
 
 }
@@ -113,13 +113,13 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Boys and girls, and men, and wo -- men,
-Laugh’d and scoff’d at what they heard;
+Laughed and scoffed at what they heard;
 Chose to fol -- low sin -- ful pleas -- ures,
 Thought -- less of the warn -- ing word.
 But at last– the ark com -- plet -- ed–
 Time had come for rain to fall;
 Birds and beasts by twos and sev -- ens,
-Gath -- ’red in, with food for all.
+Gath -- ered in, with food for all.
 
 }
 
@@ -127,7 +127,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Creep -- ing things were not for -- got -- ten.
-Two of each were shelt -- ’red there–
+Two of each were shelt -- ered there–
 For while fool -- ish men are scoff -- ing,
 Lit -- tle things will show God’s care!
 No -- ah too, and all his house -- hold,

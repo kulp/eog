@@ -141,7 +141,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 I know not what of good or ill
-May be re -- serv’d for me,
+May be re -- served for me,
 Of wear -- y ways or gold -- en days
 Be -- fore His face I see.
 

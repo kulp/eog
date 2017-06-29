@@ -126,7 +126,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 There from His head, His hands, His feet,
-Sor -- row and love flow’d min -- gled down;
+Sor -- row and love flowed min -- gled down;
 Did e’er such love and sor -- row meet,
 Or thorns com -- pose so rich a crown?
 

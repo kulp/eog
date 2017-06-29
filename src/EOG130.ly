@@ -136,7 +136,7 @@ wordsA = \lyricmode {
 To God be the glo -- ry, great things He hath done! \bar "."
 So loved He the world that He gave us His Son; \bar "."
 Who yield -- ed His life an a -- tone -- ment for sin, \bar "."
-And o -- pen’d the Life -- gate that all may go in. \bar "."
+And o -- pened the Life -- gate that all may go in. \bar "."
 
 }
 

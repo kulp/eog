@@ -109,7 +109,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 In the ref -- uge God pro -- vid -- ed,
-Tho’ the world’s de -- struc -- tion low’rs,
+Tho’ the world’s de -- struc -- tion lowers,
 We are safe– to Christ con -- fid -- ed,
 Ev -- er -- last -- ing life is ours.
 

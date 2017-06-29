@@ -87,7 +87,7 @@ wordsA = \lyricmode {
 On the Lamb our souls are rest -- ing, \bar "."
 What His love no tongue can say; \bar "."
 All our sins, so great, so man -- y, \bar "."
-In His blood are wash’d a -- way. \bar "."
+In His blood are washed a -- way. \bar "."
 
 }
 

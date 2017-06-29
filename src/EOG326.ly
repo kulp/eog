@@ -136,7 +136,7 @@ With high and haught -- y mien.
 “Go, wash in Jor -- dan, and be clean,”
 The proph -- et’s mes -- sage giv’n;
 But this ill suits the war -- rior’s mind–
-His char -- iot back is driv’n.
+His char -- iot back is driven.
 
 }
 
