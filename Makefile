@@ -192,6 +192,7 @@ CLOBBERFILES += $(INDICES)
 %.pdf: %.tex
 	lualatex --output-directory=$(@D) $<
 
+indices: $(INDICES)
 $(INDICES): booklayout/%.pdf: booklayout/%_insert.tex
 
 booklayout/metrical_insert.tex: index.meter
