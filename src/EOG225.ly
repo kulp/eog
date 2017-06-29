@@ -118,80 +118,48 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-I left it all with Je -- sus \bar "."
-Long a -- go; \bar "."
-All my sins I brought Him, \bar "."
-And my woe. \bar "."
-When by faith I saw Him \bar "."
-On the tree, \bar "."
-Heard His small, still whis -- per, \bar "."
-“’Tis for thee,” \bar "."
-%{HIDE>%} From my heart the bur -- den \bar "."
-Rolled a -- way– \bar "."
-Hap -- py day! \bar "." %{<HIDE%}
-From my heart the bur -- den \bar "."
-Rolled a -- way– \bar "."
-Hap -- py day! \bar "."
+I left it all with Je -- sus long a -- go; \bar "."
+All my sins I brought Him, and my woe. \bar "."
+When by faith I saw Him on the tree, \bar "."
+Heard His small, still whis -- per, “’Tis for thee,” \bar "."
+From my heart the bur -- den rolled a -- way– hap -- py day! \bar "."
+From my heart the bur -- den rolled a -- way– hap -- py day! \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-I leave it all with Je -- sus,
-For He knows
-How to steal the bit -- ter
-From life’s woes;
-How to gild the tear -- drop
-With His smile,
-Make the des -- ert gar -- den
-Bloom a -- while:
-%{HIDE>%} When my weak -- ness lean -- eth
-On His might,
-All seems light; %{<HIDE%}
-When my weak -- ness lean -- eth
-On His might,
-All seems light.
+I leave it all with Je -- sus, for He knows
+How to steal the bit -- ter from life’s woes;
+How to gild the tear -- drop with His smile,
+Make the des -- ert gar -- den bloom a -- while;
+When my weak -- ness lean -- eth on His might, all seems light;
+When my weak -- ness lean -- eth on His might, all seems light.
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-I leave it all with Je -- sus
-Day by day;
-Faith can firm -- ly trust Him
-Come what may.
-Hope has dropped her an -- chor,
-Found her rest
-In the calm, sure ha -- ven
-Of His breast:
-%{HIDE>%} Love es -- teems it heav -- en
-To a -- bide
-At His side; %{<HIDE%}
-Love es -- teems it heav -- en
-To a -- bide
-At His side.
+I leave it all with Je -- sus day by day;
+Faith can firm -- ly trust Him, come what may.
+Hope has dropped her an -- chor, found her rest
+In the calm, sure ha -- ven of His breast;
+Love es -- teems it heav -- en to a -- bide at His side;
+Love es -- teems it heav -- en to a -- bide at His side.
 
 }
 
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Oh, leave it \italicsOn all \italicsOff with Je -- sus,
-Droop -- ing soul!
-Tell not \italicsOn half \italicsOff thy sto -- ry,
-But the whole.
-Worlds on worlds are hang -- ing
-On His hand,
-Life and death are wait -- ing
-His com -- mand;
-%{HIDE>%} Yet His ten -- der bos -- om
-Makes \italicsOn thee \italicsOff room–
-Oh, come home! %{<HIDE%}
-Yet His ten -- der bos -- om
-Makes \italicsOn thee \italicsOff room–
-Oh, come home!
+Oh, leave it \italicsOn all \italicsOff with Je -- sus, droop -- ing soul!
+Tell not \italicsOn half \italicsOff thy sto -- ry, but the whole;
+Worlds on worlds are hang -- ing on His hand,
+Life and death are wait -- ing His com -- mand;
+Yet His ten -- der bos -- om makes \italicsOn thee \italicsOff room– oh, come home!
+Yet His ten -- der bos -- om makes \italicsOn thee \italicsOff room– oh, come home!
 
 }
 
