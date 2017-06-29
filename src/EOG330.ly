@@ -147,7 +147,7 @@ I read the won -- drous sto -- ry
 How God in heav -- en high
 So loved a world of sin -- ners,
 He sent His Son to die;
-And that word “who -- so -- ev -- er,”
+And that word \italicsOn who -- so -- ev -- er, \italicsOff
 Be -- liev -- ing I could see,
 Though meant for ev -- ery -- bod -- y,
 Was most -- ly meant for me.

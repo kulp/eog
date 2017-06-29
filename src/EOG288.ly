@@ -127,8 +127,8 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { Blessed, glorious word “forever,” }
-\line { { \hspace #2 } Yea, “forever” is the word; }
+\line { Blessed, glorious word \italic forever, }
+\line { { \hspace #2 } Yea, \italic forever is the word; }
 \line { Nothing can the ransomed sever, }
 \line { { \hspace #2 } Naught divide them from the Lord. }
 
