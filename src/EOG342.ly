@@ -10,7 +10,7 @@
   tunename = ""
   meter = ""
   poet = ""
-  composer = "E. O. Excell"
+  composer = ""
   tagline = ##f
 }
 

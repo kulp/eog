@@ -8,8 +8,8 @@
   hymnnumber = "74"
   title = "Come to the Blood-Stained Tree"
   tunename = "Maker"
-  meter = "P. M."
-  composer = "R. C. Maker"
+  meter = "" % sung with P. M.
+  composer = ""
   tagline = ##f
 }
 

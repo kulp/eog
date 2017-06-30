@@ -9,8 +9,8 @@
   hymnnumber = "15"
   title = "Oh What a Gift the Father Gave"
   tunename = ""
-  meter = "C. M. D."
-  composer = "Wm. G. Fischer"
+  meter = "" % sung with C. M. D.
+  composer = ""
   tagline = ##f
 }
 

@@ -8,9 +8,9 @@
   hymnnumber = "43"
   title = "“Behold the Lamb” Enthroned on High"
   tunename = ""
-  meter = "P. M."
+  meter = "" % sung with P. M.
   poet = ""
-  composer = "Arr. by J. H. Stockton"
+  composer = ""
   tagline = ##f
 }
 
