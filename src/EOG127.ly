@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "127"
   title = "Let Us Sing of His Love Once Again"
-  tunename = "Sweet Bye and Bye"
+  tunename = ""
   meter = ""
   poet = ""
-  composer = "J. P. Webster"
+  composer = ""
   tagline = ##f
 }
 
