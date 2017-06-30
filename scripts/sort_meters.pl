@@ -36,6 +36,10 @@ sub by_meter {
     my $aa = normalize $a;
     my $bb = normalize $b;
 
+    # Force P. M. to end
+    return  1 if $aa =~ /^P/;
+    return -1 if $bb =~ /^P/;
+
     if (is_num($aa)) {
         if (is_num($bb)) {
             my ($an) = $aa =~ /^(.*?)\s*(with Refrain)?$/;
