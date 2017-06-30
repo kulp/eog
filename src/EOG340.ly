@@ -10,7 +10,7 @@
   hymnnumber = "340"
   title = "Happy Is the Boy"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = ""
   composer = "W. Perkins, Jr."
   tagline = ##f

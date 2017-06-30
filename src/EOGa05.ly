@@ -9,7 +9,7 @@
   hymnnumber = "5"
   title = "Olive’s Brow"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   composer = "W. B. Bradbury"
   tagline = ##f
 }

@@ -9,7 +9,7 @@
   hymnnumber = "371"
   title = "At Calvary"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "Wm. R. Newell"
   composer = "D. B. Towner"
   tagline = ##f

@@ -8,7 +8,7 @@
   hymnnumber = "193"
   title = "Sweet Peace, The Gift of God’s Love"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "P. P. Bilhorn"
   composer = "P. P. Bilhorn"
   tagline = ##f

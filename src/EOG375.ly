@@ -9,7 +9,7 @@
   hymnnumber = "375"
   title = "O Soul, Are You Weary"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "Helen Howarth Lemmel"
   composer = "Helen Howarth Lemmel"
   copyright = \markup { \wordwrap { Copyright 1922. Renewal 1950 by H. H. Lemmel. Assigned to Singspiration, Inc. All rights reserved. Used by permission. } }

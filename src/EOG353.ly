@@ -10,7 +10,7 @@
   hymnnumber = "353"
   title = "Come to Jesus, Come Today"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = ""
   composer = ""
   tagline = ##f

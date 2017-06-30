@@ -9,7 +9,7 @@
   hymnnumber = "188"
   title = "Our Lord Is Now Rejected"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "D. W. Whittle"
   composer = "J. McGranahan"
   tagline = ##f

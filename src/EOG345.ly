@@ -10,7 +10,7 @@
   hymnnumber = "345"
   title = "Jesus Loves the Little Children"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "Edwin L. Bowyer"
   composer = "George F. Root"
   tagline = ##f

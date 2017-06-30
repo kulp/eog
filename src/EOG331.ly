@@ -10,7 +10,7 @@
   hymnnumber = "331"
   title = "For God So Loved the World"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "Frances Townsend"
   composer = "Alfred B. Smith"
   tagline = ##f

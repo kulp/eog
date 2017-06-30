@@ -10,7 +10,7 @@
   hymnnumber = "187"
   title = "Scarlet, Scarlet!"
   tunename = ""
-  meter = ""
+  meter = "P. M." % something like 10. 11. 10. 11.
   poet = ""
   composer = "R. Lowry"
   tagline = ##f

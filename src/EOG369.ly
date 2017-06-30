@@ -12,7 +12,7 @@
   hymnnumber = "369"
   title = "Wide As The Ocean"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "C. Austin Miles"
   composer = "C. Austin Miles"
   copyright = "Copyright, 1945, Renewal, in “Jubilate.” The Rodeheaver Co., Owner. Used by permission."

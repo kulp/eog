@@ -10,7 +10,7 @@
   hymnnumber = "336"
   title = "I Am the Door"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = ""
   composer = "Anon."
   tagline = ##f

@@ -9,7 +9,7 @@
   hymnnumber = "341"
   title = "Jesus Bids Us Shine"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "Emily H. Miller"
   composer = "E. O. Excell"
   tagline = ##f

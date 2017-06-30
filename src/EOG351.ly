@@ -10,7 +10,7 @@
   hymnnumber = "351"
   title = "One Door and Only One"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = ""
   composer = ""
   tagline = ##f

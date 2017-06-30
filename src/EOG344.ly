@@ -12,7 +12,7 @@
   hymnnumber = "344"
   title = "Jesus, My Saviour, To Bethlehem Came"
   tunename = ""
-  meter = ""
+  meter = "P. M."
   poet = "A. N."
   composer = "E. E. Hasty (Arr.)"
   tagline = ##f
