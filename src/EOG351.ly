@@ -83,7 +83,7 @@ wordsA = \lyricmode {
 
 One door and on -- ly one, \bar "."
 And yet its sides are two– \bar "."
-In -- side and out -- side;
+In -- side and out -- side; \bar "."
 On which side are you? \bar "."
 
 One door and on -- ly one, \bar "."

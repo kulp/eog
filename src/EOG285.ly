@@ -88,8 +88,8 @@ wordsA = \lyricmode {
 Well may we sing, with tri -- umph sing \bar "."
 The great Re -- deem -- er’s praise; \bar "."
 The glo -- ries of our \markup\caps Sav -- \markup\caps iour \markup\caps God, \bar "."
-Re -- vealed in Je -- sus’ face,
-Re -- vealed in Je -- sus’ face,
+Re -- vealed in Je -- sus’ face, \bar "."
+Re -- vealed in Je -- sus’ face, \bar "."
 Re -- vealed, re -- vealed in Je -- sus’ face. \bar "."
 
 }
