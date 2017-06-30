@@ -11,7 +11,7 @@
   hymnnumber = "126"
   title = "There’s a Voice That Is Calling"
   tunename = "Sweet Bye and Bye"
-  meter = ""
+  meter = "P. M." % something like 8. 8. 8. 8. with Refrain
   poet = "Anon."
   composer = "J. P. Webster"
   tagline = ##f

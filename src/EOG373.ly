@@ -13,7 +13,7 @@
   hymnnumber = "373"
   title = "The Master Is Come"
   tunename = "He Hideth My Soul"
-  meter = ""
+  meter = "P. M." % something like 11. 8. 11. 8. 11. 8. 8.
   poet = "Wm. E. Cullum"
   composer = "Wm. J. Kirkpatrick"
   tagline = ##f

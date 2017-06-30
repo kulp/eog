@@ -9,7 +9,7 @@
   hymnnumber = "356"
   title = "Sing the Saviour’s Praises"
   tunename = "Ring the Bells of Heaven"
-  meter = ""
+  meter = "P. M." % something like 11. 9. 11. 9. with Refrain (9. 9. 11. 9)
   poet = ""
   composer = "G. F. Root"
   tagline = ##f

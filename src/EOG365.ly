@@ -11,7 +11,7 @@
   hymnnumber = "365"
   title = "We Are Glad We Ever Heard the Blessed News"
   tunename = "Marching On"
-  meter = ""
+  meter = "P. M." % something like 11. 11. 11. 6. with Refrain (6. 6. 6. 7.)
   poet = ""
   composer = ""
   tagline = ##f
