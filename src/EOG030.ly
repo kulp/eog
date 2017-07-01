@@ -122,13 +122,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Pass -- ing on -- ward, quick -- ly pass -- ing, \bar "."
-Yes, but whith -- er, whith -- er bound? \bar "." \break
+Yes, but whith -- er, whith -- er bound? \bar "." \eogbreak
 Is it to the man -- y man -- sions \bar "."
-Where e -- ter -- nal rest is found? \bar "." \break
+Where e -- ter -- nal rest is found? \bar "." \eogbreak
 Pass -- ing on -- ward– \bar "."
-Yes, but whith -- er, whith -- er bound? \bar "." \break
+Yes, but whith -- er, whith -- er bound? \bar "." \eogbreak
 Pass -- ing on -- ward– \bar "."
-Yes, but whith -- er, whith -- er bound? \bar "." \break
+Yes, but whith -- er, whith -- er bound? \bar "." \eogbreak
 
 }
 

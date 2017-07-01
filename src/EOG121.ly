@@ -92,9 +92,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “All things are rea -- dy,” come, \bar "."
-Come to the sup -- per spread; \bar "." \break
+Come to the sup -- per spread; \bar "." \eogbreak
 Come, rich and poor; come, old and young; \bar "."
-Come, and be rich -- ly fed. \bar "." \break
+Come, and be rich -- ly fed. \bar "." \eogbreak
 
 }
 

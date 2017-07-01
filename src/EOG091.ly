@@ -89,9 +89,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 On Christ sal -- va -- tion rests se -- cure; \bar "."
-The Rock of A -- ges must en -- dure; \bar "." \break
+The Rock of A -- ges must en -- dure; \bar "." \eogbreak
 Nor can that faith be o -- ver -- thrown \bar "."
-Which rests up -- on the “Liv -- ing Stone.” \bar "." \break
+Which rests up -- on the “Liv -- ing Stone.” \bar "." \eogbreak
 
 }
 

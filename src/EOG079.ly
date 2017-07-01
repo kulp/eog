@@ -138,9 +138,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 De -- cide for Christ to -- day, \bar "."
-And God’s sal -- va -- tion see; \bar "." \break
+And God’s sal -- va -- tion see; \bar "." \eogbreak
 Yield soul and bod -- y, heart and will \bar "."
-To Him, who died for thee! \bar "." \break
+To Him, who died for thee! \bar "." \eogbreak
 
 }
 

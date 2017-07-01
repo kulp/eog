@@ -115,13 +115,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Hark ye! those who choose the plea -- sures, \bar "."
-That this wretch -- ed world im -- parts, \bar "." \break
+That this wretch -- ed world im -- parts, \bar "." \eogbreak
 Dare you call this sat -- is -- fac -- tion \bar "."
-From your deep -- est, in -- most heart? \bar "." \break
+From your deep -- est, in -- most heart? \bar "." \eogbreak
 Is the whirl of world’s con -- fus -- ion \bar "."
-So en -- gross -- ing to your mind, \bar "." \break
+So en -- gross -- ing to your mind, \bar "." \eogbreak
 That for thoughts of deep -- er im -- port \bar "."
-You can -- not a mo -- ment find? \bar "." \break
+You can -- not a mo -- ment find? \bar "." \eogbreak
 
 }
 

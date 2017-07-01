@@ -113,9 +113,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 On -- ly trust Him, on -- ly trust Him, \bar "."
-On -- ly trust Him now; \bar "." \break
+On -- ly trust Him now; \bar "." \eogbreak
 He will save you, He will save you, \bar "."
-He will save you now. \bar "." \break
+He will save you now. \bar "." \eogbreak
 
 }
 
@@ -123,9 +123,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Come, ev -- ’ry soul by sin op -- pressed, \bar "."
-There’s mer -- cy with the Lord, \bar "." \break
+There’s mer -- cy with the Lord, \bar "." \eogbreak
 And He will sure -- ly give you rest, \bar "."
-By trust -- ing in His Word. \bar "." \break
+By trust -- ing in His Word. \bar "." \eogbreak
 
 }
 

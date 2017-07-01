@@ -114,9 +114,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Sav -- iour of sin -- ners, \bar "."
-Sav -- iour of sin -- ners like me, \bar "." \break
+Sav -- iour of sin -- ners like me, \bar "." \eogbreak
 Shed -- ding His blood for my ran -- som, \bar "."
-This is the Sav -- iour for me. \bar "." \break
+This is the Sav -- iour for me. \bar "." \eogbreak
 
 }
 
@@ -124,9 +124,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Christ is the Sav -- iour of sin -- ners, \bar "."
-Christ is the Sav -- iour for me; \bar "." \break
+Christ is the Sav -- iour for me; \bar "." \eogbreak
 Long I was chained in sin’s dark -- ness, \bar "."
-Now by His grace I am free. \bar "." \break
+Now by His grace I am free. \bar "." \eogbreak
 
 }
 
@@ -209,8 +209,6 @@ wordsE = \markuplist {
   \line{ \bold 5 \column { \wordsE } }
   \hspace #0.1
 } }
-
-\pageBreak
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

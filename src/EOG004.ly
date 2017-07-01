@@ -16,14 +16,14 @@
   tagline = ##f
 }
 
-patternA = { c4 c4 c4 | c4( c4) c4 | c4( c4) c4 | c2. \break } % Soprano 1
-patternB = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Soprano 2
-patternC = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \break } % Alto 1 & Tenor / Bass 2
-patternD = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \break } % Alto 2
-patternE = { c4 c4 c4 | c4( c4) c4 | c2      c4 | c2. \break } % Tenor / Bass 1
+patternA = { c4 c4 c4 | c4( c4) c4 | c4( c4) c4 | c2. \eogbreak } % Soprano 1
+patternB = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \eogbreak } % Soprano 2
+patternC = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \eogbreak } % Alto 1 & Tenor / Bass 2
+patternD = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \eogbreak } % Alto 2
+patternE = { c4 c4 c4 | c4( c4) c4 | c2      c4 | c2. \eogbreak } % Tenor / Bass 1
 
-patternR = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \break } % Soprano / Alto / Bass Refrain
-patternS = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \break } % Tenor Refrain
+patternR = { c4 c4 c4 | c2      c4 | c2      c4 | c2. \eogbreak } % Soprano / Alto / Bass Refrain
+patternS = { c4 c4 c4 | c2      c4 | c4( c4) c4 | c2. \eogbreak } % Tenor Refrain
 
 global = {
   \include "common/overrides.ily"

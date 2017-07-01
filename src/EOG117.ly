@@ -43,14 +43,14 @@ notesSoprano = {
 \relative c' {
 
   \changePitch \patternAA { d d | g fis e g | d g }
-  \changePitch \patternAB { b b | a g b a | g } \break
+  \changePitch \patternAB { b b | a g b a | g } \eogbreak
   \changePitch \patternAA { d d | g fis e g | d g }
-  \changePitch \patternAB { b b | a g b a | g } \break
+  \changePitch \patternAB { b b | a g b a | g } \eogbreak
 
   \changePitch \patternBA { d' d | d c b e d | d c b }
-  \changePitch \patternBB { c c | c b a d c | b } \break
+  \changePitch \patternBB { c c | c b a d c | b } \eogbreak
   \changePitch \patternAA { d, d | g fis e g | d g }
-  \changePitch \patternAB { b b | a g b a | g } \break
+  \changePitch \patternAB { b b | a g b a | g } \eogbreak
 
   \bar "|."
 

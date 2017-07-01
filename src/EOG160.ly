@@ -80,7 +80,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Though in a for -- eign land, \bar "."
-We are not far from home; \bar "." \break
+We are not far from home; \bar "." \eogbreak
 And near -- er to our rest a -- bove \bar "."
 We ev -- ery mo -- ment come. \bar "."
 

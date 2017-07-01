@@ -100,11 +100,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 O Christ, what bur -- dens bowed Thy head! \bar "."
-Our load was laid on Thee; \bar "." \break
+Our load was laid on Thee; \bar "." \eogbreak
 Thou stood -- est in the sin -- ner’s stead \bar "."
-To bear all ill for me. \bar "." \break
+To bear all ill for me. \bar "." \eogbreak
 A vic -- tim led, Thy blood was shed; \bar "."
-Now there’s no load for me. \bar "." \break
+Now there’s no load for me. \bar "." \eogbreak
 
 }
 

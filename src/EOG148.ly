@@ -87,7 +87,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Lord, while our souls in faith re -- pose \bar "."
-Up -- on Thy pre -- cious blood, \bar "." \break
+Up -- on Thy pre -- cious blood, \bar "." \eogbreak
 Peace like an ev -- en riv -- er flows, \bar "."
 And mer -- cy like a flood. \bar "."
 

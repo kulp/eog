@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
   Come, wear -- y, anx -- ious, la -- den soul, \bar "."
-  To Je -- sus come, and be made whole; \bar "." \break
+  To Je -- sus come, and be made whole; \bar "." \eogbreak
   On Him your heav -- y bur -- den roll– \bar "."
   Come, anx -- ious sin -- ner, come! \bar "."
 

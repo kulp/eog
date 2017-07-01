@@ -129,7 +129,7 @@ wordsA = \lyricmode {
 Have you been to Je -- sus for the clean -- sing power? \bar "."
 Are you washed in the blood of the Lamb? \bar "."
 Are you ful -- ly trust -- ing in His grace this hour? \bar "."
-Are you washed in the blood of the Lamb? \bar "." \break
+Are you washed in the blood of the Lamb? \bar "." \eogbreak
 
 }
 

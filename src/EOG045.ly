@@ -108,7 +108,7 @@ wordsA = \lyricmode {
 
 The wan -- der -- er { \mon } no more { \moff } will roam, \bar "."
 The lost one to the fold hath come, \bar "."
-The prod -- i -- gal is wel -- comed home, \bar "." \break
+The prod -- i -- gal is wel -- comed home, \bar "." \eogbreak
 O Lamb of God, to Thee! \bar "."
 O Lamb of God, to Thee! \bar "."
 

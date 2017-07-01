@@ -116,7 +116,7 @@ Why be in sla -- ver -- y, why { \mon } Sa -- tan’s { \moff } spoil? \bar "."
 You may be blest, may be blest: % \bar "."
 Christ now in -- vites { \mon } you sweet { \moff } rest to re -- ceive, \bar "."
 Heav -- y’s your bur -- { \mon } den, but { \moff } He can re -- lieve; % \bar "."
-If but this mo -- ment in { \pageBreak } Him you be -- lieve, \bar "."
+If but this mo -- ment in { \eogpagebreak } Him you be -- lieve, \bar "."
 You shall have rest, shall have rest. \bar "."
 
 }

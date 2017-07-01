@@ -87,9 +87,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Come to the Sav -- iour, come to the Sav -- iour, \bar "."
-Ye {\break} sin -- strick -- en chil -- dren of men; \bar "."
+Ye {\eogbreak} sin -- strick -- en chil -- dren of men; \bar "."
 He left His throne a -- bove, \bar "."
-To re -- {\break} veal His won -- drous love, \bar "."
+To re -- {\eogbreak} veal His won -- drous love, \bar "."
 And to o -- pen a foun -- tain for sin. \bar "."
 
 }

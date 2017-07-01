@@ -93,9 +93,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “Too late, too late!” how sad the sound \bar "."
-On anx -- ious hu -- man ears, \bar "." \break
+On anx -- ious hu -- man ears, \bar "." \eogbreak
 Of those who’ve wait -- ed long, a prey \bar "."
-To doubts, and hopes, and fears. \bar "." \break
+To doubts, and hopes, and fears. \bar "." \eogbreak
 
 }
 

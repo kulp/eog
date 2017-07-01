@@ -32,7 +32,7 @@ notesSoprano = {
   c8 | f, f a a g g f
   a8 | c c d f c4. \break % \break verified in letter as well as eogsized
   c8 | d d c c bes bes a8 % original has tie, but only one verse is sung that way
-  a8 | g8 c c b c4. \break
+  a8 | g8 c c b c4. \eogbreak
 
   c8^\markup { \small \caps "Refrain" } | f, f a a g g f[ a8] |
   c c d f c4.

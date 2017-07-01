@@ -84,13 +84,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh, what a glo -- rious truth is this– \bar "."
-Je -- sus died, Je -- sus died; \bar "." \break
+Je -- sus died, Je -- sus died; \bar "." \eogbreak
 Has o -- pened up the path of bliss; \bar "."
-Je -- sus died, Je -- sus died; \bar "." \break
+Je -- sus died, Je -- sus died; \bar "." \eogbreak
 God loved the world, His Son He gave, \bar "."
-That all who do in Him be -- lieve \bar "." \break
+That all who do in Him be -- lieve \bar "." \eogbreak
 Should a full, gra -- cious par -- don have; \bar "."
-Je -- sus died, Je -- sus died. \bar "." \break
+Je -- sus died, Je -- sus died. \bar "." \eogbreak
 
 }
 

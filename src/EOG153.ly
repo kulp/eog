@@ -96,7 +96,7 @@ wordsA = \lyricmode {
 Je -- sus! life -- giv -- ing sound, \bar "."
 The joy of earth and heaven; \bar "." \eogpagebreak
 No oth -- er help is found, \bar "."
-No oth -- er name is giv’n, \bar "." \break
+No oth -- er name is giv’n, \bar "." \eogbreak
 In which the sons of men can boast, \bar "."
 %{HIDE>%}But His who seeks and saves the lost, \bar "." %{<HIDE%}
 But His who seeks and saves the lost. \bar "."

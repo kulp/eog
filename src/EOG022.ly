@@ -93,9 +93,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Je -- sus is a { \italicsOn } lov -- ing { \italicsOff } Sav -- iour, \bar "."
-Love it was that brought Him low; \bar "." \break
+Love it was that brought Him low; \bar "." \eogbreak
 Come, He says, in words of mer -- cy, \bar "."
-Prove my lov -- ing -- kind -- ness now. \bar "." \break
+Prove my lov -- ing -- kind -- ness now. \bar "." \eogbreak
 
 }
 

@@ -36,13 +36,13 @@ notesSoprano = {
 \relative c' {
 
   fis4. fis8 | fis2. d4 g4. fis8 | fis2\( d2\)
-  \tuplet 3/2 { d4 e4 fis4 } | g2. b4 a4. g8 | fis1 \break
+  \tuplet 3/2 { d4 e4 fis4 } | g2. b4 a4. g8 | fis1 \eogbreak
   d4. d8 | e2 ~ \repeat unfold 2 { \tuplet 3/2 { e4\( dis e\) } } | fis2 d2
-  d4. d8 | e2 ~ \tuplet 3/2 { e4\( dis e\) } \tuplet 3/2 { e\( g fis\) } | d1 \break
+  d4. d8 | e2 ~ \tuplet 3/2 { e4\( dis e\) } \tuplet 3/2 { e\( g fis\) } | d1 \eogbreak
   a'4. a8 | fis'2. e4 \tuplet 3/2 { e4 d b } | a2\( fis2\)
-  d'4. b8 | a2. fis4 e4. fis8 | g1 \break
+  d'4. b8 | a2. fis4 e4. fis8 | g1 \eogbreak
   fis4. a8 | fis'2. e4 \tuplet 3/2 { e4 d b } | a2\( fis2\)
-  d'4. b8 | a2. d,4 fis4. e8 | d1 \break
+  d'4. b8 | a2. d,4 fis4. e8 | d1 \eogbreak
 
   \bar "|."
 

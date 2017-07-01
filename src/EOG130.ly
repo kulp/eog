@@ -148,7 +148,7 @@ To ev -- ’ry be -- liev -- er the prom -- ise of God;
 The vi -- lest of -- fend -- er who tru -- ly be -- lieves,
 That mo -- ment from Je -- sus a par -- don re -- ceives.
 
-{ \break }
+{ \eogbreak }
 \Refrain
 
 }

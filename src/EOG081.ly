@@ -104,11 +104,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “It is fin -- ished!” Sin -- ners, hear it, \bar "."
-’Tis the dy -- ing Vic -- tor’s cry; \bar "." \break
+’Tis the dy -- ing Vic -- tor’s cry; \bar "." \eogbreak
 “It is fin -- ished!” An -- gels, bear it, \bar "."
-Bear the joy -- ful news on high! \bar "." \break
+Bear the joy -- ful news on high! \bar "." \eogbreak
 “It is fin -- ished!” “It is fin -- ished!” \bar "."
-Tell it thro’ the earth and sky. \bar "." \break
+Tell it thro’ the earth and sky. \bar "." \eogbreak
 
 }
 

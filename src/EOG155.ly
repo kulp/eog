@@ -94,13 +94,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 By Thee, O God, in -- vit -- ed, \bar "."
-We look un -- to the Son, \bar "." \break
+We look un -- to the Son, \bar "." \eogbreak
 In whom Thy soul de -- light -- ed, \bar "."
-Who all Thy will hath done; \bar "." \break
+Who all Thy will hath done; \bar "." \eogbreak
 And by the one chief trea -- sure \bar "."
-Thy bos -- om free -- ly gave, \bar "." \break
+Thy bos -- om free -- ly gave, \bar "." \eogbreak
 Thine own pure love we meas -- ure, \bar "."
-Thy will -- ing mind to save. \bar "." \break
+Thy will -- ing mind to save. \bar "." \eogbreak
 
 }
 

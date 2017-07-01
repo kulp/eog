@@ -110,9 +110,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Come, let us all u -- nite to sing, \bar "."
-God is love, God is love. \bar "." \break
+God is love, God is love. \bar "." \eogbreak
 Let heaven and earth their prais -- es bring: \bar "."
-God is love, God is love. \bar "." \break
+God is love, God is love. \bar "." \eogbreak
 Let ev -- ery soul from sin a -- wake, \bar "."
 Each in his heart sweet mu -- sic make, \bar "."
 And sing with us, for Je -- sus’ sake, \bar "."

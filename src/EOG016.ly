@@ -122,9 +122,9 @@ notesLower = {
 Refrain = \lyricmode {
 
 Oh, the glo -- ry of the grace, \bar "."
-Shin -- ing in the Sav -- iour’s face! \bar "." \break
+Shin -- ing in the Sav -- iour’s face! \bar "." \eogbreak
 Tell -- ing sin -- ners from a -- bove, \bar "."
-“God is light” and “God is love.” \bar "." \break
+“God is light” and “God is love.” \bar "." \eogbreak
 
 }
 
@@ -132,9 +132,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 God in mer -- cy sent His Son \bar "."
-To a world by sin un -- done; \bar "." \break
+To a world by sin un -- done; \bar "." \eogbreak
 Je -- sus Christ was cru -- ci -- fied– \bar "."
-’Twas for sin -- ners Je -- sus died. \bar "." \break
+’Twas for sin -- ners Je -- sus died. \bar "." \eogbreak
 
 }
 

@@ -55,7 +55,7 @@ notesSoprano = {
   \changePitch \patternBB { c,   | f f f f     | f   }
   \changePitch \patternBA { f a  | g g g g     | g   }
   \changePitch \patternAB { a g  | f f f f     | f f }
-  \changePitch \patternBA { f g  | a bes a g   | f   } \pageBreak
+  \changePitch \patternBA { f g  | a bes a g   | f   } \eogpagebreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternCA { a f  | c' bes g    | c   } >>
@@ -138,10 +138,10 @@ RefrainA = \lyricmode {
 
 %{HIDE>%} Gos -- pel bells, how they ring \bar "." %{<HIDE%}
 %LYRICS Gos -- pel bells ...  how they ring
-O -- ver land from sea to sea; \bar "." \break
+O -- ver land from sea to sea; \bar "." \eogbreak
 %{HIDE>%} Gos -- pel bells, free -- ly bring \bar "." %{<HIDE%}
 %LYRICS Gos -- pel bells ... free -- ly bring
-Bless -- ed news to you and me. \bar "." \break
+Bless -- ed news to you and me. \bar "." \eogbreak
 
 }
 
@@ -161,13 +161,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The gos -- pel bells are ring -- ing \bar "."
-O -- ver land, from sea to sea; \bar "." \break
+O -- ver land, from sea to sea; \bar "." \eogbreak
 Bless -- ed news of free sal -- va -- tion \bar "."
-Do they of -- fer you and me. \bar "." \break
+Do they of -- fer you and me. \bar "." \eogbreak
 “For God so loved the world, \bar "."
-That His on -- ly Son He gave; \bar "." \break
+That His on -- ly Son He gave; \bar "." \eogbreak
 Who -- so -- e’er be -- liev -- eth in Him \bar "."
-Ev -- er -- last -- ing life shall have.” \bar "." \break
+Ev -- er -- last -- ing life shall have.” \bar "." \eogbreak
 
 }
 

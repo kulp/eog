@@ -85,9 +85,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
   Faith is a ver -- y sim -- ple thing, \bar "."
-  Tho’ lit -- tle un -- der -- stood; \bar "." \break
+  Tho’ lit -- tle un -- der -- stood; \bar "." \eogbreak
   It frees the soul from death’s dread sting, \bar "."
-  By rest -- ing on the blood. \bar "|." \break
+  By rest -- ing on the blood. \bar "|." \eogbreak
 
 }
 

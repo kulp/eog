@@ -93,9 +93,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 He knew no sin, that Ho -- ly One, \bar "."
-Yet was made sin for us, \bar "." \break
+Yet was made sin for us, \bar "." \eogbreak
 God gave His well -- be -- lov -- ed Son \bar "."
-To die for sin -- ners thus. \bar "." \break
+To die for sin -- ners thus. \bar "." \eogbreak
 
 }
 

@@ -39,13 +39,13 @@ global = {
 notesSoprano = {
 \global
 \relative a' {
-  c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c ees4. c8 bes4 aes bes2 \break
-  c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c f,4. bes8 aes4 g aes2 \break
-  c4 ees ees c bes aes c bes       \noBreak | c ees ees4. c8 bes4 aes bes2 \break
+  c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c ees4. c8 bes4 aes bes2 \eogbreak
+  c4 bes aes4. g8 f4 aes f ees     \noBreak | aes4 c f,4. bes8 aes4 g aes2 \eogbreak
+  c4 ees ees c bes aes c bes       \noBreak | c ees ees4. c8 bes4 aes bes2 \eogbreak
   % TODO actually make MIDI output soft
 	% Used to use c4^\p here but that made only the soprano soft, and putting it
 	% in every voice resulted in too many p's.
-  c4^\markup { \dynamic p } bes aes ees des'4. f,8 f4 ees \noBreak | aes c f,4. bes8 aes4 g aes2 \break
+  c4^\markup { \dynamic p } bes aes ees des'4. f,8 f4 ees \noBreak | aes c f,4. bes8 aes4 g aes2 \eogbreak
 
 \bar "|."
 }
@@ -55,10 +55,10 @@ notesAlto = {
 \global
 \relative e' {
 
-  ees4 des c4. ees8 des4 des des c \noBreak | ees4 aes aes4. aes8 ees4 d ees2 \break
-  ees4 des c4. ees8 des4 des des c \noBreak | c4 ees des4. f8 ees4 ees ees2 \break
-  aes4 aes aes aes g f aes g       \noBreak | aes aes aes4. aes8 ees4 d ees2 \break
-  ees4 des c c f4. des8 des4 c     \noBreak | c ees des4. f8 ees4 ees ees2 \break
+  ees4 des c4. ees8 des4 des des c \noBreak | ees4 aes aes4. aes8 ees4 d ees2 \eogbreak
+  ees4 des c4. ees8 des4 des des c \noBreak | c4 ees des4. f8 ees4 ees ees2 \eogbreak
+  aes4 aes aes aes g f aes g       \noBreak | aes aes aes4. aes8 ees4 d ees2 \eogbreak
+  ees4 des c c f4. des8 des4 c     \noBreak | c ees des4. f8 ees4 ees ees2 \eogbreak
 
 }
 }
@@ -67,10 +67,10 @@ notesTenor = {
 \global
 \relative a {
 
-  aes4 ees ees4. aes8 aes4 aes aes aes \noBreak | c4 ees c4. ees8 ees4 bes g2 \break
-  aes4 ees ees4. aes8 aes4 aes aes aes \noBreak | ees4 aes aes4. des8 c4 bes c2 \break
-  ees4 c c ees des c ees ees                                    \noBreak | ees c c4. ees8 ees4 bes g2 \break
-  aes4 ees ees aes aes4. aes8 aes4 aes                          \noBreak | ees aes aes4. des8 c4 bes c2 \break
+  aes4 ees ees4. aes8 aes4 aes aes aes \noBreak | c4 ees c4. ees8 ees4 bes g2 \eogbreak
+  aes4 ees ees4. aes8 aes4 aes aes aes \noBreak | ees4 aes aes4. des8 c4 bes c2 \eogbreak
+  ees4 c c ees des c ees ees                                    \noBreak | ees c c4. ees8 ees4 bes g2 \eogbreak
+  aes4 ees ees aes aes4. aes8 aes4 aes                          \noBreak | ees aes aes4. des8 c4 bes c2 \eogbreak
 
 }
 }
@@ -79,10 +79,10 @@ notesBass = {
 \global
 \relative a, {
 
-  aes4 aes aes4. c8 des4 f aes aes  \noBreak | aes4 aes aes4. aes8 g4 f ees2 \break
-  aes,4 aes aes4. c8 des4 f aes aes \noBreak | aes,4 aes des4. des8 ees4 ees aes,2 \break
-  aes'4 aes aes aes ees f ees ees                            \noBreak | aes aes aes4. aes8 g4 f ees2 \break
-  aes,4 aes aes aes des4. des8 aes4 aes                      \noBreak | aes aes des4. des8 ees4 ees aes2 \break
+  aes4 aes aes4. c8 des4 f aes aes  \noBreak | aes4 aes aes4. aes8 g4 f ees2 \eogbreak
+  aes,4 aes aes4. c8 des4 f aes aes \noBreak | aes,4 aes des4. des8 ees4 ees aes,2 \eogbreak
+  aes'4 aes aes aes ees f ees ees                            \noBreak | aes aes aes4. aes8 g4 f ees2 \eogbreak
+  aes,4 aes aes aes des4. des8 aes4 aes                      \noBreak | aes aes des4. des8 ees4 ees aes2 \eogbreak
 
 }
 }
@@ -91,11 +91,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 “Come!” ’tis Je -- sus gen -- tly cal -- ling, \bar "."
-“Ye with care and toil op -- pressed, \bar "." \break
+“Ye with care and toil op -- pressed, \bar "." \eogbreak
 With your guilt how -- e’er ap -- pall -- ing– \bar "."
-Come, and I will give you rest.” \bar "." \break
+Come, and I will give you rest.” \bar "." \eogbreak
 For your sin He “once has suf -- fered,” \bar "."
-On the cross the work was done, \bar "." \break
+On the cross the work was done, \bar "." \eogbreak
 And the word by God now ut -- tered \bar "."
 To each wear -- y soul is “Come!” \bar "."
 

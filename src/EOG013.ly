@@ -122,9 +122,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Grace! ’tis a charm -- ing sound, \bar "."
-Har -- mo -- nious to the ear; \bar "." \break
+Har -- mo -- nious to the ear; \bar "." \eogbreak
 Heav’n with the ech -- o shall re -- sound, \bar "."
-And all the earth shall hear. \bar "." \break
+And all the earth shall hear. \bar "." \eogbreak
 
 }
 

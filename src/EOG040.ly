@@ -113,7 +113,7 @@ notesBass = {
 RefrainA = \lyricmode {
 
 That who -- so -- ev -- er will be -- lieve \bar "."
-Shall ev -- er -- last -- ing \break life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing \eogbreak life re -- ceive– \bar "."
 Shall ev -- er -- last -- ing life re -- ceive!
 
 }
@@ -121,7 +121,7 @@ Shall ev -- er -- last -- ing life re -- ceive!
 RefrainB = \lyricmode {
 
 For who -- so -- ev -- er will be -- lieve \bar "."
-Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing \eogbreak %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
 Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
@@ -129,7 +129,7 @@ Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 RefrainC = \lyricmode {
 
 That who -- so -- ev -- er will be -- lieve \bar "."
-Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing \eogbreak %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
 Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
@@ -137,7 +137,7 @@ Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 RefrainD = \lyricmode {
 
 For who -- so -- ev -- er will be -- lieve \bar "."
-Shall ev -- er -- last -- ing \break %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
+Shall ev -- er -- last -- ing \eogbreak %{HIDE>%} \lyricsInvis %{<HIDE%} life re -- ceive– \bar "."
 Shall ev -- er -- last -- ing life re -- ceive! %{HIDE>%} \lyricsVis %{<HIDE%}
 
 }
@@ -146,9 +146,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The gos -- pel of Thy grace \bar "."
-My stub -- born heart has won; \bar "." \break
+My stub -- born heart has won; \bar "." \eogbreak
 For God so loved the world, \bar "."
-He gave His on -- ly Son, \bar "." \break
+He gave His on -- ly Son, \bar "." \eogbreak
 \RefrainA
 
 }

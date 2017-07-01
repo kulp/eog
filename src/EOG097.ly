@@ -91,9 +91,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh, how sweet the gos -- pel mes -- sage, \bar "."
-Rich and bound -- less, full and free; \bar "." \break
+Rich and bound -- less, full and free; \bar "." \eogbreak
 Sin -- ner, wilt thou pause and lis -- ten? \bar "."
-Je -- sus died, and died for thee. \bar "." \break
+Je -- sus died, and died for thee. \bar "." \eogbreak
 
 }
 

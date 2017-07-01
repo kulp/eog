@@ -113,13 +113,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The ho -- ly Lamb has died, \bar "."
-A vic -- tim on the tree, \bar "." \break
+A vic -- tim on the tree, \bar "." \eogbreak
 For sin -- ners He was cru -- ci -- fied, \bar "."
-To set them free; \bar "." \break
+To set them free; \bar "." \eogbreak
 He bore the right -- eous stroke \bar "."
-Of God’s right hand of pow’r, \bar "." \break
+Of God’s right hand of pow’r, \bar "." \eogbreak
 O’er Him the waves and bil -- lows broke, \bar "."
-In that dark hour. \bar "." \break
+In that dark hour. \bar "." \eogbreak
 
 }
 

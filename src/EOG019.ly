@@ -126,9 +126,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Noth -- ing, ei -- ther great or small, \bar "."
-Noth -- ing, sin -- ner, no; \bar "." \break
+Noth -- ing, sin -- ner, no; \bar "." \eogbreak
 Je -- sus did it, did it all, \bar "."
-Long, long a -- go. \bar "." \break
+Long, long a -- go. \bar "." \eogbreak
 
 }
 

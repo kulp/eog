@@ -120,7 +120,7 @@ wordsA = \lyricmode {
 
 Come sing, my soul, and praise the Lord, \bar "."
 Who hath re -- deemed thee by His blood; \bar "."
-De -- liv -- ered thee from chains that bound, \bar "." %\break % original formatting has break
+De -- liv -- ered thee from chains that bound, \bar "." %\eogbreak % original formatting has break
 And brought thee to re -- demp -- tion ground. \bar "."
 
 }

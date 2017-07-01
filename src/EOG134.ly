@@ -123,9 +123,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 What shall the an -- swer be? \bar "."
-What shall the an -- swer be? \bar "." \break
+What shall the an -- swer be? \bar "." \eogbreak
 What will you do with Je -- sus? \bar "."
-Oh, what shall the an -- swer be? \bar "." \break
+Oh, what shall the an -- swer be? \bar "." \eogbreak
 
 }
 
@@ -133,13 +133,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh, what will you do with Je -- sus? \bar "."
-The call comes low and sweet; \bar "." \break
+The call comes low and sweet; \bar "." \eogbreak
 And ten -- der -- ly He bids you \bar "."
-Your bur -- dens { \mon } lay at { \moff } His feet; \bar "." \break
+Your bur -- dens { \mon } lay at { \moff } His feet; \bar "." \eogbreak
 O soul, so sad and wear -- y, \bar "."
-That sweet voice speaks to thee: \bar "." \break
+That sweet voice speaks to thee: \bar "." \eogbreak
 Then what will you do with Je -- sus? \bar "."
-Oh, what shall the an -- swer be? \bar "." \break
+Oh, what shall the an -- swer be? \bar "." \eogbreak
 
 }
 

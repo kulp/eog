@@ -194,8 +194,6 @@ wordsE = \markuplist {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
 
-\pageBreak
-
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

@@ -111,13 +111,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Sal -- va -- tion thro’ Christ Je -- sus! \bar "."
-En -- dear -- ing, pre -- cious sound! \bar "." \break
+En -- dear -- ing, pre -- cious sound! \bar "." \eogbreak
 Shout, shout the word “sal -- va -- tion” \bar "."
-To earth’s re -- mot -- est bound– \bar "." \break
+To earth’s re -- mot -- est bound– \bar "." \eogbreak
 Sal -- va -- tion for the guilt -- y, \bar "."
-Sal -- va -- tion for the lost; \bar "." \break
+Sal -- va -- tion for the lost; \bar "." \eogbreak
 Sal -- va -- tion for the wretch -- ed, \bar "."
-The sad and tem -- pest -- tossed. \bar "." \break
+The sad and tem -- pest -- tossed. \bar "." \eogbreak
 
 }
 

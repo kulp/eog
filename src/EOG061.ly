@@ -87,9 +87,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Be -- hold the Lamb! ’tis He who bore \bar "."
-My sins up -- on the tree, \bar "." \break
+My sins up -- on the tree, \bar "." \eogbreak
 And paid in death the dread -- ful score– \bar "."
-The guilt that lay on me. \bar "." \break
+The guilt that lay on me. \bar "." \eogbreak
 
 }
 

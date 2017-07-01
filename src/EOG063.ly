@@ -115,7 +115,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Christ has died up -- on the tree, \bar "."
-Grace flows down from God to thee, \bar "." \break
+Grace flows down from God to thee, \bar "." \eogbreak
 Grace, free grace, flows down from God to thee. \bar "."
 
 }
@@ -124,9 +124,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Bro -- ken heart! the foun -- tain’s o -- pen, \bar "."
-Christ hath died up -- on the tree; \bar "." \break
+Christ hath died up -- on the tree; \bar "." \eogbreak
 All the powers of hell are sha -- ken, \bar "."
-Grace flows down from God to thee. \bar "." \break
+Grace flows down from God to thee. \bar "." \eogbreak
 
 }
 

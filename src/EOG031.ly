@@ -92,9 +92,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Pre -- cious, pre -- cious blood of Je -- sus, \bar "."
-Shed on Cal -- va -- ry; \bar "." \break
+Shed on Cal -- va -- ry; \bar "." \eogbreak
 Shed for reb -- els, and for sin -- ners, \bar "."
-Shed for me. \bar "." \break
+Shed for me. \bar "." \eogbreak
 
 }
 

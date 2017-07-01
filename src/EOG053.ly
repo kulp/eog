@@ -109,9 +109,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Je -- sus bled and died for me; \bar "."
-Je -- sus suf -- fered on the tree; \bar "." \break
+Je -- sus suf -- fered on the tree; \bar "." \eogbreak
 Je -- sus waits to make me free; \bar "."
-He a -- lone can save me! \bar "." \break
+He a -- lone can save me! \bar "." \eogbreak
 
 }
 
@@ -122,7 +122,7 @@ Weep -- ing will not save me; \bar "."
 Tho’ my face were bathed in tears, \bar "."
 That could not al -- lay my fears, \bar "."
 Could not wash the sins of years; \bar "."
-Weep -- ing will not save me. \bar "." \break
+Weep -- ing will not save me. \bar "." \eogbreak
 
 }
 

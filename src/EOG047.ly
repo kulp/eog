@@ -103,9 +103,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Rise, dear soul! be -- hold the Sav -- iour, \bar "."
-Seat -- ed on the Fa -- ther’s throne; \bar "." \break
+Seat -- ed on the Fa -- ther’s throne; \bar "." \eogbreak
 Ob -- ject of God’s high -- est fa -- vor; \bar "."
-See Him– God’s be -- lov -- ed Son. \bar "." \break
+See Him– God’s be -- lov -- ed Son. \bar "." \eogbreak
 
 }
 

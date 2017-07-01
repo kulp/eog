@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 O Lord! ’tis joy to look a -- bove, \bar "."
-And see Thee on the throne, \bar "." \break
+And see Thee on the throne, \bar "." \eogbreak
 To search the heights and depths of love \bar "."
 Which Thou to us hast shown. \bar "." % XXX blue book puts full stop, but next stanza is not a complete sentence
 

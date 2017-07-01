@@ -91,9 +91,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Je -- sus on -- ly can im -- part \bar "."
-Peace of con -- science, joy of heart; \bar "." \break
+Peace of con -- science, joy of heart; \bar "." \eogbreak
 Je -- sus on -- ly can pro -- claim \bar "."
-Par -- don thro’ His bless -- ed name. \bar "." \break
+Par -- don thro’ His bless -- ed name. \bar "." \eogbreak
 
 }
 

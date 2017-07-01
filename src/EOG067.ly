@@ -110,13 +110,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Christ is com -- ing. Are you read -- y? \bar "."
-He is com -- ing for His own; \bar "." \break
+He is com -- ing for His own; \bar "." \eogbreak
 He will call them up to meet Him, \bar "."
-And will place them on His throne. \bar "." \break
+And will place them on His throne. \bar "." \eogbreak
 He may come, we know, at mid -- night, \bar "."
-When the world in slum -- ber lies, \bar "." \break
+When the world in slum -- ber lies, \bar "." \eogbreak
 Or it may be in the morn -- ing, \bar "."
-Ere the day dawns in the skies. \bar "." \break
+Ere the day dawns in the skies. \bar "." \eogbreak
 
 }
 

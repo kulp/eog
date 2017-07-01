@@ -116,9 +116,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Sweet -- est note in ser -- aph song, \bar "."
-Sweet -- est car -- ol ev -- er sung, \bar "." \break
+Sweet -- est car -- ol ev -- er sung, \bar "." \eogbreak
 Sweet -- est name on mor -- tal tongue, \bar "."
-Je -- sus, Je -- sus, Je -- sus. \bar "." \break
+Je -- sus, Je -- sus, Je -- sus. \bar "." \eogbreak
 
 }
 
@@ -126,9 +126,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The great Phy -- si -- cian now is near, \bar "."
-The sym -- pa -- thiz -- ing Je -- sus; \bar "." \break
+The sym -- pa -- thiz -- ing Je -- sus; \bar "." \eogbreak
 He speaks, the droop -- ing heart to cheer; \bar "."
-Oh, hear the voice of Je -- sus. \bar "." \break
+Oh, hear the voice of Je -- sus. \bar "." \eogbreak
 
 }
 

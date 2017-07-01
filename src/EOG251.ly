@@ -110,13 +110,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 O Lord, how does Thy mer -- cy throw \bar "."
-Its guar -- dian shad -- ow o’er us, \bar "." \break
+Its guar -- dian shad -- ow o’er us, \bar "." \eogbreak
 Pre -- serv -- ing while we’re here be -- low, \bar "."
-Safe to the rest be -- fore us! \bar "." \break
+Safe to the rest be -- fore us! \bar "." \eogbreak
 As weak -- er than a bruis -- ed reed, \bar "."
-We can -- not do with -- out Thee; \bar "." \break
+We can -- not do with -- out Thee; \bar "." \eogbreak
 We want Thee here each hour of need, \bar "."
-Shall want Thee, too, in glo -- ry. \bar "." \break
+Shall want Thee, too, in glo -- ry. \bar "." \eogbreak
 
 }
 

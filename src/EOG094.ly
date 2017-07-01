@@ -112,9 +112,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Who -- so -- ev -- er will may take it! \bar "."
-Hear the gos -- pel cry! \bar "." \break
+Hear the gos -- pel cry! \bar "." \eogbreak
 With -- out price and with -- out mon -- ey, \bar "."
-Come to Him and buy. \bar "." \break
+Come to Him and buy. \bar "." \eogbreak
 
 }
 
@@ -122,9 +122,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Ho, you thirst -- y, Je -- sus calls you; \bar "."
-Je -- sus came to give \bar "." \break
+Je -- sus came to give \bar "." \eogbreak
 Wine and milk of free sal -- va -- tion; \bar "."
-Come to Him and live. \bar "." \break
+Come to Him and live. \bar "." \eogbreak
 
 }
 
@@ -204,8 +204,6 @@ wordsE = \markuplist {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
 } } }
-
-\pageBreak
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

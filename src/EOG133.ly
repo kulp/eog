@@ -87,16 +87,16 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Un -- to Him who hath loved us and washed us from sins, \bar "." \break
-Un -- to Him be the glo -- ry for -- ev -- er. A -- men. \bar "." \break
+Un -- to Him who hath loved us and washed us from sins, \bar "." \eogbreak
+Un -- to Him be the glo -- ry for -- ev -- er. A -- men. \bar "." \eogbreak
 
 }
 
 wordsA = \lyricmode {
 \set stanza = "1."
 
-With joy and with glad -- ness there stands a great throng, \bar "." \break % XXX blue book changes "stand" to "stands" but leaves "sing" in the next line
-In the pres -- ence of Je -- sus, and sing this new song: \bar "." \break
+With joy and with glad -- ness there stands a great throng, \bar "." \eogbreak % XXX blue book changes "stand" to "stands" but leaves "sing" in the next line
+In the pres -- ence of Je -- sus, and sing this new song: \bar "." \eogbreak
 
 }
 

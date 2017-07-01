@@ -134,9 +134,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 God loved the world so ten -- der -- ly, \bar "."
-His on -- ly Son He gave, \bar "." \break
+His on -- ly Son He gave, \bar "." \eogbreak
 That all who on His name be -- lieve, \bar "."
-Its won -- drous pow’r will save. \bar "." \break
+Its won -- drous pow’r will save. \bar "." \eogbreak
 
 }
 

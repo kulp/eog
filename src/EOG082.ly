@@ -109,13 +109,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Ere God had built the moun -- tains, \bar "."
-Or raised the fruit -- ful hills; \bar "." \break
+Or raised the fruit -- ful hills; \bar "." \eogbreak
 Be -- fore He filled the foun -- tains \bar "."
-That feed the run -- ning rills; \bar "." \break
+That feed the run -- ning rills; \bar "." \eogbreak
 In Thee, from ev -- er -- last -- ing, \bar "."
-The won -- der -- ful I AM \bar "." \break
+The won -- der -- ful I AM \bar "." \eogbreak
 Found plea -- sures nev -- er wast -- ing, \bar "."
-And Wis -- dom is Thy name. \bar "." \break
+And Wis -- dom is Thy name. \bar "." \eogbreak
 
 }
 

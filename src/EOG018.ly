@@ -106,13 +106,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 How pre -- cious and pure is the truth! \bar "."
-How sim -- ple and love -- ly its words! \bar "." \break
+How sim -- ple and love -- ly its words! \bar "." \eogbreak
 ’Tis suit -- ed for age and for youth, \bar "."
-As shown in this type of the birds. \bar "." \break
+As shown in this type of the birds. \bar "." \eogbreak
 A bird of the air was to die, \bar "."
-In -- stead of the lep -- er un -- clean; \bar "." \break
+In -- stead of the lep -- er un -- clean; \bar "." \eogbreak
 And Je -- sus, whose home was on high, \bar "."
-De -- scend -- ed to suf -- fer for sin. \bar "." \break
+De -- scend -- ed to suf -- fer for sin. \bar "." \eogbreak
 
 }
 

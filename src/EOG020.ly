@@ -112,13 +112,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 What means this ea -- ger, anx -- ious throng, \bar "."
-Which moves with bu -- sy haste a -- long, \bar "." \break
+Which moves with bu -- sy haste a -- long, \bar "." \eogbreak
 These won -- drous gath -- ’rings day by day? \bar "."
-What means this strange com -- mo -- tion, pray? \bar "." \break
+What means this strange com -- mo -- tion, pray? \bar "." \eogbreak
 In ac -- cents hushed the throng re -- ply, \bar "."
-“Je -- sus of Naz -- a -- reth pass -- eth by.” \bar "." \break
+“Je -- sus of Naz -- a -- reth pass -- eth by.” \bar "." \eogbreak
 In ac -- cents hushed the throng re -- ply, \bar "."
-“Je -- sus of Naz -- a -- reth pass -- eth by.” \bar "." \break
+“Je -- sus of Naz -- a -- reth pass -- eth by.” \bar "." \eogbreak
 
 }
 

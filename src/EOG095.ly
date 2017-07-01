@@ -113,13 +113,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 I have a glo -- rious Sav -- iour, \bar "."
-Who died up -- on the tree; \bar "." \break
+Who died up -- on the tree; \bar "." \eogbreak
 My sins He bare, and suf -- fered there \bar "."
-The wrath of God for me! \bar "." \break
+The wrath of God for me! \bar "." \eogbreak
 And my sal -- va -- tion now is sure \bar "."
-Since Christ the work has done, \bar "." \break
+Since Christ the work has done, \bar "." \eogbreak
 For God dis -- plays, in right -- eous -- ness, \bar "."
-His glo -- ry in His Son. \bar "." \break
+His glo -- ry in His Son. \bar "." \eogbreak
 
 }
 

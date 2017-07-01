@@ -55,7 +55,7 @@ notesSoprano = {
   \changePitch \patternE { g | f aes g f ees }
   \changePitch \patternF { aes bes | c ees des f ees c bes aes | aes }
 
-  \break
+  \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   { aes8 aes | aes des des des des16 f4. } >>

@@ -90,9 +90,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 A look to Je -- sus saves the soul, \bar "."
-So bound -- less is His grace; \bar "." \break % comma appears in original after "boundless"
+So bound -- less is His grace; \bar "." \eogbreak % comma appears in original after "boundless"
 One look suf -- fic -- eth ev -- ’ry sin \bar "."
-For -- ev -- er to ef -- face. \bar "." \break
+For -- ev -- er to ef -- face. \bar "." \eogbreak
 
 }
 

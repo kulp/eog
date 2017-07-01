@@ -49,20 +49,20 @@ notesSoprano = {
   \time 6/4
 
   \changePitch \patternAA { a | a a b b | a }
-  \changePitch \patternBA { fis d e | fis g | a a } \break
+  \changePitch \patternBA { fis d e | fis g | a a } \eogbreak
   \changePitch \patternAA { g | g fis e fis | g a cis }
-  \changePitch \patternBB { b | a g | fis fis } \break
+  \changePitch \patternBB { b | a g | fis fis } \eogbreak
 
   \changePitch \patternAA { a | a a b b | a }
-  \changePitch \patternBA { fis d e | fis g | a a } \break
+  \changePitch \patternBA { fis d e | fis g | a a } \eogbreak
   \changePitch \patternAA { a | d d d a | cis b a }
-  \changePitch \patternBC { g | fis e | d d } \break
+  \changePitch \patternBC { g | fis e | d d } \eogbreak
 
-  \pageBreak
+  \eogpagebreak
   \time 6/8
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternCA { e fis g | fis g a | b b a gis | a a  } >> \break
+  \changePitch \patternCA { e fis g | fis g a | b b a gis | a a  } >> \eogbreak
   \changePitch \patternDA { d d d a | cis b a g | fis e | d d }
 
   \bar "|."

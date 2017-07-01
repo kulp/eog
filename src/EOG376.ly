@@ -111,13 +111,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Now have I seen Thee and found Thee, \bar "."
-For Thou hast found Thy sheep, \bar "." \break
+For Thou hast found Thy sheep, \bar "." \eogbreak
 I fled, but Thy love would fol -- low, \bar "."
-I strayed, but Thy love would keep. \bar "." \break
+I strayed, but Thy love would keep. \bar "." \eogbreak
 Thou’st grant -- ed my heart’s de -- sire, \bar "."
-Most blest of the { \mon } bless -- ed { \moff } is he \bar "." \break
+Most blest of the { \mon } bless -- ed { \moff } is he \bar "." \eogbreak
 Who find -- eth no { \mon } rest and { \moff } no sweet -- ness, \bar "."
-Till he rest -- eth, { \mon } O Lord, { \moff } in Thee. \bar "." \break
+Till he rest -- eth, { \mon } O Lord, { \moff } in Thee. \bar "." \eogbreak
 
 }
 

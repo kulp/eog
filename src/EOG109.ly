@@ -108,13 +108,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh, the love of God is bound -- less, \bar "."
-Per -- fect, cause -- less, full and free! \bar "." \break
+Per -- fect, cause -- less, full and free! \bar "." \eogbreak
 Doubts have van -- ished, fears are ground -- less, \bar "."
-Now I know that love to me. \bar "." \break
+Now I know that love to me. \bar "." \eogbreak
 Love, the source of all my bless -- ing; \bar "."
-Love, that set it -- self on me; \bar "." \break
+Love, that set it -- self on me; \bar "." \eogbreak
 Love, that gave the spot -- less Vic -- tim; \bar "."
-Love told out at Cal -- va -- ry. \bar "." \break
+Love told out at Cal -- va -- ry. \bar "." \eogbreak
 
 }
 

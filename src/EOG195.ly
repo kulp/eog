@@ -98,9 +98,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 That res -- ur -- rec -- tion word, \bar "."
-That shout of vic -- to -- ry– \bar "." \break
+That shout of vic -- to -- ry– \bar "." \eogbreak
 Once more: “For -- ev -- er with the Lord.” \bar "."
-A -- men, so let it be. \bar "." \break
+A -- men, so let it be. \bar "." \eogbreak
 
 }
 
@@ -108,9 +108,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The Lord Him -- self shall come \bar "."
-And shout a quick -- ening word: \bar "." \break
+And shout a quick -- ening word: \bar "." \eogbreak
 Thou -- sands shall an -- swer from the tomb: \bar "."
-“For -- ev -- er with the Lord.” \bar "." \break
+“For -- ev -- er with the Lord.” \bar "." \eogbreak
 
 }
 

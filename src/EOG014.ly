@@ -119,9 +119,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 Oh! ’twas love, ’twas won -- drous love! \bar "."
-The love of God to me; \bar "." \break
+The love of God to me; \bar "." \eogbreak
 It brought my Sav -- iour from a -- bove, \bar "."
-To die on Cal -- va -- ry. \bar "." \break
+To die on Cal -- va -- ry. \bar "." \eogbreak
 
 }
 
@@ -129,9 +129,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 God loved the world of sin -- ners lost \bar "."
-And ru -- ined by the fall; \bar "." \break
+And ru -- ined by the fall; \bar "." \eogbreak
 Sal -- va -- tion full, at high -- est cost, \bar "."
-He of -- fers free to all. \bar "." \break
+He of -- fers free to all. \bar "." \eogbreak
 
 }
 

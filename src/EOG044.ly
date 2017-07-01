@@ -99,9 +99,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Just as I am– with -- out one plea, \bar "."
-But that Thy blood was shed for me, \bar "." \break
+But that Thy blood was shed for me, \bar "." \eogbreak
 And that Thou bid’st me come to Thee: \bar "."
-O Lamb of God, I come! I come! \bar "." \break
+O Lamb of God, I come! I come! \bar "." \eogbreak
 
 }
 

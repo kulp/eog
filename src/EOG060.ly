@@ -95,10 +95,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-All ye that pass by, \bar "." to Je -- sus draw nigh; \bar "." \break
-To you is it noth -- ing that Je -- sus should die? \bar "." \break
-Our ran -- som, our peace, \bar "." our sure -- ty He is; \bar "." \break
-Come, see if there ev -- er was sor -- row like His. \bar "." \break
+All ye that pass by, \bar "." to Je -- sus draw nigh; \bar "." \eogbreak
+To you is it noth -- ing that Je -- sus should die? \bar "." \eogbreak
+Our ran -- som, our peace, \bar "." our sure -- ty He is; \bar "." \eogbreak
+Come, see if there ev -- er was sor -- row like His. \bar "." \eogbreak
 
 }
 
