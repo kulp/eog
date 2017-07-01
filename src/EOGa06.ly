@@ -1,6 +1,6 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   ragged-last = ##t
   % shrink space before markup verses to fit next hymn on same page
@@ -10,10 +10,13 @@
 
 \header{
   hymnnumber = "6"
-  title = "Luther"
-  tunename = ""
+  tunename = "Luther"
   meter = "8. 7. 8. 7. 8. 8. 7."
   composer = "Geistliche Lieder, 1535"
+  alternate = \markup { \column {
+    "Alternate tune for No. 281."
+    "See also No. 188, Little Flock."
+  } }
   tagline = ##f
 }
 
@@ -113,9 +116,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 281." } }
-\noPageBreak \markup { \fill-line { "See also No. 188, Little Flock." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

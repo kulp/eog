@@ -1,6 +1,6 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
   system-system-spacing.padding = 11
@@ -8,10 +8,10 @@
 
 \header{
   hymnnumber = "2"
-  title = "German Evening Hymn"
-  tunename = ""
+  tunename = "German Evening Hymn"
   meter = "8. 7. 8. 7."
   composer = "German"
+  alternate = \markup { "Alternate tune for No. 286." }
   tagline = ##f
 }
 
@@ -95,8 +95,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 152." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

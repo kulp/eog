@@ -1,6 +1,6 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 3) (#t #f))
   system-system-spacing.padding = 11
@@ -8,10 +8,10 @@
 
 \header{
   hymnnumber = "3"
-  title = "Hail, Sovereign Love"
   tunename = "Cyprus"
   meter = "L. M."
   composer = "Lowell Mason"
+  alternate = \markup { "Alternate tune for No. 88." }
   tagline = ##f
 }
 
@@ -99,8 +99,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 88." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

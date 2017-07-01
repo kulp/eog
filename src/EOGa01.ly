@@ -1,16 +1,19 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
   hymnnumber = "1"
-  title = "French"
-  tunename = ""
+  tunename = "French"
   meter = "C. M."
   composer = "Scottish Psalter, 1615"
+  alternate = \markup { \column {
+    "Alternate tune for No. 286."
+    "See also No. 275, Little Flock."
+  } }
   tagline = ##f
 }
 
@@ -97,9 +100,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 286." } }
-\noPageBreak \markup { \fill-line { "See also No. 275, Little Flock." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

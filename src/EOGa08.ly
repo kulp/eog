@@ -1,6 +1,6 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   markup-system-spacing.padding = 0
   markup-system-spacing.basic-distance = 0
   scoreTitleMarkup = \markup {
@@ -11,7 +11,7 @@
         \fill-line {
           \huge \larger \larger \bold {
             \concat { "  " \fromproperty #'header:hymnnumber }
-            \mytitle
+            \fromproperty #'header:title
             \null
           }
         }

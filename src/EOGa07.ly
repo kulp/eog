@@ -1,6 +1,6 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   ragged-last = ##t
   % shrink space before markup verses to fit previous hymn on same page
@@ -10,10 +10,10 @@
 
 \header{
   hymnnumber = "7"
-  title = "Martyn"
-  tunename = ""
+  tunename = "Martyn"
   meter = "8-7s."
   composer = "S. B. Marsh"
+  alternate = \markup { "Alternate tune for No. 379." }
   tagline = ##f
 }
 
@@ -105,8 +105,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 379." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

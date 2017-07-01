@@ -1,16 +1,16 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
   hymnnumber = "5"
-  title = "Olive’s Brow"
-  tunename = ""
+  tunename = "Olive’s Brow"
   meter = "P. M."
   composer = "W. B. Bradbury"
+  alternate = \markup { "Alternate tune for No. 205." }
   tagline = ##f
 }
 
@@ -98,8 +98,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 205." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

@@ -1,16 +1,16 @@
 \include "common/global.ily"
 \paper {
-  \include "common/paper.ily"
+  \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
   hymnnumber = "4"
-  title = "Saved by Grace"
-  tunename = ""
+  tunename = "Saved by Grace"
   meter = "L. M. D."
   composer = "Geo. C. Stebbins"
+  alternate = \markup { "Alternate tune for No. 144." }
   tagline = ##f
 }
 
@@ -117,8 +117,6 @@ notesBass = {
     \include "common/midi.ily"
   }
 }
-
-\noPageBreak \markup { \fill-line { "Alternate tune for No. 144." } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
