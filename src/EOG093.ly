@@ -14,7 +14,7 @@
   tunename = "Torino"
   meter = "C. M. with Refrain"
   poet = "W. Cameron"
-  composer = "Italian hymn tune" % TODO titlecase ?
+  composer = "Italian Hymn Tune"
   %copyright = ""
   tagline = ##f
 }

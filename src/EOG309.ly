@@ -10,7 +10,7 @@
   title = "I Think When I Read That Sweet Story"
   tunename = "Sweet Story"
   meter = "P. M."
-  poet = " Mrs. Jemima Luke"
+  poet = "Mrs. Jemima Luke"
   composer = "Anon."
   tagline = ##f
 }
