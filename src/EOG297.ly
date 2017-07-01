@@ -13,7 +13,7 @@
   tunename = ""
   meter = "11. 11. 11. 11. with Refrain"
   poet = ""
-  composer = "Wm. G. Fisher"
+  composer = "W. G. Fischer"
   tagline = ##f
 }
 

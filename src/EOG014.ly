@@ -14,7 +14,7 @@
   tunename = "Wondrous Love" % from Metrical Index of Tunes
   meter = "C. M. D."
   poet = "Mrs. M. Stockton"
-  composer = "Wm. G. Fischer"
+  composer = "W. G. Fischer"
   tagline = ##f
 }
 

@@ -13,7 +13,7 @@
   tunename = "Dennis"
   meter = "S. M."
   poet = "J. Fawcett"
-  composer = "H. G. Nageli"
+  composer = "H. G. Nägeli"
   tagline = ##f
 }
 

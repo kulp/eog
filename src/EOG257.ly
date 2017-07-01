@@ -10,7 +10,7 @@
   tunename = "Dennis" % from Metrical Index of Tunes
   meter = "S. M." % from Metrical Index of Tunes
   poet = "W. F. Lloyd"
-  composer = "H. G. Nagell"
+  composer = "H. G. Nägeli"
   tagline = ##f
 }
 
