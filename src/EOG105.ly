@@ -36,12 +36,12 @@ notesSoprano = {
 \relative c' {
 
   fis4. fis8 | fis2. d4 g4. fis8 | fis2\( d2\)
-  \tuplet 3/2 { d4 e4 fis4 } | g2. b4 a4. g8 | fis1 \eogbreak
-  d4. d8 | e2 ~ \repeat unfold 2 { \tuplet 3/2 { e4\( dis e\) } } | fis2 d2
+  \tuplet 3/2 { d4\( e4 fis4\) } | g2. b4 a4. g8 | fis1 \eogbreak
+  d4. d8 | e2 ~ \repeat unfold 2 { \tuplet 3/2 { e4\( dis e\) } } | fis2\( d2\)
   d4. d8 | e2 ~ \tuplet 3/2 { e4\( dis e\) } \tuplet 3/2 { e\( g fis\) } | d1 \eogbreak
-  a'4. a8 | fis'2. e4 \tuplet 3/2 { e4 d b } | a2\( fis2\)
+  a'4. a8 | fis'2. e4 \tuplet 3/2 { e4\( d b\) } | a2\( fis2\)
   d'4. b8 | a2. fis4 e4. fis8 | g1 \eogbreak
-  fis4. a8 | fis'2. e4 \tuplet 3/2 { e4 d b } | a2\( fis2\)
+  fis4. a8 | fis'2. e4 \tuplet 3/2 { e4\( d b\) } | a2\( fis2\)
   d'4. b8 | a2. d,4 fis4. e8 | d1 \eogbreak
 
   \bar "|."
@@ -67,9 +67,9 @@ notesTenor = {
 \relative a {
 
   a4. a8 | a2. fis4 b4. a8 | a2\( fis2\)
-  \tuplet 3/2 { fis4 g a } | b2. d4 cis4. b8 | a1
-  fis4. fis8 | g2 ~ \repeat unfold 2 { \tuplet 3/2 { g4 fis g } } | a2 fis2
-  fis4. fis8 | g2 ~ \tuplet 3/2 { g4 fis g } \tuplet 3/2 { g4 b a } | fis1
+  \tuplet 3/2 { fis4\( g a\) } | b2. d4 cis4. b8 | a1
+  fis4. fis8 | g2 ~ \repeat unfold 2 { \tuplet 3/2 { g4\( fis g\) } } | a2\( fis2\)
+  fis4. fis8 | g2 ~ \tuplet 3/2 { g4\( fis g\) } \tuplet 3/2 { g4\( b a\) } | fis1
   a4. a8 | d2. cis4 \tuplet 3/2 { b2 d4 } | d2\( a2\)
   a4. b8 | d2. a4 a4. d8 | cis1
   a4. a8 | d2. cis4 \tuplet 3/2 { b2 d4 } | d2\( a2\)
