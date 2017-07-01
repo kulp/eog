@@ -9,9 +9,8 @@
   title = "Nothing But the Name of Jesus"
   tunename = "Refuge"
   meter = "8. 7. 8. 7. D."
-  %poet = ""
+  poet = ""
   composer = "J. P. Holbrook"
-  %copyright = ""
   tagline = ##f
 }
 
@@ -163,7 +162,6 @@ Rose, and lives to die no more.
   }
 }
 
-% bump to 2.18.1 for \tuplet
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
