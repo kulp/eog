@@ -40,8 +40,11 @@ notesSoprano = {
   \changePitch \patternB { d | g g g a b | a ~ a } \eogbreak
   \changePitch \patternB { c | b a g g d | e g }
   \changePitch \patternB { a | b c b b a | g ~ g r }
+  {
+  \override Stem.direction = #UP
   \changePitch \patternA { fis g a a c | b g }
   \changePitch \patternB { g | fis g a d c | b ~ b } \eogbreak
+  }
   \changePitch \patternC { b | b c b b a | g e }
   \changePitch \patternC { e | d g fis b a | g ~ g r }
 
@@ -65,8 +68,8 @@ notesAlto = {
   \changePitch \patternB { b | d d d d d | d ~ d }
   \changePitch \patternB { d | d d d d d | c e }
   \changePitch \patternB { ees | d e d d c | b ~ b r }
-  r2 r4 | r4. r4 % TODO original has full-measure rest as a whole rest
-  r8 | r2 r4 | r4. r4
+  R1*3/4 | r4. r4
+  r8 | R1*3/4 | r4. r4
   \changePitch \patternC { d | d e d dis dis | e c }
   \changePitch \patternC { c | b d d d c | b ~ b r }
 
@@ -107,8 +110,8 @@ notesBass = {
   \changePitch \patternB { g | b b b d g | d ~ d }
   \changePitch \patternB { fis | g g g g b, | c c }
   \changePitch \patternB { c | d d d d d | g, ~ g r }
-  r2 r4 | r4. r4 % TODO original has full-measure rest as a whole rest
-  r8 | r2 r4 | r4. r4
+  R1*3/4 | r4. r4
+  r8 | R1*3/4 | r4. r4
   \changePitch \patternC { g' | g g g b, b | c c }
   \changePitch \patternC { c | d d d d d | g, ~ g r }
 
@@ -118,6 +121,15 @@ notesBass = {
   \changePitch \patternC { c | d d d d d | g, ~ g r }
 
 }
+}
+
+rests = {
+\global
+
+  \repeat unfold 24 \skip 4
+  R1*3/4 | r4. r4
+  r8 | R1*3/4 | r4. r4
+
 }
 
 Refrain = \lyricmode {
@@ -196,6 +208,7 @@ To glo -- ry, and love, and light.
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+      \context Voice = altoRests { \voiceTwo << \rests >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -208,6 +221,7 @@ To glo -- ry, and love, and light.
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      \context Voice = bassRests { \voiceTwo << \rests >> }
     >>
   >>
   \layout {
