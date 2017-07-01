@@ -30,6 +30,9 @@ global = {
   \autoBeamOff
 }
 
+% rewrote voies as chords to work around unfortunate interactions between
+% \partcombine and \tuplet
+
 notesSoprano = {
 \global
 \relative c' {
@@ -38,12 +41,25 @@ notesSoprano = {
   \tuplet 3/2 { d4\( e4 fis4\) } | g2. b4 a4. g8 | fis1 \eogbreak
   d4. d8 | e2 ~ \repeat unfold 2 { \tuplet 3/2 { e4\( dis e\) } } | fis2\( d2\)
   d4. d8 | e2 ~ \tuplet 3/2 { e4\( dis e\) } \tuplet 3/2 { e\( g fis\) } | d1 \eogbreak
-  a'4. a8 | fis'2. e4 \tuplet 3/2 { e4\( d b\) } | a2\( fis2\)
+  a'4. a8 | fis'2. e4 \stemUp \tuplet 3/2 { e4^\( d b\) } \stemNeutral | a2\( fis2\)
   d'4. b8 | a2. fis4 e4. fis8 | g1 \eogbreak
-  fis4. a8 | fis'2. e4 \tuplet 3/2 { e4\( d b\) } | a2\( fis2\)
+  fis4. a8 | fis'2. e4 \stemUp \tuplet 3/2 { e4^\( d b\) } \stemNeutral | a2\( fis2\)
   d'4. b8 | a2. d,4 fis4. e8 | d1 \eogbreak
 
   \bar "|."
+
+}
+}
+
+notesAltoB = {
+\relative e' {
+
+  \override TupletBracket.bracket-visibility = ##f
+  \omit TupletNumber
+  \repeat unfold 54 \skip 4
+  \tuplet 3/2 { g2 g4 }
+  \repeat unfold 22 \skip 4
+  \tuplet 3/2 { g2 g4 }
 
 }
 }
@@ -52,26 +68,29 @@ notesAlto = {
 \global
 \relative e' {
 
-  \repeat unfold 8 { \skip2 \skip2 \skip2 }
-  fis4. fis8 | a2. g4 \omit TupletNumber \tuplet 3/2 { g2 g4 } | fis2\( d2\)
+  \repeat unfold 48 \skip 4
+  fis4. fis8 | a2. g4 s2 | fis2\( d2\) % s2 stands in for \tuplet 3/2 { g2 g4 }
   fis4. g8 | fis2. d4 cis4. d8 | e1
-  d4. fis8 | a2. g4 \omit TupletNumber \tuplet 3/2 { g2 g4 } | fis2\( d2\)
+  d4. fis8 | a2. g4 s2 | fis2\( d2\) % s2 stands in for \tuplet 3/2 { g2 g4 }
   fis4. g8 | fis2. d4 d4. cis8 | d1
 
 }
 }
 
+% notesTenor contains two notes from notesBass due to workaround for
+% \partcombine with \tuplet
 notesTenor = {
 \global
 \relative a {
 
+  \override TupletBracket.direction = #UP
   a4. a8 | a2. fis4 b4. a8 | a2\( fis2\)
   \tuplet 3/2 { fis4\( g a\) } | b2. d4 cis4. b8 | a1
   fis4. fis8 | g2 ~ \repeat unfold 2 { \tuplet 3/2 { g4\( fis g\) } } | a2\( fis2\)
   fis4. fis8 | g2 ~ \tuplet 3/2 { g4\( fis g\) } \tuplet 3/2 { g4\( b a\) } | fis1
-  a4. a8 | d2. cis4 \tuplet 3/2 { b2 d4 } | d2\( a2\)
+  a4. a8 | d2. cis4 \tuplet 3/2 { <b g>2 <d g,,>4 } | d2\( a2\)
   a4. b8 | d2. a4 a4. d8 | cis1
-  a4. a8 | d2. cis4 \tuplet 3/2 { b2 d4 } | d2\( a2\)
+  a4. a8 | d2. cis4 \tuplet 3/2 { <b g>2 <d g,,>4 } | d2\( a2\)
   a4. b8 | d2. fis,4 a4. g8 | fis1
 
 }
@@ -81,10 +100,10 @@ notesBass = {
 \global
 \relative f {
 
-  \repeat unfold 8 { \skip2 \skip2 \skip2 }
-  d4. d8 | d2. d4 \omit TupletNumber \tuplet 3/2 { g2 g,4 } | d'1
+  \repeat unfold 48 \skip 4
+  d4. d8 | d2. d4 s2 | d1 % s2 stands in for \tuplet 3/2 { g2 g,4 }
   d4. d8 | d2. d4 a4. a8 | a1
-  d4. d8 | d2. d4 \omit TupletNumber \tuplet 3/2 { g2 g,4 } | d'1
+  d4. d8 | d2. d4 s2 | d1 % s2 stands in for \tuplet 3/2 { g2 g,4 }
   d4. d8 | d2. d4 a4. a8 | d1
 
 }
@@ -140,6 +159,7 @@ Rose, and lives to die no more.
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
+      \context Voice = altosB { \voiceTwo << \notesAltoB >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
