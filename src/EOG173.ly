@@ -27,8 +27,8 @@ global = {
   \autoBeamOff
 }
 
-patternA = { c4 c4 c4 | c2. c4 | c4 c4 c4. c8 | c4( c2.) ~ | c4 }
-patternB = { c4 c4 c4 | c2. c4 | c4 c4 c4. c8 | c1 ~ c4 }
+patternA = { c4 c4 c4 | c2. c4 | c4 c4 c4. c8 | c4( c2.) ~ | \noBreak \noPageBreak c4 }
+patternB = { c4 c4 c4 | c2. c4 | c4 c4 c4. c8 | c1 ~ \noBreak \noPageBreak c4 }
 
 notesSoprano = {
 \global
