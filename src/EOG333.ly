@@ -10,8 +10,8 @@
   title = "Come To the Saviour, Make No Delay"
   tunename = ""
   meter = "9. 9. 9. 6. with Refrain"
-  poet = "G. F. Root"
-  composer = "G. F. Root"
+  poet = "George F. Root"
+  composer = "George F. Root"
   tagline = ##f
 }
 

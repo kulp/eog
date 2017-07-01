@@ -14,7 +14,7 @@
   tunename = "Woodworth"
   meter = "8. 8. 8. 6."
   poet = "Charlotte Elliot"
-  composer = "Wm. B. Bradbury"
+  composer = "W. B. Bradbury"
   tagline = ##f
 }
 

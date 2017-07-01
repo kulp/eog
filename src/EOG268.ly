@@ -10,7 +10,7 @@
   tunename = "Cowper"
   meter = "C. M."
   poet = "Wm. Cowper"
-  composer = "Dr. L. Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

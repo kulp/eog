@@ -10,7 +10,7 @@
   tunename = "Jewels"
   meter = "8. 6. 8. 5. with Refrain"
   poet = "W. O. Cushing"
-  composer = "G. F. Root"
+  composer = "George F. Root"
   tagline = ##f
 }
 

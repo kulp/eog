@@ -13,7 +13,7 @@
   tunename = "Sweet Hour of Prayer"
   meter = "L. M. D."
   poet = "J. G. Deck"
-  composer = "Wm. B. Bradbury"
+  composer = "W. B. Bradbury"
   tagline = ##f
 }
 

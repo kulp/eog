@@ -11,7 +11,7 @@
   tunename = "Meribah"
   meter = "8. 8. 6. D."
   poet = "T. Kelly"
-  composer = "Dr. Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

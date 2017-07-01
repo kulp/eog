@@ -11,7 +11,7 @@
   tunename = "Bethany II"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
   poet = "A. Midlane"
-  composer = "Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

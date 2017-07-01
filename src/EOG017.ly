@@ -10,7 +10,7 @@
   tunename = "Ostend"
   meter = "C. M. D."
   poet = ""
-  composer = "Dr. Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

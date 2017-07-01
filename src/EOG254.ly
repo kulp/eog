@@ -9,8 +9,8 @@
   title = "Not All the Blood of Beasts"
   tunename = "Boylston"
   meter = "S. M."
-  poet = "Watts"
-  composer = "Dr. Lowell Mason"
+  poet = "I. Watts"
+  composer = "L. Mason"
   tagline = ##f
 }
 

@@ -11,7 +11,7 @@
   tunename = "Meribah" % similar to, but not identical to, EOG128
   meter = "8. 8. 6. D."
   poet = ""
-  composer = "Dr. L. Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

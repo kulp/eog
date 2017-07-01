@@ -9,7 +9,7 @@
   tunename = "Harwell"
   meter = "8. 7. 8. 7. 4. 7."
   poet = "C. Wesley"
-  composer = "Dr. L. Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

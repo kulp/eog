@@ -10,7 +10,7 @@
   tunename = "He Leadeth Me"
   meter = "L. M. with Refrain"
   poet = "A. A. P."
-  composer = "Wm. B. Bradbury"
+  composer = "W. B. Bradbury"
   tagline = ##f
 }
 

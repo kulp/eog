@@ -11,7 +11,7 @@
   tunename = "Ring the Bells of Heaven"
   meter = "P. M." % something like 11. 9. 11. 9. with Refrain (9. 9. 11. 9)
   poet = ""
-  composer = "G. F. Root"
+  composer = "George F. Root"
   tagline = ##f
 }
 

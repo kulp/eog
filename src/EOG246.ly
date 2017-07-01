@@ -9,7 +9,7 @@
   tunename = "Work"
   meter = "7. 6. 7. 6. D."
   poet = "Miss C. L. Smith"
-  composer = "Dr. Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

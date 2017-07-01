@@ -11,7 +11,7 @@
   tunename = ""
   meter = "7. 6. 7. 6. D."
   poet = "Emily H. Miller"
-  composer = "G. F. Root"
+  composer = "George F. Root"
   tagline = ##f
 }
 

@@ -12,7 +12,7 @@
   tunename = "Lischer"
   meter = "6. 6. 6. 6. 8. 8."
   poet = ""
-  composer = "Dr. L. Mason, Arr."
+  composer = "L. Mason, Arr."
   tagline = ##f
 }
 

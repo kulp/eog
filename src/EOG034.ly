@@ -10,7 +10,7 @@
   tunename = "Missionary"
   meter = "7. 6. 7. 6. D."
   poet = ""
-  composer = "Dr. Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

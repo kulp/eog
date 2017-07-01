@@ -13,7 +13,7 @@
   tunename = "Ernan"
   meter = "L. M."
   poet = ""
-  composer = "Dr. Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

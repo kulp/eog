@@ -10,7 +10,7 @@
   tunename = "Varina"
   meter = "C. M. D."
   poet = "H. Bonar"
-  composer = "Geo. F. Root"
+  composer = "George F. Root"
   tagline = ##f
 }
 

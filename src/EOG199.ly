@@ -36,7 +36,7 @@
   title = "When We Survey the Wondrous Cross"
   tunename = "Rockingham"
   meter = "L. M."
-  poet = "Watts"
+  poet = "I. Watts"
   composer = "Adpt. by Edward Miller"
   tagline = ##f
 }

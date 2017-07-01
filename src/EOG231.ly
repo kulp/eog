@@ -11,7 +11,7 @@
   tunename = "Oak"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
   poet = "J. G. Deck"
-  composer = "Lowell Mason"
+  composer = "L. Mason"
   tagline = ##f
 }
 

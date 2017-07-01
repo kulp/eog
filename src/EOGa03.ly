@@ -10,7 +10,7 @@
   hymnnumber = "3"
   tunename = "Cyprus"
   meter = "L. M."
-  composer = "Lowell Mason"
+  composer = "L. Mason"
   alternate = \markup { "Alternate tune for No. 88." }
   tagline = ##f
 }

@@ -11,7 +11,7 @@
   tunename = ""
   meter = "8. 7. 8. 7. D."
   poet = "T. Kelly"
-  composer = "Wm. B. Bradbury"
+  composer = "W. B. Bradbury"
   tagline = ##f
 }
 
