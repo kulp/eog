@@ -22,7 +22,8 @@ while (<>) {
             my @last  = @words[$#words / 2 + 1 .. $#words];
             print qq({\\flushleft @first \\\\ ~~~@last\\dotfill }$nums\n);
         } else {
-            print qq({\\flushleft $name \\dotfill }$nums\n);
+            my $break = ($nums =~ /Additional/ and not $nums =~ /,/) ? q(\\\\) : q();
+            print qq({\\flushleft $name \\dotfill $break}$nums\n);
         }
     }
 }
