@@ -42,11 +42,10 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { g\p g g e | c' c b }
+  \changePitch \patternAA { g^\p g g e | c' c b }
   \changePitch \patternAA { a a g c | b a g }
-  \dynamicUp
-  \changePitch \patternBA { g\f g g e | c' c c }
-  \changePitch \patternCA { c\ff d | e d c a | a g }
+  \changePitch \patternBA { g^\f g g e | c' c c }
+  \changePitch \patternCA { c^\ff d | e d c a | a g }
 
   \bar "|."
 
