@@ -173,7 +173,7 @@ wordsC = \lyricmode {
 
 I suf -- fered much for thee,
 More than thy tongue can tell,
-Of bit -- terest ag -- on -- y,
+Of bit -- terest ag -- o -- ny,
 To res -- cue thee from hell;
 I’ve borne it all for thee,
 What hast thou borne for Me?

@@ -156,7 +156,7 @@ Refrain = \lyricmode {
 Bless -- ed news! joy -- ful news! % \bar is not appropriate
 Bless -- ed news! joy -- ful news! % \bar is not appropriate
 Bless -- ed news! joy -- ful news! \bar "."
-Sound the joy -- ful tid -- ings forth! \bar "."
+Sound the joy -- ful ti -- dings forth! \bar "."
 
 }
 

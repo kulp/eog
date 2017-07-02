@@ -138,10 +138,10 @@ wordsC = \lyricmode {
 
 Now He prais -- es in th’as -- sem -- bly,
 Now the sor -- row all is passed;
-His the earn -- est of our por -- tion,
+His the ear -- nest of our por -- tion,
 We must reach the goal at last.
 Yes, He prais -- es; grace re -- count -- ing
-All the path al -- rea -- dy trod,
+All the path al -- read -- y trod,
 We as -- so -- ci -- a -- ted with Him–
 God, our Fa -- ther and our God.
 
@@ -151,8 +151,8 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Join the sing -- ing that He lead -- eth,
-Loud to God our voic -- es raise;
-Ev’ -- ry step that we have trod -- den
+Loud to God our voi -- ces raise;
+Ev -- ’ry step that we have trod -- den
 Is a tri -- umph of His grace:
 Wheth -- er joy, or wheth -- er tri -- al,
 All can on -- ly work for good,
@@ -168,7 +168,7 @@ It is fin -- ished! It is fin -- ished!
 Who can tell re -- demp -- tion’s worth?
 He who knows it leads the sing -- ing,
 Full the joy, as fierce the wrath.
-Tak -- en up in res -- ur -- rec -- tion,
+Ta -- ken up in res -- ur -- rec -- tion,
 Des -- ert ways re -- hearsed a -- bove,
 Tell the power of God’s sal -- va -- tion,
 And His nev -- er -- fail -- ing love.

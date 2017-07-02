@@ -135,7 +135,7 @@ wordsD = \lyricmode {
 
 Why un -- be -- liev -- ing? Tri -- fle no more;
 Death may be near thee, e’en at thy door.
-Come with a brok -- en heart,
+Come with a bro -- ken heart,
 Come help -- less as thou art,
 Come choose the bet -- ter part,
 To Je -- sus come.

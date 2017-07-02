@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 My soul, re -- peat His praise \bar "."
 Whose mer -- cies are so great; \bar "."
 Whose an -- ger is so slow to rise, \bar "."
-So rea -- dy to a -- bate. \bar "."
+So read -- y to a -- bate. \bar "."
 
 }
 

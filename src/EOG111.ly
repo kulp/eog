@@ -135,7 +135,7 @@ wordsC = \lyricmode {
 
 Je -- sus for your choice is wait -- ing;
 Tar -- ry not; at once de -- cide!
-While the Spi -- rit now is striv -- ing,
+While the Spir -- it now is striv -- ing,
 Yield, and seek the Sav -- iour’s side.
 
 }

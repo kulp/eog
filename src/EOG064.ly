@@ -113,7 +113,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Call them in”– the poor, the wret -- ched, \bar "."
+“Call them in”– the poor, the wretch -- ed, \bar "."
 Sin -- stained wan -- d’rers from the fold: \bar "." \eogbreak
 Peace and par -- don free -- ly of -- fer; \bar "."
 Can you weigh their worth in gold? \bar "." \eogbreak
@@ -141,11 +141,11 @@ Wait the lost ones: “Call them in!”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“Call them in!”– the brok -- en -- heart -- ed,
+“Call them in!”– the bro -- ken -- heart -- ed,
 Cow -- ’ring neath the brand of shame;
 Speak love’s mes -- sage low and ten -- der,
 ’Twas for sin -- ners Je -- sus came.
-See! the sha -- dows length -- en round us,
+See! the shad -- ows length -- en round us,
 Soon the day -- dawn will be -- gin;
 Can you leave them lost and lone -- ly?
 Christ is com -- ing: “Call them in!”

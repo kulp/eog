@@ -127,7 +127,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Is -- rael’s race shall now be -- hold Him,
-Full of grace and maj -- es -- ty;
+Full of grace and ma -- jes -- ty;
 Tho’ they set at naught and sold Him,
 Pierced and nailed Him to the tree;
 Now in glo -- ry, now in glo -- ry,

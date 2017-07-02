@@ -168,7 +168,7 @@ We shall gath -- er ev -- ’ry one;
 Loud in the glo -- ry,
 Raise the joy -- ful song.
 Un -- to Him who loves us,
-Ne -- ver ceas -- ing praise be given,
+Nev -- er ceas -- ing praise be given,
 Sing we hal -- le -- lu -- jah,
 To the Lord of heaven.
 Je -- sus, Lord Je -- sus, soon for -- ev -- er -- more with Thee,

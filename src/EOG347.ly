@@ -89,7 +89,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Moth -- ers then the Sav -- iour sought,
-In the plac -- es where He taught,
+In the pla -- ces where He taught,
 And to Him their chil -- dren brought–
 Lit -- tle ones like me.
 
@@ -110,7 +110,7 @@ wordsD = \lyricmode {
 
 ’Twas for them His life He gave,
 To re -- deem them from the grave:
-Je -- sus ab -- le is to save
+Je -- sus a -- ble is to save
 Lit -- tle ones like me.
 
 }

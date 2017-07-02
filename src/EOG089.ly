@@ -114,11 +114,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Hark ye! those who choose the plea -- sures, \bar "."
+Hark ye! those who choose the pleas -- ures, \bar "."
 That this wretch -- ed world im -- parts, \bar "." \eogbreak
 Dare you call this sat -- is -- fac -- tion \bar "."
 From your deep -- est, in -- most heart? \bar "." \eogbreak
-Is the whirl of world’s con -- fus -- ion \bar "."
+Is the whirl of world’s con -- fu -- sion \bar "."
 So en -- gross -- ing to your mind, \bar "." \eogbreak
 That for thoughts of deep -- er im -- port \bar "."
 You can -- not a mo -- ment find? \bar "." \eogbreak

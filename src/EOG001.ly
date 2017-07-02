@@ -90,7 +90,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“Come!” ’tis Je -- sus gen -- tly cal -- ling, \bar "."
+“Come!” ’tis Je -- sus gen -- tly call -- ing, \bar "."
 “Ye with care and toil op -- pressed, \bar "." \eogbreak
 With your guilt how -- e’er ap -- pall -- ing– \bar "."
 Come, and I will give you rest.” \bar "." \eogbreak

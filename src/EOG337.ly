@@ -112,7 +112,7 @@ wordsA = \lyricmode {
 
 If I come to Je -- sus, \bar "."
 He will make me glad; \bar "."
-He will give me plea -- sure \bar "."
+He will give me pleas -- ure \bar "."
 When my heart is sad. \bar "."
 
 }

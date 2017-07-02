@@ -117,7 +117,7 @@ Can _ a -- vail in dan -- ger’s hour; \bar "."
 Noth -- ing but _ the name _ of Je -- sus, \bar "."
 When the clouds _ of trou -- _ ble lower; \bar "."
 On -- ly through the blood _ of Je -- sus \bar "."
-Can the guil -- ty soul have peace; \bar "."
+Can the guilt -- y soul have peace; \bar "."
 On -- ly through the death _ of Je -- sus \bar "."
 Sa -- tan’s cap -- tives find re -- lease. \bar "."
 

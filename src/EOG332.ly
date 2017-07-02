@@ -150,7 +150,7 @@ Je -- sus a -- lone can save;
 Where -- so -- ev -- er His steps we trace,
 Je -- sus a -- lone can save.
 Death and woe dis -- pell -- ing,
-God’s great mer -- cy tel -- ling–
+God’s great mer -- cy tell -- ing–
 
 \Refrain
 

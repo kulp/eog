@@ -127,7 +127,7 @@ His are faith -- ful words and true.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“It is fin -- ished!” All is ov -- er;
+“It is fin -- ished!” All is o -- ver;
 Yes, the cup of wrath is drained;
 Such the truth these words dis -- cov -- er,
 Thus the vic -- tory was ob -- tained:

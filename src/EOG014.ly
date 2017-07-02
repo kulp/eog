@@ -153,7 +153,7 @@ wordsC = \lyricmode {
 E’en now by faith I claim Him mine,
 The ris -- en Son of God;
 Re -- demp -- tion by His death I find,
-And clean -- sing through the blood.
+And cleans -- ing through the blood.
 
 }
 

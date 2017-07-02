@@ -160,11 +160,11 @@ wordsD = \lyricmode {
 
 \mon If you \moff take the lov -- ing Sav -- iour now,
 \mon Who for \moff sin -- ners once did die,
-\mon When He ga -- thers His own \moff in that bright home,
+\mon When He gath -- ers His own \moff in that bright home,
 Then you’ll be there, and I.
 Then you’ll be there, and I;
 Then you’ll be there, and I;
-\mon When He ga -- thers His own \moff in that bright home,
+\mon When He gath -- ers His own \moff in that bright home,
 Then you’ll be there, and I.
 
 }

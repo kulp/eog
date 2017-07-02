@@ -113,7 +113,7 @@ Trust -- ing Je -- sus, that is all. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Simp -- ly trust -- ing eve -- ry day, \bar "."
+Sim -- ply trust -- ing ev -- ery day, \bar "."
 Trust -- ing thro’ a storm -- y way; \bar "."
 E -- ven when my faith is small, \bar "."
 Trust -- ing Je -- sus, that is all. \bar "."
@@ -123,7 +123,7 @@ Trust -- ing Je -- sus, that is all. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Bright -- ly doth His Spi -- rit shine
+Bright -- ly doth His Spir -- it shine
 In -- to this poor heart of mine;
 While He leads I can -- not fall,
 Trust -- ing Je -- sus, that is all.

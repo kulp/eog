@@ -78,7 +78,7 @@ wordsA = \lyricmode {
 Oh, won’t you come to Je -- sus while you’re young? \bar "."
 Oh, won’t you come to Je -- sus while you’re young? \bar "."
 Don’t think it will be bet -- ter \bar "."
-To de -- lay it un -- til lat -- er, \bar "."
+To de -- lay it un -- til la -- ter, \bar "."
 But re -- mem -- ber your Cre -- at -- or while you’re young. \bar "."
 
 }
@@ -88,7 +88,7 @@ wordsB = \lyricmode {
 
 Re -- mem -- ber, death may find you, while you’re young;
 Re -- mem -- ber, death may find you, while you’re young;
-For friends are of -- ten weep -- ing
+For friends are oft -- en weep -- ing
 And the stars their watch are keep -- ing
 O’er the grass -- y graves where sleep -- ing lie the young.
 

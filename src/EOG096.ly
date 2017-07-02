@@ -130,7 +130,7 @@ Yet no hope be -- yond, no har -- bor wait -- ing,
 Where my storm -- tossed ves -- sel I could steer;
 If I gained the world, but lost the Sav -- iour,
 Who en -- dured the cross and died for me,
-Could then all the world af -- ford a re -- fuge
+Could then all the world af -- ford a ref -- uge
 Whith -- er in my an -- guish I might flee?
 
 }

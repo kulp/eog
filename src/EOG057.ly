@@ -101,7 +101,7 @@ wordsA = \lyricmode {
 “Al -- most per -- suad -- ed” now to be -- lieve; \bar "."
 “Al -- most per -- suad -- ed” Christ to re -- ceive; \bar "."
 Seems now some soul to say, \bar "."
-“Go, Spi -- rit, go Thy way, \bar "."
+“Go, Spir -- it, go Thy way, \bar "."
 Some more con -- ve -- nient day \bar "."
 On Thee I’ll call.” \bar "."
 

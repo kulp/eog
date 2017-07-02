@@ -136,7 +136,7 @@ In ten -- der -- ness He sought me, \bar "."
 Wear -- y and sick with sin, \bar "."
 And on His shoul -- ders brought me \bar "."
 Back to Him -- self a -- gain; \bar "."
-While tid -- ings of the lost one found \bar "."
+While ti -- dings of the lost one found \bar "."
 Made heav -- en’s courts with praise re -- sound. \bar "."
 
 }
@@ -163,7 +163,7 @@ For me His blood was shed,
 A mock -- ing crown so thorn -- y
 Was placed up -- on His head:
 I won -- dered what He saw in me
-To suf -- fer such deep ag -- on -- y.
+To suf -- fer such deep ag -- o -- ny.
 
 }
 

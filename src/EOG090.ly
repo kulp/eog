@@ -117,7 +117,7 @@ Refrain = \lyricmode {
 
 %{HIDE>%} Are you washed in the blood– \bar "." %{<HIDE%}
 %LYRICS Are you washed ... in the blood ...
-In the soul -- clean -- sing blood of the Lamb? \bar "."
+In the soul -- cleans -- ing blood of the Lamb? \bar "."
 Are your gar -- ments spot -- less? Are they white as snow? \bar "."
 Are you washed in the blood of the Lamb? \bar "."
 
@@ -126,7 +126,7 @@ Are you washed in the blood of the Lamb? \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Have you been to Je -- sus for the clean -- sing power? \bar "."
+Have you been to Je -- sus for the cleans -- ing power? \bar "."
 Are you washed in the blood of the Lamb? \bar "."
 Are you ful -- ly trust -- ing in His grace this hour? \bar "."
 Are you washed in the blood of the Lamb? \bar "." \eogbreak
@@ -150,7 +150,7 @@ wordsC = \lyricmode {
 
 When the Bride -- groom com -- eth, will your robes be white,
 Pure and white in the blood of the Lamb?
-Will your soul be rea -- dy for the man -- sions bright,
+Will your soul be read -- y for the man -- sions bright,
 And be washed in the blood of the Lamb?
 
 }

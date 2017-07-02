@@ -113,7 +113,7 @@ wordsC = \lyricmode {
 Wilt thou rob Him of His pur -- chase
 When He bought thee with His blood?
 He is pray -- ing, He is plead -- ing,
-Be ye re -- con -- ciled to God.
+Be ye rec -- on -- ciled to God.
 
 }
 

@@ -138,9 +138,9 @@ You shall have rest, shall have rest.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Why are ye trou -- bled when death comes in view?
+Why are ye troub -- led when death comes in view?
 Christ giv -- eth rest, giv -- eth rest.
-Tho’ aft -- er death there comes judg -- ment too,
+Tho’ af -- ter death there comes judg -- ment too,
 You may be blest, may be blest.
 Christ bore God’s judg -- { \mon } ment, poor sin -- ners to save,
 He gained the vic -- t’ry o’er death and the grave;

@@ -128,7 +128,7 @@ wordsD = \lyricmode {
     Of the cross! Of the cross! \bar "."
     In noth -- ing else my soul shall glory,
     Save the cross! Save the cross! \bar "."
-    Yes; this my cons -- tant theme shall be,
+    Yes; this my con -- stant theme shall be,
     Thro’ time, and in e -- ter -- ni -- ty,
     That Je -- sus tast -- ed death for me
     On the cross! On the cross! \bar "."

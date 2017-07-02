@@ -113,7 +113,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Look, thou lost one, to the Sav -- iour, \bar "."
-Seat -- ed on yon glor -- ious throne; \bar "."
+Seat -- ed on yon glo -- rious throne; \bar "."
 Look! this mo -- ment, He will save you, \bar "."
 For He has sal -- va -- tion won. \bar "."
 

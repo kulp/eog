@@ -112,7 +112,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Sin -- ner, thine’s a lost con -- di -- tion, \bar "."
-Guil -- ty too be -- fore thy God; \bar "."
+Guilt -- y too be -- fore thy God; \bar "."
 In thy fol -- ly thou hast wan -- dered, \bar "." % original has "has" for "hast"
 Broad the road thy feet have trod. \bar "."
 Death and af -- ter death the judg -- ment \bar "."

@@ -150,7 +150,7 @@ wordsB = \lyricmode {
 De -- cide for Christ to -- day,
 Thy -- self thou canst not save;
 Help -- less and guilt -- y, dead and blind,
-No long -- er judg -- ment brave.
+No lon -- ger judg -- ment brave.
 
 \Refrain
 

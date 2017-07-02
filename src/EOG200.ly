@@ -119,7 +119,7 @@ Though storms may as -- sail,
 With Je -- sus be -- side me,
 I’ll wea -- ther the gale;
 The storm is with -- out me,
-No trou -- ble with -- in,
+No troub -- le with -- in,
 For Je -- sus, my Sav -- iour,
 Has cleansed me from sin. %{HIDE>%} Has cleansed me from sin. %{<HIDE%}
 

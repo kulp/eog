@@ -176,9 +176,9 @@ Are saved from doubt and fear.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Saved in that on -- ly Re -- fuge,
+Saved in that on -- ly Ref -- uge,
 Where ev -- ’ry soul may hide,
-Saved from this world of ev -- il,
+Saved from this world of e -- vil,
 With Christ they’re cru -- ci -- fied;
 Saved too from ma -- ny_a sor -- row,
 Saved from an ach -- ing heart,

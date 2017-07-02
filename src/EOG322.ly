@@ -126,7 +126,7 @@ Come a -- way, come a -- way.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-His blood can wash the vil -- est clean,
+His blood can wash the vi -- lest clean,
 Don’t de -- lay, don’t de -- lay;
 Oh, come, con -- fess -- ing what thou’st been,
 While ’tis day, while ’tis day;

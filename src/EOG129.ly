@@ -126,7 +126,7 @@ wordsA = \lyricmode {
 
 ’Tis a true and faith -- ful say -- ing, \bar "."
 Je -- sus died for sin -- ful men; \bar "."
-Tho’ we’ve told the sto -- ry of -- ten, \bar "."
+Tho’ we’ve told the sto -- ry oft -- en, \bar "."
 We must tell it o’er a -- gain. \bar "."
 
 }

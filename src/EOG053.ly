@@ -130,7 +130,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Work -- ing will not save me;
-Pu -- rest deeds that I can do,
+Pur -- est deeds that I can do,
 Ho -- liest tho’ts and feel -- ings too,
 Can -- not form my soul a -- new;
 Work -- ing will not save me.

@@ -143,7 +143,7 @@ The Fa -- ther’s ho -- ly Child– \bar "." \eogbreak
 His well -- be -- lov -- ed on -- ly Son, \bar "."
 The Sav -- iour un -- de -- filed! \bar "." \eogbreak
 No room for Thee in crowd -- ed inn \bar "."
-That eve -- ning long a -- go! \bar "." \eogbreak
+That e -- vening long a -- go! \bar "." \eogbreak
 “Be -- hold the Lamb” who bore our sin \bar "."
 Shut out by hearts be -- low! \bar "."
 

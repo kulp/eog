@@ -115,7 +115,7 @@ No change Je -- ho -- vah knows.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-We change– He chan -- ges not;
+We change– He chang -- es not;
 Our Christ can nev -- er die:
 His love, not ours, the rest -- ing -- place,
 We on His truth re -- ly.

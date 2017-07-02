@@ -157,7 +157,7 @@ To make my heart re -- joice.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-The by -- ways are fair, but of -- ten a snare
+The by -- ways are fair, but oft -- en a snare
 Is hid -- den where pleas -- ures a -- bound;
 So close to His side I’ll ev -- er a -- bide,
 For safe -- ty there is found.
@@ -175,7 +175,7 @@ Deep as the deep -- est
 
 \repeat unfold 8 \skip 4
 is His love;
-I tho’ un -- worth -- y,
+I tho’ un -- wor -- thy,
 Still am His child
 
 \repeat unfold 7 \skip 4

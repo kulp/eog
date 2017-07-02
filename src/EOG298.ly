@@ -134,7 +134,7 @@ wordsC = \lyricmode {
 
 Je -- sus is call -- ing the chil -- dren,
 Call -- ing to -- day;
-Has -- ten each one for the bless -- ing,
+Hast -- en each one for the bless -- ing,
 Do not de -- lay.
 
 }

@@ -161,7 +161,7 @@ In the light of His glo -- ry and grace. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-O soul, are you wear -- y and troub -- led? \bar "." % original has "wea -- ry"
+O soul, are you wear -- y and troub -- led? \bar "." % original has "wear -- y"
 No light in the dark -- ness you see? \bar "."
 There’s light for a look at the Sav -- iour, \bar "."
 And { \mon } life more { \moff } a -- bun -- dant and free! \bar "."

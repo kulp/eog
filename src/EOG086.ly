@@ -103,7 +103,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Ev -- en thee, ev -- en thee, \bar "."
+E -- ven thee, e -- ven thee, \bar "."
 Bound -- less mer -- cy flows for thee. \bar "."
 
 }

@@ -91,7 +91,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“All things are rea -- dy,” come, \bar "."
+“All things are read -- y,” come, \bar "."
 Come to the sup -- per spread; \bar "." \eogbreak
 Come, rich and poor; come, old and young; \bar "."
 Come, and be rich -- ly fed. \bar "." \eogbreak
@@ -101,7 +101,7 @@ Come, and be rich -- ly fed. \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“All things are rea -- dy,” come,
+“All things are read -- y,” come,
 
 The in -- vi -- ta -- tion’s given,
 Through Him who now in glo -- ry sits
@@ -112,7 +112,7 @@ At God’s right hand in heaven.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“All things are rea -- dy,” come,
+“All things are read -- y,” come,
 The door is o -- pen wide;
 Oh, feast up -- on the love of God,
 For Christ His Son has died.

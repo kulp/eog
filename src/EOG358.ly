@@ -148,7 +148,7 @@ Sweet -- est that ev -- er was heard; \bar "."
 Tell how the an -- gels, in cho -- rus, \bar "."
 Spoke as they wel -- comed His birth: \bar "."
 “Glo -- ry to God in the high -- est; \bar "."
-Peace and good tid -- ings to earth.” \bar "."
+Peace and good ti -- dings to earth.” \bar "."
 
 }
 
@@ -170,7 +170,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Tell of the cross where they nailed Him,
-Suff -- ’ring in sor -- row and pain;
+Suf -- f’ring in sor -- row and pain;
 Tell of the grave where they laid Him;
 Tell how He liv -- eth a -- gain.
 Love in that sto -- ry so ten -- der,

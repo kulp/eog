@@ -93,7 +93,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Hail, sover -- eign love, which first be -- gan \bar "."
+Hail, sov -- ereign love, which first be -- gan \bar "."
 That scheme to res -- cue fall -- en man! \bar "."
 Hail, match -- less, free, e -- ter -- nal grace, \bar "."
 Which gave my soul a hid -- ing place. \bar "."

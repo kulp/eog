@@ -107,7 +107,7 @@ The good I have is from His stores sup -- plied;
 The ill is on -- ly what He deems the best;
 He for my friend, I’m rich with naught be -- side;
 And poor with -- out Him, though of all pos -- sessed.
-Chan -- ges may come; I take, or I re -- sign;
+Chang -- es may come; I take, or I re -- sign;
 Con -- tent, while I am His, while He is mine.
 
 }

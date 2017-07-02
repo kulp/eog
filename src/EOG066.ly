@@ -101,7 +101,7 @@ wordsB = \lyricmode {
 
 The thief be -- held, with eye of faith,
 The Sav -- iour by his side;
-He looked up -- on that bles -- sed One,
+He looked up -- on that bless -- ed One,
 Re -- ceived His word, and died.
 
 }

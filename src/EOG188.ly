@@ -158,7 +158,7 @@ wordsA = \lyricmode {
 
 Our Lord is now re -- ject -- ed, \bar "."
 And by the world dis -- owned; \bar "."
-{ \mon } By the { \moff } ma -- ny still neg -- lect -- ed, \bar "."
+{ \mon } By the { \moff } man -- y still neg -- lect -- ed, \bar "."
 And by the few en -- throned: \bar "."
 But soon He’ll come in glo -- ry– \bar "."
 The hour is draw -- ing nigh; \bar "."
@@ -188,7 +188,7 @@ wordsC = \lyricmode {
 
 Let all that look for, “hast -- en”
 The com -- ing joy -- ful day,
-By earn -- est con -- se -- cra -- tion
+By ear -- nest con -- se -- cra -- tion
 To walk the nar -- row way;
 By gath -- ering in the lost ones
 For whom our Lord did die,

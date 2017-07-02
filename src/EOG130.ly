@@ -157,7 +157,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Great things He hath taught us, great things He hath done,
-And great our re -- joic -- ing thro’ Je -- sus the Son;
+And great our re -- joi -- cing thro’ Je -- sus the Son;
 But pur -- er, and high -- er, and great -- er will be
 Our won -- der, our trans -- port, when Je -- sus we see.
 

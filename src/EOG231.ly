@@ -136,7 +136,7 @@ Je -- sus our Lord!
 Thou wilt a ref -- uge be,
 Je -- sus our Lord!
 Whom then have we to fear,
-What trou -- ble, grief or care,
+What troub -- le, grief or care,
 Since Thou art ev -- er near,
 Je -- sus our Lord!
 

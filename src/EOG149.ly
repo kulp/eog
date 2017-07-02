@@ -107,7 +107,7 @@ Prais -- ing my Sav -- iour all the day long. \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Bles -- sed as -- sur -- ance, Je -- sus is mine! \bar "."
+Bless -- ed as -- sur -- ance, Je -- sus is mine! \bar "."
 Oh, what a fore -- taste of glo -- ry di -- vine! \bar "."
 Heir of sal -- va -- tion, pur -- chase of God, \bar "."
 Born of His Spir -- it, washed in His blood. \bar "."

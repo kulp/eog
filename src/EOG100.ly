@@ -96,7 +96,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Let all who know the joy -- ful sound, \bar "."
-With glad -- ness send the tid -- ings round, \bar "."
+With glad -- ness send the ti -- dings round, \bar "."
 And tell that God is love; \bar "."
 That God so loved the world, He gave \bar "."
 His own dear Son the world to save; \bar "."

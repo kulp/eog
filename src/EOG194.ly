@@ -124,7 +124,7 @@ wordsB = \lyricmode {
 
 Take the name of Je -- sus ev -- er,
 As a shield from ev -- ’ry snare;
-If temp -- ta -- tions round you ga -- ther,
+If temp -- ta -- tions round you gath -- er,
 Breathe that ho -- ly name in prayer.
 
 \Refrain

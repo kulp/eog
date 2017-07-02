@@ -120,7 +120,7 @@ Je -- sus is our Shep -- herd,
 Well we know His voice!
 How its gen -- tle whis -- per
 Makes our heart re -- joice!
-Ev -- en when He chid -- eth,
+E -- ven when He chid -- eth,
 Ten -- der is His tone;
 None but He shall guide us,
 We are His a -- lone.

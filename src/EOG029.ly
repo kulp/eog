@@ -147,7 +147,7 @@ wordsC = \lyricmode {
 Yes, Je -- sus is the Truth, the Way,
 That leads you in -- to rest;
 Be -- lieve in Him with -- out de -- lay,
-And you are full -- y blest.
+And you are ful -- ly blest.
 
 }
 

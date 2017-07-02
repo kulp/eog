@@ -125,7 +125,7 @@ wordsA = \lyricmode {
 
 May the grace of Christ our Sav -- iour, \bar "."
 And the Fa -- ther’s bound -- less love, \bar "."
-With the Ho -- ly Spi -- rit’s fa -- vor, \bar "."
+With the Ho -- ly Spir -- it’s fa -- vor, \bar "."
 Rest up -- on us from a -- bove. \bar "."
 Thus may we a -- bide in un -- ion \bar "."
 With each oth -- er and the Lord, \bar "."

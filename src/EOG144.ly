@@ -126,9 +126,9 @@ wordsB = \lyricmode {
 Let us the pre -- cious hours re -- deem;
 Our on -- ly grief to give Him pain,
 Our joy to serve and fol -- low Him.
-Watch -- ing and rea -- dy may we be,
+Watch -- ing and read -- y may we be,
 As those that wait their Lord to see.
-%{HIDE>%} Watch -- ing and rea -- dy may we be, %{<HIDE%}
+%{HIDE>%} Watch -- ing and read -- y may we be, %{<HIDE%}
 %{HIDE>%} As those that wait their Lord to see. %{<HIDE%}
 
 }
@@ -141,9 +141,9 @@ Why should we shun the prom -- ised cross?
 Oh, let us in His foot -- steps haste,
 Count -- ing for Him all else but loss;
 For how will re -- com -- pense His smile,
-The suffer -- ings of this “lit -- tle while.”
+The suf -- ferings of this “lit -- tle while.”
 %{HIDE>%} For how will re -- com -- pense His smile, %{<HIDE%}
-%{HIDE>%} The suffer -- ings of this “lit -- tle while.” %{<HIDE%}
+%{HIDE>%} The suf -- ferings of this “lit -- tle while.” %{<HIDE%}
 
 }
 

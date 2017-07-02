@@ -106,7 +106,7 @@ notesBass = {
 wordsA = \lyricmode {
 
 A lit -- tle child of sev -- en, \bar "."
-Or ev -- en three or four, \bar "."
+Or e -- ven three or four, \bar "."
 May en -- ter in -- to heav -- en \bar "."
 Through Christ, the o -- pen Door. \bar "."
 For when the heart be -- liev -- eth \bar "."

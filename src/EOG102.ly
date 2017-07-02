@@ -220,7 +220,7 @@ Refrain = \lyricmode {
 %LYRICS Be in time ... be in time ... \bar "."
 While the voice of Je -- sus calls you, \bar "."
 Be in time! \bar "."
-If in sin you long -- er wait, \bar "."
+If in sin you lon -- ger wait, \bar "."
 You may %LYRICS find no open gate, % \bar "."
 %LYRICS And your cry be just too late,
 %LYRICS Be in time!
@@ -249,7 +249,7 @@ Be in time!
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Life at best is ve -- ry brief, \bar "."
+Life at best is ver -- y brief, \bar "."
 Like the fall -- ing of a leaf, \bar "."
 Like the bind -- ing of a sheaf: \bar "."
 Be in time! \bar "."
@@ -267,8 +267,8 @@ Fair -- est flow -- ers soon de -- cay,
 Youth and beau -- ty pass a -- way;
 Oh, you have not long to stay:
 Be in time!
-While God’s Spi -- rit bids you come,
-Sin -- ner, do not long -- er roam,
+While God’s Spir -- it bids you come,
+Sin -- ner, do not lon -- ger roam,
 Lest you seal your hope -- less doom,
 Be in time!
 

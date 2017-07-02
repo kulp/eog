@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 The Fa -- ther runs to meet
-His lost and guil -- ty son;
+His lost and guilt -- y son;
 The robe, the ring, the san -- daled feet,
 Tell what He’s done;
 “The fat -- ted calf bring here,
@@ -154,7 +154,7 @@ Re -- joice with Me.”
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Come, guil -- ty sin -- ner, come,
+Come, guilt -- y sin -- ner, come,
 Why wilt thou still de -- lay?
 With -- in the Fa -- ther’s house there’s room,
 Christ is the way;

@@ -140,7 +140,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 _ Those hours of dark -- ness He suf -- fered for sin -- ners
-On Cal -- va -- ry’s cross, all for -- sak -- en, a -- lone,
+On Cal -- va -- ry’s cross, all for -- sa -- ken, a -- lone,
 While mak -- ing a -- tone -- ment and bear -- ing the judg -- ment,
 Are end -- ed, and now He’s on high on the throne.
 

@@ -144,7 +144,7 @@ wordsB = \lyricmode {
 On -- ly a step to Je -- sus!
 Be -- lieve, and thou shalt live;
 Lov -- ing -- ly now He’s wait -- ing,
-And rea -- dy to for -- give.
+And read -- y to for -- give.
 
 \Refrain
 

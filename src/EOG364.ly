@@ -143,7 +143,7 @@ Praise Him for His gra -- cious love! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-When the an -- xious moth -- ers round Him,
+When the anx -- ious moth -- ers round Him,
 With their ten -- der in -- fants pressed,
 He with o -- pen arms re -- ceived them,
 And the lit -- tle ones He blessed. % XXX old version and blue book both have "blest" here but that is not a verbal form (only adjectival)

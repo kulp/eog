@@ -124,7 +124,7 @@ And Je -- sus in -- vites thee no more– \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-When the rich gales of mer -- cy no long -- er shall blow,
+When the rich gales of mer -- cy no lon -- ger shall blow,
 The gos -- pel no mes -- sage de -- clare,
 How canst thou, sin -- ner, bear the deep wail -- ing of woe,
 How suf -- fer the night of de -- spair?
@@ -147,7 +147,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 O dear sin -- ner, that liv -- est at ease and se -- cure,
-Who fear -- est no trou -- ble to come,
+Who fear -- est no troub -- le to come,
 Can thy spir -- it the wail -- ings of sor -- row en -- dure,
 Or bear the im -- pen -- i -- tent’s doom?
 

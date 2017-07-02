@@ -156,7 +156,7 @@ wordsD = \lyricmode {
 
 Soon He will come, the saints shall be rais -- ed;
 We, who re -- main a -- live, shall be chang -- ed;
-Then all, caught up, at His bles -- sed call,
+Then all, caught up, at His bless -- ed call,
 Changed to His like -- ness, once for all.
 
 }

@@ -137,7 +137,7 @@ His love laid hold on me.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-I tried the bro -- ken cist -- erns, Lord,
+I tried the bro -- ken cis -- terns, Lord,
 But, ah, the wa -- ters failed!
 E’en as I stooped to drink they fled
 And mocked me as I wailed.

@@ -135,7 +135,7 @@ Un -- to me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Lis -- t’ning for Thy shout, Lord Je -- sus,
+List -- ’ning for Thy shout, Lord Je -- sus,
 In the air;
 When Thy saints shall rise, with joy, to
 Meet Thee there.

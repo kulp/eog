@@ -122,11 +122,11 @@ Looks to Thee, and none but Thee.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-In Thy pre -- sence we are hap -- py;
-In Thy pre -- sence we’re se -- cure;
-In Thy pre -- sence all af -- flic -- tions
+In Thy pres -- ence we are hap -- py;
+In Thy pres -- ence we’re se -- cure;
+In Thy pres -- ence all af -- flic -- tions
 We can eas -- i -- ly en -- dure;
-In Thy pre -- sence we can con -- quer,
+In Thy pres -- ence we can con -- quer,
 We can suf -- fer, we can die;
 Wan -- dering from Thee we are fee -- ble;
 Let Thy love, Lord, keep us nigh.

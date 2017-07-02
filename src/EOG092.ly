@@ -106,7 +106,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Room for Je -- sus, Lord of glo -- ry! \bar "."
-Has -- ten now, His word o -- bey; \bar "."
+Hast -- en now, His word o -- bey; \bar "."
 Swing the heart’s door wide -- ly o -- pen, \bar "."
 Let Him en -- ter while you may. \bar "."
 

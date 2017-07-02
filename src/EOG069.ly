@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Oh joy -- ous hour when God to me
-A vis -- ion gave of Cal -- va -- ry:
+A vi -- sion gave of Cal -- va -- ry:
 My bonds were loosed, my soul un -- bound;
 I sang up -- on re -- demp -- tion ground.
 

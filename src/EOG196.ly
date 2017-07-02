@@ -130,7 +130,7 @@ wordsC = \lyricmode {
 The Lord of life is com -- ing
 To per -- fect all His grace;
 To take His blood -- bought peo -- ple
-To fill their heav -- enly place;
+To fill their heaven -- ly place;
 Oh, with what joy as -- cend -- ing
 We’ll meet Him in the air,
 To dwell with Him in glo -- ry

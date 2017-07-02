@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 
 Tears and pray’rs can nev -- er save us,
 All our works are but in vain,
-Lives pos -- sessed of pur -- est me -- rits
+Lives pos -- sessed of pur -- est mer -- its
 Can -- not cleanse sin’s aw -- ful stain;
 On -- ly by the blood of Je -- sus,
 Who for us the judg -- ment bore,

@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 
 On His Fa -- ther’s throne is seat -- ed \bar "."
 Christ the Lord, the liv -- ing One! \bar "."
-All His toil on earth comp -- let -- ed, \bar "."
+All His toil on earth com -- plet -- ed, \bar "."
 All His work for sin -- ners done. \bar "."
 In the glo -- ry, in the glo -- ry \bar "."
 %{HIDE>%} In the glo -- ry \bar "." %{<HIDE%}
@@ -134,7 +134,7 @@ wordsD = \lyricmode {
 Son of Man, His in -- car -- na -- tion
 O -- pened first the tale of grace;
 Son of Man, in new cre -- a -- tion
-Lead -- er of a chos -- en race!
+Lead -- er of a cho -- sen race!
 Well may glo -- ry, well may glo -- ry
 %{HIDE>%} Well may glo -- ry %{<HIDE%}
 Crown Him in the or -- dered place!

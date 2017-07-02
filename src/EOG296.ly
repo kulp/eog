@@ -92,7 +92,7 @@ wordsB = \lyricmode {
 He left His bright and hap -- py home
 To seek and save the lost,
 A babe in Beth -- l’em’s man -- ger lay,
-A -- wak -- ing heav -- enly host.
+A -- wak -- ing heaven -- ly host.
 
 }
 

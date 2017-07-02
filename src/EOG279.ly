@@ -114,7 +114,7 @@ wordsC = \lyricmode {
 
 While Thou art a -- way, Lord,
 I stum -- ble and stray, Lord,
-Oh, has -- ten the day of Thy com -- ing a -- gain.
+Oh, hast -- en the day of Thy com -- ing a -- gain.
 This is not my rest, Lord,
 A pil -- grim con -- fessed, Lord, % original has "confest"
 I wait to be blest, at Thy com -- ing a -- gain.

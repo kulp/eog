@@ -138,7 +138,7 @@ Thou wouldst be saved: Why not to -- night?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Our God in pi -- ty ling -- ers still,
+Our God in pit -- y lin -- gers still,
 And wilt thou thus His love re -- quite?
 Re -- nounce at length thy stub -- born will;
 Thou wouldst be saved: Why not to -- night?

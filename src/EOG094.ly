@@ -131,7 +131,7 @@ Come to Him and live. \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Where -- fore do you spend your trea -- sure
+Where -- fore do you spend your treas -- ure
 Where there is no bread?
 On -- ly by the liv -- ing Sav -- iour
 Dy -- ing souls are fed.

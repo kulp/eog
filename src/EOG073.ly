@@ -129,7 +129,7 @@ Come to the Sav -- iour now!
 Gaze on that cleans -- ing tide–
 Wa -- ter and blood that flow
 Forth from His wound -- ed side.
-Hark to the suff -- ’ring One:
+Hark to the suf -- f’ring One:
 “’Tis fin -- ished!” now He cries;
 Re -- demp -- tion’s work is done,
 Then bows His head and dies.

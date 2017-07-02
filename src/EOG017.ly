@@ -109,7 +109,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 He comes! He comes! the Bride -- groom comes! \bar "."
-The “Mor -- ning Star” ap -- pears; \bar "." \eogbreak
+The “Morn -- ing Star” ap -- pears; \bar "." \eogbreak
 The cloud -- less morn -- ing sweet -- ly dawns; \bar "."
 Saints, quit this vale of tears; \bar "." \eogbreak
 Your ab -- sent Lord no lon -- ger mourn; \bar "."

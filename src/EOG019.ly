@@ -137,7 +137,7 @@ wordsB = \lyricmode {
 
 When He, from His loft -- y throne,
 Stooped to do and die,
-Ev -- ’ry -- thing was full -- y done:
+Ev -- ’ry -- thing was ful -- ly done:
 { \mon } Heark -- en { \moff } to His cry–
 
 \Refrain

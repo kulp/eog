@@ -114,7 +114,7 @@ Be -- fore He filled the foun -- tains \bar "."
 That feed the run -- ning rills; \bar "." \eogbreak
 In Thee, from ev -- er -- last -- ing, \bar "."
 The won -- der -- ful I AM \bar "." \eogbreak
-Found plea -- sures nev -- er wast -- ing, \bar "."
+Found pleas -- ures nev -- er wast -- ing, \bar "."
 And Wis -- dom is Thy name. \bar "." \eogbreak
 
 }
@@ -126,9 +126,9 @@ When, like a tent to dwell in,
 He spread the skies a -- broad,
 And swathed a -- bout the swell -- ing
 Of o -- cean’s might -- y flood,
-He wrought by weight and mea -- sure;
+He wrought by weight and meas -- ure;
 And Thou wast with Him then:
-Thy -- self the Fa -- ther’s plea -- sure,
+Thy -- self the Fa -- ther’s pleas -- ure,
 And Thine, the sons of men.
 
 }
@@ -141,7 +141,7 @@ With crea -- tures such as we,
 Who, when we saw Thee, slight -- ed
 And nailed Thee to a tree?
 Un -- fath -- om -- a -- ble won -- der!
-And mys -- te -- ry di -- vine!
+And mys -- ter -- y di -- vine!
 The voice that speaks in thun -- der
 Says, “Sin -- ner, I am thine!”
 

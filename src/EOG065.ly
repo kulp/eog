@@ -174,7 +174,7 @@ Nev -- er will the gates of hell a -- gainst Him pre -- vail.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-O bles -- sed ris -- en Sav -- iour, liv -- ing to -- day!
+O bless -- ed ris -- en Sav -- iour, liv -- ing to -- day!
 Liv -- ing, too, to guide Thine own thro’ all_the storm -- y way;
 None have the power to pluck Thy saints from Thine hand,
 Thou wilt safely bring Thine own home to the bet -- ter land.

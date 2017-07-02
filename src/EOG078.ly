@@ -154,7 +154,7 @@ What I was, what I was;
 He gave me first to see
 What I was!
 He gave me first to see
-My guilt and mis -- e -- ry,
+My guilt and mis -- er -- y,
 And then He set me free!
 Bless His name! Bless His name!
 %{HIDE>%} And then He set me free! %{<HIDE%}

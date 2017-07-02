@@ -119,7 +119,7 @@ It needs, the con -- science to ap -- pease
 Or sat -- is -- fy the Lord:
 No blood hath vir -- tue to a -- tone
 For man’s of -- fence, but His a -- lone
-Whose tit -- le is “The Word.”
+Whose ti -- tle is “The Word.”
 
 }
 

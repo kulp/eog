@@ -127,7 +127,7 @@ Bright skies will soon be o’er me,
 Where the dark clouds have been.
 My hope I can -- not meas -- ure,
 My path to life is free,
-My Sav -- iour has my trea -- sure,
+My Sav -- iour has my treas -- ure,
 And He will walk with me.
 
 }
@@ -136,7 +136,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Ere yet an -- oth -- er morn -- ing
-My spi -- rit may be free,
+My spir -- it may be free,
 As ab -- sent from the bod -- y,
 At home, O Lord, with Thee.
 Oh sleep, oh rest, how pre -- cious!

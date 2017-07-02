@@ -139,11 +139,11 @@ wordsB = \lyricmode {
 
 Love for lit -- tle chil -- dren!
 Sent from God’s own throne;
-Love! how sweet the tid -- ings
+Love! how sweet the ti -- dings
 Each can make his own;
 Love that mak -- eth hap -- py,
 Love that mak -- eth blest,
-Love that gives the wear -- y % original has "wea -- ry"
+Love that gives the wear -- y % original has "wear -- y"
 Full and per -- fect rest.
 
 \Refrain

@@ -135,7 +135,7 @@ wordsB = \lyricmode {
 
 Now I can say I am par -- doned,
 Hap -- py and just -- i -- fied, free,
-Saved by my bles -- sed Re -- deem -- er,
+Saved by my bless -- ed Re -- deem -- er,
 This is the Sav -- iour for me.
 
 \Refrain

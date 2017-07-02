@@ -113,7 +113,7 @@ Refrain = \lyricmode {
 Draw me near -- er, near -- er, bless -- ed Lord, \bar "."
 To the cross where Thou hast died; \bar "."
 Draw me near -- er, near -- er, near -- er, bless -- ed Lord, \bar "."
-To Thy pre -- cious, woun -- ded side. \bar "."
+To Thy pre -- cious, wound -- ed side. \bar "."
 
 }
 

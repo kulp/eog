@@ -123,7 +123,7 @@ Je -- sus! all praise a -- bove,
 We sing Thy bless -- ed name,
 We sing Thy dy -- ing love,
 Thy ris -- ing power pro -- claim;
-But soon, to give Thee worth -- y praise,
+But soon, to give Thee wor -- thy praise,
 %{HIDE>%}Both heaven and earth their songs shall raise, %{<HIDE%}
 Both heaven and earth their songs shall raise.
 

@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 
 The sin is laid on Je -- sus’ head,
 ’Tis in His blood sin’s debt is paid;
-God’s just -- ice can de -- mand no more,
+God’s jus -- tice can de -- mand no more,
 And mer -- cy can dis -- pense her store.
 
 }

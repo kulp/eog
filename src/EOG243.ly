@@ -121,7 +121,7 @@ wordsB = \lyricmode {
 
 In Him I see the God -- head shine,
 Christ for me, Christ for me;
-He is the Maj -- es -- ty di -- vine,
+He is the Ma -- jes -- ty di -- vine,
 Christ for me, Christ for me.
 The Fa -- ther’s well -- be -- lov -- ed Son,
 Co -- part -- ner of His roy -- al throne,

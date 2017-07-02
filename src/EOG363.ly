@@ -127,7 +127,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Creep -- ing things were not for -- got -- ten.
-Two of each were shelt -- ered there–
+Two of each were shel -- tered there–
 For while fool -- ish men are scoff -- ing,
 Lit -- tle things will show God’s care!
 No -- ah too, and all his house -- hold,

@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 And should the sur -- ges rise,
-Should sore af -- flict -- ions come,
+Should sore af -- flic -- tions come,
 Blest is the sor -- row, kind the storm,
 That drives us near -- er home.
 

@@ -124,7 +124,7 @@ wordsA = \lyricmode {
 
 Hark! hark! the voice of Christ, the sin -- ner’s Sav -- iour, \bar "."
 In glo -- ry { \eogpagebreak } seat -- ed on His Fa -- ther’s throne, \bar "." % an ungainly way to keep only one system on the first page
-Tel -- ling of love and ev -- er -- last -- ing fa -- vor \bar "."
+Tell -- ing of love and ev -- er -- last -- ing fa -- vor \bar "."
 For sin -- ners far from God, by sin un -- done. \bar "."
 
 }
@@ -133,7 +133,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 It is the voice of Him now crowned with glo -- ry,
-Tel -- ling of life for “who -- so -- ev -- er will”;
+Tell -- ing of life for “who -- so -- ev -- er will”;
 How sweet the sound of that en -- tranc -- ing sto -- ry,
 Which tells of love for guilt -- y sin -- ners still.
 

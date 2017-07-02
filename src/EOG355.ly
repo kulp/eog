@@ -109,7 +109,7 @@ wordsA = \lyricmode {
 
 Safe in Christ, the weak -- est child \bar "."
 Stands in all God’s fa -- vor; \bar "."
-All in Christ are re -- con -- ciled \bar "."
+All in Christ are rec -- on -- ciled \bar "."
 Through that on -- ly Sav -- iour. \bar "."
 
 }

@@ -147,7 +147,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 My stores af -- ford those rich sup -- plies
-That health and plea -- sure give;
+That health and pleas -- ure give;
 In -- cline your ear and come to Me,
 The soul that hears shall live.
 

@@ -105,7 +105,7 @@ wordsC = \lyricmode {
 So Je -- sus died for sin–
 Up -- on the cross He died;
 God’s right -- eous -- ness was there dis -- played,
-And just -- ice sat -- is -- fied.
+And jus -- tice sat -- is -- fied.
 
 }
 

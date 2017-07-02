@@ -139,7 +139,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Let one in his { \mon } in -- no -- cence { \moff } glo -- ry,
-An -- { \mon } o -- ther { \moff } in { \mon } works he { \moff } has done;
+An -- { \mon } oth -- er { \moff } in { \mon } works he { \moff } has done;
 Thy blood is my claim and ti -- tle,
 Be -- sides it, O Lord, I’ve none.
 The scorned, the { \mon } de -- spised, the re -- ject -- ed, { \moff }
@@ -159,7 +159,7 @@ For the love of { \mon } re -- bel -- lious { \moff } hearts.
 Call back all the { \mon } days of the a -- ges, { \moff }
 All rain -- drops come { \mon } down from { \moff } a -- bove,
 All flow -- ers { \mon } of sum -- mers de -- part -- { \moff } ed,
-But think not to { \mon } mea -- sure { \moff } His love.
+But think not to { \mon } meas -- ure { \moff } His love.
 
 }
 

@@ -90,9 +90,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 See mer -- cy, mer -- cy from on high, \bar "."
-De -- scend to re -- bels doomed to die; \bar "."
+De -- scend to reb -- els doomed to die; \bar "."
 ’Tis mer -- cy free, which knows no bound; \bar "."
-How sweet, how plea -- sant is the sound! \bar "."
+How sweet, how pleas -- ant is the sound! \bar "."
 
 }
 

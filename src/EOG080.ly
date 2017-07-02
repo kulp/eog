@@ -110,14 +110,14 @@ notesBass = {
 RefrainA = \lyricmode {
 
 Might -- y to save, __ { \eogbreak } might -- y to save, __ \bar "."
-Now __ in the { \eogpagebreak } glo -- ry, He’s a -- ble and wil -- ling to save. \bar "."
+Now __ in the { \eogpagebreak } glo -- ry, He’s a -- ble and will -- ing to save. \bar "."
 
 }
 
 RefrainB = \lyricmode {
 
 Sin -- ners to save, __ sin -- ners to save, __
-Now __ He is right -- eous -- ly a -- ble the guil -- ty to save.
+Now __ He is right -- eous -- ly a -- ble the guilt -- y to save.
 
 }
 

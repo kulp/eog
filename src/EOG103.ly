@@ -101,7 +101,7 @@ Hal -- le -- lu -- jah! what a Sav -- iour! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Bear -- ing shame and scof -- fing rude,
+Bear -- ing shame and scoff -- ing rude,
 In my place con -- demned He stood;
 Sealed my par -- don with His blood:
 Hal -- le -- lu -- jah! what a Sav -- iour!
@@ -111,7 +111,7 @@ Hal -- le -- lu -- jah! what a Sav -- iour!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Guil -- ty, vile and help -- less, we,
+Guilt -- y, vile and help -- less, we,
 Spot -- less Lamb of God was He!
 “Full a -- tone -- ment”– can it be?
 Hal -- le -- lu -- jah! what a Sav -- iour!

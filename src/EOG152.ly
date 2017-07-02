@@ -94,7 +94,7 @@ Of the Lamb who came to die? \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Came from God -- head’s ful -- lest glo -- ry
+Came from God -- head’s full -- est glo -- ry
 Down to Cal -- vary’s depth of woe,__
 Now on high we bow be -- fore Thee;__
 %{HIDE>%}Streams of prais -- es cease -- less flow.__ %{<HIDE%}
@@ -105,7 +105,7 @@ Streams of prais -- es cease -- less flow.__
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Sing His blest tri -- umph -- ant ris -- ing;
+Sing His blest tri -- um -- phant ris -- ing;
 Sing Him on the Fa -- ther’s throne;
 Sing– till heaven and earth sur -- pris -- ing,__
 %{HIDE>%}Reigns the Na -- za -- rene a -- lone.__ %{<HIDE%}

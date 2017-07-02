@@ -129,7 +129,7 @@ Shall be our shout of vic -- to -- ry,
 wordsC = \lyricmode {
 \set stanza = "3."
 
-There with un -- wea -- ried gaze
+There with un -- wear -- ied gaze
 Our eyes on Him we’ll rest,
 And sat -- is -- fy with end -- less praise
 A heart su -- preme -- ly blest.

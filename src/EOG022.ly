@@ -113,7 +113,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Je -- sus is a { \italicsOn } will -- ing { \italicsOff } Sav -- iour,
-Full -- y, free -- ly He for -- gives;
+Ful -- ly, free -- ly He for -- gives;
 And the soul which looks un -- to Him
 From that hap -- py mo -- ment lives.
 

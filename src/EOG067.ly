@@ -125,10 +125,10 @@ wordsB = \lyricmode {
 
 “Watch ye there -- fore,” for ye know not
 What the hour your Lord will come,
-Whe -- ther in the morn or mid -- night,
-Or _ in the ev -- ening gloam.
+Wheth -- er in the morn or mid -- night,
+Or _ in the e -- vening gloam.
 Are your thoughts of Him when toil -- ing
-Mid the bu -- sy cares of day?
+Mid the bus -- y cares of day?
 As the hours of night are pass -- ing,
 Do you wake to think and pray?
 
@@ -137,12 +137,12 @@ Do you wake to think and pray?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Is your heart a -- glow at ev -- en,
+Is your heart a -- glow at e -- ven,
 As the sun sinks in the west,
 And the heav -- en’s glow -- ing splen -- dor
 Brings sweet thoughts of home and rest!
 Bless -- ed rest from toil and sor -- row,
-Rest from suff -- ’ring, pain and woe,
+Rest from suf -- f’ring, pain and woe,
 And a home with Christ in heav -- en,
 Hap -- py home to which we go!
 

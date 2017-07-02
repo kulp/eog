@@ -97,7 +97,7 @@ By Thee, O God, in -- vit -- ed, \bar "."
 We look un -- to the Son, \bar "." \eogbreak
 In whom Thy soul de -- light -- ed, \bar "."
 Who all Thy will hath done; \bar "." \eogbreak
-And by the one chief trea -- sure \bar "."
+And by the one chief treas -- ure \bar "."
 Thy bos -- om free -- ly gave, \bar "." \eogbreak
 Thine own pure love we meas -- ure, \bar "."
 Thy will -- ing mind to save. \bar "." \eogbreak

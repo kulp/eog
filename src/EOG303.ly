@@ -110,7 +110,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Je -- sus calls to thee, dear one,
-“Ev -- ’ry -- thing is full -- y done;
+“Ev -- ’ry -- thing is ful -- ly done;
 Come to Me, re -- ceive My love,
 Come and live with Me a -- bove.”
 

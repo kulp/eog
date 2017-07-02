@@ -153,7 +153,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Let one in his in -- { \mon } no -- cence { \moff } glo -- ry,
-An -- o -- { \mon } ther in works he { \moff } has done–
+An -- oth -- { \mon } er in works he { \moff } has done–
 Thy blood is my claim and ti -- tle,
 Be -- sides { \mon } it, O { \moff } Lord I’ve none.
 The Scorned, the De -- spised, { \mon } the Re -- ject -- ed, { \moff }
@@ -173,7 +173,7 @@ The Lord in His { \mon } glo -- ry { \moff } for sin -- ners,
 { \mon } Call back all the days of the a -- ges, { \moff }
 { \mon } All rain -- drops come down from a -- bove; { \moff }
 All { \mon } flow -- ers of sum -- mers de -- { \moff } part -- ed,
-But think not to mea -- { \mon } sure His { \moff } love.
+But think not to meas -- { \mon } ure His { \moff } love.
 
 }
 

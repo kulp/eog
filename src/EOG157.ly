@@ -98,7 +98,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Christ the Lord is com -- ing, \bar "."
-Com -- ing ve -- ry soon, \bar "."
+Com -- ing ver -- y soon, \bar "."
 Sud -- den -- ly some morn -- ing, \bar "."
 Eve, or night, or noon. \bar "."
 Quick -- ly, in a mo -- ment, \bar "."

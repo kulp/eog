@@ -121,7 +121,7 @@ Refrain = \lyricmode {
 
 That means me, that means me, \bar "."
 “Who -- so -- ev -- er will be -- lieve,” and that means me; \bar "."
-I am so ve -- ry glad be -- cause the Sav -- iour said, \bar "."
+I am so ver -- y glad be -- cause the Sav -- iour said, \bar "."
 “Who -- so -- ev -- er will be -- lieve,” and that means me. \bar "."
 
 }

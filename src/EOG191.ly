@@ -109,9 +109,9 @@ Sav -- iour, through the des -- ert lead us, \bar "."
 With -- out Thee we can -- not go; \bar "."
 Thou from cru -- el chains hast freed us, \bar "."
 And hast laid the ty -- rant low: \bar "."
-Let Thy pre -- sence, let Thy pre -- sence, \bar "."
+Let Thy pres -- ence, let Thy pres -- ence, \bar "."
 Cheer us all our jour -- ney through. \bar "."
-%{HIDE>%} Let Thy pre -- sence, let Thy pre -- sence \bar "."
+%{HIDE>%} Let Thy pres -- ence, let Thy pres -- ence \bar "."
 Cheer us all our jour -- ney through. %{<HIDE%} \bar "."
 
 }
@@ -121,7 +121,7 @@ wordsB = \lyricmode {
 
 Through a des -- ert waste and cheer -- less
 Though our des -- tined jour -- ney lie,
-Ren -- dered by Thy pre -- sence fear -- less,
+Ren -- dered by Thy pres -- ence fear -- less,
 We may ev -- ’ry foe de -- fy:
 Naught shall move us, naught shall move us,
 While we see Thee, Sav -- iour, nigh.

@@ -159,7 +159,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Je -- sus, my Sav -- iour, shall come from on high;
-Sweet is the prom -- ise as wear -- y years fly; % original has "pro -- mise" and "wea -- ry"
+Sweet is the prom -- ise as wear -- y years fly; % original has "pro -- mise" and "wear -- y"
 Oh, I shall see Him de -- scend from the sky,
 Com -- ing for me, for me!
 %LYRICS Com -- ing for me, for me!

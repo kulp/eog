@@ -173,7 +173,7 @@ wordsC = \lyricmode {
 To him that o’er -- com -- eth
 God giv -- eth a crown;
 Thro’ faith we shall con -- quer,
-Though of -- ten cast down;
+Though oft -- en cast down;
 He who is our Sav -- iour
 Our strength will re -- new;
 Look ev -- er to Je -- sus,

@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 
 The Lamb was slain, His pre -- cious blood \bar "."
 On Cal -- vary’s aw -- ful tree was shed; \bar "."
-He for the guil -- ty sin -- ner stood, \bar "."
+He for the guilt -- y sin -- ner stood, \bar "."
 And bore the judg -- ment in his stead. \bar "."
 He has made peace, He has made peace, \bar "."
 And now He lives, who once was dead. \bar "."

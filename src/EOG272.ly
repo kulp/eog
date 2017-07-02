@@ -144,7 +144,7 @@ Ah, to see Thy face we long;
 Thou art com -- ing, bless -- ed Sav -- iour, % XXX blue book has comma after blessed
 Right -- ing all cre -- a -- tion’s wrong.
 Na -- tion ris -- es a -- gainst na -- tion,
-Trou -- ble spreads from shore to shore.
+Troub -- le spreads from shore to shore.
 Thou art God’s su -- preme sal -- va -- tion,
 Come, and cha -- os shall be o’er.
 
