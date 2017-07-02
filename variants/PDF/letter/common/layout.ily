@@ -14,4 +14,9 @@
     % Keep enough space between lyrics and their notes
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #2
 }
-
+\context {
+    \Voice
+    % Make stem direction follow melody
+    \consists "Melody_engraver"
+    \override Stem.neutral-direction = #'()
+}
