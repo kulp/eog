@@ -63,7 +63,7 @@ notesSoprano = {
   \changePitch \patternBA { f g | ees }
 
   << s^\markup { \small \caps "Refrain" }
-  { bes'8. bes16 | bes2. \tuplet 3/2 { c8[ bes] g } | ees'2. } >>
+  { \stemUp bes'8. bes16 | bes2. \tuplet 3/2 { c8[ bes] g } | ees'2. } >>
   \changePitch \patternCA { d c | bes bes bes bes c bes }
   bes8. g16 | f2.
   \changePitch \patternAA { g aes | bes bes bes bes bes }
@@ -103,6 +103,15 @@ notesAlto = {
   ees8. ees16
 
 }
+}
+
+restsAlto = {
+
+  \repeat unfold 32 \skip 4
+  r4 | r4
+  \skip 4 \skip 4
+  r4 | r4
+
 }
 
 notesAltoDS = {
@@ -303,6 +312,7 @@ music = \context ChoirStaff <<
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+      \context Voice = altosRests { \voiceTwo << \restsAlto >> }
       \context NullVoice = altosSecond { \voiceFour << \notesAltoSecond >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
