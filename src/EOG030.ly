@@ -82,6 +82,7 @@ notesTenor = {
   \changePitch \patternAA { d d | d a a d | d d }
   \changePitch \patternBA { d d | b b a a | a   }
 
+  \stemUp % prevent note/rest collision
   \changePitch \patternCA { a a  | a fis     }
   \changePitch \patternBA { a a  | g g fis e | fis }
   \changePitch \patternCA { d' d | d a       }
