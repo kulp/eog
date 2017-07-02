@@ -256,7 +256,7 @@ Be in time! \bar "."
 Fleet -- ing days are tell -- ing fast \bar "."
 That the %{HIDE>%} \marksegno %{<HIDE%} die will soon be cast, \bar "."
 And the fa -- tal line be past, \bar "."
-Be in time! \bar "."
+Be in time! \bar "." \break % for both eogsized and letter, work around lyrics issues XXX review
 
 }
 
@@ -330,7 +330,7 @@ music = \context ChoirStaff <<
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
       \context NullVoice = bassesSecond { \voiceFour << \notesBassSecond >> }
     >>
-    \context Lyrics = three  \lyricsto tenors \underWords % XXX this causes alignment issues with soprano words ("fly", "lost")
+    \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
   >>
 
 musicDS = \context ChoirStaff <<
