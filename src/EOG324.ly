@@ -138,7 +138,7 @@ Refrain = \lyricmode {
 Tell it a -- gain! Tell it a -- gain! \bar "."
 Sal -- va -- tion’s sto -- ry re -- peat o’er and o’er \bar "."
 Till none can say of the chil -- dren of men, \bar "."
-“No -- body ev -- er has told me be -- fore!” \bar "."
+“No -- bod -- y ev -- er has told me be -- fore!” \bar "."
 
 }
 
