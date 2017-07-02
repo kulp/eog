@@ -16,14 +16,15 @@ while (<>) {
         $open = 1;
     } else {
         my ($name, $nums) = split /\t/;
-        if (length $name > 22) {
+        my $split = length $name > 22
+            || ($nums =~ /Add\. Tune/ && length "$name $nums" > 26 && $nums !~ /,/);
+        if ($split) {
             my @words = split " ", $name;
             my @first = @words[0 .. $#words / 2];
             my @last  = @words[$#words / 2 + 1 .. $#words];
             print qq({\\flushleft @first \\\\ ~~~@last\\dotfill }$nums\n);
         } else {
-            my $break = ($nums =~ /Additional/ and not $nums =~ /,/) ? q(\\\\) : q();
-            print qq({\\flushleft $name \\dotfill $break}$nums\n);
+            print qq({\\flushleft $name \\dotfill }$nums\n);
         }
     }
 }

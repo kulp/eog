@@ -81,4 +81,4 @@ export LC_ALL=C
         fi
         prev=$first
     done | sed 's/, $//' ; echo) |
-    sed 's/EOGa0*/Additional Tune /g; s/EOG0*//g'
+    sed 's/EOGa0*/Add. Tune /g; s/EOG0*//g'
