@@ -34,7 +34,7 @@
 \header{
   %children
   hymnnumber = "370"
-  title = "Yield Not To Temptation"
+  title = "Yield Not to Temptation"
   tunename = ""
   meter = "11. 11. 11. 12. with Refrain"
   poet = "H. R. Palmer"

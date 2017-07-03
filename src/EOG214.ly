@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "214"
-  title = "“Forever With the Lord!”"
+  title = "“Forever with the Lord!”"
   tunename = "Nearer Home"
   meter = "S. M. D." % TODO "with Refrain" ?
   poet = "J. Montgomery"

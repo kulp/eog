@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "132"
-  title = "We Have Heard The Joyful Sound"
+  title = "We Have Heard the Joyful Sound"
   tunename = "Jesus Saves"
   meter = "7. 6. 7. 6. 7. 7. 7. 6."
   poet = "Priscilla J. Owens"

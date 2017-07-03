@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "27"
-  title = "Oh, What a Glorious Truth is This!"
+  title = "Oh, What a Glorious Truth Is This!"
   tunename = "Mercy’s Free"
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
   poet = "A. Midlane"

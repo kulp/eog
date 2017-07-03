@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "4"
-  title = "Behold the Saviour At the Door"
+  title = "Behold the Saviour at the Door"
   tunename = "St. Catherine"
   meter = "6-8s."
   poet = "Joseph Grigg"

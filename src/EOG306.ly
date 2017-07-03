@@ -8,7 +8,7 @@
 \header{
   %children
   hymnnumber = "306"
-  title = "Like A Little Wandering Lamb"
+  title = "Like a Little Wandering Lamb"
   tunename = "Homeward"
   meter = "7. 7. 7. 7."
   poet = "Ter Steegen"

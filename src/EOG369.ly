@@ -10,7 +10,7 @@
 \header{
   %children
   hymnnumber = "369"
-  title = "Wide As The Ocean"
+  title = "Wide as the Ocean"
   tunename = ""
   meter = "P. M."
   poet = "C. Austin Miles"

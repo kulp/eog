@@ -8,7 +8,7 @@
 \header{
   %gospel
   hymnnumber = "285"
-  title = "Well May We Sing, With Triumph Sing"
+  title = "Well May We Sing, with Triumph Sing"
   tunename = "Antioch"
   meter = "C. M."
   poet = "G. V. Wigram"

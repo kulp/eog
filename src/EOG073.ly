@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "73"
-  title = "Come To the Saviour Now"
+  title = "Come to the Saviour Now"
   tunename = "Maker"
   meter = "P. M."
   poet = "J. M. Wigner"

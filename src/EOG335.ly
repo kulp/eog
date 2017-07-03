@@ -7,7 +7,7 @@
 \header{
   %children
   hymnnumber = "335"
-  title = "I Am So Glad That Our Father In Heaven"
+  title = "I Am So Glad That Our Father in Heaven"
   tunename = ""
   meter = "10. 10. 10. 10. with Refrain"
   poet = "P. P. Bliss"

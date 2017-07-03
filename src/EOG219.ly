@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "219"
-  title = "His Be The Victor’s Name"
+  title = "His Be the Victor’s Name"
   tunename = "Victor"
   meter = "S. M."
   poet = "Whittock Gandy" % Samuel *Whitelock* Gandy ?

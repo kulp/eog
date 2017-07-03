@@ -8,7 +8,7 @@
 \header{
   %gospel
   hymnnumber = "76"
-  title = "“Come Unto Me, And I Will Give You Rest”"
+  title = "“Come Unto Me, and I Will Give You Rest”"
   tunename = "Eventide"
   meter = "10. 10. 10. 10."
   poet = "H. d’A. Champney"

@@ -6,7 +6,7 @@
 \header{
   %children
   hymnnumber = "332"
-  title = "Christ The Saviour of Sinners Came"
+  title = "Christ the Saviour of Sinners Came"
   tunename = "Wonderful Words of Life"
   meter = "P. M."
   poet = "I. Fleming"

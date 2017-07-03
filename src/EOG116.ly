@@ -8,7 +8,7 @@
 \header{
   %gospel
   hymnnumber = "116"
-  title = "See Mercy, Mercy From On High"
+  title = "See Mercy, Mercy from on High"
   tunename = "Dusseldorf"
   meter = "L. M."
   poet = "R. Sandeman"

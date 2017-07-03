@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "80"
-  title = "Down From the Glory Came God’s Blessed Son"
+  title = "Down from the Glory Came God’s Blessed Son"
   tunename = "Jesus Is Calling"
   meter = "P. M." % something like 10. 8. 10. 7. with Refrain (8. 13.)
   poet = "Arthur Cutting"

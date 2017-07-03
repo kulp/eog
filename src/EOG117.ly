@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "117"
-  title = "Sinner, Thine’s A Lost Condition"
+  title = "Sinner, Thine’s a Lost Condition"
   tunename = "Brooklyn"
   meter = "8. 7. 8. 7. D."
   poet = ""

@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "246"
-  title = "Oh, For the Robe of Whiteness"
+  title = "Oh, for the Robe of Whiteness"
   tunename = "Work"
   meter = "7. 6. 7. 6. D."
   poet = "Miss C. L. Smith"

@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "257"
-  title = "Our Times Are In Thy Hand"
+  title = "Our Times Are in Thy Hand"
   tunename = "Dennis" % from Metrical Index of Tunes
   meter = "S. M." % from Metrical Index of Tunes
   poet = "W. F. Lloyd"

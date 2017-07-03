@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "9"
-  title = "Redeemed By Blood"
+  title = "Redeemed by Blood"
   tunename = "Ernan"
   meter = "L. M."
   poet = ""

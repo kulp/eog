@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "189"
-  title = "Our Sins Were Borne By Jesus"
+  title = "Our Sins Were Borne by Jesus"
   tunename = "Bridlington"
   meter = "7. 6. 7. 6. D."
   poet = "H. Bonar"

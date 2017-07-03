@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "134"
-  title = "What Will You Do With Jesus?"
+  title = "What Will You Do with Jesus?"
   tunename = ""
   meter = "P. M."
   poet = "Nathaniel Norton"

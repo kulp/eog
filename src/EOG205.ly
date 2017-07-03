@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "205"
-  title = "Asleep In Jesus, Blessed Sleep!"
+  title = "Asleep in Jesus, Blessed Sleep!"
   tunename = "Rest"
   meter = "L. M."
   poet = "Mrs. McKay"

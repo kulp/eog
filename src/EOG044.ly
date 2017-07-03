@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "44"
-  title = "Just As I Am — Without One Plea"
+  title = "Just as I Am — Without One Plea"
   tunename = "Woodworth"
   meter = "8. 8. 8. 6."
   poet = "Charlotte Elliot"

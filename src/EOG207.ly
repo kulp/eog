@@ -8,7 +8,7 @@
 
 \header{
   hymnnumber = "207"
-  title = "“But For a Moment”"
+  title = "“But for a Moment”"
   tunename = ""
   meter = "10. 10. 11. 10. with Refrain"
   poet = "A. A. P."

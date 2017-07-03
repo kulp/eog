@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "372"
-  title = "How Wondrous A Saviour"
+  title = "How Wondrous a Saviour"
   tunename = "Take Time To Be Holy"
   meter = "6. 5. 6. 5. D."
   poet = "L. H. Farrell"

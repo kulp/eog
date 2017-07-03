@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "109"
-  title = "Oh, The Love of God is Boundless"
+  title = "Oh, the Love of God Is Boundless"
   tunename = "Tyrol"
   meter = "8. 7. 8. 7. D."
   poet = "R. D. Edwards"

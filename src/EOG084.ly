@@ -11,7 +11,7 @@
 \header{
   %gospel
   hymnnumber = "84"
-  title = "Free From the Law"
+  title = "Free from the Law"
   tunename = "Once For All"
   meter = "P. M."
   poet = "P. P. Bliss"

@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "18"
-  title = "How Precious and Pure is the Truth"
+  title = "How Precious and Pure Is the Truth"
   tunename = "De Fleury"
   meter = "8. 8. 8. 8. D."
   poet = ""

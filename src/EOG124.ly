@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "124"
-  title = "There Is A Saviour On High in the Glory"
+  title = "There Is a Saviour on High in the Glory"
   tunename = ""
   meter = "P. M."
   poet = "E. B. Hartt"

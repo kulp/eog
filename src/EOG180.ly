@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "180"
-  title = "Whom Have We, Lord, But Thee?"
+  title = "Whom Have We, Lord, but Thee?"
   tunename = "Huddersfield"
   meter = "S. M."
   poet = "Mary Bowley"

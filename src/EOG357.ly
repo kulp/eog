@@ -6,7 +6,7 @@
 \header{
   %children
   hymnnumber = "357"
-  title = "Something More Than Gold"
+  title = "Something More than Gold"
   tunename = ""
   meter = "C. M. with Refrain" % original has "With"
   poet = "Anon."

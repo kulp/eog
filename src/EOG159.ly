@@ -9,7 +9,7 @@
 
 \header{
   hymnnumber = "159"
-  title = "God Be With You"
+  title = "God Be with You"
   tunename = ""
   meter = "P. M."
   poet = "J. E. Rankin"

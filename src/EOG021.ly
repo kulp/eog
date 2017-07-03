@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "21"
-  title = "Make Room For Him"
+  title = "Make Room for Him"
   tunename = ""
   meter = "C. M. D. with Refrain"
   poet = "A. A. P."

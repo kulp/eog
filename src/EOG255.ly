@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "255"
-  title = "Not To Ourselves We Owe"
+  title = "Not to Ourselves We Owe"
   tunename = ""
   meter = "" % sung with S. M.
   poet = ""

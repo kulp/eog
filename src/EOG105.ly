@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "105"
-  title = "Nothing But the Name of Jesus"
+  title = "Nothing but the Name of Jesus"
   tunename = "Refuge"
   meter = "8. 7. 8. 7. D."
   poet = ""

@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "79"
-  title = "Decide For Christ Today"
+  title = "Decide for Christ Today"
   tunename = "Welcome Voice"
   meter = "S. M. with Refrain"
   poet = "T. R. Dale"

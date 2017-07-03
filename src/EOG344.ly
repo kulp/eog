@@ -10,7 +10,7 @@
 \header{
   %children
   hymnnumber = "344"
-  title = "Jesus, My Saviour, To Bethlehem Came"
+  title = "Jesus, My Saviour, to Bethlehem Came"
   tunename = ""
   meter = "P. M."
   poet = "A. N."

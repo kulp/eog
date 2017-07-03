@@ -9,7 +9,7 @@
 \header{
   %children
   hymnnumber = "320"
-  title = "Only An Act of Kindness"
+  title = "Only an Act of Kindness"
   tunename = "Only a Beam of Sunshine"
   meter = "P. M."
   poet = "Mrs. C. Kingsbury"

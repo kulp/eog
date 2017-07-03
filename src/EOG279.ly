@@ -8,7 +8,7 @@
 
 \header{
   hymnnumber = "279"
-  title = "I'm Waiting For Thee, Lord"
+  title = "I'm Waiting for Thee, Lord"
   tunename = "Waiting"
   meter = "12. 11. 12. 11."
   poet = "H. K. Burlingham"

@@ -7,7 +7,7 @@
 \header{
   %children
   hymnnumber = "321"
-  title = "And Is It True, As I Am Told?"
+  title = "And Is It True, as I Am Told?"
   tunename = "Meribah" % similar to, but not identical to, EOG128
   meter = "8. 8. 6. D."
   poet = ""

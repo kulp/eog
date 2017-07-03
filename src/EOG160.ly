@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "160"
-  title = "Though In a Foreign Land"
+  title = "Though in a Foreign Land"
   tunename = "Franconia"
   meter = "S. M."
   poet = "Toplady"

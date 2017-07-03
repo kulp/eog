@@ -6,8 +6,8 @@
 \header{
   %gospel
   hymnnumber = "133"
-  title = "With Joy and With Gladness There Stand A Great Throng"
-  markuptitle = \markup \center-column { "With Joy and With Gladness" "There Stand A Great Throng" \vspace #0.4 }
+  title = "With Joy and with Gladness There Stands a Great Throng"
+  markuptitle = \markup \center-column { "With Joy and with Gladness" "There Stands a Great Throng" \vspace #0.4 }
   tunename = ""
   meter = "11. 11. 11. 11."
   poet = "A. T. Pierson"

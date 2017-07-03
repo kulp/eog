@@ -6,7 +6,7 @@
 \header{
   %children
   hymnnumber = "293"
-  title = "A Little Ship Was On the Sea"
+  title = "A Little Ship Was on the Sea"
   tunename = "Alida"
   meter = "C. M. D."
   poet = ""

@@ -7,7 +7,7 @@
 \header{
   %children
   hymnnumber = "349"
-  title = "News For Little Children"
+  title = "News for Little Children"
   tunename = "St. Gertrude" % original has all caps
   meter = "6. 5. 6. 5. 6. 5. D."
   poet = ""

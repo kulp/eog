@@ -7,7 +7,7 @@
 \header{
   %children
   hymnnumber = "368"
-  title = "Who Came Down From Heaven To Earth?"
+  title = "Who Came Down from Heaven to Earth?"
   tunename = ""
   meter = "P. M."
   poet = "El Nathan"

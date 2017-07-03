@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "378"
-  title = "The Father From Eternity"
+  title = "The Father from Eternity"
   tunename = ""
   meter = "P. M."
   poet = "Nicolai, 1598"

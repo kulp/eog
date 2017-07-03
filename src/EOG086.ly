@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "86"
-  title = "Hark! The Saviour’s Voice From Heaven"
+  title = "Hark! The Saviour’s Voice from Heaven"
   tunename = "Even Me"
   meter = "8. 7. 8. 7. with Refrain"
   poet = ""

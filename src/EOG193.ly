@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "193"
-  title = "Sweet Peace, The Gift of God’s Love"
+  title = "Sweet Peace, the Gift of God’s Love"
   tunename = ""
   meter = "P. M."
   poet = "P. P. Bilhorn"

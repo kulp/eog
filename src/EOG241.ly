@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "241"
-  title = "More Than Tongue Can Tell"
+  title = "More than Tongue Can Tell"
   tunename = ""
   meter = "8. 8. 8. 6. with Refrain"
   poet = "J. E. Hall"

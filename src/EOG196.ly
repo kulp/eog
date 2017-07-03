@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "196"
-  title = "The Lord of Life is Risen"
+  title = "The Lord of Life Is Risen"
   tunename = "Ostrava"
   meter = "7. 6. 7. 6. D."
   poet = "G. W. Frazer"

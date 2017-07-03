@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "100"
-  title = "Let All Who Know The Joyful Sound"
+  title = "Let All Who Know the Joyful Sound"
   tunename = "Pembroke"
   meter = "8. 8. 6. D."
   poet = "T. Kelly"

@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "204"
-  title = "A Little Talk With Jesus"
+  title = "A Little Talk with Jesus"
   tunename = ""
   meter = "P. M."
   poet = "R. L. Allan"

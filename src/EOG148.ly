@@ -10,7 +10,7 @@
 
 \header{
   hymnnumber = "148"
-  title = "Lord, While Our Souls In Faith Repose"
+  title = "Lord, While Our Souls in Faith Repose"
   tunename = "Irish"
   meter = "C. M."
   poet = "Mary Bowley"

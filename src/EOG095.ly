@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "95"
-  title = "I Have A Glorious Saviour"
+  title = "I Have a Glorious Saviour"
   tunename = "Beneath the Cross of Jesus"
   meter = "7. 6. 8. 6. 8. 6. 8. 6."
   poet = "Charlotte Gipps"

@@ -11,7 +11,7 @@
 \header{
   %children
   hymnnumber = "339"
-  title = "I Love To Sing of Jesus"
+  title = "I Love to Sing of Jesus"
   tunename = "Hora Novissima"
   meter = "7. 6. 7. 6. D."
   poet = "R. D. Edwards"

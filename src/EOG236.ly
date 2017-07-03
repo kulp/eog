@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "236"
-  title = "Lo, He Comes, From Heaven Descending"
+  title = "Lo, He Comes, from Heaven Descending"
   tunename = "Harwell"
   meter = "8. 7. 8. 7. 4. 7."
   poet = "C. Wesley"

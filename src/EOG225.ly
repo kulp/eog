@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "225"
-  title = "I Left It All With Jesus"
+  title = "I Left It All with Jesus"
   tunename = ""
   meter = "P. M."
   poet = "Mrs. E. H. Willis"

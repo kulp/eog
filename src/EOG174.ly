@@ -9,7 +9,7 @@
 
 \header{
   hymnnumber = "174"
-  title = "Glory To God On High!"
+  title = "Glory to God on High!"
   tunename = "National Anthem"
   meter = "6. 6. 4. 6. 6. 6. 4."
   poet = "T. Kelly"

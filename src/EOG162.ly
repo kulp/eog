@@ -10,7 +10,7 @@
 
 \header{
   hymnnumber = "162"
-  title = "O Lord! ’Tis Joy To Look Above"
+  title = "O Lord! ’Tis Joy to Look Above"
   tunename = "Communion"
   meter = "C. M."
   poet = "J. G. Deck"

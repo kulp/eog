@@ -8,7 +8,7 @@
 \header{
   %gospel
   hymnnumber = "85"
-  title = "Just As Thou Art — Without One Trace"
+  title = "Just as Thou Art — Without One Trace"
   tunename = "St. Agnes — Blow"
   meter = "8. 8. 8. 6."
   poet = ""

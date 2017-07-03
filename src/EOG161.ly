@@ -11,7 +11,7 @@
 
 \header{
   hymnnumber = "161"
-  title = "God Moves In a Mysterious Way"
+  title = "God Moves in a Mysterious Way"
   tunename = "St. Ann"
   meter = "C. M."
   poet = "W. Cowper"

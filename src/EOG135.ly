@@ -8,7 +8,7 @@
 \header{
   %gospel
   hymnnumber = "135"
-  title = "There Is No Other Name Than Thine"
+  title = "There Is No Other Name than Thine"
   tunename = "Old Hundred"
   meter = "L. M."
   poet = ""

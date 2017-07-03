@@ -10,7 +10,7 @@
 
 \header{
   hymnnumber = "164"
-  title = "Have I An Object, Lord, Below"
+  title = "Have I an Object, Lord, Below"
   tunename = "Mother’s Prayer"
   meter = "L. M. D."
   poet = "G. W. Frazer"

@@ -10,8 +10,8 @@
 \header{
   %gospel
   hymnnumber = "90"
-  title = "Have You Been To Jesus for the Cleansing Power?"
-  markuptitle = \markup \center-column { "Have You Been To Jesus" "for the Cleansing Power?" \vspace #0.4 }
+  title = "Have You Been to Jesus for the Cleansing Power?"
+  markuptitle = \markup \center-column { "Have You Been to Jesus" "for the Cleansing Power?" \vspace #0.4 }
   tunename = ""
   meter = "11. 9. 11. 9. with Refrain"
   poet = "E. A. H."

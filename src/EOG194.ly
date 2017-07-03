@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "194"
-  title = "Take the Name of Jesus With You"
+  title = "Take the Name of Jesus with You"
   tunename = ""
   meter = "8. 7. 8. 7. with Refrain"
   poet = "Mrs. L. Baxter"

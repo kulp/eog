@@ -7,7 +7,7 @@
 \header{
   %children
   hymnnumber = "333"
-  title = "Come To the Saviour, Make No Delay"
+  title = "Come to the Saviour, Make No Delay"
   tunename = ""
   meter = "9. 9. 9. 6. with Refrain"
   poet = "George F. Root"

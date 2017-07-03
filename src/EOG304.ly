@@ -6,7 +6,7 @@
 \header{
   %children
   hymnnumber = "304"
-  title = "How Loving is Jesus"
+  title = "How Loving Is Jesus"
   tunename = "My Jesus, I Love Thee"
   meter = "11. 11. 11. 11."
   poet = "R. H. Ballantyne"

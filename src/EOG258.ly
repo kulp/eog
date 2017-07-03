@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "258"
-  title = "Many Sons To Glory Bringing"
+  title = "Many Sons to Glory Bringing"
   tunename = "Rhineland"
   meter = "8. 7. 8. 7."
   poet = "Mary Bowley"

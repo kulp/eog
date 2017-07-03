@@ -31,7 +31,7 @@
 
 \header{
   hymnnumber = "198"
-  title = "There Is A Name We Love To Hear"
+  title = "There Is a Name We Love to Hear"
   tunename = "Los Angeles"
   meter = "C. M."
   poet = "Fred. Whitfield"

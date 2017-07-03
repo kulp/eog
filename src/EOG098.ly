@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "98"
-  title = "Just On the Threshold"
+  title = "Just on the Threshold"
   tunename = "Moment By Moment"
   meter = "P. M."
   poet = "G. Cooper"

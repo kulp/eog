@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "374"
-  title = "Oh Come To Jesus, Sinner, Come"
+  title = "Oh Come to Jesus, Sinner, Come"
   tunename = "None But Christ Can Satisfy"
   meter = "C. M. with Refrain"
   poet = "J. T. Armet (Arr.)"

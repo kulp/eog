@@ -7,7 +7,7 @@
 \header{
   %children
   hymnnumber = "323"
-  title = "There’s a Friend For Little Children"
+  title = "There’s a Friend for Little Children"
   tunename = "Watcher"
   meter = "7. 6. 7. 6. D."
   poet = "A. Midlane"

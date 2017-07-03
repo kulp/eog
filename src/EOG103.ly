@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "103"
-  title = "Man Of Sorrows! What A Name"
+  title = "Man of Sorrows! What a Name"
   tunename = ""
   meter = "P. M."
   poet = "P. P. Bliss"

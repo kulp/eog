@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "286"
-  title = "When Israel, By Divine Command"
+  title = "When Israel, by Divine Command"
   tunename = "Dumferline"
   meter = "C. M."
   poet = "J. Newton"

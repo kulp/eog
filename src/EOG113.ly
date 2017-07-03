@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "113"
-  title = "Only A Step To Jesus"
+  title = "Only a Step to Jesus"
   tunename = ""
   meter = "7. 6. 7. 6. with Refrain"
   poet = "Fanny J. Crosby"

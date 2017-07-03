@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "129"
-  title = "’Tis A True And Faithful Saying"
+  title = "’Tis a True and Faithful Saying"
   tunename = ""
   meter = "8. 7. 8. 7. with Refrain"
   poet = "M. Fraser"

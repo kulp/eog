@@ -10,7 +10,7 @@
 \header{
   %gospel
   hymnnumber = "102"
-  title = "Life At Best Is Very Brief"
+  title = "Life at Best Is Very Brief"
   tunename = ""
   meter = "P. M."
   poet = ""

@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "190"
-  title = "Saviour! Lead Us By Thy Power"
+  title = "Saviour! Lead Us by Thy Power"
   tunename = "Nettleton"
   meter = "8. 7. 8. 7. D."
   poet = "Wm. Williams"

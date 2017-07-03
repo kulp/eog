@@ -9,7 +9,7 @@
 \header{
   %children
   hymnnumber = "337"
-  title = "If I Come To Jesus"
+  title = "If I Come to Jesus"
   tunename = ""
   meter = "6. 5. 6. 5. D."
   poet = "Fanny J. Crosby"

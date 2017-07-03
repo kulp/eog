@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "206"
-  title = "’Tis Sweet To Think of Those At Rest"
+  title = "’Tis Sweet to Think of Those at Rest"
   tunename = "Cross"
   meter = "C. M."
   poet = "Tregelles, 1846"

@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "231"
-  title = "Jesus That Name Is Love"
+  title = "Jesus, That Name Is Love"
   tunename = "Oak"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
   poet = "J. G. Deck"

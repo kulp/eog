@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "48"
-  title = "There Is Life In a Look"
+  title = "There Is Life in a Look"
   tunename = ""
   meter = "P. M."
   poet = "A. M. Hull"

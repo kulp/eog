@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "223"
-  title = "I See the Crowd In Pilate’s Hall"
+  title = "I See the Crowd in Pilate’s Hall"
   tunename = ""
   meter = ""
   poet = ""

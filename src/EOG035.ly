@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "35"
-  title = "Shall We Gather At His Coming?"
+  title = "Shall We Gather at His Coming?"
   tunename = "Beautiful River"
   meter = "8. 7. 8. 7. with Refrain"
   poet = ""

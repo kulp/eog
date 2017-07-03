@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "281"
-  title = "We Wait For Thee, O Son of God"
+  title = "We Wait for Thee, O Son of God"
   tunename = "Jena"
   meter = "8. 7. 8. 7. 8. 7. 7."
   poet = "Tr. by H. K. Burlingham"

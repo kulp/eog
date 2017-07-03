@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "119"
-  title = "The Blood Upon The Door"
+  title = "The Blood Upon the Door"
   tunename = "Otter Lake"
   meter = "8. 7. 8. 7. D."
   poet = ""

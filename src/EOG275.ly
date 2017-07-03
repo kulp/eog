@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "275"
-  title = "We Are By Christ Redeemed"
+  title = "We Are by Christ Redeemed"
   tunename = "Priory"
   meter = "6. 6. 8. 4. D."
   poet = "Mary Bowley"

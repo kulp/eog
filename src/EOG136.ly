@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "136"
-  title = "When The Harvest Is Past"
+  title = "When the Harvest Is Past"
   tunename = ""
   meter = "12. 8. 12. 8. with Refrain"
   poet = "S. F. Smith"

@@ -9,7 +9,7 @@
 \header{
   %gospel
   hymnnumber = "7"
-  title = "My Hope On Nothing Less Is Built"
+  title = "My Hope on Nothing Less Is Built"
   tunename = "Foundation"
   meter = "6-8s."
   poet = "Edward Mote"

@@ -6,7 +6,7 @@
 
 \header{
   hymnnumber = "262"
-  title = "Satisfied With Thee"
+  title = "Satisfied with Thee"
   tunename = ""
   meter = "P. M."
   poet = "Miss C. A. Wellesley"

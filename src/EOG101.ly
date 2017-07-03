@@ -6,7 +6,7 @@
 \header{
   %gospel
   hymnnumber = "101"
-  title = "Look, Thou Lost One, To the Saviour"
+  title = "Look, Thou Lost One, to the Saviour"
   tunename = "Look Ye Saints"
   meter = "8. 7. 8. 7. 4. 7."
   poet = ""

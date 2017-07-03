@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "252"
-  title = "A Mind at “Perfect Peace” With God"
+  title = "A Mind at “Perfect Peace” with God"
   tunename = "Evan"
   meter = "C. M."
   poet = "C. Paget"

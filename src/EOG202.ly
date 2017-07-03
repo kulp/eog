@@ -5,7 +5,7 @@
 
 \header{
   hymnnumber = "202"
-  title = "How Blest A Home!"
+  title = "How Blest a Home!"
   tunename = "Prospect"
   meter = "C. M. D."
   poet = "Mrs. J. A. Trench"
