@@ -8,7 +8,7 @@
 \header{
   hymnnumber = "5"
   tunename = "Olive’s Brow"
-  meter = "P. M."
+  meter = "L. M."
   composer = "W. B. Bradbury"
   alternate = \markup { "Alternate tune for No. 205." }
   tagline = ##f
