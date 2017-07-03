@@ -6,7 +6,7 @@
 \header{
   hymnnumber = "243"
   title = "My Heart Is Fixed, Eternal God"
-  tunename = "Christ For Me"
+  tunename = "Christ for Me"
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
   poet = ""
   composer = "R. G. Halls"

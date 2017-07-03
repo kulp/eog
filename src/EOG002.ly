@@ -7,7 +7,7 @@
   %gospel
   hymnnumber = "2"
   title = "As the Serpent Raised by Moses"
-  tunename = "Take the World But Give Me Jesus"
+  tunename = "Take the World but Give Me Jesus"
   meter = "8. 7. 8. 7. D."
   poet = ""
   composer = ""

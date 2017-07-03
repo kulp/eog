@@ -8,7 +8,7 @@
   %gospel
   hymnnumber = "374"
   title = "Oh Come to Jesus, Sinner, Come"
-  tunename = "None But Christ Can Satisfy"
+  tunename = "None but Christ Can Satisfy"
   meter = "C. M. with Refrain"
   poet = "J. T. Armet (Arr.)"
   composer = "J. McGranahan"

@@ -8,7 +8,7 @@
   %gospel
   hymnnumber = "372"
   title = "How Wondrous a Saviour"
-  tunename = "Take Time To Be Holy"
+  tunename = "Take Time to Be Holy"
   meter = "6. 5. 6. 5. D."
   poet = "L. H. Farrell"
   composer = "Geo. C. Stebbins"

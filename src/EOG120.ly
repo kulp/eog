@@ -9,7 +9,7 @@
   %gospel
   hymnnumber = "120"
   title = "The Father Sent the Son"
-  tunename = "Anywhere With Jesus"
+  tunename = "Anywhere with Jesus"
   meter = "6. 6. 8. 4. D. with Refrain"
   poet = "J. G. Deck"
   composer = "D. B. Towner"

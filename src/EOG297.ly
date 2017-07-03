@@ -10,7 +10,7 @@
   %children
   hymnnumber = "297"
   title = "Christ Could Not Be Hid"
-  tunename = "Whiter Than Snow" % from https://hymnary.org/tune/lord_jesus_i_long_to_be_perfect_fischer
+  tunename = "Whiter than Snow" % from https://hymnary.org/tune/lord_jesus_i_long_to_be_perfect_fischer
   meter = "11. 11. 11. 11. with Refrain"
   poet = ""
   composer = "W. G. Fischer"

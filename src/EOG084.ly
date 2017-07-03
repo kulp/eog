@@ -12,7 +12,7 @@
   %gospel
   hymnnumber = "84"
   title = "Free from the Law"
-  tunename = "Once For All"
+  tunename = "Once for All"
   meter = "P. M."
   poet = "P. P. Bliss"
   composer = "P. P. Bliss"

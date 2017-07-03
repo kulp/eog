@@ -11,7 +11,7 @@
   %gospel
   hymnnumber = "98"
   title = "Just on the Threshold"
-  tunename = "Moment By Moment"
+  tunename = "Moment by Moment"
   meter = "P. M."
   poet = "G. Cooper"
   composer = "Mary Whittle Moody"

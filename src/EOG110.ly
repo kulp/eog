@@ -7,7 +7,7 @@
   %gospel
   hymnnumber = "110"
   title = "Oh, Turn Now! Oh, Turn Now!"
-  tunename = "Hiding In Thee"
+  tunename = "Hiding in Thee"
   meter = "11. 11. 11. 11. with Refrain"
   poet = "J. Hopkins"
   composer = "Ira D. Sankey"
