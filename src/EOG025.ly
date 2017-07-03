@@ -11,6 +11,7 @@
   %gospel
   hymnnumber = "25"
   title = "Oh, Have You Not Heard of That Wonderful Love?"
+  markuptitle = \markup \center-column { "Oh, Have You Not Heard of That" "Wonderful Love?" \vspace #0.5 }
   tunename = ""
   meter = "P. M."
   poet = ""
