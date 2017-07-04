@@ -66,5 +66,4 @@ sub by_meter {
     }
 }
 
-print for sort by_meter <>;
-
+1;
