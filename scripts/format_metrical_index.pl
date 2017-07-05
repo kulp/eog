@@ -19,7 +19,7 @@ while (<>) {
         $open = 1;
     } else {
         my ($name, $nums) = split /\t/;
-        my $split = length $name > 22
+        my $split = length $name > 21
             || ($nums =~ /Add\. Tune/ && length "$name $nums" > 26 && $nums !~ /,/);
         if ($split) {
             my @words = split " ", $name;
