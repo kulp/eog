@@ -8,7 +8,7 @@
   hymnnumber = "73"
   title = "Come to the Saviour Now"
   tunename = "Maker"
-  meter = "P. M."
+  meter = "6. 6. 6. 6. 6. 6. 6. 6. 3." % from Little Flock
   poet = "J. M. Wigner"
   composer = "R. C. Maker"
   tagline = ##f
