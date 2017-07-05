@@ -187,14 +187,12 @@ booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=me
 index.meter: $(PDFS)
 	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || (rm $@ ; false)
 
-INDICES += $(addprefix booklayout/,metrical.pdf first.pdf gospel.pdf children.pdf)
-CLOBBERFILES += $(INDICES)
 %.pdf: %.tex
 	lualatex --output-directory=$(@D) $<
 
-indices: $(INDICES)
-$(INDICES): booklayout/%.pdf: $(foreach f,first gospel children,booklayout/$f_insert.tex)
-booklayout/metrical.pdf: booklayout/metrical_insert.tex
+CLOBBERFILES += booklayout/indices.pdf
+indices: booklayout/indices.pdf
+booklayout/indices.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
 booklayout/metrical_insert.tex: index.meter
 	scripts/make_metrical_index.pl $< | scripts/format_metrical_index.pl > $@

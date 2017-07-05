@@ -1,5 +1,6 @@
 \documentclass{book}
 \usepackage[tmargin=0.75in,bmargin=0.4in,inner=.75in,outer=.5in,paperwidth=6in,paperheight=9in]{geometry}
+\usepackage{fancyhdr}
 \usepackage{luatextra}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{TeX Gyre Schola}
@@ -7,22 +8,31 @@
 \usepackage{multicol}
 
 \setlength{\columnseprule}{0.4pt}
-\setlength{\columnsep}{24pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength\topsep{0pt}
 \setlength\headsep{8pt}
-\setlength\partopsep{5pt}
+\setlength\partopsep{4pt plus \fill}
 \setlength\headheight{14pt}
 
-\usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[C]{\large\textsc{Index of First Lines}}
-\renewcommand{\headrulewidth}{0.4pt}
 
 \begin{document}
 
+\fancyhead[C]{\large\textsc{Metrical Index of Tunes}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{multicols}{3}
+{\small
+\setlength\baselineskip{10.8pt minus 1pt}
+\input{metrical_insert.tex}
+}
+\end{multicols}
+
+\fancyhead[C]{\large\textsc{Index of First Lines}}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\columnsep}{20pt}
 \begin{multicols}{2}
 {\small
 \setlength\baselineskip{10.3pt minus 1pt}
