@@ -7,6 +7,7 @@
 \usepackage{multicol}
 
 \setlength{\columnseprule}{0.4pt}
+\setlength{\columnsep}{24pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength\topsep{0pt}
@@ -17,15 +18,39 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[C]{\large\textsc{General Index of First Lines}}
+\fancyhead[C]{\large\textsc{Index of First Lines}}
 \renewcommand{\headrulewidth}{0.4pt}
 
 \begin{document}
 
+%{\hfill\large\textsc{General Index}\hfill}
 \begin{multicols}{2}
-\setlength\baselineskip{11pt plus 1pt}
+{\small
+\setlength\baselineskip{10pt plus 1pt}
 \input{first_insert.tex}
+}
 \end{multicols}
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil\vfill\bigbreak
+
+{\hfill\large\textsc{Gospel Hymns}\hfill}
+\begin{multicols}{2}
+{\small
+\setlength\baselineskip{10pt plus 1pt}
+\input{gospel_insert.tex}
+}
+\end{multicols}
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil\vfill\bigbreak
+
+\begin{minipage}{\textwidth} % XXX stop using minipage only here
+{\hfill\large\textsc{Children’s Hymns and Choruses}\hfill}
+\begin{multicols}{2}
+{\small
+\setlength\baselineskip{10pt plus 1pt}
+\input{children_insert.tex}
+}
+\end{multicols}
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\end{minipage}
 
 \end{document}
 
