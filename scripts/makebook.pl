@@ -25,13 +25,13 @@ for my $pdf (@ARGV) {
         my $crop_amount_right  = $total_width  - $width  - $crop_amount_left;
         my $clip = ($crop_amount_bottom > $crop_threshold) ? "true" : "false";
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
-        # disable cropping left and right, as this causes markup-only hymns to have misaligned titles
-        $crop_amount_left = $crop_amount_right = 0;
+        # symmetrically crop left and right by empirically-determined amount
+        $crop_amount_left = $crop_amount_right = 2;
         # crop top minimally, as we want a consistent height for the title,
         # regardless of how high an ascending stroke (especially inverted
         # commas) might rise
         $crop_amount_top = 8;
-        my $scale = 1.11; # TODO compute this
+        my $scale = 1.06; # TODO compute this
 
         if ($clip eq "true" and $prev_clip eq $clip) {
             print q(\vfill), "\n";
