@@ -3,6 +3,9 @@ use strict;
 
 my $open = 0;
 
+binmode \*STDIN, ":utf8";
+binmode \*STDOUT, ":utf8";
+
 print qq(\\interlinepenalty=10000\n);
 while (<>) {
     chomp;
