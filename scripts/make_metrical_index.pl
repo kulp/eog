@@ -29,6 +29,8 @@ sub dictionary {
     $aa cmp $bb
 }
 
+sub numeric { $a <=> $b }
+
 sub handle {
     my ($rec, $lines, $have) = @_;
     for my $song (sort dictionary keys %$rec) {
@@ -63,6 +65,6 @@ for my $meter (sort by_meter keys %meters) {
 print $header, @lines if @lines > 2;
 @lines = ();
 my $have = 0;
-handle({ $_ => $assorted{$_} }, \@lines, \$have) for sort keys %assorted;
+handle({ $_ => [ sort numeric @{ $assorted{$_} } ] }, \@lines, \$have) for sort keys %assorted;
 print "Uncategorized\n", @lines;
 
