@@ -208,7 +208,7 @@ booklayout/children_insert.tex: export USE_REFRAIN=0
 booklayout/%_insert.tex:
 	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
 
-book: booklayout/book.pdf $(INDICES)
+book: booklayout/cover.pdf booklayout/book.pdf $(INDICES)
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
