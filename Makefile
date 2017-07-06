@@ -184,7 +184,7 @@ booklayout/book.tex: booklayout/header.texi booklayout/footer.texi $(LYS:%.ly=me
 	scripts/makebook.pl $| >> $@ || (rm $@ ; false)
 	cat $(word 2,$^) >> $@ || (rm $@ ; false)
 
-index.meter: $(PDFS)
+booklayout/index.meter: $(PDFS)
 	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || (rm $@ ; false)
 
 %.pdf: %.tex
@@ -194,7 +194,7 @@ CLOBBERFILES += booklayout/indices.pdf
 indices: booklayout/indices.pdf
 booklayout/indices.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
-booklayout/metrical_insert.tex: index.meter
+booklayout/metrical_insert.tex: booklayout/index.meter
 	scripts/make_metrical_index.pl $< | scripts/format_metrical_index.pl > $@
 
 booklayout/first_insert.tex: $(wildcard src/EOG[0123]*.ly)
