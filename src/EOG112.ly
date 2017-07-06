@@ -11,7 +11,6 @@
   meter = "P. M."
   poet = "James M. Gray"
   composer = "D. B. Towner" % Daniel B. Towner
-  copyright = "Copyright, 1933. Renewal. Hope Publishing Co., owner. "
   tagline = ##f
 }
 

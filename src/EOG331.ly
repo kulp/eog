@@ -122,10 +122,6 @@ Won -- der -- ful His love to me. \bar "."
   }
 }
 
-% We don't use the `copyright` header field because we need the copyright to
-% appear just under the last system, rather than at the bottom of the page.
-\noPageBreak \markup { \fill-line { \raise #4 { "Copyright 1938 by Singspiration, Inc. All rights reserved. Used by permission." } } }
-
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

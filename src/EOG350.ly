@@ -12,7 +12,6 @@
   meter = "P. M."
   poet = "Harry D. Clarke"
   composer = "Harry D. Clarke"
-  copyright = \markup { \wordwrap { Copyright, 1927. Renewal, 1955, by H. D. Clarke. Assigned to Hope Publishing Company. All rights reserved. Used by permission. } }
   tagline = ##f
 }
 

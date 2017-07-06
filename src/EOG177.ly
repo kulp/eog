@@ -15,7 +15,6 @@
   meter = "P. M." % something like 12. 11. 12. 11. with Refrain
   poet = "James M. Gray"
   composer = "D. B. Towner"
-  copyright = "Copyright, 1928, Renewal. Hope Publishing Company, owner. Used by permission."
   tagline = ##f
 }
 

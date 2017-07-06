@@ -17,7 +17,6 @@
   meter = "P. M."
   poet = "J. Wilbur Chapman"
   composer = "Chas. H. Marsh"
-  copyright = "Copyright, 1938, Renewal. The Rodeheaver Co., Owner. Used by permission." % TODO revalidate
   tagline = ##f
 }
 
