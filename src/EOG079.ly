@@ -15,7 +15,6 @@
   meter = "S. M. with Refrain"
   poet = "T. R. Dale"
   composer = "L. Hartsough"
-  %copyright = ""
   tagline = ##f
 }
 

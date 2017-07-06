@@ -15,7 +15,6 @@
   meter = "C. M. with Refrain"
   poet = "W. Cameron"
   composer = "Italian Hymn Tune"
-  %copyright = ""
   tagline = ##f
 }
 

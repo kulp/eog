@@ -15,7 +15,6 @@
   meter = "11. 12. 11. 12."
   poet = "C. Wesley"
   composer = "B. Milgrove"
-  %copyright = ""
   tagline = ##f
 }
 

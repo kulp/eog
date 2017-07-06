@@ -13,7 +13,6 @@
   meter = "8. 7. 8. 7."
   poet = "Mrs. F. Bevan (from German)"
   composer = "German"
-  %copyright = ""
   tagline = ##f
 }
 

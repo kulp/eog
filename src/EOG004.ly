@@ -12,7 +12,6 @@
   meter = "6-8s."
   poet = "Joseph Grigg"
   composer = "J. G. Walton"
-  %copyright = ""
   tagline = ##f
 }
 

@@ -15,7 +15,6 @@
   meter = "8. 8. 6. D."
   poet = "T. Kelly"
   composer = "J. Foster"
-  copyright = ""
   tagline = ##f
 }
 

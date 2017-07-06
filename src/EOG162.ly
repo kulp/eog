@@ -15,7 +15,6 @@
   meter = "C. M."
   poet = "J. G. Deck"
   composer = "Stephen Jenks"
-  %copyright = ""
   tagline = ##f
 }
 

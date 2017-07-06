@@ -16,7 +16,6 @@
   meter = "C. M."
   poet = "W. Cowper"
   composer = "W. Croft"
-  %copyright = ""
   tagline = ##f
 }
 

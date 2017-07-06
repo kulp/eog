@@ -15,7 +15,6 @@
   meter = "C. M."
   poet = "Mary Bowley"
   composer = "“Hymns and Sacred Poems,” Dublin"
-  %copyright = ""
   tagline = ##f
 }
 

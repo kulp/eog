@@ -13,7 +13,6 @@
   meter = "C. M."
   poet = "S. Stennett"
   composer = "English Melody"
-  %copyright = ""
   tagline = ##f
 }
 
