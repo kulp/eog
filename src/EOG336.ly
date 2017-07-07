@@ -77,6 +77,7 @@ notesBass = {
 }
 
 wordsA = \lyricmode {
+\set stanza = "1."
 
 I am the Door, I am the Door, \bar "."
 By Me if an -- y man en -- ter in, \bar "."
@@ -86,6 +87,7 @@ He shall be saved. \bar "."
 }
 
 wordsB = \lyricmode {
+\set stanza = "2."
 
 I am the { \mon } Door, the { \moff } words are but four;
 Mil -- lions are in, but there’s room for { \mon } more;

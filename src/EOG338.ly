@@ -101,6 +101,7 @@ For wash -- ing all my sins a -- way.
 }
 
 wordsC = \lyricmode {
+\set stanza = "3."
 
 Oh, trust my Sav -- iour, my pre -- cious Sav -- iour;
 He died for you as well as me;
