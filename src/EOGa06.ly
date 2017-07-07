@@ -44,7 +44,7 @@ notesSoprano = {
   g2 | b c d b | a1 \tb g2^\fermata \ta \bar "."
   b2 | c b a g | fis g a \bar "."
   b | g fis g d | g a \tb b^\fermata \ta \bar "."
-  g2 | b c d b | a1 g2 \bar "|."
+  g2 | b c d b | a1 g2^\fermata \bar "|."
 
 }
 }
