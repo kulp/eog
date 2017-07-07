@@ -78,9 +78,9 @@ notesBass = {
 
 wordsA = \lyricmode {
 
-Scar -- let, scar -- let, tho’ your sins be scar -- let, \bar "."
+Scar -- let, scar -- let, though your sins be scar -- let, \bar "."
 They shall be white as snow in His pre -- cious blood. \bar "."
-Crim -- son, crim -- son, tho’ your sins be crim -- son, \bar "."
+Crim -- son, crim -- son, though your sins be crim -- son, \bar "."
 In His pre -- cious blood they shall be white as wool. \bar "."
 
 }

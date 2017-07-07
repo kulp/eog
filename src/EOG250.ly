@@ -111,7 +111,7 @@ wordsD = \lyricmode {
 No good in crea -- tures can be found,
 All, all is found in Thee;
 We must have all things and a -- bound,
-Thro’ Thy suf -- fi -- cien -- cy.
+Through Thy suf -- fi -- cien -- cy.
 
 }
 

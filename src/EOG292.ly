@@ -102,7 +102,7 @@ The flesh and sense de -- ceive no more,
 When we shall see the Prince of life,
 And all His works of grace ex -- plore:
 What heights and depths of love di -- vine
-Will there thro’ end -- less a -- ges shine!
+Will there through end -- less a -- ges shine!
 
 }
 

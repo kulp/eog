@@ -116,15 +116,15 @@ RefrainB = \lyricmode {
 
 Chris -- tian, walk \italicsOn cheer -- ful -- ly, \italicsOff
 Chris -- tian, walk \italicsOn cheer -- ful -- ly, \italicsOff
-Chris -- tian, walk \italicsOn cheer -- ful -- ly \italicsOff thro’ the fierce storm.
+Chris -- tian, walk \italicsOn cheer -- ful -- ly \italicsOff through the fierce storm.
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Chris -- tian, walk \italicsOn cheer -- ful -- ly \italicsOff thro’ the fierce storm,
-Dark tho’ the sky with its threat of a -- larm;
+Chris -- tian, walk \italicsOn cheer -- ful -- ly \italicsOff through the fierce storm,
+Dark though the sky with its threat of a -- larm;
 Soon will the clouds and the tem -- pest be o’er,
 Then with thy Sav -- iour thou’lt rest ev -- er -- more.
 
@@ -145,7 +145,7 @@ wordsC = \lyricmode {
 
 Chris -- tian, walk \italicsOn prayer -- ful -- ly; \italicsOff oft wilt thou fall
 If thou for -- get on thy Sav -- iour to call;
-Safe thou shalt walk thro’ each tri -- al and care,
+Safe thou shalt walk through each tri -- al and care,
 If thou art clad in the ar -- mor of prayer.
 
 \RefrainC

@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 
 I once was a stran -- ger to grace and to God; \bar "."
 I knew not my dan -- ger, I felt not my load; \bar "."
-Tho’ friends spoke in rap -- ture of Christ on the tree, \bar "."
+Though friends spoke in rap -- ture of Christ on the tree, \bar "."
 “Je -- ho -- vah Tsid -- ke -- nu” was noth -- ing to me, \bar "."
 “Je -- ho -- vah Tsid -- ke -- nu” was noth -- ing to me. \bar "."
 

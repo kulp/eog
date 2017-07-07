@@ -123,7 +123,7 @@ Shall want Thee, too, in glo -- ry. \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-And tho’ our ef -- forts now to praise
+And though our ef -- forts now to praise
 Are oft -- en cold and low -- ly,
 A no -- bler, sweet -- er song we’ll raise,
 With all Thy saints, in glo -- ry.
