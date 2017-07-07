@@ -31,7 +31,7 @@ notesSoprano = {
 
   a4 | a( f) a | g( e) g | f2
   f4 | f( d) f | f( c) f | e2 \eogbreak
-  g4 | g( e) g | f( a) c | c( g) bes | a c
+  g4 | g( e) g | f( a) c | c( g) bes | a( c)
   d4 | c( a) bes | a( f) g | f2 \eogbreak
 
   \bar "|."
