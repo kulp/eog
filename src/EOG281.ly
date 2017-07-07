@@ -78,9 +78,9 @@ notesBass = {
 \global
 \relative f {
 
-  g4 | e d g c, | d e8 fis] g4
+  g4 | e d g c, | d e8[ fis] g4
   c,4 | g' a8[ d,] e4 c | d2 g,4
-  g'4 | e d g c, | d e8 fis] g4
+  g'4 | e d g c, | d e8[ fis] g4
   c,4 | g' a8[ d,] e4 c | d2 g,4
   g'4 | c,8[ b] a4 d d8[ c!] | b[ a] g4 c
   g4 | a b8[ cis] d4 g, | a2 d4
