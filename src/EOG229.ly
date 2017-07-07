@@ -125,7 +125,7 @@ wordsD = \markuplist {
 \line { The fullness of Thy love while here below, }
 \line { My empty vessel I may freely bring– }
 \line { O Thou who art of love the living spring, }
-\line { My vessel fill. }
+\line { { \hspace #2 } My vessel fill. }
 
 }
 
@@ -136,7 +136,7 @@ wordsE = \markuplist {
 \line { Yet I \italic may come, and come again to Thee }
 \line { With this, the needy children’s only plea– }
 % `\italic { }` would get stripped in getlyrics
-\line { \italic “Thou \italic lovest \italic me!” }
+\line { { \hspace #2 } \italic “Thou \italic lovest \italic me!” }
 
 }
 
@@ -146,7 +146,7 @@ wordsF = \markuplist {
 \line { Lead, lead me to the living fount above! }
 \line { Thither may I in simple faith draw nigh }
 \line { And never to another fountain fly, }
-\line { But unto Thee. }
+\line { { \hspace #2 } But unto Thee. }
 
 }
 
@@ -156,7 +156,7 @@ wordsG = \markuplist {
 \line { When on Thy lofty throne I sit with Thee; }
 \line { Then of Thy love in all its breadth and length, }
 \line { Its height and depth, its everlasting strength, }
-\line { My soul shall sing. }
+\line { { \hspace #2 } My soul shall sing. }
 
 }
 

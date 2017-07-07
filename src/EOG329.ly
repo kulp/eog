@@ -139,26 +139,26 @@ Un -- til he found his lamb.
 wordsD = \markuplist {
 
 \line { Then to his gentle bosom }
-\line { The little lamb he pressed, }
+\line { { \hspace #2 } The little lamb he pressed, }
 \line { And on his shoulders bore it, }
-\line { And fondly it caressed. }
+\line { { \hspace #2 } And fondly it caressed. }
 \line { The little lamb was happy }
-\line { To find itself secure; }
+\line { { \hspace #2 } To find itself secure; }
 \line { The shepherd, too, was joyful, }
-\line { Because his lamb he bore. }
+\line { { \hspace #2 } Because his lamb he bore. }
 
 }
 
 wordsE = \markuplist {
 
 \line { And now, dear little children, }
-\line { A Shepherd’s up on high, }
+\line { { \hspace #2 } A Shepherd’s up on high, }
 \line { Who came to seek the straying, }
-\line { Who all deserved to die. }
+\line { { \hspace #2 } Who all deserved to die. }
 \line { For sin each lamb had ruined, }
-\line { And far from God had led; }
+\line { { \hspace #2 } And far from God had led; }
 \line { But oh! what love unbounded! }
-\line { He suffered in their stead. }
+\line { { \hspace #2 } He suffered in their stead. }
 
 }
 

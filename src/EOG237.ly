@@ -135,44 +135,44 @@ Gave Him -- self, my soul, for thee.
 wordsD = \markuplist {
 
 \line { Then that closing scene of anguish; }
-\line { All God’s waves and billows roll }
+\line { { \hspace #2 } All God’s waves and billows roll }
 \line { Over Him; there left to languish }
-\line { On the cross, to save my soul. }
-\line { Matchless love! how vast! how free! }
-\line { Jesus gave Himself for me. }
+\line { { \hspace #2 } On the cross, to save my soul. }
+\line { { \hspace #4 } Matchless love! how vast! how free! }
+\line { { \hspace #4 } Jesus gave Himself for me. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Hark again! His cries are waking }
-\line { Echoes on dark Calvary’s hill; }
+\line { { \hspace #2 } Echoes on dark Calvary’s hill; }
 \line { God, my God, art Thou forsaking }
-\line { Him who always did Thy will? }
-\line { Ah, my soul, it was for thee; }
-\line { Yes, He gave Himself for me. }
+\line { { \hspace #2 } Him who always did Thy will? }
+\line { { \hspace #4 } Ah, my soul, it was for thee; }
+\line { { \hspace #4 } Yes, He gave Himself for me. }
 
 }
 
 wordsF = \markuplist {
 
 \line { Lord, we joy, Thy toils are ended, }
-\line { Glad Thy suffering time is o’er; }
+\line { { \hspace #2 } Glad Thy suffering time is o’er; }
 \line { To Thy Father’s throne ascended, }
-\line { There Thou liv’st to die no more. }
-\line { Yes, my soul, He lives for thee, }
-\line { He who gave Himself for me. }
+\line { { \hspace #2 } There Thou liv’st to die no more. }
+\line { { \hspace #4 } Yes, my soul, He lives for thee, }
+\line { { \hspace #4 } He who gave Himself for me. }
 
 }
 
 wordsG = \markuplist {
 
 \line { Lord, we worship and adore Thee }
-\line { For Thy rich, Thy matchless grace, }
+\line { { \hspace #2 } For Thy rich, Thy matchless grace, }
 \line { Perfect soon in joy before Thee, }
-\line { We shall see Thee face to face. }
-\line { Yet e’en now our song shall be, }
-\line { Jesus gave Himself for me. }
+\line { { \hspace #2 } We shall see Thee face to face. }
+\line { { \hspace #4 } Yet e’en now our song shall be, }
+\line { { \hspace #4 } Jesus gave Himself for me. }
 
 }
 

@@ -114,18 +114,18 @@ As though no sin had been.
 wordsD = \markuplist {
 
 \line { How free! It asks no price, }
-\line { For God delights to give; }
+\line { { \hspace #2 } For God delights to give; }
 \line { It only says – a simple thing – }
-\line { “Believe in Christ, and live.” }
+\line { { \hspace #2 } “Believe in Christ, and live.” }
 
 }
 
 wordsE = \markuplist {
 
 \line { Poor trembling sinner, “Come,” }
-\line { God waits to comfort thee; }
+\line { { \hspace #2 } God waits to comfort thee; }
 \line { Oh, cast thyself upon His love, }
-\line { So vast, so full, so free! }
+\line { { \hspace #2 } So vast, so full, so free! }
 
 }
 

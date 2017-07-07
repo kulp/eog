@@ -125,7 +125,7 @@ wordsD = \markuplist {
 \line { Come, hither bring thy boding fears, }
 \line { Thine aching heart, thy bursting tears; }
 \line { ’Tis mercy’s voice salutes thine ears; }
-\line { O trembling sinner, come! }
+\line { { \hspace #2 } O trembling sinner, come! }
 
 }
 
@@ -134,7 +134,7 @@ wordsE = \markuplist {
 \line { “The Spirit and the bride say, Come”; }
 \line { Rejoicing saints reecho, “Come.” }
 \line { Who faints, who thirsts, who will, may come, }
-\line { The Saviour bids thee, come! }
+\line { { \hspace #2 } The Saviour bids thee, come! }
 
 }
 

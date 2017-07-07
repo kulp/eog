@@ -118,36 +118,36 @@ He came to die!
 wordsD = \markuplist {
 
 \line { His life on earth was lowliness, }
-\line { To God and sinners nigh; }
+\line { { \hspace #2 } To God and sinners nigh; }
 \line { He had nowhere to lay His head; }
-\line { He came to die! }
+\line { { \hspace #2 } He came to die! }
 
 }
 
 wordsE = \markuplist {
 
 \line { His was the voice that breathed o’er time, }
-\line { The comfort of the sky! }
+\line { { \hspace #2 } The comfort of the sky! }
 \line { “Come unto Me,” for us He came; }
-\line { He came to die! }
+\line { { \hspace #2 } He came to die! }
 
 }
 
 wordsF = \markuplist {
 
 \line { He loved the ones for whom He died— }
-\line { Not ours to question why; }
+\line { { \hspace #2 } Not ours to question why; }
 \line { But ours to know the love of Him }
-\line { Who came to die! }
+\line { { \hspace #2 } Who came to die! }
 
 }
 
 wordsG = \markuplist {
 
 \line { His is the loving voice we hear }
-\line { That leads us to the sky. }
+\line { { \hspace #2 } That leads us to the sky. }
 \line { We bless Thee, Lord, who came to earth }
-\line { For us to die! }
+\line { { \hspace #2 } For us to die! }
 
 }
 

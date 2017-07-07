@@ -140,18 +140,18 @@ Him some -- thing more than gold.
 wordsD = \markuplist {
 
 \line { The Saviour came along the way }
-\line { And saw him in the tree; }
+\line { { \hspace #2 } And saw him in the tree; }
 \line { Then calling to him, Jesus said, }
-\line { “I must abide with thee.” }
+\line { { \hspace #2 } “I must abide with thee.” }
 
 }
 
 wordsE = \markuplist {
 
 \line { So he obeyed, and soon he found }
-\line { The half had not been told; }
+\line { { \hspace #2 } The half had not been told; }
 \line { The blessing Jesus brought to him }
-\line { Was better far than gold. }
+\line { { \hspace #2 } Was better far than gold. }
 
 }
 

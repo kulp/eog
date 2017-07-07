@@ -121,18 +121,18 @@ He has paid.
 wordsE = \markuplist {
 
 \line { Let your heart go out toward Him }
-\line { In a simple faith, }
+\line { { \hspace #2 } In a simple faith, }
 \line { He is willing now to save you, }
-\line { As He saith. }
+\line { { \hspace #2 } As He saith. }
 
 }
 
 wordsF = \markuplist {
 
 \line { Yes! the living, loving Saviour }
-\line { Waits to make you free; }
+\line { { \hspace #2 } Waits to make you free; }
 \line { Waits to give you peace and pardon, }
-\line { “Come and see.” }
+\line { { \hspace #2 } “Come and see.” }
 
 }
 

@@ -112,18 +112,18 @@ Your cheer -- ful prais -- es bring.
 wordsD = \markuplist {
 
 \line { Soon shall we hear Him say, }
-\line { “Ye ransomed pilgrims, come”; }
+\line { { \hspace #2 } “Ye ransomed pilgrims, come”; }
 \line { Soon will He call us hence away, }
-\line { And take us to His home. }
+\line { { \hspace #2 } And take us to His home. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Then shall each raptured tongue }
-\line { His fullest praise proclaim; }
+\line { { \hspace #2 } His fullest praise proclaim; }
 \line { And sweeter voices wake the song }
-\line { Of “Glory to the Lamb!” }
+\line { { \hspace #2 } Of “Glory to the Lamb!” }
 
 }
 

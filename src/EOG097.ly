@@ -120,18 +120,18 @@ Be ye rec -- on -- ciled to God.
 wordsD = \markuplist {
 
 \line { Now no barrier to hinder, }
-\line { Jesus has removed it all; }
+\line { { \hspace #2 } Jesus has removed it all; }
 \line { God can in His Son receive thee– }
-\line { Answer then His loving call. }
+\line { { \hspace #2 } Answer then His loving call. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Let thy soul delight the Saviour }
-\line { By submitting to His love; }
+\line { { \hspace #2 } By submitting to His love; }
 \line { And in everlasting favor, }
-\line { Thou shalt dwell with Him above. }
+\line { { \hspace #2 } Thou shalt dwell with Him above. }
 
 }
 

@@ -149,52 +149,52 @@ Sin nor care.
 wordsE = \markuplist {
 
 \line { Longing for the bride, Lord Jesus, }
-\line { { \hspace #2 } Of Thy heart; }
+\line { { \hspace #4 } Of Thy heart; }
 \line { To be with Thee in the glory, }
-\line { { \hspace #2 } Where Thou art. }
-\line { Love so groundless, }
-\line { Grace so boundless, }
-\line { Grace so boundless }
-\line { { \hspace #2 } Wins my heart. }
+\line { { \hspace #4 } Where Thou art. }
+\line { { \hspace #2 } Love so groundless, }
+\line { { \hspace #2 } Grace so boundless, }
+\line { { \hspace #2 } Grace so boundless }
+\line { { \hspace #4 } Wins my heart. }
 
 }
 
 wordsF = \markuplist {
 
 \line { When Thy blood-bought church, Lord Jesus, }
-\line { { \hspace #2 } Is complete; }
+\line { { \hspace #4 } Is complete; }
 \line { When each soul is safely landed }
-\line { { \hspace #2 } At Thy feet; }
-\line { What a story }
-\line { In the glory, }
-\line { In the glory }
-\line { { \hspace #2 } She’ll repeat. }
+\line { { \hspace #4 } At Thy feet; }
+\line { { \hspace #2 } What a story }
+\line { { \hspace #2 } In the glory, }
+\line { { \hspace #2 } In the glory }
+\line { { \hspace #4 } She’ll repeat. }
 
 }
 
 wordsG = \markuplist {
 
 \line { Oh, to praise Thee there, Lord Jesus, }
-\line { { \hspace #2 } Evermore! }
+\line { { \hspace #4 } Evermore! }
 \line { Oh, to grieve and wander from Thee }
-\line { { \hspace #2 } Nevermore! }
-\line { Earth’s sad story }
-\line { Closed in glory, }
-\line { Closed in glory }
-\line { { \hspace #2 } On yon shore. }
+\line { { \hspace #4 } Nevermore! }
+\line { { \hspace #2 } Earth’s sad story }
+\line { { \hspace #2 } Closed in glory, }
+\line { { \hspace #2 } Closed in glory }
+\line { { \hspace #4 } On yon shore. }
 
 }
 
 wordsH = \markuplist {
 
 \line { Then Thy church will be, Lord Jesus, }
-\line { { \hspace #2 } The display }
+\line { { \hspace #4 } The display }
 \line { Of God’s richest grace and kindness }
-\line { { \hspace #2 } In that day; }
-\line { Marking pages, }
-\line { Wondrous stages, }
-\line { Wondrous stages, }
-\line { { \hspace #2 } O’er earth’s way.}
+\line { { \hspace #4 } In that day; }
+\line { { \hspace #2 } Marking pages, }
+\line { { \hspace #2 } Wondrous stages, }
+\line { { \hspace #2 } Wondrous stages, }
+\line { { \hspace #4 } O’er earth’s way.}
 
 }
 

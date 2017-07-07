@@ -183,7 +183,7 @@ wordsD = \markuplist {
 \line { Some said, “He’ll soon give o’er, }
 \line { You shall see, you shall see!” }
 \line { Some said, “He’ll soon give o’er, }
-\line { You shall see!” }
+\line { { \hspace #2 } You shall see!” }
 \line { But time has passed away }
 \line { Since I began to pray, }
 \line { And I feel His love today! }
@@ -196,7 +196,7 @@ wordsE = \markuplist {
 \line { So now I’m going home }
 \line { To the Lord, to the Lord. }
 \line { So now I’m going home }
-\line { To the Lord. }
+\line { { \hspace #2 } To the Lord. }
 \line { So now I’m going home. }
 \line { Poor sinner, won’t you come? }
 \line { Or meet an awful doom }

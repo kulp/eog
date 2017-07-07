@@ -156,26 +156,26 @@ Right -- eous judg -- ment thus He stemmed.
 wordsD = \markuplist {
 
 \line { Skeptic, when you read that story, }
-\line { When you see that wondrous plan, }
+\line { { \hspace #2 } When you see that wondrous plan, }
 \line { Can you make it but tradition, }
-\line { And degrade your God as man? }
+\line { { \hspace #2 } And degrade your God as man? }
 \line { Ah, there comes a time to all men, }
-\line { When a righteous, holy God, }
+\line { { \hspace #2 } When a righteous, holy God, }
 \line { Shall mete out a righteous judgment, }
-\line { Then shall you believe His Word. }
+\line { { \hspace #2 } Then shall you believe His Word. }
 
 }
 
 wordsE = \markuplist {
 
 \line { He is waiting for acceptance, }
-\line { Lost one, will you pass Him by, }
+\line { { \hspace #2 } Lost one, will you pass Him by, }
 \line { Will you rush along unheeding, }
-\line { While your ears ring with His cry? }
+\line { { \hspace #2 } While your ears ring with His cry? }
 \line { Don’t delay, as Paul’s accuser, }
-\line { Till a more convenient day. }
+\line { { \hspace #2 } Till a more convenient day. }
 \line { God with open arms will meet you, }
-\line { Loved one, come while yet you may. }
+\line { { \hspace #2 } Loved one, come while yet you may. }
 
 }
 

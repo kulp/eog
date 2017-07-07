@@ -118,18 +118,18 @@ Is now our Guard and Guide.
 wordsE = \markuplist {
 
 \line { Our times are in Thy hand, }
-\line { Jesus the Advocate! }
+\line { { \hspace #2 } Jesus the Advocate! }
 \line { Nor can that hand be stretched in vain }
-\line { For us to supplicate. }
+\line { { \hspace #2 } For us to supplicate. }
 
 }
 
 wordsF = \markuplist {
 
 \line { Our times are in Thy hand; }
-\line { We’d always trust in Thee, }
+\line { { \hspace #2 } We’d always trust in Thee, }
 \line { Till we have left this weary land, }
-\line { And all Thy glory see. }
+\line { { \hspace #2 } And all Thy glory see. }
 
 }
 

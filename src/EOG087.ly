@@ -154,18 +154,18 @@ And saves His peo -- ple from e -- ter -- nal loss.
 wordsD = \markuplist {
 
 \line { Now, weary souls, who rest and peace are seeking, }
-\line { Who long for One to meet their deepest need, }
+\line { { \hspace #2 } Who long for One to meet their deepest need, }
 \line { Hear in the Word the voice of Jesus speaking, }
-\line { And trust in Him who makes them free indeed. }
+\line { { \hspace #2 } And trust in Him who makes them free indeed. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Soon Jesus’ voice of love may cease appealing, }
-\line { And in your face the door of mercy close. }
+\line { { \hspace #2 } And in your face the door of mercy close. }
 \line { Spurn not the voice of Him with heart so feeling, }
-\line { Who proved His love by dying for His foes. }
+\line { { \hspace #2 } Who proved His love by dying for His foes. }
 
 }
 

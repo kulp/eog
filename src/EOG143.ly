@@ -113,18 +113,18 @@ And staff they com -- fort still.
 wordsD = \markuplist {
 
 \line { My table Thou hast furnishèd }
-\line { In presence of my foes; }
+\line { { \hspace #2 } In presence of my foes; }
 \line { My head thou dost with oil anoint, }
-\line { And my cup overflows. }
+\line { { \hspace #2 } And my cup overflows. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Goodness and mercy all my life }
-\line { Shall surely follow me; }
+\line { { \hspace #2 } Shall surely follow me; }
 \line { And in God’s house forevermore }
-\line { My dwelling-place shall be. }
+\line { { \hspace #2 } My dwelling-place shall be. }
 
 }
 

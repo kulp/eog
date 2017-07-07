@@ -153,18 +153,18 @@ Mer -- cies ev -- er sure.
 wordsD = \markuplist {
 
 \line { Oh, His tender love and pity! }
-\line { Still He calls today; }
+\line { { \hspace #2 } Still He calls today; }
 \line { Never one to Him who cometh }
-\line { Shall be cast away. }
+\line { { \hspace #2 } Shall be cast away. }
 
 }
 
 wordsE = \markuplist {
 
 \line { From all sin He came to save us, }
-\line { Satan’s slaves to free: }
+\line { { \hspace #2 } Satan’s slaves to free: }
 \line { To His royal feast He bids us; }
-\line { Sinner, taste and see. }
+\line { { \hspace #2 } Sinner, taste and see. }
 
 }
 

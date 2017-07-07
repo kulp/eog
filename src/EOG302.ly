@@ -31,30 +31,30 @@ global = {
 wordsE = \markuplist {
 
 \line { The Bible tells us He will come }
-\line { To take His saints away, }
+\line { { \hspace #2 } To take His saints away, }
 \line { To dwell with Him in His blest home }
 %LYRICS Through everlasting day,
-\line { Through everlasting day. }
+\line { { \hspace #2 } Through everlasting day. }
 
 }
 
 wordsF = \markuplist {
 
 \line { The Bible tells us He will reign }
-\line { O’er all the earth ere long; }
+\line { { \hspace #2 } O’er all the earth ere long; }
 \line { When heaven and earth shall wake the strain }
 %LYRICS Of an eternal song,
-\line { Of an eternal song. }
+\line { { \hspace #2 } Of an eternal song. }
 
 }
 
 wordsG = \markuplist {
 
 \line { The Bible tells us \italic all may come, }
-\line { And drink at mercy’s stream; }
+\line { { \hspace #2 } And drink at mercy’s stream; }
 \line { That Jesus soon will share this home }
 %LYRICS With all who trust in Him,
-\line { With all who trust in Him. }
+\line { { \hspace #2 } With all who trust in Him. }
 
 }
 

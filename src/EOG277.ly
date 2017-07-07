@@ -78,45 +78,45 @@ notesBass = {
 wordsA = \markuplist {
 
 \line { We speak of the mercy of God, }
-\line { So boundless, so rich, and so free! }
+\line { { \hspace #2 } So boundless, so rich, and so free! }
 \line { But what will it profit thy soul, }
-\line { Unless ’tis relied on by thee? }
+\line { { \hspace #2 } Unless ’tis relied on by thee? }
 
 }
 
 wordsB = \markuplist {
 
 \line { We speak of salvation and love, }
-\line { By the Father in Jesus made known; }
+\line { { \hspace #2 } By the Father in Jesus made known; }
 \line { But if thou wouldst live unto God, } % XXX blue book has "would’st"
-\line { By faith thou must make it thine own. }
+\line { { \hspace #2 } By faith thou must make it thine own. }
 
 }
 
 wordsC = \markuplist {
 
 \line { We speak of the Saviour’s blest name, }
-\line { By which God can sinners receive; }
+\line { { \hspace #2 } By which God can sinners receive; }
 \line { Yet still art thou lost and undone, }
-\line { Unless in that name thou’lt believe. }
+\line { { \hspace #2 } Unless in that name thou’lt believe. }
 
 }
 
 wordsD = \markuplist {
 
 \line { We speak of the blood of the Lamb, }
-\line { Which frees from pollution and sin; }
+\line { { \hspace #2 } Which frees from pollution and sin; }
 \line { But its virtues by thee must be proved, }
-\line { Or thou wilt be ever unclean. }
+\line { { \hspace #2 } Or thou wilt be ever unclean. }
 
 }
 
 wordsE = \markuplist {
 
 \line { We speak of the glory to come, }
-\line { Of the heaven so bright and so fair; }
+\line { { \hspace #2 } Of the heaven so bright and so fair; }
 \line { But unless thou in Jesus believe, }
-\line { Thou shalt not, thou canst not be there. }
+\line { { \hspace #2 } Thou shalt not, thou canst not be there. }
 
 }
 

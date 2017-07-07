@@ -170,9 +170,9 @@ To suf -- fer such deep ag -- o -- ny.
 wordsD = \markuplist {
 
 \line { I’m sitting in His presence, }
-\line { The sunshine of His face, }
+\line { { \hspace #2 } The sunshine of His face, }
 \line { While with adoring wonder }
-\line { His blessings I retrace. }
+\line { { \hspace #2 } His blessings I retrace. }
 \line { It seems as if eternal days }
 \line { Are far too short to sound His praise. }
 
@@ -181,9 +181,9 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { So while the hours are passing, }
-\line { All now is perfect rest; }
+\line { { \hspace #2 } All now is perfect rest; }
 \line { I’m waiting for the morning, }
-\line { The brightest and the best, }
+\line { { \hspace #2 } The brightest and the best, }
 \line { When He will call me to His side, }
 \line { The portion of His spotless bride. }
 

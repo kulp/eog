@@ -121,18 +121,18 @@ Did all our guilt re -- move.
 wordsD = \markuplist {
 
 \line { Man’s life is as the grass, }
-\line { Or like the morning flower; }
+\line { { \hspace #2 } Or like the morning flower; }
 \line { If one sharp blast sweep o’er the field, }
-\line { It withers in an hour. }
+\line { { \hspace #2 } It withers in an hour. }
 
 }
 
 wordsE = \markuplist {
 
 \line { But Thy compassions, Lord, }
-\line { To endless years endure; }
+\line { { \hspace #2 } To endless years endure; }
 \line { And all Thy people ever find }
-\line { Thy word of promise sure. }
+\line { { \hspace #2 } Thy word of promise sure. }
 
 }
 

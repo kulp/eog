@@ -142,9 +142,9 @@ He smiled and said, “Ab -- sol -- vo te.”
 wordsE = \markuplist {
 
 \line { In heaven He stands before the throne, }
-\line { The great High Priest above, }
+\line { { \hspace #2 } The great High Priest above, }
 \line { “Melchisedec”– that One alone }
-\line { Can sin’s dark stain remove; }
+\line { { \hspace #2 } Can sin’s dark stain remove; }
 \line { To Him I look on bended knee, }
 \line { And hear that sweet “Absolvo te.” }
 
@@ -153,9 +153,9 @@ wordsE = \markuplist {
 wordsF = \markuplist {
 
 \line { “A little while” and He shall come }
-\line { Forth from the inner shrine, }
+\line { { \hspace #2 } Forth from the inner shrine, }
 \line { To call His pardoned brethren home; }
-\line { Oh bliss supreme, divine! }
+\line { { \hspace #2 } Oh bliss supreme, divine! }
 \line { When every blood-bought child shall see }
 \line { The Priest who said, “Absolvo te.” }
 

@@ -127,18 +127,18 @@ He hides a smil -- ing face.
 wordsE = \markuplist {
 
 \line { His purposes will ripen fast, }
-\line { Unfolding ev’ry hour; }
+\line { { \hspace #2 } Unfolding ev’ry hour; }
 \line { The bud may have a bitter taste, }
-\line { But sweet will be the flower. }
+\line { { \hspace #2 } But sweet will be the flower. }
 
 }
 
 wordsF = \markuplist {
 
 \line { Blind unbelief is sure to err, }
-\line { And scan His work in vain; }
+\line { { \hspace #2 } And scan His work in vain; }
 \line { God is His own interpreter, }
-\line { And He will make it plain. }
+\line { { \hspace #2 } And He will make it plain. }
 
 }
 

@@ -78,45 +78,45 @@ notesBass = {
 wordsA = \markuplist {
 
 \line { Not to ourselves we owe }
-\line { That we, O God, are Thine; }
+\line { { \hspace #2 } That we, O God, are Thine; }
 \line { Jesus, the Lord, our night broke through }
-\line { And gave us light divine. }
+\line { { \hspace #2 } And gave us light divine. }
 
 }
 
 wordsB = \markuplist {
 
 \line { The Father’s grace and love }
-\line { This blessed mercy gave, }
+\line { { \hspace #2 } This blessed mercy gave, }
 \line { And Jesus left the throne above }
-\line { His wand’ring sheep to save. }
+\line { { \hspace #2 } His wand’ring sheep to save. }
 
 }
 
 wordsC = \markuplist {
 
 \line { No more the heirs of wrath– }
-\line { Thy sovereign love we see; }
+\line { { \hspace #2 } Thy sovereign love we see; }
 \line { And, Father, in confiding faith, }
-\line { We cast our souls on Thee. }
+\line { { \hspace #2 } We cast our souls on Thee. }
 
 }
 
 wordsD = \markuplist {
 
 \line { Our hearts look up to see }
-\line { The glory Thou hast given, }
+\line { { \hspace #2 } The glory Thou hast given, }
 \line { And dwell e’en now where we shall be }
-\line { With Christ, Thine heirs, in heaven. }
+\line { { \hspace #2 } With Christ, Thine heirs, in heaven. }
 
 }
 
 wordsE = \markuplist {
 
 \line { With the adopted band, }
-\line { Soon shall we see Thee there: }
+\line { { \hspace #2 } Soon shall we see Thee there: }
 \line { With them and Him in glory stand, }
-\line { And all His honors share. }
+\line { { \hspace #2 } And all His honors share. }
 
 }
 

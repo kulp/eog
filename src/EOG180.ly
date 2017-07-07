@@ -113,18 +113,18 @@ In trust -- ing to His blood.
 wordsD = \markuplist {
 
 \line { None like the ransomed host }
-\line { That precious blood have known; }
+\line { { \hspace #2 } That precious blood have known; }
 \line { Redemption gives faith’s holy boast }
-\line { To draw so near the throne. }
+\line { { \hspace #2 } To draw so near the throne. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Higher and higher yet! }
-\line { Pleading that same lifeblood; }
+\line { { \hspace #2 } Pleading that same lifeblood; }
 \line { We taste the love that knows no let, }
-\line { Of Abba, as of God. }
+\line { { \hspace #2 } Of Abba, as of God. }
 
 }
 

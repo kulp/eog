@@ -122,18 +122,18 @@ For Christ His Son has died.
 wordsD = \markuplist {
 
 \line { “All things are ready,” come, }
-\line { All hindrance is removed; }
+\line { { \hspace #2 } All hindrance is removed; }
 \line { And God, in Christ, His precious love }
-\line { To fallen man has proved. }
+\line { { \hspace #2 } To fallen man has proved. }
 
 }
 
 wordsE = \markuplist {
 
 \line { “All things are ready,” come, }
-\line { Tomorrow may not be; }
+\line { { \hspace #2 } Tomorrow may not be; }
 \line { O sinner, come; the Saviour waits }
-\line { This hour to welcome thee! }
+\line { { \hspace #2 } This hour to welcome thee! }
 
 }
 

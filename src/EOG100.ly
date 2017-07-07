@@ -131,10 +131,10 @@ wordsD = \markuplist {
 
 \line { Let all who know our God rejoice, }
 \line { Praise Him in songs with cheerful voice, }
-\line { And live to Him alone; }
+\line { { \hspace #2 } And live to Him alone; }
 \line { Let sinners too take up the strain, }
 \line { Exalt the Lamb for sinners slain, }
-\line { The coming Saviour own. }
+\line { { \hspace #2 } The coming Saviour own. }
 
 }
 
@@ -142,10 +142,10 @@ wordsE = \markuplist {
 
 \line { The Spirit and the bride say, Come! }
 \line { Let him that heareth, too, say, Come! }
-\line { Whoever thirsts may come; }
+\line { { \hspace #2 } Whoever thirsts may come; }
 \line { Water of life is freely given }
 \line { Till Christ the Lord descends from heaven; }
-\line { Lord Jesus, quickly come! }
+\line { { \hspace #2 } Lord Jesus, quickly come! }
 
 }
 

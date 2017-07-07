@@ -143,22 +143,22 @@ Sin -- ners Je -- sus came to call.
 wordsD = \markuplist {
 
 \line { Agonizing in the garden, }
-\line { Lo! the Saviour prostrate lies; }
+\line { { \hspace #2 } Lo! the Saviour prostrate lies; }
 \line { On the bloody tree behold Him, }
-\line { Hear Him cry before He dies, }
-\line { “It is finished!” “It is finished!” }
-\line { Sinner, will not this suffice? }
+\line { { \hspace #2 } Hear Him cry before He dies, }
+\line { { \hspace #4 } “It is finished!” “It is finished!” }
+\line { { \hspace #2 } Sinner, will not this suffice? }
 
 }
 
 wordsE = \markuplist {
 
 \line { Lo! the Incarnate God ascended, }
-\line { Pleads the merits of His blood; }
+\line { { \hspace #2 } Pleads the merits of His blood; }
 \line { Venture on Him, venture freely, }
-\line { Let no other trust intrude: }
-\line { None but Jesus, none but Jesus, }
-\line { Can do helpless sinners good. }
+\line { { \hspace #2 } Let no other trust intrude: }
+\line { { \hspace #4 } None but Jesus, none but Jesus, }
+\line { { \hspace #2 } Can do helpless sinners good. }
 
 }
 

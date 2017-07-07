@@ -149,18 +149,18 @@ Hope of the hope -- less, my Sav -- iour is He!
 wordsD = \markuplist {
 
 \line { One day the grave could conceal Him no longer, }
-\line { One day the stone rolled away from the door; }
+\line { { \hspace #2 } One day the stone rolled away from the door; }
 \line { He had arisen, over death He had conquered; }
-\line { Now is ascended, my Lord evermore! }
+\line { { \hspace #2 } Now is ascended, my Lord evermore! }
 
 }
 
 wordsE = \markuplist {
 
 \line { One day the trumpet will sound for His coming, }
-\line { One day the skies with His glory will shine; }
+\line { { \hspace #2 } One day the skies with His glory will shine; }
 \line { Wonderful day, my belovèd ones bringing; }
-\line { Glorious Saviour, this Jesus is mine! }
+\line { { \hspace #2 } Glorious Saviour, this Jesus is mine! }
 
 }
 

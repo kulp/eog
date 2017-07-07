@@ -153,18 +153,18 @@ From their pow’r my soul to save.
 wordsE = \markuplist {
 
 \line { Tender, tender love of Jesus! }
-\line { At the Father’s side He stands, }
+\line { { \hspace #2 } At the Father’s side He stands, }
 \line { Interceding for me always, }
-\line { Holding up His piercèd hands! }
+\line { { \hspace #2 } Holding up His piercèd hands! }
 
 }
 
 wordsF = \markuplist {
 
 \line { Perfect, perfect love of Jesus! }
-\line { In its fullness let me hide, }
+\line { { \hspace #2 } In its fullness let me hide, }
 \line { Till the King in all His beauty }
-\line { Comes to claim His spotless bride. }
+\line { { \hspace #2 } Comes to claim His spotless bride. }
 
 }
 

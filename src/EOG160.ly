@@ -109,18 +109,18 @@ That drives us near -- er home.
 wordsD = \markuplist {
 
 \line { God’s grace will to the end }
-\line { Clearer and brighter shine; }
+\line { { \hspace #2 } Clearer and brighter shine; }
 \line { Nor present things, nor things to come, }
-\line { Can change His love divine. }
+\line { { \hspace #2 } Can change His love divine. }
 
 }
 
 wordsE = \markuplist {
 
 \line { Soon shall our pains and fears }
-\line { Forever pass away; }
+\line { { \hspace #2 } Forever pass away; }
 \line { For we shall soon the Saviour see }
-\line { In everlasting day. }
+\line { { \hspace #2 } In everlasting day. }
 
 }
 

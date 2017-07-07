@@ -121,18 +121,18 @@ And one day meet a -- gain.
 wordsE = \markuplist {
 
 \line { “That blessed hope” revives }
-\line { Our spirits by the way, }
+\line { { \hspace #2 } Our spirits by the way, }
 \line { While each in expectation lives }
-\line { And longs to see the day, }
+\line { { \hspace #2 } And longs to see the day, }
 
 }
 
 wordsF = \markuplist {
 
 \line { When from all toil and pain }
-\line { And sin we shall be free, }
+\line { { \hspace #2 } And sin we shall be free, }
 \line { And we shall with the Saviour reign }
-\line { Through all eternity. }
+\line { { \hspace #2 } Through all eternity. }
 
 }
 
