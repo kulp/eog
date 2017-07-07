@@ -30,7 +30,7 @@ patternDA = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2 c4 }
 patternEA = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2. }
 patternEB = { c4 c4 c4 | c4 c4 c4 | c4. c8 c4 | c2( c4) }
 patternFA = { c4 c4 c4 | c4 c4 c4 | c4 c4. c8 | c2 c4 }
-patternGA = { c4 c4 c4 | c4 c8 c8 c4 | c4 c4. c8 | c2. }
+patternGA = { c4 c4 c4 | c4 c8 r8 c4 | c4 c4. c8 | c2. }
 
 global = {
   \include "common/overrides.ily"
