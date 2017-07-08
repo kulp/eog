@@ -66,37 +66,35 @@ notesAlto = {
 notesTenor = {
 \global
 \override NoteHead.font-size = #-4
+<<
 \relative a {
 
-  \changePitch \patternC { f bes, | c c }
-  \changePitch \patternC { c c | f ~ f }
-  \changePitch \patternC { f f | bes, bes }
-  \changePitch \patternC { c c | f ~ f }
+  { f4. bes, | c c }
+  { c c | s s } % moved to chord below
+  { f f | bes, bes }
+  { c c | s s } % moved to chord below
 
-  \changePitch \patternC { f bes, | c c }
-  \changePitch \patternC { c c | f ~ f }
-  \changePitch \patternC { f bes, | bes bes }
-  c4. bes4 c8 | f4. ~ f
+  { f bes, | c c }
+  { c c | s s } % moved to chord below
+  { f bes, | bes bes }
+  c4. bes4 c8 | s4. s % moved to chord below
 
 }
-}
 
-notesBass = {
-\global
-\override NoteHead.font-size = #-4
 \relative f, {
 
-  \changePitch \patternC { f bes | c, c }
-  \changePitch \patternC { c c | f ~ f }
-  \changePitch \patternC { f f | bes bes }
-  \changePitch \patternC { c, c | f ~ f }
+  { f4. \new Voice { \override NoteHead.font-size = #-4 \voiceFour bes } | c, c }
+  { c c | <f _~ f' ^~ > <f f'> }
+  { f f | \new Voice { \override NoteHead.font-size = #-4 \voiceFour bes bes } }
+  { c, c | <f _~ f' ^~ > <f f'> }
 
-  \changePitch \patternC { f bes, | c c }
-  \changePitch \patternC { c c | f ~ f }
-  \changePitch \patternC { f bes, | bes bes }
-  c4. bes4 c8 | f4. ~ f
+  { f bes, | c c }
+  { c c | <f _~ f' ^~ > <f f'> }
+  { f bes, | bes bes }
+  c4. bes4 c8 | <f _~ f' ^~ >4. <f f'>
 
 }
+>>
 }
 
 wordsA = \lyricmode {
@@ -173,9 +171,7 @@ Where Je -- sus is in glo -- ry–
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
+      \context Voice = tenors { \voiceOne << \notesTenor >> }
     >>
   >>
   \layout {
