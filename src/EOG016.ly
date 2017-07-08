@@ -102,19 +102,15 @@ notesBass = {
 
   \changePitch \patternBA { d' d   | d b fis g  | d    }
   \changePitch \patternBA { d' d   | d b fis g  | d    }
+  <<
   \changePitch \patternBB { c' c   | c b a gis  | a g! }
+  {
+  \tweak font-size #-4 c,2 |
+  \tweak font-size #-4 c2
+  \tweak font-size #-4 c4
+  \tweak font-size #-4 e4 }
+  >>
   \changePitch \patternBA { fis c' | b g d d    | g    }
-
-}
-}
-
-notesLower = {
-\global
-\relative f {
-
-  \repeat unfold 48 \skip 4
-  \override NoteHead.font-size = #-4
-  c2 | c2 c4 e4
 
 }
 }
@@ -189,10 +185,6 @@ Ev -- ’ry tongue at last will own,
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
-      % TODO share stems properly
-      %\context Voice = loweryet { \voiceFour << \notesLower >> }
     >>
   >>
   \layout {
