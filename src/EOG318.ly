@@ -33,6 +33,7 @@ patternB = { \ta c8 | c4 c8 c4 c8 | c4. ~ c4 c8 }
 patternC = { \ta c8 c c c4 c8 | c4 c8 c4. }
 patternD = { \ta c8 c c c4 c8 | c4 c8 \tb c4.\fermata \ta }
 patternE = { \ta c4. c4 c8 | c4 c8 c4. }
+patternF = {     c8 c c c4 c8 | c4 c8     c4._\fermata }
 
 notesSoprano = {
 \global
@@ -82,7 +83,7 @@ notesTenor = {
 
   \changePitch \patternC { ees' ees ees bes bes | bes bes bes }
   \changePitch \patternC { bes bes bes bes bes | bes bes bes }
-  \changePitch \patternD { ees ees ees bes bes | aes g aes }
+  \changePitch \patternF { ees ees ees bes bes | aes g aes }
   \changePitch \patternE { c ees bes | bes aes g }
 
 }
@@ -99,7 +100,7 @@ notesBass = {
 
   \changePitch \patternC { ees ees ees ees ees | bes bes bes }
   \changePitch \patternC { bes bes bes bes bes | ees ees ees }
-  \changePitch \patternD { ees ees ees ees ees | c bes aes }
+  \changePitch \patternF { ees ees ees ees ees | c bes aes }
   \changePitch \patternE { aes' bes bes | bes, bes | ees }
 
 }

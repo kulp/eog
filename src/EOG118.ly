@@ -96,9 +96,9 @@ notesBass = {
   \changePitch \patternC { c c des ees ees ees | aes, aes }
 
   r8 | r4 ees'8 ees4 r8 | r4 ees8 aes4. |
-  bes8 bes g8. f16 f8. bes16 | ees,4(_\fermata f8 \fermata g4) \fermata r8 |
+  bes8 bes g8. f16 f8. bes16 | ees,4(_\fermata f8_\fermata g4)_\fermata r8 |
   \changePitch \patternA { aes, aes aes c bes aes | des des des aes aes r }
-  c16 c8. des8_\fermata ees16 ees8. \fermata ees8 \fermata | aes,4. ~ aes4 r8
+  c16 c8. des8_\fermata ees16 ees8._\fermata ees8_\fermata | aes,4. ~ aes4 r8
 
 }
 }

@@ -20,10 +20,11 @@
 ta = { \tempo 4=100 }
 tb = { \tempo 4=50 }
 
-patternAA = { \ta c4 | c2 c4 | c2 c4 | c2 c4 | \tb c2 \fermata }
+patternAA = { \ta c4 | c2 c4 | c2 c4 | c2 c4 | \tb c2^\fermata }
 patternAB = { \ta c4 | c2 c4 | c2 c4 | c2 c4 | \tb c2          }
 
 patternBA = { \ta c4 | c2 c4 | c2 c4 | c4( c4) c4 | \tb c2     }
+patternBB = { \ta c4 | c2 c4 | c2 c4 | c2 c4 | \tb c2_\fermata }
 
 global = {
   \include "common/overrides.ily"
@@ -78,10 +79,10 @@ notesBass = {
 \global
 \relative f, {
 
-  \changePitch \patternAA { bes | bes f' | g ees | f f | bes, }
-  \changePitch \patternAA { bes' | a e | f bes, | c c | f }
-  \changePitch \patternAA { f | f ees | d bes | c d | f }
-  \changePitch \patternAA { f | f f | bes ees, | f f | bes, }
+  \changePitch \patternBB { bes | bes f' | g ees | f f | bes, }
+  \changePitch \patternBB { bes' | a e | f bes, | c c | f }
+  \changePitch \patternBB { f | f ees | d bes | c d | f }
+  \changePitch \patternBB { f | f f | bes ees, | f f | bes, }
 
 }
 }

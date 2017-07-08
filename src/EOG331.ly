@@ -79,7 +79,7 @@ notesLeftHand = {
   r4 | d,4 <d' a'> d8[ e] | d,4 <d' fis>
   r4 | g,4 d' e8[ d] | g,4 <d' g b>
   r4 | g,4 <d' g b> e8[ d] | e,4 <e' gis>
-  r4 | a,4 <e' g a> e | a, <e' a cis> <a cis e>\fermata
+  r4 | a,4 <e' g a> e | a, <e' a cis> <a cis e>_\fermata
   d,4 a' <d, fis> | d4 e <d fis> | g d b | g2
 
 }
