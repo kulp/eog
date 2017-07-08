@@ -33,7 +33,7 @@ notesSoprano = {
 \relative c'' {
 
   b2 | b( g) b | a( fis) a | g1
-  g2 | g( e) g | g( d) g | fis1
+  g2 | g( e) g | g( d) g | fis1 \eogbreak
   a2 | a( fis) a | g( b) d | d( a) c | b( d)
   e2 | d( b) c | b( g) a | g1
 

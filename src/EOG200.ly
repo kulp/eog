@@ -35,7 +35,7 @@ notesSoprano = {
 
 d8. d16 | g4 g g | g a b | b a g | a2 \eogbreak
 d,4 | a' a a | a b c | c b a | b2 \eogbreak
-\repeat volta 2 { d4 | d d d | e d b | b b b | c( b) a
+\repeat volta 2 { d4 | d d d | e d b | b b b | c( b) \eogbreak a
                   g g g | a g }
 \alternative {
   { e4 | d g a | b2 }
