@@ -30,7 +30,7 @@ global = {
   \autoBeamOff
 }
 
-% rewrote voies as chords to work around unfortunate interactions between
+% rewrote voices as chords to work around unfortunate interactions between
 % \partcombine and \tuplet
 
 notesSoprano = {

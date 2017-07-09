@@ -26,15 +26,18 @@ global = {
   \autoBeamOff
 }
 
+% rewrote voices as chords to work around unfortunate interactions between
+% \partcombine and \tuplet
+
 notesSoprano = {
 \global
 \relative c'' {
 
-  d8. c16 | bes4. a8 \tuplet 3/2 { c8[ bes] g } f2
+  d8. c16 | bes4. a8 << { \voiceOne \tuplet 3/2 { c8[ bes] g } } \new Voice { \voiceTwo \tuplet 3/2 { ees4 ees8 } } >> f2
   ees'8. d16 | d4. c8 bes a | bes2
   c8. c16 | c4. f,8 g f | bes2
   c8. c16 | c4. f,8 g f | bes2
-  d8. c16 | bes4. a8 \tuplet 3/2 { c8[ bes] g } f2
+  d8. c16 | bes4. a8 << { \voiceOne \tuplet 3/2 { c8[ bes] g } } \new Voice { \voiceTwo \tuplet 3/2 { ees4 ees8 } } >> f2
   ees'8. d16 | d4. c8 bes a | bes2
 
   \bar "|."
@@ -46,11 +49,11 @@ notesAlto = {
 \global
 \relative e' {
 
-  f8. ees16 | d4. d8 \tuplet 3/2 { ees4 ees8 } | d2
+  f8. ees16 | d4. d8 s4 | d2 % s4 stands in for \tuplet 3/2 { ees4 ees8 }
   f8. f16 | g4. g8 f ees | d2
   ees8. ees16 | ees4. ees8 ees ees | d([ g] f4)
   ees8. ees16 | ees4. ees8 ees ees | d([ ees] d4)
-  f8. ees16 | d4. d8 \tuplet 3/2 { ees4 ees8 } | d2
+  f8. ees16 | d4. d8 s4 | d2 % s4 stands in for \tuplet 3/2 { ees4 ees8 }
   f8. f16 | g4. g8 f ees | d2
 
 }
