@@ -81,7 +81,7 @@ notesBass = {
   g2 b, c | d2. e4 fis2 |
   g2 e c | d2. dis4 e2 |
   c2 d d | g,1. |
-  << { g'2 b a } \\ \override NoteHead.font-size = #-3 { g,2 b d } >> | g2. d4 g2 |
+  << \stemDown { g'2 b a } \\ \override NoteHead.font-size = #-4 { g,2 b d } >> | g2. d4 g2 |
   d2 fis a | d,2. g4 d2 |
   g2 a4( g) fis( e) | d( c) b( a) g2 |
   c2 d d | g,1. |
