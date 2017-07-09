@@ -28,17 +28,18 @@ global = {
   \autoBeamOff
 }
 
+% The overabundant tweaks are a hurried workaround for undesired behaviours from \partcombine
 notesSoprano = {
 \global
 \relative c'' {
 
   c4^\markup{\italic{Andante–legato.}} | bes8[ a] g[ f] a[ g] f[ e] | f4 \grace { g16[ f] } e8[ d] c4
-  f4 | g a bes d | a2( g4)
+  f4 | g a bes d | <a \tweak font-size #-4 f>2( <g \tweak font-size #-4 e>4)
   \eogbreak
   c4 | bes8[ a] g[ f] a[ g] f[ e] | f4 \grace { g16[ f] } e8[ d] c4
   f4 | g a c8[ bes] a[ g] | f2.
   \eogbreak
-  f'4 | e d c e8[ d] | c4 bes \tb a\fermata \ta
+  f'4 | e d c e8[ d] | <c \tweak font-size #-4 f,>4 <bes \tweak font-size #-4 e,> \tb <a \tweak font-size #-4 f>\fermata \ta
   g4 | a bes c e8[ d] | a4 a8.[ g16] f4
 
   \bar "|."
@@ -52,11 +53,11 @@ notesAlto = {
 \relative e' {
 
   s4 | s1 | s2.
-  c4 | d4 <f c>4 <g d>2 | << { f2( e4) } { r4 c r } >> % TODO original has d2
-  c4 | d8[ c] bes[ a] c[ bes] a[ g] | a4 c8[ bes] a4
-  c4 | d4 <f c>4 <g d> <e bes> | <c a>2. % TODO original has d2
-  <a' f>4 | <a e> <bes f> f <bes f> | << { f4 e f } { c2 ~ c4 } >>
-  <e c>4 | c8[ f] e[ d] <f c>4 <bes f>4 | f <e bes>4 a,
+  \tweak font-size #-4 c4 | \tweak font-size #-4 d4 <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 g \tweak font-size #-4 d>2 | \tweak font-size #-4 r4 \tweak font-size #-4 c, \tweak font-size #-4 r % TODO original has d2
+  \tweak font-size #-4 c4 | \tweak font-size #-4 d8[ \tweak font-size #-4 c] \tweak font-size #-4 bes[ \tweak font-size #-4 a] \tweak font-size #-4 c[ \tweak font-size #-4 bes] \tweak font-size #-4 a[ \tweak font-size #-4 g] | \tweak font-size #-4 a4 \tweak font-size #-4 c8[ \tweak font-size #-4 bes] \tweak font-size #-4 a4
+  \tweak font-size #-4 c4 | \tweak font-size #-4 d4 <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 g \tweak font-size #-4 d> <\tweak font-size #-4 e \tweak font-size #-4 bes> | <\tweak font-size #-4 c \tweak font-size #-4 a>2. % TODO original has d2
+  <\tweak font-size #-4 a' \tweak font-size #-4 f>4 | <\tweak font-size #-4 a \tweak font-size #-4 e> <\tweak font-size #-4 bes \tweak font-size #-4 f> \tweak font-size #-4 f <\tweak font-size #-4 bes \tweak font-size #-4 f> | \tweak font-size #-4 c,2 ~ \tweak font-size #-4 c4
+  <\tweak font-size #-4 e \tweak font-size #-4 c>4 | \tweak font-size #-4 c8[ \tweak font-size #-4 f] \tweak font-size #-4 e[ \tweak font-size #-4 d] <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 bes \tweak font-size #-4 f>4 | \tweak font-size #-4 f <\tweak font-size #-4 e \tweak font-size #-4 bes>4 \tweak font-size #-4 a,
 
 }
 }
@@ -66,12 +67,12 @@ notesTenor = {
 \override NoteHead.font-size = #-4
 \relative a {
 
-  a4 | d8[ c] bes[ a] c[ bes] a[ g] | a4 c8[ bes] a4
+  a4 | \tweak font-size #-4 d8[ \tweak font-size #-4 c] \tweak font-size #-4 bes[ \tweak font-size #-4 a] \tweak font-size #-4 c[ \tweak font-size #-4 bes] \tweak font-size #-4 a[ \tweak font-size #-4 g] | \tweak font-size #-4 a4 \tweak font-size #-4 c8[ \tweak font-size #-4 bes] a4
   a4 | bes4 a g bes, | c2.
   r4 | f2 c | f2 ~ f4
   a4 | bes a g c, | f2.
   d'4 | c bes a bes | a g f
-  c4 | f g a bes | <c a> c, f
+  c4 | f g a bes | <\tweak font-size #-4 c \tweak font-size #-4 a> c, f
 
 }
 }
@@ -81,12 +82,12 @@ notesBass = {
 \override NoteHead.font-size = #-4
 \relative f {
 
-  f4 | f2 c | f f4
+  f4 | \tweak font-size #-4 f2 \tweak font-size #-4 c | \tweak font-size #-4 f f4
   a,4 | bes a g bes, | c2.
   r4 | f2 c | f2 ~ f4
   a4 | bes a g c, | f2.
   d'4 | c bes a bes | a g f_\fermata
-  c4 | f g a bes | <f' c> c, f
+  c4 | f g a bes | <\tweak font-size #-4 f' \tweak font-size #-4 c> c, f
 
 }
 }
