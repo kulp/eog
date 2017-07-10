@@ -10,7 +10,7 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
 my $prev_height =  0; # points
 my $prev_clip   = ""; # stringified boolean
-my $max_height  = 546; # points (199mm, 7.833in)
+my $max_height  = 543; # points (199mm, 7.833in, minus 3 points empirical adjustment due to scaling)
 
 for my $pdf (@ARGV) {
     my ($name,$path,$suffix) = fileparse($pdf,".pdf");
@@ -31,7 +31,7 @@ for my $pdf (@ARGV) {
         # regardless of how high an ascending stroke (especially inverted
         # commas) might rise
         $crop_amount_top = 8;
-        my $scale = 1.06; # TODO compute this
+        my $scale = 1.05; # TODO compute this
 
         if ($clip eq "true" and $prev_clip eq $clip) {
             print q(\vfill), "\n";
