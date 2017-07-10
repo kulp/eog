@@ -190,7 +190,13 @@ booklayout/index.meter: $(PDFS)
 	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || (rm $@ ; false)
 
 %.pdf: %.tex
-	lualatex --output-directory=$(@D) $<
+	lualatex --shell-escape --output-directory=$(@D) $<
+
+.PHONY: FORCE
+booklayout/revision.tex: FORCE
+	git log -1 --format=%h --abbrev=10 > $@ || rm $@
+
+booklayout/headmatter.pdf: booklayout/revision.tex
 
 CLOBBERFILES += booklayout/indices.pdf
 indices: booklayout/indices.pdf
