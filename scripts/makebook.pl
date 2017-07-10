@@ -2,6 +2,8 @@
 use strict;
 use warnings;
 
+use POSIX qw(ceil);
+
 use File::Basename qw(fileparse);
 
 our $crop_threshold = 72; # points of smallest reasonable croppable thing
@@ -10,7 +12,9 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
 my $prev_height =  0; # points
 my $prev_clip   = ""; # stringified boolean
-my $max_height  = 543; # points (199mm, 7.833in, minus 3 points empirical adjustment due to scaling)
+my $scale       = 1.068; # TODO compute this
+my $fudge       = 1; # XXX unexplained fudge factor (rounding error ?)
+my $max_height  = 9*72-36-36-$fudge; # post-scaled maximum point height (9 inch page minus half-inch borders)
 
 for my $pdf (@ARGV) {
     my ($name,$path,$suffix) = fileparse($pdf,".pdf");
@@ -26,16 +30,11 @@ for my $pdf (@ARGV) {
         my $clip = ($crop_amount_bottom > $crop_threshold) ? "true" : "false";
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
         # symmetrically crop left and right by empirically-determined amount
-        $crop_amount_left = $crop_amount_right = 2;
-        # crop top minimally, as we want a consistent height for the title,
-        # regardless of how high an ascending stroke (especially inverted
-        # commas) might rise
-        $crop_amount_top = 8;
-        my $scale = 1.05; # TODO compute this
+        $crop_amount_left = $crop_amount_right = 8;
 
         if ($clip eq "true" and $prev_clip eq $clip) {
             print q(\vfill), "\n";
-            my $points = $height + $prev_height - $max_height;
+            my $points = ceil($height * $scale + 1) + ceil($prev_height * $scale + 1) - $max_height;
             if ($points > 0) {
                 die "Can't fit $pdf onto page with preceding file -- over by $points pts";
             }
@@ -47,7 +46,7 @@ for my $pdf (@ARGV) {
             $prev_height = $height;
         }
 
-        printf q(\centering\includegraphics[scale=%4.2f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
+        printf q(\centering\includegraphics[scale=%4.3f,clip=%-5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s} \\\\)."\n",
                $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
 }
