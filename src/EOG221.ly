@@ -9,7 +9,7 @@
   title = "I Am Thine, O Lord"
   tunename = ""
   meter = "P. M."
-  poet = "F. J. Crosby"
+  poet = "Fanny J. Crosby"
   composer = "W. H. Doane"
   tagline = ##f
 }

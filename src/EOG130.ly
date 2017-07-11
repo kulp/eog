@@ -12,7 +12,7 @@
   title = "To God Be the Glory"
   tunename = ""
   meter = "11. 11. 11. 11. with Refrain"
-  poet = "F. J. Crosby"
+  poet = "Fanny J. Crosby"
   composer = "W. H. Doane"
   tagline = ##f
 }

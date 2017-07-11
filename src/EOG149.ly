@@ -8,7 +8,7 @@
   title = "Blessed Assurance, Jesus Is Mine"
   tunename = ""
   meter = "P. M."
-  poet = "F. J. Crosby"
+  poet = "Fanny J. Crosby"
   composer = "Mrs. J. F. Knapp"
   tagline = ##f
 }
