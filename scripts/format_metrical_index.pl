@@ -6,6 +6,11 @@ my $open = 0;
 binmode \*STDIN, ":utf8";
 binmode \*STDOUT, ":utf8";
 
+sub expand {
+    my ($add, $num) = @_;
+    return $add ? (sprintf "a%02d", $num) : (sprintf "%03d", $num);
+}
+
 print qq(\\interlinepenalty=10000\n);
 while (<>) {
     chomp;
@@ -21,6 +26,7 @@ while (<>) {
         my ($name, $nums) = split /\t/;
         my $split = length $name > 21
             || ($nums =~ /Add\. Tune/ && length "$name $nums" > 26 && $nums !~ /,/);
+        $nums =~ s#(Add\. Tune )?\b(\d+)\b#"\\hyperlink{EOG" . expand($1, $2) . "}{$1$2}"#ge;
         if ($split) {
             my @words = split " ", $name;
             my @first = @words[0 .. $#words / 2];
