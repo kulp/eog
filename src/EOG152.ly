@@ -84,9 +84,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Bright -- ness of th’e -- ter -- nal glo -- ry, \bar "."
-Shall Thy praise un -- ut -- tered lie?__ \bar "."
-Who would hush the heaven -- sent sto -- ry__ \bar "."
-%{HIDE>%}Of the Lamb who came to die,__ \bar "." %{<HIDE%}
+Shall Thy praise un -- ut -- tered lie? \bar "."
+Who would hush the heaven -- sent sto -- ry \bar "."
+%{HIDE>%}Of the Lamb who came to die, __ \bar "." %{<HIDE%}
 Of the Lamb who came to die? \bar "."
 
 }
@@ -95,10 +95,10 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Came from God -- head’s full -- est glo -- ry
-Down to Cal -- vary’s depth of woe,__
-Now on high we bow be -- fore Thee;__
-%{HIDE>%}Streams of prais -- es cease -- less flow.__ %{<HIDE%}
-Streams of prais -- es cease -- less flow.__
+Down to Cal -- vary’s depth of woe, 
+Now on high we bow be -- fore Thee;
+%{HIDE>%}Streams of prais -- es cease -- less flow. __ %{<HIDE%}
+Streams of prais -- es cease -- less flow.
 
 }
 
@@ -107,9 +107,9 @@ wordsC = \lyricmode {
 
 Sing His blest tri -- um -- phant ris -- ing;
 Sing Him on the Fa -- ther’s throne;
-Sing– till heaven and earth sur -- pris -- ing,__
-%{HIDE>%}Reigns the Na -- za -- rene a -- lone.__ %{<HIDE%}
-Reigns the Na -- za -- rene a -- lone.__
+Sing– till heaven and earth sur -- pris -- ing,
+%{HIDE>%}Reigns the Na -- za -- rene a -- lone. __ %{<HIDE%}
+Reigns the Na -- za -- rene a -- lone.
 
 }
 
@@ -120,19 +120,16 @@ Reigns the Na -- za -- rene a -- lone.__
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
+      \context Lyrics = one   \lyricsto altos \wordsA
+      \context Lyrics = two   \lyricsto altos \wordsB
+      \context Lyrics = three \lyricsto altos \wordsC
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {

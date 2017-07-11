@@ -103,9 +103,9 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Till we meet,__ till we meet,__  \bar "."
+Till we meet, __ till we meet, __  \bar "."
 Till we meet at Je -- sus’ feet; \bar "."
-Till we meet,__ till we meet,__ \bar "."
+Till we meet, __ till we meet, __ \bar "."
 God be with you till we meet a -- gain. \bar "."
 
 }

@@ -134,7 +134,7 @@ underWordsTenor = \lyricmode {
 \override LyricText.font-size = #-2
 
 \repeat unfold 22 \skip 4
-Re -- vealed, re -- vealed in Je -- sus’ face,__
+Re -- vealed, re -- vealed in Je -- sus’ face, __
 
 }
 
