@@ -17,3 +17,5 @@ headers/
 *.m3u
 texels/
 metrics/
+booklayout/*_insert.tex
+booklayout/revision.tex
