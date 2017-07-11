@@ -1,8 +1,1 @@
-\documentclass{book}
-\usepackage{nopageno}
-\usepackage[tmargin=36pt,bmargin=36pt,inner=36pt,outer=18pt,paperwidth=6in,paperheight=9in]{geometry}
-\usepackage{graphicx}
-\setlength{\parindent}{0pt}
-
-\begin{document}
 \centering

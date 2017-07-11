@@ -196,11 +196,8 @@ booklayout/index.meter: $(PDFS)
 booklayout/revision.tex: FORCE
 	git log -1 --format=%h --abbrev=10 > $@ || rm $@
 
-booklayout/headmatter.pdf: booklayout/revision.tex
-
-CLOBBERFILES += booklayout/indices.pdf
-indices: booklayout/indices.pdf
-booklayout/indices.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
+booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
+booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
 booklayout/metrical_insert.tex: booklayout/index.meter
 	scripts/make_metrical_index.pl $< | scripts/format_metrical_index.pl > $@
@@ -215,9 +212,6 @@ booklayout/%_insert.tex:
 	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
 
 book: booklayout/cover.pdf booklayout/toplevel.pdf
-
-booklayout/toplevel.pdf: booklayout/headmatter.pdf booklayout/book.pdf booklayout/indices.pdf
-	pdfjoin --outfile $@ $^
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))

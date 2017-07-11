@@ -1,14 +1,22 @@
 \documentclass{book}
-\usepackage[tmargin=0.75in,bmargin=0.75in,inner=1.25in,outer=1in,paperwidth=6in,paperheight=9in]{geometry}
-\setlength{\parindent}{20pt}
-\setlength{\parskip}{10pt}
+\usepackage[tmargin=0.75in,bmargin=0.4in,inner=.75in,outer=.5in,paperwidth=6in,paperheight=9in]{geometry}
+
+\usepackage{afterpage}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
 \usepackage{luatextra}
+\usepackage{multicol}
+\usepackage{nopageno}
+
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{TeX Gyre Schola}
-\usepackage{afterpage}
+
+\setlength{\parindent}{20pt}
+\setlength{\parskip}{10pt}
 
 \begin{document}
 \pagenumbering{gobble}
+\newgeometry{tmargin=0.75in,bmargin=0.75in,inner=1.25in,outer=1in}
 
 \vspace*{1in}
 
@@ -66,6 +74,14 @@ Him for His gracious blessing and in service to His beloved saints at large.''
 \vspace*{\fill}
 
 \afterpage{\null\newpage}
+
+\restoregeometry
+
+\newgeometry{tmargin=36pt,bmargin=36pt,inner=36pt,outer=18pt}
+\input{booklayout/book}
+
+\restoregeometry
+\input{booklayout/indices}
 
 \end{document}
 
