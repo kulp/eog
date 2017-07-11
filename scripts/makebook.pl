@@ -16,6 +16,8 @@ my $scale       = 1.068; # TODO compute this
 my $fudge       = 1; # XXX unexplained fudge factor (rounding error ?)
 my $max_height  = 9*72-36-36-$fudge; # post-scaled maximum point height (9 inch page minus half-inch borders)
 
+print q(\centering), "\n";
+
 for my $pdf (@ARGV) {
     my ($name,$path,$suffix) = fileparse($pdf,".pdf");
     open my $metrics, qq($path../../metrics/$name.metrics)
