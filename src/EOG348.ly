@@ -3,8 +3,31 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   % shrink space before markup verses to fit next hymn on same page
-  score-markup-spacing.padding = #1.9
-  score-markup-spacing.basic-distance = #1.9
+  score-markup-spacing.padding = 1.9
+  score-markup-spacing.basic-distance = 1.9
+  system-system-spacing.padding = 1
+  system-system-spacing.basic-distance = 1
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          % no lowering (to save vertical space)
+          \fromproperty #'header:poet
+          \smaller \bold \mysubtitle
+          \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{

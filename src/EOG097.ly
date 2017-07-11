@@ -4,6 +4,8 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 2) (#t #f))
+  system-system-spacing.padding = 1
+  system-system-spacing.basic-distance = 1
 }
 
 \header{

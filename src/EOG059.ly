@@ -180,11 +180,11 @@ wordsD = \markuplist {
       }
     }
 
-    \vspace #0.5
+    \vspace #0.3
 
     \fill-line \smaller { "Sing to tune No. 57 or No. 58" } % original has "tunes"
 
-    \vspace #0.5
+    \vspace #0.3
 
     \fill-line {
       \null
@@ -201,7 +201,7 @@ wordsD = \markuplist {
         \line{ \bold 3 \column { \wordsC } }
         \vspace #1
         \line{ \bold 4 \column { \wordsD } }
-        \vspace #1
+        \vspace #0.8
         \line{ \hspace #20 "I. Fleming" }
       }
 

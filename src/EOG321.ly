@@ -2,6 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
+  system-system-spacing.padding = 2
+  system-system-spacing.basic-distance = 2
 }
 
 \header{
@@ -137,7 +139,7 @@ I’ll sure -- ly go to Him and say,
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
@@ -148,7 +150,7 @@ I’ll sure -- ly go to Him and say,
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>

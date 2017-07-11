@@ -2,8 +2,29 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  score-markup-spacing.padding = 1.9
-  score-markup-spacing.basic-distance = 1.9
+  score-markup-spacing.padding = 0.3
+  score-markup-spacing.basic-distance = 0.3
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          % no lowering (to save vertical space)
+          \fromproperty #'header:poet
+          \smaller \bold \mysubtitle
+          \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{
