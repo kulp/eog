@@ -62,7 +62,7 @@ for (sort dictionary_order @list) {
     print qq(\\smallbreak{\\centering\\textbf{—\u$letter—}\\par}\\nopagebreak\n\n) if $letter ne $last;
     my $title = $_->[0];
     $title =~ s/ \.\.\.$//; # suppress ellipsis dots that interfere with \dotfill
-    print qq($title\\dotfill{}$_->[1]\n\n);
+    printf qq(\\hyperlink{EOG%03d}{%s\\dotfill{}%s}\n\n), $_->[1], $title, $_->[1];
     $last = $letter;
 }
 
