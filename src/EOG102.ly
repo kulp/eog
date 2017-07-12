@@ -179,7 +179,7 @@ notesBass = {
 
   \changePitch \patternAA { ees ees | ees ees ees ees ees }
   \changePitch \patternAA { ees ees | ees ees ees ees ees }
-  \changePitch \patternAA { ees ees | aes, aes aes aes aes' }
+  \changePitch \patternAA { ees ees | aes aes aes aes aes }
   \changePitch \patternBA { g ees | bes }
 
   \changePitch \patternAA { ees ees | ees ees ees ees ees }
@@ -208,7 +208,9 @@ notesBassSecond = {
 \autoBeamOff
 \relative f, {
 \override NoteHead.font-size = #-4 {
-\repeat unfold 21 \skip 4
+\repeat unfold 9 \skip 4
+aes8. aes16 aes8. aes16
+\repeat unfold 10 \skip 4
 aes8. aes16 aes8. aes16
 }
 }
@@ -313,7 +315,7 @@ music = \context ChoirStaff <<
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Voice = altosRests { \voiceTwo << \restsAlto >> }
-      \context NullVoice = altosSecond { \voiceFour << \notesAltoSecond >> }
+      \context Voice = altosSecond { \voiceFour << \notesAltoSecond >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -326,9 +328,9 @@ music = \context ChoirStaff <<
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = tenorsSecond { \voiceThree << \notesTenorSecond >> }
+      \context Voice = tenorsSecond { \voiceOne << \notesTenorSecond >> }
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
-      \context NullVoice = bassesSecond { \voiceFour << \notesBassSecond >> }
+      \context Voice = bassesSecond { \voiceTwo << \notesBassSecond >> }
     >>
     \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
   >>
