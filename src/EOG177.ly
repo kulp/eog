@@ -44,15 +44,62 @@ notesSoprano = {
   a8 | a4 fis8 a d4 a8 fis | a4 g8. a16 g8 e4
   g8 | g4 e8 g b4 a8 a | a4 g8 g fis4.
   a8 | a4 fis8 a d4 cis8 d | e4 d8 b b a4
-  fis8 | e4 fis8 gis a d4 cis8 | cis4 b8 b \tb a4 \fermata \ta
+  fis8 | e4 fis8 gis a d4 cis8 | cis4 b8 b \tb a4 \fermata \ta \bar "."
+
+}
+}
+
+notesSopranoRefrain = {
+\relative c'' {
 
   << s^\markup { \small \caps "Refrain" }
-  { \tuplet 3/2 { a8[ b cis] } | d2 ~ d8 d8 cis8. b16 | cis4 g2 } >>
-  g8. g16 | cis2 ~ cis8 cis8 b8. g16 | fis2.
-  \tuplet 3/2 { a8[ b cis] } | d2 ~ d8 d8 e8. d16 | cis4 b2
-  b8 b | a4. a8 g4 e | d2. r8
+  { \tuplet 3/2 { << { \voiceOne a8 } \new Voice { \voiceTwo a8 } >> << { b cis } { gis g } >> } } >>
+
+  \partcombine
+  \relative c' {
+    | d'2 ~ d8 d8 cis8. b16 | cis4 g2
+    g8. g16 | cis2 ~ cis8 cis8 b8. g16 | fis2.
+  }
+  \relative c' {
+    | fis2 ~ fis8 fis8 g8. g16 | g4 e2
+    e8. d16 | g2 ~ g8 g8 g8. e16 | d2.
+  }
+
+  \tuplet 3/2 { << { \voiceOne a8 } \new Voice { \voiceTwo a8 } >> << { b cis } { gis g } >> }
+  \partcombine
+  \relative c'' {
+    | d2 ~ d8 d8 e8. d16 | cis4 b2
+    b8 b | a4. a8 g4 e |
+  }
+  \relative c' {
+    | fis2 ~ fis8 fis8 g8. fis16 | a4 g2
+    g8 d | d4. fis8 e4 cis |
+  }
+  << { \voiceOne d2. } \new Voice { \voiceTwo d2. } >>
+  \partcombine r8 r8
 
   \bar "|."
+
+}
+}
+
+notesSopranoRefrainPacing = {
+\global
+\relative c,, {
+
+  r8 | r4 r8 r r4 r8 r | r4 r8. r16 r8 r4
+  r8 | r4 r8 r r4 r8 r | r4 r8 r r4.
+  r8 | r4 r8 r r4 r8 r | r4 r8 r r r4
+  r8 | r4 r8 r r r4 r8 | r4 r8 r r4
+
+  %\repeat unfold 32 \skip 4
+  \tuplet 3/2 { a8 a a }
+    | d'2 ~ d8 d8 cis8. b16 | cis4 g2
+    g8. g16 | cis2 ~ cis8 cis8 b8. g16 | fis2.
+
+  \tuplet 3/2 { a8 a a }
+    | d2 ~ d8 d8 e8. d16 | cis4 b2
+    b8 b | a4. a8 g4 e | d2. r8
 
 }
 }
@@ -66,10 +113,8 @@ notesAlto = {
   \changePitch \patternC { fis | fis d fis fis g a | g g g g fis }
   \changePitch \patternD { d | cis d e e e e | e e e e }
 
-  \tuplet 3/2 { a8[ gis g] } | fis2 ~ fis8 fis8 g8. g16 | g4 e2
-  e8. d16 | g2 ~ g8 g8 g8. e16 | d2.
-  \tuplet 3/2 { a'8[ gis g] } | fis2 ~ fis8 fis8 g8. fis16 | a4 g2
-  g8 d | d4. fis8 e4 cis | d2. r8
+  % excludes refrain (moved to Soprano) due to bad interactions between
+  % \tuplet, \partcombine, and NullVoice
 
 }
 }
@@ -83,9 +128,9 @@ notesTenor = {
   \changePitch \patternC { d | d a a a a a | b b d d d }
   \changePitch \patternD { a | a gis b a gis a | a gis d' cis }
 
-  r4 | r \tuplet 3/2 { a8[ a a] } a4 \tuplet 3/2 { a8[ a a] } | a8. a16 a8. a16 cis8 cis
+  r4 | r \tuplet 3/2 { a8 a a } a4 \tuplet 3/2 { a8 a a } | a8. a16 a8. a16 cis8 cis
   r4 | r4 e8. e16 e4 cis8. a16 | a8. a16 a8. a16 a4
-  r4 | r \tuplet 3/2 { a8[ a a] } a4 r8. a16 | g8. a16 b8. cis16 d8. d16
+  r4 | r \tuplet 3/2 { a8 a a } a4 r8. a16 | g8. a16 b8. cis16 d8. d16
   d8 d8 | d4. d8 cis4 a8[ g] | fis2. r8
 
 }
@@ -100,9 +145,9 @@ notesBass = {
   \changePitch \patternC { d | d d d d e fis | g g g d d }
   \changePitch \patternD { d | e e d cis b a | e' e e a,_\fermata }
 
-  r4 | r \tuplet 3/2 { d8[ d d] } d4 \tuplet 3/2 { e8[ e e] } | a8. a16 a8. a16 a8 a
+  r4 | r \tuplet 3/2 { d8 d d } d4 \tuplet 3/2 { e8 e e } | a8. a16 a8. a16 a8 a
   r4 | r4 a8. a16 a4 a,8. a16 | d8. d16 d8. d16 d4
-  r4 | r \tuplet 3/2 { d8[ d d] } d4 r8. d16 | g8. g16 g8. g16 g8. g16
+  r4 | r \tuplet 3/2 { d8 d d } d4 r8. d16 | g8. g16 g8. g16 g8. g16
   g8 g8 | fis4. d8 a4 a | d2. r8
 
 }
@@ -134,8 +179,6 @@ Nor sil -- ver nor gold hath ob -- tained my re -- demp -- tion,
 The guilt on my con -- science too heav -- y had grown;
 The blood of the cross is my on -- ly foun -- da -- tion,
 The death of my Sav -- iour a -- lone could a -- tone.
-
-\Refrain
 
 }
 
@@ -174,11 +217,15 @@ I am bought, I am bought, but not with gold;
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
+      {
+        \partcombine #'(2 . 9) \notesSoprano \notesAlto
+        \context Voice = sopranosRefrain { \notesSopranoRefrain }
+      }
+      \context NullVoice = sopranos { \voiceOne \notesSoprano }
+      \context NullVoice = sopranosRefrainPacing { \voiceFour \notesSopranoRefrainPacing }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
+      \context Lyrics = two   \lyricsto sopranosRefrainPacing \Refrain
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
@@ -188,7 +235,6 @@ I am bought, I am bought, but not with gold;
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
     \context Lyrics = four \lyricsto tenors \underWords
   >>
