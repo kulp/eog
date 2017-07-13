@@ -9,8 +9,8 @@
   title = "Softly and Tenderly"
   tunename = ""
   meter = "P. M."
-  poet = "Will L. Thompson"
-  composer = "Will L. Thompson"
+  poet = "W. L. Thompson"
+  composer = "W. L. Thompson"
   tagline = ##f
 }
 
