@@ -128,7 +128,7 @@ wordsC = \lyricmode {
 
 The brid -- al hall is fill -- ing for the feast:
 Pass in, pass in, and be the Bride -- groom’s guest.
-%{HIDE>%} { \skip 4 \markup { \italic "(Last verse only)" } } %{<HIDE%}
+%{HIDE>%} { \skip 4 \markup { \italic "(Verse 8 only)" } } %{<HIDE%}
 
 }
 
