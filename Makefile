@@ -184,7 +184,7 @@ CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
 	scripts/makebook.pl $| > $@ || (rm $@ ; false)
 
-booklayout/index.meter: $(PDFS)
+booklayout/index.meter: $(filter PDF/eogsized/%, $(PDFS))
 	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || (rm $@ ; false)
 
 %.pdf: %.tex
