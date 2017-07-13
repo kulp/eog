@@ -200,13 +200,12 @@ booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$
 booklayout/metrical_insert.tex: booklayout/index.meter
 	scripts/make_metrical_index.pl $< | scripts/format_metrical_index.pl > $@
 
-booklayout/first_insert.tex: $(wildcard src/EOG[0123]*.ly)
-booklayout/gospel_insert.tex: $(shell grep -l '%gospel' src/EOG*.ly)
-booklayout/children_insert.tex: $(shell grep -l '%children' src/EOG*.ly)
+booklayout/gospel_insert.tex: LYS = $(notdir $(shell grep -l '%gospel' src/EOG*.ly))
+booklayout/children_insert.tex: LYS = $(notdir $(shell grep -l '%children' src/EOG*.ly))
 booklayout/first_insert.tex: export USE_REFRAIN=1
 booklayout/gospel_insert.tex: export USE_REFRAIN=1
 booklayout/children_insert.tex: export USE_REFRAIN=0
-booklayout/%_insert.tex:
+booklayout/%_insert.tex: $$(TXTS)
 	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
 
 book: booklayout/cover.pdf booklayout/toplevel.pdf
