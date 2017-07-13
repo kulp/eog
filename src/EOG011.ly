@@ -14,7 +14,7 @@
   tunename = "Hamburg"
   meter = "L. M."
   poet = ""
-  composer = "Ad. by L. Mason"
+  composer = "Adpt. by L. Mason"
   tagline = ##f
 }
 

@@ -11,7 +11,7 @@
   tunename = "Cross"
   meter = "C. M."
   poet = "Tregelles, 1846"
-  composer = "Adp. from T. Hastings"
+  composer = "Adpt. from T. Hastings"
   tagline = ##f
 }
 

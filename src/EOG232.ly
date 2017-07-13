@@ -11,7 +11,7 @@
   tunename = "Innocents"
   meter = "7. 7. 7. 7."
   poet = "Swain"
-  composer = "Adp. by J. Smith"
+  composer = "Adpt. by J. Smith"
   tagline = ##f
 }
 

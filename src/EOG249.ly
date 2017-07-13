@@ -8,7 +8,7 @@
   title = "Oh, How He Loves!"
   tunename = ""
   meter = "8. 4. 8. 4. 8. 8. 8. 4."
-  poet = "Adp. by Miss M. Nunn"
+  poet = "Adpt. by Miss M. Nunn"
   composer = "H. P. Main"
   tagline = ##f
 }
