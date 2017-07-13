@@ -170,7 +170,6 @@ Our won -- der, our trans -- port, when Je -- sus we see.
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto altos \wordsA
       \context Lyrics = two   \lyricsto altos \wordsB
@@ -181,8 +180,6 @@ Our won -- der, our trans -- port, when Je -- sus we see.
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {

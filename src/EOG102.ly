@@ -313,7 +313,6 @@ music = \context ChoirStaff <<
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Voice = altosRests { \voiceTwo << \restsAlto >> }
       \context Voice = altosSecond { \voiceFour << \notesAltoSecond >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
@@ -329,7 +328,6 @@ music = \context ChoirStaff <<
       \partcombine #'(2 . 9) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context Voice = tenorsSecond { \voiceOne << \notesTenorSecond >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
       \context Voice = bassesSecond { \voiceTwo << \notesBassSecond >> }
     >>
     \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords

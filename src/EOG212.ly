@@ -172,7 +172,6 @@ When Je -- sus re -- ceives “His own.”
       \dualTime "3" "4" "4"
       \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -183,8 +182,6 @@ When Je -- sus re -- ceives “His own.”
       \set ChoirStaff.printPartCombineTexts = ##f
       \dualTime "3" "4" "4"
       \partcombine #'(2 . 11) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {

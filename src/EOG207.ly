@@ -177,7 +177,6 @@ Je -- sus, the Lord, we be -- hold and re -- joice!
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -189,8 +188,6 @@ Je -- sus, the Lord, we be -- hold and re -- joice!
       \context Voice = tenors { \voiceOne << \notesTenorVerse >> }
       \context Voice = basses { \voiceTwo << \notesBassVerse >> }
       \partcombine #'(2 . 9) \notesTenorChorus \notesBassChorus
-      \context NullVoice = tenors { \voiceOne << \notesTenorChorus >> }
-      \context NullVoice = basses { \voiceTwo << \notesBassChorus >> }
     >>
   >>
   \layout {

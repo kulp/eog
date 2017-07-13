@@ -197,7 +197,6 @@ His { \mon } per -- fect { \moff } sal -- va -- tion to tell!
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Voice = righthand { \voiceFour << \notesLeftHand >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -208,8 +207,6 @@ His { \mon } per -- fect { \moff } sal -- va -- tion to tell!
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
       \context Voice = lefthand { \voiceThree << \notesRightHand >> }
     >>
   >>

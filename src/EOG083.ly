@@ -213,7 +213,6 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \partcombine #'(2 . 9) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
       \context NullVoice = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
-      \context NullVoice = altos { \voiceTwo { \notesAltoA \notesAltoB } }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -224,8 +223,6 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
-      \context NullVoice = tenors { \voiceOne { \notesTenorA \notesTenorB } }
-      \context NullVoice = basses { \voiceTwo { \notesBassA \notesBassB } }
     >>
 	\new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
   >>

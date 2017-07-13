@@ -161,7 +161,6 @@ Then bow to Him, man, as the Lamb that was slain,
       % allow longer-stretching part-combining to fit five systems on this page
       \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -172,8 +171,6 @@ Then bow to Him, man, as the Lamb that was slain,
       \set ChoirStaff.printPartCombineTexts = ##f
       % allow longer-stretching part-combining to fit five systems on this page
       \partcombine #'(2 . 11) \notesTenor \notesBass
-      \context NullVoice = tenors { \voiceOne << \notesTenor >> }
-      \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
   >>
   \layout {
