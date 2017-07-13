@@ -5,6 +5,27 @@
   % decrease system-to-system padding to fit onto page with next score
   system-system-spacing.padding = 0
   system-system-spacing.basic-distance = 0
+  scoreTitleMarkup = \markup {
+    \override #'(baseline-skip . 3.5)
+    \column {
+      \override #'(baseline-skip . 3.5)
+      \column {
+        \fill-line {
+          \huge \larger \larger \bold {
+            \concat { "  " \fromproperty #'header:hymnnumber }
+            \mytitle
+            \null
+          }
+        }
+        \fill-line {
+          % no lowering (to save vertical space)
+          \fromproperty #'header:poet
+          \smaller \bold \mysubtitle
+          \fromproperty #'header:composer
+        }
+      }
+    }
+  }
 }
 
 \header{
@@ -110,8 +131,8 @@ notesBass = {
 
   \changePitch \patternH { ees ees ees ees | ees ees bes }
   \changePitch \patternB { ees | aes, aes aes aes | ees' }
-  \changePitch \patternI { ees | ees ees ees ees | ees ees bes^\fermata }
-  \changePitch \patternG { aes^\fermata | bes bes bes ees | ees }
+  \changePitch \patternI { ees | ees ees ees ees | ees ees bes_\fermata }
+  \changePitch \patternG { aes_\fermata | bes bes bes ees | ees }
 
 }
 }
