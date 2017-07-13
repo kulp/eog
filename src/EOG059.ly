@@ -197,7 +197,7 @@ wordsD = \markuplist {
         \line{ \bold 3 \column { \wordsC } }
         \vspace #1
         \line{ \bold 4 \column { \wordsD } }
-        \vspace #0.8
+        \vspace #0.6
         \line{ \hspace #20 "I. Fleming" }
       }
 

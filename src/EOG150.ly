@@ -4,8 +4,10 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   % shrink space before markup verses to fit next hymn on same page
-  score-markup-spacing.padding = #2
-  score-markup-spacing.basic-distance = #2
+  score-markup-spacing.padding = 2
+  score-markup-spacing.basic-distance = 2
+  system-system-spacing.padding = 2
+  system-system-spacing.basic-distance = 2
 }
 
 \header{
