@@ -55,13 +55,16 @@ sub dictionary_order {
     return $aa cmp $bb;
 }
 
-my $last = '';
+my $last_letter = '';
+my $last_title = qr/^$/; # unmatchable to begin with
 for (sort dictionary_order @list) {
     my ($letter) = $_->[0] =~ /(\w)/;
-    print qq(\\smallbreak{\\centering\\textbf{—\u$letter—}\\par}\\nopagebreak\n\n) if $letter ne $last;
+    print qq(\\smallbreak{\\centering\\textbf{—\u$letter—}\\par}\\nopagebreak\n\n) if $letter ne $last_letter;
     my $title = $_->[0];
     $title =~ s/ \.\.\.$//; # suppress ellipsis dots that interfere with \dotfill
-    printf qq(\\hyperlink{EOG%03d}{%s\\dotfill{}%s}\n\n), $_->[1], $title, $_->[1];
-    $last = $letter;
+    # Suppress titles that are merely suffixes (let the prefix just emitted cover both)
+    printf qq(\\hyperlink{EOG%03d}{%s\\dotfill{}%s}\n\n), $_->[1], $title, $_->[1] unless $title =~ /^$last_title/;
+    $last_title = $title;
+    $last_letter = $letter;
 }
 
