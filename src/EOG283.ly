@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "283"
-  title = "What Cheering Words Are These?"
+  title = "What Cheering Words Are These!"
   tunename = "Cambridge"
   meter = "S. M."
   poet = "John Kent"
@@ -82,7 +82,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-What cheer -- ing words are these! \bar "." % TODO contrast `!` with `?` in title
+What cheer -- ing words are these! \bar "."
 Their sweet -- ness who can tell? \bar "."
 In time and to e -- ter -- nal days– \bar "."
 \italicsOn “’Tis with be -- liev -- ers well!” \italicsOff \bar "."

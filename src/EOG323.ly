@@ -147,7 +147,7 @@ wordsD = \lyricmode {
 There’s a \italicsOn crown \italicsOff for lit -- tle chil -- dren
 A -- bove the bright blue sky;
 And all who look for Je -- sus
-Shall wear it by and by. % original has by-and-by, but "by -- and -- by" might be unfortunately compacted without hyphens TODO figure out hard hyphens
+Shall wear it by and by.
 A crown of bright -- est glo -- ry,
 Which He will then be -- stow
 On all who’ve found His fa -- vor,

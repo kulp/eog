@@ -150,7 +150,7 @@ wordsH = \markuplist {
 
 \line { Like Jesus in that place }
 \line { { \hspace #2 } Of light and love supreme; }
-\line { Once Man of sorrows full of grace, } % XXX blue book has small `s` in `sorrows`
+\line { Once Man of Sorrows full of grace, } % blue book has small `s` in `sorrows`
 \line { { \hspace #2 } Heaven’s blest and endless theme. }
 
 }

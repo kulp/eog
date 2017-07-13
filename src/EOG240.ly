@@ -114,7 +114,7 @@ wordsA = \lyricmode {
 Might -- y, might -- y love of Je -- sus! \bar "."
 Great -- er love was nev -- er known; \bar "."
 Love that stooped from heights of glo -- ry– \bar "."
-Love that left for me, a throne. \bar "." % XXX blue book removes comma oddly
+Love that left, for me, a throne. \bar "." % blue book oddly removes comma after `left`
 
 }
 

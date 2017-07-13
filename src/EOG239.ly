@@ -128,7 +128,7 @@ Those bright courts a -- bove;
 He and I to -- geth -- er shar -- ing
 All the Fa -- ther’s love.
 Where no shade or stain can en -- ter,
-Or the gold be dim; % XXX blue book puts "Or" for "Nor"
+Nor the gold be dim; % blue book puts "Or" for "Nor"
 In that ho -- li -- ness un -- sul -- lied,
 I shall walk with Him.
 

@@ -167,13 +167,13 @@ wordsE = \markuplist {
 
 \line { Behold Him, O soul, where He told it, }
 \line { { \hspace #2 } Pale, bleeding and bearing thy sin; }
-\line { He knocking, said, “Open, belovèd, } % XXX blue book has close quote here
+\line { He knocking, said, “Open, belovèd, } % blue book has close quote here
 \line { { \hspace #2 } I pray thee to let Me come in. }
 
 \line { Behold, I have borne all the judgment, }
 \line { { \hspace #2 } Thy sins, O belovèd, are gone; }
 \line { Forgotten, forgotten forever, }
-\line { { \hspace #2 } If sought for, God findeth not one. }
+\line { { \hspace #2 } If sought for, God findeth not one.” } % adding close quote here even though not strictly necessary
 
 }
 

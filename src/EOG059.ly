@@ -110,7 +110,7 @@ wordsB = \markuplist {
 \line { { \hspace #2 } Close fast the door, }
 \line { Tidings of mercy }
 \line { { \hspace #2 } Sound nevermore; }
-\line { Time’s course will soon be run. } % XXX comma ?
+\line { Time’s course will soon be run. }
 \line { Stop then, thou Christless one, }
 \line { Think of the great white throne, }
 \line { { \hspace #2 } Judgment will fall. }

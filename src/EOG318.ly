@@ -121,7 +121,7 @@ wordsA = \lyricmode {
 The in -- fant chil -- dren Christ re -- ceived, \bar "."
 Oh, praise His pre -- cious name; \bar "."
 He took them up in -- to His arms, \bar "."
-He blessed each babe that came. \bar "." % XXX blue book has "blest" but that is adjectival only (past participle, not past tense verb)
+He blessed each babe that came. \bar "." % blue book has "blest" but that is adjectival only (past participle, not past tense verb)
 
 }
 

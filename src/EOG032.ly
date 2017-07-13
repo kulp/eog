@@ -166,7 +166,7 @@ wordsG = \markuplist {
 wordsH = \markuplist {
 
 \line { Ere night that gate may close, and seal thy doom: }
-\line { Then the last, low, long cry, “No room! no room!”  } % XXX original does not have closing quote
+\line { Then the last, low, long cry, “No room! no room!”  } % original does not have closing quote
 
 }
 

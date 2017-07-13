@@ -88,7 +88,7 @@ wordsB = \markuplist {
 
 \line { We speak of salvation and love, }
 \line { { \hspace #2 } By the Father in Jesus made known; }
-\line { But if thou wouldst live unto God, } % XXX blue book has "would’st"
+\line { But if thou wouldst live unto God, } % blue book has "would’st"
 \line { { \hspace #2 } By faith thou must make it thine own. }
 
 }

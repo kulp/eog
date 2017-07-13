@@ -141,7 +141,7 @@ wordsC = \lyricmode {
 
 Thou art com -- ing, gra -- cious Sav -- iour,
 Ah, to see Thy face we long;
-Thou art com -- ing, bless -- ed Sav -- iour, % XXX blue book has comma after blessed
+Thou art com -- ing, bless -- ed Sav -- iour, % blue book has comma after blessed
 Right -- ing all cre -- a -- tion’s wrong.
 Na -- tion ris -- es a -- gainst na -- tion,
 Troub -- le spreads from shore to shore.

@@ -101,7 +101,7 @@ Mocked with a crown of thorn; \bar "."
 O Head e’en now sur -- round -- ed \bar "."
 With bright -- est ma -- jes -- ty, \bar "."
 In death once bowed and wound -- ed \bar "."
-On the ac -- curs -- ed tree. \bar "." % XXX blue book puts full stop here but the sentence hasn't ended
+On the ac -- curs -- ed tree: \bar "." % blue book puts full stop here but the sentence hasn't ended
 
 }
 

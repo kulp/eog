@@ -8,7 +8,7 @@
   hymnnumber = "214"
   title = "“Forever with the Lord!”"
   tunename = "Nearer Home"
-  meter = "S. M. D." % TODO "with Refrain" ?
+  meter = "S. M. D. with Refrain"
   poet = "J. Montgomery"
   composer = "I. B. Woodbury"
   tagline = ##f

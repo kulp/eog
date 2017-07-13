@@ -122,7 +122,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 I know the way is drear -- y
-To yon -- der far -- off clime, % XXX blue book has "far off" for "far-off"
+To yon -- der far -- off clime, % blue book has "far off" for "far-off"
 { \mon } But a { \moff } lit -- tle talk with Je -- sus
 Will while a -- way the time:
 And yet the more I know Him,

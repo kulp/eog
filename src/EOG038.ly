@@ -12,7 +12,7 @@
   title = "The Gospel Bells"
   tunename = ""
   meter = "P. M."
-  poet = "S. W. Martin" % XXX just S.W.M. in the original
+  poet = "S. W. Martin" % just S.W.M. in the original
   composer = "S. W. Martin"
   tagline = ##f
 }
