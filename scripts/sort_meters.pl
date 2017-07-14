@@ -5,7 +5,7 @@ sub normalize {
     local $_ = shift;
     chomp;
     s/\t.*$//;
-    if (my ($mult, $base, $rest) = /(\d+)-(\d+)s\.(?:\s*(.*)\s*)?/) {
+    if (my ($mult, $base, $rest) = /(\d+)[-–—](\d+)s\.(?:\s*(.*)\s*)?/) {
         return ("$base. " x $mult) . $rest;
     } elsif (my ($base, $dup) = /((?:\d+\. )+)D\./) {
         return $base x 2;

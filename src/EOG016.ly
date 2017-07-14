@@ -8,7 +8,7 @@
   hymnnumber = "16"
   title = "God in Mercy Sent His Son"
   tunename = "Herald Angels"
-  meter = "8-7s."
+  meter = "8—7s."
   poet = "H. K. Burlingham"
   composer = "Mendelssohn"
   tagline = ##f

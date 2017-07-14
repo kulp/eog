@@ -8,7 +8,7 @@
   hymnnumber = "192"
   title = "Simply Trusting Every Day"
   tunename = ""
-  meter = "8-7s."
+  meter = "8—7s."
   poet = "E. Page"
   composer = "Ira D. Sankey"
   tagline = ##f

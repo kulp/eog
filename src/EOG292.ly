@@ -7,7 +7,7 @@
   hymnnumber = "292"
   title = "What Will It Be to Dwell Above?"
   tunename = "Stella"
-  meter = "6-8s."
+  meter = "6—8s."
   poet = "Swain"
   composer = ""
   tagline = ##f

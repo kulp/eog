@@ -10,7 +10,7 @@
   hymnnumber = "173"
   title = "Long Did I Toil, and Knew No Earthly Rest"
   tunename = "Finlandia"
-  meter = "6-10s."
+  meter = "6—10s."
   poet = "H. F. Lyte"
   composer = "Jan Sibelius"
   tagline = ##f

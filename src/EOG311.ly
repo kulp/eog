@@ -32,7 +32,7 @@
   hymnnumber = "311"
   title = "Children, Can You Tell Me Why?"
   tunename = "Pilot"
-  meter = "6-7s."
+  meter = "6—7s."
   poet = ""
   composer = "J. E. Gould"
   tagline = ##f

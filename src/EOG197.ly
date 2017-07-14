@@ -8,7 +8,7 @@
   hymnnumber = "197"
   title = "The Saviour Is Coming"
   tunename = ""
-  meter = "5-11s."
+  meter = "5—11s."
   poet = ""
   composer = ""
   tagline = ##f

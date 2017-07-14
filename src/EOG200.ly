@@ -8,7 +8,7 @@
   hymnnumber = "200"
   title = "’Tis the Hope of His Coming"
   tunename = "Hallelujah! ’Tis Done"
-  meter = "6-11s."
+  meter = "6—11s."
   poet = "Mrs. A. R. Rule"
   composer = "P. P. Bliss"
   tagline = ##f

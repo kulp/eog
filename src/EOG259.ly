@@ -10,7 +10,7 @@
   hymnnumber = "259"
   title = "Rock of Ages!"
   tunename = "Toplady"
-  meter = "6-7s."
+  meter = "6—7s."
   poet = "A. M. Toplady"
   composer = "Dr. Thos. Hastings"
   tagline = ##f

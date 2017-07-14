@@ -9,7 +9,7 @@
   hymnnumber = "4"
   title = "Behold the Saviour at the Door"
   tunename = "St. Catherine"
-  meter = "6-8s."
+  meter = "6—8s."
   poet = "Joseph Grigg"
   composer = "J. G. Walton"
   tagline = ##f

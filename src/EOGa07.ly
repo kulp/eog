@@ -11,7 +11,7 @@
 \header{
   hymnnumber = "7"
   tunename = "Martyn"
-  meter = "8-7s."
+  meter = "8—7s."
   composer = "S. B. Marsh"
   alternate = \markup { "Alternate tune for No. 379." }
   tagline = ##f
