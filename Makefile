@@ -198,7 +198,7 @@ booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
 booklayout/metrical_insert.tex: booklayout/index.meter
-	scripts/make_metrical_index.pl $< | scripts/format_metrical_index.pl > $@
+	scripts/make_metrical_index.pl < $< | scripts/format_metrical_index.pl > $@
 
 booklayout/gospel_insert.tex: LYS = $(notdir $(shell grep -l '%gospel' src/EOG*.ly))
 booklayout/children_insert.tex: LYS = $(notdir $(shell grep -l '%children' src/EOG*.ly))
