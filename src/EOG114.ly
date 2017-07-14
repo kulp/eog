@@ -11,7 +11,7 @@
   hymnnumber = "114"
   title = "Saved Through the Blood of Jesus"
   tunename = "Heart’s Refuge"
-  meter = "7. 6. 7. 6. D."
+  meter = "7. 6. 7. 6. D. with Refrain"
   poet = "H. d’A. Champney"
   composer = "W. H. Doane"
   tagline = ##f

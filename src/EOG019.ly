@@ -8,7 +8,7 @@
   hymnnumber = "19"
   title = "It Is Finished"
   tunename = ""
-  meter = "7. 5. 7. 5."
+  meter = "7. 5. 7. 5. D."
   poet = "James Proctor"
   composer = "Ira D. Sankey"
   tagline = ##f
