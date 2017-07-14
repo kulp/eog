@@ -58,10 +58,7 @@ my %assorted;
 my $last;
 for my $meter (sort by_meter keys %meters) {
     my $rec = $meters{$meter};
-    print $header, @lines if @lines > 1;
-    if (@lines == 1) {
-        push @{ $assorted{$_} }, @{ $last->{$_} } for keys %$last;
-    }
+    print $header, @lines;
     @lines = ();
     $header = "$meter\n";
     my $have = 0;
@@ -69,9 +66,4 @@ for my $meter (sort by_meter keys %meters) {
     $last = $rec;
 }
 
-print $header, @lines if @lines > 2;
-@lines = ();
-my $have = 0;
-handle({ $_ => [ sort numeric @{ $assorted{$_} } ] }, \@lines, \$have) for sort keys %assorted;
-print "Uncategorized\n", @lines;
-
+print $header, @lines;
