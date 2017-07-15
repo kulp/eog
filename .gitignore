@@ -18,4 +18,9 @@ headers/
 texels/
 metrics/
 booklayout/*_insert.tex
+booklayout/book.tex
 booklayout/revision.tex
+booklayout/book.pdf
+booklayout/cover.pdf
+booklayout/toplevel.pdf
+booklayout/index.meter
