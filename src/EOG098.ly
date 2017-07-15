@@ -178,9 +178,9 @@ Come! ’tis the voice of the Spir -- it and bride!
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 %\markup { \fill-line { \column {

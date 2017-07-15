@@ -3,6 +3,14 @@
 *.out
 .DS_Store
 PDF/*/*.pdf
+PDF/*/EOG*.composer
+PDF/*/EOG*.hymnnumber
+PDF/*/EOG*.meter
+PDF/*/EOG*.midi
+PDF/*/EOG*.pdf
+PDF/*/EOG*.poet
+PDF/*/EOG*.title
+PDF/*/EOG*.tunename
 MIDI/*/*.midi
 MP3/*/*.mp3
 WAV/*/*.wav
@@ -14,7 +22,6 @@ index.html
 *.zip
 scripts/kulpstuff.js
 deps/
-headers/
 *.m3u
 texels/
 metrics/

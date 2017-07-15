@@ -205,7 +205,7 @@ Now in glo -- ry seat -- ed_–
   }
 }
 
-\score {
+#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
   \unfoldRepeats \context ChoirStaff <<
     \context Staff = upper <<
       \context Voice = sopranos { \voiceOne << \notesSoprano >> }
@@ -219,7 +219,7 @@ Now in glo -- ry seat -- ed_–
   \midi{
     \include "common/midi.ily"
   }
-}
+} #}))
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

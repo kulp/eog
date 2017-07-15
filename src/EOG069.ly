@@ -189,9 +189,9 @@ wordsE = \markuplist {
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \markup {

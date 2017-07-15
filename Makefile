@@ -34,8 +34,8 @@ space :=#
 space +=#
 comma :=,
 HEADER_BRACES = {$(subst $(space),$(comma),$(HEADERS))}
+HEADER_PATTERNS = $(foreach h,$(HEADERS),PDF/%.$h)
 
-LYOPTS += --header=$(HEADER_BRACES)
 LYOPTS += --loglevel=WARNING
 
 ifneq ($(DEBUG),)
@@ -139,25 +139,25 @@ WAV/%.wav: MIDI/vanilla/$$(*F).midi
 	mkdir -p $(@D)
 	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
 
-MP3/%.mp3: hymnnumber = $$(< headers/$(HEADER_BASE).hymnnumber)
-$(VARIANTS_MP3:%=MP3/%/EOGa%.mp3): hymnnumber = $$(( $(PRIMARY_FILE_COUNT) + $$(< headers/$(HEADER_BASE).hymnnumber) ))
+MP3/%.mp3: hymnnumber = $$(< PDF/eogsized/$(HEADER_BASE).hymnnumber)
+$(VARIANTS_MP3:%=MP3/%/EOGa%.mp3): hymnnumber = $$(( $(PRIMARY_FILE_COUNT) + $$(< PDF/eogsized/$(HEADER_BASE).hymnnumber) ))
 
 MP3/%.mp3: HEADER_BASE = $(basename $(*F))
 MP3/%.mp3: LAMEOPTS += --id3v2-only
-MP3/%.mp3: LAMEOPTS += --tt "$$(./scripts/latinize.sh headers/$(HEADER_BASE).title)"
-MP3/%.mp3: LAMEOPTS += --ta "$$(./scripts/latinize.sh headers/$(HEADER_BASE).poet)"
+MP3/%.mp3: LAMEOPTS += --tt "$$(./scripts/latinize.sh PDF/eogsized/$(HEADER_BASE).title)"
+MP3/%.mp3: LAMEOPTS += --ta "$$(./scripts/latinize.sh PDF/eogsized/$(HEADER_BASE).poet)"
 MP3/%.mp3: LAMEOPTS += --tn "$(hymnnumber)/$(TOTAL_FILE_COUNT)"
 MP3/%.mp3: LAMEOPTS += --tl '$(BOOK_NAME)'
 MP3/%.mp3: LAMEOPTS += --tv TCMP=1 # iTunes compilation flag
-MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(./scripts/latinize.sh headers/$(HEADER_BASE).composer)"
+MP3/%.mp3: LAMEOPTS += --tv TCOM="$$(./scripts/latinize.sh PDF/eogsized/$(HEADER_BASE).composer)"
 MP3/%.mp3: LAMEOPTS += --tv TENC="$(ENCODING_PERSON)"
-MP3/%.mp3: LAMEOPTS += --tv TEXT="$$(./scripts/latinize.sh headers/$(HEADER_BASE).poet)"
-MP3/%.mp3: LAMEOPTS += --tv TIT3="$$(./scripts/latinize.sh headers/$(HEADER_BASE).tunename)"
+MP3/%.mp3: LAMEOPTS += --tv TEXT="$$(./scripts/latinize.sh PDF/eogsized/$(HEADER_BASE).poet)"
+MP3/%.mp3: LAMEOPTS += --tv TIT3="$$(./scripts/latinize.sh PDF/eogsized/$(HEADER_BASE).tunename)"
 MP3/%.mp3: LAMEOPTS += --tv TLAN='English'
 MP3/%.mp3: LAMEOPTS += --tv WOAF="$(WEB_BASE)$@"
 MP3/%.mp3: LAMEOPTS += --tv WPUB="$(WEB_BASE)"
 # depend on text files only for files containing lyrics
-$(LYRICAL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt
+$(LYRICAL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt $$(foreach h,$(HEADERS),PDF/eogsized/$$(*F).$$h)
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 	id3v2 --USLT "$$(< $(filter %.txt,$^))" $@
@@ -166,7 +166,7 @@ $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 
-headers TXT/latinized metrics:
+TXT/latinized metrics:
 	mkdir -p $@
 
 check: book
@@ -186,8 +186,8 @@ CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
 	scripts/makebook.pl $| > $@ || (rm $@ ; false)
 
-booklayout/index.meter: $(LYS:%.ly=headers/%.meter)
-	sed -e '' $^ | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" $^ | cut -d/ -f2 | cut -d. -f1 | tr '\n' ' ' ; echo ; done > $@ || (rm $@ ; false)
+booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
+	sed -nep $^ | sort -u | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" $^ | cut -d/ -f3 | cut -d. -f1 | tr '\n' ' ' ; echo ; done > $@ || (rm $@ ; false)
 
 %.pdf: %.tex
 	lualatex --shell-escape --output-directory=$(@D) $<
@@ -220,11 +220,18 @@ cover: booklayout/cover-standard-paperback.pdf
 cover: booklayout/cover-casewrap.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
-CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))
-PDF/%.pdf MIDI/%.midi: src/$$(*F).ly | headers
-	mkdir -p $(@D)
-	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --pdf --output=$(@D)/$(*F) $<
-	-mv $(@D)/$(*F).pdf  PDF/$(*D)/
-	-mv $(@D)/$(*F).midi MIDI/$(*D)/
-	-mv $(@D)/$(basename $(*F)).$(HEADER_BRACES) headers/
+CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
+# PDF rule also creates header files (wanted to do it with MIDI rule but no
+# header files were dumped when there were no active `\layout{ }` blocks)
+PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --header=$(HEADER_BRACES)
+PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --define-default=include-settings=variants/PDF-settings.ly
+PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --pdf
+PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
+	@mkdir -p $(@D)
+	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/PDF/$(*D) --output=PDF/$* $<
+
+MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ly
+MIDI/%.midi: src/$$(*F).ly
+	@mkdir -p $(@D)
+	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --output=MIDI/$* $<
 

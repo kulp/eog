@@ -147,9 +147,9 @@ Ob -- ject su -- preme of all, by all a -- dored.
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 % TODO suggest alternate tune No. 6, as EOG076 does ?

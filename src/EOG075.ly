@@ -217,7 +217,7 @@ What hast thou brought to Me?
   }
 }
 
-\score {
+#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
   \context ChoirStaff <<
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
@@ -239,7 +239,7 @@ What hast thou brought to Me?
   \midi{
     \include "common/midi.ily"
   }
-}
+} #}))
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

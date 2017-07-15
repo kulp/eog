@@ -114,9 +114,9 @@ wordsD = \lyricmode {
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \noPageBreak \markup { \fill-line { "Alternate tune: No. 999." } }

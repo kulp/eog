@@ -195,9 +195,9 @@ Then from the lips of the Judge thy re -- ward_–
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

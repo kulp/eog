@@ -139,9 +139,9 @@ There, ev -- er -- last -- ing rest!
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 151. } } }

@@ -155,9 +155,9 @@ For -- ev -- er in that hap -- py place.
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \noPageBreak \markup { \vspace #1 \fill-line { \raise #3 \line { Alternate tune: No. 48. } } }

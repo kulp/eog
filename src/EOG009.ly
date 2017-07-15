@@ -150,9 +150,9 @@ wordsD = \lyricmode {
       \override LyricSpace.minimum-distance = #0.3
     }
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

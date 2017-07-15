@@ -145,9 +145,9 @@ In the Lamb’s high glo -- ry there.
     % Compensate for wide lyrics by squashing things a bit
     \override LyricSpace.minimum-distance = #0.3
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \noPageBreak

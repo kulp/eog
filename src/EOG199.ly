@@ -171,9 +171,9 @@ De -- mands our soul, our life, our all.
     }
 
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \noPageBreak \markup { \fill-line { \raise #5 \line { Alternate tune: No. 11. } } }

@@ -9,7 +9,7 @@ use List::MoreUtils qw(uniq);
 sub get_key ($$)
 {
     my ($stem, $key) = @_;
-    open my $fh, "headers/$stem.$key" or return "";
+    open my $fh, "PDF/eogsized/$stem.$key" or return "";
     chomp(my $val = <$fh> || "");
     return $val;
 }

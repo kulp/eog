@@ -127,7 +127,7 @@ wordsD = \markuplist {
   }
 }
 
-\score {
+#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
   \context ChoirStaff <<
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
@@ -149,7 +149,7 @@ wordsD = \markuplist {
   \midi{
     \include "common/midi.ily"
   }
-}
+} #}))
 
 \noPageBreak \markup { \fill-line { "Alternate tune: No. 999." } }
 

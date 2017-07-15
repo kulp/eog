@@ -227,7 +227,7 @@ Through _ faith in Je -- sus’ blood.
   }
 }
 
-\score {
+#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
   \context ChoirStaff <<
     \context Staff = upper <<
       \context Voice = sopranos { \voiceOne { \notesSoprano \notesSopranoFirst } }
@@ -241,7 +241,7 @@ Through _ faith in Je -- sus’ blood.
   \midi{
     \include "common/midi.ily"
   }
-}
+} #}))
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

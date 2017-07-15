@@ -13,7 +13,7 @@ my %names = map {
     if (my ($num) = /.*EOG(a?\d+).tune/) {
         $num => read_file($_, binmode => ':utf8') || 'zzzTune'
     } else { () } # additional tunes
-} glob "headers/EOG*.tunename";
+} glob "PDF/eogsized/EOG*.tunename";
 
 my %meters;
 

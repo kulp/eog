@@ -175,9 +175,9 @@ Yes, yes, oh, yes, we’ll pa -- tient -- ly wait for the Lord. %{HIDE>%} \set i
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

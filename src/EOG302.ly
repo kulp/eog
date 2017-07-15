@@ -202,9 +202,9 @@ That mer -- cy’s work is done.
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 nullMarkup = \markup { }

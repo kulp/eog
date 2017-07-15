@@ -120,9 +120,9 @@ Let us ev -- ’ry one to the Sav -- iour go. \bar "."
   \layout {
     \include "common/layout.ily"
   }
-  \midi{
+  #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
-  }
+  } #}))
 }
 
 
