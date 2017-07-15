@@ -126,9 +126,8 @@ MIDI/vanilla/%.midi: MIDI/default/%.midi
 	midish -b <<<'import "$<"; export "$@"'
 CLOBBERFILES += $(LYS:%.ly=MIDI/vanilla/%.midi)
 
-# I would like to use long (`--` style) options to fluidsynth, but version
-# 1.1.6 doesn't seem to understand them, even though its help summary indicates
-# it should.
+# I would like to use long (`--` style) options to fluidsynth, but that
+# requires a version built with GETOPT_SUPPORT
 WAV/%.wav: MIDI/vanilla/$$(*F).midi
 	mkdir -p $(@D)
 	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
