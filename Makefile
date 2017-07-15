@@ -160,7 +160,7 @@ $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 
-headers TXT/latinized metrics texels:
+headers TXT/latinized metrics:
 	mkdir -p $@
 
 check:
@@ -175,10 +175,6 @@ check:
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	convert "$<" -trim info:"$@" || (rm $@ ; false)
-
-CLOBBERFILES += texels/
-texels/%.texel: PDF/eogsized/%.pdf metrics/%.metrics | texels
-	scripts/makebook.pl $< > $@ || (rm $@ ; false)
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
