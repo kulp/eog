@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 use strict;
 
+use utf8;
+
 sub normalize {
     local $_ = shift;
     chomp;
