@@ -140,8 +140,6 @@ Oh, hear the voice of Je -- sus;
 Go on your way in peace to heaven,
 And wear a crown with Je -- sus.
 
-\Refrain
-
 }
 
 wordsC = \lyricmode {
@@ -151,6 +149,8 @@ All glo -- ry to the ris -- en Lamb!
 I now be -- lieve in Je -- sus;
 I love the bless -- ed Sav -- iour’s name,
 I love the name of Je -- sus.
+
+\Refrain
 
 }
 
