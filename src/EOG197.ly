@@ -7,7 +7,7 @@
 \header{
   hymnnumber = "197"
   title = "The Saviour Is Coming"
-  tunename = ""
+  tunename = "Saviour Is Coming" % from Metrical Index of Tunes
   meter = "5—11s."
   poet = ""
   composer = ""
