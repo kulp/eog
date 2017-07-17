@@ -1,5 +1,6 @@
 *.log
 *.aux
+*.out
 .DS_Store
 PDF/*/*.pdf
 MIDI/*/*.midi
