@@ -6,7 +6,7 @@
 \header{
   hymnnumber = "213"
   title = "Close to Thee"
-  tunename = ""
+  tunename = "Close to Thee" % from Metrical Index of Tunes
   meter = "8. 7. 8. 7. with Refrain"
   poet = "Fanny J. Crosby"
   composer = "S. J. Vail"

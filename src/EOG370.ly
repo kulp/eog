@@ -25,7 +25,7 @@
 
         \override #'(baseline-skip . 2.5)
         \small \fill-line {
-          \wordwrap { “Know ye not, that to whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; ... even so now yield your members servants to righteousness unto holiness.” — "Romans 6:16, 19." } } % TODO original has right-justified reference
+          \wordwrap { “Know ye not, that to whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; ... even so now yield your members servants to righteousness unto holiness.” — "Romans 6:16, 19." } } % original has right-justified reference
       }
     }
   }

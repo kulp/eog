@@ -10,7 +10,7 @@
   %gospel
   hymnnumber = "23"
   title = "My Redeemer"
-  tunename = ""
+  tunename = "My Redeemer" % from Metrical Index of Tunes
   meter = "8. 7. 8. 7. with Refrain"
   poet = "P. P. Bliss"
   composer = "Mrs. Addie McGranahan"

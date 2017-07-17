@@ -26,6 +26,7 @@ while (<>) {
 sub dictionary {
     (my $aa = $a) =~ s/[[:punct:]]//g;
     (my $bb = $b) =~ s/[[:punct:]]//g;
+    s/\bSt\b/Saint/g for $aa, $bb;
     $aa cmp $bb
 }
 

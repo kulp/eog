@@ -10,7 +10,8 @@
   title = "Behold, Behold the Lamb of God"
   tunename = "Mercy’s Free"
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
-  poet = "A. Jukes"
+  poet = "Joseph Hoskins" % from http://hymnary.org/text/behold_behold_the_lamb_of_god_on_the_cro
+  % original has "A. Jukes" but if anything it might be Richard Jukes (EOG005, same tune, also somehow linked on hymnary.org to this song). Messages of Love Hymn Book has J. Hoskins.
   composer = "D. F. E. Auber"
   tagline = ##f
 }

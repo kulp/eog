@@ -126,9 +126,8 @@ MIDI/vanilla/%.midi: MIDI/default/%.midi
 	midish -b <<<'import "$<"; export "$@"'
 CLOBBERFILES += $(LYS:%.ly=MIDI/vanilla/%.midi)
 
-# I would like to use long (`--` style) options to fluidsynth, but version
-# 1.1.6 doesn't seem to understand them, even though its help summary indicates
-# it should.
+# I would like to use long (`--` style) options to fluidsynth, but that
+# requires a version built with GETOPT_SUPPORT
 WAV/%.wav: MIDI/vanilla/$$(*F).midi
 	mkdir -p $(@D)
 	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
@@ -160,7 +159,7 @@ $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 
-headers TXT/latinized metrics texels:
+headers TXT/latinized metrics:
 	mkdir -p $@
 
 check:
@@ -176,16 +175,12 @@ CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	convert "$<" -trim info:"$@" || (rm $@ ; false)
 
-CLOBBERFILES += texels/
-texels/%.texel: PDF/eogsized/%.pdf metrics/%.metrics | texels
-	scripts/makebook.pl $< > $@ || (rm $@ ; false)
-
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
 	scripts/makebook.pl $| > $@ || (rm $@ ; false)
 
-booklayout/index.meter: $(filter PDF/eogsized/%, $(PDFS))
-	(cd headers ; sed -e '' *.meter | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" *.meter | cut -d. -f1 | tr '\n' ' ' ; echo ; done) > $@ || (rm $@ ; false)
+booklayout/index.meter: $(LYS:%.ly=headers/%.meter)
+	sed -e '' $^ | sort | uniq | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" $^ | cut -d/ -f2 | cut -d. -f1 | tr '\n' ' ' ; echo ; done > $@ || (rm $@ ; false)
 
 %.pdf: %.tex
 	lualatex --shell-escape --output-directory=$(@D) $<

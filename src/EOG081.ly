@@ -12,7 +12,7 @@
   hymnnumber = "81"
   title = "“It Is Finished!” Sinners, Hear It"
   tunename = "Regent Square"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7."
   poet = "T. Kelly"
   composer = "Henry Smart"
   tagline = ##f
