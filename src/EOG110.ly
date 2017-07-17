@@ -9,7 +9,7 @@
   title = "Oh, Turn Now! Oh, Turn Now!"
   tunename = "Hiding in Thee"
   meter = "11. 11. 11. 11. with Refrain"
-  poet = "J. Hopkins"
+  poet = "Josiah Hopkins" % from http://hymnary.org/text/o_turn_ye_o_turn_ye_for_why_will_ye_die
   composer = "Ira D. Sankey"
   tagline = ##f
 }
