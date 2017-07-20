@@ -12,6 +12,7 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
 my $prev_height =  0; # points
 my $prev_clip   = ""; # stringified boolean
+my $prev_name   = "";
 my $scale       = 1.062; # TODO compute this
 my $fudge       = 1; # XXX unexplained fudge factor (rounding error ?)
 my $max_height  = 9*72-36-36-$fudge; # post-scaled maximum point height (9 inch page minus half-inch borders)
@@ -49,8 +50,11 @@ for my $pdf (@ARGV) {
         }
 
         my $hyper = $page > 1 ? "" : "\\hypertarget{$name}";
+        print qq(\\vfill\\Large{\\textsc{Additional Tunes}}\\vfill\n)
+            if $name =~ /EOGa/ and $prev_name !~ /EOGa/;
         printf q(%-20s{\\includegraphics[scale=%4.3f,clip=true,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s}} \\\\)."\n",
                $hyper, $scale, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
+        $prev_name = $name;
     }
 }
 
