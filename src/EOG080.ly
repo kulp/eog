@@ -2,8 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = ##f
-  page-count = ##f
+  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 5) (#t #f))
 }
 
 \header{
@@ -109,8 +109,9 @@ notesBass = {
 
 RefrainA = \lyricmode {
 
-Might -- y to save, __ { \eogbreak } might -- y to save, __ \bar "."
-Now __ in the { \eogpagebreak } glo -- ry, He’s a -- ble and will -- ing to save. \bar "."
+Might -- y to save, __ might -- y to save, __ \bar "."
+Now __ in the { \eogpagebreak } glo -- ry, He’s a -- ble and will -- ing to
+save. \bar "."
 
 }
 
@@ -132,8 +133,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Down from the glo -- ry came God’s bless -- ed Son, \bar "."
-Lost ones { \eogbreak } to save, lost ones to save; \bar "."
-Went in -- to death and the vic -- to -- ry won, \bar "." { \eogbreak }
+Lost ones to save, lost ones to save; \bar "."
+Went in -- to death and the vic -- to -- ry won, \bar "."
 Tri -- um -- phant rose from the grave. __ \bar "."
 
 \RefrainA
