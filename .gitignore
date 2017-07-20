@@ -22,6 +22,6 @@ booklayout/*_insert.tex
 booklayout/book.tex
 booklayout/revision.tex
 booklayout/book.pdf
-booklayout/cover.pdf
+booklayout/cover-standard-paperback.pdf
 booklayout/toplevel.pdf
 booklayout/index.meter
