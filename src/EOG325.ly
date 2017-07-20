@@ -114,8 +114,8 @@ wordsB = \lyricmode {
 Come, then, lit -- tle chil -- dren,
 And lis -- ten to His love,
 For He is still the same to -- day,
-Tho’ now He dwells a -- bove;
-Tho’ your hearts are full of sin,
+Though now He dwells a -- bove;
+Though your hearts are full of sin,
 Je -- sus’ blood can make you clean.
 
 }
@@ -125,7 +125,7 @@ wordsC = \lyricmode {
 
 Hap -- py are the chil -- dren
 Who trust in Je -- sus’ name;
-Al -- tho’ they can -- not see His face,
+Al -- though they can -- not see His face,
 He watch -- es o -- ver them.
 Safe -- ly on their Shep -- herd’s breast
 All His lit -- tle lambs may rest.

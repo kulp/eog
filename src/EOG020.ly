@@ -128,7 +128,7 @@ wordsB = \lyricmode {
 Je -- sus! ’tis He who once be -- low
 Man’s path -- way trod, mid pain and woe;
 And bur -- dened ones, wher -- e’er He came,
-Bro’t out their sick, and deaf, and lame.
+Brought out their sick, and deaf, and lame.
 The blind re -- joiced to hear the cry,
 “Je -- sus of Naz -- a -- reth pass -- eth by.”
 The blind re -- joiced to hear the cry,

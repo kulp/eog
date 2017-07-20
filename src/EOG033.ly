@@ -149,7 +149,7 @@ wordsE = \lyricmode {
 
 For me, Lord Je -- sus, Thou hast died,
 And I have died in Thee;
-Thou’rt ris’n: my bands are all un -- tied,
+Thou’rt risen: my bands are all un -- tied,
 And now Thou liv’st in me.
 The Fa -- ther’s face of ra -- diant grace
 Shines now in light on me.

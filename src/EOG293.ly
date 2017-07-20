@@ -105,7 +105,7 @@ And all was calm and bright. \bar "."
 The sun was sink -- ing in the west, \bar "."
 The shore was near at hand, \bar "."
 And those on board with hearts at rest \bar "."
-Tho’t soon to reach the land. \bar "."
+Thought soon to reach the land. \bar "."
 
 }
 

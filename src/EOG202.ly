@@ -123,7 +123,7 @@ wordsC = \lyricmode {
 Oh, what a home! There full -- est love
 Flows thro’ its courts of light;
 The Son’s di -- vine af -- fec -- tions flow
-Thro’ -- out its depth and height.
+Through -- out its depth and height.
 And full re -- sponse the Fa -- ther gives,
 To fill with joy the heart–
 No cloud is there to dim the scene

@@ -117,7 +117,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Who is He that stands and weeps
-At the grave where Laz -- ’rus sleeps?
+At the grave where Laz -- arus sleeps?
 
 }
 
