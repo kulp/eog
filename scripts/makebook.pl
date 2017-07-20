@@ -48,8 +48,9 @@ for my $pdf (@ARGV) {
             $prev_height = $height;
         }
 
-        printf q(\\hypertarget{%s}{\\includegraphics[scale=%4.3f,clip=true,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s}} \\\\)."\n",
-               $name, $scale, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
+        my $hyper = $page > 1 ? "" : "\\hypertarget{$name}";
+        printf q(%-20s{\\includegraphics[scale=%4.3f,clip=true,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s}} \\\\)."\n",
+               $hyper, $scale, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
     }
 }
 
