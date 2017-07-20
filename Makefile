@@ -205,6 +205,7 @@ booklayout/%_insert.tex: $$(TXTS)
 
 book: cover booklayout/toplevel.pdf
 cover: booklayout/cover-standard-paperback.pdf
+cover: booklayout/cover-casewrap.pdf
 
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=headers/%.$(HEADER_BRACES))

@@ -1,0 +1,22 @@
+\documentclass[coverwidth=6in,coverheight=9in,spinewidth=0.923in,bleedwidth=0.875in,marklength=0in]{bookcover} % 0.923in for 358 pages
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[sf]{merriweather}
+\definecolor{Gold}{HTML}{FFC40C}
+\definecolor{Silver}{HTML}{C0C0C0}
+\begin{document}
+\begin{bookcover}
+    \bookcovercomponent{normal}{bg whole}{\includegraphics[scale=0.2]{booklayout/greenbg0.jpg}}
+    \bookcovercomponent{center}{spine}{
+        \rotatebox[origin=c]{270}{\huge\textcolor{Silver}{
+        \merriweatherblack{Echoes of Grace Hymn Book}}}}
+    \bookcovercomponent{normal}{front}{
+        \vspace{5cm}
+        \begin{center}
+        \color{Silver}
+            \setlength{\fboxrule}{2pt}
+            \fbox{\setlength{\fboxrule}{1pt}\setlength{\fboxsep}{0.2in}\framebox[3.5in]{\textcolor{Silver}{\includegraphics[scale=0.075]{booklayout/bodoni-scan.pdf}}}}
+        \end{center}}
+\end{bookcover}
+\end{document}
+
