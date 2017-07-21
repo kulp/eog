@@ -148,7 +148,7 @@ wordsC = \markuplist {
     \column {
       \fill-line {
         \huge \larger \larger \bold {
-          " 127"
+          "  127"
           "Let Us Sing of His Love Once Again"
           \null
         }

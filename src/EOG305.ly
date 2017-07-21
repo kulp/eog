@@ -139,7 +139,7 @@ wordsB = \markuplist {
     \column {
       \fill-line {
         \huge \larger \larger \bold {
-          "305"
+          "  305"
           "The Saviour Is Loving"
           \null
         }

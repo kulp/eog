@@ -152,7 +152,7 @@ wordsE = \markuplist {
     \column {
       \fill-line {
         \huge \larger \larger \bold {
-          " 62"
+          "  62"
           "Behold the Lamb Whose Precious Blood"
           \null
         }

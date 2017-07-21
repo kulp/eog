@@ -150,7 +150,7 @@ wordsF = \markuplist {
     \column {
       \fill-line {
         \huge \larger \larger \bold {
-          " 342"
+          "  342"
           "Jesus Came from Heaven"
           \null
         }
