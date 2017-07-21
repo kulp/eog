@@ -115,7 +115,7 @@ wordsD = \markuplist {
 
 \line { How free! It asks no price, }
 \line { { \hspace #2 } For God delights to give; }
-\line { It only says – a simple thing – }
+\line { It only says — a simple thing — }
 \line { { \hspace #2 } “Believe in Christ, and live.” }
 
 }

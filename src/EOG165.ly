@@ -109,7 +109,7 @@ What -- ev -- er makes us mourn.
 
 wordsD = \markuplist {
 
-\line { Jesus – the One who knew no sin, }
+\line { Jesus — the One who knew no sin, }
 \line { { \hspace #2 } Made sin to make us just; }
 \line { Thou gav’st Thyself our love to win — }
 \line { { \hspace #2 } Our full confiding trust. }

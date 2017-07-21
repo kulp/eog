@@ -120,7 +120,7 @@ wordsE = \markuplist {
 
 \line { The moments are fleeting; then haste, why delay? }
 \line { { \hspace #2 } Secure God’s salvation, while still ’tis today; }
-\line { Eternity’s ages thy soul has to face – }
+\line { Eternity’s ages thy soul has to face — }
 \line { { \hspace #2 } In blackness of darkness, or riches of grace. }
 
 }
