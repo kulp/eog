@@ -86,7 +86,7 @@ wordsA = \lyricmode {
 
 We sing the praise of Him who died, \bar "."
 Of Him who died up -- on the cross, \bar "."
-The sin -- ner’s hope– let men de -- ride; \bar "."
+The sin -- ner’s hope_– let men de -- ride; \bar "."
 For this we count the world but loss. \bar "."
 
 }

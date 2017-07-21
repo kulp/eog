@@ -106,8 +106,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
   Be -- hold the Sav -- iour at the door! \bar "."
-  He gen -- tly knocks– has knocked be -- fore; \bar "."
-  Has wait -- ed long– is wait -- ing still; \bar "."
+  He gen -- tly knocks_– has knocked be -- fore; \bar "."
+  Has wait -- ed long_– is wait -- ing still; \bar "."
   You use no oth -- er friend so ill. \bar "."
 
 }

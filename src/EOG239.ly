@@ -101,7 +101,7 @@ Well I know, the bless -- ed mor -- row, \bar "."
 Christ will come for me. \bar "."
 Midst the light, and peace, and glo -- ry \bar "."
 Of the Fa -- ther’s home, \bar "."
-Christ for me is watch -- ing, wait -- ing– \bar "."
+Christ for me is watch -- ing, wait -- ing_– \bar "."
 Wait -- ing till I come. \bar "."
 
 }

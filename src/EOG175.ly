@@ -120,9 +120,9 @@ Hal -- le -- lu -- jah! Christ a -- rose! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Low in the grave He lay– \bar "."
+Low in the grave He lay_– \bar "."
 Je -- sus, my Sav -- iour! \bar "."
-Wait -- ing the com -- ing day– \bar "."
+Wait -- ing the com -- ing day_– \bar "."
 Je -- sus, my Lord! \bar "."
 
 }
@@ -130,9 +130,9 @@ Je -- sus, my Lord! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Vain -- ly they watch His bed–
+Vain -- ly they watch His bed_–
 Je -- sus, my Sav -- iour!
-Vain -- ly they seal the dead–
+Vain -- ly they seal the dead_–
 Je -- sus, my Lord!
 
 \Refrain
@@ -142,9 +142,9 @@ Je -- sus, my Lord!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Death can -- not keep his prey–
+Death can -- not keep his prey_–
 Je -- sus, my Sav -- iour!
-He tore the bars a -- way–
+He tore the bars a -- way_–
 Je -- sus, my Lord!
 
 }

@@ -83,7 +83,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Oh, what a glo -- rious truth is this– \bar "."
+Oh, what a glo -- rious truth is this_– \bar "."
 Je -- sus died, Je -- sus died; \bar "." \eogbreak
 Has o -- pened up the path of bliss; \bar "."
 Je -- sus died, Je -- sus died; \bar "." \eogbreak
@@ -113,7 +113,7 @@ wordsC = \lyricmode {
 
 Oh, tell it un -- to all a -- round,
 Je -- sus died, Je -- sus died;
-’Tis such a pre -- cious, bless -- ed sound–
+’Tis such a pre -- cious, bless -- ed sound_–
 Je -- sus died, Je -- sus died;
 En -- treat poor sin -- ners to re -- ly
 On that which brings the guilt -- y nigh,
@@ -131,7 +131,7 @@ Which end -- less a -- ges shall pro -- long,
 Je -- sus died, Je -- sus died;
 By vir -- tue of that pre -- cious blood
 Be -- liev -- ers are brought nigh to God;
-Oh, spread the glo -- rious news a -- broad–
+Oh, spread the glo -- rious news a -- broad_–
 Je -- sus died, Je -- sus died.
 
 }

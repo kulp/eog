@@ -111,7 +111,7 @@ wordsA = \lyricmode {
 “A lit -- tle while” the Lord shall come, \bar "."
 And we shall wan -- der here no more; \bar "."
 He’ll take us to His Fa -- ther’s home, \bar "."
-Where He for us is gone be -- fore– \bar "."
+Where He for us is gone be -- fore_– \bar "."
 To dwell with Him, to see His face, \bar "."
 And sing the glo -- ries of His grace. \bar "."
 %{HIDE>%} To dwell with Him to see His face, \bar "." %{<HIDE%}
@@ -122,7 +122,7 @@ And sing the glo -- ries of His grace. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“A lit -- tle while”– He’ll come a -- gain;
+“A lit -- tle while”_– He’ll come a -- gain;
 Let us the pre -- cious hours re -- deem;
 Our on -- ly grief to give Him pain,
 Our joy to serve and fol -- low Him.
@@ -136,7 +136,7 @@ As those that wait their Lord to see.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-“A lit -- tle while”– ’twill soon be past:
+“A lit -- tle while”_– ’twill soon be past:
 Why should we shun the prom -- ised cross?
 Oh, let us in His foot -- steps haste,
 Count -- ing for Him all else but loss;
@@ -150,7 +150,7 @@ The suf -- ferings of this “lit -- tle while.”
 wordsD = \lyricmode {
 \set stanza = "4."
 
-“A lit -- tle while”– come, Sav -- iour, come!
+“A lit -- tle while”_– come, Sav -- iour, come!
 For Thee Thy bride has tar -- ried long;
 Take Thy poor wait -- ing pil -- grims home,
 To sing the new e -- ter -- nal song,

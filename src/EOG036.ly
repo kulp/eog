@@ -128,7 +128,7 @@ See Him dy -- ing on the tree! \bar "."
 Yes, my soul, ’tis He! ’tis He! \bar "."
 Mark the sac -- ri -- fice ap -- point -- ed! \bar "."
 See who bears the aw -- ful load! \bar "."
-’Tis the Word, ’tis God’s A -- noint -- ed– \bar "."
+’Tis the Word, ’tis God’s A -- noint -- ed_– \bar "."
 Son of Man and Son of God. \bar "."
 
 }
@@ -138,9 +138,9 @@ wordsB = \lyricmode {
 
 Here we have a firm foun -- da -- tion;
 Here’s the ref -- uge of the lost;
-Christ’s the Rock of our sal -- va -- tion–
+Christ’s the Rock of our sal -- va -- tion_–
 His the name of which we boast.
-Lamb of God, for sin -- ners wound -- ed–
+Lamb of God, for sin -- ners wound -- ed_–
 Sac -- ri -- fice to can -- cel guilt,
 None shall ev -- er be con -- found -- ed
 Who on Thee their hope have built.

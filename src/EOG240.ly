@@ -113,7 +113,7 @@ wordsA = \lyricmode {
 
 Might -- y, might -- y love of Je -- sus! \bar "."
 Great -- er love was nev -- er known; \bar "."
-Love that stooped from heights of glo -- ry– \bar "."
+Love that stooped from heights of glo -- ry_– \bar "."
 Love that left, for me, a throne. \bar "." % blue book oddly removes comma after `left`
 
 }
@@ -123,7 +123,7 @@ wordsB = \lyricmode {
 
 Won -- drous, won -- drous love of Je -- sus!
 Once for me He lived a child;
-Low -- ly Son of low -- ly moth -- er–
+Low -- ly Son of low -- ly moth -- er_–
 He, the Christ, the Un -- de -- filed!
 
 \Refrain
@@ -135,7 +135,7 @@ wordsC = \lyricmode {
 
 Faith -- ful, faith -- ful love of Je -- sus!
 Count -- ing ev -- ’ry -- thing but loss,
-Un -- to death for me sub -- mit -- ting–
+Un -- to death for me sub -- mit -- ting_–
 E -- ven death up -- on the cross!
 
 }

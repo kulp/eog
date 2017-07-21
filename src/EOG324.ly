@@ -169,7 +169,7 @@ wordsC = \lyricmode {
 
 Bend -- ing, we caught the last words of his breath,
 Just as he en -- tered the val -- ley of death:
-“God sent His Son– who -- so -- ev -- er!” said he;
+“God sent His Son_– who -- so -- ev -- er!” said he;
 “Then I am sure that He sent Him for me!”
 
 }

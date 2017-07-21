@@ -131,7 +131,7 @@ And in the air shall meet Thee.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-We wait for Thee– Thou wilt a -- rise
+We wait for Thee_– Thou wilt a -- rise
 While hope her watch is keep -- ing;
 For -- got -- ten then, in glad sur -- prise,
 Shall be our years of weep -- ing.

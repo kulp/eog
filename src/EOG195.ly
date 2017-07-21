@@ -98,7 +98,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 That res -- ur -- rec -- tion word, \bar "."
-That shout of vic -- to -- ry– \bar "." \eogbreak
+That shout of vic -- to -- ry_– \bar "." \eogbreak
 Once more: “For -- ev -- er with the Lord.” \bar "."
 A -- men, so let it be. \bar "." \eogbreak
 

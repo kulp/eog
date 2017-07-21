@@ -126,7 +126,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Christ a -- lone can save– \bar "."
+Christ a -- lone can save_– \bar "."
 Break the power of sin; \bar "."
 Christ doth ful -- ly sat -- is -- fy \bar "."
 The heart that cleaves to Him. \bar "."

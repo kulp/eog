@@ -130,9 +130,9 @@ notesBassChorus = {
 
 Refrain = \lyricmode {
 
-“But for a mo -- ment”– on -- ly a mo -- ment! \bar "."
-Light our af -- flic -- tion– ’twill soon pass a -- way. \bar "."
-“But for a mo -- ment”– on -- ly a mo -- ment! \bar "."
+“But for a mo -- ment”_– on -- ly a mo -- ment! \bar "."
+Light our af -- flic -- tion_– ’twill soon pass a -- way. \bar "."
+“But for a mo -- ment”_– on -- ly a mo -- ment! \bar "."
 Then comes the glo -- ry, for -- ev -- er and aye! \bar "."
 
 }
@@ -140,7 +140,7 @@ Then comes the glo -- ry, for -- ev -- er and aye! \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“But for a mo -- ment”– this val -- ley of sor -- rows, \bar "."
+“But for a mo -- ment”_– this val -- ley of sor -- rows, \bar "."
 Dark -- ened with shad -- ows and heav -- y with sighs; \bar "."
 Bright dawns the mor -- row, the glo -- ri -- ous mor -- row! \bar "."
 Faint not! the Lord shall call us to a -- rise! \bar "."
@@ -150,7 +150,7 @@ Faint not! the Lord shall call us to a -- rise! \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-“Far more ex -- ceed -- ing” the heav -- en -- ly glo -- ry–
+“Far more ex -- ceed -- ing” the heav -- en -- ly glo -- ry_–
 Suf -- fer -- ings here with it can -- not com -- pare.
 Glo -- ry e -- ter -- nal the guer -- don for an -- guish,
 Ra -- di -- ant crowns, for the thorns, o -- ver there.

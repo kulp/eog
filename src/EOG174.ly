@@ -110,7 +110,7 @@ Oh, ’tis a won -- drous sight,
 All sights a -- bove!
 Je -- sus the curse sus -- tains!
 Guilt’s bit -- ter cup He drains!
-Noth -- ing for us re -- mains–
+Noth -- ing for us re -- mains_–
 Noth -- ing but love.
 
 }

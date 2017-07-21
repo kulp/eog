@@ -97,7 +97,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Sound the cho -- rus loud and clear– \bar "."
+Sound the cho -- rus loud and clear_– \bar "."
 He hath brought sal -- va -- tion near; \bar "."
 None so pre -- cious, none so dear: \bar "."
 Je -- sus Christ our Sav -- iour. \bar "."

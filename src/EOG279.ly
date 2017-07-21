@@ -90,7 +90,7 @@ wordsA = \lyricmode {
 
 I’m wait -- ing for Thee, Lord, \bar "."
 Thy beau -- ty to see, Lord, \bar "."
-I’m wait -- ing for Thee– for Thy com -- ing a -- gain. \bar "."
+I’m wait -- ing for Thee_– for Thy com -- ing a -- gain. \bar "."
 \mon Thou art \moff gone o -- ver there, Lord, \bar "."
 A place to pre -- pare, Lord, \bar "."
 Thy home I shall share, at Thy com -- ing a -- gain. \bar "."

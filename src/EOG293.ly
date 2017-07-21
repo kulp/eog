@@ -140,7 +140,7 @@ And all are hushed in peace.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-They great -- ly won -- dered– so may we,
+They great -- ly won -- dered_– so may we,
 And ask as well as they,
 Who could this glo -- rious Per -- son be,
 Whom winds and seas o -- bey?

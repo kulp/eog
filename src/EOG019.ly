@@ -138,7 +138,7 @@ wordsB = \lyricmode {
 When He, from His loft -- y throne,
 Stooped to do and die,
 Ev -- ’ry -- thing was ful -- ly done:
-{ \mon } Heark -- en { \moff } to His cry–
+{ \mon } Heark -- en { \moff } to His cry_–
 
 \Refrain
 
@@ -159,7 +159,7 @@ wordsD = \lyricmode {
 
 Till to Je -- sus’ work you cling,
 By a sim -- ple faith,
-“Do -- ing” is a dead -- ly thing–
+“Do -- ing” is a dead -- ly thing_–
 { \mon } “Do -- ing” { \moff } ends in death.
 
 }

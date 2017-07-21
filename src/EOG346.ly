@@ -92,7 +92,7 @@ His love to those who were in need. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-He went a -- bout– He was so kind–
+He went a -- bout_– He was so kind_–
 To cure poor peo -- ple who were blind;
 And man -- y who were sick and lame,
 He pit -- ied them and did the same.

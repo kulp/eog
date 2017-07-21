@@ -110,7 +110,7 @@ Ev -- ’ry tho’t that makes us rove.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus on -- ly– sweet -- est plea,
+Je -- sus on -- ly_– sweet -- est plea,
 When the soul its state can see;
 When its mis -- ’ry it can feel,
 Je -- sus on -- ly then can heal.

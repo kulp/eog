@@ -92,11 +92,11 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-How blest a home– the Fa -- ther’s house, \bar "."
+How blest a home_– the Fa -- ther’s house, \bar "."
 There love di -- vine doth rest; \bar "."
 What else could sat -- is -- fy the hearts \bar "."
 Of those in Je -- sus blest? \bar "."
-His home made ours– His Fa -- ther’s love \bar "."
+His home made ours_– His Fa -- ther’s love \bar "."
 Our heart’s full por -- tion giv’n, \bar "."
 The por -- tion of the first -- born Son, \bar "."
 The full de -- light of heaven. \bar "."
@@ -107,10 +107,10 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Oh, what a home! The Son who knows,
-He on -- ly– all His love;
+He on -- ly_– all His love;
 And brings us as His well -- be -- loved
 To that bright rest a -- bove,
-Dwells in His bos -- om– know -- eth all
+Dwells in His bos -- om_– know -- eth all
 That in that bos -- om lies,
 And came to earth to make it known,
 That we might share His joys.
@@ -125,7 +125,7 @@ Flows thro’ its courts of light;
 The Son’s di -- vine af -- fec -- tions flow
 Through -- out its depth and height.
 And full re -- sponse the Fa -- ther gives,
-To fill with joy the heart–
+To fill with joy the heart_–
 No cloud is there to dim the scene
 Or shad -- ow to im -- part.
 
@@ -140,7 +140,7 @@ To fill that home, to be with Him,
 And all His glo -- ry share.
 The Fa -- ther’s house, the Fa -- ther’s heart,
 All that the Son is giv’n
-Made ours– the ob -- jects of His love
+Made ours_– the ob -- jects of His love
 And He, our joy in heaven.
 
 }

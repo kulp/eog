@@ -88,7 +88,7 @@ wordsA = \lyricmode {
 Lamb of God, we bow be -- fore Thee, \bar "."
 Cal -- vary’s tale cre -- a -- tion awed; \bar "."
 Well may Thy re -- deemed a -- dore Thee, \bar "."
-While we sound this note a -- broad– \bar "."
+While we sound this note a -- broad_– \bar "."
 Cal -- vary’s Vic -- tim, Cal -- vary’s Vic -- tim \bar "."
 Vin -- di -- cates the throne of God. \bar "."
 
@@ -100,7 +100,7 @@ wordsB = \lyricmode {
 Rock of A -- ges, rent a -- sun -- der,
 Riv -- en neath the wrath of God;
 Safe with -- in those clefts we won -- der,
-While we sound this note a -- broad–
+While we sound this note a -- broad_–
 Cal -- vary’s Vic -- tim, Cal -- vary’s Vic -- tim
 Re -- con -- ciles our souls to God.
 
@@ -112,7 +112,7 @@ wordsC = \lyricmode {
 Sav -- iour God, the al -- tar’s crav -- ing
 Thou hast sat -- is -- fied with blood;
 Now in heaven, fresh in -- cense wav -- ing,
-Sweet -- ly sounds this note a -- broad–
+Sweet -- ly sounds this note a -- broad_–
 Cal -- vary’s Vic -- tim, Cal -- vary’s Vic -- tim
 Fills with joy the heart of God.
 
@@ -124,7 +124,7 @@ wordsD = \lyricmode {
 Man of sor -- rows, God of glo -- ry,
 Won -- drous path Thy foot hath trod;
 Cross and crown re -- hearse the sto -- ry,
-Joy -- ous sound this note a -- broad–
+Joy -- ous sound this note a -- broad_–
 Cal -- vary’s Vic -- tim, Cal -- vary’s Vic -- tim
 Now a -- dorns the throne of God.
 

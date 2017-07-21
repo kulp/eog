@@ -110,7 +110,7 @@ Refrain = \lyricmode {
 Liv -- ing, He loved me; dy -- ing, He saved me; \bar "."
 Bur -- ied, He car -- ried my sins far a -- way; \bar "."
 Ris -- ing, He just -- i -- fied free -- ly for -- ev -- er: \bar "."
-One day He’s com -- ing– oh glo -- ri -- ous day! \bar "."
+One day He’s com -- ing_– oh glo -- ri -- ous day! \bar "."
 
 }
 

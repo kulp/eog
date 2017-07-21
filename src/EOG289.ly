@@ -92,7 +92,7 @@ Refrain = \lyricmode {
 
 ’Tis the Lord! Oh, won -- drous sto -- ry! \bar "."
 ’Tis the Lord, the King of glo -- ry! \bar "."
-At His feet we hum -- bly fall– \bar "."
+At His feet we hum -- bly fall_– \bar "."
 Crown Him, crown Him Lord of all! \bar "."
 
 }

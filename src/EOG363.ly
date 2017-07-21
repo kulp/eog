@@ -116,7 +116,7 @@ Boys and girls, and men, and wo -- men,
 Laughed and scoffed at what they heard;
 Chose to fol -- low sin -- ful pleas -- ures,
 Thought -- less of the warn -- ing word.
-But at last– the ark com -- plet -- ed–
+But at last_– the ark com -- plet -- ed_–
 Time had come for rain to fall;
 Birds and beasts by twos and sev -- ens,
 Gath -- ered in, with food for all.
@@ -127,12 +127,12 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Creep -- ing things were not for -- got -- ten.
-Two of each were shel -- tered there–
+Two of each were shel -- tered there_–
 For while fool -- ish men are scoff -- ing,
 Lit -- tle things will show God’s care!
 No -- ah too, and all his house -- hold,
 Safe -- ly o’er the thresh -- old passed; % original has "treshold"
-Then God shut the door up -- on them–
+Then God shut the door up -- on them_–
 Judg -- ment’s day had come at last.
 
 }

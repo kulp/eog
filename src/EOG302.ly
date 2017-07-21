@@ -139,8 +139,8 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The Bi -- ble tells us Je -- sus came \bar "."
-From glo -- ry bright and fair– \bar "." \eogpagebreak
-God’s per -- fect, sin -- less, spot -- less Lamb– \bar "."
+From glo -- ry bright and fair_– \bar "." \eogpagebreak
+God’s per -- fect, sin -- less, spot -- less Lamb_– \bar "."
 His mer -- cy to de -- clare, \bar "." \eogbreak
 His mer -- cy to de -- clare. \bar "."
 

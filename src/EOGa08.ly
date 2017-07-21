@@ -153,7 +153,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Let one in his in -- { \mon } no -- cence { \moff } glo -- ry,
-An -- oth -- { \mon } er in works he { \moff } has done–
+An -- oth -- { \mon } er in works he { \moff } has done_–
 Thy blood is my claim and ti -- tle,
 Be -- sides { \mon } it, O { \moff } Lord I’ve none.
 The Scorned, the De -- spised, { \mon } the Re -- ject -- ed, { \moff }

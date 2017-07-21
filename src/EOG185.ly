@@ -98,7 +98,7 @@ All His toil on earth com -- plet -- ed, \bar "."
 All His work for sin -- ners done. \bar "."
 In the glo -- ry, in the glo -- ry \bar "."
 %{HIDE>%} In the glo -- ry \bar "." %{<HIDE%}
-See Him– God’s e -- ter -- nal Son! \bar "."
+See Him_– God’s e -- ter -- nal Son! \bar "."
 
 }
 

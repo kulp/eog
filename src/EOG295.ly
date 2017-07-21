@@ -99,7 +99,7 @@ Take it now and hap -- py be.” \bar "."
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Hark! the voice of Je -- sus call -- ing– \bar "."
+Hark! the voice of Je -- sus call -- ing_– \bar "."
 “Come, ye chil -- dren, come to Me; \bar "." \eogbreak
 I have rest and peace to of -- fer, \bar "."
 Rest, dear chil -- dren, now for thee.” \bar "." \eogbreak
@@ -111,7 +111,7 @@ wordsB = \lyricmode {
 
 Yes; tho’ high in heaven -- ly glo -- ry,
 Still the Sav -- iour calls to thee:
-Faith can hear His gra -- cious ac -- cents–
+Faith can hear His gra -- cious ac -- cents_–
 “Come, dear chil -- dren, come to Me.”
 
 \Refrain
@@ -123,7 +123,7 @@ wordsC = \lyricmode {
 
 Soon that voice will cease its call -- ing,
 Now it speaks, and speaks to thee:
-Chil -- dren, heed the gra -- cious mes -- sage–
+Chil -- dren, heed the gra -- cious mes -- sage_–
 To the blood for ref -- uge flee:
 
 }
@@ -132,7 +132,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Life is found a -- lone in Je -- sus,
-On -- ly there ’tis of -- fered thee–
+On -- ly there ’tis of -- fered thee_–
 Of -- fered with -- out price or mon -- ey,
 ’Tis the gift of God sent free.
 

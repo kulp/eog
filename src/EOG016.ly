@@ -129,7 +129,7 @@ wordsA = \lyricmode {
 
 God in mer -- cy sent His Son \bar "."
 To a world by sin un -- done; \bar "." \eogbreak
-Je -- sus Christ was cru -- ci -- fied– \bar "."
+Je -- sus Christ was cru -- ci -- fied_– \bar "."
 ’Twas for sin -- ners Je -- sus died. \bar "." \eogbreak
 
 }

@@ -135,7 +135,7 @@ Come, ye wear -- y, heav -- y -- la -- den,
 Lost and ru -- ined by the fall;
 If you tar -- ry till you’re bet -- ter,
 You will nev -- er come at all.
-Not the right -- eous, %{HIDE>%} not the right -- eous, %{<HIDE%} not the right -- eous–
+Not the right -- eous, %{HIDE>%} not the right -- eous, %{<HIDE%} not the right -- eous_–
 Sin -- ners Je -- sus came to call.
 
 }

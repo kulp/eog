@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 His Son, His de -- light, His loved One, He gave,
-The curse to en -- dure– by suf -- f’ring to save;
+The curse to en -- dure_– by suf -- f’ring to save;
 Sure love so a -- maz -- ing, un -- meas -- ured, un -- told,
 Since Him it hath giv -- en, no good will with -- hold.
 

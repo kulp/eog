@@ -110,7 +110,7 @@ wordsB = \lyricmode {
 
 Thou Coun -- te -- nance tran -- scend -- ent!
 Thou life -- cre -- at -- ing Sun!
-To worlds on Thee de -- pend -- ent–
+To worlds on Thee de -- pend -- ent_–
 Yet bruised and spit up -- on:
 O Lord, what Thee tor -- ment -- ed
 Was our sins’ heav -- y load,

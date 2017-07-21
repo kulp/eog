@@ -92,7 +92,7 @@ wordsB = \lyricmode {
 
 Sav -- iour and Lord! We own
 The rich -- es of Thy grace;
-For we can call Thy God, our God–
+For we can call Thy God, our God_–
 Can bow be -- fore His face.
 
 }

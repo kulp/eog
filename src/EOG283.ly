@@ -84,7 +84,7 @@ wordsA = \lyricmode {
 
 What cheer -- ing words are these! \bar "."
 Their sweet -- ness who can tell? \bar "."
-In time and to e -- ter -- nal days– \bar "."
+In time and to e -- ter -- nal days_– \bar "."
 \italicsOn “’Tis with be -- liev -- ers well!” \italicsOff \bar "."
 
 }

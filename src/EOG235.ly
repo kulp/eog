@@ -105,7 +105,7 @@ notesBass = {
 }
 
 RefrainA = \lyricmode {
-\set stanza = "1–4."
+\set stanza = "1_–4."
 
 Who is the King of glo -- ry? \bar "."
 Who is the King of glo -- ry? \bar "."
@@ -129,7 +129,7 @@ wordsA = \lyricmode {
 
 Lift up your heads, e -- ter -- nal gates, \bar "."
 A glow -- ing dawn shines o’er ye! \bar "."
-At Sa -- lem’s door the Sov -- ’reign waits– \bar "."
+At Sa -- lem’s door the Sov -- ’reign waits_– \bar "."
 He is the King of glo -- ry! \bar "."
 
 }

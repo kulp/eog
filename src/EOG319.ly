@@ -108,7 +108,7 @@ I will tell of One who loves you, \bar "."
 Be your an -- swer what it may. \bar "."
 Lis -- ten soft -- ly, lis -- ten hum -- bly; \bar "."
 Sweet the sto -- ry is, and true; \bar "."
-For my sto -- ry is of Je -- sus– \bar "."
+For my sto -- ry is of Je -- sus_– \bar "."
 Je -- sus, who once died for you. \bar "."
 
 }

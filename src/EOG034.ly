@@ -113,7 +113,7 @@ wordsA = \lyricmode {
 Sal -- va -- tion thro’ Christ Je -- sus! \bar "."
 En -- dear -- ing, pre -- cious sound! \bar "." \eogbreak
 Shout, shout the word “sal -- va -- tion” \bar "."
-To earth’s re -- mot -- est bound– \bar "." \eogbreak
+To earth’s re -- mot -- est bound_– \bar "." \eogbreak
 Sal -- va -- tion for the guilt -- y, \bar "."
 Sal -- va -- tion for the lost; \bar "." \eogbreak
 Sal -- va -- tion for the wretch -- ed, \bar "."
@@ -140,7 +140,7 @@ wordsC = \lyricmode {
 
 Sal -- va -- tion with -- out mon -- ey,
 Sal -- va -- tion with -- out price,
-Sal -- va -- tion with -- out la -- bor–
+Sal -- va -- tion with -- out la -- bor_–
 Be -- liev -- ing doth suf -- fice;
 Sal -- va -- tion now, this mo -- ment;
 Then why, oh, why de -- lay?

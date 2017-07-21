@@ -112,7 +112,7 @@ Come a -- way, come a -- way. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Oh, sad, if thou shouldst be too late–
+Oh, sad, if thou shouldst be too late_–
 Don’t de -- lay, don’t de -- lay;
 A -- rise, and en -- ter mer -- cy’s gate,
 While ’tis day, while ’tis day;

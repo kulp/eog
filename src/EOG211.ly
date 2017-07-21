@@ -165,7 +165,7 @@ wordsD = \lyricmode {
 
 Chris -- tian, walk \italicsOn hope -- ful -- ly; \italicsOff sor -- row and pain
 Cease when the ha -- ven of rest thou shalt gain;
-Then from the lips of the Judge thy re -- ward–
+Then from the lips of the Judge thy re -- ward_–
 “En -- ter thou in -- to the joy of thy Lord.”
 
 \RefrainD

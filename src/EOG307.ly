@@ -125,7 +125,7 @@ wordsC = \lyricmode {
 But now this “liv -- ing way”
 To all is o -- pen free;
 And ru -- ined sin -- ners may
-Go in and hap -- py be–
+Go in and hap -- py be_–
 May have their sins thro’ Christ for -- giv’n,
 %{HIDE>%} The on -- ly way to en -- ter heaven, %{<HIDE%}
 The on -- ly way to en -- ter heaven.

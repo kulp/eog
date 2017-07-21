@@ -119,7 +119,7 @@ The ris -- en Lord to meet;
 Or changed, our -- selves sur -- pris -- ing,
 Like Him for whom we wait.
 What joy su -- preme in see -- ing
-The Sav -- iour face to face–
+The Sav -- iour face to face_–
 The peace -- ful joy of be -- ing
 For -- ev -- er in that place!
 

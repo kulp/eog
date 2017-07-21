@@ -126,9 +126,9 @@ What fills my heart with glad -- ness?
 ’Tis Thine a -- bound -- ing grace;
 Where can I look in sad -- ness,
 But, Sav -- iour, on Thy face?
-My all is Thy pro -- vid -- ing–
+My all is Thy pro -- vid -- ing_–
 Thy love can ne’er grow cold;
-In Thee, my ref -- uge, hid -- ing–
+In Thee, my ref -- uge, hid -- ing_–
 No good wilt Thou with -- hold.
 
 }

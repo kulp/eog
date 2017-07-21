@@ -106,7 +106,7 @@ That drives a -- way sad -- ness \bar "."
 And bids care de -- part; \bar ".|:-||"
 No dread of the mor -- row, \bar "."
 No sor -- row I see, \bar "."
-For Je -- sus is com -- ing– \bar "."
+For Je -- sus is com -- ing_– \bar "."
 He’s com -- ing for me. %{HIDE>%} He’s com -- ing for me. %{<HIDE%} \bar "."
 
 }

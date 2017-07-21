@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 
 I heard the voice of Je -- sus say,
 “Be -- hold, I free -- ly give
-The liv -- ing wa -- ter– thirst -- y one,
+The liv -- ing wa -- ter_– thirst -- y one,
 Stoop down, and drink, and live.”
 I came to Je -- sus, and I drank
 Of that life -- giv -- ing stream;

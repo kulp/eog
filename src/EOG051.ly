@@ -88,10 +88,10 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-E -- ter -- ni -- ty! Where? It floats in the air– \bar "."
+E -- ter -- ni -- ty! Where? It floats in the air_– \bar "."
 A -- mid clam -- or or si -- lence, it ev -- er is there. \bar "."
 E -- ter -- ni -- ty! Where? Oh, E -- ter -- ni -- ty! Where? \bar "."
-The ques -- tion so sol -- emn– E -- ter -- ni -- ty! Where? \bar "."
+The ques -- tion so sol -- emn_– E -- ter -- ni -- ty! Where? \bar "."
 
 }
 
@@ -101,7 +101,7 @@ wordsB = \lyricmode {
 E -- ter -- ni -- ty! Where? E -- ter -- ni -- ty! Where?
 With saved ones in glo -- ry, or the lost in de -- spair?
 E -- ter -- ni -- ty! Where? Oh, E -- ter -- ni -- ty! Where?
-With one or the oth -- er– E -- ter -- ni -- ty! Where?
+With one or the oth -- er_– E -- ter -- ni -- ty! Where?
 
 }
 
@@ -109,9 +109,9 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 E -- ter -- ni -- ty! Where? Is aught worth a care?
-Friend, oh, shall we– oh, can we e’en ven -- ture to dare,
+Friend, oh, shall we_– oh, can we e’en ven -- ture to dare,
 In life that is pass -- ing as mist in the air,
-Do aught till we set -- tle E -- ter -- ni -- ty– where?
+Do aught till we set -- tle E -- ter -- ni -- ty_– where?
 
 }
 
@@ -121,7 +121,7 @@ wordsD = \lyricmode {
 E -- ter -- ni -- ty! Where? Oh, friend, have a care!
 For soon God will no lon -- ger His judg -- ment for -- bear.
 E -- ter -- ni -- ty! Where? Oh, E -- ter -- ni -- ty! Where?
-This night may de -- cide your E -- ter -- ni -- ty– where?
+This night may de -- cide your E -- ter -- ni -- ty_– where?
 
 }
 
@@ -131,7 +131,7 @@ wordsE = \lyricmode {
 E -- ter -- ni -- ty! Where? E -- ter -- ni -- ty! Where?
 Soon the Sav -- iour will come for His own in the air;
 Then sleep not, nor take in the world an -- y share
-Till an -- swered this ques -- tion– E -- ter -- ni -- ty! Where?
+Till an -- swered this ques -- tion_– E -- ter -- ni -- ty! Where?
 
 }
 

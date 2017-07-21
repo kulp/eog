@@ -87,9 +87,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-And is it so– I shall be like Thy Son? \bar "."
+And is it so_– I shall be like Thy Son? \bar "."
 Is this the grace which He for me has won? \bar "."
-Fa -- ther of glo -- ry (tho’t be -- yond all tho’t!)– \bar "."
+Fa -- ther of glo -- ry (tho’t be -- yond all tho’t!)_– \bar "."
 In glo -- ry, to His own blest like -- ness bro’t! \bar "."
 
 }

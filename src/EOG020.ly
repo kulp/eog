@@ -157,9 +157,9 @@ But if you still His call re -- fuse,
 And all His won -- drous love a -- buse,
 Soon will He sad -- ly from you turn,
 Your bit -- ter prayer for par -- don spurn.
-“Too late, too late” will be the cry–
+“Too late, too late” will be the cry_–
 “Je -- sus of Naz -- a -- reth has passed by.”
-“Too late, too late” will be the cry–
+“Too late, too late” will be the cry_–
 “Je -- sus of Naz -- a -- reth has passed by.”
 
 }

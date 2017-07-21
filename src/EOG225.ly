@@ -122,8 +122,8 @@ I left it all with Je -- sus long a -- go; \bar "."
 All my sins I brought Him, and my woe. \bar "."
 When by faith I saw Him on the tree, \bar "."
 Heard His small, still whis -- per, “’Tis for thee,” \bar "."
-From my heart the bur -- den rolled a -- way– hap -- py day! \bar "."
-From my heart the bur -- den rolled a -- way– hap -- py day! \bar "."
+From my heart the bur -- den rolled a -- way_– hap -- py day! \bar "."
+From my heart the bur -- den rolled a -- way_– hap -- py day! \bar "."
 
 }
 
@@ -158,8 +158,8 @@ Oh, leave it \italicsOn all \italicsOff with Je -- sus, droop -- ing soul!
 Tell not \italicsOn half \italicsOff thy sto -- ry, but the whole;
 Worlds on worlds are hang -- ing on His hand,
 Life and death are wait -- ing His com -- mand;
-Yet His ten -- der bos -- om makes \italicsOn thee \italicsOff room– oh, come home!
-Yet His ten -- der bos -- om makes \italicsOn thee \italicsOff room– oh, come home!
+Yet His ten -- der bos -- om makes \italicsOn thee \italicsOff room_– oh, come home!
+Yet His ten -- der bos -- om makes \italicsOn thee \italicsOff room_– oh, come home!
 
 }
 

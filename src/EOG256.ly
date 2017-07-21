@@ -107,9 +107,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 And I shall see Him face to face, \bar "."
-And tell the sto -- ry– saved by grace; \bar "."
+And tell the sto -- ry_– saved by grace; \bar "."
 And I shall see Him face to face, \bar "."
-And tell the sto -- ry– saved by grace. \bar "."
+And tell the sto -- ry_– saved by grace. \bar "."
 
 }
 

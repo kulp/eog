@@ -102,8 +102,8 @@ Je -- sus died, and died for thee. \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Say not, ’tis to oth -- er sin -- ners–
-Those more wor -- thy of His call–
+Say not, ’tis to oth -- er sin -- ners_–
+Those more wor -- thy of His call_–
 But re -- ceive the truth with glad -- ness,
 Je -- sus died, and died for all.
 

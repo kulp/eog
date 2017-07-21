@@ -126,7 +126,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Come to the Sav -- iour now!
-Gaze on that cleans -- ing tide–
+Gaze on that cleans -- ing tide_–
 Wa -- ter and blood that flow
 Forth from His wound -- ed side.
 Hark to the suf -- f’ring One:

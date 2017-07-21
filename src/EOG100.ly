@@ -119,7 +119,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 ‘Tis not of works: let no man boast,
-Save in His name who saves the lost–
+Save in His name who saves the lost_–
 The Lord our Right -- eous -- ness!
 Poor sin -- ner, now from work -- ing cease,
 And claim from God a blood -- bought peace,
