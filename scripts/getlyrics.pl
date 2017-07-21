@@ -97,6 +97,7 @@ sub _check
 {
     my $word = shift;
     $word =~ s/\s+/ /g; # collapse whitespace
+    my $trailing = $word =~ s/_$//; # permit forced space at end (preceding a dash in original)
     if ($transforms->{$word}) {
         return $transforms->{$word};
     } elsif ($word =~ /$compound_wordpat/o or $word =~ /_/) {
@@ -111,7 +112,7 @@ sub _check
         }
     }
 
-    return $word;
+    return $word . (" " x int $trailing);
 }
 
 my %outs = pairmap {
