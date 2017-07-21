@@ -140,9 +140,9 @@ wordsE = \markuplist {
 
       \column {
         \line{ \bold 1 \column { \wordsA } }
-        \vspace #1
+        \vspace #0.75
         \line{ \bold 2 \column { \wordsB } }
-        \vspace #1
+        \vspace #0.75
         \line{ \bold 3 \column { \wordsC } }
       }
 
@@ -151,9 +151,9 @@ wordsE = \markuplist {
       \center-column {
         \line \smaller { "(Sing to number 254 – opposite page)" }
         \column {
-          \vspace #1
+          \vspace #0.75
           \line{ \bold 4 \column { \wordsD } }
-          \vspace #1
+          \vspace #0.75
           \line{ \bold 5 \column { \wordsE } }
         }
       }

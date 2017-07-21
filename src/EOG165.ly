@@ -3,10 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   system-count = #(cond (is-eogsized 2) (#t #f))
-  score-markup-spacing.padding = 3
-  score-markup-spacing.basic-distance = 3
   system-system-spacing.padding = 11
-  system-system-spacing.basic-distance = 11
 }
 
 \header{
@@ -157,17 +154,14 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
-} }
+\markup { \fill-line { \column {
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+} } }
 
 \noPageBreak
 
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 198. } } }
+\markup { \vspace #4 \fill-line { \raise #2 \line { Alternate tune: No. 198. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

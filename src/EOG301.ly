@@ -160,7 +160,7 @@ For -- ev -- er in that hap -- py place.
   }
 }
 
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 48. } } }
+\noPageBreak \markup { \vspace #1 \fill-line { \raise #3 \line { Alternate tune: No. 48. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
