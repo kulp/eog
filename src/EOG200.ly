@@ -107,7 +107,7 @@ And bids care de -- part; \bar ".|:-||"
 No dread of the mor -- row, \bar "."
 No sor -- row I see, \bar "."
 For Je -- sus is com -- ing– \bar "."
-He’s com -- ing for me. \bar "." %{HIDE>%} He’s com -- ing for me. %{<HIDE%}
+He’s com -- ing for me. %{HIDE>%} He’s com -- ing for me. %{<HIDE%} \bar "."
 
 }
 

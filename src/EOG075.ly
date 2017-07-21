@@ -150,9 +150,9 @@ wordsA = \lyricmode {
 I gave My life for thee, \bar "."
 My pre -- cious blood I shed, \bar "."
 That thou might’st ran -- somed be \bar "."
-And quick -- ened from the dead; \bar "."
+And quick -- ened from the dead; %\bar "."
 I gave My life for thee, \bar "."
-What hast thou given for Me? \bar "."
+What hast thou given for Me? %\bar "."
 
 }
 
