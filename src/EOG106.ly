@@ -7,7 +7,7 @@
   %gospel
   hymnnumber = "106"
   title = "O Christ, in Thee My Soul Hath Found"
-  tunename = "None but Christ Can Satisfy" % from Metrical Index of Tunes
+  tunename = "None But Christ Can Satisfy" % from Metrical Index of Tunes
   meter = "C. M. with Refrain"
   poet = "B. E. (Arr.)"
   composer = "J. McGranahan"
