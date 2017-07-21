@@ -100,7 +100,7 @@ A life di -- vine be -- low.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus –it speaks a life of love,
+Je -- sus– it speaks a life of love,
 Of sor -- rows meek -- ly borne;
 It tells of sym -- path -- y a -- bove,
 What -- ev -- er makes us mourn.
@@ -111,7 +111,7 @@ wordsD = \markuplist {
 
 \line { Jesus – the One who knew no sin, }
 \line { { \hspace #2 } Made sin to make us just; }
-\line { Thou gav’st Thyself our love to win— }
+\line { Thou gav’st Thyself our love to win — }
 \line { { \hspace #2 } Our full confiding trust. }
 
 }

@@ -181,7 +181,7 @@ wordsF = \markuplist {
 
 \line { “Behold, with what labor I won thee, }
 \line { { \hspace #2 } Behold in My hands and My feet, }
-\line { The tale of My measureless sorrow— }
+\line { The tale of My measureless sorrow — }
 \line { { \hspace #2 } Of love that made sorrow so sweet. }
 
 \line { A flax-thread in oceans of fire }

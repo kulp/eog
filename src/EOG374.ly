@@ -156,7 +156,7 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { The Spirit and the bride say, “Come”; }
-\line { { \hspace #2 } O sinner, ’tis for thee– }
+\line { { \hspace #2 } O sinner, ’tis for thee – }
 \line { The Saviour’s love, a home above }
 \line { { \hspace #2 } For all eternity. }
 

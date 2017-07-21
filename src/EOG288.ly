@@ -118,8 +118,8 @@ What a por -- tion there is thine.
 
 wordsE = \markuplist {
 
-\line { In that circle of God’s favor– }
-\line { { \hspace #2 } Circle of the Father’s love– }
+\line { In that circle of God’s favor – }
+\line { { \hspace #2 } Circle of the Father’s love – }
 \line { All is rest, and rest forever, }
 \line { { \hspace #2 } All is perfectness above. }
 

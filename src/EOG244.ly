@@ -144,7 +144,7 @@ wordsE = \markuplist {
 
 \line { In heaven He stands before the throne, }
 \line { { \hspace #2 } The great High Priest above, }
-\line { “Melchisedec”– that One alone }
+\line { “Melchisedec” – that One alone }
 \line { { \hspace #2 } Can sin’s dark stain remove; }
 \line { To Him I look on bended knee, }
 \line { And hear that sweet “Absolvo te.” }
