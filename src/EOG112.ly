@@ -123,7 +123,8 @@ wordsA = \lyricmode {
 Naught have I got -- ten but what I re -- ceived, \bar "."
 Grace hath be -- stowed it since I have be -- lieved; \bar "."
 Boast -- ing ex -- clud -- ed, pride I a -- base; \bar "."
-I’m on -- ly a sin -- ner saved by grace! \bar "."
+% explicit break is desired in eogsized and letter
+I’m on -- ly a sin -- ner \break \bar "." %LYRICS saved by grace!
 
 }
 
@@ -145,7 +146,7 @@ wordsC = \lyricmode {
 Tears un -- a -- vail -- ing, no mer -- it had I;
 Mer -- cy had saved me, or else I must die;
 Sin had a -- larmed me fear -- ing God’s face,
-But now I’m a sin -- ner saved by grace!
+But now I’m a sin -- ner %LYRICS saved by grace!
 
 }
 
@@ -155,7 +156,7 @@ wordsD = \lyricmode {
 Suf -- fer a sin -- ner whose heart o -- ver -- flows,
 Lov -- ing his Sav -- iour to tell what he knows;
 Once more to tell it would I em -- brace–
-I’m on -- ly a sin -- ner saved by grace!
+I’m on -- ly a sin -- ner %LYRICS saved by grace!
 
 }
 
