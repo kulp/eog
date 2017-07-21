@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "179"
-  title = "Nothing but Christ, as on We Tread"
+  title = "Nothing But Christ, as on We Tread"
   tunename = "Arizona"
   meter = "L. M."
   poet = "S. O’M. Cluff"
