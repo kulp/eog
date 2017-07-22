@@ -4,7 +4,6 @@
   ragged-last-bottom = ##t
   systems-per-page = #(cond (is-eogsized 4) (#t #f))
   system-count = #(cond (is-eogsized 6) (#t #f))
-  page-count = #(cond (is-eogsized 2) (#t #f))
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 155 and 308." } }
 }
 
