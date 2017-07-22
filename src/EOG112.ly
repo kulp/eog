@@ -181,7 +181,6 @@ I’m on -- ly a sin -- ner %LYRICS saved by grace!
     >>
   >>
   \layout {
-    \context { \Voice \remove "Forbid_line_break_engraver" }
     \include "common/layout.ily"
   }
   \midi{
