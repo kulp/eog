@@ -7,6 +7,7 @@
   %gospel
   hymnnumber = "54"
   title = "We Know There’s a Bright and a Glorious Home"
+  markuptitle = \markup \center-column { "We Know There’s a Bright and" "a Glorious Home" \vspace #0.5 }
   tunename = ""
   meter = "10. 7. 10. 7."
   poet = ""
