@@ -231,6 +231,7 @@ PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/PDF/$(*D) --output=PDF/$* $<
 
 MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ly
+MIDI/%.midi: LYOPTS += --define-default=no-print-pages
 MIDI/%.midi: src/$$(*F).ly
 	@mkdir -p $(@D)
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --output=MIDI/$* $<
