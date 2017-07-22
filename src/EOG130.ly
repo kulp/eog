@@ -169,7 +169,7 @@ Our won -- der, our trans -- port, when Je -- sus we see.
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto altos \wordsA
       \context Lyrics = two   \lyricsto altos \wordsB
@@ -179,7 +179,7 @@ Our won -- der, our trans -- port, when Je -- sus we see.
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {

@@ -175,7 +175,7 @@ Je -- sus, the Lord, we be -- hold and re -- joice!
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -187,7 +187,7 @@ Je -- sus, the Lord, we be -- hold and re -- joice!
       \set ChoirStaff.printPartCombineTexts = ##f
       \context Voice = tenors { \voiceOne << \notesTenorVerse >> }
       \context Voice = basses { \voiceTwo << \notesBassVerse >> }
-      \partcombine #'(2 . 9) \notesTenorChorus \notesBassChorus
+      \partcombine #'(2 . 11) \notesTenorChorus \notesBassChorus
     >>
   >>
   \layout {

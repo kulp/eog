@@ -149,7 +149,7 @@ The life ev -- er -- last -- ing if ye would ob -- tain,
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = altos { \voiceTwo << \notesAlto >> }
       \context Lyrics = one   \lyricsto altos \wordsA
       \context Lyrics = two   \lyricsto altos \wordsB
@@ -159,7 +159,7 @@ The life ev -- er -- last -- ing if ye would ob -- tain,
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {

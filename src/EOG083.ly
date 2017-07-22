@@ -211,7 +211,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \partcombine #'(2 . 9) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
+      \partcombine #'(2 . 11) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
       \context NullVoice = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -222,7 +222,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
+      \partcombine #'(2 . 11) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
     >>
 	\new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
   >>

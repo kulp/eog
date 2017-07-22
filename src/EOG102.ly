@@ -311,7 +311,7 @@ music = \context ChoirStaff <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Voice = altosRests { \voiceTwo << \restsAlto >> }
       \context Voice = altosSecond { \voiceFour << \notesAltoSecond >> }
@@ -325,7 +325,7 @@ music = \context ChoirStaff <<
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 9) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context Voice = tenorsSecond { \voiceOne << \notesTenorSecond >> }
       \context Voice = bassesSecond { \voiceTwo << \notesBassSecond >> }
