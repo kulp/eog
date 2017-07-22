@@ -44,6 +44,7 @@ endif
 
 ifneq ($(DEBUG),1)
 LYOPTS += --define-default=no-point-and-click --define-default=delete-intermediate-files
+LYOPTS += --define-default=warning-as-error
 endif
 
 # Inhibit inappropriate default suffix rules to simplify debugging
