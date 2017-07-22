@@ -9,6 +9,7 @@
   title = "Come to the Blood-Stained Tree"
   tunename = "Maker"
   meter = "" % sung with P. M.
+  poet = ""
   composer = ""
   tagline = ##f
 }

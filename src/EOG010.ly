@@ -13,7 +13,7 @@
   title = "Faith Is a Very Simple Thing"
   tunename = "Remember Me"
   meter = "C. M."
-  %poet = ""
+  poet = ""
   composer = "Asa Hull"
   tagline = ##f
 }

@@ -10,6 +10,7 @@
   title = "Oh What a Gift the Father Gave"
   tunename = ""
   meter = "" % sung with C. M. D.
+  poet = ""
   composer = ""
   tagline = ##f
 }

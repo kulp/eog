@@ -10,6 +10,7 @@
   tunename = "Joyfully"
   meter = "10. 10. 10. 10. Dactylic"
   poet = "A. Midlane"
+  composer = ""
   tagline = ##f
 }
 
