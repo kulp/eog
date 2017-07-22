@@ -4,27 +4,7 @@
   ragged-last-bottom = ##t
   system-system-spacing.padding = 2
   system-system-spacing.basic-distance = 2
-  scoreTitleMarkup = \markup {
-    \override #'(baseline-skip . 3.5)
-    \column {
-      \override #'(baseline-skip . 3.5)
-      \column {
-        \fill-line {
-          \huge \larger \larger \bold {
-            \concat { "  " \fromproperty #'header:hymnnumber }
-            \mytitle
-            \null
-          }
-        }
-        \fill-line {
-          % no lowering (to save vertical space)
-          \fromproperty #'header:poet
-          \smaller \bold \mysubtitle
-          \fromproperty #'header:composer
-        }
-      }
-    }
-  }
+  scoreTitleMarkup = \scoreTitleMarkupShrunk
 }
 
 \header{

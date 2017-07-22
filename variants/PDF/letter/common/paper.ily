@@ -61,6 +61,9 @@ scoreTitleMarkup = \markup {
   }
 }
 
+% no effect of scoreTitleMarkupShrunk in this variant
+scoreTitleMarkupShrunk = \scoreTitleMarkup
+
 bookTitleMarkup = \markup { }
 oddHeaderMarkup = \markup
 \fill-line {
