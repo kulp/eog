@@ -1,3 +1,9 @@
+% expect two warnings about pages out of bounds
+#(ly:expect-warning "number of pages is out of bounds")
+#(ly:expect-warning "number of pages is out of bounds")
+% be specific about how much compression we allow
+#(ly:expect-warning "compressing over-full page by 1.3 staff-spaces")
+#(ly:expect-warning "page 1 has been compressed")
 \include "common/global.ily"
 \paper {
   \include "common/paper-additional.ily"

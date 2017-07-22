@@ -1,3 +1,6 @@
+% expect two warnings about pages out of bounds
+#(ly:expect-warning "number of pages is out of bounds")
+#(ly:expect-warning "number of pages is out of bounds")
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"

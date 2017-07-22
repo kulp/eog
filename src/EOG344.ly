@@ -1,3 +1,4 @@
+#(ly:expect-warning "LyricText has empty extent and non-empty stencil.")
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
