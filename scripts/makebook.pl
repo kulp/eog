@@ -11,7 +11,7 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 # TODO first page ("title page" ?) gets undesired extra whitespace at top
 
 my $prev_height =  0; # points
-my $prev_clip   = ""; # stringified boolean
+my $prev_clip   = undef; # stringified boolean
 my $prev_name   = "";
 my $scale       = 1.062; # TODO compute this
 my $fudge       = 1; # XXX unexplained fudge factor (rounding error ?)
@@ -36,7 +36,7 @@ for my $pdf (@ARGV) {
         $crop_amount_left = $crop_amount_right = 8;
 
         if ($clip eq "true" and $prev_clip eq $clip) {
-            print q(\vfill), "\n";
+            print "\\\\\\vfill\n";
             my $points = ceil($height * $scale + 1) + ceil($prev_height * $scale + 1) - $max_height;
             if ($points > 0) {
                 die "Can't fit $pdf onto page with preceding file -- over by $points pts";
@@ -45,6 +45,7 @@ for my $pdf (@ARGV) {
             $prev_height = 0;
             $prev_clip = "false"; # lie about previous clipping
         } else {
+            print "\\vfil\\pagebreak\n" if defined $prev_clip;
             $prev_clip = $clip;
             $prev_height = $height;
         }
@@ -52,7 +53,7 @@ for my $pdf (@ARGV) {
         my $hyper = $page > 1 ? "" : "\\hypertarget{$name}";
         print qq(\\vfill\\Large{\\textsc{Additional Tunes}}\\vfill\n)
             if $name =~ /EOGa/ and $prev_name !~ /EOGa/;
-        printf q(%-20s{\\includegraphics[scale=%4.3f,clip=%5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s}} \\\\)."\n",
+        printf q(%-20s{\\includegraphics[scale=%4.3f,clip=%5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s}}),
                $hyper, $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
         $prev_name = $name;
     }
