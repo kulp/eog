@@ -44,6 +44,8 @@ notesSoprano = {
 
   \bar "|."
 
+  \eogpagebreak
+
 }
 }
 
@@ -189,8 +191,6 @@ wordsE = \markuplist {
     \include "common/midi.ily"
   }
 }
-
-\eogpagebreak
 
 \markup { \fill-line { \column {
   \vspace #1

@@ -53,6 +53,8 @@ notesSoprano = {
 
   \bar "|."
 
+  \eogpagebreak
+
 }
 }
 
@@ -223,8 +225,6 @@ wordsF = \markuplist {
     \include "common/midi.ily"
   }
 }
-
-\eogpagebreak
 
 \markup {
 \vspace #2 % need space between title (evenHeaderMarkup) and verses
