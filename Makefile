@@ -44,7 +44,10 @@ endif
 
 ifneq ($(DEBUG),1)
 LYOPTS += --define-default=no-point-and-click --define-default=delete-intermediate-files
-LYOPTS += --define-default=warning-as-error
+# Currently we don't upgrade warnings to errors except when making book files,
+# because there are (ly:expect-warning) calls that are specific to eogsized
+# output
+book PDF/eogsized/%: LYOPTS += --define-default=warning-as-error
 endif
 
 # Inhibit inappropriate default suffix rules to simplify debugging
