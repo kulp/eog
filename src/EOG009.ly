@@ -97,7 +97,7 @@ wordsB = \lyricmode {
 
   No vic -- tim of in -- fe -- rior worth
   Could ward the stroke that jus -- tice aimed;
-  For none but He, in heaven or earth,
+  For none but He, in heav’n or earth,
   Could of -- fer that which jus -- tice claimed.
 }
 
