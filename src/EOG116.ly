@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = #(cond (is-eogsized 4) (#t #f))
+  system-count = #(cond (is-eogsized 3) (#t #f))
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 131." } }
 }
 
@@ -41,9 +41,9 @@ notesSoprano = {
 \global
 \relative c' {
 
-  \changePitch \patternAA { f | bes a | bes g | f ees | d } \eogbreak
-  \changePitch \patternAA { d' | c c | c bes | a g | f } \eogbreak
-  \changePitch \patternAA { f | f a | bes d | ees d | c } \eogbreak
+  \changePitch \patternAA { f | bes a | bes g | f ees | d }
+  \changePitch \patternAA { d' | c c | c bes | a g | f }
+  \changePitch \patternAA { f | f a | bes d | ees d | c }
   \changePitch \patternAA { c | f c | d bes | bes a | bes }
 
   \bar "|."
@@ -165,9 +165,11 @@ wordsE = \markuplist {
 \noPageBreak
 
 \markup { \fill-line { \column {
-  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #1
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #1
+  \vspace #3
 } } }
+
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
