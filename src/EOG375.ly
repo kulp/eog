@@ -61,7 +61,7 @@ notesSoprano = {
 }
 }
 
-notesLeftHand = {
+notesRightHand = {
 \global
 \relative c' {
 
@@ -137,12 +137,13 @@ notesBass = {
 }
 }
 
-notesRightHand = {
+notesLeftHand = {
 \global
 \relative f {
 
   \override NoteHead.font-size = #-4
   \repeat unfold 43 { \skip 4 }
+  \once \override NoteColumn.force-hshift = -0.7
   e2 f4 | g4 a c
 
 }
@@ -197,7 +198,7 @@ His { \mon } per -- fect { \moff } sal -- va -- tion to tell!
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice = righthand { \voiceFour << \notesLeftHand >> }
+      \context Voice = righthand { \voiceFour << \notesRightHand >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
@@ -207,7 +208,7 @@ His { \mon } per -- fect { \moff } sal -- va -- tion to tell!
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 9) \notesTenor \notesBass
-      \context Voice = lefthand { \voiceThree << \notesRightHand >> }
+      \context Voice = lefthand { \voiceThree << \notesLeftHand >> }
     >>
   >>
   \layout {
