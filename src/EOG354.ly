@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh! would you know my Sav -- iour, \bar "."
-Ye who are young today, \bar "."
+Ye who are young to -- day, \bar "."
 Yet some -- times feel that earth’s de -- lights \bar "."
 Must fade and pass a -- way? \bar "."
 Then ear -- ly heed the voice of love, \bar "."
