@@ -56,7 +56,7 @@ notesTenor = {
 \relative a {
 
   e2 g4 c | c2 a4( c) | a2 a4 c | c1 |
-  \grace g4 g2 g4 g | g2 g | g1 |
+  \grace \tweak Stem.direction #DOWN g4 g2 g4 g | g2 g | g1 |
   c2 c4 a | a( c) c( g) | g2 g4 g | g1 |
   c2 c4 f | e2 d | c1 |
 
@@ -68,7 +68,7 @@ notesBass = {
 \relative f {
 
   c2 c4 c | f2 f | f2 f4 f | c1 |
-  \grace c4 c2 e4 e | g2 g, | c1 |
+  \grace \tweak Stem.direction #DOWN c4 c2 e4 e | g2 g, | c1 |
   c2 f4 f | f2 c4 ~ c4 | g2 b4 b | c1 |
   c2 f4 f | g2 g | c,1 |
 

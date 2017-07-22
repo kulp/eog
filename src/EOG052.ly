@@ -74,10 +74,10 @@ notesTenor = {
 
   \changePitch \patternAA { d r | d r | d d d | d d }
   \changePitch \patternAB { fis, r | fis r | fis e fis | g r }
-  \changePitch \patternAC { d' r | d d r | d d d | d d }
-  \changePitch \patternBA { d d d d | b a c | b r }
+  \changePitch \patternAC { d' r | d \tweak Stem.direction #DOWN d r | d d d | d d }
+  \changePitch \patternBA { \tweak Stem.direction #DOWN d d d d | b a c | b r }
   \changePitch \patternCA { c r | d r | d r | d r }
-  \changePitch \patternBA { d d d d | a fis c' | b r }
+  \changePitch \patternBA { \tweak Stem.direction #DOWN d d d d | a fis c' | b r }
 
 }
 }
@@ -88,10 +88,10 @@ notesBass = {
 
   \changePitch \patternAA { g r | g r | g fis g | fis d }
   \changePitch \patternAB { d r | d r | d d d | g, r }
-  \changePitch \patternAC { g' r | g g r | g fis g | fis d }
-  \changePitch \patternBA { d d d d | d d d | g, r }
+  \changePitch \patternAC { g' r | g \tweak Stem.direction #DOWN g r | g fis g | fis d }
+  \changePitch \patternBA { \tweak Stem.direction #DOWN d d d d | d d d | g, r }
   \changePitch \patternCA { c r | g' r | fis r | g r }
-  \changePitch \patternBA { g d d d | d d d | g r }
+  \changePitch \patternBA { \tweak Stem.direction #DOWN g d d d | d d d | g r }
 
 }
 }

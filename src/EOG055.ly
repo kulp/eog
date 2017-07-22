@@ -82,9 +82,9 @@ notesTenor = {
   \changePitch \patternAA { a a c c c c | a bes( a) c r }
   \changePitch \patternBA { g c c c c bes | a r }
 
-  \grace c \changePitch \patternAA { c c c c c, ~ c | c' c c c r }
+  \grace \tweak Stem.direction #DOWN c \changePitch \patternAA { c c c c c, ~ c | c' c c c r }
   \changePitch \patternAA { c c c c c, ~ c | c' c bes a r }
-  \grace a \changePitch \patternAA { a a c c c c | a bes bes a r }
+  \grace \tweak Stem.direction #DOWN a \changePitch \patternAA { a a c c c c | a bes bes a r }
   \changePitch \patternBB { a c c c c bes | a r }
 
 }
@@ -99,9 +99,9 @@ notesBass = {
   \changePitch \patternAA { f f c f f g | f f ~ f f r }
   \changePitch \patternBA { c e f c c c | f r }
 
-  \grace c \changePitch \patternAA { c e f c c ~ c | e f bes a r }
+  \grace \tweak Stem.direction #DOWN c \changePitch \patternAA { c e f c c ~ c | e f bes a r }
   \changePitch \patternAA { c, e f c c ~ c | e c c f r }
-  \grace f \changePitch \patternAA { f f c f f g | f bes, c f r }
+  \grace \tweak Stem.direction #DOWN f \changePitch \patternAA { f f c f f g | f bes, c f r }
   \changePitch \patternBB { c e f bes f c | f r }
 
 }
