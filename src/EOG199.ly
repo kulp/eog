@@ -167,7 +167,7 @@ De -- mands our soul, our life, our all.
     \context {
       \Lyrics
       % Compensate for wide lyrics by squashing things a bit
-      \override LyricSpace.minimum-distance = #0.3
+      \override LyricSpace.minimum-distance = #0.25
     }
 
   }
