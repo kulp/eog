@@ -6,7 +6,6 @@ indent        = 0\cm
 ragged-bottom = ##f
 ragged-last-bottom = ##f
 %annotate-spacing = ##t
-page-count = 1
 print-page-number = ##f
 print-first-page-number = ##f
 
