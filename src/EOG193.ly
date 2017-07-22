@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   system-count = #(cond (is-eogsized 5) (#t #f))
+  page-count = #(cond (is-eogsized 1) (#t #f))
 }
 
 \header{
