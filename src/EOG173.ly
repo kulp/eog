@@ -91,36 +91,36 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Long did I toil, and knew no earth -- ly rest; \bar "."
-Far did I rove, and found no cer -- tain home; \bar "."
-At last I sought them in His shelter -- ing breast, \bar "." % original has shel -- ter -- ing
-Who opes His arms, and bids the wear -- y come; \bar "."
-With Him I found a home, a rest di -- vine, \bar "."
-And I since then am His, and He is mine. \bar "."
+Long did I toil, and knew no earth -- ly rest; __ \bar "."
+Far did I rove, and found no cer -- tain home; __ \bar "."
+At last I sought them in His shelter -- ing breast, __ \bar "." % original has shel -- ter -- ing
+Who opes His arms, and bids the wear -- y come; __ \bar "."
+With Him I found a home, a rest di -- vine, __ \bar "."
+And I since then am His, and He is mine. __ \bar "."
 
 }
 
 wordsB = \lyricmode {
 \set stanza = "2."
 
-The good I have is from His stores sup -- plied;
-The ill is on -- ly what He deems the best;
-He for my friend, I’m rich with naught be -- side;
-And poor with -- out Him, though of all pos -- sessed.
-Chang -- es may come; I take, or I re -- sign;
-Con -- tent, while I am His, while He is mine.
+The good I have is from His stores sup -- plied; __
+The ill is on -- ly what He deems the best; __
+He for my friend, I’m rich with naught be -- side; __
+And poor with -- out Him, though of all pos -- sessed. __
+Chang -- es may come; I take, or I re -- sign; __
+Con -- tent, while I am His, while He is mine. __
 
 }
 
 wordsC = \lyricmode {
 \set stanza = "3."
 
-While here, a -- las! I know but half His love,
-But half dis -- cern Him, and but half a -- dore;
-But when I meet Him in the realms a -- bove,
-I then will love Him bet -- ter, praise Him more,
-And feel, and tell, a -- mid the choir di -- vine,
-How ful -- ly I am His, and He is mine.
+While here, a -- las! I know but half His love, __
+But half dis -- cern Him, and but half a -- dore; __
+But when I meet Him in the realms a -- bove, __
+I then will love Him bet -- ter, praise Him more, __
+And feel, and tell, a -- mid the choir di -- vine, __
+How ful -- ly I am His, and He is mine. __
 
 }
 
