@@ -44,6 +44,7 @@ LAMEOPTS += --verbose
 endif
 
 ifneq ($(DEBUG),1)
+.SILENT:
 LYOPTS += --define-default=no-point-and-click --define-default=delete-intermediate-files
 # Currently we don't upgrade warnings to errors except when making book files,
 # because there are (ly:expect-warning) calls that are specific to eogsized
