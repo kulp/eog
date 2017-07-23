@@ -106,7 +106,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
   “I have seen what you were do -- ing,
-  Tho’ you lit -- tle tho’t of Me;
+  Tho’ you lit -- tle thought of Me;
   You were mad -- ly bent on ru -- in,
   But, I said_– it shall not be;
   You had been for -- ev -- er wretch -- ed,

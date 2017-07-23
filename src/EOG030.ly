@@ -138,7 +138,7 @@ wordsB = \lyricmode {
 
 Pass -- ing on -- ward, quick -- ly pass -- ing,
 Naught the wheels of time can stay;
-Sweet the tho’t that some are go -- ing
+Sweet the thought that some are go -- ing
 To the realms of per -- fect day;
 Pass -- ing on -- ward_–
 Christ their lead -- er, Christ their way.

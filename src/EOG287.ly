@@ -79,7 +79,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Oh! the peace for -- ev -- er flow -- ing \bar "."
-From God’s tho’ts of His own Son, \bar "."
+From God’s thoughts of His own Son, \bar "."
 Oh, the peace of sim -- ply know -- ing \bar "."
 On the cross that all was done. \bar "."
 

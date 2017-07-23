@@ -109,7 +109,7 @@ wordsB = \lyricmode {
 
 Oc -- cu -- pied with me, Lord Je -- sus,
 In Thy grace;
-All Thy ways and tho’ts a -- bout me,
+All Thy ways and thoughts a -- bout me,
 On -- ly trace
 Deep -- er sto -- ries
 Of the glo -- ries,

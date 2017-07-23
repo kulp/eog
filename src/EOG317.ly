@@ -102,7 +102,7 @@ wordsC = \lyricmode {
 
 He sees us when we are a -- lone,
 Tho’ no one else can see;
-And all our tho’ts to Him are known, % original has "thot’s"
+And all our thoughts to Him are known, % original has "thot’s"
 What -- ev -- er they may be.
 
 }

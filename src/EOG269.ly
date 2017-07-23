@@ -101,7 +101,7 @@ wordsA = \lyricmode {
 
 This world is a wil -- der -- ness wide! \bar "."
 We have noth -- ing to seek or to choose; \bar "."
-We’ve no tho’t in the waste to a -- bide; \bar "."
+We’ve no thought in the waste to a -- bide; \bar "."
 We have naught to re -- gret, nor to lose. \bar "."
 The Lord is Him -- self gone be -- fore; \bar "."
 He has marked out the path that we tread; \bar "."

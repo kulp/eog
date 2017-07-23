@@ -103,7 +103,7 @@ wordsB = \lyricmode {
 Je -- sus on -- ly can sup -- ply
 Con -- stant pleas -- ure, last -- ing joy;
 Je -- sus on -- ly can re -- move
-Ev -- ’ry tho’t that makes us rove.
+Ev -- ’ry thought that makes us rove.
 
 }
 

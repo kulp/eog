@@ -131,7 +131,7 @@ wordsB = \lyricmode {
 
 Work -- ing will not save me;
 Pur -- est deeds that I can do,
-Ho -- liest tho’ts and feel -- ings too,
+Ho -- liest thoughts and feel -- ings too,
 Can -- not form my soul a -- new;
 Work -- ing will not save me.
 

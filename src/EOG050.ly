@@ -87,7 +87,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Vain is the tho’t of man \bar "."
+Vain is the thought of man \bar "."
 To mer -- it heaven by prayer; \bar "."
 ’Tis on -- ly Je -- sus’ pre -- cious blood \bar "."
 Can give ad -- mis -- sion there. \bar "."
