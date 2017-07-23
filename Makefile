@@ -77,6 +77,7 @@ preview: $(PDFS)
 
 CLOBBERFILES += $(M3US)
 $(M3US): %.m3u: $(LYS:%.ly=MP3/$$*/%.mp3)
+	@echo "[ M3U ] $@"
 	echo '#EXTM3U' > $@
 	mp3info2 -p "#EXTINF:%s,%a - %{TIT2}\n%{d1}/%{d0}/%f\n\n" $^ 2> /dev/null >> $@
 
@@ -90,6 +91,7 @@ EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 index: vanilla index.html
 CLEANFILES += index.html
 index.html: pdf midi mp3 m3u latin
+	@echo "[ HTML ] $@"
 	scripts/make_index.pl > $@ || (rm $@ ; false)
 
 clean:
@@ -111,16 +113,19 @@ CLOBBERFILES += $(TXTS)
 # order-only dependency therefore reduces needless rebuilds of older songs.
 # The same applies for the lyrics generator script.
 $(TXTS): TXT/default/%.txt: src/%.ly | scripts/getlyrics.pl transforms.map
+	@echo "[ LYRICS ] $@"
 	@mkdir -p $(@D)
 	scripts/getlyrics.pl $< 2>> transforms.map > $@ || (rm $@ ; false)
 
 latin: $(LATINS)
 CLOBBERFILES += $(LATINS)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
+	@echo "[ LATIN ] $@"
 	scripts/latinize.sh $< > $@ || (rm $@ ; false)
 
 # TODO rewrite this rule (it's rather roundabout and messy)
 $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
+	@echo "[ DEPS ] $@"
 	@mkdir -p $(@D)
 	@echo '$*: \\' > $@
 	@sed -n '/\include/s#[[:space:]]*\\include[[:space:]]*##p' $< | tr -d '"' | sed 's#^#variants/$(*D)/#' | tr '\n' ' ' >> $@
@@ -137,6 +142,7 @@ CLOBBERFILES += $(LYS:%.ly=MIDI/vanilla/%.midi)
 # I would like to use long (`--` style) options to fluidsynth, but that
 # requires a version built with GETOPT_SUPPORT
 WAV/%.wav: MIDI/vanilla/$$(*F).midi
+	@echo "[ WAV ] $@"
 	mkdir -p $(@D)
 	fluidsynth -F $@ -T wav -f variants/MP3/$(*D)/fluid.cfg $<
 
@@ -159,11 +165,13 @@ $(LYRICAL_MP3S): LAMEOPTS += --tt "$$(./scripts/latinize.sh PDF/eogsized/$(HEADE
 $(LYRICAL_MP3S): LAMEOPTS += --tv TEXT="$$(./scripts/latinize.sh PDF/eogsized/$(HEADER_BASE).poet)"
 # depend on text files only for files containing lyrics
 $(LYRICAL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav TXT/latinized/$$(basename $$(*F)).txt $$(foreach h,$(HEADERS),PDF/eogsized/$$(*F).$$h)
+	@echo "[ MP3 ] $@"
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 	id3v2 --USLT "$$(< $(filter %.txt,$^))" $@
 
 $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav $$(foreach h,$(ADDL_HEADERS),PDF/eogsized/$$(*F).$$h)
+	@echo "[ MP3 ] $@"
 	mkdir -p $(@D)
 	lame $(LAMEOPTS) $< $@
 
@@ -181,16 +189,20 @@ check: book
 
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
+	@echo "[ METRICS ] $@"
 	convert "$<" -trim info:"$@" || (rm $@ ; false)
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
+	@echo "[ BOOK ] $@"
 	scripts/makebook.pl $| > $@ || (rm $@ ; false)
 
 booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
+	@echo "[ METER ] $@"
 	sed -nep $^ | sort -u | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" $^ | cut -d/ -f3 | cut -d. -f1 | tr '\n' ' ' ; echo ; done > $@ || (rm $@ ; false)
 
 %.pdf: %.tex
+	@echo "[ LATEX ] $@"
 	lualatex --shell-escape --output-directory=$(@D) $<
 
 .PHONY: FORCE
@@ -201,6 +213,7 @@ booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
 booklayout/metrical_insert.tex: booklayout/index.meter
+	@echo "[ INDEX ] $@"
 	scripts/make_metrical_index.pl < $< | scripts/format_metrical_index.pl > $@
 
 # Workarounds
@@ -214,6 +227,7 @@ booklayout/first_insert.tex: export USE_REFRAIN=1
 booklayout/gospel_insert.tex: export USE_REFRAIN=1
 booklayout/children_insert.tex: export USE_REFRAIN=0
 booklayout/%_insert.tex: $$(TXTS)
+	@echo "[ INDEX ] $@"
 	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
 
 book: cover booklayout/toplevel.pdf
@@ -229,11 +243,13 @@ PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --define-default=include-settings=varian
 PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --pdf
 PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	@mkdir -p $(@D)
+	@echo "[ PDF ] $*.pdf"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/PDF/$(*D) --output=PDF/$* $<
 
 MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ly
 MIDI/%.midi: LYOPTS += --define-default=no-print-pages
 MIDI/%.midi: src/$$(*F).ly
 	@mkdir -p $(@D)
+	@echo "[ MIDI ] $*.midi"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --output=MIDI/$* $<
 
