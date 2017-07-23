@@ -185,25 +185,7 @@ wordsF = \markuplist {
   }
 }
 
-#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
-  \context ChoirStaff <<
-    \context Staff = upper <<
-      \set Staff.autoBeaming = ##f
-      \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
-    >>
-    \context Staff = men <<
-      \set Staff.autoBeaming = ##f
-      \clef bass
-      \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesTenor \notesBass
-    >>
-  >>
-  \midi{
-    \include "common/midi.ily"
-  }
-} #}))
+\include "common/score.ily"
 
 \noPageBreak \markup { \vspace #1 \fill-line { "May be sung to tune No. 343." } }
 
