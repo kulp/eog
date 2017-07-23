@@ -40,6 +40,7 @@ LYOPTS += --loglevel=WARNING
 
 ifneq ($(DEBUG),)
 LYOPTS += --loglevel=DEBUG
+LAMEOPTS += --verbose
 endif
 
 ifneq ($(DEBUG),1)
@@ -48,6 +49,7 @@ LYOPTS += --define-default=no-point-and-click --define-default=delete-intermedia
 # because there are (ly:expect-warning) calls that are specific to eogsized
 # output
 book PDF/eogsized/%: LYOPTS += --define-default=warning-as-error
+LAMEOPTS += --quiet
 endif
 
 # Inhibit inappropriate default suffix rules to simplify debugging
