@@ -30,7 +30,7 @@ notesSoprano = {
 \relative c' {
 
   e2 | a a4 a | a( b) cis b | a2
-  gis4( a) | b2 b4 b | b( cis) d b | cis2 \eogbreak
+  gis4( a) | b2 b4 b | b( cis) d b | cis2
   a4( cis) | e2 e4 e | e2 d4 cis | b2
   e,2 | fis d'4 d | cis( b) a gis | a2
 

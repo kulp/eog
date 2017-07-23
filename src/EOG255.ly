@@ -30,9 +30,9 @@ notesSoprano = {
 \relative c'' {
 
   g2 | e4 f g2 a | g1
-  c2 | c4 b a2 a | g1 \eogbreak
+  c2 | c4 b a2 a | g1
   g2 | e4 f g2 g | a4 b c2
-  b2 | c4 a g2 g | g1 \eogbreak
+  b2 | c4 a g2 g | g1
 
   \bar "|."
 

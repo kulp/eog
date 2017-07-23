@@ -30,14 +30,14 @@ notesSoprano = {
 \relative c' {
 
   f4 | a2 bes4 bes | a4.( g8) f4
-  a4 | g2 e4 e | f2. \eogbreak
+  a4 | g2 e4 e | f2.
   f4 | a2 bes4 bes | a4.( g8) f4
-  a4 | g2 e4 e | f2. \eogbreak
+  a4 | g2 e4 e | f2.
 
   a4 | c2 d4 c | bes( a) g % original has overlapping slurs here
-  c,4 | a'( c) bes g | f2( e4) \eogbreak
+  c,4 | a'( c) bes g | f2( e4)
   f4 | a2 bes4 bes | a4.( g8) f4
-  a4 | c( bes) a g | f2. \eogbreak
+  a4 | c( bes) a g | f2.
 
   \bar "|."
 
