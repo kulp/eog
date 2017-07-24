@@ -186,22 +186,7 @@ There to praise Him with -- out end.
   }
 }
 
-#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
-  \context ChoirStaff <<
-    \context Staff = upper <<
-      \context Voice = sopranos { \voiceOne { \notesSoprano \notesSopranoSecond } }
-      \context Voice = altos { \voiceTwo { \notesAlto \notesAltoSecond } }
-    >>
-    \context Staff = men <<
-      \clef bass
-      \context Voice = tenors { \voiceOne { \notesTenor \notesTenorSecond } }
-      \context Voice = basses { \voiceTwo { \notesBass \notesBassSecond } }
-    >>
-  >>
-  \midi{
-    \include "common/midi.ily"
-  }
-} #}))
+\include "score-EOG364.ily"
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

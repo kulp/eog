@@ -227,21 +227,7 @@ Through _ faith in Je -- sus’ blood.
   }
 }
 
-#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
-  \context ChoirStaff <<
-    \context Staff = upper <<
-      \context Voice = sopranos { \voiceOne { \notesSoprano \notesSopranoFirst } }
-      \context Voice = altos { \voiceTwo { \notesAlto \notesAltoFirst } }
-    >>
-    \context Staff = men <<
-      \context Voice = tenors { \voiceOne { \notesTenor \notesTenorFirst } }
-      \context Voice = basses { \voiceTwo { \notesBass \notesBassFirst } }
-    >>
-  >>
-  \midi{
-    \include "common/midi.ily"
-  }
-} #}))
+\include "score-EOG365.ily"
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

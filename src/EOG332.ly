@@ -205,21 +205,7 @@ Now in glo -- ry seat -- ed_–
   }
 }
 
-#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
-  \unfoldRepeats \context ChoirStaff <<
-    \context Staff = upper <<
-      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice = altos { \voiceTwo << \notesAlto >> }
-    >>
-    \context Staff = men <<
-      \context Voice = tenors { \voiceOne << \notesTenor >> }
-      \context Voice = basses { \voiceTwo << \notesBass >> }
-    >>
-  >>
-  \midi{
-    \include "common/midi.ily"
-  }
-} #}))
+\include "score-EOG332.ily"
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

@@ -357,12 +357,7 @@ musicDS = \context ChoirStaff <<
   }
 }
 
-#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
-  \musicDS
-  \midi{
-    \include "common/midi.ily"
-  }
-} #}))
+\include "score-EOG102.ily"
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

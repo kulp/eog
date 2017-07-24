@@ -163,21 +163,7 @@ O Je -- sus, my Lord. %{HIDE>%} O Je -- sus, my Lord. %{<HIDE%}
   }
 }
 
-#(cond ((ly:get-option 'eog-midi-permitted) #{ \score {
-  \unfoldRepeats \context ChoirStaff <<
-    \context Staff = upper <<
-      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice = altos { \voiceTwo << \notesAlto >> }
-    >>
-    \context Staff = men <<
-      \context Voice = tenors { \voiceOne << \notesTenor >> }
-      \context Voice = basses { \voiceTwo << \notesBass >> }
-    >>
-  >>
-  \midi{
-    \include "common/midi.ily"
-  }
-} #}))
+\include "score-EOG200.ily"
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
