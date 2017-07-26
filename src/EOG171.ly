@@ -61,7 +61,7 @@ notesTenor = {
 \relative a {
 
   aes2 aes4 | aes2. aes | aes2 aes4 bes2. | bes
-  g4 aes g | g2. bes2. | bes4( aes) g aes2. ~ | aes
+  g4( aes) g | g2. bes2. | bes4( aes) g aes2. ~ | aes
   ees'2 ees4 | c2. aes | aes2 aes4 aes2. | aes
   aes2 aes4 | aes2. ~ aes2 aes4 | aes2 g4 aes2. ~ | aes
 
