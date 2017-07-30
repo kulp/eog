@@ -11,7 +11,7 @@
   title = "On the Lamb Our Souls Are Resting"
   tunename = "Zurich"
   meter = "8. 7. 8. 7."
-  poet = "Mrs. F. Bevan (from German)"
+  poet = "Frances Bevan (from German)"
   composer = "German"
   tagline = ##f
 }
