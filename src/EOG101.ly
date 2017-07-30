@@ -10,7 +10,7 @@
   tunename = "Look Ye Saints"
   meter = "8. 7. 8. 7. 4. 7."
   poet = ""
-  composer = "Arr. by G. C. Stebbins"
+  composer = "Arr. by George C. Stebbins"
   tagline = ##f
 }
 

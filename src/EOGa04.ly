@@ -10,7 +10,7 @@
   hymnnumber = "4"
   tunename = "Saved by Grace"
   meter = "L. M. D."
-  composer = "Geo. C. Stebbins"
+  composer = "George C. Stebbins"
   alternate = \markup { "Alternate tune for No. 144." }
   tagline = ##f
 }

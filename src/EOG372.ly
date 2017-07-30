@@ -11,7 +11,7 @@
   tunename = "Take Time to Be Holy"
   meter = "6. 5. 6. 5. D."
   poet = "L. H. Farrell"
-  composer = "Geo. C. Stebbins"
+  composer = "George C. Stebbins"
   tagline = ##f
 }
 

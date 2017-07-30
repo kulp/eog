@@ -13,7 +13,7 @@
   tunename = ""
   meter = "P. M."
   poet = "Nathaniel Norton"
-  composer = "Geo. C. Stebbins"
+  composer = "George C. Stebbins"
   tagline = ##f
 }
 

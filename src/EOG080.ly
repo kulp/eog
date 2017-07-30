@@ -13,7 +13,7 @@
   tunename = "Jesus Is Calling"
   meter = "P. M." % something like 10. 8. 10. 7. with Refrain (8. 13.)
   poet = "Arthur Cutting"
-  composer = "Geo. C. Stebbins"
+  composer = "George C. Stebbins"
   tagline = ##f
 }
 

@@ -13,7 +13,7 @@
   tunename = ""
   meter = "C. M. D. with Refrain"
   poet = "A. A. P."
-  composer = "G. C. Stebbins"
+  composer = "George C. Stebbins"
   tagline = ##f
 }
 
