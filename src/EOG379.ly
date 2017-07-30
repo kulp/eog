@@ -164,6 +164,13 @@ Fash -- ioned like my Sav -- iour’s mind.
   } #}))
 }
 
+\markup {
+  \center-column {
+    \override #'(span-factor . 1/2)
+    \fill-line { \null \draw-hline \null }
+  }
+}
+
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

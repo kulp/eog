@@ -25,6 +25,7 @@ for my $pdf (@ARGV) {
         or die "Cannot open metrics file: $!";
     my $page = 0;
     while (<$metrics>) {
+        my $addl = $name =~ /EOGa/;
         $page++;
         my @dims = map /(\d+)/g, (split " ")[2,3];
         my ($width, $height, $total_width, $total_height, $crop_amount_left, $crop_amount_top) = @dims;
@@ -45,14 +46,17 @@ for my $pdf (@ARGV) {
             $prev_height = 0;
             $prev_clip = "false"; # lie about previous clipping
         } else {
-            print "\\vfil\\pagebreak\n" if defined $prev_clip;
+            if ($addl) {
+                print "\\vfill\n";
+            } elsif (defined $prev_clip) {
+                print "\\vfil\\pagebreak\n";
+            }
             $prev_clip = $clip;
             $prev_height = $height;
         }
 
         my $hyper = $page > 1 ? "" : "\\hypertarget{$name}";
-        print qq(\\vfill\\Large{\\textsc{Additional Tunes}}\\vfill\n)
-            if $name =~ /EOGa/ and $prev_name !~ /EOGa/;
+        print qq(\\newpage\\Large{\\textsc{Additional Tunes}}\\vfill\n) if $addl and $prev_name !~ /EOGa/;
         printf q(%-20s{\\includegraphics[scale=%4.3f,clip=%5s,trim=%2dpt %3dpt %2dpt %2dpt,page=%d]{%s}}),
                $hyper, $scale, $clip, $crop_amount_left, $crop_amount_bottom, $crop_amount_right, $crop_amount_top, $page, $basename;
         $prev_name = $name;
