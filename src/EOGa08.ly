@@ -38,7 +38,7 @@
   tunename = ""
   meter = "P. M."
   poet = "Henry Suso"
-  composer = "J. R., 1885"
+  composer = "J. Revell, 1885" % from https://biblicalstudies.org.uk/pdf/eq/1962-4_206.pdf
   tagline = ##f
 }
 
