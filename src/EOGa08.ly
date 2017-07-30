@@ -1,44 +1,17 @@
-% expect two warnings about pages out of bounds
-#(ly:expect-warning "number of pages is out of bounds")
-#(ly:expect-warning "number of pages is out of bounds")
-% be specific about how much compression we allow
-#(ly:expect-warning "compressing over-full page by 1.3 staff-spaces")
-#(ly:expect-warning "page 1 has been compressed")
 \include "common/global.ily"
 \paper {
   \include "common/paper-additional.ily"
-  markup-system-spacing.padding = 0
-  markup-system-spacing.basic-distance = 0
-  scoreTitleMarkup = \markup {
-    \override #'(baseline-skip . 3.5)
-    \column {
-      \override #'(baseline-skip . 3.5)
-      \column {
-        \fill-line {
-          \huge \larger \larger \bold {
-            \concat { "  " \fromproperty #'header:hymnnumber }
-            \fromproperty #'header:title
-            \null
-          }
-        }
-        \fill-line {
-          % no lowering (to save vertical space)
-          "Alternate tune for No. 376"
-          \smaller \bold \mysubtitle
-          \fromproperty #'header:composer
-        }
-      }
-    }
-  }
+  ragged-bottom = ##t
 }
 
 \header{
   hymnnumber = "8"
-  title = "Now Have I Seen Thee and Found Thee"
-  tunename = ""
+  title = ""
+  tunename = "A Praise Song"
   meter = "P. M."
-  poet = "Henry Suso"
+  poet = ""
   composer = "J. Revell, 1885" % from https://biblicalstudies.org.uk/pdf/eq/1962-4_206.pdf
+  alternate = \markup { "Alternate tune for No. 376." }
   tagline = ##f
 }
 
@@ -62,12 +35,12 @@ notesSoprano = {
 \relative c'' {
 
   g4 | g fis8 g bes4 g8( ees) | g4.( f8) ees4. \bar "."
-  ees16 ~ ees | f4 e8( f) aes4 ~ aes8 c8 | bes2. \bar "."
+  ees16 ~ ees | f4 e8( f) aes4 ~ aes8 c8 | bes2. \bar "." \eogbreak
   bes4 | bes aes8 bes c4 ~ c8 g | bes4.( aes8) g4. \bar "."
-  f16 ~ f | ees4 bes8( ees) g4. f8 | ees2. \bar "."
+  f16 ~ f | ees4 bes8( ees) g4. f8 | ees2. \bar "." \eogbreak
 
   g4 | ees'4 d8 c d4 b8( g) | d'2( c4) \bar "."
-  c4 | bes4 aes8 g bes4( aes8) g | f2. \bar "."
+  c4 | bes4 aes8 g bes4( aes8) g | f2. \bar "." \eogbreak
   fis8 ~ fis | g4 fis8 g bes4 g8( ees) | g4.( f8) ees4 \bar "."
   e8 ~ e | f4 aes8 c bes4 d,8 ~ d | ees2. \bar "|."
 
@@ -127,102 +100,13 @@ notesBass = {
 }
 }
 
-wordsA = \lyricmode {
-\set stanza = "1."
-
-_ Now have I seen { \mon } Thee and { \moff } found Thee, \bar "."
-For Thou hast found Thy sheep, \bar "."
-I fled, but Thy love would fol -- low, \bar "."
-I strayed { \mon } but Thy { \moff } grace would keep, \bar "." % by contrast, EOG376 has "love" for "grace"
-Thou’st grant -- ed my heart’s de -- sire, \bar "."
-{ \mon } Most blest of the bless -- ed is he, { \moff } \bar "."
-Who { \mon } find -- eth no rest and no { \moff } sweet -- ness, \bar "."
-{ \mon } Till he { \moff } rest -- eth, O Lord, in Thee. \bar "."
-
-}
-
-wordsB = \lyricmode {
-\set stanza = "2."
-
-To Thee, Lord, my heart un -- fold -- eth,
-{ \mon } As the { \moff } rose { \mon } to the { \moff } gold -- en sun;
-To Thee, Lord, mine arms are cling -- ing,
-Th’_e -- ter -- nal joy’s be -- gun,
-For -- ev -- er, thro’ end -- less { \mon } a -- ges, { \moff }
-{ \mon } Thy cross and Thy sor -- rows shall be, { \moff }
-The { \mon } glo -- ry, the song and the { \moff } sweet -- ness,
-That makes heav -- en, heav -- { \mon } en to { \moff } me.
-
-}
-
-wordsC = \lyricmode {
-\set stanza = "3."
-
-Let one in his in -- { \mon } no -- cence { \moff } glo -- ry,
-An -- oth -- { \mon } er in works he { \moff } has done_–
-Thy blood is my claim and ti -- tle,
-Be -- sides { \mon } it, O { \moff } Lord I’ve none.
-The Scorned, the De -- spised, { \mon } the Re -- ject -- ed, { \moff }
-Thou’st come to this heart of mine,
-{ \mon } In Thy { \moff } robes of e -- ter -- nal glo -- ry,
-Thou wel -- com -- est me to Thine.
-
-}
-
-wordsD = \lyricmode {
-\set stanza = "4."
-
-The hart pant -- eth af -- { \mon } ter the { \moff } wa -- ters,
-The dy -- { \mon } ing, for life that { \moff } de -- parts;
-The Lord in His { \mon } glo -- ry { \moff } for sin -- ners,
-{ \mon } For the { \moff } love { \mon } of re -- { \moff } bel -- lious hearts.
-{ \mon } Call back all the days of the a -- ges, { \moff }
-{ \mon } All rain -- drops come down from a -- bove; { \moff }
-All { \mon } flow -- ers of sum -- mers de -- { \moff } part -- ed,
-But think not to meas -- { \mon } ure His { \moff } love.
-
-}
-
-wordsE = \markuplist {
-
-\line { Behold Him, O soul, where He told it, }
-\line { { \hspace #2 } Pale, bleeding, and bearing thy sin; }
-\line { He knocking, said, “Open, beloved, }
-\line { { \hspace #2 } I pray thee to let Me come in! }
-
-\line { Behold, I have borne all the judgment, }
-\line { { \hspace #2 } Thy sins, O beloved, are gone; }
-\line { Forgotten, forgotten forever, }
-\line { { \hspace #2 } If sought for, God findeth not one. }
-
-}
-
-wordsF = \markuplist {
-
-\line { “Behold, with what labor I won thee, }
-\line { { \hspace #2 } Behold in My hands and My feet, }
-\line { The tale of My measureless sorrow — }
-\line { { \hspace #2 } Of love that made sorrow so sweet. }
-
-\line { A flax-thread in oceans of fire }
-\line { { \hspace #2 } How soon swallowed up would it be; }
-\line { %{HIDE>%} \italic { %{<HIDE%} Yet sooner in oceans of mercy, %{HIDE>%} } %{<HIDE%} }
-\line { { \hspace #2 } \caps { The sinner that cometh to Me.}” }
-
-}
-
 \score {
   \context ChoirStaff <<
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \context Voice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Voice = altos { \voiceTwo << \notesAlto >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
@@ -239,15 +123,12 @@ wordsF = \markuplist {
   } #}))
 }
 
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
-  \line{ \bold 6 \column { \wordsF } }
-  \hspace #0.1
-} }
-
-%\noPageBreak \markup { \vspace #2 \fill-line { "Alternate tune for No. 376." } }
+\markup {
+  \center-column {
+    \override #'(span-factor . 1/2)
+    \fill-line { \null \draw-hline \null }
+  }
+}
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

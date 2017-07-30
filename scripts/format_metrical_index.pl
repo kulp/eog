@@ -25,7 +25,7 @@ while (<>) {
     } else {
         my ($name, $nums) = split /\t/;
         my $split = length $name > 21
-            || ($nums =~ /Add\. Tune/ && length "$name $nums" > 26 && $nums !~ /,/);
+            || ($nums =~ /Add\. Tune/ && length "$name $nums" > 24 && $nums !~ /,/);
         $nums =~ s#(Add\. Tune )?\b(\d+)\b#"\\hyperlink{EOG" . expand($1, $2) . "}{$1$2}"#ge;
         if ($split) {
             my @words = split " ", $name;
