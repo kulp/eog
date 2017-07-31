@@ -31,7 +31,7 @@ notesSoprano = {
   e8.^\markup{\italic Moderato.}[ d16] | c4. c8 c'4. b8 | b8 a4. ~ a4.
   a8 | g4. e8 e8( d4) c8 | d2.
   e8.( d16) | c4. c8 c'4. b8 | b8 a4. ~ a4.
-  a8 | g4. e8 \slashedGrace e8 d4. c8 | c2.
+  a8 | g4. e8 d4. c8 | c2.
 
   g'4 | c4. c8 d4. d8 | e2.
   g,4 | c4. c8 d4. d8 | e2.
