@@ -234,6 +234,10 @@ book: cover booklayout/toplevel.pdf
 cover: booklayout/cover-standard-paperback.pdf
 cover: booklayout/cover-casewrap.pdf
 
+booklayout/cover-casewrap.pdf: booklayout/leather-green-tiled.jpg
+booklayout/leather-green-tiled.jpg: booklayout/leather-green.jpg
+	montage $<{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x5 -geometry +0+0 $@
+
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
