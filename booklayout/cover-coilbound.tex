@@ -1,0 +1,19 @@
+\documentclass[coverwidth=6in,coverheight=9in,spinewidth=0in,bleedwidth=0.125in,marklength=0in]{bookcover} % Lulu expects a zero-sized spine
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[sf]{merriweather}
+\definecolor{Gold}{HTML}{FAFAD2}
+\definecolor{Silver}{HTML}{C0C0C0}
+\begin{document}
+\begin{bookcover}
+    \bookcovercomponent{normal}{bg whole}{\includegraphics[scale=0.375]{booklayout/leather-green-tiled}}
+    \bookcovercomponent{normal}{front}{
+        \vspace{5cm}
+        \begin{center}
+        \color{Gold}
+            \setlength{\fboxrule}{2pt}
+            \fbox{\setlength{\fboxrule}{1pt}\setlength{\fboxsep}{0.2in}\framebox[3.5in]{\textcolor{Gold}{\includegraphics[scale=0.075]{booklayout/bodoni-scan.pdf}}}}
+        \end{center}}
+\end{bookcover}
+\end{document}
+

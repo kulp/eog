@@ -234,7 +234,7 @@ book: cover booklayout/toplevel.pdf
 cover: booklayout/cover-standard-paperback.pdf
 cover: booklayout/cover-casewrap.pdf
 
-booklayout/cover-casewrap.pdf: booklayout/leather-green-tiled.jpg
+booklayout/cover-casewrap.pdf booklayout/cover-coilbound.pdf: booklayout/leather-green-tiled.jpg
 booklayout/leather-green-tiled.jpg: booklayout/leather-green.jpg
 	montage $<{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x5 -geometry +0+0 $@
 
