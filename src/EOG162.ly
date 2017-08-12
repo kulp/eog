@@ -33,10 +33,10 @@ notesSoprano = {
 \global
 \relative c' {
 
-  ees4 | aes2 c8[( bes)] | aes2 c4 | bes4( aes) f | ees2
+  ees4 | aes2 c8[ bes] | aes2 c4 | bes4( aes) f | ees2
   ees4 | aes2 c8[ bes] | aes4.( bes8) c4 | ees2
   ees,4 | aes2 c8[ bes] | aes2 c4 | bes( aes) f | ees2 % original has impossible whole note at end of line here
-  ees'4 | ees( c) aes8[( bes)] | c2 bes4 | aes2
+  ees'4 | ees( c) aes8[ bes] | c2 bes4 | aes2
 
   \bar "|."
 
@@ -61,7 +61,7 @@ notesTenor = {
 
   ees4 | ees( aes) g | aes2 aes4 | aes2 aes4 | aes2
   g4 | aes2 g4 | aes4.( g8) aes4 | bes2
-  g4 | aes( c) ees | ees( des) c | c2 bes8[( aes)] | g2
+  g4 | aes( c) ees | ees( des) c | c2 bes8[ aes] | g2
   bes4 | aes4( ees') des | aes( c) des | c2
 
 }

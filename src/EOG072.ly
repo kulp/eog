@@ -48,7 +48,7 @@ notesAlto = {
 \global
 \relative e' {
 
-  e8.[ fis16] e8 e8 e4 e4 | gis4 gis8 fis8 fis8.[( e16)] dis8
+  e8.[ fis16] e8 e8 e4 e4 | gis4 gis8 fis8 fis8.[ e16] dis8
   fis8 | gis4 gis8 gis8 fis4 fis8 e8 | dis2 r4
   e4 | e8 e8 e8 e8 e4
   dis8 e8 | dis8 e8 dis8 e8 e4
