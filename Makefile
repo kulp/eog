@@ -232,6 +232,7 @@ booklayout/%_insert.tex: $$(TXTS)
 
 book: cover booklayout/toplevel.pdf
 cover: booklayout/cover-standard-paperback.pdf
+cover: booklayout/cover-premium-paperback.pdf
 cover: booklayout/cover-casewrap.pdf
 
 booklayout/cover-casewrap.pdf booklayout/cover-coilbound.pdf: booklayout/leather-green-tiled.jpg
