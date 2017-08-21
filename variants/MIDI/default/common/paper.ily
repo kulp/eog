@@ -16,6 +16,3 @@ is-eogsized = ##f
 mytitle = \markup { }
 mysubtitle = \markup { }
 
-% no effect of scoreTitleMarkupShrunk in this variant
-scoreTitleMarkupShrunk = \markup { }
-
