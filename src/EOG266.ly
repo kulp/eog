@@ -2,9 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  score-markup-spacing.padding = 0.3
-  score-markup-spacing.basic-distance = 0.3
-  scoreTitleMarkup = \scoreTitleMarkupShrunk
+  score-markup-spacing.padding = 2.5
+  score-markup-spacing.basic-distance = 2.5
 }
 
 \header{

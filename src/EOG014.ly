@@ -5,7 +5,6 @@
   % decrease system-to-system padding to fit onto page with next score
   system-system-spacing.padding = 0
   system-system-spacing.basic-distance = 0
-  scoreTitleMarkup = \scoreTitleMarkupShrunk
 }
 
 \header{

@@ -3,7 +3,8 @@
   \include "common/paper.ily"
   systems-per-page = ##f
   page-count = #(cond (is-eogsized 1) (#t #f))
-  scoreTitleMarkup = \scoreTitleMarkupShrunk
+  system-system-spacing.padding = 0
+  system-system-spacing.basic-distance = 0
 }
 
 \header{

@@ -7,7 +7,6 @@
   score-markup-spacing.basic-distance = 1.9
   system-system-spacing.padding = 1
   system-system-spacing.basic-distance = 1
-  scoreTitleMarkup = \scoreTitleMarkupShrunk
 }
 
 \header{

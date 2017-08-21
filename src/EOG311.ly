@@ -4,7 +4,6 @@
   ragged-last-bottom = ##t
   system-system-spacing.padding = 2
   system-system-spacing.basic-distance = 2
-  scoreTitleMarkup = \scoreTitleMarkupShrunk
 }
 
 \header{
