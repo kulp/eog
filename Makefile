@@ -231,12 +231,14 @@ booklayout/%_insert.tex: $$(TXTS)
 	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
 
 book: cover booklayout/toplevel.pdf
-cover: booklayout/cover-standard-paperback.pdf
-cover: booklayout/cover-premium-paperback.pdf
-cover: booklayout/cover-coilbound.pdf
-cover: booklayout/cover-casewrap.pdf
 
-booklayout/cover-casewrap.pdf booklayout/cover-coilbound.pdf: booklayout/leather-green-tiled.jpg
+COVERS += booklayout/cover-standard-paperback.pdf
+COVERS += booklayout/cover-premium-paperback.pdf
+COVERS += booklayout/cover-coilbound.pdf
+COVERS += booklayout/cover-casewrap.pdf
+cover: $(COVERS)
+
+$(COVERS): booklayout/leather-green-tiled.jpg
 booklayout/leather-green-tiled.jpg: booklayout/leather-green.jpg
 	montage $<{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x5 -geometry +0+0 $@
 
