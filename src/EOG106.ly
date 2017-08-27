@@ -181,7 +181,7 @@ underWords = \lyricmode {
       \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
-    \context Lyrics = three \lyricsto basses \underWords
+    \context Lyrics = five \lyricsto basses \underWords
   >>
   \layout {
     \include "common/layout.ily"
