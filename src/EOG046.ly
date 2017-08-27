@@ -4,6 +4,8 @@
   ragged-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
   systems-per-page = #(cond (is-eogsized 1) (#t #f))
+  score-markup-spacing.basic-distance = 3
+  score-markup-spacing.padding = 3
 }
 
 \header{
