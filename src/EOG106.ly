@@ -156,8 +156,8 @@ Thy love -- li -- ness to see.
 
 underWords = \lyricmode {
 
-{ \repeat unfold 41 { \skip 4 } }
-\markup { \with-color #white { _ } } for me;
+{ \repeat unfold 42 { \skip 4 } }
+for me;
 
 }
 
