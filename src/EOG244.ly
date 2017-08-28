@@ -33,7 +33,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  c4^\markup{\italic{Andante_–legato.}} | bes8[ a] g[ f] a[ g] f[ e] | f4 \grace { g16[ f] } e8[ d] c4
+  c4^\markup{\italic{Andante–legato.}} | bes8[ a] g[ f] a[ g] f[ e] | f4 \grace { g16[ f] } e8[ d] c4
   f4 | g a bes d | <a \tweak font-size #-4 f>2( <g \tweak font-size #-4 e>4)
   \eogbreak
   c4 | bes8[ a] g[ f] a[ g] f[ e] | f4 \grace { g16[ f] } e8[ d] c4
