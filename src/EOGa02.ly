@@ -10,7 +10,7 @@
   tunename = "German Evening Hymn"
   meter = "8. 7. 8. 7."
   composer = "German"
-  alternate = \markup { "Alternate tune for No. 286." }
+  alternate = \markup { "Alternate tune for No. 152." }
   tagline = ##f
 }
 
