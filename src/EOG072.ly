@@ -1,7 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  systems-per-page = ##f
+  score-markup-spacing.padding = 4
+  score-markup-spacing.basic-distance = 4
 }
 
 \header{
@@ -164,8 +165,8 @@ wordsE = \markuplist {
 }
 
 \markup { \fill-line { \column {
-  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #1.4
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #1.4
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
