@@ -105,7 +105,7 @@ notesBass = {
 }
 
 RefrainA = \lyricmode {
-\set stanza = "1_–4."
+\set stanza = "1–4."
 
 Who is the King of glo -- ry? \bar "."
 Who is the King of glo -- ry? \bar "."
