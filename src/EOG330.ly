@@ -11,7 +11,7 @@
   hymnnumber = "330"
   title = "A Message Came from Heaven"
   tunename = ""
-  meter = "P. M."
+  meter = "7. 6. 7. 6. D. with Refrain" % P. M. in original, but no more P. M. than other 7. 6. 7. 6. D. with Refrain
   poet = ""
   composer = ""
   tagline = ##f

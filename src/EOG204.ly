@@ -7,7 +7,7 @@
   hymnnumber = "204"
   title = "A Little Talk with Jesus"
   tunename = ""
-  meter = "P. M."
+  meter = "7. 6. 7. 6. D." % original has P. M.
   poet = "R. L. Allan"
   composer = "H. Hankinson"
   tagline = ##f

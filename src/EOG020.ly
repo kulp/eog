@@ -8,7 +8,7 @@
   hymnnumber = "20"
   title = "Jesus of Nazareth Passeth By"
   tunename = ""
-  meter = "P. M."
+  meter = "L. M. D." % original has P. M.
   poet = "Emma Campbell"
   composer = "T. E. Perkins"
   tagline = ##f

@@ -7,7 +7,7 @@
   hymnnumber = "211"
   title = "Christian, Walk Carefully"
   tunename = ""
-  meter = "P. M."
+  meter = "10. 10. 10. 10. with Refrain" % original has P. M.
   poet = "Words Arranged"
   composer = "George C. Stebbins"
   tagline = ##f

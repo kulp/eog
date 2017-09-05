@@ -8,7 +8,7 @@
   hymnnumber = "122"
   title = "The Holy Lamb Has Died"
   tunename = ""
-  meter = "P. M."
+  meter = "6. 6. 8. 4. D." % original has P. M.
   poet = "George W. Frazer"
   composer = ""
   tagline = ##f
