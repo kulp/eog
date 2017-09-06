@@ -108,7 +108,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-“A lit -- tle while” the Lord shall come, \bar "."
+“A lit -- tle while”_– the Lord shall come, \bar "."
 And we shall wan -- der here no more; \bar "."
 He’ll take us to His Fa -- ther’s home, \bar "."
 Where He for us is gone be -- fore_– \bar "."
