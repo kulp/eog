@@ -11,13 +11,14 @@ my $count = shift;
 my @list;
 my %uniq;
 
-my $width_threshold = 60;
+my $width_threshold = 100;
 my @widths = (
     [ qw() ],
-    [ qw(t i f j l I ; : ‘ ’ . , !), ' ', 0..9 ],
-    [ qw(q e r y u o p a s d g h k z x c v b n “ ” ?) ],
-    [ qw(w m T F J L Q E R Y U O P A S D G H K Z X C V B N) ],
-    [ qw(W M – —) ],
+    [ qw(; : ‘ ’ . , !) ],
+    [ qw(t i f j l r I “ ”), ' ' ],
+    [ qw(q e y u o p a s d g h k z x c v b n ?), 0..9  ],
+    [ qw(w m T F J L Q E R Y U O P A S D G H K Z X C V B N –) ],
+    [ qw(W M —) ],
 );
 my %widths = map {
     my $w = $_;
