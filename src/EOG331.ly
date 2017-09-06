@@ -69,17 +69,16 @@ notesAlto = {
 notesLeftHand = {
 \global
 % TODO don't force all stems downward, just bias them that way
-% TODO make rests appear in the middle of the staff instead of the top
 \override Stem.direction = #DOWN
 \override NoteHead.font-size = #-4
-\relative f, {
+\relative f {
 
-  r4 | g4 <d' g b> e8[ d] | e,4 <e' gis>
-  r4 | a,4 <e' g a> e | a, <e' g a>
-  r4 | d,4 <d' a'> d8[ e] | d,4 <d' fis>
-  r4 | g,4 d' e8[ d] | g,4 <d' g b>
-  r4 | g,4 <d' g b> e8[ d] | e,4 <e' gis>
-  r4 | a,4 <e' g a> e | a, <e' a cis> <a cis e>_\fermata
+  d4\rest | g,4 <d' g b> e8[ d] | e,4 <e' gis>
+  d4\rest | a4 <e' g a> e | a, <e' g a>
+  d4\rest | d,4 <d' a'> d8[ e] | d,4 <d' fis>
+  d4\rest | g,4 d' e8[ d] | g,4 <d' g b>
+  d4\rest | g,4 <d' g b> e8[ d] | e,4 <e' gis>
+  d4\rest | a4 <e' g a> e | a, <e' a cis> <a cis e>_\fermata
   d,4 a' <d, fis> | d4 e <d fis> | g d b | g2
 
 }

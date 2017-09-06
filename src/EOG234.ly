@@ -103,7 +103,6 @@ notesBass = {
 }
 }
 
-% TODO refrain small words
 Refrain = \lyricmode {
 
 Lead me, lead me, \bar "."

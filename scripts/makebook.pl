@@ -8,8 +8,6 @@ use File::Basename qw(fileparse);
 
 our $crop_threshold = 72; # points of smallest reasonable croppable thing
 
-# TODO first page ("title page" ?) gets undesired extra whitespace at top
-
 my $prev_height =  0; # points
 my $prev_clip   = undef; # stringified boolean
 my $prev_name   = "";

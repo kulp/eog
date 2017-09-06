@@ -9,7 +9,7 @@
 \header{
   %children
   hymnnumber = "338"
-  title = "I Love My Saviour" % TODO original has subtitle "(I Have A Saviour)"
+  title = "I Love My Saviour" % original has subtitle "(I Have A Saviour)"
   tunename = ""
   meter = "10. 8. 10. 8."
   poet = "H. Sweetman & F. W. Schwartz"

@@ -67,7 +67,6 @@ notesBass = {
 \global
 \relative f {
 
-  % TODO make chords with different note-head sizes use same stem, like original
   g4 | g2 g4 | g2 g4 | c,( d) d | <g \tweak font-size #-4 g,>2
   g4 | d( c) b | <b \tweak font-size #-4 b'>( <a \tweak font-size #-4 a'>) <g \tweak font-size #-4 g'> | d'2
   g4 | g2 c,4 | d2 d4 | d2 d4 | <g \tweak font-size #-4 g,>2
