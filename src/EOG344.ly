@@ -176,7 +176,7 @@ Com -- ing for me, for me!
 SopranoRefrainA = \lyricmode {
 
 \repeat unfold 40 { \skip 4 }
-for me! __ "" % TODO these empty quotes cause a lyric error but something is necessary to prevent a too-long underline
+for me! __ "" % these empty quotes cause a lyric error but something is necessary to prevent a too-long underline -- thus ly:expect-warning is used above
 \repeat unfold 3 { \skip 4 }
 for me! __
 

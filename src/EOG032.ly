@@ -40,7 +40,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  % XXX too much vspace
+  % there is more vspace above this markup than ideal
   << s^\markup { \italic "Slow, with expression." }
   \changePitch \patternAA { c b c a r f | a a g f g } >>
   \changePitch \patternAB { bes c g bes a | g c b d c }

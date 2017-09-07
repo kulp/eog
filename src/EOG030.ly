@@ -107,7 +107,7 @@ notesBass = {
 >>
 
 <<
-  % XXX hacky (extra-offset doesn't scale, for one thing)
+  % TODO find extra-offset such that eogsized and letter both have aesthetic rest placement
   { b'4 \rest | \once \override Rest.extra-offset = #'(15 . 0) b1*3/4 \rest | \once \override Rest.extra-offset = #'(1.7 . 0) b2 \rest }
 \\
   \override NoteHead.font-size = #-4 { d,4 g4 a4 a4 | d4 d,4 }

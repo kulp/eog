@@ -11,8 +11,8 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 my $prev_height =  0; # points
 my $prev_clip   = undef; # stringified boolean
 my $prev_name   = "";
-my $scale       = 1.062; # TODO compute this
-my $fudge       = 1; # XXX unexplained fudge factor (rounding error ?)
+my $scale       = 1.062; # ideally this value would be computed, but for now it is empirical
+my $fudge       = 1; # compensate for rounding error (?)
 my $max_height  = 9*72-36-36-$fudge; # post-scaled maximum point height (9 inch page minus half-inch borders)
 
 print q(\centering), "\n";

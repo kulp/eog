@@ -53,9 +53,9 @@ notesAlto = {
 \relative e' {
 
   s4 | s1 | s2.
-  \tweak font-size #-4 c4 | \tweak font-size #-4 d4 <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 g \tweak font-size #-4 d>2 | \tweak font-size #-4 r4 \tweak font-size #-4 c, \tweak font-size #-4 r % TODO original has d2
+  \tweak font-size #-4 c4 | \tweak font-size #-4 d4 <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 g \tweak font-size #-4 d>2 | \tweak font-size #-4 r4 \tweak font-size #-4 c, \tweak font-size #-4 r % original has d2
   \tweak font-size #-4 c4 | \tweak font-size #-4 d8[ \tweak font-size #-4 c] \tweak font-size #-4 bes[ \tweak font-size #-4 a] \tweak font-size #-4 c[ \tweak font-size #-4 bes] \tweak font-size #-4 a[ \tweak font-size #-4 g] | \tweak font-size #-4 a4 \tweak font-size #-4 c8[ \tweak font-size #-4 bes] \tweak font-size #-4 a4
-  \tweak font-size #-4 c4 | \tweak font-size #-4 d4 <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 g \tweak font-size #-4 d> <\tweak font-size #-4 e \tweak font-size #-4 bes> | <\tweak font-size #-4 c \tweak font-size #-4 a>2. % TODO original has d2
+  \tweak font-size #-4 c4 | \tweak font-size #-4 d4 <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 g \tweak font-size #-4 d> <\tweak font-size #-4 e \tweak font-size #-4 bes> | <\tweak font-size #-4 c \tweak font-size #-4 a>2. % original has d2
   <\tweak font-size #-4 a' \tweak font-size #-4 f>4 | <\tweak font-size #-4 a \tweak font-size #-4 e> <\tweak font-size #-4 bes \tweak font-size #-4 f> \tweak font-size #-4 f <\tweak font-size #-4 bes \tweak font-size #-4 f> | \tweak font-size #-4 c,2 ~ \tweak font-size #-4 c4
   <\tweak font-size #-4 e \tweak font-size #-4 c>4 | \tweak font-size #-4 c8[ \tweak font-size #-4 f] \tweak font-size #-4 e[ \tweak font-size #-4 d] <\tweak font-size #-4 f \tweak font-size #-4 c>4 <\tweak font-size #-4 bes \tweak font-size #-4 f>4 | \tweak font-size #-4 f <\tweak font-size #-4 e \tweak font-size #-4 bes>4 \tweak font-size #-4 a,
 

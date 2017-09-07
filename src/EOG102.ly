@@ -257,7 +257,7 @@ Be in time! \bar "."
 Fleet -- ing days are tell -- ing fast \bar "."
 That the %{HIDE>%} \marksegno %{<HIDE%} die will soon be cast, \bar "."
 And the fa -- tal line be past, \bar "."
-Be in time! \bar "." \break % for both eogsized and letter, work around lyrics issues XXX review
+Be in time! \bar "." \break % for both eogsized and letter, work around issues with vertical location of chorus lyrics
 
 }
 
