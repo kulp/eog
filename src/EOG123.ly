@@ -10,7 +10,7 @@
   hymnnumber = "123"
   title = "The Lamb Was Slain, His Precious Blood"
   tunename = "Melita"
-  meter = "8. 8. 8. 8. 4. 8."
+  meter = "6—8s."
   poet = "G. W. Frazer"
   composer = "J. B. Dykes"
   tagline = ##f
