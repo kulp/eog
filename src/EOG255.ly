@@ -89,7 +89,7 @@ wordsB = \markuplist {
 \line { The Father’s grace and love }
 \line { { \hspace #2 } This blessed mercy gave, }
 \line { And Jesus left the throne above }
-\line { { \hspace #2 } His wand’ring sheep to save. }
+\line { { \hspace #2 } His wandering sheep to save. }
 
 }
 

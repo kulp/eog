@@ -157,6 +157,7 @@ Bless -- ed news! joy -- ful news! % \bar is not appropriate
 Bless -- ed news! joy -- ful news! % \bar is not appropriate
 Bless -- ed news! joy -- ful news! \bar "."
 Sound the joy -- ful ti -- dings forth! \bar "."
+( - Repeat stanza - )
 
 }
 

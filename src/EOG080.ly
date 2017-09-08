@@ -110,8 +110,7 @@ notesBass = {
 RefrainA = \lyricmode {
 
 Might -- y to save, __ might -- y to save, __ \bar "."
-Now __ in the { \eogpagebreak } glo -- ry, He’s a -- ble and will -- ing to
-save. \bar "."
+Now __ in the { \eogpagebreak } glo -- ry, He’s a -- ble and will -- ing to save. \bar "."
 
 }
 

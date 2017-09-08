@@ -127,7 +127,7 @@ He hides a smil -- ing face.
 wordsE = \markuplist {
 
 \line { His purposes will ripen fast, }
-\line { { \hspace #2 } Unfolding ev’ry hour; }
+\line { { \hspace #2 } Unfolding every hour; }
 \line { The bud may have a bitter taste, }
 \line { { \hspace #2 } But sweet will be the flower. }
 
