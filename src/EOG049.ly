@@ -152,7 +152,7 @@ wordsD = \lyricmode {
 
 Tho’ all un -- wor -- thy, yet I will not doubt,
 For him that com -- eth He will not cast out;
-“He \mon that be -- \moff liev -- eth”– oh, the good news shout!
+“He \mon that be -- \moff liev -- eth”_– oh, the good news shout!
 { \italicsOn } “Hath { \italicsOff } ev -- er -- last -- ing life.”
 
 }

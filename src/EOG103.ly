@@ -113,7 +113,7 @@ wordsC = \lyricmode {
 
 Guilt -- y, vile and help -- less, we,
 Spot -- less Lamb of God was He!
-“Full a -- tone -- ment”– can it be?
+“Full a -- tone -- ment”_– can it be?
 Hal -- le -- lu -- jah! what a Sav -- iour!
 
 }
