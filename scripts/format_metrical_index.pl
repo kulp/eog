@@ -11,6 +11,12 @@ sub expand {
     return $add ? (sprintf "a%02d", $num) : (sprintf "%03d", $num);
 }
 
+sub letter_length ($) {
+    local $_ = $_[0];
+    s/[^a-z ]//ig;
+    return length;
+}
+
 print qq(\\interlinepenalty=10000\n);
 while (<>) {
     chomp;
@@ -23,9 +29,10 @@ while (<>) {
         print qq(\\noindent\\begin{flushright}\n);
         $open = 1;
     } else {
+        s/^ //; # chop leading space
         my ($name, $nums) = split /\t/;
-        my $split = length $name > 21
-            || ($nums =~ /Add\. Tune/ && length "$name $nums" > 24 && $nums !~ /,/);
+        my $split = letter_length $name > 19
+            || ($nums =~ /Add\. Tune/ && letter_length "$name $nums" > 22 && $nums !~ /,/);
         $nums =~ s#(Add\. Tune )?\b(\d+)\b#"\\hyperlink{EOG" . expand($1, $2) . "}{$1$2}"#ge;
         if ($split) {
             my @words = split " ", $name;
