@@ -12,7 +12,7 @@
   hymnnumber = "44"
   title = "Just as I Am — Without One Plea"
   tunename = "Woodworth"
-  meter = "8. 8. 8. 6."
+  meter = "L. M." % original has 8. 8. 8. 6.
   poet = "Charlotte Elliot"
   composer = "W. B. Bradbury"
   tagline = ##f

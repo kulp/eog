@@ -11,7 +11,7 @@
   hymnnumber = "45"
   title = "The Wanderer No More Will Roam"
   tunename = "Silent Night"
-  meter = "8. 8. 8. 6."
+  meter = "8. 8. 8. 6. 6." % original has 8. 8. 8. 6.
   poet = ""
   composer = ""
   tagline = ##f
