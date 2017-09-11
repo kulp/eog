@@ -44,7 +44,7 @@ notesSoprano = {
   \changePitch \patternA { e | e' d cis b a gis | gis( fis) }
   \changePitch \patternC { fis | e a gis a b | a ~ a r }
 
-  \eogbreak
+  \break % checked in eogsized and letter versions
   << s^\markup { \small \caps "Refrain" }
   { cis4. a | d cis } >>
   b8. b16 b8 b a fis | e4.~ \tb e4 \fermata \ta

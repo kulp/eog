@@ -167,7 +167,7 @@ Do they of -- fer you and me. \bar "." \eogbreak
 “For God so loved the world, \bar "."
 That His on -- ly Son He gave; \bar "." \eogbreak
 Who -- so -- e’er be -- liev -- eth in Him \bar "."
-Ev -- er -- last -- ing life shall have.” \bar "." \eogbreak
+Ev -- er -- last -- ing life shall have.” \bar "." \break % checked in eogsized and letter versions
 
 }
 
