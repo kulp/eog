@@ -86,7 +86,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Lit -- tle chil -- dren, heav -- y -- la -- den, \bar "."
-With your sin and woe, \bar "."
+With your sin and woe, __ \bar "."
 Come to Je -- sus, He in -- vites you, \bar "."
 Wants you so. \bar "."
 
@@ -96,7 +96,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Let His own sweet word of prom -- ise
-Drive a -- way all doubt,
+Drive a -- way all doubt, __
 “Come to Me now, I will nev -- er
 Cast you out.”
 
@@ -106,7 +106,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 His, the blood_– the on -- ly cleans -- ing
-You can ev -- er know,
+You can ev -- er know, __
 It will make your sins_– now scar -- let_–
 White as snow.
 
@@ -116,7 +116,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 You can nev -- er make a -- tone -- ment,
-That is ful -- ly made;
+That is ful -- ly made; __
 You can nev -- er pay the ran -- som
 He has paid.
 

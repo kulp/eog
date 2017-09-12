@@ -106,7 +106,7 @@ Refrain = \lyricmode {
 { \eogbreak }
 
 A -- men, come, Lord Je -- sus! \bar "."
-Claim Thy peo -- ple for Thine own! \bar "."
+Claim Thy peo -- ple for Thine own! __ \bar "."
 Crown Thy church in glo -- ry, \bar "."
 Seat -- ed in Thy throne! \bar "."
 
@@ -116,7 +116,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Shine forth, O Lord, Thou bright and morn -- ing Star! \bar "."
-Come, quick -- ly come! Thy peo -- ple wait -- ing are, \bar "."
+Come, quick -- ly come! Thy peo -- ple wait -- ing are, __ \bar "."
 Shout, shout the word that bids Thy dead a -- rise, \bar "."
 And calls Thy saints to meet Thee in the skies. \bar "."
 
@@ -126,7 +126,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Shine forth, O Lord, come soon for Thy re -- deemed,
-For those on whom Thy ten -- der love has beamed;
+For those on whom Thy ten -- der love has beamed; __
 Thy pil -- grim saints oft wear -- y in the way
 Cry out for Thee_– Star of the com -- ing day!
 
@@ -138,7 +138,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Shine forth, O Lord, and claim Thy blood -- bought bride,
-Put forth Thy power and raise her to Thy side,
+Put forth Thy power and raise her to Thy side, __
 We wait the hour when our glad shout shall be
 That death is swal -- lowed up in vic -- to -- ry.
 
@@ -148,7 +148,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Shine forth, O Lord, and bring to pass the day
-When ev -- ery clime shall own Thy right -- ful sway,
+When ev -- ery clime shall own Thy right -- ful sway, __
 When all man -- kind be -- fore Thy throne shall fall,
 And heaven and earth shall crown Thee Lord of all.
 
