@@ -86,6 +86,21 @@ notesBass = {
 }
 }
 
+notesAlign = {
+\global
+\relative f {
+
+  c2 c4 c | c c c c | c4 ~ c c2 | c,1 |
+  c2 c4 c | c c c c | c( c) c( c,) | c'4( c c c)
+  c4( c) c c | c c c c | c2 c | c,1 |
+  c'2 c4 c | c c c c | c2 c, | c1 |
+
+  c4 c c c | c c c c | c c c c | c( c c c)
+  c4 c c c | c c c c | c2 c | c,1 |
+
+}
+}
+
 Refrain = \lyricmode {
 
 { \eogbreak }
@@ -146,11 +161,11 @@ And heaven and earth shall crown Thee Lord of all.
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 11) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
+      \context NullVoice = aligned { \voiceTwo << \notesAlign >> }
+      \context Lyrics = one   \lyricsto aligned \wordsA
+      \context Lyrics = two   \lyricsto aligned \wordsB
+      \context Lyrics = three \lyricsto aligned \wordsC
+      \context Lyrics = four  \lyricsto aligned \wordsD
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f

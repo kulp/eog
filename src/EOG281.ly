@@ -89,6 +89,8 @@ notesBass = {
 }
 }
 
+notesAlign = \notesAlto
+
 wordsA = \lyricmode {
 \set stanza = "1."
 
@@ -148,11 +150,11 @@ In Thine e -- ter -- nal glo -- ry!
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 11) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
+      \context NullVoice = aligned { \voiceOne << \notesAlign >> }
+      \context Lyrics = one   \lyricsto aligned \wordsA
+      \context Lyrics = two   \lyricsto aligned \wordsB
+      \context Lyrics = three \lyricsto aligned \wordsC
+      \context Lyrics = four  \lyricsto aligned \wordsD
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f

@@ -92,6 +92,22 @@ notesBass = {
 }
 }
 
+notesAlign = {
+\global
+\relative c' {
+
+  c4. c8 c4 c | c c c c |
+  c4. c8 c4 ~ c | c2 c |
+  c4. c8 c4 c | c4. c8 c4 c |
+  c4 c c c | c1 |
+  c4. c8 c4 c | c4. c8 c4 c |
+  c4. c8 c4 c | c2 ~ c |
+  c4 c c c | c c c c |
+  c4 c c4. c8 | c1 |
+
+}
+}
+
 wordsA = \lyricmode {
 \set stanza = "1."
 
@@ -155,11 +171,11 @@ His, that I am there.
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 11) \notesSoprano \notesAlto
-      \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
-      \context Lyrics = one   \lyricsto sopranos \wordsA
-      \context Lyrics = two   \lyricsto sopranos \wordsB
-      \context Lyrics = three \lyricsto sopranos \wordsC
-      \context Lyrics = four  \lyricsto sopranos \wordsD
+      \context NullVoice = aligned { \voiceOne << \notesAlign >> }
+      \context Lyrics = one   \lyricsto aligned \wordsA
+      \context Lyrics = two   \lyricsto aligned \wordsB
+      \context Lyrics = three \lyricsto aligned \wordsC
+      \context Lyrics = four  \lyricsto aligned \wordsD
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
