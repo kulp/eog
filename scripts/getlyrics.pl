@@ -90,6 +90,7 @@ sub collapse_whitespace
 {
     (my $line = shift) =~ s/\s+/ /g;
     $line =~ s/\b([–—])(\s)\b/$2$1$2/g; # symmetric spacing around dashes
+    $line =~ s/\b([–—])$/ $1/g; # insert space before end of line
     return $line;
 }
 
