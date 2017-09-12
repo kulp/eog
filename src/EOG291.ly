@@ -9,7 +9,7 @@
   hymnnumber = "291"
   title = "Glory, Glory Everlasting"
   tunename = "Melbourne"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "T. Kelly"
   composer = "W. L. Viner"
   tagline = ##f

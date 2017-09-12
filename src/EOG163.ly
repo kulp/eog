@@ -9,7 +9,7 @@
   hymnnumber = "163"
   title = "Guide Us, O Thou Gracious Saviour"
   tunename = "Mannheim"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "W. Williams"
   composer = "From Friedrich Filitz"
   tagline = ##f

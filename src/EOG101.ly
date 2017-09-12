@@ -8,7 +8,7 @@
   hymnnumber = "101"
   title = "Look, Thou Lost One, to the Saviour"
   tunename = "Look Ye Saints"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = ""
   composer = "Arr. by George C. Stebbins"
   tagline = ##f

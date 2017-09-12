@@ -8,7 +8,7 @@
   hymnnumber = "30"
   title = "Passing Onward, Quickly Passing"
   tunename = "Zion"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 4. 7. 4. 7." % original has 8. 7. 8. 7. 4. 7.
   poet = ""
   composer = "Dr. T. Hastings"
   tagline = ##f

@@ -7,7 +7,7 @@
   hymnnumber = "236"
   title = "Lo, He Comes, from Heaven Descending"
   tunename = "Harwell"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "C. Wesley"
   composer = "L. Mason"
   tagline = ##f

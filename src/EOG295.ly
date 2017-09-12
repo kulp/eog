@@ -10,7 +10,7 @@
   hymnnumber = "295"
   title = "Hark! The Voice of Jesus Calling"
   tunename = "Evening Prayer"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "A Midlane"
   composer = ""
   tagline = ##f

@@ -9,7 +9,7 @@
   hymnnumber = "215"
   title = "Happy They Who Trust in Jesus"
   tunename = "Segur"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "T. Kelly"
   composer = "J. P. Holbrook, 1822 -"
   tagline = ##f

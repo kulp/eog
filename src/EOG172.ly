@@ -8,7 +8,7 @@
   hymnnumber = "172"
   title = "Lamb of God, We Bow Before Thee"
   tunename = "Rousseau"
-  meter = "8. 7. 8. 7. 4. 7."
+  meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "Elizabeth Darkey"
   composer = "J. J. Rousseau"
   tagline = ##f
