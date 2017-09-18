@@ -8,7 +8,7 @@
   hymnnumber = "40"
   title = "The Gospel of Thy Grace"
   tunename = ""
-  meter = "6. 6. 6. 6. 8. 8."
+  meter = "6. 6. 6. 6. 8. 8. 8." % original has 6. 6. 6. 6. 8. 8.
   poet = "A. T. Pierson"
   composer = "James McGranahan"
   tagline = ##f

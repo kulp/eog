@@ -11,7 +11,7 @@
   hymnnumber = "153"
   title = "Jesus! Life-Giving Sound"
   tunename = "Lenox"
-  meter = "6. 6. 6. 6. 8. 8."
+  meter = "6. 6. 6. 6. 8. 8. 8." % original has 6. 6. 6. 6. 8. 8.
   poet = "C. Wesley"
   composer = "Lewis Edson"
   tagline = ##f

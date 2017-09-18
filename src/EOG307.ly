@@ -10,7 +10,7 @@
   hymnnumber = "307"
   title = "How Many Children Say"
   tunename = "Lischer"
-  meter = "6. 6. 6. 6. 8. 8."
+  meter = "6. 6. 6. 6. 8. 8. 8." % original has 6. 6. 6. 6. 8. 8.
   poet = ""
   composer = "L. Mason, Arr."
   tagline = ##f
