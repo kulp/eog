@@ -11,7 +11,7 @@
   hymnnumber = "126"
   title = "There’s a Voice That Is Calling"
   tunename = "Sweet Bye and Bye"
-  meter = "9. 9. 9. 9. Anapaestic Irr." % from Little Flock
+  meter = "P. M." % Little Flock has 9. 9. 9. 9. Anapaestic Irr.
   poet = "Anon."
   composer = "J. P. Webster"
   tagline = ##f
