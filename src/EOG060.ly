@@ -1,10 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
-  %page-count = ##f
 }
 
 \header{
@@ -12,7 +8,7 @@
   hymnnumber = "60"
   title = "All Ye That Pass By"
   tunename = "Harwich"
-  meter = "11. 12. 11. 12."
+  meter = "10. 11. 10. 11." % original has extra syllable in each line
   poet = "C. Wesley"
   composer = "B. Milgrove"
   tagline = ##f

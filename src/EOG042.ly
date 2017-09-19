@@ -8,7 +8,7 @@
   hymnnumber = "42"
   title = "The Great Physician"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M." % like 8. 7. 8. 7. with Refrain, but iambic
   poet = "Wm. Hunter"
   composer = "Arr. by J. H. Stockton"
   tagline = ##f

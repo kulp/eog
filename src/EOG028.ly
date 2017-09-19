@@ -8,7 +8,7 @@
   hymnnumber = "28"
   title = "Oh, What a Saviour Is Jesus the Lord!"
   tunename = "Joyfully"
-  meter = "10. 10. 10. 10. Dactylic"
+  meter = "6—10s. Dactylic" % original has 4—10s. Dactylic
   poet = "A. Midlane"
   composer = ""
   tagline = ##f

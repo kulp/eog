@@ -8,7 +8,7 @@
   hymnnumber = "158"
   title = "Come, Let Us Sing the Matchless Worth"
   tunename = "Sussex"
-  meter = "8. 8. 6. D."
+  meter = "8. 8. 6. 8. 8. 6. 4." % original has 8. 8. 6. D.
   poet = "S. Medley"
   composer = "Anon."
   tagline = ##f

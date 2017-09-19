@@ -12,7 +12,7 @@
   hymnnumber = "70"
   title = "Christ Is Coming, Oh Be Ready"
   tunename = "Laßt mich gehen"
-  meter = "8. 7. 8. 7."
+  meter = "8. 7. 8. 7. 7." % original has 8. 7. 8. 7.
   poet = "Mrs. A. H. Rule"
   composer = "K. Voigtlander"
   tagline = ##f

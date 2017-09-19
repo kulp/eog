@@ -10,7 +10,7 @@
   hymnnumber = "152"
   title = "Brightness of the Eternal Glory"
   tunename = "Hamilton"
-  meter = "8. 7. 8. 7."
+  meter = "8. 7. 8. 7. 7." % original has 8. 7. 8. 7.
   poet = "R. Robinson"
   composer = "Anon."
   tagline = ##f

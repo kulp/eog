@@ -11,7 +11,7 @@
   hymnnumber = "7"
   title = "My Hope on Nothing Less Is Built"
   tunename = "Foundation"
-  meter = "6—8s."
+  meter = "L. M. with Refrain" % original has 6—8s.
   poet = "Edward Mote"
   composer = "W. B. Bradbury"
   tagline = ##f

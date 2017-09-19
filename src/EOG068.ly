@@ -10,7 +10,7 @@
   hymnnumber = "68"
   title = "Christ Is the Saviour of Sinners"
   tunename = "Showers of Blessing"
-  meter = "P. M."
+  meter = "P. M." % like 8. 7. 8. 7. with Refrain, but dactylic
   poet = "H. Wreford"
   composer = "J. McGranahan"
   tagline = ##f

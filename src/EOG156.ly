@@ -8,7 +8,7 @@
   hymnnumber = "156"
   title = "Child of God, by Christ’s Salvation"
   tunename = ""
-  meter = "8. 7. 8. 7."
+  meter = "8. 7. 8. 7. D." % original has 8. 7. 8. 7.
   poet = "H. Lyte"
   composer = "E. Gebhart"
   tagline = ##f

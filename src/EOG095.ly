@@ -8,7 +8,7 @@
   hymnnumber = "95"
   title = "I Have a Glorious Saviour"
   tunename = "Beneath the Cross of Jesus"
-  meter = "7. 6. 8. 6. 8. 6. 8. 6."
+  meter = "7. 6. 8. 6. 8. 6. 8. 6." % arguably should be C. M. D.
   poet = "Charlotte Gipps"
   composer = "Ira D. Sankey"
   tagline = ##f
