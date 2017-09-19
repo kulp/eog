@@ -11,7 +11,7 @@
   hymnnumber = "302"
   title = "The Bible Tells Us Jesus Came"
   tunename = "Clark"
-  meter = "C. M."
+  meter = "8. 6. 8. 6. 6." % original has C. M.
   poet = "Clark"
   composer = "Arr. by R. B. Robertson"
   tagline = ##f

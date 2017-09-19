@@ -13,7 +13,7 @@
   hymnnumber = "361"
   title = "There Is a Happy Land"
   tunename = "Happy Land" % similar to EOG056
-  meter = "6. 4. 6. 4. 6. 7. 6. 4."
+  meter = "6. 4. 6. 4. 6. 6. 6. 4." % original has 6. 4. 6. 4. 6. 7. 6. 4.
   poet = "Andrew Young"
   composer = ""
   tagline = ##f

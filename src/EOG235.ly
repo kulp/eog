@@ -7,7 +7,7 @@
   hymnnumber = "235"
   title = "Lift Up Your Heads, Eternal Gates"
   tunename = ""
-  meter = "8. 7. 8. 7. D. Iambic"
+  meter = "8. 7. 8. 7. Iambic with Refrain" % original has 8. 7. 8. 7. D. Iambic
   poet = "E. L. B."
   composer = "C. L."
   tagline = ##f

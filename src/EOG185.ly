@@ -8,7 +8,7 @@
   hymnnumber = "185"
   title = "On His Father’s Throne Is Seated"
   tunename = ""
-  meter = "8. 7. 8. 7. 12. 7." % original has 8. 7. 8. 7. 4. 7
+  meter = "8. 7. 8. 7. 8. 4. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "H. K. Burlingham"
   composer = "T. Olivers"
   tagline = ##f

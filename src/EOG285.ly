@@ -10,7 +10,7 @@
   hymnnumber = "285"
   title = "Well May We Sing, with Triumph Sing"
   tunename = "Antioch"
-  meter = "C. M."
+  meter = "8. 6. 8. 6. 6. 6." % original has C. M.
   poet = "G. V. Wigram"
   composer = "Arr. from Handel"
   tagline = ##f

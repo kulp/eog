@@ -12,7 +12,7 @@
   hymnnumber = "339"
   title = "I Love to Sing of Jesus"
   tunename = "Hora Novissima"
-  meter = "7. 6. 7. 6. D."
+  meter = "7. 6. 7. 6. D. with Refrain" % or 7. 6. 7. 6. 7. 6. D.
   poet = "R. D. Edwards"
   composer = "Arr. from Rossini"
   tagline = ##f

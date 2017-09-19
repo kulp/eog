@@ -10,7 +10,7 @@
   hymnnumber = "260"
   title = "Precious Word of Deepest Meaning"
   tunename = ""
-  meter = "8. 7. 8. 7. D."
+  meter = "8. 7. 8. 7. 8. 7. 8. 7. 7." % original has 8. 7. 8. 7. D.
   poet = ""
   composer = "From Mozart"
   tagline = ##f

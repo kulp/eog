@@ -9,7 +9,7 @@
   hymnnumber = "77"
   title = "Come, Ye Sinners, Poor and Needy"
   tunename = "Caersalem"
-  meter = "8. 7. 8. 7. 12. 7." % original has 8. 7. 8. 7. 4. 7
+  meter = "8. 7. 8. 7. 8. 4. 7." % original has 8. 7. 8. 7. 4. 7
   poet = "Joseph Hart"
   composer = "Robert Edwards"
   tagline = ##f

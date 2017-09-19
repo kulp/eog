@@ -10,7 +10,7 @@
   hymnnumber = "265"
   title = "We Joy in Our God"
   tunename = "Houghton"
-  meter = "10. 10. 11. 11."
+  meter = "11. 11. 11. 11." % original has 10. 10. 11. 11.
   poet = "Yerburg"
   composer = "Dr. Gauntlett"
   tagline = ##f

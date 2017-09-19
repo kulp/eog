@@ -11,7 +11,7 @@
   hymnnumber = "316"
   title = "Children Once to Israel’s King"
   tunename = "Hendon"
-  meter = "7. 7. 7. 7."
+  meter = "7. 7. 7. 7. 7." % original has 7. 7. 7. 7.
   poet = ""
   composer = "Dr. Malan"
   tagline = ##f

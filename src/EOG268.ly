@@ -8,7 +8,7 @@
   hymnnumber = "268"
   title = "There Is a Stream of Precious Blood"
   tunename = "Cowper"
-  meter = "C. M."
+  meter = "C. M. with Refrain" % or  or 8. 6. 8. 6. 6. 6. 8. 6. ; original has C. M.
   poet = "Wm. Cowper"
   composer = "L. Mason"
   tagline = ##f

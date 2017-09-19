@@ -8,7 +8,7 @@
   hymnnumber = "358"
   title = "Tell Me the Story of Jesus"
   tunename = ""
-  meter = "8. 7. 8. 7. with Refrain"
+  meter = "8. 7. 8. 7. 8. 7. D." % original has 8. 7. 8. 7. with Refrain
   poet = "Fanny J. Crosby"
   composer = "Ira D. Sankey"
   tagline = ##f

@@ -9,7 +9,7 @@
   hymnnumber = "229"
   title = "It Passeth Knowledge"
   tunename = ""
-  meter = "10. 10. 10. 4."
+  meter = "10. 10. 10. 10. 4." % original has 10. 10. 10. 4.
   poet = "Mary Shekleton"
   composer = "Ira D. Sankey"
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "314"
   title = "Dear Children, Have You Ever Heard?"
   tunename = "Cambridge" % not the same as EOG283's Cambridge in S. M.
-  meter = "C. M."
+  meter = "8. 6. 8. 6. 6. 6." % original has C. M.
   poet = ""
   composer = "John Randall"
   tagline = ##f

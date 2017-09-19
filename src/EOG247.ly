@@ -7,7 +7,7 @@
   hymnnumber = "247"
   title = "O Gracious Saviour"
   tunename = ""
-  meter = "C. M. with Refrain"
+  meter = "C. M. with Refrain" % or 8. 6. 8. 6. 6. 6. 8. 6.
   poet = "G. Cutting and A. Mace"
   composer = ""
   tagline = ##f
