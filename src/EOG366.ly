@@ -10,7 +10,7 @@
   hymnnumber = "366"
   title = "We Are Little Children, Very Young Indeed"
   tunename = "Portbrush"
-  meter = "11. 11. 11. 12."
+  meter = "6. 5. 6. 5. D." % original has 11. 11. 11. 12.
   poet = "Fanny J. Crosby"
   composer = "H. P. Main"
   tagline = ##f

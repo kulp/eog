@@ -36,7 +36,7 @@
   hymnnumber = "370"
   title = "Yield Not to Temptation"
   tunename = ""
-  meter = "11. 11. 11. 12. with Refrain"
+  meter = "6. 5. 6. 5. D. with Refrain" % original has 11. 11. 11. 12. with Refrain
   poet = "H. R. Palmer"
   composer = "H. R. Palmer"
   tagline = ##f
