@@ -38,7 +38,7 @@
   hymnnumber = "75"
   title = "I Gave My Life for Thee"
   tunename = "Gift"
-  meter = "6. 6. 6. 6. 6. 6."
+  meter = "6. 6. 6. 6. D." % original has 6. 6. 6. 6. 6. 6.
   poet = "F. R. Havergal"
   composer = "P. P. Bliss"
   tagline = ##f
