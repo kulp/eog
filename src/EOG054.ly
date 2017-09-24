@@ -121,7 +121,7 @@ We know \mon there’s a \moff bright \mon and a \moff glo -- rious home, \bar "
 A -- way \mon in the \moff heav -- ens high, \bar "."
 Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell: \bar "."
 \mon But will \moff you be there, and I? \bar "."
-Will you be there, and I? \bar "."
+Will you be there, and I? __ \bar "."
 Will you be there, and I? \bar "."
 Where all \mon the re -- \moff deemed \mon shall \moff with Je -- sus dwell; \bar "."
 \mon But will \moff you be there, and I? \bar "."
@@ -135,7 +135,7 @@ In robes of white, \mon o’er the \moff street of gold,
 Be -- neath a cloud -- less sky,
 They’ll walk \mon in the light of their Fa -- ther’s smile; \moff
 \mon But will \moff you be there, and I?
-Will you be there, and I?
+Will you be there, and I? __
 Will you be there, and I?
 They’ll walk \mon in the light of their Fa -- ther’s smile; \moff
 \mon But will \moff you be there, and I?
@@ -149,7 +149,7 @@ From ev -- ’ry king -- \mon dom of \moff earth they come
 To join \mon the tri -- \moff um -- phal cry,
 \mon Sing -- ing, \moff “Wor -- \mon thy the \moff Lamb that once was slain”;
 \mon But will \moff you be there, and I?
-Will you be there, and I?
+Will you be there, and I? __
 Will you be there, and I?
 \mon Sing -- ing, \moff “Wor -- \mon thy the \moff Lamb that once was slain”;
 \mon But will \moff you be there, and I?
@@ -163,7 +163,7 @@ wordsD = \lyricmode {
 \mon Who for \moff sin -- ners once did die,
 \mon When He gath -- ers His own \moff in that bright home,
 Then you’ll be there, and I.
-Then you’ll be there, and I;
+Then you’ll be there, and I; __
 Then you’ll be there, and I;
 \mon When He gath -- ers His own \moff in that bright home,
 Then you’ll be there, and I.
@@ -177,7 +177,7 @@ If we are shel -- tered by the cross,
 And thro’ the blood bro’t nigh,
 Our ut -- most gain we’ll count but loss,
 Since you’ll be there, and I.
-Since you’ll be there, and I;
+Since you’ll be there, and I; __
 Since you’ll be there, and I;
 Our ut -- most gain we’ll count but loss,
 Since you’ll be there, and I.
