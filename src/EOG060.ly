@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  system-count = #(cond (is-eogsized 4) (#t #f))
 }
 
 \header{
@@ -92,9 +93,9 @@ wordsA = \lyricmode {
 
 % original has \bar "." in middles of first and third lines
 All ye that pass by, to Je -- sus draw nigh; \bar "." \eogbreak
-To you is it noth -- ing that Je -- sus should die? \bar "." \eogbreak
-Our ran -- som, our peace, our sure -- ty He is; \bar "." \eogbreak
-Come, see if there ev -- er was sor -- row like His. \bar "." \eogbreak
+To you is it noth -- ing that Je -- sus should die? \bar "."
+Our ran -- som, our peace, our sure -- ty He is; \bar "."
+Come, see if there ev -- er was sor -- row like His. \bar "."
 
 }
 
