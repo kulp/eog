@@ -51,6 +51,7 @@ print
         a({ -href => "http://www.lilypond.org/" }, "LilyPond") . ",",
         "and source files are",
         a({ -href => "https://github.com/kulp/eog" }, "available on GitHub") . "."),
+    p("For information on obtaining these hymns in various print formats, contact", a({ -href => 'mailto:editor@whosefaithfollow.org' }, 'editor@whosefaithfollow.org')),
     p("Playlists for all available MP3s:", map { a({ -href => "$_" }, $_), " " } @lists),
     table({ -class => "sortable", -id => "main" },
         thead(
