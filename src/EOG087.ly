@@ -1,8 +1,6 @@
 % expect two warnings about pages out of bounds
 #(ly:expect-warning "number of pages is out of bounds")
 #(ly:expect-warning "number of pages is out of bounds")
-#(ly:expect-warning "ragged-bottom was specified, but page must be compressed")
-#(ly:expect-warning "page 2 has been compressed")
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
