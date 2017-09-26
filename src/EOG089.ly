@@ -208,13 +208,13 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line { %\column {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } } %\combine \null \vspace #0.4
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
-  \hspace #0.1
-} } %}
+\markup { \fill-line {
+  \null
+  \line{ \bold 4 \column { \wordsD } }
+  \null
+  \line{ \bold 5 \column { \wordsE } }
+  \null
+} }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
