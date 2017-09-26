@@ -198,7 +198,7 @@ wordsG = \markuplist {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-  \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #0.4
+  \line{ \bold 7 \column { \wordsG } }
   \vspace #1
 } } }
 

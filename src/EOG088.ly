@@ -203,7 +203,7 @@ wordsH = \markuplist {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #1
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #1
   \line{ \bold 7 \column { \wordsG } } \combine \null \vspace #1
-  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #1
+  \line{ \bold 8 \column { \wordsH } }
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

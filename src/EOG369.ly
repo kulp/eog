@@ -244,7 +244,7 @@ headB = \markuplist {
   \line{ \column { \headB } } \combine \null \vspace #1
   \column {
     \line{ \bold 1 \column { \extraA } } \combine \null \vspace #0.5
-    \line{ \bold 2 \column { \extraB } } \combine \null \vspace #0.5
+    \line{ \bold 2 \column { \extraB } }
   }
 } } }
 

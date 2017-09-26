@@ -170,7 +170,7 @@ wordsE = \markuplist {
 \markup { \fill-line { \column {
   \raise #3
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } } %\combine \null \vspace #0.4
+  \line{ \bold 5 \column { \wordsE } }
 } } }
 
 \noPageBreak
