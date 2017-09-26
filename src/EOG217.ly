@@ -204,19 +204,19 @@ wordsJ = \markuplist {
 \noPageBreak
 
 \markup { \fill-line {
-  \hspace #0.1
+  \null
   \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
   \line{ \bold 7 \column { \wordsG } }
   }
-  \hspace #0.1
+  \null
   \column {
   \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
   \line{ \bold 9 \column { \wordsI } } \combine \null \vspace #0.4
   \line{ \bold 10 \column { \wordsJ } }
   }
-  \hspace #0.1
+  \null
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
