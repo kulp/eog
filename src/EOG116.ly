@@ -164,10 +164,12 @@ wordsE = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line { \column {
+\markup { \fill-line { \vcenter \column {
+  \vspace #1
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #1
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #1
   \vspace #3
+  \vspace #1
 } } }
 
 

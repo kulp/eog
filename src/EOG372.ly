@@ -152,9 +152,11 @@ wordsE = \markuplist {
   } #}))
 }
 
-\markup { \fill-line { \column {
+\markup { \fill-line { \vcenter \column {
+  \vspace #1
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
   \line{ \bold 5 \column { \wordsE } }
+  \vspace #1
   \vspace #1
 } } }
 
