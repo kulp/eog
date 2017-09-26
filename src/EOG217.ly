@@ -203,20 +203,24 @@ wordsJ = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
-  \null
-  \column {
-  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
-  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-  \line{ \bold 7 \column { \wordsG } }
+\markup { \vcenter \column {
+  \vspace #1
+  \fill-line {
+    \null
+    \column {
+    \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+    \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+    \line{ \bold 7 \column { \wordsG } }
+    }
+    \null
+    \column {
+    \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
+    \line{ \bold 9 \column { \wordsI } } \combine \null \vspace #0.4
+    \line{ \bold 10 \column { \wordsJ } }
+    }
+    \null
   }
-  \null
-  \column {
-  \line{ \bold 8 \column { \wordsH } } \combine \null \vspace #0.4
-  \line{ \bold 9 \column { \wordsI } } \combine \null \vspace #0.4
-  \line{ \bold 10 \column { \wordsJ } }
-  }
-  \null
+  \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

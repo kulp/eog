@@ -172,18 +172,22 @@ wordsG = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
-  \null
-  \column {
-  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
-  \line{ \bold 5 \column { \wordsE } }
+\markup { \vcenter \column {
+  \vspace #0.2 % not enough space for \vspace #1
+  \fill-line {
+    \null
+    \column {
+    \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+    \line{ \bold 5 \column { \wordsE } }
+    }
+    \null
+    \column {
+    \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
+    \line{ \bold 7 \column { \wordsG } }
+    }
+    \null
   }
-  \null
-  \column {
-  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
-  \line{ \bold 7 \column { \wordsG } }
-  }
-  \null
+  \vspace #0.2 % not enough space for \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

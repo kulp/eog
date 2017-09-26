@@ -164,17 +164,15 @@ wordsF = \markuplist {
   } #}))
 }
 
-\markup { \fill-line {
-  \null
-  \column {
-    \line{ \bold 5 \column { \wordsE } }
+\markup { \column {
+  \fill-line { \vcenter \column {
     \vspace #1
+    \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
     \line{ \bold 6 \column { \wordsF } }
-  }
-  \null
+    \vspace #1
+  } }
+  \fill-line { \line { Alternate tune: No. 46. } }
 } }
-
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 46. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
