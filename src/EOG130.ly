@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-count = #(cond (is-eogsized 6) (#t #f))
+  system-count = #(cond (is-eogsized 7) (#t #f))
   systems-per-page = #(cond (is-eogsized 5) (#t #f))
 }
 
@@ -123,7 +123,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-Praise the Lord! praise the Lord! let the earth hear His voice! \bar "."
+Praise the Lord! praise the Lord! let the earth hear His voice! \bar "." \eogbreak
 Praise the Lord! praise the Lord! let His peo -- ple re -- joice! \bar "."
 Oh, come to the Fa -- ther, thro’ Je -- sus the Son, \bar "."
 And give Him the glo -- ry, great things He hath done! \bar "."
