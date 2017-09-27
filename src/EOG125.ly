@@ -1,9 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  system-system-spacing.padding = 11
+  ragged-bottom = ##t
+  system-count = #(cond (is-eogsized 2) (#t #f))
 }
 
 \header{
@@ -157,14 +156,13 @@ wordsE = \markuplist {
   } #}))
 }
 
-\noPageBreak
-
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
+\markup { \column {
+  \fill-line { \vcenter \column {
+    \vspace #1
+    \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
+    \line{ \bold 5 \column { \wordsE } }
+    \vspace #1
+  } }
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

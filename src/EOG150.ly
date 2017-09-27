@@ -1,13 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
-  systems-per-page = ##f
-  % shrink space before markup verses to fit next hymn on same page
-  score-markup-spacing.padding = 2
-  score-markup-spacing.basic-distance = 2
-  system-system-spacing.padding = 2
-  system-system-spacing.basic-distance = 2
+  ragged-bottom = ##t
 }
 
 \header{
@@ -156,14 +150,16 @@ wordsE = \markuplist {
   } #}))
 }
 
-\noPageBreak
-
-\markup { \fill-line {
-  \hspace #0.1
-  \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
-  \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
+\markup { \vcenter \column {
+  \vspace #0.5 % not enough space for \vspace #1
+  \fill-line {
+    \null
+    \line{ \bold 4 \column { \wordsD } }
+    \null
+    \line{ \bold 5 \column { \wordsE } }
+    \null
+  }
+  \vspace #0.5 % not enough space for \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
