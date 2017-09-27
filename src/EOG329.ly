@@ -1,9 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  score-markup-spacing.padding = 3
-  score-markup-spacing.basic-distance = 3
-  oddFooterMarkup = \markup { \vspace #1.2 \fill-line { \on-the-fly \first-page "Alternate tune: No. 328." } }
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 328." } }
 }
 
 \header{
@@ -189,14 +187,16 @@ wordsE = \markuplist {
   } #}))
 }
 
-\noPageBreak
-
-\markup { \fill-line {
-  \null
-  \line{ \bold 4 \column { \wordsD } }
-  \null
-  \line{ \bold 5 \column { \wordsE } }
-  \null
+\markup { \vcenter \column {
+  \vspace #1
+  \fill-line {
+    \null
+    \line{ \bold 4 \column { \wordsD } }
+    \null
+    \line{ \bold 5 \column { \wordsE } }
+    \null
+  }
+  \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

@@ -209,14 +209,16 @@ wordsF = \markuplist {
   } #}))
 }
 
-\noPageBreak
-
-\markup { \fill-line {
-  \null
-  \line{ \bold 5 \column { \wordsE } }
-  \null
-  \line{ \bold 6 \column { \wordsF } }
-  \null
+\markup { \vcenter \column {
+  \vspace #0.5 % not enough space for \vspace #1
+  \fill-line {
+    \null
+    \line{ \bold 5 \column { \wordsE } }
+    \null
+    \line{ \bold 6 \column { \wordsF } }
+    \null
+  }
+  \vspace #0.5 % not enough space for \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

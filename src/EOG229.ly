@@ -1,8 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  score-markup-spacing.padding = 2
-  score-markup-spacing.basic-distance = 2
 }
 
 \header{
@@ -187,9 +185,7 @@ wordsG = \markuplist {
   } #}))
 }
 
-\noPageBreak
-
-\markup { \fill-line {
+\markup { \vcenter \fill-line {
   \null
   \column {
   \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #1
