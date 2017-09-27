@@ -182,11 +182,11 @@ wordsE = \markuplist {
 }
 
 \markup { \fill-line {
-  \hspace #0.1
+  \null
   \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
+  \null
   \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
+  \null
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

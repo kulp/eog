@@ -150,11 +150,11 @@ wordsE = \markuplist {
 }
 
 \markup { \fill-line {
-  \hspace #0.1
+  \null
   \line{ \bold 4 \column { \wordsD } }
-  \hspace #0.1
+  \null
   \line{ \bold 5 \column { \wordsE } }
-  \hspace #0.1
+  \null
 } }
 
 \noPageBreak \markup { \vspace #2 \fill-line { "Alternate tune: No. 169." } }
