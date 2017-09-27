@@ -18,8 +18,6 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=32 }
 
-patternAA = { }
-
 global = {
   \include "common/overrides.ily"
   \override Staff.TimeSignature.style = #'numbered

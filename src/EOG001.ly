@@ -18,14 +18,6 @@
 ta = { \tempo 4=90 }
 tb = { \tempo 4=45 }
 
-patternAA = { c4 c4 | c4. c8 c4 c4 | c4( c4) } % Line 1 soprano / alto / bass, Line 3 soprano
-patternAB = { c4 c4 | c4. c8 c4 c4 | c2 } % Line 1 tenor, Line 2 soprano, Line 3 tenor, Line 4 soprano / alto / tenor
-patternAC = { c4 c8[ c8 ] | c4. c8 c4 c4 | c2 } % Refrain line 4 soprano
-
-patternBA = { c4 c4 | c4 c4 c4 c4 | c2 } % Line 2 alto, Line 3 alto / bass, Line 4 bass, Refrain line 1 / 2 tenor / bass, Refrain line 3 tenor, Refrain line 4 bass
-patternBB = { c4 c4 | c4 c4 c4 c4 | c4( c4) } % Refrain line 1 / 2 soprano / alto, Refrain line 3 bass
-patternBC = { c4. c8 | c4 c4 c4 c4 | c2 } % Refrain line 3 soprano
-
 global = {
   \include "common/overrides.ily"
   \override Staff.TimeSignature.style = #'numbered
