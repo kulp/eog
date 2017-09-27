@@ -2,9 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = ##f
   system-count = #(cond (is-eogsized 2) (#t #f))
-  system-system-spacing.padding = 11
 }
 
 \header{
@@ -164,16 +162,14 @@ wordsF = \markuplist {
   } #}))
 }
 
-\markup { \vcenter \column {
-  \vspace #1
-  \fill-line {
-    \null
-    \line{ \bold 5 \column { \wordsE } }
-    \null
+\markup { \column {
+  \fill-line { \vcenter \column {
+    \vspace #1
+    \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
     \line{ \bold 6 \column { \wordsF } }
-    \null
-  }
-  \vspace #1
+    \vspace #1
+  } }
+  \fill-line { \line { Alternate tune: No. 44. } }
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

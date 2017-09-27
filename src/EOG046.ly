@@ -4,8 +4,6 @@
   ragged-bottom = ##t
   page-count = #(cond (is-eogsized 2) (#t #f))
   systems-per-page = #(cond (is-eogsized 1) (#t #f))
-  score-markup-spacing.basic-distance = 3
-  score-markup-spacing.padding = 3
 }
 
 \header{
@@ -179,12 +177,16 @@ wordsF = \markuplist {
 
 \noPageBreak
 
-\markup { \fill-line {
-  \null
-  \line{ \bold 5 \column { \wordsE } }
-  \null
-  \line{ \bold 6 \column { \wordsF } }
-  \null
+\markup { \vcenter \column {
+  \vspace #1
+  \fill-line {
+    \null
+    \line{ \bold 5 \column { \wordsE } }
+    \null
+    \line{ \bold 6 \column { \wordsF } }
+    \null
+  }
+  \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
