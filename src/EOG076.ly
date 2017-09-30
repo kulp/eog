@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  oddFooterMarkup = \markup { \vspace #1 \fill-line { \on-the-fly \first-page "Alternate tune: No. 6." } }
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 6." } }
 }
 
 \header{

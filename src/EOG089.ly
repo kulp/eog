@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  oddFooterMarkup = \markup { \vspace #1 \fill-line { \on-the-fly \first-page "Alternate tune: No. 64." } }
+  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 64." } }
 }
 
 \header{
