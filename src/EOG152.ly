@@ -4,6 +4,8 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   system-system-spacing.padding = 8
+  score-markup-spacing.padding = 3
+  score-markup-spacing.basic-distance = 3
 }
 
 \header{
@@ -140,7 +142,7 @@ Reigns the Na -- za -- rene a -- lone.
   } #}))
 }
 
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 2 in Supplement. } } }
+\noPageBreak \markup { \fill-line { \line { Alternate tune: No. 2 in Supplement. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
