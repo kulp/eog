@@ -11,7 +11,7 @@
   title = "The Lamb Was Slain, His Precious Blood"
   tunename = "Melita"
   meter = "6—8s."
-  poet = "G. W. Frazer"
+  poet = "George W. Frazer"
   composer = "J. B. Dykes"
   tagline = ##f
 }

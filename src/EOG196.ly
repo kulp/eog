@@ -9,7 +9,7 @@
   title = "The Lord of Life Is Risen"
   tunename = "Ostrava"
   meter = "7. 6. 7. 6. D."
-  poet = "G. W. Frazer"
+  poet = "George W. Frazer"
   composer = "Moravian Melody"
   tagline = ##f
 }

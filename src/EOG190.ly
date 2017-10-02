@@ -9,7 +9,7 @@
   title = "Saviour! Lead Us by Thy Power"
   tunename = "Nettleton"
   meter = "8. 7. 8. 7. D."
-  poet = "Wm. Williams"
+  poet = "W. Williams"
   composer = "A. Nettleton"
   tagline = ##f
 }

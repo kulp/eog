@@ -9,8 +9,8 @@
   title = "Weeping Will Not Save Me!"
   tunename = ""
   meter = "P. M."
-  poet = "Robert Lowry"
-  composer = "Robert Lowry"
+  poet = "R. Lowry"
+  composer = "R. Lowry"
   tagline = ##f
 }
 

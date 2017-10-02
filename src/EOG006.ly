@@ -12,7 +12,7 @@
   title = "“Come Unto Me”"
   tunename = ""
   meter = "10. 10. 10. 10. with Refrain"
-  poet = "Nath. Norton"
+  poet = "Nathaniel Norton"
   composer = "George C. Stebbins"
   tagline = ##f
 }

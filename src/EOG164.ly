@@ -13,7 +13,7 @@
   title = "Have I an Object, Lord, Below"
   tunename = "Mother’s Prayer"
   meter = "L. M. D."
-  poet = "G. W. Frazer"
+  poet = "George W. Frazer"
   composer = "W. S. Weeden"
   tagline = ##f
 }

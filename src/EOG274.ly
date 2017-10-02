@@ -11,7 +11,7 @@
   tunename = "Zundel"
   meter = "8. 7. 8. 7. D."
   poet = "C. Wesley"
-  composer = "John Zundel"
+  composer = "J. Zundel"
   tagline = ##f
 }
 

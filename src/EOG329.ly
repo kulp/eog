@@ -10,7 +10,7 @@
   title = "A Little Lamb Went Straying"
   tunename = "Springfield"
   meter = "7. 6. 7. 6. D."
-  poet = "Albert Midlane"
+  poet = "A. Midlane"
   composer = "J. C. F. Haeffner"
   tagline = ##f
 }
