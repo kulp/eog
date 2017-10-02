@@ -134,7 +134,7 @@ wordsB = \lyricmode {
 Once I was fool -- ish, and sin ruled my heart,
 Caus -- ing my foot -- steps from God to de -- part;
 Je -- sus hath found me, hap -- py my case;
-I now am a sin -- ner saved by grace!
+I now am a sin -- ner saved by grace! \bar "."
 
 \Refrain
 
