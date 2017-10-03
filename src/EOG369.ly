@@ -240,9 +240,9 @@ headB = \markuplist {
 }
 
 \markup { \fill-line { \vcenter \center-column {
-  \vspace #1
+  \vspace #0.8
   \line{ \column { \headA } } \combine \null \vspace #0.4
-  \line{ \column { \headB } } \combine \null \vspace #1
+  \line{ \column { \headB } } \combine \null \vspace #1.2
   \column {
     \line{ \bold 1 \column { \extraA } } \combine \null \vspace #0.5
     \line{ \bold 2 \column { \extraB } }

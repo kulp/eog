@@ -2,6 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
+  score-markup-spacing.padding = 3
+  score-markup-spacing.basic-distance = 3
 }
 
 \header{
@@ -144,7 +146,7 @@ There, ev -- er -- last -- ing rest!
   } #}))
 }
 
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 151. } } }
+\noPageBreak \markup { \fill-line { \line { Alternate tune: No. 151. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
