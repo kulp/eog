@@ -36,7 +36,7 @@ notesSoprano = {
   a8 a8 | bes4 d bes | a c a | g2
   \changePitch \patternA { f g | a a g | f } \eogbreak
   \changePitch \patternA { f a | c c bes | a }
-  a8 a8 | bes4 d bes | a f g | f2. \eogbreak
+  a8 a8 | bes4 d bes | a f g | f2. \break % verified in both eogsized and letter
 
   << s^\markup { \small \caps "Refrain" }
   { c'4 g c | a2 } >>
