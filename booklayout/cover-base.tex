@@ -1,0 +1,24 @@
+\documentclass[coverwidth=\eogcoverwidth,coverheight=\eogcoverheight,spinewidth=\eogspinewidth,bleedwidth=\eogbleedwidth,marklength=0in]{bookcover}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{cabin}
+\definecolor{Gold}{HTML}{FAFAD6}
+\definecolor{Silver}{HTML}{C0C0C0}
+\begin{document}
+\begin{bookcover}
+    \bookcovercomponent{normal}{bg whole}{\includegraphics[scale=0.1]{booklayout/leather-green-tiled}}
+    \bookcovercomponent{center}{spine}{
+        \eogspinefont\textcolor{Gold}{
+        \cabin{\textbf{\textsc{Echoes\\of\\Grace\\Hymn\\Book\\}}}}
+        \vspace{4in}
+    }
+    \bookcovercomponent{normal}{front}{
+        \vspace{2.25in}
+        \begin{center}
+        \color{Gold}
+            \setlength{\fboxrule}{2pt}
+            \fbox{\setlength{\fboxrule}{1pt}\setlength{\fboxsep}{0.22in}\framebox[3.3in]{\textcolor{Gold}{\includegraphics[scale=0.06875]{booklayout/bodoni-scan.pdf}}}}
+        \end{center}}
+\end{bookcover}
+\end{document}
+
