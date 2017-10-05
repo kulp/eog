@@ -244,6 +244,13 @@ $(COVERS): booklayout/leather-green-tiled.jpg
 booklayout/leather-green-tiled.jpg: booklayout/leather-green.jpg
 	montage $<{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x5 -geometry +0+0 $@
 
+# If an override file doesn't exist, create an empty one
+vpath override-%.ily $(addsuffix /override,$(wildcard variants/*/*))
+override-%.ily:
+	@echo "Generating empty override file $@ ..."
+	mkdir -p $(@D)
+	touch $@
+
 CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
