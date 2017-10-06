@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  \include "override/override-EOG236.ily"
 }
 
 \header{
