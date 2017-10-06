@@ -9,9 +9,6 @@ ragged-last-bottom = ##f
 print-page-number = ##f
 print-first-page-number = ##f
 
-% flag to let us more strictly control eogsized layout
-is-eogsized = ##t
-
 #(define-markup-command
     (mysubtitle layout props) ; params
     () ; param types

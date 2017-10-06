@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last = #(cond (is-eogsized #t) (#t #f))
   ragged-bottom = ##t
   \include "override/override-EOG302.ily"
 }

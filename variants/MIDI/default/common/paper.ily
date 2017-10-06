@@ -9,9 +9,6 @@ ragged-last-bottom = ##t
 print-page-number = ##f
 print-first-page-number = ##f
 
-% flag to let us more strictly control eogsized layout
-is-eogsized = ##f
-
 % dummies
 mytitle = \markup { }
 mysubtitle = \markup { }
