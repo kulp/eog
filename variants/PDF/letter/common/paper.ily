@@ -48,10 +48,8 @@ scoreTitleMarkup = \markup {
         }
       }
       \fill-line {
-        \smaller \bold \mysubtitle
-      }
-      \fill-line {
         \fromproperty #'header:poet
+        \smaller \bold \mysubtitle
         \fromproperty #'header:composer
       }
     }
