@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = #(cond (is-eogsized 5) (#t #f)) % fits neatly into 4 systems, but original has 5 systems, and the page looks empty with 4
+  \include "override/override-EOG371.ily"
 }
 
 \header{

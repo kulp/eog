@@ -4,8 +4,7 @@
   ragged-last-bottom = ##t
   % original has 5 systems on first page, one on second
   % that's a bit squashed for us
-  systems-per-page = #(cond (is-eogsized 5) (#t #f))
-  system-count = #(cond (is-eogsized 7) (#t #f))
+  \include "override/override-EOG084.ily"
 }
 
 \header{

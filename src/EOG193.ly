@@ -4,7 +4,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  page-count = #(cond (is-eogsized 1) (#t #f))
+  \include "override/override-EOG193.ily"
 }
 
 \header{

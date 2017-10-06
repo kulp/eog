@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  score-markup-spacing.basic-distance = 3
-  score-markup-spacing.padding = 3
+  \include "override/override-EOG047.ily"
 }
 
 \header{

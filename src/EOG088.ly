@@ -2,9 +2,9 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t % keep markup verses from clinging to bottom of page
-  system-count = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG088.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 3 in Supplement." } }
-  system-system-spacing.padding = 11
+  \include "override/override-EOG088.ily"
 }
 
 \header{

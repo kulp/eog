@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = #(cond (is-eogsized 5) (#t #f)) % original has five systems
+  \include "override/override-EOG335.ily"
 }
 
 \header{

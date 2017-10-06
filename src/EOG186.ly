@@ -2,12 +2,11 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-count = #(cond (is-eogsized 6) (#t #f))
-  systems-per-page = #(cond (is-eogsized 5) (#t #f))
+  \include "override/override-EOG186.ily"
   % need to reduce stretchability to compensate for `ragged-bottom` being false
   % (`ragged-last-bottom` doesn't appear to work for markups, so the markup
   % gets pulled down the page)
-  score-markup-spacing.stretchability = 1
+  \include "override/override-EOG186.ily"
 }
 
 \header{

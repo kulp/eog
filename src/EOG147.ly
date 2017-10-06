@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-count = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG147.ily"
 }
 
 \header{

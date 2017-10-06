@@ -2,10 +2,9 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = ##f
-  system-count = #(cond (is-eogsized 4) (#t #f)) % original has 3 systems
+  \include "override/override-EOG166.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 270." } }
-  score-markup-spacing.padding = 3
-  score-markup-spacing.basic-distance = 3
+  \include "override/override-EOG166.ily"
 }
 
 \header{

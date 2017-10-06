@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = #(cond (is-eogsized 5) (#t #f))
+  \include "override/override-EOG212.ily"
 }
 
 % dual-time is from http://lilypond.1069038.n5.nabble.com/multiple-timesignatures-tp25914p25915.html

@@ -3,10 +3,9 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  system-count = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG199.ily"
   % decrease system-to-system padding to fit onto page with previous score
-  system-system-spacing.padding = 2
-  system-system-spacing.basic-distance = 2
+  \include "override/override-EOG199.ily"
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {

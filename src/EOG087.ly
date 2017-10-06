@@ -5,9 +5,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  page-count = #(cond (is-eogsized 2) (#t #f))
-  system-count = #(cond (is-eogsized 5) (#t #f))
-  system-system-spacing.padding = 11
+  \include "override/override-EOG087.ily"
 }
 
 \header{

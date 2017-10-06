@@ -3,8 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   % decrease system-to-system padding to fit onto page with previous score
-  system-system-spacing.padding = 0
-  system-system-spacing.basic-distance = 0
+  \include "override/override-EOG256.ily"
 }
 
 \header{

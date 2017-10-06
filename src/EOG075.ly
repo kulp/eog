@@ -5,8 +5,7 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   % decrease system-to-system padding to fit onto page with previous score
-  system-system-spacing.padding = 0
-  system-system-spacing.basic-distance = 0
+  \include "override/override-EOG075.ily"
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {

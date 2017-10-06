@@ -4,9 +4,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  page-count = #(cond (is-eogsized 1) (#t #f))
-  system-system-spacing.padding = 0
-  system-system-spacing.basic-distance = 0
+  \include "override/override-EOG234.ily"
 }
 
 \header{

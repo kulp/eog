@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
-  system-count = #(cond (is-eogsized 6) (#t #f))
+  \include "override/override-EOG339.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 155 and 308." } }
 }
 

@@ -3,10 +3,9 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  system-count = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG161.ily"
   % decrease system-to-system padding to fit onto page with next score
-  system-system-spacing.padding = 0.5
-  system-system-spacing.basic-distance = 0.5
+  \include "override/override-EOG161.ily"
 }
 
 \header{

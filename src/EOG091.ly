@@ -4,7 +4,7 @@
   ragged-bottom = ##t
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  system-system-spacing.padding = 9
+  \include "override/override-EOG091.ily"
 }
 
 \header{

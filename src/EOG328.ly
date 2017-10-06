@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   % TODO increase intra-system spacing
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  \include "override/override-EOG328.ily"
 }
 
 \header{

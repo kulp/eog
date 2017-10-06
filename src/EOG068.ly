@@ -1,8 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  score-markup-spacing.padding = 4
-  score-markup-spacing.basic-distance = 4
+  \include "override/override-EOG068.ily"
 }
 
 \header{

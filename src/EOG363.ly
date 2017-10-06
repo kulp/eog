@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  page-count = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG363.ily"
 }
 
 \header{

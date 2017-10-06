@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-system-spacing.padding = 6
-  system-count = #(cond (is-eogsized 4) (#t #f))
+  \include "override/override-EOG145.ily"
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {

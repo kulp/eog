@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 2) (#t #f))
-  system-system-spacing.padding = 9
+  \include "override/override-EOG251.ily"
 }
 
 \header{

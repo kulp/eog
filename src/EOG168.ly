@@ -2,10 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-count = #(cond (is-eogsized 5) (#t #f))
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
-  score-markup-spacing.padding = 2
-  score-markup-spacing.basic-distance = 2
+  \include "override/override-EOG168.ily"
 }
 
 \header{

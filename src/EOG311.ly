@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  system-system-spacing.padding = 2
-  system-system-spacing.basic-distance = 2
+  \include "override/override-EOG311.ily"
 }
 
 \header{

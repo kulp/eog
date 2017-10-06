@@ -4,7 +4,7 @@
   %ragged-bottom = ##t
   %ragged-last-bottom = ##t
   %systems-per-page = ##f
-  system-count = #(cond (is-eogsized 5) (#t #f))
+  \include "override/override-EOG373.ily"
   %annotate-spacing = ##t
 }
 

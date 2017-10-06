@@ -3,8 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 3) (#t #f))
-  system-system-spacing.padding = 9
+  \include "override/override-EOG057.ily"
 }
 
 \header{

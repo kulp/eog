@@ -2,8 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  system-count = #(cond (is-eogsized 3) (#t #f))
-  page-count = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG051.ily"
 }
 
 \header{

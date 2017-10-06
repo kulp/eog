@@ -1,8 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  page-count = #(cond (is-eogsized 2) (#t #f))
-  systems-per-page = #(cond (is-eogsized 4) (#t #f))
+  \include "override/override-EOG188.ily"
 }
 
 \header{

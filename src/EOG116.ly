@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  system-count = #(cond (is-eogsized 3) (#t #f))
+  \include "override/override-EOG116.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 131." } }
 }
 

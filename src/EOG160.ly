@@ -3,10 +3,7 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   systems-per-page = ##f
-  system-system-spacing.padding = 3
-  system-system-spacing.basic-distance = 3
-  score-markup-spacing.padding = 3
-  score-markup-spacing.basic-distance = 3
+  \include "override/override-EOG160.ily"
 }
 
 \header{

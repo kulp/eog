@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
-  system-system-spacing.padding = 9
+  \include "override/override-EOG270.ily"
 }
 
 \header{

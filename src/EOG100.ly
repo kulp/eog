@@ -2,9 +2,7 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = ##f
-  system-count = #(cond (is-eogsized 3) (#t #f))
-  score-markup-spacing.padding = 3
-  score-markup-spacing.basic-distance = 3
+  \include "override/override-EOG100.ily"
 }
 
 \header{

@@ -4,8 +4,7 @@
   ragged-last-bottom = ##t
   ragged-last = ##t
   % shrink space before markup verses to fit next hymn on same page
-  score-markup-spacing.padding = 1.8
-  score-markup-spacing.basic-distance = 1.8
+  \include "override/override-EOGa06.ily"
 }
 
 \header{

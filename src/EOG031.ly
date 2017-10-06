@@ -3,7 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  systems-per-page = #(cond (is-eogsized 2) (#t #f))
+  \include "override/override-EOG031.ily"
 }
 
 \header{
