@@ -175,7 +175,7 @@ De -- mands our soul, our life, our all.
   } #}))
 }
 
-\noPageBreak \markup { \fill-line { \raise #5 \line { Alternate tune: No. 11. } } }
+\noPageBreak \markup { \fill-line { \line { Alternate tune: No. 11. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

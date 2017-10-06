@@ -152,7 +152,7 @@ In the Lamb’s high glo -- ry there.
 
 \noPageBreak
 
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 258. } } }
+\markup { \fill-line { \line { Alternate tune: No. 258. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

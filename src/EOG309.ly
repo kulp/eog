@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-bottom = ##t
+  \include "override/override-EOG309.ily"
 }
 
 \header{
@@ -144,7 +145,7 @@ And _ man -- y dear chil -- dren are gath -- er -- ing there,
   } #}))
 }
 
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 25. } } }
+\noPageBreak \markup { \fill-line { \line { Alternate tune: No. 25. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

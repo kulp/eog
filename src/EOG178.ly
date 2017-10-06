@@ -135,7 +135,7 @@ For His saints with Him shall reign_–
 
 \noPageBreak
 
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 316. } } }
+\markup { \fill-line { \line { Alternate tune: No. 316. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

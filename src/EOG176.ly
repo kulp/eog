@@ -135,7 +135,7 @@ To us His sons fore -- known.
 
 \noPageBreak
 
-\markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 254. } } }
+\markup { \fill-line { \line { Alternate tune: No. 254. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

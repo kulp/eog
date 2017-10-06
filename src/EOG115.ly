@@ -182,7 +182,7 @@ His sav -- ing power, His change -- less love.
   } #}))
 }
 
-\noPageBreak \markup { \vspace #2 \fill-line { \raise #2 \line { Alternate tune: No. 40. } } }
+\noPageBreak \markup { \fill-line { \line { Alternate tune: No. 40. } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
