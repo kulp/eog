@@ -29,7 +29,6 @@ global = {
 }
 
 patternA = { \ta c4 | c8. c16 c4 c | c8. c16 c4 }
-patternD = { \ta c4 | c8. c16 c4 c | c8. c16 \tb c4\fermata }
 patternB = { \ta c4 | c8. c16 c4 c | c2 }
 patternC = { \ta c4 | c8. c16 c4 c | c4( c) }
 
@@ -44,7 +43,7 @@ notesSoprano = {
 
   \changePitch \patternA { a | g fis e g | fis g a }
   \changePitch \patternC { d | e cis a g | g fis } \eogbreak
-  \changePitch \patternD { e | fis g a fis | b cis d }
+  \changePitch \patternA { e | fis g a fis | b cis \tb d\fermata \ta }
   \changePitch \patternB { b | a g fis e | d }
 
   \bar "|."
@@ -97,7 +96,7 @@ notesBass = {
 
   \changePitch \patternA { d | a a a a | d d d }
   \changePitch \patternB { d | a a a a | d }
-  \changePitch \patternA { a | d e fis d | g g fis }
+  \changePitch \patternA { a | d e fis d | g g fis_\fermata }
   \changePitch \patternB { g | d g a a, | d }
 
 }

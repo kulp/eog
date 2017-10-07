@@ -91,7 +91,7 @@ notesBass = {
   ees4 | ees4 ees8 ees d4 ees8 c | aes4 ees'8. ees16 ees4
   ees8[ f] | g[ ees] c c f4 aes,8 aes | bes2.
   ees8 ~ ees | ees4 ees8 ees d4 ees8 c | aes4 ees'8. ees16 ees4
-  aes,8 ~ aes | bes4 c8 c f,4 bes8 bes | bes4( ees2)
+  aes,8 ~ aes | bes4 c8 c f,4 bes8 bes | bes4( ees2_\fermata)
 
   ees4 | ees ees8 ees d4 bes8 bes | ees4 ees8. ees16 ees4
   ees8[ f] | g[ ees] c c f4 aes,8 aes | bes2.
