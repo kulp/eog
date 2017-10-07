@@ -71,7 +71,7 @@ notesAlto = {
   \changePitch \patternB { g f e | f f f f ees | d }
 
   \changePitch \patternC { f | ees d ees f | d ees d }
-  d4 | ees8 ees g f g4 g | f4. e8 \tb ees4^\fermata \ta
+  d4 | ees8 ees g f g4 g | f4. e8 \tb ees4_\fermata \ta
   \changePitch \patternC { f | f ees d f | ees g g }
   \changePitch \patternD { ees | d f f f f ees | d }
 
