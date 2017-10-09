@@ -186,6 +186,7 @@ check: book
 	perl -ne 'die $$ARGV if /^(wordsA|Refrain\b).*\{$$/../^}/ and not /\\bar/ and not /stanza/ and not /[{}]$$/ and not /^\s*$$/ and not /^\s*\\Refrain/ and not /^%/' src/*.ly
 	for f in src/EOG*.ly ; do perl -F// -lane '$$h{$$_}++ for @F; END{ die $$ARGV if $$h{"("} != $$h{")"} }' $$f ; done
 	for f in src/EOG*.ly ; do perl -F// -lane '$$h{$$_}++ for @F; END{ die $$ARGV if $$h{"["} != $$h{"]"} }' $$f ; done
+	!(grep -q '^\\line.*--' src/EOG*.ly)
 
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
