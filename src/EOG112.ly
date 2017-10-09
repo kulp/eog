@@ -18,14 +18,14 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
 
-patternAA = { c4 c8. c16 c8 c4 c8 | c4 c8. c16 c2 }
-patternAB = { c4 c8. c16 c8 c4 c8 | c4 c8. c16 c8 c4 }
+patternAA = { \ta c4 c8. c16 c8 c4 c8 | c4 c8. c16 c2 }
+patternAB = { \ta c4 c8. c16 c8 c4 c8 | c4 c8. c16 c8 c4 }
 
-patternBA = { c4 c8. c16 c8 c4. | c4 c8. c16 c4. }
+patternBA = { \ta c4 c8. c16 c8 c4. | c4 c8. c16 c4. }
 
-patternCA = { c8 | c4 c8. c16 c8 c4. | c4 c4 c2 }
+patternCA = { \ta c8 | c4 c8. c16 c8 c4. | c4 c4 c2 }
 
-patternDA = { c4 c8. c16 c8 c4. | c4 c4 c2 }
+patternDA = { \ta c4 c8. c16 c8 c4. | c4 c4 c2 }
 
 global = {
   \include "common/overrides.ily"
@@ -44,7 +44,7 @@ notesSoprano = {
   \changePitch \patternAA { g e f g c b | a c a g }
   \changePitch \patternAA { f d e f b a | g a f e }
   \changePitch \patternBA { g e f g c | d a a d }
-  \changePitch \patternCA { c | b b a g c | d b c }
+  \changePitch \patternCA { c | b b a g c | d b \tb c \fermata \ta }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternDA { g g g a g | c, d e } >>
@@ -101,7 +101,7 @@ notesBass = {
   \changePitch \patternCA { d | g g g c, c | f g c,_\fermata }
 
   \changePitch \patternDA { c c c c c | e d c }
-  \changePitch \patternDA { c c c c c | a' f e }
+  \changePitch \patternDA { c c c c c | a' f e_\fermata }
   \changePitch \patternAB { c c c c c c | f f f c c }
   \changePitch \patternCA { c | f f f c c | f g c, }
 
