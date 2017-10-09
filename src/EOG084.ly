@@ -2,8 +2,6 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  % original has 5 systems on first page, one on second
-  % that's a bit squashed for us
   \include "override/override-EOG084.ily"
 }
 
@@ -45,7 +43,7 @@ notesSoprano = {
   \changePitch \patternAA { ees g c | bes g g f ees | g f }
   \changePitch \patternAA { f e f | aes c c bes aes | aes g }
   \changePitch \patternAA { ees g bes | ees bes bes aes g | c ~ c }
-  \changePitch \patternAB { c aes c | bes g g f | ees ~ ees } \eogbreak
+  \changePitch \patternAB { c aes c | bes g g f | ees ~ ees }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternAA { bes'[ c] d | ees ees ees d c | c bes } >>

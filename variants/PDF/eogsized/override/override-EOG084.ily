@@ -1,2 +1,2 @@
 systems-per-page = 5
-system-count = 7
+system-count = 6

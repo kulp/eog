@@ -3,6 +3,7 @@
   \include "common/paper.ily"
   ragged-bottom = ##t
   systems-per-page = ##f
+  \include "override/override-EOG085.ily"
 }
 
 \header{
