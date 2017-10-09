@@ -132,6 +132,7 @@ The { \mon } rich -- es, { \moff } the rich -- es of His grace.
 
 underWordsTenor = \lyricmode {
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 
 \repeat unfold 22 \skip 4
 Re -- vealed, re -- vealed in Je -- sus’ face, __
@@ -140,6 +141,7 @@ Re -- vealed, re -- vealed in Je -- sus’ face, __
 
 underWordsBass = \lyricmode {
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 
 \repeat unfold 29 \skip 4
 face, Re -- vealed in Je -- sus’ face,

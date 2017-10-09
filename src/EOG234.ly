@@ -144,6 +144,7 @@ Where all tears are wiped a -- way.
 
 underWords = \lyricmode {
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \set stanza = \markup { \small "1." }
 
 Sav -- iour, lead me, lest I stray,

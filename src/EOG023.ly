@@ -127,6 +127,7 @@ notesBass = {
 SopranoRefrainA = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 38 { \skip 4 }
 With His blood __
 
@@ -163,6 +164,7 @@ Paid the debt, and made me free. \bar "."
 TenorRefrain = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 46 { \skip 4 }
 With His blood __ He pur -- chased me, He pur -- chased me;
 On the cross He sealed my par -- don, On the cross He sealed my par -- don,
@@ -173,6 +175,7 @@ Paid the debt and made me free, and made me free, and made me free.
 BassRefrain = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 30 { \skip 4 }
 Sing, oh, sing of my Re -- deem -- er! Sing, oh, sing of my Re -- deem -- er!
 With His blood He pur -- chased me, With His blood He pur -- chased me;

@@ -7,6 +7,7 @@
     \Lyrics
     % Make the text of lyrics a little smaller
     \override LyricText.font-size = #0.2
+    \override LyricHyphen.thickness = #0.9
     % Move lines of lyrics closer together
     \override VerticalAxisGroup.minimum-Y-extent = #'(-1 . 1)
     % Center lyrics between related staves

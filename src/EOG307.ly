@@ -150,6 +150,7 @@ The on -- ly way to en -- ter heaven.
 
 underWords = \lyricmode {
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 
 \repeat unfold 40 \skip 4
 Or Je -- sus Christ in glo -- ry see.

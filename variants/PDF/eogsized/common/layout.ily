@@ -7,6 +7,7 @@
     \Lyrics
     % Make the text of lyrics a little smaller
     \override LyricText.font-size = #0.2
+    \override LyricHyphen.thickness = #0.9
     % Center lyrics between related staves
     \override VerticalAxisGroup.staff-affinity = #CENTER
     % Keep enough space between lyrics and their notes

@@ -126,6 +126,7 @@ Refrain = \lyricmode {
 BassRefrainA = \lyricmode {
 
   \override LyricText.font-size = #-2
+  \override LyricHyphen.thickness = #0.7
   \repeat unfold 40 { \skip 4 }
   “Come un -- to Me,” “Oh come un -- to Me,”
   “Come un -- to Me, and
@@ -135,6 +136,7 @@ BassRefrainA = \lyricmode {
 TenorRefrainA = \lyricmode {
 
   \override LyricText.font-size = #-2
+  \override LyricHyphen.thickness = #0.7
   \repeat unfold 58 { \skip 4 }
   I will give, will give you rest.
   I will give, will give you rest.

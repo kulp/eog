@@ -97,6 +97,7 @@ Je -- sus loves the lit -- tle chil -- dren of the world. \bar "."
 underWordsA = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 6 { \skip 4 }
 pre -- cious chil -- dren,
 All the chil -- dren of the world
@@ -117,6 +118,7 @@ Je -- sus died for all the chil -- dren of the world.
 underWordsB = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 6 { \skip 4 }
 pre -- cious chil -- dren,
 All the chil -- dren of the world

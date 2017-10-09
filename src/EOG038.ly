@@ -147,6 +147,7 @@ Bless -- ed news to you and me. \bar "." \eogbreak
 RefrainBottomClef = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 57 { \skip 4 }
 Gos -- pel bells,
 how they ring,

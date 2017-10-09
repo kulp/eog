@@ -162,6 +162,7 @@ Till I rest in peace with Thee.
 BassRefrain = \lyricmode {
 
 \override LyricText.font-size = #-2
+\override LyricHyphen.thickness = #0.7
 \repeat unfold 36 { \skip 4 }
 near -- er, near -- er
 
