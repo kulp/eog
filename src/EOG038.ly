@@ -235,7 +235,7 @@ Which is Christ the Lord and King.”
       \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
     >>
-	\new Lyrics \with { alignAboveContext = men } \lyricsto tenors \RefrainBottomClef
+  \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \RefrainBottomClef
   >>
   \layout {
     \include "common/layout.ily"

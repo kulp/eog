@@ -35,8 +35,8 @@ notesSoprano = {
   c4 bes aes4. g8 f4 aes f ees     | aes4 c f,4. bes8 aes4 g aes2
   c4 ees ees c bes aes c bes       | c ees ees4. c8 bes4 aes bes2
   % TODO actually make MIDI output soft
-	% Used to use c4^\p here but that made only the soprano soft, and putting it
-	% in every voice resulted in too many p's.
+  % Used to use c4^\p here but that made only the soprano soft, and putting it
+  % in every voice resulted in too many p's.
   c4^\markup { \dynamic p } bes aes ees des'4. f,8 f4 ees | aes c f,4. bes8 aes4 g aes2
 
 \bar "|."

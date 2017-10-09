@@ -66,7 +66,7 @@ notesSopranoB = {
   \changePitch \patternCA { e dis e fis e e | cis' ais }
   \changePitch \patternDE { b cis b ais b | b }
 
-	\bar "."
+  \bar "."
 
 }
 }
@@ -224,7 +224,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 11) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
     >>
-	\new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
+  \new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
   >>
   \layout {
     \include "common/layout.ily"

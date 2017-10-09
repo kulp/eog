@@ -196,12 +196,12 @@ And did for sin a -- tone!
 
 TenorRefrainA = \lyricmode {
 
-	\override LyricText.font-size = #-2
-	\override LyricHyphen.thickness = #0.7
-	\repeat unfold 59 { \skip 4 }
-	for Him!
-	\repeat unfold 4 { \skip 4 }
-	for Him!
+  \override LyricText.font-size = #-2
+  \override LyricHyphen.thickness = #0.7
+  \repeat unfold 59 { \skip 4 }
+  for Him!
+  \repeat unfold 4 { \skip 4 }
+  for Him!
 
 }
 

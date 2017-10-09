@@ -184,11 +184,11 @@ Stand “in Him,” “in Him” a -- lone,
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
     >>
 
-		\new Lyrics = one
-		\new Lyrics = two
-		\new Lyrics = three
-		\new Lyrics = four
-		\new Lyrics = five
+    \new Lyrics = one
+    \new Lyrics = two
+    \new Lyrics = three
+    \new Lyrics = four
+    \new Lyrics = five
 
     \new Staff = men <<
       \set Staff.autoBeaming = ##f
@@ -197,11 +197,11 @@ Stand “in Him,” “in Him” a -- lone,
       \partcombine #'(2 . 11) \notesTenor \notesBass
     >>
 
-		\context Lyrics = one   \lyricsto sopranos \wordsA
-		\context Lyrics = two   \lyricsto sopranos \wordsB
-		\context Lyrics = three \lyricsto sopranos \wordsC
-		\context Lyrics = four  \lyricsto sopranos \wordsD
-		\context Lyrics = five  \lyricsto sopranos \wordsE
+    \context Lyrics = one   \lyricsto sopranos \wordsA
+    \context Lyrics = two   \lyricsto sopranos \wordsB
+    \context Lyrics = three \lyricsto sopranos \wordsC
+    \context Lyrics = four  \lyricsto sopranos \wordsD
+    \context Lyrics = five  \lyricsto sopranos \wordsE
   >>
   \layout {
     \include "common/layout.ily"

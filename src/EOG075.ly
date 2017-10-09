@@ -73,13 +73,13 @@ notesSoprano = {
   \changePitch \patternAA { g | g g e g | a c b }
   \changePitch \patternBB { a | g g b a b | c ~ c }
 
-	\bar ".|:-||"
-	\repeat volta 2 {
+  \bar ".|:-||"
+  \repeat volta 2 {
 
   \changePitch \patternAC { c | d d d c b | c( g) }
   \changePitch \patternBB { c | b b b a b | c ~ c }
 
-	}
+  }
 
 }
 }
@@ -93,12 +93,12 @@ notesAlto = {
   \changePitch \patternAA { e | e e c e | f a g }
   \changePitch \patternBA { f | e g f f | e ~ e }
 
-	\repeat volta 2 {
+  \repeat volta 2 {
 
   \changePitch \patternAC { e | f f f e d | e ~ e }
   \changePitch \patternBA { e | f f f f | e ~ e }
 
-	}
+  }
 
 }
 }
@@ -112,12 +112,12 @@ notesTenor = {
   \changePitch \patternAB { c | c c g c | c ~ c }
   \changePitch \patternBA { c | c e d d | c ~ c }
 
-	\repeat volta 2 {
+  \repeat volta 2 {
 
   \changePitch \patternAC { c | b b b c d | c ~ c }
   \changePitch \patternBA { c | d d d g, | g ~ g }
 
-	}
+  }
 
 }
 }
@@ -131,12 +131,12 @@ notesBass = {
   \changePitch \patternAB { c | c c c c | f ~ f }
   \changePitch \patternBA { f | g g g g | c, ~ c }
 
-	\repeat volta 2 {
+  \repeat volta 2 {
 
   \changePitch \patternAB { c | g' g g g | c, ~ c }
   \changePitch \patternBA { c | g' g g g | c, ~ c }
 
-	}
+  }
 
 }
 }

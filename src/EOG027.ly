@@ -39,7 +39,7 @@ notesSoprano = {
     \changePitch \patternTwo  { c' | c bes g d' d c | a a c | c bes g d' d c | a a }
     \changePitch \patternFour { c bes | a a a a a bes c | d c c bes a | g bes a g | f f }
 
-	\bar "|."
+  \bar "|."
 
 }
 }
