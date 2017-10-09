@@ -153,7 +153,7 @@ wordsE = \markuplist {
 
 wordsF = \markuplist {
 
-\line { Soon He’ll take His lit -- tle ones }
+\line { Soon He’ll take His little ones }
 \line { { \hspace #2 } To live in His home, }
 \line { So safe with Him forever, }
 \line { { \hspace #2 } And nevermore to roam; }
