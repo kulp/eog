@@ -6,7 +6,6 @@
   % need to reduce stretchability to compensate for `ragged-bottom` being false
   % (`ragged-last-bottom` doesn't appear to work for markups, so the markup
   % gets pulled down the page)
-  \include "override/override-EOG186.ily"
 }
 
 \header{

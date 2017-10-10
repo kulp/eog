@@ -4,7 +4,6 @@
   ragged-last-bottom = ##t % keep markup verses from clinging to bottom of page
   \include "override/override-EOG088.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 3 in Supplement." } }
-  \include "override/override-EOG088.ily"
 }
 
 \header{

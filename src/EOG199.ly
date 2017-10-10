@@ -5,7 +5,6 @@
   systems-per-page = ##f
   \include "override/override-EOG199.ily"
   % decrease system-to-system padding to fit onto page with previous score
-  \include "override/override-EOG199.ily"
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
     \column {

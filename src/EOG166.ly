@@ -4,7 +4,6 @@
   systems-per-page = ##f
   \include "override/override-EOG166.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 270." } }
-  \include "override/override-EOG166.ily"
 }
 
 \header{
