@@ -4,7 +4,6 @@
   ragged-last-bottom = ##t
   systems-per-page = ##f
   \include "override/override-EOG161.ily"
-  % decrease system-to-system padding to fit onto page with next score
 }
 
 \header{
