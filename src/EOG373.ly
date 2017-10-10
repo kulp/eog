@@ -1,11 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  %ragged-bottom = ##t
-  %ragged-last-bottom = ##t
-  %systems-per-page = ##f
   \include "override/override-EOG373.ily"
-  %annotate-spacing = ##t
 }
 
 \header{
