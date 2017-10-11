@@ -16,7 +16,6 @@
 
 % for fermata in MIDI
 ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
 tc = { \tempo 4=70 }
 
 patternAA = { \ta c8   | c4 c8 c4 c8 | c4 c8 c4. }
@@ -48,7 +47,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { bes^\markup { \dynamic p } | bes g ees f | g aes bes \fermata }
+  \changePitch \patternAA { bes^\markup { \dynamic p } | bes g ees f | g aes bes }
   \changePitch \patternAB { bes ees, g ees | f ees }
   \changePitch \patternAC { bes' | bes g ees f | g aes bes }
   \changePitch \patternAD { bes ees, g ees | f ees }
@@ -102,7 +101,7 @@ notesBass = {
 \global
 \relative f {
 
-  \changePitch \patternAA { ees | ees ees ees bes | ees ees ees_\fermata }
+  \changePitch \patternAA { ees | ees ees ees bes | ees ees ees }
   \changePitch \patternAB { ees ees ees ees | bes ees }
   \changePitch \patternAC { ees | ees ees ees bes | ees ees ees }
   \changePitch \patternAD { ees ees ees ees | bes ees }
