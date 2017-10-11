@@ -109,7 +109,7 @@ wordsA = \lyricmode {
 The wan -- der -- er { \mon } no more { \moff } will roam, \bar "."
 The lost one to the fold hath come, \bar "."
 The prod -- i -- gal is wel -- comed home, \bar "." \eogbreak
-O Lamb of God, to Thee! \bar "."
+O Lamb of God, to Thee! __ \bar "."
 O Lamb of God, to Thee! \bar "."
 
 }
@@ -120,7 +120,7 @@ wordsB = \lyricmode {
 Tho’ clothed in rags, { \mon } by sin { \moff } de -- filed,
 The Fa -- ther did em -- brace His child;
 And I am par -- doned, rec -- on -- ciled,
-O Lamb of God, in Thee!
+O Lamb of God, in Thee! __
 O Lamb of God, in Thee!
 
 }
@@ -131,7 +131,7 @@ wordsC = \lyricmode {
 It is the { \mon } Fa -- ther’s { \moff } joy to bless,
 His love has found for me a dress,
 A robe of spot -- less right -- eous -- ness,
-O Lamb of God, in Thee!
+O Lamb of God, in Thee! __
 O Lamb of God, in Thee!
 
 }
@@ -142,7 +142,7 @@ wordsD = \lyricmode {
 And now my { \mon } fam -- ished { \moff } soul is fed,
 A feast of love for me is spread,
 I feed up -- on the chil -- dren’s bread,
-O Lamb of God, in Thee!
+O Lamb of God, in Thee! __
 O Lamb of God, in Thee!
 
 }
@@ -153,7 +153,7 @@ wordsE = \lyricmode {
 Yea, in the { \mon } full -- ness { \moff } of His grace,
 God put me in the chil -- dren’s place,
 Where I may gaze up -- on His face,
-O Lamb of God, in Thee!
+O Lamb of God, in Thee! __
 O Lamb of God, in Thee!
 
 }
