@@ -44,7 +44,7 @@ notesSoprano = {
   \changePitch \patternAA { g e f g c b | a c a g }
   \changePitch \patternAA { f d e f b a | g a f e }
   \changePitch \patternBA { g e f g c | d a a d }
-  \changePitch \patternCA { c | b b a g c | d b \tb c \fermata \ta }
+  \changePitch \patternCA { c | b b a g c | d b c }
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternDA { g g g a g | c, d e } >>
@@ -98,7 +98,7 @@ notesBass = {
   \changePitch \patternAA { c c c c c e | f f f c }
   \changePitch \patternAA { g' g g g g g | g g g c, }
   \changePitch \patternBA { c c c c c | f f f d }
-  \changePitch \patternCA { d | g g g c, c | f g c,_\fermata }
+  \changePitch \patternCA { d | g g g c, c | f g c, }
 
   \changePitch \patternDA { c c c c c | e d c }
   \changePitch \patternDA { c c c c c | a' f e_\fermata }
