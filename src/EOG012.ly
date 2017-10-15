@@ -13,7 +13,7 @@
   tunename = ""
   meter = "C. M. with Refrain"
   poet = "Fanny J. Crosby"
-  composer = "W. J. Kirkpatrick"
+  composer = "William J. Kirkpatrick" % see https://hymnary.org/tune/god_loved_the_world_so_tend_kirkpatrick
   tagline = ##f
 }
 

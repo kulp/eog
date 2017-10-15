@@ -13,8 +13,8 @@
   title = "God Loved the World of Sinners Lost"
   tunename = "Wondrous Love" % from Metrical Index of Tunes
   meter = "C. M. D."
-  poet = "Mrs. M. Stockton"
-  composer = "W. G. Fischer"
+  poet = "Martha M. Stockton" % see https://hymnary.org/text/god_loved_the_world_of_sinners_lost
+  composer = "William G. Fischer" % see https://hymnary.org/tune/god_loved_the_world_of_sinners_fischer
   tagline = ##f
 }
 

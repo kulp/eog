@@ -9,8 +9,8 @@
   title = "As the Serpent Raised by Moses"
   tunename = "Take the World but Give Me Jesus"
   meter = "8. 7. 8. 7. D."
-  poet = ""
-  composer = ""
+  poet = "John Newton" % see https://hymnary.org/text/as_the_serpent_raised_by_moses
+  composer = "John R. Sweney" % see https://hymnary.org/tune/take_the_world_but_give_me_jesus_sweney
   tagline = ##f
 }
 

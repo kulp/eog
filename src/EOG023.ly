@@ -12,8 +12,8 @@
   title = "My Redeemer"
   tunename = "My Redeemer" % from Metrical Index of Tunes
   meter = "8. 7. 8. 7. with Refrain"
-  poet = "P. P. Bliss"
-  composer = "Mrs. Addie McGranahan"
+  poet = "Philip P. Bliss" % see https://hymnary.org/text/i_will_sing_of_my_redeemer
+  composer = "James McGranahan" % see https://hymnary.org/text/i_will_sing_of_my_redeemer
   tagline = ##f
 }
 

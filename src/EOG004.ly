@@ -10,8 +10,8 @@
   title = "Behold the Saviour at the Door"
   tunename = "St. Catherine"
   meter = "6—8s."
-  poet = "Joseph Grigg"
-  composer = "J. G. Walton"
+  poet = "Joseph Grigg" % see https://hymnary.org/text/behold_a_stranger_at_the_door
+  composer = "Henri Hemy, arr. by J. G. Walton" % https://hymnary.org/tune/st_catherine_hemy
   tagline = ##f
 }
 

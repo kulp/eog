@@ -10,8 +10,8 @@
   title = "Jesus of Nazareth Passeth By"
   tunename = ""
   meter = "L. M. D." % original has P. M.
-  poet = "Emma Campbell"
-  composer = "T. E. Perkins"
+  poet = "Emma Campbell" % see https://hymnary.org/text/what_means_this_eager_anxious_throng
+  composer = "Theodore E. Perkins" % see https://hymnary.org/tune/what_means_this_eager_anxious_perkins
   tagline = ##f
 }
 

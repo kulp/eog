@@ -9,8 +9,8 @@
   title = "It Is Finished"
   tunename = ""
   meter = "7. 5. 7. 5. D."
-  poet = "James Proctor"
-  composer = "Ira D. Sankey"
+  poet = "James Proctor" % https://hymnary.org/text/nothing_either_great_or_small_nothing_si
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/nothing_either_great_or_sm_sankey_55551
   tagline = ##f
 }
 

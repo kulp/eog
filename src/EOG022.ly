@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "22"
   title = "Jesus Is a Loving Saviour"
-  tunename = "Wellesley"
+  tunename = "Wellesley" % see https://hymnary.org/tune/wellesley_tourjee
   meter = "8. 7. 8. 7."
   poet = ""
-  composer = "L. S. Tourjee"
+  composer = "Lizzie S. Tourjée" % see https://hymnary.org/tune/wellesley_tourjee
   tagline = ##f
 }
 

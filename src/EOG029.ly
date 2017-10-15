@@ -9,8 +9,8 @@
   title = "Only Trust Him"
   tunename = ""
   meter = "C. M. with Refrain"
-  poet = "J. H. Stockton"
-  composer = "J. H. Stockton"
+  poet = "John H. Stockton"
+  composer = "John H. Stockton"
   tagline = ##f
 }
 

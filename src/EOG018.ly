@@ -9,8 +9,8 @@
   title = "How Precious and Pure Is the Truth"
   tunename = "De Fleury"
   meter = "8. 8. 8. 8. D."
-  poet = ""
-  composer = "German"
+  poet = "" % not found on hymnary.org
+  composer = "J. S. Bach, arr. by Lewis Edson" % see https://hymnary.org/tune/de_fleury_defleury
   tagline = ##f
 }
 

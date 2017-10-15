@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "27"
   title = "Oh, What a Glorious Truth Is This!"
-  tunename = "Mercy’s Free"
+  tunename = "Ephesus" % see https://hymnary.org/tune/ephesus_auber
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
-  poet = "A. Midlane"
-  composer = "D. F. E. Auber"
+  poet = "Albert Midlane" % see https://bibletruthpublishers.com/albert-midlane/henry-pickering/chief-men-among-the-brethren/hy-pickering/la129682
+  composer = "D. F. Auber"
   tagline = ##f
 }
 

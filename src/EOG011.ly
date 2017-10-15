@@ -14,7 +14,7 @@
   tunename = "Hamburg"
   meter = "L. M."
   poet = ""
-  composer = "Adpt. by L. Mason"
+  composer = "Adapted by Lowell Mason" % see https://hymnary.org/tune/hamburg_mason
   tagline = ##f
 }
 

@@ -10,7 +10,7 @@
   title = "Grace! ’Tis a Charming Sound"
   tunename = ""
   meter = "S. M. with Refrain"
-  poet = "Dr. Philip Doddridge"
+  poet = "Philip Doddridge" % see https://hymnary.org/tune/grace_tis_a_charming_sound_sankey
   composer = "Ira D. Sankey"
   tagline = ##f
 }

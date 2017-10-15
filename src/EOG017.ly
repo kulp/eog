@@ -9,8 +9,8 @@
   title = "He Comes! He Comes!"
   tunename = "Ostend"
   meter = "C. M. D."
-  poet = ""
-  composer = "L. Mason"
+  poet = "" % not found at hymnary.org
+  composer = "Lowell Mason" % see https://hymnary.org/tune/ostend_mason
   tagline = ##f
 }
 

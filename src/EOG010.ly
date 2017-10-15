@@ -11,9 +11,9 @@
   %gospel
   hymnnumber = "10"
   title = "Faith Is a Very Simple Thing"
-  tunename = "Remember Me"
+  tunename = "Remember Me" % or Abney ? or [Alas and did my Savior bleed] ? https://hymnary.org/text/faith_is_a_very_simple_thing
   meter = "C. M."
-  poet = ""
+  poet = "John C. Ryle" % see https://hymnary.org/text/faith_is_a_very_simple_thing
   composer = "Asa Hull"
   tagline = ##f
 }

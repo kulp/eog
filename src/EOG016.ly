@@ -9,8 +9,8 @@
   title = "God in Mercy Sent His Son"
   tunename = "Herald Angels"
   meter = "8—7s."
-  poet = "H. K. Burlingham"
-  composer = "Mendelssohn"
+  poet = "Hannah K. Burlingham" % see https://hymnary.org/text/god_in_mercy_sent_his_son
+  composer = "Felix Mendelssohn-Bartholdy" % see https://hymnary.org/tune/mendelssohn_mendelssohn
   tagline = ##f
 }
 

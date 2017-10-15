@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "9"
   title = "Redeemed by Blood"
-  tunename = "Ernan"
+  tunename = "Ernan" % see https://hymnary.org/tune/ernan_mason
   meter = "L. M."
-  poet = ""
-  composer = "L. Mason"
+  poet = "" % not found on hymnary.org
+  composer = "Lowell Mason" % see https://hymnary.org/tune/ernan_mason
   tagline = ##f
 }
 

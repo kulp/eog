@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "30"
   title = "Passing Onward, Quickly Passing"
-  tunename = "Zion"
+  tunename = "Zion" % see https://hymnary.org/tune/zion_hastings
   meter = "8. 7. 8. 7. 4. 7. 4. 7." % original has 8. 7. 8. 7. 4. 7.
-  poet = ""
-  composer = "Dr. T. Hastings"
+  poet = "Albert Midlane" % see https://hymnary.org/text/passing_onward_quickly_passing
+  composer = "Thomas Hastings" % see https://hymnary.org/tune/zion_hastings
   tagline = ##f
 }
 

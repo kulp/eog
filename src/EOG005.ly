@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "5"
   title = "By Faith I See the Saviour Dying"
-  tunename = "Mercy’s Free"
+  tunename = "Ephesus" % see https://hymnary.org/tune/ephesus_auber
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
   poet = "Richard Jukes"
-  composer = "D. F. E. Auber"
+  composer = "D. F. Auber"
   tagline = ##f
 }
 

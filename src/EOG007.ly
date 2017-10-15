@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "7"
   title = "My Hope on Nothing Less Is Built"
-  tunename = "Foundation"
+  tunename = "Solid Rock" % see https://hymnary.org/tune/solid_rock_bradbury
   meter = "L. M. with Refrain" % original has 6—8s.
-  poet = "Edward Mote"
-  composer = "W. B. Bradbury"
+  poet = "Edward Mote" % see https://hymnary.org/text/my_hope_is_built_on_nothing_less
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/solid_rock_bradbury
   tagline = ##f
 }
 

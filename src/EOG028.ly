@@ -9,7 +9,7 @@
   title = "Oh, What a Saviour Is Jesus the Lord!"
   tunename = "Joyfully"
   meter = "6—10s. Dactylic" % original has 4—10s. Dactylic
-  poet = "A. Midlane"
+  poet = "Albert Midlane" % inferred ; not found on hymnary.org
   composer = ""
   tagline = ##f
 }

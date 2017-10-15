@@ -8,11 +8,11 @@
   %gospel
   hymnnumber = "3"
   title = "Behold, Behold the Lamb of God"
-  tunename = "Mercy’s Free"
+  tunename = "Ephesus" % see https://hymnary.org/tune/ephesus_auber
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
   poet = "Joseph Hoskins" % from http://hymnary.org/text/behold_behold_the_lamb_of_god_on_the_cro
   % original has "A. Jukes" but if anything it might be Richard Jukes (EOG005, same tune, also somehow linked on hymnary.org to this song). Messages of Love Hymn Book has J. Hoskins.
-  composer = "D. F. E. Auber"
+  composer = "D. F. Auber"
   tagline = ##f
 }
 

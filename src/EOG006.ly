@@ -11,8 +11,8 @@
   title = "“Come Unto Me”"
   tunename = ""
   meter = "10. 10. 10. 10. with Refrain"
-  poet = "Nathaniel Norton"
-  composer = "George C. Stebbins"
+  poet = "Nathaniel Norton" % see https://hymnary.org/text/come_unto_me_it_is_the_saviors_voice
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/come_unto_me_it_is_the_saviors_stebbins
   tagline = ##f
 }
 

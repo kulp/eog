@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "26"
   title = "In Rags and in Ruin"
-  tunename = "Comfort"
+  tunename = "Comfort" % see https://hymnary.org/tune/comfort_toronto -- but also https://hymnary.org/tune/edinburgh_55345
   meter = "11. 11. 11. 11."
   poet = ""
-  composer = ""
+  composer = "Anon." % see https://hymnary.org/tune/comfort_toronto
   tagline = ##f
 }
 

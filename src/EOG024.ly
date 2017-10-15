@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "24"
   title = "Jesus Only Can Impart"
-  tunename = "Weber"
+  tunename = "Seymour" % see https://hymnary.org/tune/seymour_weber
   meter = "7. 7. 7. 7."
   poet = ""
-  composer = "C. M. von Weber"
+  composer = "Carl Maria von Weber" % see https://hymnary.org/tune/seymour_weber
   tagline = ##f
 }
 
