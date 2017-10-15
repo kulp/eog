@@ -12,7 +12,7 @@
   title = "O Christ, What Burdens Bowed Thy Head!"
   tunename = ""
   meter = "8. 6. 8. 6. 8. 6."
-  poet = "Mrs. A. R. Cousin"
+  poet = "Anne Ross Cousin"
   composer = "Ira D. Sankey"
   tagline = ##f
 }

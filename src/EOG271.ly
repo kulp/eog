@@ -8,7 +8,7 @@
   title = "The Sands of Time Are Sinking"
   tunename = "Rutherford"
   meter = "7. 6. 7. 6. 7. 6. 7. 5."
-  poet = "Mrs. A. R. Cousin" % original has "Cousins" -- see https://hymnary.org/text/the_sands_of_time_are_sinking
+  poet = "Anne Ross Cousin" % original has "Cousins" -- see https://hymnary.org/text/the_sands_of_time_are_sinking
   composer = "Chrétien Urhan"
   tagline = ##f
 }
