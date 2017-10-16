@@ -11,8 +11,8 @@
   title = "Tell Me the Old, Old Story"
   tunename = ""
   meter = "7. 6. 7. 6. D. with Refrain"
-  poet = "Miss Kate Hankey"
-  composer = "W. H. Doane"
+  poet = "Kate Hankey" % see https://hymnary.org/text/tell_me_the_old_old_story_of_unseen_thi
+  composer = "W. Howard Doane" % see https://hymnary.org/tune/tell_me_the_old_old_story_doane
   tagline = ##f
 }
 

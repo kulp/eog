@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "36"
   title = "“Stricken, Smitten, and Afflicted”"
-  tunename = "Austria"
+  tunename = "Austria" % see https://hymnary.org/tune/austrian_hymn_haydn
   meter = "8. 7. 8. 7. D."
-  poet = "T. Kelly"
-  composer = "Haydn"
+  poet = "Thomas Kelly" % see https://hymnary.org/text/stricken_smitten_and_afflicted_see_him_d
+  composer = "Franz Joseph Haydn"
   tagline = ##f
 }
 

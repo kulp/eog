@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "34"
   title = "Salvation Through Christ Jesus"
-  tunename = "Missionary"
+  tunename = "Missionary Hymn" % see https://hymnary.org/tune/missionary_hymn_mason
   meter = "7. 6. 7. 6. D."
   poet = ""
-  composer = "L. Mason"
+  composer = "Lowell Mason" % see https://hymnary.org/tune/missionary_hymn_mason
   tagline = ##f
 }
 

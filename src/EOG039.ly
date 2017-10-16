@@ -14,7 +14,7 @@
   tunename = "Sawley"
   meter = "C. M."
   poet = ""
-  composer = "J. J. Walch"
+  composer = "James Walch" % see https://hymnary.org/tune/sawley_walch
   tagline = ##f
 }
 

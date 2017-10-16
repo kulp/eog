@@ -12,7 +12,7 @@
   title = "O Christ, What Burdens Bowed Thy Head!"
   tunename = ""
   meter = "8. 6. 8. 6. 8. 6."
-  poet = "Anne Ross Cousin"
+  poet = "Anne R. Cousin" % see https://hymnary.org/text/o_christ_what_burdens_bowed_thy_head
   composer = "Ira D. Sankey"
   tagline = ##f
 }

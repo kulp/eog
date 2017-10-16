@@ -10,7 +10,7 @@
   tunename = "Beautiful River"
   meter = "8. 7. 8. 7. with Refrain"
   poet = ""
-  composer = "R. Lowry, 1864"
+  composer = "Robert Lowry" % see https://hymnary.org/tune/shall_we_gather_at_the_river_lowry
   tagline = ##f
 }
 

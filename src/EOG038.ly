@@ -11,8 +11,8 @@
   title = "The Gospel Bells"
   tunename = ""
   meter = "P. M."
-  poet = "S. W. Martin" % just S.W.M. in the original
-  composer = "S. W. Martin"
+  poet = "S. Wesley Martin" % see https://hymnary.org/text/the_gospel_bells_are_ringing
+  composer = "S. Wesley Martin" % see https://hymnary.org/tune/the_gospel_bells_are_ringing_martin
   tagline = ##f
 }
 

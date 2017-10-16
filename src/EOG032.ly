@@ -11,7 +11,7 @@
   title = "Yet There Is Room"
   tunename = ""
   meter = "10. 10. 10."
-  poet = "Dr. H. Bonar"
+  poet = "Horatius Bonar" % see https://hymnary.org/text/yet_there_is_room_the_lambs_bright_hall_
   composer = "Ira D. Sankey"
   tagline = ##f
 }

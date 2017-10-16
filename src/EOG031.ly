@@ -12,8 +12,8 @@
   title = "Precious, Precious Blood of Jesus"
   tunename = "Stephanos"
   meter = "8. 5. 8. 3."
-  poet = "F. R. Havergal"
-  composer = "H. W. Baker"
+  poet = "Frances R. Havergal" % see https://hymnary.org/text/precious_precious_blood_of_jesus
+  composer = "Henry W. Baker" % see https://hymnary.org/tune/stephanos_baker
   tagline = ##f
 }
 

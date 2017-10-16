@@ -9,8 +9,8 @@
   title = "The Gospel of Thy Grace"
   tunename = ""
   meter = "6. 6. 6. 6. 8. 8. 8." % original has 6. 6. 6. 6. 8. 8.
-  poet = "A. T. Pierson"
-  composer = "James McGranahan"
+  poet = "Arthur T. Pierson" % see https://hymnary.org/text/the_gospel_of_thy_grace
+  composer = "James McGranahan" % see https://hymnary.org/tune/the_gospel_of_thy_grace_mcgranahan
   tagline = ##f
 }
 
