@@ -48,7 +48,7 @@ notesSoprano = {
   \changePitch \patternAA { b b     | g a c c a   | b   }
   \changePitch \patternBA { d       | cis b a g   | fis }
   \changePitch \patternAA { fis g a | b d c b     | e,  }
-  \changePitch \patternBA { g       | b d a g     | g   }
+  \changePitch \patternBA { g       | b d, a' g   | g   }
 
 
   << s^\markup { \small \caps "Refrain" }

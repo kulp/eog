@@ -13,7 +13,7 @@
   tunename = "Comfort" % see https://hymnary.org/tune/comfort_toronto -- but also https://hymnary.org/tune/edinburgh_55345
   meter = "11. 11. 11. 11."
   poet = ""
-  composer = "Anon." % see https://hymnary.org/tune/comfort_toronto
+  composer = ""
   tagline = ##f
 }
 
