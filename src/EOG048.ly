@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "48"
   title = "There Is Life in a Look"
-  tunename = ""
+  tunename = "Latakia"
   meter = "P. M."
-  poet = "A. M. Hull"
-  composer = "E. G. Taylor"
+  poet = "Amelia M. Hull" % see https://hymnary.org/text/there_is_life_for_a_look_at_the_crucifie
+  composer = "Edward G. Taylor" % see https://hymnary.org/tune/latakia_taylor
   tagline = ##f
 }
 

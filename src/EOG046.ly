@@ -12,7 +12,7 @@
   tunename = "Arlington"
   meter = "C. M."
   poet = ""
-  composer = "Dr. Arne"
+  composer = "Thomas A. Arne" % see https://hymnary.org/tune/arlington_arne
   tagline = ##f
 }
 

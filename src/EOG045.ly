@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "45"
   title = "The Wanderer No More Will Roam"
-  tunename = "Silent Night"
+  tunename = "Silent Night" % "Stille Nacht" officially
   meter = "8. 8. 8. 6. 6." % original has 8. 8. 8. 6.
   poet = ""
-  composer = ""
+  composer = "Franz X. Gruber" % see https://hymnary.org/tune/stille_nacht_gruber
   tagline = ##f
 }
 

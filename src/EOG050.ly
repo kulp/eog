@@ -9,8 +9,8 @@
 \header{
   %gospel
   hymnnumber = "50"
-  title = "Vain Is the Thought of Man"
-  tunename = "Moreland"
+  title = "Vain Is the Thought of Man" % see https://hymnary.org/text/vain_is_the_thought_of_man
+  tunename = "Moreland" % not found at hymnary.org (Moreland there is a different tune)
   meter = "S. M."
   poet = "Mary Bowley"
   composer = ""

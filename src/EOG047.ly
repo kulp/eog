@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "47"
   title = "Rise, Dear Soul! Behold Thy Saviour"
-  tunename = "Suffield"
+  tunename = "Suffield" % not found at hymnary.org
   meter = "8. 7. 8. 7."
-  poet = "A. P. Cecil"
-  composer = ""
+  poet = "A. P. Cecil" % see https://hymnary.org/text/trembling_soul_behold_thy_savior
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 

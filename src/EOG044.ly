@@ -13,8 +13,8 @@
   title = "Just as I Am — Without One Plea"
   tunename = "Woodworth"
   meter = "L. M." % original has 8. 8. 8. 6.
-  poet = "Charlotte Elliot"
-  composer = "W. B. Bradbury"
+  poet = "Charlotte Elliot" % see https://hymnary.org/text/just_as_i_am_without_one_plea
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/woodworth_bradbury
   tagline = ##f
 }
 

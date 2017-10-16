@@ -11,7 +11,7 @@
   tunename = ""
   meter = "8. 8. 6. with Refrain"
   poet = ""
-  composer = ""
+  composer = "E. F. Miller" % see https://hymnary.org/tune/rejoice_ye_saints_the_time_miller_51113
   tagline = ##f
 }
 

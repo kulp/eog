@@ -10,8 +10,8 @@
   title = "Verily, Verily"
   tunename = ""
   meter = "P. M."
-  poet = "James McGranahan"
-  composer = "James McGranahan"
+  poet = "James McGranahan" % see https://hymnary.org/text/o_what_a_savior_that_he_died_for_me
+  composer = "James McGranahan" % see https://hymnary.org/text/o_what_a_savior_that_he_died_for_me
   tagline = ##f
 }
 
