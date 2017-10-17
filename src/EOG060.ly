@@ -10,8 +10,8 @@
   title = "All Ye That Pass By"
   tunename = "Harwich"
   meter = "10. 11. 10. 11." % original has extra syllable in each line
-  poet = "C. Wesley"
-  composer = "B. Milgrove"
+  poet = "Charles Wesley" % see https://hymnary.org/text/all_ye_that_pass_by
+  composer = "Benjamin Milgrove" % see https://hymnary.org/tune/harwich_milgrove
   tagline = ##f
 }
 

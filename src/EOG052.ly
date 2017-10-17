@@ -13,8 +13,8 @@
   title = "Hark! Hark! Hear the Glad Tidings"
   tunename = ""
   meter = "P. M."
-  poet = ""
-  composer = "German"
+  poet = "" % see https://hymnary.org/text/hark_hark_hear_the_blest_tidings
+  composer = "German" % scant information at hymnary.org -- see https://hymnary.org/tune/hark_hark_hear_the_blest_tidings_33323
   tagline = ##f
 }
 

@@ -11,8 +11,8 @@
   title = "Why Unbelieving"
   tunename = ""
   meter = "P. M."
-  poet = ""
-  composer = "German"
+  poet = "" % see https://hymnary.org/text/why_unbelieving_why_wilt_thou_spurn
+  composer = "German" % not found at hymnary.org
   tagline = ##f
 }
 

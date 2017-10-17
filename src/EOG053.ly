@@ -9,8 +9,8 @@
   title = "Weeping Will Not Save Me!"
   tunename = ""
   meter = "P. M."
-  poet = "R. Lowry"
-  composer = "R. Lowry"
+  poet = "Robert Lowry" % see https://hymnary.org/text/weeping_will_not_save_me_though_my_face
+  composer = "Robert Lowry" % see https://hymnary.org/tune/weeping_will_not_save_me_lowry
   tagline = ##f
 }
 

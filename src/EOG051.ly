@@ -11,8 +11,8 @@
   title = "Eternity! Where? It Floats in the Air"
   tunename = "Eternity"
   meter = "11. 11. 11. 11."
-  poet = ""
-  composer = "Wm. M. Horsey"
+  poet = "John R. Bryant" % see https://hymnary.org/text/eternity_where_it_floats_in_the_air
+  composer = "William M. Horsey" % not found at hymnary.org -- see http://www.plymouthbrethren.org/article/5207
   tagline = ##f
 }
 

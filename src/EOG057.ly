@@ -12,8 +12,8 @@
   title = "Almost Persuaded"
   tunename = ""
   meter = "P. M."
-  poet = "P. P. Bliss"
-  composer = "P. P. Bliss"
+  poet = "Philip P. Bliss" % see https://hymnary.org/text/almost_persuaded_now_to_believe_almost_p
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/almost_persuaded_bliss
   tagline = ##f
 }
 

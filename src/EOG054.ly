@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  \include "override/override-EOG054.ily"
 }
 
 \header{
@@ -10,8 +11,8 @@
   markuptitle = \markup \center-column { "We Know There’s a Bright and" "a Glorious Home" \vspace #0.5 }
   tunename = ""
   meter = "10. 7. 10. 7. with Refrain" % original lacks "with Refrain"
-  poet = ""
-  composer = ""
+  poet = "Margaret C. H. Wilson" % see https://hymnary.org/text/we_know_theres_a_bright_and_a_glorious_h
+  composer = "" % see https://hymnary.org/tune/we_know_theres_a_bright_and_a_anon
   tagline = ##f
 }
 

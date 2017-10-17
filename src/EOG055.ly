@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "55"
   title = "Why ’Neath the Load of Your Sins Do Ye Toil?"
-  tunename = ""
+  tunename = "Long, Long Ago"
   meter = "P. M."
-  poet = ""
-  composer = ""
+  poet = "" % see https://hymnary.org/text/why_neath_the_load_of_your_sins_do_you_t
+  composer = "Thomas H. Bayly" % see https://hymnary.org/tune/long_long_ago_bayly
   tagline = ##f
 }
 

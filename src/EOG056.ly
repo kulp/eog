@@ -11,8 +11,8 @@
   title = "Oh, Blessed Gospel Sound!"
   tunename = "Happy Land"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
-  poet = ""
-  composer = ""
+  poet = "" % not found at hymnary.org
+  composer = "Telegu Melody" % see https://hymnary.org/tune/happy_land
   tagline = ##f
 }
 
