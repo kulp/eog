@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "63"
   title = "Broken Heart! The Fountain’s Open"
-  tunename = ""
+  tunename = "" % see https://hymnary.org/tune/depth_of_mercy_can_there_be_stevenson
   meter = "8. 7. 8. 7. with Refrain"
-  poet = "A. P. Cecil"
-  composer = "Arr. from Stevenson"
+  poet = "A. P. Cecil" % see https://hymnary.org/text/broken_heart_the_fountains_open
+  composer = "John A. Stevenson" % see https://hymnary.org/tune/depth_of_mercy_can_there_be_stevenson
   tagline = ##f
 }
 

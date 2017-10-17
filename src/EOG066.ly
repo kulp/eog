@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "66"
   title = "A Look to Jesus Saves the Soul"
-  tunename = "Remember Me"
+  tunename = "Remember Me" % or Abney ? or [Alas and did my Savior bleed] ? https://hymnary.org/text/faith_is_a_very_simple_thing
   meter = "C. M."
   poet = ""
-  composer = "Asa Hull"
+  composer = "Asa Hull" % see EOG010
   tagline = ##f
 }
 

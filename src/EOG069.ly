@@ -10,8 +10,8 @@
   title = "Come Sing, My Soul, and Praise the Lord"
   tunename = "Redemption Ground"
   meter = "L. M. D."
-  poet = "El Nathan"
-  composer = "J. McGranahan"
+  poet = "El Nathan" % aka D. W. Whittle ; see https://hymnary.org/text/come_sing_my_soul_and_praise_the_lord
+  composer = "James McGranahan" % see https://hymnary.org/tune/come_sing_my_soul_and_praise_mcgranahan
   tagline = ##f
 }
 

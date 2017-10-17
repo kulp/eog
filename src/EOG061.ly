@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "61"
   title = "Behold the Lamb! ’Tis He Who Bore"
-  tunename = "St. Louis"
+  tunename = "McKee" % see https://hymnary.org/tune/mckee
   meter = "C. M."
-  poet = "Haweis"
-  composer = "Southern Air"
+  poet = "Thomas Haweis" % see https://hymnary.org/text/behold_the_lamb_of_god_who_bore_thy_guil
+  composer = "Arr. by Harry T. Burleigh" % see https://hymnary.org/tune/mckee
   tagline = ##f
 }
 

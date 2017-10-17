@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "64"
   title = "“Call Them In” — The Poor, the Wretched"
-  tunename = "Lower Lights"
+  tunename = "Lower Lights" % see https://hymnary.org/tune/brightly_beams_our_fathers_mercy_bliss
   meter = "8. 7. 8. 7. D."
-  poet = "Anna Shipton"
-  composer = "P. P. Bliss"
+  poet = "Anna Shipton" % see https://hymnary.org/text/call_them_in_the_poor_the_wretched
+  composer = "Philip P. Bliss"
   tagline = ##f
 }
 

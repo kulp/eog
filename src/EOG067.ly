@@ -10,8 +10,8 @@
   title = "Christ Is Coming. Are You Ready?"
   tunename = ""
   meter = "8. 7. 8. 7. D."
-  poet = "Mrs. A. H. Rule"
-  composer = "F. M. Lamb"
+  poet = "Mrs. A. H. Rule" % not found at hymnary.org
+  composer = "F. M. Lamb" % not found at hymnary.org
   tagline = ##f
 }
 

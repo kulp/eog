@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "70"
   title = "Christ Is Coming, Oh Be Ready"
-  tunename = "Laßt mich gehen"
+  tunename = "Laßt mich geh’n" % see https://hymnary.org/text/lasst_mich_gehn_lasst_mich_gehn
   meter = "8. 7. 8. 7. 7." % original has 8. 7. 8. 7.
-  poet = "Mrs. A. H. Rule"
-  composer = "K. Voigtlander"
+  poet = "Mrs. A. H. Rule" % not found at hymnary.org
+  composer = "Karl Friedrich Voigtländer" % see https://hymnary.org/tune/lasst_mich_gehn_voigtlaender
   tagline = ##f
 }
 
