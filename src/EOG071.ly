@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "71"
   title = "Come, Let Us All Unite to Sing"
-  tunename = "Christ for Me"
+  tunename = "Christ for Me" % not found as such at hymnary.org
   meter = "8. 6. 8. 6. 8. 8. 8. 6." % original has 8. 3. 8. 3. 8. 8. 3.
-  poet = "Howard Kingsbury"
-  composer = "R. G. Halls"
+  poet = "Howard Kingsbury" % see https://hymnary.org/text/come_let_us_all_unite_and_to_sing_god_is
+  composer = "R. George Halls" % see https://hymnary.org/tune/whom_have_i_lord_in_heaven_halls
   tagline = ##f
 }
 

@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "76"
   title = "“Come Unto Me, and I Will Give You Rest”"
-  tunename = "Eventide"
+  tunename = "Eventide" % see https://hymnary.org/tune/eventide_monk
   meter = "10. 10. 10. 10."
-  poet = "H. d’A. Champney"
-  composer = "W. H. Monk"
+  poet = "H. D’Arcy Champney" % not found at hymnary.org
+  composer = "William H. Monk" % see https://hymnary.org/tune/eventide_monk
   tagline = ##f
 }
 

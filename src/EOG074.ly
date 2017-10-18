@@ -7,7 +7,7 @@
   %gospel
   hymnnumber = "74"
   title = "Come to the Blood-Stained Tree"
-  tunename = "Maker"
+  tunename = ""
   meter = "" % sung with P. M.
   poet = ""
   composer = ""

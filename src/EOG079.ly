@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "79"
-  title = "Decide for Christ Today"
-  tunename = "Welcome Voice"
+  title = "Decide for Christ Today" % not found at hymnary.org
+  tunename = "Welcome Voice" % see https://hymnary.org/tune/welcome_voice_hartsough
   meter = "S. M. with Refrain"
-  poet = "T. R. Dale"
-  composer = "L. Hartsough"
+  poet = "T. R. Dale" % not found at hymnary.org
+  composer = "Lewis Hartsough" % see https://hymnary.org/tune/welcome_voice_hartsough
   tagline = ##f
 }
 

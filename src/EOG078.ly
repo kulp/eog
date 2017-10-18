@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "78"
   title = "Come, Ye That Fear the Lord"
-  tunename = "Lorneville"
+  tunename = "Lorneville" % not found at hymnary.org
   meter = "P. M."
-  poet = ""
-  composer = "Old Melody"
+  poet = "" % see https://hymnary.org/text/come_ye_that_fear_the_lord_unto_me
+  composer = "Old Melody" % see https://hymnary.org/tune/come_ye_that_fear_the_lord
   tagline = ##f
 }
 

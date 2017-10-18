@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "80"
-  title = "Down from the Glory Came God’s Blessed Son"
-  tunename = "Jesus Is Calling"
+  title = "Down from the Glory Came God’s Blessed Son" % not found at hymnary.org
+  tunename = "Jesus Is Calling" % see https://hymnary.org/tune/jesus_is_tenderly_calling_thee_stebbins
   meter = "P. M." % something like 10. 8. 10. 7. with Refrain (8. 13.)
-  poet = "Arthur Cutting"
-  composer = "George C. Stebbins"
+  poet = "Arthur Cutting" % see https://hymnary.org/person/Cutting_A1
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/jesus_is_tenderly_calling_thee_stebbins
   tagline = ##f
 }
 

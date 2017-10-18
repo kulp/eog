@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "77"
   title = "Come, Ye Sinners, Poor and Needy"
-  tunename = "Caersalem"
+  tunename = "Caersalem" % see https://hymnary.org/tune/caersalem_edwards
   meter = "8. 7. 8. 7. 8. 4. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "Joseph Hart"
-  composer = "Robert Edwards"
+  poet = "Joseph Hart" % see https://hymnary.org/text/come_ye_sinners_poor_and_needy_weak_and
+  composer = "Robert Edwards" % see https://hymnary.org/tune/caersalem_edwards
   tagline = ##f
 }
 

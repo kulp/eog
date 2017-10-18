@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "73"
   title = "Come to the Saviour Now"
-  tunename = "Maker"
+  tunename = "Invitation" % see https://hymnary.org/tune/invitation_maker
   meter = "6. 6. 6. 6. 6. 6. 6. 6. 3." % from Little Flock
-  poet = "J. M. Wigner"
-  composer = "R. C. Maker"
+  poet = "John M. Wigner" % see https://hymnary.org/text/come_to_the_savior_now_he_gently_call
+  composer = "Frederick C. Maker" % see https://hymnary.org/tune/invitation_maker
   tagline = ##f
 }
 
