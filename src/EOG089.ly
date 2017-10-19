@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "89"
   title = "Hark Ye! Those Who Choose the Pleasures"
-  tunename = "Ukraina"
+  tunename = "Ukraina" % not found at hymnary.org
   meter = "8. 7. 8. 7. D."
   poet = ""
-  composer = "Russian Hymn Tune"
+  composer = "Russian Hymn Tune" % not found at hymnary.org
   tagline = ##f
 }
 

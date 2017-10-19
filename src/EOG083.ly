@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "83"
   title = "Everlasting Glory"
-  tunename = "Maccabeus"
+  tunename = "Maccabeus" % see https://hymnary.org/tune/maccabeus_handel_11733
   meter = "11. 11. 11. 11."
-  poet = "H. K. Burlingham"
-  composer = "Handel"
+  poet = "Hannah K. Burlingham" % see https://hymnary.org/text/everlasting_glory_unto_jesus_be
+  composer = "Georg Friedrich Händel" % see https://hymnary.org/tune/maccabeus_handel_11733
   tagline = ##f
 }
 

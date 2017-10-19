@@ -12,10 +12,10 @@
   %gospel
   hymnnumber = "87"
   title = "Hark! Hark! The Voice of Christ"
-  tunename = "Pilgrims"
+  tunename = "Pilgrims" % see https://hymnary.org/tune/pilgrims_smart
   meter = "11. 10. 11. 10. with Refrain"
-  poet = "H. d’A. Champney"
-  composer = "Henry Smart"
+  poet = "H. D’Arcy Champney"
+  composer = "Henry Thomas Smart" % see https://hymnary.org/tune/pilgrims_smart
   tagline = ##f
 }
 

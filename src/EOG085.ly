@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "85"
   title = "Just as Thou Art — Without One Trace"
-  tunename = "St. Agnes — Blow"
+  tunename = "Agnus Dei" % see https://hymnary.org/tune/agnus_dei_blow
   meter = "8. 8. 8. 6."
-  poet = ""
-  composer = "William Blow"
+  poet = "Russell S. Cook" % see https://hymnary.org/text/just_as_thou_art_without_one_trace
+  composer = "William Blow" % see https://hymnary.org/tune/agnus_dei_blow
   tagline = ##f
 }
 

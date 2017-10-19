@@ -11,10 +11,10 @@
   %gospel
   hymnnumber = "86"
   title = "Hark! The Saviour’s Voice from Heaven"
-  tunename = "Even Me"
+  tunename = "Even Me" % see https://hymnary.org/text/hark_the_saviors_voice_from_heaven
   meter = "8. 7. 8. 7. with Refrain"
-  poet = ""
-  composer = "W. B. Bradbury"
+  poet = "James Montgomery" % see https://hymnary.org/text/hark_the_saviors_voice_from_heaven
+  composer = "William B. Bradbury" % see https://hymnary.org/text/hark_the_saviors_voice_from_heaven
   tagline = ##f
 }
 

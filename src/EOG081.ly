@@ -9,11 +9,11 @@
 \header{
   %gospel
   hymnnumber = "81"
-  title = "“It Is Finished!” Sinners, Hear It"
-  tunename = "Regent Square"
+  title = "“It Is Finished!” Sinners, Hear It" % see https://hymnary.org/person/Kelly_Thomas
+  tunename = "Regent Square" % see https://hymnary.org/tune/regent_square_smart
   meter = "8. 7. 8. 7. 8. 7."
-  poet = "T. Kelly"
-  composer = "Henry Smart"
+  poet = "Thomas Kelly" % see https://hymnary.org/person/Kelly_Thomas
+  composer = "Henry Thomas Smart" % see https://hymnary.org/tune/regent_square_smart
   tagline = ##f
 }
 

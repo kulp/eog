@@ -10,10 +10,10 @@
   hymnnumber = "90"
   title = "Have You Been to Jesus for the Cleansing Power?"
   markuptitle = \markup \center-column { "Have You Been to Jesus" "for the Cleansing Power?" \vspace #0.4 }
-  tunename = ""
+  tunename = "Washed in the Blood" % see https://hymnary.org/tune/have_you_been_to_jesus_for_the_hoffman
   meter = "11. 9. 11. 9. with Refrain"
-  poet = "E. A. Hoffman"
-  composer = "E. A. Hoffman"
+  poet = "Elisha A. Hoffman" % see https://hymnary.org/text/have_you_been_to_jesus_for_the_cleansing
+  composer = "Elisha A. Hoffman" % see https://hymnary.org/text/have_you_been_to_jesus_for_the_cleansing
   tagline = ##f
 }
 

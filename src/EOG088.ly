@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "88"
   title = "Hail, Sovereign Love"
-  tunename = "Bera"
+  tunename = "Bera" % see https://hymnary.org/tune/bera_gould
   meter = "L. M."
-  poet = "Jehoiada Brewer" % original has "Jehoida"
-  composer = ""
+  poet = "Jehoiada Brewer" % original has "Jehoida" ; Wikipedia has "Jehoiada" ; hymnary.org has "John Hyatt Brewer" ; https://hymnary.org/hymn/BHTB1868/page/225 has "Jehoida" again
+  composer = "John E. Gould" % see https://hymnary.org/tune/bera_gould
   tagline = ##f
 }
 
