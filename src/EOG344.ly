@@ -2,7 +2,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
   \include "override/override-EOG344.ily"
 }
 
