@@ -1,31 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-last-bottom = ##t
-  systems-per-page = ##f
-  % decrease system-to-system padding to fit onto page with next score
   \include "override/override-EOG198.ily"
-  scoreTitleMarkup = \markup {
-    \override #'(baseline-skip . 3.5)
-    \column {
-      \override #'(baseline-skip . 3.5)
-      \column {
-        \fill-line {
-          \huge \larger \larger \bold {
-            \concat { "  " \fromproperty #'header:hymnnumber }
-            \mytitle
-            \null
-          }
-        }
-        \fill-line {
-          % less lowering (to save vertical space)
-          \lower #1 \fromproperty #'header:poet
-          \smaller \bold \mysubtitle
-          \lower #1 \fromproperty #'header:composer
-        }
-      }
-    }
-  }
 }
 
 \header{
