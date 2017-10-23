@@ -18,6 +18,7 @@ sub letter_length ($) {
 }
 
 print qq(\\interlinepenalty=10000\n);
+my $meter;
 while (<>) {
     chomp;
     next if /^$/;
@@ -28,7 +29,9 @@ while (<>) {
         print qq({\\centering\\textbf{$_}\\par}\n);
         print qq(\\noindent\\begin{flushright}\n);
         $open = 1;
+        $meter = $_;
     } else {
+        next if /Also Tune/ and $meter =~ /P\. M\./; # special case
         s/^ //; # chop leading space
         my ($name, $nums) = split /\t/;
         my $split = letter_length $name > 19
