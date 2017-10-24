@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "104"
   title = "Not All the Gold of All the World"
-  tunename = "Materna"
+  tunename = "Materna" % see https://hymnary.org/tune/materna_ward
   meter = "C. M. D."
-  poet = ""
-  composer = "S. A. Ward"
+  poet = "Albert Midlane" % see https://hymnary.org/text/not_all_the_gold_of_all_the_world
+  composer = "Samuel A. Ward" % see https://hymnary.org/tune/materna_ward
   tagline = ##f
 }
 

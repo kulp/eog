@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "103"
   title = "Man of Sorrows! What a Name"
-  tunename = ""
-  meter = "P. M."
-  poet = "P. P. Bliss"
-  composer = "P. P. Bliss"
+  tunename = "Man of Sorrows" % see https://hymnary.org/tune/man_of_sorrows_what_a_name_bliss
+  meter = "P. M." % or 7. 7. 7. 8.
+  poet = "Philip P. Bliss" % see https://hymnary.org/text/man_of_sorrows_what_a_name
+  composer = "Philip P. Bliss"
   tagline = ##f
 }
 

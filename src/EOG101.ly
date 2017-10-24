@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "101"
-  title = "Look, Thou Lost One, to the Saviour"
-  tunename = "Look Ye Saints"
+  title = "Look, Thou Lost One, to the Saviour" % not found at hymnary.org
+  tunename = "Crown Him" % see https://hymnary.org/tune/crown_him_stebbins
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
   poet = ""
-  composer = "Arr. by George C. Stebbins"
+  composer = "Arr. by George C. Stebbins" % see https://hymnary.org/tune/crown_him_stebbins
   tagline = ##f
 }
 

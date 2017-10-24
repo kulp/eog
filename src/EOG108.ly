@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "108"
-  title = "Oh Precious Blood"
-  tunename = "He Leadeth Me"
+  title = "Oh Precious Blood" % not found at hymnary.org
+  tunename = "He Leadeth Me" % see https://hymnary.org/tune/he_leadeth_me_o_blessed_thought_bradbury
   meter = "L. M. with Refrain"
-  poet = "A. A. P."
-  composer = "W. B. Bradbury"
+  poet = "A. A. P." % not found at hymnary.org
+  composer = "William B. Bradbury"
   tagline = ##f
 }
 

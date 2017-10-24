@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "110"
   title = "Oh, Turn Now! Oh, Turn Now!"
-  tunename = "Hiding in Thee"
+  tunename = "Hiding in Thee" % see https://hymnary.org/tune/hiding_in_thee_sankey
   meter = "11. 11. 11. 11. with Refrain"
   poet = "Josiah Hopkins" % from http://hymnary.org/text/o_turn_ye_o_turn_ye_for_why_will_ye_die
-  composer = "Ira D. Sankey"
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/hiding_in_thee_sankey
   tagline = ##f
 }
 

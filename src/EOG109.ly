@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "109"
-  title = "Oh, the Love of God Is Boundless"
+  title = "Oh, the Love of God Is Boundless" % not found at hymnary.org
   tunename = "Tyrol"
   meter = "8. 7. 8. 7. D."
-  poet = "R. D. Edwards"
-  composer = "Tyrolese Melody"
+  poet = "R. D. Edwards" % not found at hymnary.org
+  composer = "Tyrolean Melody" % see https://hymnary.org/tune/tyrol
   tagline = ##f
 }
 

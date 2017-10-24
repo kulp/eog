@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "106"
   title = "O Christ, in Thee My Soul Hath Found"
-  tunename = "None But Christ Can Satisfy" % from Metrical Index of Tunes
+  tunename = "None But Christ" % see https://hymnary.org/text/o_christ_in_thee_my_soul_hath_found
   meter = "C. M. with Refrain"
-  poet = "B. E. (Arr.)"
-  composer = "J. McGranahan"
+  poet = "Frances Bevan" % see https://hymnary.org/text/o_christ_in_thee_my_soul_hath_found
+  composer = "James McGranahan" % see https://hymnary.org/tune/none_but_christ_mcgranahan
   tagline = ##f
 }
 

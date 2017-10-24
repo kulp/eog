@@ -9,8 +9,8 @@
   title = "Oh, Do Not Let the Word Depart"
   tunename = ""
   meter = "L. M. with Refrain"
-  poet = "Mrs. E. Reed"
-  composer = "Ira D. Sankey"
+  poet = "Eliza Reed" % see https://hymnary.org/text/o_do_not_let_the_word_depart
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/o_do_not_let_the_word_depart_sankey
   tagline = ##f
 }
 
