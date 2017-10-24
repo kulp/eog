@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "114"
-  title = "Saved Through the Blood of Jesus"
-  tunename = "Heart’s Refuge"
+  title = "Saved Through the Blood of Jesus" % not found at hymnary.org
+  tunename = "The Heart’s Refuge" % see https://hymnary.org/tune/safe_in_the_arms_of_jesus_doane
   meter = "7. 6. 7. 6. D. with Refrain"
-  poet = "H. d’A. Champney"
-  composer = "W. H. Doane"
+  poet = "H. D’Arcy Champney"
+  composer = "W. Howard Doane" % see https://hymnary.org/tune/safe_in_the_arms_of_jesus_doane
   tagline = ##f
 }
 

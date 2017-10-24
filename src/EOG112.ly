@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "112"
   title = "Only a Sinner"
-  tunename = ""
+  tunename = "Only a Sinner" % see https://hymnary.org/tune/only_a_sinner_towner
   meter = "P. M."
-  poet = "James M. Gray"
-  composer = "D. B. Towner" % Daniel B. Towner
+  poet = "James M. Gray" % see https://hymnary.org/text/naught_have_i_gotten_but_what_i_received
+  composer = "Daniel B. Towner" % see https://hymnary.org/tune/only_a_sinner_towner
   tagline = ##f
 }
 

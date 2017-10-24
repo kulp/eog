@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "120"
   title = "The Father Sent the Son"
-  tunename = "Anywhere with Jesus"
+  tunename = "Anywhere with Jesus" % see https://hymnary.org/tune/anywhere_with_jesus_towner
   meter = "6. 6. 8. 4. D. with Refrain"
-  poet = "J. G. Deck"
-  composer = "D. B. Towner"
+  poet = "Hannah K. Burlingham" % see https://hymnary.org/text/the_father_sent_the_son_a_ruined_world_t
+  composer = "Daniel B. Towner" % see https://hymnary.org/tune/anywhere_with_jesus_towner
   tagline = ##f
 }
 

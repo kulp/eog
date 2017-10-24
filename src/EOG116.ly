@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "116"
   title = "See Mercy, Mercy from on High"
-  tunename = "Dusseldorf"
+  tunename = "Dusseldorf" % not found at hymnary.org
   meter = "L. M."
-  poet = "R. Sandeman"
-  composer = "From Geistliche Lieder"
+  poet = "Robert Sandeman" % see https://hymnary.org/text/see_mercy_mercy_from_on_high
+  composer = "From Geistliche Lieder" % not found at hymnary.org
   tagline = ##f
 }
 

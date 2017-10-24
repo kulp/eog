@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "111"
   title = "Once Again the Gospel Message"
-  tunename = "Come Believing"
+  tunename = "Come Believing" % see https://hymnary.org/tune/once_again_the_gospel_mes_mcgranahan
   meter = "8. 7. 8. 7. with Refrain"
-  poet = "El Nathan"
-  composer = "J. McGranahan"
+  poet = "El Nathan" % see https://hymnary.org/text/once_again_the_gospel_message
+  composer = "James McGranahan" % see https://hymnary.org/tune/once_again_the_gospel_mes_mcgranahan
   tagline = ##f
 }
 

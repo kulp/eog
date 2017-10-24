@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "117"
-  title = "Sinner, Thine’s a Lost Condition"
-  tunename = "Brooklyn"
+  title = "Sinner, Thine’s a Lost Condition" % not found at hymnary.org
+  tunename = "" % original has "Brooklyn", but see https://hymnary.org/tune/jesus_i_my_cross_have_taken_bliss
   meter = "8. 7. 8. 7. D."
-  poet = ""
-  composer = ""
+  poet = "" % not found at hymnary.org
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/jesus_i_my_cross_have_taken_bliss
   tagline = ##f
 }
 

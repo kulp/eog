@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "119"
   title = "The Blood Upon the Door"
-  tunename = "Otter Lake"
+  tunename = "" % original has "Otter Lake" ; "Christ the Friend We Need" according to hymnary.org -- see https://hymnary.org/text/oft_my_heart_has_bled_with_sorrow
   meter = "8. 7. 8. 7. D."
-  poet = ""
-  composer = ""
+  poet = "Johnson Oatman" % see https://hymnary.org/text/when_the_lord_passed_over_egypt
+  composer = "Barney E. Warren" % see https://hymnary.org/tune/oft_my_heart_has_bled_with_sorrow
   tagline = ##f
 }
 

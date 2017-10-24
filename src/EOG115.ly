@@ -10,10 +10,10 @@
   %gospel
   hymnnumber = "115"
   title = "“Himself He Could Not Save”"
-  tunename = "Darwall"
+  tunename = "Darwall" % see https://hymnary.org/tune/darwall_darwall
   meter = "6. 6. 6. 6. 8. 8."
-  poet = "A. Midlane"
-  composer = "J. Darwall"
+  poet = "Albert Midlane" % see https://hymnary.org/text/himself_he_could_not_save
+  composer = "John Darwall" % see https://hymnary.org/tune/darwall_darwall
   tagline = ##f
 }
 

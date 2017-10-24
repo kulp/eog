@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "118"
   title = "Softly and Tenderly"
-  tunename = ""
+  tunename = "Softly and Tenderly" % see https://hymnary.org/tune/softly_and_tenderly_jesus_is_thompson
   meter = "P. M."
-  poet = "W. L. Thompson"
-  composer = "W. L. Thompson"
+  poet = "Will L. Thompson" % see https://hymnary.org/text/softly_and_tenderly_jesus_is_calling
+  composer = "Will L. Thompson" % see https://hymnary.org/tune/softly_and_tenderly_jesus_is_thompson
   tagline = ##f
 }
 

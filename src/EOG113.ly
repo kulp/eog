@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "113"
   title = "Only a Step to Jesus"
-  tunename = ""
+  tunename = "Only a Step to Jesus" % see https://hymnary.org/tune/only_a_step_to_jesus_doane
   meter = "7. 6. 7. 6. with Refrain"
-  poet = "Fanny J. Crosby"
-  composer = "W. H. Doane"
+  poet = "Fanny J. Crosby" % see https://hymnary.org/text/only_a_step_to_jesus_then_why_not_take_i
+  composer = "W. Howard Doane" % see https://hymnary.org/tune/only_a_step_to_jesus_doane
   tagline = ##f
 }
 
