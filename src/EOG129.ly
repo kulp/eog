@@ -7,11 +7,11 @@
 \header{
   %gospel
   hymnnumber = "129"
-  title = "’Tis a True and Faithful Saying"
+  title = "’Tis a True and Faithful Saying" % see https://hymnary.org/text/tis_a_true_and_faithful_saying
   tunename = ""
   meter = "8. 7. 8. 7. with Refrain"
-  poet = "M. Fraser"
-  composer = "James McGranahan"
+  poet = "Maud Fraser" % see https://hymnary.org/person/Fraser_M
+  composer = "James McGranahan" % see https://hymnary.org/tune/tis_a_true_and_faithful_saying_mcgranaha
   tagline = ##f
 }
 

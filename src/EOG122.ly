@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "122"
   title = "The Holy Lamb Has Died"
-  tunename = ""
+  tunename = "So nimm denn meine Hände" % see https://hymnary.org/tune/so_nimm_denn_meine_hande_silcher
   meter = "6. 6. 8. 4. D." % original has P. M.
   poet = "George W. Frazer"
-  composer = ""
+  composer = "Friedrich Silcher" % see https://hymnary.org/tune/so_nimm_denn_meine_hande_silcher
   tagline = ##f
 }
 

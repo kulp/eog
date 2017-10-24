@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "128"
   title = "Though All the Beasts That Live and Feed"
-  tunename = "Meribah"
+  tunename = "Meribah" % see https://hymnary.org/tune/meribah_mason
   meter = "8. 8. 6. D."
-  poet = "T. Kelly"
-  composer = "L. Mason"
+  poet = "Thomas Kelly" % see https://bibletruthpublishers.com/though-all-the-beasts-that-live-and-feed/thomas-kelly/little-flock-hymnbook/hymnbooks/la79570
+  composer = "Lowell Mason" % see https://hymnary.org/tune/meribah_mason
   tagline = ##f
 }
 

@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "123"
-  title = "The Lamb Was Slain, His Precious Blood"
-  tunename = "Melita"
+  title = "The Lamb Was Slain, His Precious Blood" % not found at hymnary.org
+  tunename = "Melita" % see https://hymnary.org/tune/melita_dykes
   meter = "6—8s."
   poet = "George W. Frazer"
-  composer = "J. B. Dykes"
+  composer = "John B. Dykes" % see https://hymnary.org/tune/melita_dykes
   tagline = ##f
 }
 

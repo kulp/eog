@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "126"
-  title = "There’s a Voice That Is Calling"
+  title = "There’s a Voice That Is Calling" % see https://hymnary.org/text/theres_a_voice_that_is_calling_to_thee
   tunename = "Sweet Bye and Bye"
   meter = "P. M." % Little Flock has 9. 9. 9. 9. Anapaestic Irr.
-  poet = "Anon."
-  composer = "J. P. Webster"
+  poet = ""
+  composer = "Joseph P. Webster" % see https://hymnary.org/tune/theres_a_land_that_is_fairer_tha_webster
   tagline = ##f
 }
 

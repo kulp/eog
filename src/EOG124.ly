@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "124"
-  title = "There Is a Saviour on High in the Glory"
-  tunename = ""
+  title = "There Is a Saviour on High in the Glory" % not found at hymnary.org
+  tunename = "Intercession" % see https://hymnary.org/tune/i_have_a_savior_hes_pleading_in_sankey
   meter = "P. M."
-  poet = "E. B. Hartt"
-  composer = "Ira D. Sankey"
+  poet = "E. B. Hartt" % not found at hymnary.org
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/i_have_a_savior_hes_pleading_in_sankey
   tagline = ##f
 }
 

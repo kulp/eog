@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "130"
-  title = "To God Be the Glory"
-  tunename = ""
+  title = "To God Be the Glory" % see https://hymnary.org/text/to_god_be_the_glory_great_things_he_hath
+  tunename = "To God Be the Glory" % see https://hymnary.org/tune/to_god_be_the_glory_doane
   meter = "11. 11. 11. 11. with Refrain"
   poet = "Fanny J. Crosby"
-  composer = "W. H. Doane"
+  composer = "W. Howard Doane" % see https://hymnary.org/tune/to_god_be_the_glory_doane
   tagline = ##f
 }
 

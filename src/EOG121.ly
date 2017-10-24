@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "121"
   title = "“All Things Are Ready,” Come"
-  tunename = "St. Michael"
+  tunename = "St. Michael" % see https://hymnary.org/tune/st_michael_genevan
   meter = "S. M."
-  poet = "A. Midlane"
-  composer = "Genevan Psalter"
+  poet = "Albert Midlane" % see https://hymnary.org/text/all_things_are_ready_come_come_to_the_su
+  composer = "Genevan Psalter" % see https://hymnary.org/tune/st_michael_genevan
   tagline = ##f
 }
 
