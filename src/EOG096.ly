@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "96"
   title = "If I Gained the World"
-  tunename = ""
+  tunename = "Ölander" % see https://hymnary.org/tune/olander_swedish
   meter = "10. 9. 10. 9. D."
-  poet = "Anna Olander"
-  composer = "Swedish"
+  poet = "Anna Ölander" % see https://hymnary.org/text/if_i_gained_the_world
+  composer = "Swedish" % see https://hymnary.org/tune/olander_swedish
   tagline = ##f
 }
 

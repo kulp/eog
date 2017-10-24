@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "99"
   title = "My Soul, Repeat His Praise"
-  tunename = "St. Michael"
+  tunename = "St. Michael" % see https://hymnary.org/tune/st_michael_genevan
   meter = "S. M."
-  poet = "I. Watts (Psalm 103)"
-  composer = "Genevan Psalter"
+  poet = "Isaac Watts (Psalm 103)" % see https://hymnary.org/text/my_soul_repeat_his_praise
+  composer = "Genevan Psalter" % see https://hymnary.org/tune/st_michael_genevan
   tagline = ##f
 }
 

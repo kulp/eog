@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "100"
   title = "Let All Who Know the Joyful Sound"
-  tunename = "Pembroke"
+  tunename = "Pembroke" % see https://hymnary.org/tune/pembroke_foster
   meter = "8. 8. 6. D."
-  poet = "T. Kelly"
-  composer = "J. Foster"
+  poet = "" % not found at hymnary.org ; anonymous in Little Flock ; original has "T. Kelly"
+  composer = "James Foster" % see https://hymnary.org/tune/pembroke_foster
   tagline = ##f
 }
 

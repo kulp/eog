@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "97"
-  title = "Oh, How Sweet the Gospel Message"
-  tunename = "Halle"
+  title = "Oh, How Sweet the Gospel Message" % not found at hymnary.org
+  tunename = "Halle" % see https://hymnary.org/tune/halle_mueller
   meter = "8. 7. 8. 7."
   poet = ""
-  composer = "C. Muller"
+  composer = "Klemens Müller" % see https://hymnary.org/tune/halle_mueller
   tagline = ##f
 }
 

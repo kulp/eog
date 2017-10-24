@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "94"
-  title = "Ho, You Thirsty, Jesus Calls You"
-  tunename = "Hold the Fort"
+  title = "Ho, You Thirsty, Jesus Calls You" % not found at hymnary.org
+  tunename = "Hold the Fort" % see https://hymnary.org/tune/ho_my_comrades_see_the_signal_bliss
   meter = "8. 5. 8. 5. D."
   poet = ""
-  composer = "P. P. Bliss"
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/ho_my_comrades_see_the_signal_bliss
   tagline = ##f
 }
 

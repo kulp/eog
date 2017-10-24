@@ -11,10 +11,10 @@
   %gospel
   hymnnumber = "91"
   title = "On Christ Salvation Rests Secure"
-  tunename = "Hebron"
+  tunename = "Hebron" % see https://hymnary.org/tune/hebron_mason
   meter = "L. M."
-  poet = "S. Medley"
-  composer = "L. Mason"
+  poet = "Samuel Medley" % see https://hymnary.org/text/on_christ_salvation_rests_secure
+  composer = "Lowell Mason" % see https://hymnary.org/tune/hebron_mason
   tagline = ##f
 }
 

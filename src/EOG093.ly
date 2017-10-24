@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "93"
   title = "Ho! Ye That Thirst, Approach the Spring"
-  tunename = "Torino"
+  tunename = "Torino" % not found at hymnary.org
   meter = "C. M. with Refrain"
-  poet = "W. Cameron"
-  composer = "Italian Hymn Tune"
+  poet = "W. Cameron" % uncertain as per hymnary.org
+  composer = "Italian Hymn Tune" % not found at hymnary.org
   tagline = ##f
 }
 

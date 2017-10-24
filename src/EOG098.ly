@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "98"
   title = "Just on the Threshold"
-  tunename = "Moment by Moment"
-  meter = "P. M."
-  poet = "G. Cooper"
-  composer = "Mary Whittle Moody"
+  tunename = "Moment by Moment" % see https://hymnary.org/tune/whittle_moody
+  meter = "10. 10. 10. 10. with Refrain" % see https://hymnary.org/tune/whittle_moody
+  poet = "George Cooper" % see https://hymnary.org/text/just_on_the_threshold_o_why_not_come_in
+  composer = "May Whittle Moody" % see https://hymnary.org/tune/whittle_moody
   tagline = ##f
 }
 

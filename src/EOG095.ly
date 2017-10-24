@@ -6,11 +6,11 @@
 \header{
   %gospel
   hymnnumber = "95"
-  title = "I Have a Glorious Saviour"
-  tunename = "Beneath the Cross of Jesus"
+  title = "I Have a Glorious Saviour" % not found at hymnary.org
+  tunename = "Beneath the Cross of Jesus" % see https://hymnary.org/tune/beneath_the_cross_of_jesus_sankey
   meter = "C. M. D." % original has 7. 6. 8. 6. 8. 6. 8. 6.
-  poet = "Charlotte Gipps"
-  composer = "Ira D. Sankey"
+  poet = "Charlotte Gipps" % not found at hymnary.org
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/beneath_the_cross_of_jesus_sankey
   tagline = ##f
 }
 
