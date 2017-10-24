@@ -19,18 +19,22 @@ sub letter_length ($) {
 
 print qq(\\interlinepenalty=10000\n);
 my $meter;
+my $records;
 while (<>) {
     chomp;
     next if /^$/;
     if (/^(?! )/) {
         # meter
+        print qq(}\n) if $records == 1;
         print qq(\\end{flushright}\\medbreak\n) if $open;
         print qq(\n);
-        print qq({\\centering\\textbf{$_}\\par}\n);
         print qq(\\noindent\\begin{flushright}\n);
+        print qq(\\vbox{{\\centering\\textbf{$_}\\par\\vspace{-\\partopsep}}\n);
         $open = 1;
         $meter = $_;
+        $records = 0;
     } else {
+        print qq(}\\vspace{-\\partopsep}\n) if $records++ == 1;
         next if /Also Tune/ and $meter =~ /P\. M\./; # special case
         s/^ //; # chop leading space
         my ($name, $nums) = split /\t/;
