@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "132"
   title = "We Have Heard the Joyful Sound"
-  tunename = "Jesus Saves"
+  tunename = "Jesus Saves" % see https://hymnary.org/tune/we_have_heard_the_joyful_sou_kirkpatrick
   meter = "7. 6. 7. 6. 7. 7. 7. 6."
-  poet = "Priscilla J. Owens"
-  composer = "William Kirkpatrick"
+  poet = "Priscilla J. Owens" % see https://hymnary.org/text/we_have_heard_the_joyful_sound
+  composer = "William Kirkpatrick" % see https://hymnary.org/tune/we_have_heard_the_joyful_sou_kirkpatrick
   tagline = ##f
 }
 

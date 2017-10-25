@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "139"
-  title = "What Can Wash Away My Sins?"
+  title = "What Can Wash Away My Sins?" % see https://hymnary.org/text/what_can_wash_away_my_sin
   tunename = ""
   meter = "P. M."
-  poet = "R. Lowry"
-  composer = "R. Lowry"
+  poet = "Robert Lowry" % see https://hymnary.org/text/what_can_wash_away_my_sin
+  composer = "Robert Lowry" % see https://hymnary.org/tune/what_can_wash_away_my_sin_lowry
   tagline = ##f
 }
 

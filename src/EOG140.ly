@@ -11,8 +11,8 @@
   title = "Will Your Anchor Hold?"
   tunename = ""
   meter = "P. M."
-  poet = "Priscilla J. Owens"
-  composer = "William Kirkpatrick"
+  poet = "Priscilla J. Owens" % see https://hymnary.org/text/will_your_anchor_hold_in_the_storms_of_l
+  composer = "William J. Kirkpatrick" % see https://hymnary.org/tune/will_your_anchor_hold_kirkpatrick
   tagline = ##f
 }
 

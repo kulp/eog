@@ -6,12 +6,12 @@
 \header{
   %gospel
   hymnnumber = "133"
-  title = "With Joy and with Gladness There Stand a Great Throng"
+  title = "With Joy and with Gladness There Stand a Great Throng" % see https://hymnary.org/text/with_harps_and_with_viols
   markuptitle = \markup \center-column { "With Joy and with Gladness" "There Stand a Great Throng" \vspace #0.4 }
   tunename = ""
   meter = "11. 11. 11. 11."
-  poet = "A. T. Pierson"
-  composer = "P. P. Bliss"
+  poet = "Arthur T. Pierson" % see https://hymnary.org/text/with_harps_and_with_viols
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/with_harps_and_with_viols_bliss
   tagline = ##f
 }
 

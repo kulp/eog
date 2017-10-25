@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "135"
-  title = "There Is No Other Name than Thine"
-  tunename = "Old Hundred"
+  title = "There Is No Other Name than Thine" % see https://hymnary.org/text/there_is_no_other_name_than_thine
+  tunename = "Old Hundredth"
   meter = "L. M."
-  poet = ""
-  composer = "Genevan Psalter, 1551"
+  poet = "" % see https://hymnary.org/text/there_is_no_other_name_than_thine
+  composer = "Genevan Psalter, 1551" % see https://hymnary.org/tune/old_hundredth_bourgeois
   tagline = ##f
 }
 

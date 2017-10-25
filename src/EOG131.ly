@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "131"
   title = "We Sing the Praise of Him Who Died"
-  tunename = "Warrington"
+  tunename = "Warrington" % see https://hymnary.org/tune/warrington_harrison
   meter = "L. M."
-  poet = "T. Kelly"
-  composer = "R. Harrison"
+  poet = "Thomas Kelly" % see https://hymnary.org/text/we_sing_the_praise_of_him_who_died
+  composer = "Ralph Harrison" % see https://hymnary.org/tune/warrington_harrison
   tagline = ##f
 }
 

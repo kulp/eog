@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "136"
-  title = "When the Harvest Is Past"
+  title = "When the Harvest Is Past" % see https://hymnary.org/text/when_the_harvest_is_past_and_the_summer_
   tunename = ""
   meter = "12. 8. 12. 8. with Refrain"
-  poet = "S. F. Smith"
-  composer = "H. H. McGranahan"
+  poet = "Samuel F. Smith" % see https://hymnary.org/text/when_the_harvest_is_past_and_the_summer_
+  composer = "Hugh H. McGranahan" % see https://hymnary.org/tune/when_the_harvest_is_past_mcgranahan
   tagline = ##f
 }
 

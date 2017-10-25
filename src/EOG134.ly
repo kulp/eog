@@ -11,8 +11,8 @@
   title = "What Will You Do with Jesus?"
   tunename = ""
   meter = "P. M."
-  poet = "Nathaniel Norton"
-  composer = "George C. Stebbins"
+  poet = "Nathaniel Norton" % see https://hymnary.org/text/o_what_will_you_do_with_jesus_the_call_c
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/o_what_will_you_do_with_jesus_stebbins
   tagline = ##f
 }
 

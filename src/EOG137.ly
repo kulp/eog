@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "137"
-  title = "He Left the Brightness of His Home"
+  title = "He Left the Brightness of His Home" % not found at hymnary.org
   tunename = "Troyte. Adpt"
   meter = "8. 6. 8. 4."
   poet = ""
-  composer = "A. D. H. Troyte"
+  composer = "Arthur H. D. Troyte" % see https://hymnary.org/person/Troyte_AHD
   tagline = ##f
 }
 
