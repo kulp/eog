@@ -6,8 +6,8 @@
 \header{
   %gospel
   hymnnumber = "133"
-  title = "With Joy and with Gladness There Stands a Great Throng"
-  markuptitle = \markup \center-column { "With Joy and with Gladness" "There Stands a Great Throng" \vspace #0.4 }
+  title = "With Joy and with Gladness There Stand a Great Throng"
+  markuptitle = \markup \center-column { "With Joy and with Gladness" "There Stand a Great Throng" \vspace #0.4 }
   tunename = ""
   meter = "11. 11. 11. 11."
   poet = "A. T. Pierson"
@@ -95,8 +95,8 @@ Un -- to Him be the glo -- ry for -- ev -- er. A -- men. \bar "." \eogbreak
 wordsA = \lyricmode {
 \set stanza = "1."
 
-With joy and with glad -- ness there stands a great throng, \bar "." \eogbreak % blue book changes "stand" to "stands" but leaves "sing" in the next line
-In the pres -- ence of Je -- sus, and sings this new song: \bar "." \eogbreak
+With joy and with glad -- ness there stand a great throng, \bar "." \eogbreak % blue book changes "stand" to "stands" but leaves "sing" in the next line
+In the pres -- ence of Je -- sus, and sing this new song: \bar "." \eogbreak
 
 }
 
