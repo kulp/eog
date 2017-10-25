@@ -10,8 +10,8 @@
   title = "The Lord’s My Shepherd"
   tunename = "Wiltshire"
   meter = "C. M."
-  poet = "Scottish Psalter, 1650"
-  composer = "Sir George Smart"
+  poet = "Francis Rous (Scottish Psalter, 1650)" % see https://hymnary.org/text/the_lords_my_shepherd_ill_not_want_rous
+  composer = "Sir George T. Smart" % see https://hymnary.org/tune/wiltshire_smart
   tagline = ##f
 }
 

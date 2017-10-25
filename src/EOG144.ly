@@ -11,8 +11,8 @@
   title = "“A Little While” – The Lord Shall Come"
   tunename = "Sweet Hour of Prayer"
   meter = "L. M. D."
-  poet = "J. G. Deck"
-  composer = "W. B. Bradbury"
+  poet = "James G. Deck" % see https://hymnary.org/text/a_little_while_our_lord_shall_come
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/sweet_hour_of_prayer_sweet_hour_bradbury
   tagline = ##f
 }
 

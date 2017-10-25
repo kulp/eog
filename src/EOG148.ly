@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "148"
   title = "Lord, While Our Souls in Faith Repose"
-  tunename = "Irish"
+  tunename = "Irish" % see https://hymnary.org/tune/irish_dublin
   meter = "C. M."
-  poet = "Mary Bowley"
-  composer = "“Hymns and Sacred Poems,” Dublin"
+  poet = "Mary Bowley" % see https://hymnary.org/text/o_blessed_lord_what_hast_thou_done
+  composer = "“Hymns and Sacred Poems,” Dublin" % see https://hymnary.org/tune/irish_dublin
   tagline = ##f
 }
 

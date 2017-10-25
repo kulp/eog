@@ -28,10 +28,10 @@
 \header{
   hymnnumber = "145"
   title = "May the Grace of Christ Our Saviour"
-  tunename = "Vesper Hymn"
+  tunename = "Vesper Hymn" % see https://hymnary.org/tune/vesper_hymn_bortnianski_stevenson
   meter = "8. 7. 8. 7. D."
-  poet = "J. Newton"
-  composer = "Russian Melody, Arr. by J. A. Stevenson"
+  poet = "John Newton" % see https://hymnary.org/text/may_the_grace_of_christ_our_savior_newto
+  composer = "Dimitri S. Bortniansky, Arr. by John A. Stevenson" % see https://hymnary.org/tune/vesper_hymn_bortnianski_stevenson
   tagline = ##f
 }
 

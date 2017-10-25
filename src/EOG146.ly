@@ -9,8 +9,8 @@
   title = "All the Path the Saints Are Treading"
   tunename = ""
   meter = "8. 7. 8. 7. D."
-  poet = "Mrs. J. A. Trench"
-  composer = "Handel (adapted)"
+  poet = "Mrs. John A. Trench" % see https://hymnary.org/person/Trench_JA1 ; see http://www.hymntime.com/tch/bio/t/r/e/trench_jw.htm
+  composer = "Handel (adapted)" % not found at hymnary.org
   tagline = ##f
 }
 

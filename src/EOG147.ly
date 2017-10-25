@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "147"
   title = "And Did the Holy and the Just"
-  tunename = "St. Peter"
+  tunename = "St. Peter" % see https://hymnary.org/tune/st_peter_reinagle
   meter = "C. M."
-  poet = "I. Watts"
-  composer = "A. R. Reinagle"
+  poet = "Anne Steele" % see https://hymnary.org/text/and_did_the_holy_and_the_just ; see http://www.hymntime.com/tch/htm/a/n/d/andidhoj.htm
+  composer = "Alexander R. Reinagle" % see https://hymnary.org/tune/st_peter_reinagle
   tagline = ##f
 }
 

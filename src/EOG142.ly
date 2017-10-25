@@ -11,8 +11,8 @@
   title = "Ye Must Be Born Again"
   tunename = ""
   meter = "P. M."
-  poet = "W. T. Sleeper"
-  composer = "George C. Stebbins"
+  poet = "William T. Sleeper" % see https://hymnary.org/text/a_ruler_once_came_to_jesus_by_night
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/a_ruler_once_came_to_jesus_by_stebbins
   tagline = ##f
 }
 

@@ -8,8 +8,8 @@
   title = "Blessed Assurance, Jesus Is Mine"
   tunename = ""
   meter = "P. M."
-  poet = "Fanny J. Crosby"
-  composer = "Mrs. J. F. Knapp"
+  poet = "Fanny J. Crosby" % see https://hymnary.org/text/blessed_assurance_jesus_is_mine
+  composer = "Phoebe Palmer Knapp" % see https://hymnary.org/tune/blessed_assurance_jesus_is_mine_knapp
   tagline = ##f
 }
 

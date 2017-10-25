@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "141"
   title = "How Vast, How Full, How Free"
-  tunename = "St. Ethelwald"
+  tunename = "St. Ethelwald" % see https://hymnary.org/tune/st_ethelwald_monk
   meter = "S. M."
-  poet = "A. Midlane"
-  composer = "W. H. Monk"
+  poet = "Albert Midlane" % see https://hymnary.org/text/how_vast_how_full_how_free
+  composer = "William H. Monk" % see https://hymnary.org/tune/st_ethelwald_monk
   tagline = ##f
 }
 
