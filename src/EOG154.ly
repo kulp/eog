@@ -10,7 +10,7 @@
   title = "The Atoning Work Is Done"
   tunename = ""
   meter = ""
-  poet = ""
+  poet = "Thomas Kelly" % see https://hymnary.org/text/the_atoning_work_is_done
   composer = ""
   tagline = ##f
 }

@@ -9,9 +9,9 @@
 \header{
   hymnnumber = "152"
   title = "Brightness of the Eternal Glory"
-  tunename = "Hamilton"
+  tunename = "Hamilton" % not found at hymnary.org
   meter = "8. 7. 8. 7. 7." % original has 8. 7. 8. 7.
-  poet = "R. Robinson"
+  poet = "Robert Robinson" % see https://hymnary.org/text/brightness_of_the_eternal_glory_shall_th
   composer = "Anon."
   tagline = ##f
 }

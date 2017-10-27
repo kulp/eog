@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "155"
   title = "By Thee, O God, Invited"
-  tunename = "Hankey"
+  tunename = "Hankey" % see https://hymnary.org/tune/i_love_to_tell_the_story_fischer
   meter = "7. 6. 7. 6. D."
-  poet = "Mary Bowley"
-  composer = "W. G. Fischer"
+  poet = "Mary Bowley" % see https://hymnary.org/text/by_thee_o_god_invited
+  composer = "William G. Fischer" % see https://hymnary.org/tune/i_love_to_tell_the_story_fischer
   tagline = ##f
 }
 

@@ -7,9 +7,9 @@
 \header{
   hymnnumber = "158"
   title = "Come, Let Us Sing the Matchless Worth"
-  tunename = "Sussex"
+  tunename = "Sussex" % not found at hymnary.org
   meter = "8. 8. 6. 8. 8. 6. 4." % original has 8. 8. 6. D.
-  poet = "S. Medley"
+  poet = "Samuel Medley" % see https://hymnary.org/text/o_could_i_speak_the_matchless_worth
   composer = "Anon."
   tagline = ##f
 }

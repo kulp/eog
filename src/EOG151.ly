@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "151"
   title = "“No Condemnation!” — Precious Word"
-  tunename = "Barrow"
+  tunename = "Barrow" % see https://hymnary.org/tune/barrow_mason
   meter = "C. M."
-  poet = "R. Chapman"
-  composer = ""
+  poet = "Robert C. Chapman" % see https://www.hymnal.net/en/hymn/h/297
+  composer = "Lowell Mason" % see https://hymnary.org/tune/barrow_mason
   tagline = ##f
 }
 

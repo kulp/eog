@@ -9,8 +9,8 @@
   title = "Child of God, by Christ’s Salvation"
   tunename = ""
   meter = "8. 7. 8. 7. D." % original has 8. 7. 8. 7.
-  poet = "H. Lyte"
-  composer = "E. Gebhart"
+  poet = "Henry F. Lyte" % see http://poorfox.com/hymns/
+  composer = "Ernst Gebhardt" % see https://hymnary.org/tune/gladness_gladness_never_ending_gebhardt
   tagline = ##f
 }
 

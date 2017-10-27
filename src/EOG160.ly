@@ -9,10 +9,10 @@
 \header{
   hymnnumber = "160"
   title = "Though in a Foreign Land"
-  tunename = "Franconia"
+  tunename = "Franconia" % see https://hymnary.org/tune/franconia_konig
   meter = "S. M."
-  poet = "Toplady"
-  composer = "German Melody"
+  poet = "Augustus Toplady" % see https://hymnary.org/text/though_in_a_foreign_land_we_are_not_far_
+  composer = "Johann B. König" % see https://hymnary.org/tune/franconia_konig
   tagline = ##f
 }
 

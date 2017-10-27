@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "157"
   title = "Christ the Lord Is Coming"
-  tunename = ""
+  tunename = "Minna"
   meter = "11. 11. 11. 11."
-  poet = ""
-  composer = "M. Koch"
+  poet = "" % not found at hymnary.org
+  composer = "Minna Koch" % see https://hymnary.org/tune/minna_koch
   tagline = ##f
 }
 

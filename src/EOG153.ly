@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "153"
   title = "Jesus! Life-Giving Sound"
-  tunename = "Lenox"
+  tunename = "Lenox" % see https://hymnary.org/tune/lenox_edson
   meter = "6. 6. 6. 6. 8. 8. 8." % original has 6. 6. 6. 6. 8. 8.
-  poet = "C. Wesley"
-  composer = "Lewis Edson"
+  poet = "Charles Wesley" % see http://www.gospel-songs.org/287.htm
+  composer = "Lewis Edson" % see https://hymnary.org/tune/lenox_edson
   tagline = ##f
 }
 
