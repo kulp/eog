@@ -9,10 +9,10 @@
 \header{
   hymnnumber = "161"
   title = "God Moves in a Mysterious Way"
-  tunename = "St. Ann"
+  tunename = "St. Anne" % see https://hymnary.org/tune/st_anne_croft
   meter = "C. M."
-  poet = "W. Cowper"
-  composer = "W. Croft"
+  poet = "William Cowper" % see https://hymnary.org/text/god_moves_in_a_mysterious_way
+  composer = "William Croft" % see https://hymnary.org/tune/st_anne_croft
   tagline = ##f
 }
 

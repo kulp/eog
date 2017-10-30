@@ -11,8 +11,8 @@
   title = "In Tenderness He Sought Me"
   tunename = ""
   meter = "P. M."
-  poet = "W. Spencer Walton"
-  composer = "A. J. Gordon"
+  poet = "W. Spencer Walton" % see https://hymnary.org/text/in_tenderness_he_sought_me
+  composer = "Adoniram J. Gordon" % see https://hymnary.org/tune/in_tenderness_he_sought_me_gordon
   tagline = ##f
 }
 

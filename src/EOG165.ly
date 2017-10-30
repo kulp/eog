@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "165"
   title = "Jesus! How Much Thy Name Unfolds"
-  tunename = "Belmont" % from Metrical Index of Tunes
+  tunename = "Belmont" % see https://hymnary.org/tune/belmont_gardiner
   meter = "C. M."
-  poet = ""
-  composer = ""
+  poet = "Mary Bowley" % see https://hymnary.org/text/jesus_how_much_thy_name_unfolds
+  composer = "William Gardiner" % see https://hymnary.org/tune/belmont_gardiner
   tagline = ##f
 }
 

@@ -9,10 +9,10 @@
 \header{
   hymnnumber = "166"
   title = "In Hope We Lift Our Wishful, Longing Eyes"
-  tunename = "Ellers"
+  tunename = "Ellers" % see https://hymnary.org/tune/ellers_hopkins
   meter = "10. 10. 10. 10."
-  poet = "J. G. Deck"
-  composer = "Dr. E. J. Hopkins"
+  poet = "James G. Deck" % see https://hymnary.org/text/in_hope_we_lift_our_wishful_longing_eyes
+  composer = "Edward J. Hopkins" % see https://hymnary.org/tune/ellers_hopkins
   tagline = ##f
 }
 

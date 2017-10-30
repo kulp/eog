@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "167"
   title = "I Know Not Why God’s Wondrous Grace"
-  tunename = ""
+  tunename = "El Nathan" % see https://hymnary.org/tune/i_know_not_why_gods_wondrous_mcgranahan
   meter = "C. M. with Refrain"
-  poet = "El Nathan"
-  composer = "J. McGranahan"
+  poet = "El Nathan" % see https://hymnary.org/text/i_know_not_why_gods_wondrous_grace_to_me
+  composer = "James McGranahan" % see https://hymnary.org/tune/i_know_not_why_gods_wondrous_mcgranahan
   tagline = ##f
 }
 

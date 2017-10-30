@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "163"
   title = "Guide Us, O Thou Gracious Saviour"
-  tunename = "Mannheim"
+  tunename = "Mannheim" % see https://hymnary.org/tune/mannheim_filitz
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "W. Williams"
-  composer = "From Friedrich Filitz"
+  poet = "William Williams, tr. by Peter Williams" % see https://hymnary.org/text/guide_me_o_thou_great_jehovah
+  composer = "Friedrich Filitz, adapted by Lowell Mason" % see https://hymnary.org/tune/mannheim_filitz
   tagline = ##f
 }
 

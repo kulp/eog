@@ -7,11 +7,11 @@
 
 \header{
   hymnnumber = "164"
-  title = "Have I an Object, Lord, Below"
-  tunename = "Mother’s Prayer"
+  title = "Have I an Object, Lord, Below" % not found at hymnary.org
+  tunename = "Mother’s Prayer" % see https://hymnary.org/tune/i_never_can_forget_the_day_weeden
   meter = "L. M. D."
   poet = "George W. Frazer"
-  composer = "W. S. Weeden"
+  composer = "Winfield S. Weeden" % see https://hymnary.org/tune/i_never_can_forget_the_day_weeden
   tagline = ##f
 }
 

@@ -10,10 +10,10 @@
 \header{
   hymnnumber = "162"
   title = "O Lord! ’Tis Joy to Look Above"
-  tunename = "Communion"
+  tunename = "Communion" % see https://hymnary.org/tune/communion_jenks
   meter = "C. M."
-  poet = "J. G. Deck"
-  composer = "Stephen Jenks"
+  poet = "James G. Deck" % see https://hymnary.org/text/o_lord_tis_joy_to_look_above
+  composer = "Stephen Jenks" % see https://hymnary.org/tune/communion_jenks
   tagline = ##f
 }
 

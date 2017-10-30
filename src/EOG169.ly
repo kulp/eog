@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "169"
   title = "Blest Be the Tie That Binds"
-  tunename = "Dennis"
+  tunename = "Dennis" % see https://hymnary.org/tune/dennis_nageli
   meter = "S. M."
-  poet = "J. Fawcett"
-  composer = "H. G. Nägeli"
+  poet = "John Fawcett" % see https://hymnary.org/text/blest_be_the_tie_that_binds
+  composer = "Johann G. Nägeli, arr. by Lowell Mason" % see https://hymnary.org/tune/dennis_nageli
   tagline = ##f
 }
 

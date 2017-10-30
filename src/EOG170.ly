@@ -8,11 +8,11 @@
 
 \header{
   hymnnumber = "170"
-  title = "Jesus! Oh Name Divinely Sweet!"
-  tunename = "Mendip"
+  title = "Jesus! Oh Name Divinely Sweet!" % see https://hymnary.org/text/jesus_o_name_divinely_sweet_how_charming
+  tunename = "Mendip" % see https://hymnary.org/tune/mendip_english
   meter = "C. M."
-  poet = "S. Stennett"
-  composer = "English Melody"
+  poet = "Samuel Stennett" % see https://hymnary.org/text/jesus_o_name_divinely_sweet_how_charming
+  composer = "English Melody" % see https://hymnary.org/tune/mendip_english
   tagline = ##f
 }
 
