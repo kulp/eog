@@ -8,10 +8,10 @@
 
 \header{
   hymnnumber = "171"
-  title = "On the Lamb Our Souls Are Resting"
+  title = "On the Lamb Our Souls Are Resting" % see https://hymnary.org/text/on_the_lamb_my_soul_is_resting
   tunename = "Zurich"
   meter = "8. 7. 8. 7."
-  poet = "Frances Bevan (from German)"
+  poet = "Frances Bevan (from German)" % see https://hymnary.org/person/Bevan_EF
   composer = "German"
   tagline = ##f
 }
