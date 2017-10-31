@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "191"
-  title = "Saviour, Though the Desert Lead Us"
+  title = "Saviour, Through the Desert Lead Us"
   tunename = ""
   meter = "8. 7. 8. 7. D."
   poet = "T. Kelly"
