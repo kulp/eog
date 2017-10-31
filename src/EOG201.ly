@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "201"
   title = "Trust and Obey"
-  tunename = ""
+  tunename = "Trust and Obey" % see https://hymnary.org/text/when_we_walk_with_the_lord
   meter = "6. 6. 9. D. with Refrain"
-  poet = "J. H. Sammis"
-  composer = "D. B. Towner"
+  poet = "John H. Sammis" % see https://hymnary.org/text/when_we_walk_with_the_lord
+  composer = "Daniel B. Towner" % see https://hymnary.org/text/when_we_walk_with_the_lord
   tagline = ##f
 }
 

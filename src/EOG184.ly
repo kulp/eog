@@ -5,11 +5,11 @@
 
 \header{
   hymnnumber = "184"
-  title = "Oh, Remember"
+  title = "Oh, Remember" % not found at hymnary.org
   tunename = ""
   meter = "P. M."
-  poet = "From the Slovak of Maria Royova"
-  composer = "Maria Royova"
+  poet = "From the Slovak of Mária Royová" % see https://en.wikipedia.org/wiki/Mária_Royová
+  composer = "Mária Royová" % see https://en.wikipedia.org/wiki/Mária_Royová
   tagline = ##f
 }
 

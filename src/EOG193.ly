@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "193"
   title = "Sweet Peace, the Gift of God’s Love"
-  tunename = ""
+  tunename = "Sweet Peace" % see https://hymnary.org/tune/sweet_peace_bilhorn
   meter = "P. M."
-  poet = "P. P. Bilhorn"
-  composer = "P. P. Bilhorn"
+  poet = "Peter P. Bilhorn" % see https://hymnary.org/text/there_comes_to_my_heart_one_sweet_strain
+  composer = "Peter P. Bilhorn" % see https://hymnary.org/tune/sweet_peace_bilhorn
   tagline = ##f
 }
 

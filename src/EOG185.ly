@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "185"
   title = "On His Father’s Throne Is Seated"
-  tunename = ""
+  tunename = "Helmsley" % see https://hymnary.org/tune/helmsley
   meter = "8. 7. 8. 7. 8. 4. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "H. K. Burlingham"
-  composer = "T. Olivers"
+  poet = "Hannah K. Burlingham" % see https://www.hymnal.net/en/hymn/h/143
+  composer = "Thomas Olivers" % see https://hymnary.org/tune/helmsley
   tagline = ##f
 }
 

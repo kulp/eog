@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "186"
   title = "One Day!"
-  tunename = ""
+  tunename = "One Day" % see https://hymnary.org/tune/one_day_when_heaven_was_filled_marsh
   meter = "P. M."
-  poet = "J. Wilbur Chapman"
-  composer = "Chas. H. Marsh"
+  poet = "J. Wilbur Chapman" % see https://hymnary.org/text/one_day_when_heaven_was_filled_with_his
+  composer = "Charles H. Marsh" % see https://hymnary.org/tune/one_day_when_heaven_was_filled_marsh
   tagline = ##f
 }
 

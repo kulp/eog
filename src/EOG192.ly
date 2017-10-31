@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "192"
   title = "Simply Trusting Every Day"
-  tunename = ""
+  tunename = "Trusting Jesus" % see https://hymnary.org/tune/trusting_jesus_sankey
   meter = "8—7s."
-  poet = "E. Page"
-  composer = "Ira D. Sankey"
+  poet = "Edgar Page Stites" % see https://hymnary.org/person/Page_E1
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/trusting_jesus_sankey
   tagline = ##f
 }
 

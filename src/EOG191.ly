@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "191"
   title = "Saviour, Through the Desert Lead Us"
-  tunename = ""
+  tunename = "Bradbury" % see https://hymnary.org/tune/bradbury_bradbury
   meter = "8. 7. 8. 7. D."
-  poet = "T. Kelly"
-  composer = "W. B. Bradbury"
+  poet = "Thomas Kelly" % see https://hymnary.org/text/savior_through_the_desert_lead_us
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/bradbury_bradbury
   tagline = ##f
 }
 

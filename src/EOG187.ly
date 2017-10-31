@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "187"
-  title = "Scarlet, Scarlet!"
+  title = "Scarlet, Scarlet!" % not found at hymnary.org
   tunename = ""
   meter = "P. M." % something like 10. 11. 10. 11.
   poet = ""
-  composer = "R. Lowry"
+  composer = "Robert Lowry" % inferred ; not found at hymnary.org
   tagline = ##f
 }
 

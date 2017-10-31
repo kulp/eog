@@ -9,8 +9,8 @@
   title = "Our Lord Is Now Rejected"
   tunename = ""
   meter = "P. M."
-  poet = "D. W. Whittle"
-  composer = "J. McGranahan"
+  poet = "Daniel W. Whittle" % see https://hymnary.org/text/our_lord_is_now_rejected
+  composer = "James McGranahan" % see https://hymnary.org/tune/our_lord_is_now_rejected_mcgranahan
   tagline = ##f
 }
 

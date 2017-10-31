@@ -8,8 +8,8 @@
   title = "Take the Name of Jesus with You"
   tunename = ""
   meter = "8. 7. 8. 7. with Refrain"
-  poet = "Mrs. L. Baxter"
-  composer = "W. H. Doane"
+  poet = "Lydia Baxter" % see https://hymnary.org/text/take_the_name_of_jesus_with_you_child_of
+  composer = "W. Howard Doane" % see https://hymnary.org/text/take_the_name_of_jesus_with_you_child_of
   tagline = ##f
 }
 
