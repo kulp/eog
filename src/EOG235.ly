@@ -5,11 +5,11 @@
 
 \header{
   hymnnumber = "235"
-  title = "Lift Up Your Heads, Eternal Gates"
+  title = "Lift Up Your Heads, Eternal Gates" % not found at hymnary.org
   tunename = ""
   meter = "8. 7. 8. 7. Iambic with Refrain" % original has 8. 7. 8. 7. D. Iambic
-  poet = "E. L. B."
-  composer = "C. L."
+  poet = "E. L. B." % not found at hymnary.org
+  composer = "C. L." % not found at hymnary.org
   tagline = ##f
 }
 

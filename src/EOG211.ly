@@ -8,8 +8,8 @@
   title = "Christian, Walk Carefully"
   tunename = ""
   meter = "10. 10. 10. 10. with Refrain" % original has P. M.
-  poet = "Words Arranged"
-  composer = "George C. Stebbins"
+  poet = "Words Arranged" % see https://hymnary.org/text/christian_walk_carefully_danger_is_near
+  composer = "George C. Stebbins" % see https://hymnary.org/text/christian_walk_carefully_danger_is_near
   tagline = ##f
 }
 

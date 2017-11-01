@@ -5,11 +5,11 @@
 
 \header{
   hymnnumber = "209"
-  title = "Bright in the Glory"
+  title = "Bright in the Glory" % see https://hymnary.org/text/bright_in_the_glory_where_my_lord_has_go
   tunename = ""
   meter = "P. M."
-  poet = ""
-  composer = ""
+  poet = "" % not found at hymnary.org
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 

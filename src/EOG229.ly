@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "229"
   title = "It Passeth Knowledge"
-  tunename = ""
+  tunename = "It Passeth Knowledge" % see https://hymnary.org/tune/it_passeth_knowledge_that_dear_sankey
   meter = "10. 10. 10. 10. 4." % original has 10. 10. 10. 4.
-  poet = "Mary Shekleton"
-  composer = "Ira D. Sankey"
+  poet = "Mary Shekleton" % see https://hymnary.org/text/it_passeth_knowledge_that_dear_love_of
+  composer = "Ira D. Sankey" % see https://hymnary.org/tune/it_passeth_knowledge_that_dear_sankey
   tagline = ##f
 }
 

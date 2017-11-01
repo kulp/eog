@@ -10,8 +10,8 @@
   title = "“But for a Moment”"
   tunename = ""
   meter = "11. 10. 11. 10. with Refrain"
-  poet = "A. A. P."
-  composer = "George C. Stebbins"
+  poet = "Adelaide A. Procter" % see https://hymnary.org/text/but_for_a_moment_this_valley_of_sorrows
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/but_for_a_moment_this_valley_stebbins
   tagline = ##f
 }
 

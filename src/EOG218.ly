@@ -7,11 +7,11 @@
 
 \header{
   hymnnumber = "218"
-  title = "He Is Coming"
+  title = "He Is Coming" % see https://hymnary.org/text/he_is_coming_coming_for_us
   tunename = ""
   meter = "8. 7. 8. 7. 8. 7. D."
   poet = ""
-  composer = "German Melody"
+  composer = "German Melody" % not found at hymnary.org
   tagline = ##f
 }
 

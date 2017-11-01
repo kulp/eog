@@ -23,8 +23,8 @@ dualTime = #(define-music-function (parser location num1 num2 denom) (string? st
   title = "Christ Returneth"
   tunename = ""
   meter = "P. M."
-  poet = "H. L. Turner"
-  composer = "James McGranahan"
+  poet = "H. L. Turner" % see https://hymnary.org/text/it_may_be_at_morn_when_the_day_is_awakin
+  composer = "James McGranahan" % see https://hymnary.org/tune/it_may_be_at_morn_when_the_mcgranahan
   tagline = ##f
 }
 

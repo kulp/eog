@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "230"
   title = "I’ve Found a Friend"
-  tunename = ""
+  tunename = "Friend" % see https://hymnary.org/tune/friend_stebbins
   meter = "8. 7. 8. 7. D. Iambic"
-  poet = "J. G. Small"
-  composer = "George C. Stebbins"
+  poet = "James G. Small" % see https://hymnary.org/text/ive_found_a_friend_o_such_a_friend
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/friend_stebbins
   tagline = ##f
 }
 

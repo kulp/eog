@@ -9,8 +9,8 @@
   title = "Lead Me, Saviour"
   tunename = ""
   meter = "7. 7. 7. 7. with Refrain"
-  poet = "F. M. Davis"
-  composer = "F. M. Davis"
+  poet = "Frank M. Davis" % see https://hymnary.org/text/savior_lead_me_lest_i_stray
+  composer = "Frank M. Davis" % see https://hymnary.org/tune/savior_lead_me_lest_i_stray_davis
   tagline = ##f
 }
 

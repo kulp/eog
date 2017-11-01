@@ -9,8 +9,8 @@
   title = "I Left It All with Jesus"
   tunename = ""
   meter = "P. M."
-  poet = "Mrs. E. H. Willis"
-  composer = "Miss H. M. Warner"
+  poet = "Ellen H. Willis" % see https://hymnary.org/text/i_left_it_all_with_jesus_long_ago
+  composer = "Miss H. M. Warner" % see https://hymnary.org/tune/i_left_it_all_with_jesus_warner
   tagline = ##f
 }
 
