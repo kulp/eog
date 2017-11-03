@@ -8,8 +8,8 @@
   title = "Oh, How He Loves!"
   tunename = ""
   meter = "8. 4. 8. 4. 8. 8. 8. 4."
-  poet = "Adpt. by Miss M. Nunn"
-  composer = "H. P. Main"
+  poet = "John Newton, adapted by Marianne Nunn" % see https://hymnary.org/text/one_there_is_above_all_others_o_how_he_l ; see https://hymnary.org/text/one_there_is_above_all_others_well_deser
+  composer = "Hubert P. Main" % see https://hymnary.org/tune/one_there_is_above_all_others_main
   tagline = ##f
 }
 

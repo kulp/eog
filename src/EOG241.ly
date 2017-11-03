@@ -9,8 +9,8 @@
   title = "More than Tongue Can Tell"
   tunename = ""
   meter = "8. 8. 8. 6. with Refrain"
-  poet = "J. E. Hall"
-  composer = "J. E. Hall"
+  poet = "Jane E. Hall" % see https://hymnary.org/text/the_love_that_jesus_had_for_me
+  composer = "Jane E. Hall" % see https://hymnary.org/tune/the_love_that_jesus_hall
   tagline = ##f
 }
 

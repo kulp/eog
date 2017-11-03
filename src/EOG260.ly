@@ -7,11 +7,11 @@
 
 \header{
   hymnnumber = "260"
-  title = "Precious Word of Deepest Meaning"
+  title = "Precious Word of Deepest Meaning" % not found at hymnary.org
   tunename = ""
   meter = "8. 7. 8. 7. 8. 7. 8. 7. 7." % original has 8. 7. 8. 7. D.
   poet = ""
-  composer = "From Mozart"
+  composer = "From Mozart" % not found at hymnary.org
   tagline = ##f
 }
 

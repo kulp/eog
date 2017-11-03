@@ -9,8 +9,8 @@
   title = "One Priest Alone Can Pardon Me"
   tunename = ""
   meter = "P. M."
-  poet = ""
-  composer = "H. Bennett"
+  poet = "Adelaide A. Procter" % see https://hymnary.org/text/one_priest_alone_can_pardon_me
+  composer = "H. Bennett" % not found at hymnary.org
   tagline = ##f
 }
 

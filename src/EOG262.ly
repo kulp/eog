@@ -9,8 +9,8 @@
   title = "Satisfied with Thee"
   tunename = ""
   meter = "P. M."
-  poet = "Miss C. A. Wellesley"
-  composer = "Mrs. E. Milne"
+  poet = "Miss C. A. Wellesley" % see https://hymnary.org/text/satisfied_with_thee_lord_jesus_i_am_bles
+  composer = "Mrs. E. Milne" % or Henry Bennett : see https://hymnary.org/tune/satisfied_with_thee_lord_jesus_bennett
   tagline = ##f
 }
 

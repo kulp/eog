@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "263"
   title = "The Glory Shines Before Me!"
-  tunename = ""
+  tunename = "" % not found at hymnary.org
   meter = "7. 6. 7. 6. D."
-  poet = "H. K. Burlingham"
-  composer = "Miss S. M. Walker"
+  poet = "Hannah K. Burlingham" % see https://hymnary.org/text/the_glory_shines_before_me
+  composer = "Miss S. M. Walker" % not found at hymnary.org
   tagline = ##f
 }
 

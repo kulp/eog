@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "238"
-  title = "Love Not the World"
+  title = "Love Not the World" % not found at hymnary.org
   tunename = ""
   meter = "8. 4. 8. 4. D."
-  poet = "Mrs. A. H. Rule"
-  composer = "Mrs. A. H. Rule"
+  poet = "Mrs. A. H. Rule" % not found at hymnary.org
+  composer = "Mrs. A. H. Rule" % not found at hymnary.org
   tagline = ##f
 }
 

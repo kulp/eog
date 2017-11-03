@@ -5,11 +5,11 @@
 
 \header{
   hymnnumber = "245"
-  title = "O Blessed, Precious Saviour"
+  title = "O Blessed, Precious Saviour" % not found at hymnary.org
   tunename = ""
   meter = "P. M."
   poet = "A. H. Rule"
-  composer = "A. A. Spottiswoode"
+  composer = "Alicia A. Spottiswoode" % aka Lady John Scott ; see https://hymnary.org/tune/maxweltons_braes_are_bonnie_scott
   tagline = ##f
 }
 

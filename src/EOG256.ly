@@ -8,7 +8,7 @@
 
 \header{
   hymnnumber = "256"
-  title = "Some Day"
+  title = "Some Day" % not found at hymnary.org
   tunename = ""
   meter = "L. M. D."
   poet = "A. H. Rule"

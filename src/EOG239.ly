@@ -8,8 +8,8 @@
   title = "Midst the Darkness, Storm and Sorrow"
   tunename = ""
   meter = "8. 5. 8. 5. D."
-  poet = "Frances Bevan"
-  composer = "J. Revell"
+  poet = "Frances Bevan" % see https://hymnary.org/text/midst_the_darkness_storm_and_sorrow
+  composer = "J. Revell" % not found at hymnary.org
   tagline = ##f
 }
 

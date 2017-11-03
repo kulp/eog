@@ -6,10 +6,10 @@
 \header{
   %gospel
   hymnnumber = "240"
-  title = "Mighty, Mighty Love of Jesus"
+  title = "Mighty, Mighty Love of Jesus" % not found at hymnary.org
   tunename = ""
   meter = "8. 7. 8. 7. D."
-  poet = "A. A. P."
+  poet = "A. A. P." % probably Adelaide Anne Procter, but no evidence of such can be found
   composer = "George C. Stebbins"
   tagline = ##f
 }

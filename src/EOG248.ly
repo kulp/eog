@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "248"
   title = "Oh Happy Day That Fixed My Choice"
-  tunename = ""
+  tunename = "Happy Day" % see https://hymnary.org/tune/o_happy_day_that_fixed_my_choic_rimbault
   meter = "L. M. with Refrain"
-  poet = "P. Doddridge"
-  composer = "From E. F. Rimbault"
+  poet = "Philip Doddridge" % see https://hymnary.org/text/o_happy_day_that_fixed_my_choice
+  composer = "Attributed to Edward F. Rimbault" % see https://hymnary.org/tune/o_happy_day_that_fixed_my_choic_rimbault
   tagline = ##f
 }
 
