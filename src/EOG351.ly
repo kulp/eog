@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "351"
-  title = "One Door and Only One"
+  title = "One Door and Only One" % see https://hymnary.org/text/one_door_and_only_one_and_yet_its_sides_
   tunename = ""
   meter = "P. M."
   poet = ""
-  composer = ""
+  composer = "" % see https://hymnary.org/tune/one_door_and_only_one
   tagline = ##f
 }
 

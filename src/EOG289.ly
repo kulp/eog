@@ -9,9 +9,9 @@
   hymnnumber = "289"
   title = "Who Is He?"
   tunename = ""
-  meter = "P. M."
-  poet = "B. R. Hanby"
-  composer = "B. R. Hanby"
+  meter = "6—7s." % original has P. M. ; other hymnals have 8—7s.
+  poet = "Benjamin R. Hanby" % see https://hymnary.org/text/who_is_he_in_yonder_stall
+  composer = "Benjamin R. Hanby" % see https://hymnary.org/tune/who_is_he_in_yonder_stall_hanby
   tagline = ##f
 }
 

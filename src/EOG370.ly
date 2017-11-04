@@ -37,8 +37,8 @@
   title = "Yield Not to Temptation"
   tunename = ""
   meter = "6. 5. 6. 5. D. with Refrain" % original has 11. 11. 11. 12. with Refrain
-  poet = "H. R. Palmer"
-  composer = "H. R. Palmer"
+  poet = "Horatio R. Palmer" % see https://hymnary.org/text/yield_not_to_temptation
+  composer = "Horatio R. Palmer" % see https://hymnary.org/tune/yield_not_to_temptation_palmer
   tagline = ##f
 }
 

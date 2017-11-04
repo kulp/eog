@@ -10,8 +10,8 @@
   title = "At Calvary"
   tunename = ""
   meter = "P. M."
-  poet = "Wm. R. Newell"
-  composer = "D. B. Towner"
+  poet = "William R. Newell" % see https://hymnary.org/text/years_i_spent_in_vanity_and_pride
+  composer = "Daniel B. Towner" % see https://hymnary.org/tune/years_i_spent_in_vanity_and_pride_towner
   tagline = ##f
 }
 

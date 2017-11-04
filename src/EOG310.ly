@@ -11,8 +11,8 @@
   title = "Come to Jesus Just Now"
   tunename = ""
   meter = "P. M."
-  poet = ""
-  composer = "E. P. Hammond"
+  poet = "Edward P. Hammond" % see https://hymnary.org/text/come_to_jesus_come_to_jesus_come_to_jesu
+  composer = "" % see https://hymnary.org/tune/come_to_jesus_come_to_jesus -- but evidence is weak
   tagline = ##f
 }
 

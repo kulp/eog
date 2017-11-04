@@ -10,8 +10,8 @@
   title = "Hear Christ Calling, “Come Unto Me”"
   tunename = ""
   meter = "P. M."
-  poet = "Harry D. Clarke"
-  composer = "Harry D. Clarke"
+  poet = "Harry D. Clarke" % see https://hymnary.org/text/i_will_make_you_fishers_of_men
+  composer = "Harry D. Clarke" % see https://hymnary.org/tune/i_will_make_you_fishers_of_men
   tagline = ##f
 }
 

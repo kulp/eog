@@ -8,10 +8,10 @@
   %children
   hymnnumber = "353"
   title = "Come to Jesus, Come Today"
-  tunename = ""
+  tunename = "" % not found at hymnary.org
   meter = "P. M."
-  poet = ""
-  composer = ""
+  poet = "H. A. Davis" % see https://hymnary.org/text/come_to_jesus_come_today_he_will_take
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 

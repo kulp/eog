@@ -10,8 +10,8 @@
   title = "Come to the Saviour, Make No Delay"
   tunename = ""
   meter = "9. 9. 9. 6. with Refrain"
-  poet = "George F. Root"
-  composer = "George F. Root"
+  poet = "George F. Root" % see https://hymnary.org/text/come_to_the_savior_make_no_delay
+  composer = "George F. Root" % see https://hymnary.org/tune/come_to_the_savior_make_no_delay_root
   tagline = ##f
 }
 

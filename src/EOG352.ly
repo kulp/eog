@@ -8,12 +8,12 @@
 \header{
   %children
   hymnnumber = "352"
-  title = "Oh, Won’t You Come to Jesus While You’re Young"
+  title = "Oh, Won’t You Come to Jesus While You’re Young" % not found at hymnary.org
   markuptitle = \markup \center-column { "Oh, Won’t You Come to Jesus" "While You’re Young" \vspace #0.4 } % original has different line breaking
   tunename = ""
   meter = "P. M."
   poet = ""
-  composer = "A. A. Graley"
+  composer = "Alfred A. Graley" % see https://hymnary.org/tune/o_wont_you_be_a_christian_graley
   tagline = ##f
 }
 

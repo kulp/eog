@@ -9,8 +9,8 @@
   title = "Something More than Gold"
   tunename = ""
   meter = "C. M. with Refrain" % original has "With"
-  poet = "Anon."
-  composer = "Anon."
+  poet = "T. P. Hamilton" % see https://hymnary.org/text/a_certain_man_of_whom_we_read
+  composer = "Anon." % Harmonizer : https://hymnary.org/tune/o_yes_my_friend_theres_something_winsett
   tagline = ##f
 }
 

@@ -9,10 +9,10 @@
   %children
   hymnnumber = "312"
   title = "Jesus Loves Me!"
-  tunename = ""
+  tunename = "Jesus Loves Me" % see https://hymnary.org/tune/jesus_loves_me_this_i_know_bradbury
   meter = "7. 7. 7. 7. with Refrain"
-  poet = "Anna Warner"
-  composer = "W. B. Bradbury"
+  poet = "Anna B. Warner" % see https://hymnary.org/text/jesus_loves_me_this_i_know_for_the_bible
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/jesus_loves_me_this_i_know_bradbury
   tagline = ##f
 }
 

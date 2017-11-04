@@ -7,11 +7,11 @@
 \header{
   %children
   hymnnumber = "308"
-  title = "I Love to Hear the Story"
-  tunename = ""
+  title = "I Love to Hear the Story" % hymnary.org has "Because He Loved Me So"
+  tunename = "Ellon" % see https://hymnary.org/tune/ellon_root
   meter = "7. 6. 7. 6. D."
-  poet = "Emily H. Miller"
-  composer = "George F. Root"
+  poet = "Emily H. Miller" % see https://hymnary.org/text/i_love_to_hear_the_story_which_angel_voi
+  composer = "George F. Root" % see https://hymnary.org/tune/ellon_root
   tagline = ##f
 }
 

@@ -11,8 +11,8 @@
   title = "I Love My Saviour" % original has subtitle "(I Have A Saviour)"
   tunename = ""
   meter = "10. 8. 10. 8."
-  poet = "H. Sweetman & F. W. Schwartz"
-  composer = "B. B. McKinney"
+  poet = "Hubert Sweetman & F. W. Schwartz" % see https://hymnary.org/text/i_love_my_savior_my_precious_savior
+  composer = "B. B. McKinney" % probably Baylus Benjamin McKinney, but no evidence for this text
   tagline = ##f
 }
 

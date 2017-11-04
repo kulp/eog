@@ -9,11 +9,11 @@
 \header{
   %children
   hymnnumber = "325"
-  title = "Suffer Little Children"
+  title = "Suffer Little Children" % not found at hymnary.org
   tunename = ""
   meter = "P. M."
   poet = ""
-  composer = "Mrs. Page"
+  composer = "Mrs. Page" % not found at hymnary.org
   tagline = ##f
 }
 

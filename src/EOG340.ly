@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "340"
-  title = "Happy Is the Boy"
-  tunename = ""
+  title = "Happy Is the Boy" % not found at hymnary.org
+  tunename = "" % not found at hymnary.org
   meter = "P. M."
   poet = ""
-  composer = "W. Perkins, Jr."
+  composer = "W. Perkins, Jr." % not found at hymnary.org
   tagline = ##f
 }
 

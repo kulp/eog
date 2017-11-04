@@ -11,8 +11,8 @@
   title = "For God So Loved the World"
   tunename = ""
   meter = "P. M."
-  poet = "Frances Townsend"
-  composer = "Alfred B. Smith"
+  poet = "Frances Townsend" % see https://hymnary.org/text/for_god_so_loved_the_world_townsend
+  composer = "Alfred B. Smith" % see https://hymnary.org/tune/for_god_so_loved_the_world_smith
   tagline = ##f
 }
 

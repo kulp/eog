@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "330"
-  title = "A Message Came from Heaven"
+  title = "A Message Came from Heaven" % not found at hymnary.org
   tunename = ""
   meter = "7. 6. 7. 6. D. with Refrain" % P. M. in original, but no more P. M. than other 7. 6. 7. 6. D. with Refrain
   poet = ""
-  composer = ""
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 

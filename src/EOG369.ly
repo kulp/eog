@@ -11,8 +11,8 @@
   title = "Wide as the Ocean"
   tunename = ""
   meter = "P. M."
-  poet = "C. Austin Miles"
-  composer = "C. Austin Miles"
+  poet = "C. Austin Miles" % see https://hymnary.org/text/i_claim_for_my_own_a_king_on_a_throne
+  composer = "C. Austin Miles" % see https://hymnary.org/tune/i_claim_for_my_own_a_king_miles
   tagline = ##f
 }
 

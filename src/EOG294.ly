@@ -9,10 +9,10 @@
   %children
   hymnnumber = "294"
   title = "Around the Throne of God in Heaven"
-  tunename = ""
+  tunename = "Children’s Praises"
   meter = "C. M. with Refrain"
-  poet = "Anna Shepherd"
-  composer = "Henry E. Matthews"
+  poet = "Anna H. Shepherd" % see https://hymnary.org/text/around_the_throne_of_god_in_heaven_thous
+  composer = "Henry E. Matthews" % see https://hymnary.org/tune/childrens_praises_matthews
   tagline = ##f
 }
 

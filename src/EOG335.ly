@@ -10,8 +10,8 @@
   title = "I Am So Glad That Our Father in Heaven"
   tunename = ""
   meter = "10. 10. 10. 10. with Refrain"
-  poet = "P. P. Bliss"
-  composer = "P. P. Bliss"
+  poet = "Philip P. Bliss" % see https://hymnary.org/text/i_am_so_glad_that_our_father_in_heaven
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/i_am_so_glad_that_our_father_in_bliss
   tagline = ##f
 }
 

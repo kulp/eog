@@ -5,11 +5,11 @@
 
 \header{
   hymnnumber = "378"
-  title = "The Father from Eternity"
-  tunename = ""
+  title = "The Father from Eternity" % not found at hymnary.org
+  tunename = "Wie schön leuchtet der Morgenstern"
   meter = "P. M."
-  poet = "Nicolai, 1598"
-  composer = "German"
+  poet = ""
+  composer = "Philipp Nicolai" % see https://hymnary.org/tune/wie_schon_leuchtet_nicolai ; see https://en.wikipedia.org/wiki/Wie_schön_leuchtet_der_Morgenstern
   tagline = ##f
 }
 

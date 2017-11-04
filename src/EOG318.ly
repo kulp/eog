@@ -6,11 +6,11 @@
 \header{
   %children
   hymnnumber = "318"
-  title = "Jesus Will Bless the Little Ones"
+  title = "Jesus Will Bless the Little Ones" % see https://hymnary.org/text/the_infant_children_christ_received
   tunename = ""
   meter = "C. M. with Refrain"
   poet = "John"
-  composer = "J. G. F."
+  composer = "John G. Foote" % see https://hymnary.org/tune/the_infant_children_christ_receiv_foote
   tagline = ##f
 }
 

@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "313"
-  title = "“God Is in Heaven: Can He Hear?”"
-  tunename = ""
+  title = "“God Is in Heaven: Can He Hear?”" % see https://hymnary.org/text/god_is_in_heaven_can_he_hear
+  tunename = "Campmeeting" % see https://hymnary.org/tune/campmeeting
   meter = "C. M."
-  poet = ""
-  composer = ""
+  poet = "Ann Taylor Gilbert" % see https://hymnary.org/text/god_is_in_heaven_can_he_hear
+  composer = "" % see https://hymnary.org/tune/campmeeting
   tagline = ##f
 }
 

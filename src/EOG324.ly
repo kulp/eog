@@ -38,8 +38,8 @@
   title = "Tell It Again!"
   tunename = ""
   meter = "10. 10. 10. 10. with Refrain"
-  poet = "Mrs. M. B. C. Slade"
-  composer = "B. M. McIntosh"
+  poet = "Mary B. C. Slade" % see https://hymnary.org/text/into_the_tent_where_a_gypsy_boy_lay
+  composer = "Rigdon M. McIntosh" % see https://hymnary.org/tune/into_the_tent_where_a_gypsy_boy_mcintosh
   tagline = ##f
 }
 

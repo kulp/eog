@@ -10,8 +10,8 @@
   title = "Jesus Bids Us Shine"
   tunename = ""
   meter = "P. M."
-  poet = "Emily H. Miller"
-  composer = "E. O. Excell"
+  poet = "Susan Warner" % see https://hymnary.org/text/jesus_bids_us_shine_with_a_pure_clear_li
+  composer = "Edwin O. Excell" % see https://hymnary.org/tune/jesus_bids_us_shine_excell
   tagline = ##f
 }
 

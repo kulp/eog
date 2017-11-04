@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "315"
-  title = "Jesus Loves the Little Ones"
+  title = "Jesus Loves the Little Ones" % not found at hymnary.org
   tunename = ""
   meter = "P. M."
   poet = ""
-  composer = "A. & E. Gausby"
+  composer = "A. & E. Gausby" % not found at hymnary.org
   tagline = ##f
 }
 

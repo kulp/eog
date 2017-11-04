@@ -7,10 +7,10 @@
   %children
   hymnnumber = "358"
   title = "Tell Me the Story of Jesus"
-  tunename = ""
+  tunename = "Story of Jesus"
   meter = "8. 7. 8. 7. 8. 7. D." % original has 8. 7. 8. 7. with Refrain
-  poet = "Fanny J. Crosby"
-  composer = "Ira D. Sankey"
+  poet = "Fanny J. Crosby" % see https://hymnary.org/text/tell_me_the_story_of_jesus_write_on_my_h
+  composer = "John R. Sweney" % see https://hymnary.org/tune/story_of_jesus_sweney
   tagline = ##f
 }
 

@@ -7,11 +7,11 @@
 
 \header{
   hymnnumber = "284"
-  title = "Jesus, My Lord"
+  title = "Jesus, My Lord" % not found at hymnary.org
   tunename = ""
   meter = "9. 6. 9. 6."
-  poet = "Mrs. A. H. Rule"
-  composer = "David Baridon"
+  poet = "Mrs. A. H. Rule" % not found at hymnary.org
+  composer = "David Baridon" % not found at hymnary.org
   tagline = ##f
 }
 

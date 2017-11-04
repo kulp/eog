@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "336"
-  title = "I Am the Door"
+  title = "I Am the Door" % see https://hymnary.org/text/i_am_the_door_i_am_the_door
   tunename = ""
   meter = "P. M."
   poet = ""
-  composer = "Anon."
+  composer = "Anon." % see https://hymnary.org/tune/i_am_the_door_i_am_the_door_55113
   tagline = ##f
 }
 

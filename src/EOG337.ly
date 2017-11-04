@@ -9,10 +9,10 @@
   %children
   hymnnumber = "337"
   title = "If I Come to Jesus"
-  tunename = ""
+  tunename = "If I Come To Jesus" % see https://hymnary.org/tune/if_i_come_to_jesus_doane
   meter = "6. 5. 6. 5. D."
-  poet = "Fanny J. Crosby"
-  composer = "Anon."
+  poet = "Fanny J. Crosby" % see https://hymnary.org/text/if_i_come_to_jesus
+  composer = "W. Howard Doane" % see https://hymnary.org/tune/if_i_come_to_jesus_doane
   tagline = ##f
 }
 

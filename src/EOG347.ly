@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "347"
-  title = "Jesus, When He Left the Sky"
+  title = "Jesus, When He Left the Sky" % hymnary.org has "Little Ones Like Me"
   tunename = ""
   meter = "7. 7. 7. 5."
-  poet = ""
-  composer = ""
+  poet = "" % see https://hymnary.org/text/jesus_when_he_left_the_sky
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 

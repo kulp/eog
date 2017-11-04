@@ -10,8 +10,8 @@
   title = "Who Came Down from Heaven to Earth?"
   tunename = ""
   meter = "P. M."
-  poet = "El Nathan"
-  composer = "J. McGranahan"
+  poet = "El Nathan" % see https://hymnary.org/text/who_came_down_from_heaven_to_earth
+  composer = "James McGranahan" % see https://hymnary.org/tune/who_came_down_from_heaven_mcgranahan
   tagline = ##f
 }
 

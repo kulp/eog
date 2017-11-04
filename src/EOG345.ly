@@ -9,10 +9,10 @@
   %children
   hymnnumber = "345"
   title = "Jesus Loves the Little Children"
-  tunename = ""
+  tunename = "Children" % see https://hymnary.org/tune/children_root
   meter = "P. M."
-  poet = "Edwin L. Bowyer"
-  composer = "George F. Root"
+  poet = "Clarence H. Woolston" % see https://hymnary.org/text/jesus_loves_the_little_children_all_the
+  composer = "George F. Root" % see https://hymnary.org/tune/children_root
   tagline = ##f
 }
 

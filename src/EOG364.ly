@@ -9,9 +9,9 @@
   %children
   hymnnumber = "364"
   title = "Little Children, Praise the Saviour"
-  tunename = ""
+  tunename = "" % not found at hymnary.org
   meter = "8. 7. 8. 7. D."
-  poet = ""
+  poet = "" % see https://hymnary.org/text/little_children_praise_the_savior_he_reg
   composer = "George F. Handel"
   tagline = ##f
 }

@@ -9,10 +9,10 @@
   %children
   hymnnumber = "362"
   title = "Two Little Eyes"
-  tunename = ""
+  tunename = "Two Little Eyes"
   meter = "L. M."
-  poet = ""
-  composer = ""
+  poet = "C. C. Kerr" % see https://hymnary.org/text/two_little_eyes_to_look_to_god
+  composer = "Steven V. R. Ford" % see https://hymnary.org/tune/two_little_eyes_ford
   tagline = ##f
 }
 
