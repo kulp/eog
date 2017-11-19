@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "173"
   title = "Long Did I Toil, and Knew No Earthly Rest"
-  tunename = "Finlandia"
+  tunename = "Finlandia" % see https://hymnary.org/tune/finlandia_sibelius
   meter = "6—10s."
-  poet = "H. F. Lyte"
-  composer = "Jan Sibelius"
+  poet = "Henry Francis Lyte" % see https://hymnary.org/text/long_did_i_toil_and_knew_no_earthly_rest
+  composer = "Jean Sibelius" % see https://hymnary.org/tune/finlandia_sibelius
   tagline = ##f
 }
 

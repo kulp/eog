@@ -11,8 +11,8 @@
   title = "Glory Unto Jesus Be!"
   tunename = "Vienna"
   meter = "7. 7. 7. 7."
-  poet = "A. J. Rutherford"
-  composer = "J. H. Knecht"
+  poet = "Archibald Rutherford" % see https://hymnary.org/text/glory_unto_jesus_be
+  composer = "Justin H. Knecht" % see https://hymnary.org/tune/vienna_knecht
   tagline = ##f
 }
 

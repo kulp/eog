@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "175"
   title = "Low in the Grave He Lay"
-  tunename = "Christ Arose"
+  tunename = "Christ Arose" % see https://hymnary.org/text/low_in_the_grave_he_lay_jesus_my_savior
   meter = "6. 5. 6. 4. with Refrain"
-  poet = "R. Lowry"
-  composer = "R. Lowry"
+  poet = "Robert Lowry" % see https://hymnary.org/text/low_in_the_grave_he_lay_jesus_my_savior
+  composer = "Robert Lowry" % see https://hymnary.org/tune/christ_arose_lowry
   tagline = ##f
 }
 

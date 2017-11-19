@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "183"
   title = "O Lamb of God, Still Keep Us"
-  tunename = "Missionary"
+  tunename = "Missionary Hymn" % see https://hymnary.org/tune/missionary_hymn_mason
   meter = "7. 6. 7. 6. D."
-  poet = "J. G. Deck"
-  composer = "L. Mason"
+  poet = "James G. Deck" % see https://bibletruthpublishers.com/o-lamb-of-god-still-keep-us/james-george-deck/echoes-of-grace-hymnbook/hymnbooks/la78865
+  composer = "Lowell Mason" % see https://hymnary.org/tune/missionary_hymn_mason
   tagline = ##f
 }
 

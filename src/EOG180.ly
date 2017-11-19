@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "180"
   title = "Whom Have We, Lord, But Thee?"
-  tunename = "Huddersfield"
+  tunename = "Dover" % see https://hymnary.org/tune/dover_williams
   meter = "S. M."
-  poet = "Mary Bowley"
-  composer = "Williams’ Psalmody"
+  poet = "Mary Bowley" % see https://hymnary.org/text/whom_have_we_lord_but_thee
+  composer = "Aaron Williams" % see https://hymnary.org/tune/dover_williams
   tagline = ##f
 }
 

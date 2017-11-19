@@ -10,8 +10,8 @@
   title = "Nothing But Christ, as on We Tread"
   tunename = "Arizona"
   meter = "L. M."
-  poet = "S. O’M. Cluff"
-  composer = "Dr. R. H. Earnshaw"
+  poet = "Samuel O’Malley Cluff" % see https://hymnary.org/text/nothing_but_christ_as_on_we_tread
+  composer = "Robert H. Earnshaw" % see https://hymnary.org/tune/arizona_earnshaw
   tagline = ##f
 }
 

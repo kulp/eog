@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "190"
   title = "Saviour! Lead Us by Thy Power"
-  tunename = "Nettleton"
+  tunename = "Nettleton" % see https://hymnary.org/tune/nettleton
   meter = "8. 7. 8. 7. D."
-  poet = "W. Williams"
-  composer = "A. Nettleton"
+  poet = "William Williams" % see https://hymnary.org/text/savior_lead_us_by_thy_power
+  composer = "Asahel Nettleton" % see https://hymnary.org/person/Nettleton_A?tab=tunes
   tagline = ##f
 }
 

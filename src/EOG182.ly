@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "182"
   title = "O Jesus! Friend Unfailing!"
-  tunename = "Joyful Pilgrims"
+  tunename = "" % original has "Joyful Pilgrims" but evidence to counter this is strong
   meter = "7. 6. 7. 6. D."
-  poet = "H. K. Burlingham"
-  composer = "J. R. Sweney (adapted)"
+  poet = "Samuel C. G. Küster, tr. by Hannah K. Burlingham" % see https://hymnary.org/text/o_jesus_friend_unfailing
+  composer = "" % original has Sweney, but evidence to counter this is strong
   tagline = ##f
 }
 

@@ -9,8 +9,8 @@
   title = "O Head Once Full of Bruises"
   tunename = "St. Christopher"
   meter = "7. 6. 7. 6. D."
-  poet = "St. Bernard, tr. by John Gambold"
-  composer = "F. C. Maker"
+  poet = "Bernard of Clairvaux, tr. by John Gambold" % see https://hymnary.org/text/o_head_so_full_of_bruises_so_full_of_pai
+  composer = "Frederick C. Maker" % see https://hymnary.org/tune/st_christopher_maker
   tagline = ##f
 }
 

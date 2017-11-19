@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "172"
-  title = "Lamb of God, We Bow Before Thee"
-  tunename = "Rousseau"
+  title = "Lamb of God, We Bow Before Thee" % not found at hymnary.org
+  tunename = "Greenville" % see https://hymnary.org/tune/greenville_rousseau
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "Elizabeth Darkey"
-  composer = "J. J. Rousseau"
+  poet = "Elizabeth Darkey" % not found at hymnary.org
+  composer = "Jean-Jacques Rousseau" % see https://hymnary.org/tune/greenville_rousseau
   tagline = ##f
 }
 

@@ -9,10 +9,10 @@
 \header{
   hymnnumber = "176"
   title = "Oh, What a Debt We Owe"
-  tunename = "Silchester"
+  tunename = "Silchester" % see https://hymnary.org/tune/silchester_malan
   meter = "S. M."
-  poet = "G. V. Wigram"
-  composer = "Dr. Malan"
+  poet = "George V. Wigram" % see https://en.wikipedia.org/wiki/George_Wigram
+  composer = "César Malan" % see https://hymnary.org/tune/silchester_malan
   tagline = ##f
 }
 

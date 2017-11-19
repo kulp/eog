@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "189"
   title = "Our Sins Were Borne by Jesus"
-  tunename = "Bridlington"
+  tunename = "Bridlington" % not found at hymnary.org
   meter = "7. 6. 7. 6. D."
-  poet = "H. Bonar"
-  composer = "C. Darnton"
+  poet = "Horatius Bonar" % see https://hymnary.org/text/our_sins_were_borne_by_jesus
+  composer = "Charles Darnton" % tune not found at hymnary.org ; inferred
   tagline = ##f
 }
 
