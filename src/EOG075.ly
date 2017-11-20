@@ -10,7 +10,7 @@
   hymnnumber = "75"
   title = "I Gave My Life for Thee"
   tunename = "Kenosis" % see https://hymnary.org/tune/kenosis_bliss
-  meter = "6. 6. 6. 6. D." % original has 6. 6. 6. 6. 6. 6.
+  meter = "8—6s." % original has 6. 6. 6. 6. 6. 6.
   poet = "Frances R. Havergal" % see https://hymnary.org/text/i_gave_my_life_for_thee
   composer = "Philip P. Bliss" % see https://hymnary.org/tune/kenosis_bliss
   tagline = ##f
