@@ -172,6 +172,8 @@ Yes, a man -- sion waits for thee.
   >>
   \layout {
     \include "common/layout.ily"
+    % ameliorate aesthetic spacing oddity caused by bass clef stems
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #3
   }
   #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
