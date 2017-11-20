@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "199"
   title = "When We Survey the Wondrous Cross"
-  tunename = "Rockingham"
+  tunename = "Rockingham" % see https://hymnary.org/text/when_i_survey_the_wondrous_cross_watts
   meter = "L. M."
-  poet = "I. Watts"
-  composer = "Adpt. by Edward Miller"
+  poet = "Isaac Watts" % see https://hymnary.org/text/when_i_survey_the_wondrous_cross_watts
+  composer = "Edward Miller" % see https://hymnary.org/tune/rockingham_miller
   tagline = ##f
 }
 

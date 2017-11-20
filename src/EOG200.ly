@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "200"
-  title = "’Tis the Hope of His Coming"
-  tunename = "Hallelujah! ’Tis Done"
+  title = "’Tis the Hope of His Coming" % not found at hymnary.org
+  tunename = "Hallelujah! ’Tis Done" % see https://hymnary.org/tune/tis_the_promise_of_god_full_salvat_bliss
   meter = "6—11s."
   poet = "Mrs. A. H. Rule" % original has A. R. Rule, but Messages of Love Hymn Book shows A. H. Rule to be correct
-  composer = "P. P. Bliss"
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/tis_the_promise_of_god_full_salvat_bliss
   tagline = ##f
 }
 

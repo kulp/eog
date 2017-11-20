@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "195"
   title = "The Lord Himself Shall Come"
-  tunename = "Diademata"
+  tunename = "Diademata" % see https://hymnary.org/tune/diademata_elvey
   meter = "S. M. with Refrain"
-  poet = "J. Montgomery"
-  composer = "Geo. J. Elvey"
+  poet = "James Montgomery" % see https://hymnary.org/text/the_lord_himself_shall_come
+  composer = "George J. Elvey" % see https://hymnary.org/tune/diademata_elvey
   tagline = ##f
 }
 

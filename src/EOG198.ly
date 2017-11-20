@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "198"
-  title = "There Is a Name We Love to Hear"
-  tunename = "Los Angeles"
+  title = "There Is a Name We Love to Hear" % not found at hymnary.org
+  tunename = "Los Angeles" % not found at hymnary.org
   meter = "C. M."
-  poet = "Fred. Whitfield"
-  composer = ""
+  poet = "Frederick Whitfield" % see http://www.stempublishing.com/hymns/ss/184
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 

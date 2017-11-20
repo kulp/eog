@@ -8,8 +8,8 @@
   title = "How Blest a Home!"
   tunename = "Prospect"
   meter = "C. M. D."
-  poet = "Mrs. J. A. Trench"
-  composer = "Old English Melody"
+  poet = "Mrs. J. A. Trench" % see https://hymnary.org/text/how_blest_a_home_the_fathers_house
+  composer = "Old English Melody" % see https://hymnary.org/tune/i_heard_the_voice_of_jesus_say_english
   tagline = ##f
 }
 

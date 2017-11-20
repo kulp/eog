@@ -8,7 +8,7 @@
   title = "A Little Talk with Jesus"
   tunename = ""
   meter = "7. 6. 7. 6. D." % original has P. M.
-  poet = "R. L. Allan"
+  poet = "Robert L. Allan" % see https://bibletruthpublishers.com/a-little-talk-with-Jesus-full-color-poetry-leaflets/robert-l-allan/pd3956
   composer = "H. Hankinson"
   tagline = ##f
 }

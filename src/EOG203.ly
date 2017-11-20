@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "203"
   title = "Shine Forth, O Lord"
-  tunename = "Viens, Seigneur"
+  tunename = "Viens, Seigneur" % not found at hymnary.org
   meter = "10. 10. 10. 10. with Refrain"
-  poet = ""
-  composer = "French Hymn Melody"
+  poet = "" % possibly J. T. Mawson ? see http://www.stempublishing.com/authors/mawson/mawson_poetry.html#a18
+  composer = "French Hymn Melody" % not found at hymnary.org
   tagline = ##f
 }
 

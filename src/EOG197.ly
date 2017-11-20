@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "197"
-  title = "The Saviour Is Coming"
-  tunename = "Saviour Is Coming" % from Metrical Index of Tunes
+  title = "The Saviour Is Coming" % not found at hymnary.org
+  tunename = "My Jesus, I Love Thee" % see https://hymnary.org/tune/my_jesus_i_love_thee_ellis
   meter = "5—11s."
   poet = ""
-  composer = ""
+  composer = "John Ellis" % see https://hymnary.org/tune/my_jesus_i_love_thee_ellis
   tagline = ##f
 }
 

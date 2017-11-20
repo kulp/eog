@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "205"
   title = "Asleep in Jesus, Blessed Sleep!"
-  tunename = "Rest"
+  tunename = "Rest" % see https://hymnary.org/tune/rest_bradbury
   meter = "L. M."
-  poet = "Mrs. McKay"
-  composer = "W. B. Bradbury"
+  poet = "Margaret Mackay" % see https://hymnary.org/text/asleep_in_jesus_blessed_sleep
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/rest_bradbury
   tagline = ##f
 }
 

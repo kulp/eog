@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "196"
-  title = "The Lord of Life Is Risen"
-  tunename = "Ostrava"
+  title = "The Lord of Life Is Risen" % not found at hymnary.org
+  tunename = "Far Off Lands" % see https://hymnary.org/tune/far_off_lands
   meter = "7. 6. 7. 6. D."
-  poet = "George W. Frazer"
-  composer = "Moravian Melody"
+  poet = "George W. Frazer" % not found at hymnary.org
+  composer = "Moravian Melody" % see https://hymnary.org/tune/far_off_lands
   tagline = ##f
 }
 
