@@ -10,7 +10,7 @@
   tunename = "Nettleton" % see https://hymnary.org/tune/nettleton
   meter = "8. 7. 8. 7. D."
   poet = "William Williams" % see https://hymnary.org/text/savior_lead_us_by_thy_power
-  composer = "Asahel Nettleton" % see https://hymnary.org/person/Nettleton_A?tab=tunes
+  composer = "Collected by Asahel Nettleton" % see https://hymnary.org/person/Nettleton_A?tab=tunes
   tagline = ##f
 }
 
