@@ -3,26 +3,6 @@
   \include "common/paper.ily"
   ragged-last-bottom = ##t
   \include "override/override-EOG145.ily"
-  scoreTitleMarkup = \markup {
-    \override #'(baseline-skip . 3.5)
-    \column {
-      \override #'(baseline-skip . 3.5)
-      \column {
-        \fill-line {
-          \huge \larger \larger \bold {
-            \concat { "  " \fromproperty #'header:hymnnumber }
-            \mytitle
-            \null
-          }
-        }
-        \fill-line {
-          \lower #4 \fromproperty #'header:poet
-          \smaller \bold \mysubtitle
-          \lower #4 \fromproperty #'header:composer
-        }
-      }
-    }
-  }
 }
 
 \header{

@@ -50,9 +50,9 @@ scoreTitleMarkup = \markup {
         }
       }
       \fill-line {
-        \lower #2 \fromproperty #'header:poet
-        \smaller \bold \mysubtitle
-        \lower #2 \fromproperty #'header:composer
+        \lower #2.0 \fromproperty #'header:poet
+        \raise #0.7 \smaller \bold \mysubtitle
+        \lower #2.0 \fromproperty #'header:composer
       }
     }
   }
