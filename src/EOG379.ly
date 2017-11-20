@@ -114,23 +114,21 @@ Since my ran -- som was so great!
 
 }
 
-wordsE = \lyricmode {
-\set stanza = "5."
+wordsE = \markuplist {
 
-Rent the veil that closed the way
-To my home of heaven -- ly day,
-In the flesh of Christ the Lord,
-Ev -- er be His name a -- dored!
+\line { Rent the veil that closed the way }
+\line { To my home of heavenly day, }
+\line { In the flesh of Christ the Lord, }
+\line { Ever be His name adored! }
 
 }
 
-wordsF = \lyricmode {
-\set stanza = "6."
+wordsF = \markuplist {
 
-Yet in sight of Cal -- va -- ry,
-Con -- trite should my spir -- it be,
-Rest and ho -- li -- ness there find
-Fash -- ioned like my Sav -- iour’s mind.
+\line { Yet in sight of Calvary, }
+\line { Contrite should my spirit be, }
+\line { Rest and holiness there find }
+\line { Fashioned like my Saviour’s mind. }
 
 }
 
@@ -146,8 +144,6 @@ Fash -- ioned like my Sav -- iour’s mind.
       \context Lyrics = two   \lyricsto sopranos \wordsB
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
-      \context Lyrics = five  \lyricsto sopranos \wordsE
-      \context Lyrics = six   \lyricsto sopranos \wordsF
     >>
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
@@ -163,6 +159,15 @@ Fash -- ioned like my Sav -- iour’s mind.
     \include "common/midi.ily"
   } #}))
 }
+
+\markup { \column {
+  \fill-line { \vcenter \column {
+    \vspace #1
+    \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+    \line{ \bold 6 \column { \wordsF } }
+    \vspace #1
+  } }
+} }
 
 \markup {
   \center-column {
