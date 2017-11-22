@@ -8,8 +8,8 @@
   title = "Close to Thee"
   tunename = "Close to Thee" % from Metrical Index of Tunes
   meter = "8. 7. 8. 7. with Refrain"
-  poet = "Fanny J. Crosby"
-  composer = "S. J. Vail"
+  poet = "Fanny J. Crosby" % see https://hymnary.org/text/thou_my_everlasting_portion
+  composer = "Silas J. Vail" % see https://hymnary.org/tune/thou_my_everlasting_portion_vail
   tagline = ##f
 }
 

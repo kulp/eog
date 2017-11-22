@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "206"
   title = "’Tis Sweet to Think of Those at Rest"
-  tunename = "Cross"
+  tunename = "Holy Cross" % see https://hymnary.org/tune/holy_cross_mendelssohn
   meter = "C. M."
-  poet = "Tregelles, 1846"
-  composer = "Adpt. from T. Hastings"
+  poet = "Samuel Prideaux Tregelles" % see https://hymnary.org/text/tis_sweet_to_think_of_those_at_rest
+  composer = "James C. Wade" % see https://hymnary.org/tune/holy_cross_mendelssohn
   tagline = ##f
 }
 

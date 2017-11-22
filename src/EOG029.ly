@@ -9,8 +9,8 @@
   title = "Only Trust Him"
   tunename = ""
   meter = "C. M. with Refrain"
-  poet = "John H. Stockton"
-  composer = "John H. Stockton"
+  poet = "John H. Stockton" % see https://hymnary.org/text/come_every_soul_by_sin_oppressed_theres
+  composer = "John H. Stockton" % see https://hymnary.org/text/come_every_soul_by_sin_oppressed_theres
   tagline = ##f
 }
 

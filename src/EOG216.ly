@@ -8,9 +8,9 @@
 \header{
   hymnnumber = "216"
   title = "How Good Is the God We Adore"
-  tunename = "Elland"
+  tunename = "Elland" % not found at hymnary.org
   meter = "8. 8. 8. 8."
-  poet = "Hart, 1750"
+  poet = "Joseph Hart" % see https://hymnary.org/text/this_god_is_the_god_we_adore
   composer = ""
   tagline = ##f
 }

@@ -10,8 +10,8 @@
   title = "We’ll Sing of the Shepherd That Died"
   tunename = "De Fleury"
   meter = "8. 8. 8. 8. D."
-  poet = "T. Kelly"
-  composer = "German"
+  poet = "Thomas Kelly" % see https://hymnary.org/text/well_sing_of_the_shepherd_that_died
+  composer = "J. S. Bach, arr. by Lewis Edson" % see https://hymnary.org/tune/de_fleury_defleury
   tagline = ##f
 }
 

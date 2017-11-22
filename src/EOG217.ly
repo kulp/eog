@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "217"
   title = "Oh Bright and Blessed Scenes"
-  tunename = "Solyma"
+  tunename = "Solyma" % not found at hymnary.org
   meter = "S. M."
-  poet = "J. N. Darby"
-  composer = "Geo. Tredcroft"
+  poet = "J. N. Darby" % see https://hymnary.org/text/o_bright_and_blessed_scenes
+  composer = "George Tredcroft" % see https://archive.org/stream/hymnsofgracetrut00newy/hymnsofgracetrut00newy_djvu.txt
   tagline = ##f
 }
 

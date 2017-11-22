@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "219"
   title = "His Be the Victor’s Name"
-  tunename = "Victor"
+  tunename = "Victor" % not found at hymnary.org
   meter = "S. M."
-  poet = "Whittock Gandy" % Samuel *Whitelock* Gandy ?
-  composer = "W. P."
+  poet = "Samuel Whitelock Gandy" % see https://hymnary.org/text/his_be_the_victors_name
+  composer = "W. P." % not found at hymnary.org
   tagline = ##f
 }
 

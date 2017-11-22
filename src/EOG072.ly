@@ -7,7 +7,7 @@
 \header{
   %gospel
   hymnnumber = "72"
-  title = "Come to the Saviour, Come to the Saviour"
+  title = "Come to the Saviour, Come to the Saviour" % not found at hymnary.org
   tunename = ""
   meter = "P. M."
   poet = "Anon."

@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "215"
   title = "Happy They Who Trust in Jesus"
-  tunename = "Segur"
+  tunename = "Segur" % see https://hymnary.org/tune/segur_holbrook
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "T. Kelly"
-  composer = "J. P. Holbrook, 1822 -"
+  poet = "Thomas Kelly" % see https://bibletruthpublishers.com/happy-they-who-trust-in-jesus/thomas-kelly/echoes-of-grace-hymnbook/hymnbooks/la78897
+  composer = "Joseph P. Holbrook" % see https://hymnary.org/tune/segur_holbrook
   tagline = ##f
 }
 

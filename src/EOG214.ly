@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "214"
   title = "“Forever with the Lord!”"
-  tunename = "Nearer Home"
+  tunename = "Nearer Home" % see https://hymnary.org/tune/nearer_home_woodbury
   meter = "S. M. D. with Refrain"
-  poet = "J. Montgomery"
-  composer = "I. B. Woodbury"
+  poet = "James Montgomery" % see https://hymnary.org/text/forever_with_the_lord_amen_so_let_it_be
+  composer = "Isaac B. Woodbury" % see https://hymnary.org/tune/nearer_home_woodbury
   tagline = ##f
 }
 
