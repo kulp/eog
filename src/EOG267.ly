@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "267"
   title = "There Is a Better World Above"
-  tunename = "Better World"
+  tunename = "Better World" % or "O, So Bright" ; see https://hymnary.org/tune/o_so_bright_main
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
-  poet = "John Lyth"
-  composer = ""
+  poet = "John Lyth" % see https://hymnary.org/text/there_is_a_better_world_they_say
+  composer = "Hubert P. Main" % see https://hymnary.org/tune/better_world
   tagline = ##f
 }
 

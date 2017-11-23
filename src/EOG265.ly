@@ -10,8 +10,8 @@
   title = "We Joy in Our God"
   tunename = "Houghton"
   meter = "11. 11. 11. 11." % original has 10. 10. 11. 11.
-  poet = "Yerburg"
-  composer = "Dr. Gauntlett"
+  poet = "W. Yerbury" % see https://bibletruthpublishers.com/w-yerbury-died-1863/adrian-roach/the-little-flock-hymn-book-its-history-and-hymn-writers/a-roach/la105040
+  composer = "Henry J. Gauntlett" % see https://hymnary.org/tune/houghton_gauntlett
   tagline = ##f
 }
 

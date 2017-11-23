@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "272"
-  title = "Thou Art Coming, Loving Saviour"
+  title = "Thou Art Coming, Loving Saviour" % not found at hymnary.org
   tunename = "Autumn"
   meter = "8. 7. 8. 7. D."
-  poet = "H. K. Burlingham"
-  composer = "F. H. Bartholemon"
+  poet = "Hannah K. Burlingham" % see https://www.christmysong.com/1097/index.html
+  composer = "François H. Barthélémon" % see https://hymnary.org/tune/autumn_barthelemon
   tagline = ##f
 }
 

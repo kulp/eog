@@ -11,8 +11,8 @@
   title = "Rock of Ages!"
   tunename = "Toplady"
   meter = "6—7s."
-  poet = "A. M. Toplady"
-  composer = "Dr. Thos. Hastings"
+  poet = "Augustus M. Toplady" % see https://hymnary.org/text/rock_of_ages_cleft_for_me_let_me_hide
+  composer = "Thomas Hastings" % see https://hymnary.org/tune/toplady_hastings
   tagline = ##f
 }
 

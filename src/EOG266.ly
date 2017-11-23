@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "266"
   title = "We’ll Praise Thee, Glorious Lord"
-  tunename = "Armington"
+  tunename = "Armington" % not found at hymnary.org
   meter = "S. M."
-  poet = "J. N. Darby"
-  composer = "Dr. G. O. Baily"
+  poet = "J. N. Darby" % see https://hymnary.org/text/well_praise_thee_glorious_lord
+  composer = "Dr. G. O. Baily" % not found at hymnary.org
   tagline = ##f
 }
 

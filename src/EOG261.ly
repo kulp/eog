@@ -9,8 +9,8 @@
   title = "Lord Jesus, Are We One with Thee?"
   tunename = "Manoah"
   meter = "C. M."
-  poet = "J. G. Deck"
-  composer = "From Mehul & Haydn"
+  poet = "James G. Deck" % see https://hymnary.org/text/lord_jesus_are_we_one_with_thee_o_height
+  composer = "Collected by Henry W. Greatorex" % see https://hymnary.org/tune/manoah_greatorex
   tagline = ##f
 }
 

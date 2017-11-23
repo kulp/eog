@@ -10,8 +10,8 @@
   title = "And Is It So – I Shall Be Like Thy Son?"
   tunename = "Eventide" % see EOG076
   meter = "10. 10. 10. 10."
-  poet = "J. N. Darby"
-  composer = "W. H. Monk"
+  poet = "J. N. Darby" % see https://hymnary.org/text/and_is_it_so_i_shall_be_like_thy_son
+  composer = "William H. Monk" % see https://hymnary.org/tune/eventide_monk
   tagline = ##f
 }
 

@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "269"
   title = "This World Is a Wilderness Wide!"
-  tunename = "Faithfulness"
+  tunename = "Faithfulness" % or "A Chamada" ; see https://hymnary.org/tunes?qu=tuneTitle:faithfulness%20in:tunes
   meter = "8. 8. 8. 8. D."
-  poet = "J. N. Darby"
-  composer = ""
+  poet = "J. N. Darby" % see https://hymnary.org/text/this_world_is_a_wilderness_wide
+  composer = "" % see https://hymnary.org/tunes?qu=tuneTitle:faithfulness%20in:tunes
   tagline = ##f
 }
 

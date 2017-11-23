@@ -9,8 +9,8 @@
   title = "There Is a Stream of Precious Blood"
   tunename = "Cowper"
   meter = "C. M. with Refrain" % or  or 8. 6. 8. 6. 6. 6. 8. 6. ; original has C. M.
-  poet = "W. Cowper"
-  composer = "L. Mason"
+  poet = "William Cowper" % see https://hymnary.org/text/there_is_a_fountain_filled_with_blood_dr
+  composer = "Arr. by Lowell Mason" % see https://hymnary.org/tune/there_is_a_fountain_filled_with_blo_amer ; see https://hymnary.org/tune/cowper_mason
   tagline = ##f
 }
 

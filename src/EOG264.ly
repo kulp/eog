@@ -10,8 +10,8 @@
   title = "The Perfect Righteousness of God"
   tunename = "Duke Street"
   meter = "L. M."
-  poet = "A. Midlane"
-  composer = "John Hatton"
+  poet = "Albert Midlane" % see https://hymnary.org/text/the_perfect_righteousness_of_god
+  composer = "John W. Hatton" % see https://hymnary.org/tune/duke_street_hatton
   tagline = ##f
 }
 
