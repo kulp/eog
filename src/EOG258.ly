@@ -10,8 +10,8 @@
   title = "Many Sons to Glory Bringing"
   tunename = "Rhineland"
   meter = "8. 7. 8. 7."
-  poet = "Mary Bowley"
-  composer = "German"
+  poet = "Mary Bowley" % see https://hymnary.org/text/many_sons_to_glory_bringing
+  composer = "Wilhelm Brockhaus" % see https://hymnary.org/tune/rhineland_brockhaus
   tagline = ##f
 }
 

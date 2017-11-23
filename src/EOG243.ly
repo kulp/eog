@@ -9,8 +9,8 @@
   title = "My Heart Is Fixed, Eternal God"
   tunename = "Christ for Me"
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
-  poet = ""
-  composer = "R. G. Halls"
+  poet = "Richard Jukes" % see https://hymnary.org/text/my_heart_is_fixed_eternal_immortal_god
+  composer = "R. George Halls" % see https://hymnary.org/tune/whom_have_i_lord_in_heaven_halls
   tagline = ##f
 }
 

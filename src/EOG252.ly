@@ -10,8 +10,8 @@
   title = "A Mind at “Perfect Peace” with God"
   tunename = "Evan"
   meter = "C. M."
-  poet = "C. Paget"
-  composer = "Wm. H. Havergal, 1847"
+  poet = "Horatius Bonar, Catesby Paget" % see http://www.hymntime.com/tch/htm/m/i/n/mindaper.htm
+  composer = "William H. Havergal" % see https://hymnary.org/tune/evan_havergal
   tagline = ##f
 }
 

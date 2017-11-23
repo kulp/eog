@@ -10,9 +10,9 @@
   title = "O Lord, How Does Thy Mercy Throw"
   tunename = "Shining Shore"
   meter = "8. 7. 8. 7. D. Iambic"
-  poet = "Littlewood"
-  composer = "George F. Root"
-  tagline = ##f
+  poet = "William E. Littlewood" % see http://www.stempublishing.com/hymns/biographies/bagstaff.html
+  composer = "George F. Root" % see https://hymnary.org/tune/shining_city_root
+ tagline = ##f
 }
 
 % for fermata in MIDI

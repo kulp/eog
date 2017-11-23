@@ -9,8 +9,8 @@
   title = "Not All the Blood of Beasts"
   tunename = "Boylston"
   meter = "S. M."
-  poet = "I. Watts"
-  composer = "L. Mason"
+  poet = "Isaac Watts" % see https://hymnary.org/text/not_all_the_blood_of_beasts
+  composer = "Lowell Mason" % see https://hymnary.org/tune/boylston_mason
   tagline = ##f
 }
 

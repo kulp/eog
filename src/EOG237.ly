@@ -8,8 +8,8 @@
   title = "Lord, Thy Love Has Sought and Found Us"
   tunename = "Even Me"
   meter = "8. 7. 8. 7. 7. 7."
-  poet = "J. J. Hopkins"
-  composer = "W. B. Bradbury"
+  poet = "J. J. Hopkins" % see https://hymnary.org/text/lord_thy_love_has_sought_and_found_us
+  composer = "William B. Bradbury"% see https://hymnary.org/tune/lord_i_hear_of_showers_of_bless_bradbury
   tagline = ##f
 }
 

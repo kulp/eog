@@ -6,11 +6,11 @@
 
 \header{
   hymnnumber = "253"
-  title = "Oh! Why Did Jesus Leave His Home?"
-  tunename = "Munhall"
+  title = "Oh! Why Did Jesus Leave His Home?" % not found at hymnary.org
+  tunename = "Munhall" % not found at hymnary.org
   meter = "C. M."
   poet = ""
-  composer = "Alex. Arbuckle"
+  composer = "Alex. Arbuckle" % not found at hymnary.org
   tagline = ##f
 }
 

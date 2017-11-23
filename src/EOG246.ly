@@ -8,8 +8,8 @@
   title = "Oh, for the Robe of Whiteness"
   tunename = "Work"
   meter = "7. 6. 7. 6. D."
-  poet = "Miss C. L. Smith"
-  composer = "L. Mason"
+  poet = "Charitie Lees Smith Bancroft" % see https://hymnary.org/text/o_for_the_robes_of_whiteness_o_for_the
+  composer = "Lowell Mason" % see https://hymnary.org/tune/work_for_the_night_is_coming_mason
   tagline = ##f
 }
 

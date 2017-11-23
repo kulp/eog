@@ -7,9 +7,9 @@
 \header{
   hymnnumber = "250"
   title = "O Lord! We Would Delight in Thee"
-  tunename = "Merton"
+  tunename = "Merton" % not found at hymnary.org
   meter = "C. M."
-  poet = "J. Ryland"
+  poet = "John Ryland" % see https://hymnary.org/text/o_lord_i_would_delight_in_thee
   composer = "German"
   tagline = ##f
 }

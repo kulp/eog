@@ -9,8 +9,8 @@
   title = "Our Times Are in Thy Hand"
   tunename = "Dennis" % from Metrical Index of Tunes
   meter = "S. M." % from Metrical Index of Tunes
-  poet = "W. F. Lloyd"
-  composer = "H. G. Nägeli"
+  poet = "William F. Lloyd" % see https://hymnary.org/text/my_times_are_in_thy_hand_my_god_i_wish
+  composer = "Johann G. Nägeli, arr. by Lowell Mason" % see https://hymnary.org/tune/dennis_nageli
   tagline = ##f
 }
 
