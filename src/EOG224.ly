@@ -8,11 +8,11 @@
 
 \header{
   hymnnumber = "224"
-  title = "He Is Coming! — Who Is Coming?"
+  title = "He Is Coming! — Who Is Coming?" % not found at hymnary.org
   tunename = "Regent Square"
   meter = "8. 7. 8. 7. 8. 7."
   poet = ""
-  composer = "Henry Smart"
+  composer = "Henry T. Smart" % see https://hymnary.org/tune/regent_square_smart
   tagline = ##f
 }
 

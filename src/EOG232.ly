@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "232"
   title = "Christ the Lord Will Come Again"
-  tunename = "Innocents"
+  tunename = "Innocents" % see https://hymnary.org/tune/innocents_parishchoir
   meter = "7. 7. 7. 7."
-  poet = "Swain"
-  composer = "Adpt. by J. Smith"
+  poet = "Joseph Swain" % see https://hymnary.org/text/christ_the_lord_will_come_again_swain
+  composer = "The Parish Choir, 1850" % see https://hymnary.org/tune/innocents_parishchoir
   tagline = ##f
 }
 

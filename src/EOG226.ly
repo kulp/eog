@@ -9,8 +9,8 @@
   title = "I Once Was a Stranger"
   tunename = "Adeste Fideles"
   meter = "5—11s." % original has 11. 11. 11. 11.
-  poet = "R. M. McCheyne"
-  composer = "18th Century Melody"
+  poet = "Robert Murray McCheyne" % see https://hymnary.org/text/i_once_was_a_stranger_to_grace_and_to_go
+  composer = "John Francis Wade" % see https://hymnary.org/tune/adeste_fideles_wade
   tagline = ##f
 }
 

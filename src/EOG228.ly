@@ -6,9 +6,9 @@
 \header{
   hymnnumber = "228"
   title = "In Heavenly Love Abiding"
-  tunename = "Confidence"
+  tunename = "Confidence" % not found at hymnary.org
   meter = "7. 6. 7. 6. D."
-  poet = "Miss A. L. Waring"
+  poet = "Anna L. Waring" % see https://hymnary.org/text/in_heavenly_love_abiding
   composer = ""
   tagline = ##f
 }

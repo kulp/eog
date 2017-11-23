@@ -9,8 +9,8 @@
   title = "Lo, He Comes, from Heaven Descending"
   tunename = "Harwell"
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "C. Wesley"
-  composer = "L. Mason"
+  poet = "Charles Wesley" % see https://hymnary.org/text/lo_he_comes_in_clouds_descending ; see https://hymnary.org/text/lo_he_comes_from_heaven_descending_sent_
+  composer = "Lowell Mason" % see https://hymnary.org/tune/harwell_mason
   tagline = ##f
 }
 

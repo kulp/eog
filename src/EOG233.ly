@@ -10,8 +10,8 @@
   title = "Now I Have Found a Friend"
   tunename = "Jesus Mine"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
-  poet = "H. Hope"
-  composer = "Henry Bennett"
+  poet = "Henry J. M. Hope" % see https://hymnary.org/text/now_i_have_found_a_friend
+  composer = "Henry Bennett" % not found at hymnary.org
   tagline = ##f
 }
 

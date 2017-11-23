@@ -9,8 +9,8 @@
   title = "I Am Not Told to Labor"
   tunename = "Webb"
   meter = "7. 6. 7. 6. D."
-  poet = "A. Midlane"
-  composer = "George J. Webb"
+  poet = "Albert Midlane" % see https://hymnary.org/text/i_am_not_told_to_labor
+  composer = "George J. Webb" % see https://hymnary.org/tune/webb_webb
   tagline = ##f
 }
 

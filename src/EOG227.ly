@@ -9,8 +9,8 @@
   title = "I Was a Wandering Sheep"
   tunename = "Lebanon"
   meter = "S. M. D."
-  poet = "H. Bonar"
-  composer = "J. Zundel"
+  poet = "Horatius Bonar" % see https://hymnary.org/text/i_was_a_wandering_sheep
+  composer = "John Zundel" % see https://hymnary.org/tune/lebanon_zundel
   tagline = ##f
 }
 

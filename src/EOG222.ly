@@ -9,8 +9,8 @@
   title = "I Heard the Voice of Jesus Say"
   tunename = "Varina"
   meter = "C. M. D."
-  poet = "H. Bonar"
-  composer = "George F. Root"
+  poet = "Horatius Bonar" % see https://hymnary.org/text/i_heard_the_voice_of_jesus_say_come_unto
+  composer = "Johann C. H. Rinck, arr. by George F. Root" % see https://hymnary.org/tune/varina_root
   tagline = ##f
 }
 

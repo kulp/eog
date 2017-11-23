@@ -10,8 +10,8 @@
   title = "Jesus, That Name Is Love"
   tunename = "Oak"
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
-  poet = "J. G. Deck"
-  composer = "L. Mason"
+  poet = "James G. Deck" % see https://hymnary.org/text/jesus_thy_name_i_love
+  composer = "Lowell Mason" % see https://hymnary.org/tune/oak_mason
   tagline = ##f
 }
 
