@@ -7,9 +7,9 @@
 \header{
   hymnnumber = "286"
   title = "When Israel, by Divine Command"
-  tunename = "Dumferline"
+  tunename = "Dumferline" % not found at hymnary.org
   meter = "C. M."
-  poet = "J. Newton"
+  poet = "John Newton" % see https://hymnary.org/text/when_israel_by_divine_command
   composer = "Este’s Psalter"
   tagline = ##f
 }

@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "282"
   title = "What a Friend We Have in Jesus"
-  tunename = "Scriven"
+  tunename = "Converse" % see https://hymnary.org/tune/converse_converse
   meter = "8. 7. 8. 7. D."
-  poet = "J. Scriven"
-  composer = "C. C. Converse"
+  poet = "Joseph M. Scriven" % see https://hymnary.org/text/what_a_friend_we_have_in_jesus_all_our_s
+  composer = "Charles C. Converse" % see https://hymnary.org/tune/converse_converse
   tagline = ##f
 }
 

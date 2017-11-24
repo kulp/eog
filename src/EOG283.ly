@@ -9,8 +9,8 @@
   title = "What Cheering Words Are These!"
   tunename = "Cambridge"
   meter = "S. M."
-  poet = "John Kent"
-  composer = "R. Harrison"
+  poet = "John Kent" % see https://hymnary.org/text/what_cheering_words_are_these
+  composer = "Ralph Harrison" % see https://hymnary.org/tune/cambridge_harrison
   tagline = ##f
 }
 

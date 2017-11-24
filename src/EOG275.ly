@@ -6,10 +6,10 @@
 \header{
   hymnnumber = "275"
   title = "We Are by Christ Redeemed"
-  tunename = "Priory"
+  tunename = "Priory" % see https://hymnary.org/tune/priory_botley_tune_book
   meter = "6. 6. 8. 4. D."
-  poet = "Mary Bowley"
-  composer = ""
+  poet = "Mary Bowley" % see https://hymnary.org/text/we_are_by_christ_redeemed
+  composer = "" % see https://hymnary.org/tune/priory_botley_tune_book
   tagline = ##f
 }
 

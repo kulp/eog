@@ -8,11 +8,11 @@
 \header{
   %gospel
   hymnnumber = "280"
-  title = "What, Sinner, Can You Do?"
-  tunename = "London"
+  title = "What, Sinner, Can You Do?" % not found at hymnary.org
+  tunename = "London" % not found at hymnary.org
   meter = "S. M."
   poet = ""
-  composer = "Arr. from Montgomery"
+  composer = "Arr. from Montgomery" % not found at hymnary.org
   tagline = ##f
 }
 

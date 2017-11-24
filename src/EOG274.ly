@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "274"
   title = "Love Divine, All Praise Excelling"
-  tunename = "Zundel"
+  tunename = "Beecher" % see https://hymnary.org/tune/beecher_zundel
   meter = "8. 7. 8. 7. D."
-  poet = "C. Wesley"
-  composer = "J. Zundel"
+  poet = "Charles Wesley" % see https://hymnary.org/text/love_divine_all_love_excelling_joy_of_he
+  composer = "John Zundel" % see https://hymnary.org/tune/beecher_zundel
   tagline = ##f
 }
 

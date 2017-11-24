@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "281"
   title = "We Wait for Thee, O Son of God"
-  tunename = "Jena"
+  tunename = "Was Gott tut" % see https://hymnary.org/tune/was_gott_tut_gastorius
   meter = "8. 7. 8. 7. 8. 7. 7."
-  poet = "Tr. by H. K. Burlingham"
-  composer = "S. Gastorius"
+  poet = "Philipp Friedrich Hiller, tr. by Hannah K. Burlingham" % see https://hymnary.org/text/we_wait_for_thee_o_son_of_god
+  composer = "Severus Gastorius" % see https://hymnary.org/tune/was_gott_tut_gastorius
   tagline = ##f
 }
 

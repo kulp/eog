@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "279"
   title = "I’m Waiting for Thee, Lord"
-  tunename = "Waiting"
+  tunename = "Waiting" % not found at hymnary.org
   meter = "12. 11. 12. 11."
-  poet = "H. K. Burlingham"
-  composer = "Scotch"
+  poet = "Hannah K. Burlingham" % see https://hymnary.org/text/im_waiting_for_thee_lord_thy_beauty_to_s
+  composer = "Scotch" % not found at hymnary.org
   tagline = ##f
 }
 

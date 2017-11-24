@@ -7,9 +7,9 @@
 \header{
   hymnnumber = "276"
   title = "We Sing of the Realms of the Blest"
-  tunename = "Celeste"
+  tunename = "Celeste" % see https://hymnary.org/tune/celeste_lancashire
   meter = "8. 8. 8. 8."
-  poet = "Mrs. E. Mills"
+  poet = "Elizabeth K. Mills" % see https://hymnary.org/text/we_sing_of_the_realms_of_the_blest
   composer = ""
   tagline = ##f
 }
