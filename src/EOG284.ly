@@ -117,7 +117,7 @@ Fell up -- on Thee for me.
 }
 
 wordsE = \lyricmode {
-\set stanza = "4."
+\set stanza = "5."
 
 Je -- sus, my Lord, what o -- ceans of love
 Stirred in Thy heart for me!

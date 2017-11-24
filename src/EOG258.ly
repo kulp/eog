@@ -116,7 +116,7 @@ Ev -- er -- last -- ing life is ours.
 }
 
 wordsE = \lyricmode {
-\set stanza = "4."
+\set stanza = "5."
 
 And, ere long, when come to glo -- ry,
 We shall sing a well -- known strain,

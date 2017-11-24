@@ -117,7 +117,7 @@ All the day and all the night.
 }
 
 wordsE = \lyricmode {
-\set stanza = "4."
+\set stanza = "5."
 
 “Tho’ thou hast a way -- ward will,
 Lit -- tle lamb, I love thee still;

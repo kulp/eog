@@ -116,7 +116,7 @@ Prom -- ise of the Fa -- ther’s love.
 }
 
 wordsE = \lyricmode {
-\set stanza = "4."
+\set stanza = "5."
 
 Je -- sus, Sav -- iour, we a -- dore Thee!
 Christ of God_– a -- noint -- ed Son;

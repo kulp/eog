@@ -119,7 +119,7 @@ Made like our glo -- rious Head.
 }
 
 wordsE = \lyricmode {
-\set stanza = "4."
+\set stanza = "5."
 
 We can -- not lin -- ger o’er the tomb;
 The res -- ur -- rec -- tion day

@@ -147,7 +147,7 @@ The fair -- est of the fair.
 }
 
 wordsE = \lyricmode {
-\set stanza = "4."
+\set stanza = "5."
 
 { \mon } So I’ll { \moff } wait a lit -- tle lon -- ger,
 Till His ap -- point -- ed time,
