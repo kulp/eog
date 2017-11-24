@@ -184,6 +184,7 @@ check: book
 	perl -ne 'die "$$ARGV\n" if /bold (\d+) .*?words(\w+)/g and $$1 != ord($$2) - ord("A") + 1' src/*.ly
 	perl -ne 'next unless ($$written) = /hymnnumber = "(\d+)"/; die $$ARGV if $$written != ($$ARGV =~ /EOGa?(\d+)/)[0]' src/*.ly
 	perl -ne 'die $$ARGV if /^(wordsA|Refrain\b).*\{$$/../^}/ and not /\\bar/ and not /stanza/ and not /[{}]$$/ and not /^\s*$$/ and not /^\s*\\Refrain/ and not /^%/' src/*.ly
+	for f in src/EOG*.ly ; do perl -lne 'next unless /^words/.../^}/; ($$s) = /stanza = "(\d+)\."/; die $$ARGV if $$s and $$c[$$s]++; END{$$c[$$_] or die $$ARGV for -$$#c..-1}' $$f ; done
 	for f in src/EOG*.ly ; do perl -F// -lane '$$h{$$_}++ for @F; END{ die $$ARGV if $$h{"("} != $$h{")"} }' $$f ; done
 	for f in src/EOG*.ly ; do perl -F// -lane '$$h{$$_}++ for @F; END{ die $$ARGV if $$h{"["} != $$h{"]"} }' $$f ; done
 	!(grep -q '^\\line.*--' src/EOG*.ly)
