@@ -8,8 +8,8 @@
   title = "What Will It Be to Dwell Above?"
   tunename = "Stella"
   meter = "6—8s."
-  poet = "Swain"
-  composer = ""
+  poet = "Joseph Swain" % see https://hymnary.org/text/what_must_it_be_to_dwell_above
+  composer = "Henri F. Hemy" % see https://hymnary.org/tune/stella_english
   tagline = ##f
 }
 

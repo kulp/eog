@@ -12,7 +12,7 @@
   tunename = "Arnold"
   meter = "C. M."
   poet = ""
-  composer = "Dr. S. Arnold"
+  composer = "Samuel Arnold" % see https://hymnary.org/tune/arnold_arnold
   tagline = ##f
 }
 

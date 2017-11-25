@@ -7,11 +7,11 @@
 \header{
   %children
   hymnnumber = "296"
-  title = "Awake! Awake! In Happy Song"
+  title = "Awake! Awake! In Happy Song" % not found at hymnary.org
   tunename = "Warwick"
   meter = "C. M."
   poet = ""
-  composer = "Samuel Stanley"
+  composer = "Samuel J. Stanley" % see https://hymnary.org/tune/warwick_stanley
   tagline = ##f
 }
 

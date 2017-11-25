@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "291"
   title = "Glory, Glory Everlasting"
-  tunename = "Melbourne"
+  tunename = "Dismissal" % see https://hymnary.org/tune/dismissal_viner
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "T. Kelly"
-  composer = "W. L. Viner"
+  poet = "Thomas Kelly" % see https://hymnary.org/text/glory_glory_everlasting_be_to_him
+  composer = "William L. Viner" % see https://hymnary.org/tune/dismissal_viner
   tagline = ##f
 }
 

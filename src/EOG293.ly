@@ -9,8 +9,8 @@
   title = "A Little Ship Was on the Sea"
   tunename = "Alida"
   meter = "C. M. D."
-  poet = ""
-  composer = "D. B. Thompson"
+  poet = "Dorothy A. Thrupp" % see https://hymnary.org/text/a_little_ship_was_on_the_sea
+  composer = "D. B. Thompson" % see https://hymnary.org/tune/alida_american
   tagline = ##f
 }
 

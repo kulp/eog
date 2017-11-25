@@ -11,8 +11,8 @@
   title = "Hark! The Voice of Jesus Calling"
   tunename = "Evening Prayer"
   meter = "8. 7. 8. 7. 8. 7." % original has 8. 7. 8. 7. 4. 7
-  poet = "A. Midlane"
-  composer = ""
+  poet = "Albert Midlane" % see https://hymnary.org/text/hark_the_voice_of_jesus_calling_come_ye_
+  composer = "Lowell Mason" % see https://hymnary.org/tune/ottowa_mason
   tagline = ##f
 }
 

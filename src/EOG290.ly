@@ -10,8 +10,8 @@
   title = "Praise the Saviour"
   tunename = "Acclaim"
   meter = "8. 8. 8. 5."
-  poet = "T. Kelly"
-  composer = ""
+  poet = "Thomas Kelly" % see https://hymnary.org/text/praise_the_savior_ye_who_know_him
+  composer = "German" % see https://hymnary.org/tune/acclaim_german
   tagline = ##f
 }
 

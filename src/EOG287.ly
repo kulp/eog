@@ -8,10 +8,10 @@
 \header{
   hymnnumber = "287"
   title = "Oh! The Peace Forever Flowing"
-  tunename = "Batavia"
+  tunename = "Batavia" % not found at hymnary.org
   meter = "8. 7. 8. 7."
-  poet = "A. P. Cecil"
-  composer = "German"
+  poet = "A. P. Cecil" % see https://hymnary.org/text/o_the_peace_forever_flowing
+  composer = "German" % not found at hymnary.org
   tagline = ##f
 }
 

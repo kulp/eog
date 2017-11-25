@@ -13,7 +13,7 @@
   tunename = "Grace"
   meter = "P. M."
   poet = ""
-  composer = ""
+  composer = "Richard Redhead" % see https://hymnary.org/person/Redhead_R?tab=tunes ; see https://hymnary.org/text/come_children_and_learn_of_the_infinite_
   tagline = ##f
 }
 

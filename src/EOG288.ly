@@ -9,9 +9,9 @@
   %gospel
   hymnnumber = "288"
   title = "Rise, My Soul! Behold, ’Tis Jesus"
-  tunename = "Sicilian Mariners"
+  tunename = "Sicilian Mariners" % see https://hymnary.org/tune/sicilian_mariners
   meter = "8. 7. 8. 7."
-  poet = "J. Denham Smith"
+  poet = "J. Denham Smith" % see https://hymnary.org/text/rise_my_soul_behold_tis_jesus
   composer = "Sicilian Air"
   tagline = ##f
 }

@@ -9,10 +9,10 @@
   %children
   hymnnumber = "298"
   title = "Jesus Is Calling the Children"
-  tunename = "Shepherd"
+  tunename = "Shepherd" % not found at hymnary.org
   meter = "8. 4. 8. 4. with Refrain"
-  poet = "Alice Gausby"
-  composer = "Alice Gausby"
+  poet = "T. W. Stewart" % see https://hymnary.org/text/jesus_is_calling_the_children_unto
+  composer = "Alice Gausby" % not found at hymnary.org
   tagline = ##f
 }
 
