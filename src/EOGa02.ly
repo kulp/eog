@@ -7,9 +7,9 @@
 
 \header{
   hymnnumber = "2"
-  tunename = "German Evening Hymn"
+  tunename = "Vespers"
   meter = "8. 7. 8. 7."
-  composer = "German"
+  composer = "Alberto Randegger" % see https://hymnary.org/tune/vespers_randegger
   alternate = \markup { "Alternate tune for No. 152." }
   tagline = ##f
 }

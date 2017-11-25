@@ -9,7 +9,7 @@
   hymnnumber = "5"
   tunename = "Olive’s Brow"
   meter = "L. M."
-  composer = "W. B. Bradbury"
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/olives_brow_bradbury
   alternate = \markup { "Alternate tune for No. 205." }
   tagline = ##f
 }

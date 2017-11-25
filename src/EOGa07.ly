@@ -11,7 +11,7 @@
   hymnnumber = "7"
   tunename = "Martyn"
   meter = "6—7s." % original has 7. 7. 7. 7. D but this tune has only six lines (whereas the alternate song 379 is only 7. 7. 7. 7.)
-  composer = "S. B. Marsh"
+  composer = "Simeon B. Marsh" % see https://hymnary.org/tune/martyn_marsh
   alternate = \markup { "Alternate tune for No. 379." }
   tagline = ##f
 }

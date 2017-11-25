@@ -9,7 +9,7 @@
   hymnnumber = "4"
   tunename = "Saved by Grace"
   meter = "L. M. D."
-  composer = "George C. Stebbins"
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/some_day_the_silver_cord_will_stebbins
   alternate = \markup { "Alternate tune for No. 144." }
   tagline = ##f
 }

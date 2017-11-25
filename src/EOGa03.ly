@@ -8,7 +8,7 @@
   hymnnumber = "3"
   tunename = "Cyprus"
   meter = "L. M."
-  composer = "L. Mason"
+  composer = "Lowell Mason" % see https://hymnary.org/tune/cyprus_mason
   alternate = \markup { "Alternate tune for No. 88." }
   tagline = ##f
 }
