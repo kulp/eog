@@ -9,10 +9,10 @@
   %children
   hymnnumber = "306"
   title = "Like a Little Wandering Lamb"
-  tunename = "Homeward"
+  tunename = "Homeward" % not found at hymnary.org
   meter = "7. 7. 7. 7."
-  poet = "Ter Steegen"
-  composer = "Miss A. Gausby"
+  poet = "Gerhard Tersteegen, tr. by Frances Bevan" % see https://hymnary.org/text/like_a_little_wandering_lamb
+  composer = "Miss A. Gausby" % not found at hymnary.org
   tagline = ##f
 }
 

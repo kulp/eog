@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "314"
-  title = "Dear Children, Have You Ever Heard?"
-  tunename = "Cambridge" % not the same as EOG283's Cambridge in S. M.
+  title = "Dear Children, Have You Ever Heard?" % not found at hymnary.org
+  tunename = "Cambridge New" % not the same as EOG283's Cambridge in S. M.
   meter = "8. 6. 8. 6. 6. 6." % original has C. M.
   poet = ""
-  composer = "John Randall"
+  composer = "John Randall" % see https://hymnary.org/tune/cambridge_new_randall
   tagline = ##f
 }
 

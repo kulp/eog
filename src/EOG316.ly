@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "316"
-  title = "Children Once to Israel’s King"
+  title = "Children Once to Israel’s King" % not found at hymnary.org
   tunename = "Hendon"
   meter = "7. 7. 7. 7. 7." % original has 7. 7. 7. 7.
   poet = ""
-  composer = "Dr. Malan"
+  composer = "César Malan" % see https://hymnary.org/tune/hendon_malan
   tagline = ##f
 }
 

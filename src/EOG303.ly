@@ -9,10 +9,10 @@
   %children
   hymnnumber = "303"
   title = "Jesus Christ Is Passing By"
-  tunename = "Mozart"
+  tunename = "Nottingham"
   meter = "7. 7. 7. 7."
-  poet = ""
-  composer = "Mozart"
+  poet = "J. Denham Smith" % see https://hymnary.org/text/jesus_christ_is_passing_by
+  composer = "Wenzel Müller, from Mozart" % see https://hymnary.org/tune/mozart_mozart_11175
   tagline = ##f
 }
 

@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "307"
-  title = "How Many Children Say"
+  title = "How Many Children Say" % not found at hymnary.org
   tunename = "Lischer"
   meter = "6. 6. 6. 6. 8. 8. 8." % original has 6. 6. 6. 6. 8. 8.
   poet = ""
-  composer = "L. Mason, Arr."
+  composer = "Friedrich Schneider, arr. by Lowell Mason" % see https://hymnary.org/tune/lischer_schneider
   tagline = ##f
 }
 

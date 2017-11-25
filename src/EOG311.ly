@@ -11,8 +11,8 @@
   title = "Children, Can You Tell Me Why?"
   tunename = "Pilot"
   meter = "6—7s."
-  poet = ""
-  composer = "J. E. Gould"
+  poet = "" % see https://hymnary.org/text/children_can_you_tell_us_why_jesus_came
+  composer = "John E. Gould" % see https://hymnary.org/tune/pilot_gould
   tagline = ##f
 }
 

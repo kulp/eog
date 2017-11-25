@@ -11,8 +11,8 @@
   title = "I Think When I Read That Sweet Story"
   tunename = "Sweet Story"
   meter = "P. M."
-  poet = "Mrs. Jemima Luke"
-  composer = "Anon."
+  poet = "Jemima Thompson Luke" % see https://hymnary.org/text/i_think_when_i_read_that_sweet_story_luk
+  composer = "Arr. by William B. Bradbury" % see https://hymnary.org/tune/sweet_story_bradbury
   tagline = ##f
 }
 

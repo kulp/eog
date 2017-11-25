@@ -7,10 +7,10 @@
   %children
   hymnnumber = "304"
   title = "How Loving Is Jesus"
-  tunename = "My Jesus, I Love Thee"
+  tunename = "Gordon"
   meter = "11. 11. 11. 11."
-  poet = "R. H. Ballantyne"
-  composer = "A. J. Gordon"
+  poet = "Randall H. Ballantyne" % see https://hymnary.org/text/how_loving_is_jesus_who_came_from_the_sk
+  composer = "Adoniram J. Gordon" % see https://hymnary.org/tune/my_jesus_i_love_thee_gordon
   tagline = ##f
 }
 

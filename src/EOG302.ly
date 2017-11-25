@@ -11,8 +11,8 @@
   title = "The Bible Tells Us Jesus Came"
   tunename = "Clark"
   meter = "8. 6. 8. 6. 6." % original has C. M.
-  poet = "Clark"
-  composer = "Arr. by R. B. Robertson"
+  poet = "" % original has "Clark" but there is some evidence against it
+  composer = "Arr. by Robert B. Robertson" % see https://hymnary.org/tune/clark
   tagline = ##f
 }
 
