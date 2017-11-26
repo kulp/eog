@@ -8,10 +8,10 @@
   %children
   hymnnumber = "323"
   title = "There’s a Friend for Little Children"
-  tunename = "Watcher"
+  tunename = "Watcher" % not found at hymnary.org
   meter = "7. 6. 7. 6. D."
-  poet = "A. Midlane"
-  composer = "Edward L. White"
+  poet = "Albert Midlane" % see https://hymnary.org/text/theres_a_friend_for_little_children
+  composer = "Edward L. White" % see https://hymnary.org/person/White_Edward
   tagline = ##f
 }
 

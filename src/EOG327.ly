@@ -8,10 +8,10 @@
   %children
   hymnnumber = "327"
   title = "When Mothers of Salem"
-  tunename = "Benedictus"
+  tunename = "Salem"
   meter = "P. M."
-  poet = ""
-  composer = "German"
+  poet = "William M. Hutchings" % see https://hymnary.org/text/when_mothers_of_salem_their_children_bro
+  composer = "German Melody, arr. by A. Rhodes" % see https://hymnary.org/tune/salem_methfessel
   tagline = ##f
 }
 

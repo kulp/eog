@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "320"
-  title = "Only an Act of Kindness"
+  title = "Only an Act of Kindness" % not found at hymnary.org ; see https://hymnary.org/text/only_a_beam_of_sunshine
   tunename = "Only a Beam of Sunshine"
   meter = "P. M."
-  poet = "Mrs. C. Kingsbury"
-  composer = "Jno. R. Sweney"
+  poet = "Mrs. C. Kingsbury" % not found at hymnary.org
+  composer = "John R. Sweney" % see https://hymnary.org/tune/only_a_beam_of_sunshine_sweney
   tagline = ##f
 }
 

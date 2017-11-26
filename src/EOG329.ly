@@ -8,10 +8,10 @@
   %children
   hymnnumber = "329"
   title = "A Little Lamb Went Straying"
-  tunename = "Springfield"
+  tunename = "O, du mitt hjärtas trängtan"
   meter = "7. 6. 7. 6. D."
-  poet = "A. Midlane"
-  composer = "J. C. F. Haeffner"
+  poet = "Albert Midlane" % see https://hymnary.org/text/a_little_lamb_went_straying
+  composer = "Johann C. F. Haeffner" % see https://hymnary.org/tune/o_du_mit_hjaertas_traengtan
   tagline = ##f
 }
 

@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "321"
-  title = "And Is It True, as I Am Told?"
+  title = "And Is It True, as I Am Told?" % see https://hymnary.org/text/and_is_it_true_as_i_am_told
   tunename = "Meribah" % similar to, but not identical to, EOG128
   meter = "8. 8. 6. D."
-  poet = ""
-  composer = "L. Mason"
+  poet = "Amelia M. Hull" % see https://hymnary.org/text/and_is_it_true_as_i_am_told
+  composer = "Lowell Mason" % see https://hymnary.org/tune/meribah_mason
   tagline = ##f
 }
 

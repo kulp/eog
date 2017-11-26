@@ -6,11 +6,11 @@
 \header{
   %children
   hymnnumber = "322"
-  title = "Oh! Come to Jesus, Children, Come"
-  tunename = "Don’t Delay"
+  title = "Oh! Come to Jesus, Children, Come" % not found at hymnary.org
+  tunename = "Will You Go"
   meter = "8. 6. 8. 6. 8. 8. 8. 6."
   poet = ""
-  composer = ""
+  composer = "J. C. Embry" % see https://hymnary.org/tune/will_you_go_embry
   tagline = ##f
 }
 

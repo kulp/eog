@@ -6,11 +6,11 @@
 \header{
   %children
   hymnnumber = "319"
-  title = "Little Child, Do You Love Jesus?"
-  tunename = "Whither Pilgrims"
+  title = "Little Child, Do You Love Jesus?" % not found at hymnary.org
+  tunename = "Montclair"
   meter = "8. 7. 8. 7. D."
   poet = ""
-  composer = "W. B. Bradbury"
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/montclair_bradbury
   tagline = ##f
 }
 

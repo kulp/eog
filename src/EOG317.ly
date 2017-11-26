@@ -11,8 +11,8 @@
   title = "The Lord Attends When Children Pray"
   tunename = "Brown"
   meter = "C. M."
-  poet = ""
-  composer = "W. B. Bradbury"
+  poet = "John Burton" % see https://hymnary.org/text/the_lord_attends_when_children_pray
+  composer = "William B. Bradbury" % see https://hymnary.org/tune/brown_bradbury
   tagline = ##f
 }
 

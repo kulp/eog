@@ -7,9 +7,9 @@
   %children
   hymnnumber = "326"
   title = "To Israel’s Land, When Israel Sinned"
-  tunename = "Wilson"
+  tunename = "Wilson" % not found at hymnary.org
   meter = "C. M. D."
-  poet = ""
+  poet = "" % see https://books.google.com/books?id=7DkHAAAAQAAJ&pg=PA255&lpg=PA255&dq=%22To+Israel’s+Land,+When+Israel+Sinned%22&source=bl&ots=asxGO9vTgP&sig=yoFEvjwg0yaaMWAY6ma9-wLTbII&hl=en&sa=X&ved=0ahUKEwiRy5btx9zXAhVosVQKHXmwAFIQ6AEIMDAC#v=onepage&q&f=false ; "Mrs. W."
   composer = ""
   tagline = ##f
 }

@@ -8,11 +8,11 @@
 \header{
   %children
   hymnnumber = "328"
-  title = "A Little Child of Seven"
+  title = "A Little Child of Seven" % see https://hymnary.org/text/a_little_child_of_seven
   tunename = "Webb" % identical to EOG220
   meter = "7. 6. 7. 6. D."
   poet = ""
-  composer = "George J. Webb"
+  composer = "George J. Webb" % see https://hymnary.org/tune/webb_webb
   tagline = ##f
 }
 
