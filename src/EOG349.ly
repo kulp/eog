@@ -10,8 +10,8 @@
   title = "News for Little Children"
   tunename = "St. Gertrude" % original has all caps
   meter = "6. 5. 6. 5. 6. 5. D."
-  poet = ""
-  composer = "Sir Arthur Sullivan"
+  poet = "Albert Midlane" % see https://hymnary.org/text/news_for_little_children_hark_how_sweet_
+  composer = "Arthur Sullivan" % see https://hymnary.org/tune/st_gertrude_sullivan
   tagline = ##f
 }
 

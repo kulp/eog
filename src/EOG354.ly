@@ -6,11 +6,11 @@
 \header{
   %children
   hymnnumber = "354"
-  title = "Oh! Would You Know My Saviour?"
+  title = "Oh! Would You Know My Saviour?" % not found at hymnary.org
   tunename = "Spes Celestis"
   meter = "C. M. D."
-  poet = "Charlotte Gipps"
-  composer = "W. A. Smith"
+  poet = "Charlotte Gipps" % not found at hymnary.org
+  composer = "W. A. Smith" % see https://hymnary.org/tune/awake_glad_soul_awake_smith
   tagline = ##f
 }
 

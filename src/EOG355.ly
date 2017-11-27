@@ -9,8 +9,8 @@
   title = "Safe in Christ"
   tunename = "Near the Cross"
   meter = "P. M."
-  poet = "H. d’A. Champney"
-  composer = "W. H. Doane"
+  poet = "H. D’Arcy Champney" % see https://hymnary.org/text/safe_in_christ_the_weakest_child
+  composer = "W. Howard Doane" % see https://hymnary.org/tune/near_the_cross_doane
   tagline = ##f
 }
 

@@ -8,10 +8,10 @@
   %children
   hymnnumber = "346"
   title = "Jesus Who Lives Above the Sky"
-  tunename = "Grateful Praise"
+  tunename = "Grateful Praise" % see https://hymnary.org/tune/grateful_praise_anonymous
   meter = "L. M."
-  poet = "Ann Gilbert"
-  composer = ""
+  poet = "Ann Taylor Gilbert" % see https://hymnary.org/text/jesus_who_lived_above_the_sky
+  composer = "" % see https://hymnary.org/tune/grateful_praise_anonymous
   tagline = ##f
 }
 

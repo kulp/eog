@@ -9,8 +9,8 @@
   title = "Christ the Saviour of Sinners Came"
   tunename = "Wonderful Words of Life"
   meter = "P. M."
-  poet = "I. Fleming"
-  composer = "P. P. Bliss"
+  poet = "Inglis Fleming" % see https://hymnary.org/text/christ_the_savior_of_sinners_came
+  composer = "Philip P. Bliss" % see https://hymnary.org/tune/sing_them_over_again_to_me_bliss
   tagline = ##f
 }
 

@@ -7,11 +7,11 @@
 \header{
   %children
   hymnnumber = "334"
-  title = "Glad T-I-D-I-N-G-S"
+  title = "Glad T-I-D-I-N-G-S" % not found at hymnary.org
   tunename = "At the Cross" % original has this as the poet
   meter = "C. M. with Refrain"
   poet = ""
-  composer = "R. E. Hudson"
+  composer = "Ralph E. Hudson" % see https://hymnary.org/tune/alas_and_did_my_savior_bleed_hudson
   tagline = ##f
 }
 

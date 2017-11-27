@@ -10,8 +10,8 @@
   title = "Jesus Is Our Shepherd"
   tunename = "Broughton"
   meter = "6. 5. 6. 5. D."
-  poet = "Hugh Stowell"
-  composer = "T. Hastings"
+  poet = "Hugh Stowell" % see https://hymnary.org/text/jesus_is_our_shepherd_wiping_every_tear
+  composer = "Thomas Hastings" % see https://hymnary.org/tune/broughton_hastings
   tagline = ##f
 }
 

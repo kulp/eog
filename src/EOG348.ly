@@ -8,8 +8,8 @@
 \header{
   %children
   hymnnumber = "348"
-  title = "Little Children, Heavy-Laden"
-  tunename = "Rideau Ferry"
+  title = "Little Children, Heavy-Laden" % not found at hymnary.org
+  tunename = "Rideau Ferry" % not found at hymnary.org
   meter = "8. 5. 8. 3."
   poet = ""
   composer = "S. J. D."

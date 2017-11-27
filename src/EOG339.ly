@@ -12,8 +12,8 @@
   title = "I Love to Sing of Jesus"
   tunename = "Hora Novissima"
   meter = "7. 6. 7. 6. D. with Refrain" % or 7. 6. 7. 6. 7. 6. D.
-  poet = "R. D. Edwards"
-  composer = "Arr. from Rossini"
+  poet = "R. D. Edwards" % not found for this hymn at hymnary.org ; see https://hymnary.org/text/i_love_to_sing_of_jesus_the_story_all_so
+  composer = "From Gioacchino Rossini" % see https://hymnary.org/tune/hora_novissima_rossini
   tagline = ##f
 }
 
