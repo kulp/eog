@@ -11,7 +11,7 @@
   title = "Here’s a Message of Love"
   tunename = "Waters" % not found at hymnary.org
   meter = "5. 5. 8. D."
-  poet = "Anee Houlditch Shepherd" % see https://hymnary.org/text/heres_a_message_of_love_sent_down_from_a
+  poet = "Anne Houlditch Shepherd" % see https://hymnary.org/text/heres_a_message_of_love_sent_down_from_a
   composer = "Mrs. W. Page" % not found at hymnary.org
   tagline = ##f
 }
