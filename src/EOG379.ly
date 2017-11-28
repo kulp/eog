@@ -7,10 +7,10 @@
 \header{
   hymnnumber = "379"
   title = "O My Saviour Crucified"
-  tunename = "Last Hope"
+  tunename = "Last Hope" % aka "Mercy" ; see https://hymnary.org/tune/mercy_gottschalk
   meter = "7. 7. 7. 7."
-  poet = "R. Chapman"
-  composer = "L. M. Gottschalk"
+  poet = "Robert C. Chapman" % see https://hymnary.org/text/o_my_savior_crucified_near_thy_cross_wou-1
+  composer = "Louis Moreau Gottschalk" % see https://hymnary.org/tune/mercy_gottschalk
   tagline = ##f
 }
 

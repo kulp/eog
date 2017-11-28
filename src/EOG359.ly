@@ -8,10 +8,10 @@
   %children
   hymnnumber = "359"
   title = "Those Who Are Young, O God"
-  tunename = "Bethany II"
+  tunename = "Bethany" % see https://hymnary.org/tune/bethany_mason
   meter = "6. 4. 6. 4. 6. 6. 6. 4."
-  poet = "A. Midlane"
-  composer = "L. Mason"
+  poet = "Albert Midlane" % inferred ; hymn not found at hymnary.org
+  composer = "Lowell Mason" % see https://hymnary.org/tune/bethany_mason
   tagline = ##f
 }
 

@@ -10,8 +10,8 @@
   title = "The Master Is Come"
   tunename = "He Hideth My Soul"
   meter = "P. M." % something like 11. 8. 11. 8. 11. 8. 8.
-  poet = "Wm. E. Cullum"
-  composer = "Wm. J. Kirkpatrick"
+  poet = "W. E. Cullum" % not found at hymnary.org
+  composer = "William J. Kirkpatrick" % see https://hymnary.org/tune/a_wonderful_savior_is_jesus_kirkpatrick
   tagline = ##f
 }
 

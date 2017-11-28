@@ -9,8 +9,8 @@
   title = "When He Cometh"
   tunename = "Jewels"
   meter = "8. 6. 8. 5. with Refrain"
-  poet = "W. O. Cushing"
-  composer = "George F. Root"
+  poet = "William O. Cushing" % see https://hymnary.org/text/when_he_cometh_when_he_cometh
+  composer = "George F. Root" % see https://hymnary.org/tune/when_he_cometh_when_he_cometh_root
   tagline = ##f
 }
 

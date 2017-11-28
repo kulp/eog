@@ -9,8 +9,8 @@
   title = "“Revive Thy Work, O Lord!”"
   tunename = "Festal Song"
   meter = "S. M."
-  poet = "A. Midlane"
-  composer = "W. H. Walter"
+  poet = "Albert Midlane" % see https://hymnary.org/text/revive_thy_work_o_lord_thy_mighty_arm
+  composer = "William H. Walter" % see https://hymnary.org/tune/festal_song_walter
   tagline = ##f
 }
 

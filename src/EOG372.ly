@@ -8,10 +8,10 @@
   %gospel
   hymnnumber = "372"
   title = "How Wondrous a Saviour"
-  tunename = "Take Time to Be Holy"
+  tunename = "Holiness"
   meter = "6. 5. 6. 5. D."
-  poet = "L. H. Farrell"
-  composer = "George C. Stebbins"
+  poet = "L. H. Farrell" % see https://hymnary.org/text/how_wondrous_a_savior_is_gods_blessed_so
+  composer = "George C. Stebbins" % see https://hymnary.org/tune/holiness_stebbins
   tagline = ##f
 }
 

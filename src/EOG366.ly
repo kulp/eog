@@ -11,8 +11,8 @@
   title = "We Are Little Children, Very Young Indeed"
   tunename = "Portbrush"
   meter = "6. 5. 6. 5. D." % original has 11. 11. 11. 12.
-  poet = "Fanny J. Crosby"
-  composer = "H. P. Main"
+  poet = "Fanny J. Crosby" % see https://hymnary.org/text/we_are_little_children_very_young_indeed
+  composer = "Hubert P. Main" % see https://hymnary.org/tune/we_are_little_children_very_young_main
   tagline = ##f
 }
 

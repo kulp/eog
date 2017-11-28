@@ -11,8 +11,8 @@
   title = "There Is a City Bright"
   tunename = "City Bright"
   meter = "6. 6. 5. 5. 6."
-  poet = "Mary A. S. Deck"
-  composer = "J. S. Tyler"
+  poet = "Mary Anne S. Gibson Deck" % see https://hymnary.org/text/there_is_a_city_bright_closed_are_its_ga
+  composer = "James Sherman Tyler" % see https://hymnary.org/tune/city_bright_tyler
   tagline = ##f
 }
 

@@ -11,8 +11,8 @@
   title = "There Is a Happy Land"
   tunename = "Happy Land" % similar to EOG056
   meter = "6. 4. 6. 4. 6. 6. 6. 4." % original has 6. 4. 6. 4. 6. 7. 6. 4.
-  poet = "Andrew Young"
-  composer = ""
+  poet = "Andrew Young" % see https://hymnary.org/text/there_is_a_happy_land_far_far_away
+  composer = "Telegu Melody" % see EOG056 ; see https://hymnary.org/tune/happy_land
   tagline = ##f
 }
 

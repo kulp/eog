@@ -10,8 +10,8 @@
   title = "The Flood"
   tunename = "Chamouni" % original has all capitals
   meter = "8. 7. 8. 7. D."
-  poet = "Gordon Hayhoe"
-  composer = "George Lomas"
+  poet = "Gordon Hayhoe" % not found at hymnary.org
+  composer = "George Lomas" % see https://hymnary.org/tune/chamouni_lomas
   tagline = ##f
 }
 
