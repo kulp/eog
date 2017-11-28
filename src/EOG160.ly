@@ -11,7 +11,7 @@
   title = "Though in a Foreign Land"
   tunename = "Franconia" % see https://hymnary.org/tune/franconia_konig
   meter = "S. M."
-  poet = "Augustus Toplady" % see https://hymnary.org/text/though_in_a_foreign_land_we_are_not_far_
+  poet = "Augustus M. Toplady" % see https://hymnary.org/text/though_in_a_foreign_land_we_are_not_far_
   composer = "Johann B. König" % see https://hymnary.org/tune/franconia_konig
   tagline = ##f
 }

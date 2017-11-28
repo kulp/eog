@@ -10,7 +10,7 @@
   title = "Ere God Had Built the Mountains"
   tunename = "Aurelia" % see https://hymnary.org/tune/aurelia_wesley
   meter = "7. 6. 7. 6. D."
-  poet = "W. Cowper" % see https://hymnary.org/text/ere_god_had_built_the_mountains
+  poet = "William Cowper" % see https://hymnary.org/text/ere_god_had_built_the_mountains
   composer = "Samuel Sebastian Wesley" % see https://hymnary.org/tune/aurelia_wesley
   tagline = ##f
 }
