@@ -10,7 +10,7 @@
   title = "We Hear the Words of Love"
   tunename = "St. Thomas"
   meter = "S. M."
-  poet = "Isaac Watts"
+  poet = "Horatius Bonar" % see https://hymnary.org/text/we_hear_the_words_of_love_we_gaze_upon_t
   composer = "Georg F. Händel, arr. by Aaron Williams" % see http://hymnary.org/tune/st_thomas_williams
   tagline = ##f
 }
