@@ -11,7 +11,7 @@
   tunename = "Pilgrims" % see https://hymnary.org/tune/pilgrims_smart
   meter = "11. 10. 11. 10. with Refrain"
   poet = "H. D’Arcy Champney"
-  composer = "Henry Thomas Smart" % see https://hymnary.org/tune/pilgrims_smart
+  composer = "Henry T. Smart" % see https://hymnary.org/tune/pilgrims_smart
   tagline = ##f
 }
 

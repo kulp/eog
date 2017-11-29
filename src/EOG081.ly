@@ -13,7 +13,7 @@
   tunename = "Regent Square" % see https://hymnary.org/tune/regent_square_smart
   meter = "8. 7. 8. 7. 8. 7."
   poet = "Thomas Kelly" % see https://hymnary.org/person/Kelly_Thomas
-  composer = "Henry Thomas Smart" % see https://hymnary.org/tune/regent_square_smart
+  composer = "Henry T. Smart" % see https://hymnary.org/tune/regent_square_smart
   tagline = ##f
 }
 

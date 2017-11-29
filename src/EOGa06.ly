@@ -11,7 +11,7 @@
   hymnnumber = "6"
   tunename = "Luther"
   meter = "8. 7. 8. 7. 8. 8. 7."
-  composer = "Martin Luther, Geistliche Lieder, 1535" % see https://hymnary.org/tune/luthers_hymn_luther_11321
+  composer = "Martin Luther (Geistliche Lieder, 1535)" % see https://hymnary.org/tune/luthers_hymn_luther_11321
   alternate = \markup { \column {
     "Alternate tune for No. 281."
     "See also No. 188, Little Flock."

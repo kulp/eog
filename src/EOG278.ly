@@ -10,8 +10,8 @@
   title = "We Hear the Words of Love"
   tunename = "St. Thomas"
   meter = "S. M."
-  poet = "I. Watts"
-  composer = "G. F. Handel, A. Williams" % http://hymnary.org/tune/st_thomas_williams
+  poet = "Isaac Watts"
+  composer = "Georg F. Händel, arr. by Aaron Williams" % see http://hymnary.org/tune/st_thomas_williams
   tagline = ##f
 }
 
