@@ -11,7 +11,7 @@
   tunename = "St. Thomas"
   meter = "S. M."
   poet = "Isaac Watts" % see https://hymnary.org/text/break_forth_and_sing_the_song_of_glory
-  composer = "Georg F. Händel, arr. by Aaron Williams" % see http://hymnary.org/tune/st_thomas_williams
+  composer = "George F. Handel, arr. by Aaron Williams" % see http://hymnary.org/tune/st_thomas_williams
   tagline = ##f
 }
 

@@ -11,7 +11,7 @@
   tunename = "St. Thomas"
   meter = "S. M."
   poet = "Horatius Bonar" % see https://hymnary.org/text/we_hear_the_words_of_love_we_gaze_upon_t
-  composer = "Georg F. Händel, arr. by Aaron Williams" % see http://hymnary.org/tune/st_thomas_williams
+  composer = "George F. Handel, arr. by Aaron Williams" % see http://hymnary.org/tune/st_thomas_williams
   tagline = ##f
 }
 

@@ -12,7 +12,7 @@
   tunename = "Maccabeus" % see https://hymnary.org/tune/maccabeus_handel_11733
   meter = "11. 11. 11. 11."
   poet = "Hannah K. Burlingham" % see https://hymnary.org/text/everlasting_glory_unto_jesus_be
-  composer = "Georg F. Händel" % see https://hymnary.org/tune/maccabeus_handel_11733
+  composer = "George F. Handel" % see https://hymnary.org/tune/maccabeus_handel_11733
   tagline = ##f
 }
 

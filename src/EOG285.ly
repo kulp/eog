@@ -12,7 +12,7 @@
   tunename = "Antioch"
   meter = "8. 6. 8. 6. 6. 6." % original has C. M.
   poet = "George V. Wigram" % see https://hymnary.org/text/well_may_we_sing_with_triumph_sing
-  composer = "Georg F. Händel, arr. by Lowell Mason" % see https://hymnary.org/tune/antioch_handel
+  composer = "George F. Handel, arr. by Lowell Mason" % see https://hymnary.org/tune/antioch_handel
   tagline = ##f
 }
 
