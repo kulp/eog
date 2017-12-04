@@ -142,7 +142,7 @@ notesBassB = {
 
 Refrain = \lyricmode {
 
-%LYRICS Ev -- er -- last -- ing glo -- ry
+%LYRICS Everlasting glory
 %{HIDE>%} { \override LyricText.font-size = #-1 \override Lyrics.LyricText.font-shape = #'italic } \markup{{\super{★}}Ev} -- er -- last -- ing glo -- ry %{<HIDE%} \bar "."
 Un -- to Je --  sus be! \bar "."
 Sing a -- loud the sto -- ry \bar "."

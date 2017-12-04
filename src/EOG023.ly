@@ -155,7 +155,7 @@ On the cross __ He sealed my par -- don, \bar "." \eogbreak
 RefrainA = \lyricmode {
 
 Sing, oh, sing of my Re -- deem -- er! \bar "."
-With His blood %{HIDE>%} He pur -- chased me, %{<HIDE%} He pur -- chased me; \bar "."
+With His blood He pur -- chased me; \bar "."
 On the cross He sealed my par -- don, \bar "."
 Paid the debt, and made me free. \bar "."
 

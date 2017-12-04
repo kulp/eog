@@ -125,8 +125,8 @@ Refrain = \lyricmode {
 
 Je -- sus a -- lone, Je -- sus a -- lone, \bar "."
 Je -- sus a -- lone can save. %{HIDE>%} save. %{<HIDE%} % \bar "."
-%LYRICS Je -- sus a -- lone, Je -- sus a -- lone,
-%LYRICS Je -- sus a -- lone can save.
+%LYRICS Jesus alone, Jesus alone,
+%LYRICS Jesus alone can save.
 
 }
 

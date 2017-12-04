@@ -111,8 +111,8 @@ Refrain = \lyricmode {
 
 I am so glad that Je -- sus loves me, \bar "."
 Je -- sus loves me, Je -- sus loves me, %{HIDE>%} e -- ven me. %{<HIDE%} % \bar "."
-I am so glad that Je -- sus loves me, % \bar "."
-Je -- sus loves e -- ven me. % \bar "."
+%LYRICS I am so glad that Jesus loves me,
+%LYRICS Jesus loves even me.
 
 }
 

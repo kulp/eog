@@ -136,10 +136,10 @@ notesBass = {
 RefrainA = \lyricmode {
 
 %{HIDE>%} Gos -- pel bells, how they ring \bar "." %{<HIDE%}
-%LYRICS Gos -- pel bells ...  how they ring
+%LYRICS Gospel bells ... how they ring
 O -- ver land from sea to sea; \bar "." \eogbreak
 %{HIDE>%} Gos -- pel bells, free -- ly bring \bar "." %{<HIDE%}
-%LYRICS Gos -- pel bells ... free -- ly bring
+%LYRICS Gospel bells ... freely bring
 Bless -- ed news to you and me. \bar "." \eogbreak
 
 }
