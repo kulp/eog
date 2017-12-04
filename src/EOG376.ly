@@ -11,7 +11,7 @@
   tunename = ""
   meter = "P. M."
   poet = "Heinrich Suso, tr. by Frances Bevan" % from https://biblicalstudies.org.uk/pdf/eq/1962-4_206.pdf
-  composer = "Uncertain" % not found at hymnary.org
+  composer = "" % not found at hymnary.org
   tagline = ##f
 }
 
