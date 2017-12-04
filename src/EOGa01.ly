@@ -9,7 +9,7 @@
   hymnnumber = "1"
   tunename = "Dundee"
   meter = "C. M."
-  composer = "Arr. by Thomas Ravenscroft, Scottish Psalter, 1615" % see https://hymnary.org/tune/dundee_ravenscroft
+  composer = "Arr. by Thomas Ravenscroft (Scottish Psalter, 1615)" % see https://hymnary.org/tune/dundee_ravenscroft
   alternate = \markup { \column {
     "Alternate tune for No. 286."
     "See also No. 275, Little Flock."
