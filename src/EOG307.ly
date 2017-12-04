@@ -130,7 +130,7 @@ Or dwell with God a -- bove,
 But they who Je -- sus know,
 And trust the Sav -- iour’s love;
 The ho -- ly words of truth de -- clare
-%{HIDE>%} No oth -- er grounds of en -- trance there, %{<HIDE%}
+%{HIDE>%} No oth -- er way of en -- trance there, %{<HIDE%}
 No oth -- er way of en -- trance there.
 
 }
