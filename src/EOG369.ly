@@ -246,7 +246,6 @@ headB = \markuplist {
     \line{ \bold 1 \column { \extraA } } \combine \null \vspace #0.5
     \line{ \bold 2 \column { \extraB } }
   }
-  \vspace #1
 } } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

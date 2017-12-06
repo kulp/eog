@@ -206,7 +206,6 @@ wordsE = \markuplist {
       }
       \null
     }
-    \vspace #1
   }
 }
 

@@ -167,7 +167,6 @@ wordsF = \markuplist {
     \vspace #1
     \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
     \line{ \bold 6 \column { \wordsF } }
-    \vspace #1
   } }
 } }
 

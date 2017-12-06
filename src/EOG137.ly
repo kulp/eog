@@ -194,7 +194,6 @@ wordsG = \markuplist {
     }
     \null
   }
-  \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
