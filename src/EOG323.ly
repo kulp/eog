@@ -210,7 +210,7 @@ wordsF = \markuplist {
 }
 
 \markup { \vcenter \column {
-  \vspace #0.5 % not enough space for \vspace #1
+  \vspace #1
   \fill-line {
     \null
     \line{ \bold 5 \column { \wordsE } }
@@ -218,7 +218,6 @@ wordsF = \markuplist {
     \line{ \bold 6 \column { \wordsF } }
     \null
   }
-  \vspace #0.5 % not enough space for \vspace #1
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
