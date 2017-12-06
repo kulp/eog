@@ -171,6 +171,7 @@ wordsF = \markuplist {
 
 \markup {
   \center-column {
+    \vspace #1
     \override #'(span-factor . 1/2)
     \fill-line { \null \draw-hline \null }
   }

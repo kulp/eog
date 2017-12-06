@@ -30,6 +30,8 @@ for my $pdf (@ARGV) {
         my $crop_amount_bottom = $total_height - $height - $crop_amount_top;
         my $crop_amount_right  = $total_width  - $width  - $crop_amount_left;
         my $clip = ($crop_amount_bottom > $crop_threshold) ? "true" : "false";
+        # Additional Tunes start on their own page now
+        $prev_clip = "false" if $pdf =~ /EOGa0\d/;
         (my $basename = $pdf) =~ s/\.[^.]*$//; # strip extension
         # symmetrically crop left and right by empirically-determined amount
         $crop_amount_left = $crop_amount_right = 8;
