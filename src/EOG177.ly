@@ -10,7 +10,7 @@
   hymnnumber = "177"
   title = "Nor Silver Nor Gold"
   tunename = ""
-  meter = "P. M." % something like 12. 11. 12. 11. with Refrain
+  meter = "P. M. with Refrain" % something like 12. 11. 12. 11. with Refrain
   poet = "James M. Gray" % see https://hymnary.org/text/nor_silver_nor_gold_hath_obtained_my_red
   composer = "Daniel B. Towner" % see https://hymnary.org/tune/nor_silver_nor_gold_towner
   tagline = ##f

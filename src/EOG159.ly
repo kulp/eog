@@ -9,7 +9,7 @@
   hymnnumber = "159"
   title = "God Be with You"
   tunename = "God Be With You"
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Jeremiah E. Rankin" % see https://hymnary.org/text/god_be_with_you_till_we_meet_again
   composer = "William G. Tomer" % see https://hymnary.org/tune/god_be_with_you_tomer
   tagline = ##f

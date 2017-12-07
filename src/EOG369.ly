@@ -10,7 +10,7 @@
   hymnnumber = "369"
   title = "Wide as the Ocean"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "C. Austin Miles" % see https://hymnary.org/text/i_claim_for_my_own_a_king_on_a_throne
   composer = "C. Austin Miles" % see https://hymnary.org/tune/i_claim_for_my_own_a_king_miles
   tagline = ##f

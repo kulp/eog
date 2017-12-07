@@ -10,7 +10,7 @@
   hymnnumber = "38"
   title = "The Gospel Bells"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "S. Wesley Martin" % see https://hymnary.org/text/the_gospel_bells_are_ringing
   composer = "S. Wesley Martin" % see https://hymnary.org/tune/the_gospel_bells_are_ringing_martin
   tagline = ##f

@@ -9,7 +9,7 @@
   hymnnumber = "356"
   title = "Sing the Saviour’s Praises" % not found at hymnary.org
   tunename = "Ring the Bells of Heaven"
-  meter = "P. M." % something like 11. 9. 11. 9. with Refrain (9. 9. 11. 9)
+  meter = "P. M. with Refrain" % something like 11. 9. 11. 9. with Refrain (9. 9. 11. 9)
   poet = ""
   composer = "George F. Root" % see https://hymnary.org/tune/ring_the_bells_of_heaven_there_is_root
   tagline = ##f

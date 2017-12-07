@@ -9,7 +9,7 @@
   hymnnumber = "49"
   title = "Verily, Verily"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "James McGranahan" % see https://hymnary.org/text/o_what_a_savior_that_he_died_for_me
   composer = "James McGranahan" % see https://hymnary.org/text/o_what_a_savior_that_he_died_for_me
   tagline = ##f

@@ -8,7 +8,7 @@
   hymnnumber = "53"
   title = "Weeping Will Not Save Me!"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Robert Lowry" % see https://hymnary.org/text/weeping_will_not_save_me_though_my_face
   composer = "Robert Lowry" % see https://hymnary.org/tune/weeping_will_not_save_me_lowry
   tagline = ##f

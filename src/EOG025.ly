@@ -12,7 +12,7 @@
   title = "Oh, Have You Not Heard of That Wonderful Love?"
   markuptitle = \markup \center-column { "Oh, Have You Not Heard of That" "Wonderful Love?" \vspace #0.5 }
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "" % not found at hymnary.org
   composer = "J. C. Englebrecht" % see https://hymnary.org/tune/i_think_when_i_read_englebrecht
   tagline = ##f

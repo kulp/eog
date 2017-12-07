@@ -8,7 +8,7 @@
   hymnnumber = "210"
   title = "Calvary" % see https://hymnary.org/text/on_calvarys_brow_my_savior_died
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "William McKendree Darwood" % see https://hymnary.org/person/Darwood_William
   composer = "John R. Sweney" % see https://hymnary.org/tune/on_calvarys_brow_my_savior_died_sweney
   tagline = ##f

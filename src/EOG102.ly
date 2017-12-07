@@ -10,7 +10,7 @@
   hymnnumber = "102"
   title = "Life at Best Is Very Brief"
   tunename = "Meet Me There" % see https://hymnary.org/tune/on_the_happy_golden_shore_kirkpatrick
-  meter = "P. M." % or 7. 7. 7. 3. with Refrain
+  meter = "P. M. with Refrain" % or 7. 7. 7. 3. with Refrain
   poet = "" % see https://hymnary.org/text/life_at_best_is_very_brief
   composer = "William J. Kirkpatrick" % see https://hymnary.org/tune/on_the_happy_golden_shore_kirkpatrick
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "168"
   title = "In Tenderness He Sought Me"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "W. Spencer Walton" % see https://hymnary.org/text/in_tenderness_he_sought_me
   composer = "Adoniram J. Gordon" % see https://hymnary.org/tune/in_tenderness_he_sought_me_gordon
   tagline = ##f

@@ -10,7 +10,7 @@
   hymnnumber = "365"
   title = "We Are Glad We Ever Heard the Blessed News" % not found at hymnary.org
   tunename = "Marching On"
-  meter = "P. M." % something like 11. 11. 11. 7. with Refrain (6. 6. 6. 7.)
+  meter = "P. M. with Refrain" % something like 11. 11. 11. 7. with Refrain (6. 6. 6. 7.)
   poet = ""
   composer = "William B. Bradbury" % see https://hymnary.org/tune/we_are_marching_on_with_shield_bradbury
   tagline = ##f

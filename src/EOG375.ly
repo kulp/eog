@@ -9,7 +9,7 @@
   hymnnumber = "375"
   title = "O Soul, Are You Weary"
   tunename = "Lemmel"
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Helen Howarth Lemmel" % see https://hymnary.org/text/o_soul_are_you_weary_and_troubled
   composer = "Helen Howarth Lemmel" % see https://hymnary.org/tune/lemmel_lemmel
   tagline = ##f

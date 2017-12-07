@@ -9,7 +9,7 @@
   hymnnumber = "242"
   title = "My God, I Have Found"
   tunename = "Revive Us Again"
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "J. Denham Smith" % see https://hymnary.org/text/my_god_i_have_found_the_thrice_blessed_g
   composer = "John J. Husband" % see https://hymnary.org/tune/revive_us_again_husband
   tagline = ##f

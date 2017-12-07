@@ -8,7 +8,7 @@
   hymnnumber = "193"
   title = "Sweet Peace, the Gift of God’s Love"
   tunename = "Sweet Peace" % see https://hymnary.org/tune/sweet_peace_bilhorn
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Peter P. Bilhorn" % see https://hymnary.org/text/there_comes_to_my_heart_one_sweet_strain
   composer = "Peter P. Bilhorn" % see https://hymnary.org/tune/sweet_peace_bilhorn
   tagline = ##f

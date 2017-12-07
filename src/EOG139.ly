@@ -10,7 +10,7 @@
   hymnnumber = "139"
   title = "What Can Wash Away My Sins?" % see https://hymnary.org/text/what_can_wash_away_my_sin
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Robert Lowry" % see https://hymnary.org/text/what_can_wash_away_my_sin
   composer = "Robert Lowry" % see https://hymnary.org/tune/what_can_wash_away_my_sin_lowry
   tagline = ##f

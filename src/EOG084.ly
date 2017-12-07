@@ -10,7 +10,7 @@
   hymnnumber = "84"
   title = "Free from the Law"
   tunename = "Once for All" % see https://hymnary.org/tune/free_from_the_law_o_happy_cond_bliss
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Philip P. Bliss" % see https://hymnary.org/text/free_from_the_law_o_happy_condition
   composer = "Philip P. Bliss" % see https://hymnary.org/text/free_from_the_law_o_happy_condition
   tagline = ##f

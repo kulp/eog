@@ -10,7 +10,7 @@
   hymnnumber = "138"
   title = "“Whosoever Will”" % see https://hymnary.org/text/whosoever_heareth_shout_shout_the_sound
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Philip P. Bliss" % see https://hymnary.org/text/whosoever_heareth_shout_shout_the_sound
   composer = "Philip P. Bliss" % see https://hymnary.org/tune/whosoever_bliss
   tagline = ##f

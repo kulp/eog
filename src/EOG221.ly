@@ -8,7 +8,7 @@
   hymnnumber = "221"
   title = "I Am Thine, O Lord" % see https://hymnary.org/text/i_am_thine_o_lord_i_have_heard_thy_voice
   tunename = "I Am Thine" % see https://hymnary.org/tune/i_am_thine_o_lord_i_have_heard_doane
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Fanny J. Crosby" % see https://hymnary.org/text/i_am_thine_o_lord_i_have_heard_thy_voice
   composer = "W. Howard Doane" % see https://hymnary.org/tune/i_am_thine_o_lord_i_have_heard_doane
   tagline = ##f

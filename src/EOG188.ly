@@ -8,7 +8,7 @@
   hymnnumber = "188"
   title = "Our Lord Is Now Rejected"
   tunename = ""
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "Daniel W. Whittle" % see https://hymnary.org/text/our_lord_is_now_rejected
   composer = "James McGranahan" % see https://hymnary.org/tune/our_lord_is_now_rejected_mcgranahan
   tagline = ##f

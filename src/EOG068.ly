@@ -9,7 +9,7 @@
   hymnnumber = "68"
   title = "Christ Is the Saviour of Sinners"
   tunename = "Showers of Blessing" % see https://hymnary.org/tune/there_shall_be_showers_of_mcgranahan
-  meter = "P. M." % like 8. 7. 8. 7. with Refrain, but dactylic
+  meter = "P. M. with Refrain" % like 8. 7. 8. 7. with Refrain, but dactylic
   poet = "Heyman Wreford" % see https://hymnary.org/text/christ_is_the_savior_of_sinners
   composer = "James McGranahan" % see https://hymnary.org/tune/there_shall_be_showers_of_mcgranahan
   tagline = ##f

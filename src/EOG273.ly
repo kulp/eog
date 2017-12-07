@@ -9,7 +9,7 @@
   hymnnumber = "273"
   title = "Up Yonder, in a Heavenly Mansion"
   tunename = "" % "Swanee River" perhaps ?
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "A. H. Rule" % see https://bibletruthpublishers.com/up-yonder-in-a-heavenly-mansion/alexander-hume-rule/selected-ministry-of-a-h-rule-volume-1/a-h-rule/la87681
   composer = "Stephen C. Foster" % see https://hymnary.org/tune/way_down_upon_the_swanee_river_foster
   tagline = ##f

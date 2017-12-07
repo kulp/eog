@@ -10,7 +10,7 @@
   hymnnumber = "65"
   title = "Christ Is the Only Saviour"
   tunename = "The Lifeboat" % see https://hymnary.org/text/light_in_the_darkness_sailor_day_is_at_h
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "H. D’Arcy Champney" % see https://hymnary.org/person/Champney_HDA1
   composer = "Philip P. Bliss" % see https://hymnary.org/tune/light_in_the_darkness_sailor_bliss
   tagline = ##f

@@ -8,7 +8,7 @@
   hymnnumber = "112"
   title = "Only a Sinner"
   tunename = "Only a Sinner" % see https://hymnary.org/tune/only_a_sinner_towner
-  meter = "P. M."
+  meter = "P. M. with Refrain"
   poet = "James M. Gray" % see https://hymnary.org/text/naught_have_i_gotten_but_what_i_received
   composer = "Daniel B. Towner" % see https://hymnary.org/tune/only_a_sinner_towner
   tagline = ##f

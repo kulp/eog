@@ -8,7 +8,7 @@
   hymnnumber = "42"
   title = "The Great Physician"
   tunename = ""
-  meter = "P. M." % like 8. 7. 8. 7. with Refrain, but iambic
+  meter = "P. M. with Refrain" % like 8. 7. 8. 7. with Refrain, but iambic
   poet = "William Hunter" % see https://hymnary.org/text/the_great_physician_now_is_near
   composer = "John H. Stockton" % see https://hymnary.org/tune/the_great_physician_now_is_near_stockton
   tagline = ##f
