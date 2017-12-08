@@ -52,5 +52,6 @@ while (<>) {
     }
 }
 
+print qq(}\n) if $records == 1;
 print qq(\\end{flushright}\n) if $open;
 
