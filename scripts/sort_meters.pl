@@ -38,10 +38,6 @@ sub by_meter {
     my $aa = normalize $a;
     my $bb = normalize $b;
 
-    # Force P. M. to end
-    return  1 if $aa =~ /^P/;
-    return -1 if $bb =~ /^P/;
-
     if (is_num($aa)) {
         if (is_num($bb)) {
             my ($an) = $aa =~ /^(.*?)\s*(with Refrain)?$/;
@@ -57,11 +53,14 @@ sub by_meter {
         if (is_num($bb)) {
             return -1;
         } else {
+            my ($ap) = $aa =~ /^P/;
+            my ($bp) = $bb =~ /^P/;
             my ($ax) = $aa =~ /^(\w\. M\.)( D.)?/;
             my ($bx) = $bb =~ /^(\w\. M\.)( D.)?/;
             my ($an) = $aa =~ /^((\w\.\s*)+)\s*(with Refrain)?/;
             my ($bn) = $bb =~ /^((\w\.\s*)+)\s*(with Refrain)?/;
-            return $ax cmp $bx
+            return $ap cmp $bp
+                || $ax cmp $bx
                 || $an cmp $bn
                 || ($aa =~ /Refrain/) - ($bb =~ /Refrain/);
         }
