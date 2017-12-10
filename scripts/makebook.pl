@@ -25,8 +25,8 @@ for my $pdf (@ARGV) {
     while (<$metrics>) {
         my $addl = $name =~ /EOGa/;
         $page++;
-        my @dims = map /(\d+)/g, (split " ")[2,3];
-        my ($width, $height, $total_width, $total_height, $crop_amount_left, $crop_amount_top) = @dims;
+        my @dims = /(\d+)/g;
+        my ($total_width, $total_height, $width, $height, $crop_amount_left, $crop_amount_top) = @dims;
         my $crop_amount_bottom = $total_height - $height - $crop_amount_top;
         my $crop_amount_right  = $total_width  - $width  - $crop_amount_left;
         my $clip = ($crop_amount_bottom > $crop_threshold) ? "true" : "false";

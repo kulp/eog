@@ -192,7 +192,7 @@ check: book
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	@echo "[ METRICS ] $@"
-	convert "$<" -trim info:"$@" || (rm $@ ; false)
+	magick identify -format "%P %@\n" $< > $@ || (rm $@ ; false)
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
