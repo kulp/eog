@@ -152,10 +152,10 @@ wordsE = \markuplist {
 
 \markup { \column {
   \fill-line { \vcenter \column {
-    \vspace #1
+    \vspace #2 % take up extra vspace to compensate large break after previous hymn
     \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
     \line{ \bold 5 \column { \wordsE } }
-    \vspace #1
+    \vspace #2 % take up extra vspace to compensate large break after previous hymn
   } }
   \fill-line { \line { Alternate tune: No. 198. } }
 } }
