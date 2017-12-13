@@ -19,6 +19,7 @@ ta = { \tempo 4=72 }
 tb = { \tempo 4=36 }
 
 patternA = { c4 c8 c8 c4 c8 c8 | c4 c8 c8 c2 }
+patternB = { c4 c8 c8 c8 c8 c4 | c4 c8 c8 c2 }
 
 global = {
   \include "common/overrides.ily"
@@ -41,7 +42,7 @@ notesSoprano = {
   \changePitch \patternA { ees des c des c bes   | c bes aes bes }
 
   << s^\markup { \small \caps "Refrain" }
-  \changePitch \patternA { aes g aes bes aes bes | c bes aes bes } >>
+  \changePitch \patternB { aes g aes bes aes bes | c bes aes bes } >>
   \changePitch \patternA { aes bes c des c bes   | aes c bes aes }
 
   \bar "|."
@@ -58,7 +59,7 @@ notesAlto = {
   \changePitch \patternA { aes g aes g aes g     | aes g f g       }
   \changePitch \patternA { ees ees ees g g g     | ees ees ees ees }
 
-  \changePitch \patternA { ees ees ees g aes ees | ees ees ees ees }
+  \changePitch \patternB { ees ees ees g aes ees | ees ees ees ees }
   \changePitch \patternA { ees g ges f f f       | ees g g ees     }
 
 }
@@ -73,7 +74,7 @@ notesTenor = {
   \changePitch \patternA { ees ees ees ees ees ees | ees ees c ees }
   \changePitch \patternA { aes, g aes bes ees des  | c aes aes g   }
 
-  \changePitch \patternA { c des c des c g         | aes aes aes g }
+  \changePitch \patternB { c des c des c g         | aes aes aes g }
   \changePitch \patternA { c ees aes, aes a bes    | c ees des c   }
 
 }
@@ -88,7 +89,7 @@ notesBass = {
   \changePitch \patternA { c bes aes bes aes ees    | aes ees f ees   }
   \changePitch \patternA { c bes aes ees' ees ees   | aes c, c ees    }
 
-  \changePitch \patternA { aes bes aes ees ees ees  | aes, c c ees    }
+  \changePitch \patternB { aes bes aes ees ees ees  | aes, c c ees    }
   \changePitch \patternA { aes ees aes des, des des | ees ees ees aes }
 
 }
