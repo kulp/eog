@@ -12,7 +12,7 @@
   tunename = ""
   meter = "P. M."
   poet = ""
-  composer = "Anon." % see https://hymnary.org/tune/i_am_the_door_i_am_the_door_55113
+  composer = "" % see https://hymnary.org/tune/i_am_the_door_i_am_the_door_55113
   tagline = ##f
 }
 

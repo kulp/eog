@@ -10,7 +10,7 @@
   tunename = "Sussex" % not found at hymnary.org
   meter = "8. 8. 6. 8. 8. 6. 4." % original has 8. 8. 6. D.
   poet = "Samuel Medley" % see https://hymnary.org/text/o_could_i_speak_the_matchless_worth
-  composer = "Anon."
+  composer = ""
   tagline = ##f
 }
 

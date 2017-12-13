@@ -13,7 +13,7 @@
   title = "Come, Weary, Anxious, Laden Soul"
   tunename = "Troyte"
   meter = "8. 8. 8. 6."
-  poet = "Anon." % see https://hymnary.org/text/come_weary_anxious_laden_soul
+  poet = "" % see https://hymnary.org/text/come_weary_anxious_laden_soul
   composer = "Arthur H. D. Troyte" % see https://hymnary.org/person/Acland_AHD
   tagline = ##f
 }

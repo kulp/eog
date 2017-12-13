@@ -10,7 +10,7 @@
   title = "Come to the Saviour, Come to the Saviour" % not found at hymnary.org
   tunename = ""
   meter = "P. M."
-  poet = "Anon."
+  poet = ""
   composer = "Old Scottish Melody"
   tagline = ##f
 }
