@@ -171,7 +171,7 @@ wordsF = \markuplist {
     \line{ \bold 6 \column { \wordsF } }
     \vspace #1
   } }
-  \fill-line { \line { Alternate tune: No. 46. } }
+  \fill-line { \line { Alternate tunes: No. 46, No. 1 in Supplement. } }
 } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.

@@ -233,6 +233,8 @@ wordsF = \markuplist {
   \line{ \bold 6 \column { \wordsF } }
 } } }
 
+\markup { \fill-line { \line { Alternate tune: No. 5 in Supplement. } } }
+
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

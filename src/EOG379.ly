@@ -169,6 +169,8 @@ wordsF = \markuplist {
   } }
 } }
 
+\markup { \fill-line { \line { Alternate tune: No. 7 in Supplement. } } }
+
 \markup {
   \center-column {
     \vspace #1
