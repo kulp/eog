@@ -2,7 +2,6 @@
 \paper {
   \include "common/paper-additional.ily"
   ragged-last-bottom = ##t
-  ragged-last = ##t
   % shrink space before markup verses to fit next hymn on same page
   \include "override/override-EOGa06.ily"
 }
