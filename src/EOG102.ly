@@ -24,8 +24,10 @@ marksegno = { \mark \markup { \musicglyph #"scripts.segno" } }
 patternAAds = { c8. c16 c8. c16 c4 }
 patternAA = { \ta c8. c16 | \patternAAds }
 patternABds = { \ta c8. c16 c8. c16 c16[ c8.] }
+patternABdsF = { \ta c8. c16 c8. c16 c16[ \tb c8.] \ta }
 patternAB = { \ta c8. c16 \patternABds }
-patternACds = { c8. c16 c8. c16 \tb c4 \ta }
+patternABF = { \ta c8. c16 \patternABdsF }
+patternACds = { c8. c16 c8. c16 c4 }
 patternAC = { \ta c8. c16 | \patternACds }
 
 patternBA = { \ta c8. c16 | c2. }
@@ -56,7 +58,7 @@ notesSoprano = {
   \changePitch \patternBA { bes g | f }
 
   \changePitch \patternAA { g aes | bes bes bes bes bes}
-  \changePitch \patternAB { bes bes | c c c c c ees \fermata }
+  \changePitch \patternABF { bes bes | c c c c c ees \fermata }
   \changePitch \patternAB { ees, f | g g g g g bes }
   \changePitch \patternBA { f g | ees }
 
@@ -74,7 +76,7 @@ notesSoprano = {
 
 notesSopranoDS = {
 \relative c'' {
-  \changePitch \patternABds { c c c c c ees \fermata }
+  \changePitch \patternABdsF { c c c c c ees \fermata }
   \changePitch \patternAB { ees, f | g g g g g bes }
   \changePitch \patternBA { f g | ees }
 }
