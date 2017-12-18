@@ -22,6 +22,7 @@ tb = { \tempo 4=40 }
 patternAA = { c8. c16 | c4 c4 c4 c4 | c2 c4 }
 patternAB = { c8. c16 | c4 c4 c4 c4 | c2.   }
 patternAC = { c8. c16 | c4 c4 c4 c4 | c4.( c8) c4 }
+patternAD = { c8. c16 | c4 c4 c4. c8 | c2.   }
 
 patternBA = { c4 | c4. c8 c4 c4 | c4 c2    }
 patternBB = { c4 | c4. c8 c4 c4 | c2.      }
@@ -48,7 +49,7 @@ notesSoprano = {
   \changePitch \patternAA { c c | c bes e, d' | c a }
   \changePitch \patternAB { a a | a g c, bes' | a }
   \changePitch \patternAA { c c | c bes e, d' | c c }
-  \changePitch \patternAB { c d | e c d c | c } \eogbreak
+  \changePitch \patternAD { c d | e c d c | c } \eogbreak
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternBA { c | f c e d | c a } >>
@@ -68,7 +69,7 @@ notesAlto = {
   \changePitch \patternAA { a a | a g c, bes' | a f }
   \changePitch \patternAB { f f | e e c e | f }
   \changePitch \patternAC { f f | f e e e | f g a }
-  \changePitch \patternAB { g g | g g f e | e }
+  \changePitch \patternAD { g g | g g f e | e }
 
   \changePitch \patternBA { c' | a a g e | f f }
   \changePitch \patternBC { c' | c a g g | g f }
@@ -85,7 +86,7 @@ notesTenor = {
   \changePitch \patternAA { c c | c c c g | a c }
   \changePitch \patternAB { c c | c bes e, d' | c }
   \changePitch \patternAA { c c | c c c c | c c }
-  \changePitch \patternAB { c b | c c b c | c }
+  \changePitch \patternAD { c b | c c b c | c }
 
   \changePitch \patternBA { c | c c c bes | a c }
   \changePitch \patternBD { c | c c c f | e d c }
@@ -102,7 +103,7 @@ notesBass = {
   \changePitch \patternAA { f f | c e g e | f f }
   \changePitch \patternAB { f f | c c c c | f }
   \changePitch \patternAC { a a | a g c, bes' | a g f }
-  \changePitch \patternAB { e d | c e g c, | c }
+  \changePitch \patternAD { e d | c e g c, | c }
 
   \changePitch \patternBA { c' | f, f c c | f f }
   \changePitch \patternBD { c' a f g g | c bes a }

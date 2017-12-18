@@ -93,7 +93,7 @@ notesBass = {
   \changePitch \patternBA { bes | d ees f f | bes, }
 
   \changePitch \patternCA { ees | ees g g ees c aes | ees' }
-  \changePitch \patternCA { aes | g ees ees des c ees | ees }
+  \changePitch \patternCA { aes | g ees ees des c aes | ees' }
   \changePitch \patternBA { g | aes aes bes bes, | ees }
 
 }
