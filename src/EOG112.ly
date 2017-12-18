@@ -26,6 +26,7 @@ patternBA = { \ta c4 c8. c16 c8 c4. | c4 c8. c16 c4. }
 patternCA = { \ta c8 | c4 c8. c16 c8 c4. | c4 c4 c2 }
 
 patternDA = { \ta c4 c8. c16 c8 c4. | c4 c4 c2 }
+patternDB = { \ta c4 c8. c16 c8 c4. | c4 c4 \tb c2 \ta }
 
 global = {
   \include "common/overrides.ily"
@@ -48,7 +49,7 @@ notesSoprano = {
 
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternDA { g g g a g | c, d e } >>
-  \changePitch \patternDA { g c c d c | c d \tb e \fermata \ta }
+  \changePitch \patternDB { g c c d c | c d e \fermata }
   \changePitch \patternAB { e e d d c c | c c a a g }
   \changePitch \patternCA { g | a c a g c | d b c }
 
