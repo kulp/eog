@@ -36,7 +36,7 @@ notesSoprano = {
 
   \once \override NoteHead.font-size = #-4 d4 |
   d2 d4 g | b2 g4 b | b( a) e fis | g2 d4 \eogbreak
-  d4 | d2 g4 b | d2 b4 b | g2 a4 g | a2. \eogbreak
+  d4 | d2 g4 b | d2 b4 b | b2 a4 g | a2. \eogbreak
   d,4 | d2 d4 g | b2 g4 b | b( a) e fis | g2 d4 \eogbreak
   g4 | g2 fis4 e | d2 g4 a | b2 a4 a | g2. \eogbreak
 
