@@ -161,7 +161,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Will your eyes be -- hold thro’ the morn -- ing light
-The _ { \mon } ci -- ty { \moff } of gold { \mon } and the { \moff } har -- bor bright?
+The __ _ { \mon } ci -- ty { \moff } of gold { \mon } and the { \moff } har -- bor bright?
 Will you an -- chor safe by the heaven -- ly shore
 When life’s storms are past for -- ev -- er -- more?
 
