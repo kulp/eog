@@ -16,8 +16,9 @@
 
 patternAA = { c4. c8 c4 c4 | c4. c8 c4 c4 }
 patternBA = { c4. c8 c8 c8 c8. c16 | c1 }
-patternBB = { c4. c8 c8 c8 c8. c16 | c2( c4 c4) }
-patternBC = { c4. c8 c8 c8 c8. c16 | c2.( c4) }
+patternBB = { c4. c8 c8 c8 c8  c8  | c2( c4 c4) }
+patternBC = { c4. c8 c8 c8 c8  c8  | c2.( c4) }
+patternBD = { c4. c8 c8 c8 c8  c8  | c1 }
 
 global = {
   \include "common/overrides.ily"
@@ -93,7 +94,7 @@ notesBass = {
   \changePitch \patternBA { c c c c c c | f }
 
   \changePitch \patternAA { bes, bes bes bes | f' f f f }
-  \changePitch \patternBA { bes a g f e d | c }
+  \changePitch \patternBD { bes a g f e d | c }
   \changePitch \patternAA { f f f f | f f f f }
   \changePitch \patternBA { c c c c c c | f }
 
