@@ -32,7 +32,7 @@ patternDA = { c2 c4 c4 c2 c4. c8 | c2 c2 c1 }
 
 patternEA = { c4 c4 c4. c8 c2 c2 | c2 c2 c1 }
 
-patternFA = { c4 c4 c4 c4 c2 c4. c8 | c2 c2 \ta c2 \tb }
+patternFA = { c4 c4 c4 c4 c2 c4. c8 | c2 c2 \tb c2 \ta }
 
 global = {
   \include "common/overrides.ily"
