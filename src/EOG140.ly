@@ -21,7 +21,7 @@ ta = { \tempo 2=80 }
 tb = { \tempo 2=40 }
 
 patternAA = { c4. c8 | c2 c2 c2 }
-patternAB = { c4. ~ c8 | c4 ~ c4 c2 c2 c4( c4) | c2 c2 c2 }
+patternAB = { c4. c8 | c4 ~ c4 c2 c2 c4( c4) | c2 c2 c2 }
 
 patternBA = { c4. c8 | c2 c2 c4( c4) c4( c4) | c2 c2 c1 }
 patternBB = { c4. c8 | c2 c2 c2      c4 ~ c4 | c2 c2 c1 }
@@ -129,7 +129,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Will your an -- chor hold in the storms of life, \bar "."
-{ \mon } When the { \moff } clouds un -- fold their wings of strife? \bar "."
+When the clouds un -- fold their wings of strife? \bar "."
 When the strong tides lift, and the ca -- bles strain, \bar "."
 Will your an -- chor drift, or firm re -- main? \bar "."
 
@@ -139,7 +139,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Will your an -- chor hold in the straits of fear,
-{ \mon } When the { \moff } break -- ers roar { \mon } and the { \moff } reef is near?
+When the break -- ers roar { \mon } and the { \moff } reef is near?
 While the sur -- ges rave, and the wild winds blow,
 Shall the an -- gry waves { \mon } then your { \moff } bark o’er -- flow?
 
@@ -151,7 +151,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Will your an -- chor hold in the floods of death,
-{ \mon } When the { \moff } wa -- ters { \mon } cold chill { \moff } your lat -- est breath?
+When the wa -- ters { \mon } cold chill { \moff } your lat -- est breath?
 On the ris -- ing tide you can nev -- er fail
 While your an -- chor holds with -- in the veil.
 
@@ -161,7 +161,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Will your eyes be -- hold thro’ the morn -- ing light
-The { \mon } ci -- ty { \moff } of gold { \mon } and the { \moff } har -- bor bright?
+The _ { \mon } ci -- ty { \moff } of gold { \mon } and the { \moff } har -- bor bright?
 Will you an -- chor safe by the heaven -- ly shore
 When life’s storms are past for -- ev -- er -- more?
 
