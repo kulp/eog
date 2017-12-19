@@ -32,12 +32,15 @@ patternA = { c8 | c8. c16 c8 c c c | c4. c4 }
 patternB = { c8 | c8. c16 c8 c c c | c4 c8 c4 }
 patternC = { c8 | c4 c8 c8. c16 c8 | c4. c4 c8 }
 
+patternD = { c8 | c8. c16 c8 c c8. c16 | c4. c4 }
+patternE = { c8 | c8. c16 c8 c c8. c16 | c4 c8 c4 }
+
 notesSoprano = {
 \global
 \relative c' {
 
   e8 | cis'8. b16 a8 cis, e a | gis4. ~ gis4
-  \changePitch \patternA { e | d' cis b fis gis fis | e ~ e }
+  \changePitch \patternD { e | d' cis b fis gis fis | e ~ e }
   \changePitch \patternA { e | e' d cis b a gis | gis( fis) }
   \changePitch \patternC { fis | e a gis a b | a ~ a r }
 
@@ -58,7 +61,7 @@ notesAlto = {
 \relative e' {
 
   \changePitch \patternB { cis | e d cis a cis cis | d d d }
-  \changePitch \patternB { d | e e e d d d | cis d cis }
+  \changePitch \patternE { d | e e e d d d | cis d cis }
   \changePitch \patternA { cis | e e e e e eis | eis( fis) }
   \changePitch \patternC { d | cis cis d cis d | cis ~ cis r }
 
@@ -75,7 +78,7 @@ notesTenor = {
 \relative a {
 
   \changePitch \patternB { a | a a a e a a | b b b }
-  \changePitch \patternB { gis | b a gis gis b gis | a fis e }
+  \changePitch \patternE { gis | b a gis gis b gis | a fis e }
   \changePitch \patternA { a | cis b a gis a b | b( a) }
   \changePitch \patternC { a | a a b a gis | a ~ a r }
 
@@ -92,7 +95,7 @@ notesBass = {
 \relative f, {
 
   \changePitch \patternA { a | a a a a a a | e' ~ e }
-  \changePitch \patternA { e | e e e e e e | a, ~ a }
+  \changePitch \patternD { e | e e e e e e | a, ~ a }
   \changePitch \patternA { a | a a a b cis cis | d ~ d }
   \changePitch \patternC { d | e e e e e | a, ~ a r }
 
