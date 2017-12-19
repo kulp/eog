@@ -17,14 +17,14 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 2=80 }
-tb = { \tempo 2=40 }
+ta = { \tempo 4=90 }
+tb = { \tempo 4=45 }
 
-patternAA = { c4 c2 }
+patternAA = { c8 c4 }
 
-patternBA = { c4 c2 c4 | c2. c2. | c2. ~ c2  }
-patternBB = {       c4 | c2. c2. | c2. ~ c2  }
-patternBC = {       c4 | c2. c2. | c2. ~ c2. }
+patternBA = { c8 c4 c8 | c4. c4. | c4. ~ c4  }
+patternBB = {       c8 | c4. c4. | c4. ~ c4  }
+patternBC = {       c8 | c4. c4. | c4. ~ c4. }
 
 patternCA = { c4 c8 c4. | c4 c8 c4. | c4 c8 c4 c8 | c4. ~ c4. }
 patternCB = \patternCA % grace notes
@@ -34,19 +34,17 @@ patternDA = { c4 c8 c4 c8 | c4 c8 c4 c8 | c4. c4. | c4. ~ c4. }
 global = {
   \include "common/overrides.ily"
   \override Staff.TimeSignature.style = #'numbered
-  \time 6/4
+  \time 6/8
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
   \ta
   \key d \major
-  \partial 4
+  \partial 8
   \autoBeamOff
 }
 
 notesSoprano = {
 \global
 \relative c'' {
-
-  \time 6/4
 
   \changePitch \patternAA { a | a a b b | a }
   \changePitch \patternBA { fis d e | fis g | a a } \eogbreak
@@ -59,8 +57,6 @@ notesSoprano = {
   \changePitch \patternBC { g | fis e | d d } \eogbreak
 
   \eogpagebreak
-  \time 6/8
-
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternCA { e fis g | fis g a | b b a gis | a a  } >> \eogbreak
   \changePitch \patternDA { d d d a | cis b a g | fis e | d d }
