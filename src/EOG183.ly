@@ -53,7 +53,7 @@ notesAlto = {
   ees2 | ees ees d ees | ees1 ees2
   aes2 | g g f ees | ees1( d2)
   ees2 | ees ees ees ees | ees1 ees2
-  g2 | aes f bes bes, | ees1.
+  ees2 | ees ees ees d | ees1.
 
 }
 }

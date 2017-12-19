@@ -61,7 +61,7 @@ notesSoprano = {
   f16 | f ees8. ees c16 ees4
   c8 bes | aes8. aes16 aes8 aes aes4 g8
   aes8 | bes8. a16 bes8 c bes4
-  \ta ees8 \fermata \ta des | c8. des16 ees8 c aes4 aes8
+  \tb ees8 \fermata \ta des | c8. des16 ees8 c aes4 aes8
   g8 | f16 aes8. aes f16 ees4
   aes8 bes | c ees des f ees16 c8. bes aes16 | aes2. r8
 
