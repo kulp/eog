@@ -56,7 +56,6 @@ notesSoprano = {
   \changePitch \patternAA { a | d d d a | cis b a }
   \changePitch \patternBC { g | fis e | d d } \eogbreak
 
-  \eogpagebreak
   << s^\markup { \small \caps "Refrain" }
   \changePitch \patternCA { e fis g | fis g a | b b a gis | a a  } >> \eogbreak
   \changePitch \patternDA { d d d a | cis b a g | fis e | d d }
