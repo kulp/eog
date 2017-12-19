@@ -62,7 +62,7 @@ notesTenor = {
 g2 c d | e( d) c | c( b) g | g1
 c2 | b( c) d | c1 b4( c) | d1 c2 | b1. |
 g2 c c | c( d) c | a( b4 cis) d2 | e( d)
-a4( b) | g1 f2 | g( c) c | a1 g2 | g1. |
+a4( b) | c2 g1 | g2( c) c | a1 g2 | g1. |
 
 }
 }
