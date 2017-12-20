@@ -18,7 +18,7 @@ global = {
   \override Staff.TimeSignature.style = #'numbered
   \time 2/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
-  \tempo 4=70
+  \tempo 8=120
   \key ees \major
   \partial 4
   \autoBeamOff
