@@ -35,7 +35,7 @@ notesSoprano = {
   f4 | d'2 c4 | bes2 f4 | a2 g4 | f2
   bes4 | c2 f,4 | c'2 cis4 | d2 \eogbreak
   f,4 | d'2 c4 | bes2 a4 | c2 bes4 | a2
-  g4 | f2 bes4 | d2 a4 | bes2
+  g4 | f2 bes4 | d2 c4 | bes2
 
   \bar "|."
 

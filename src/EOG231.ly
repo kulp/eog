@@ -55,7 +55,7 @@ notesAlto = {
 
   \changePitch \patternA { f f f | f e f }
   \changePitch \patternB { d c c | c }
-  \changePitch \patternA { f f f | f e f }
+  \changePitch \patternA { f f e | f e f }
   \changePitch \patternB { d c c | c }
 
   \changePitch \patternC { f f f | f e f e }

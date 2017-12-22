@@ -80,11 +80,11 @@ notesTenor = {
   \changePitch \patternB { d e d | c b d c | b }
 
   \changePitch \patternC { d a | b b d | d }
-  \changePitch \patternA { b b d | d b b d | d }
+  \changePitch \patternA { d e d | c b d c | b }
   \changePitch \patternA { b b b | b b c b | d }
   \changePitch \patternB { b b b | b b c b | d }
   \changePitch \patternC { d a | b b d | d }
-  \changePitch \patternA { b b d | d b b d | d }
+  \changePitch \patternA { d e d | c b d c | b }
 
 }
 }

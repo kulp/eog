@@ -33,6 +33,7 @@ patternA = { c8 c c | c4. c4 c8 c c c | c4. c }
 patternB = { c8 c c | c4. c4 c8 c c c | c4. ~ c }
 patternC = { c8 c c | c4. c4 r8 c c c | c4. c4 c8 }
 patternD = { c8 c c | c4. c4 c8 c c c | c4. c4 c8 }
+patternE = { c8 c c | c4. \tb c4 \ta c8 c \tb c \ta c | c4. c }
 
 notesSoprano = {
 \global
@@ -47,7 +48,7 @@ notesSoprano = {
   \changePitch \patternC { d' cis d | e d b ais b | c b r } >>
   \changePitch \patternD { b a e | g fis g a b c | e( d) r }
   \changePitch \patternC { d cis d | e d b ais b | c b r }
-  \changePitch \patternA { a e c' | b \tb d\fermata \ta c c \tb b\fermata \ta a | g ~ g }
+  \changePitch \patternE { a e c' | b d\fermata c c b\fermata a | g ~ g }
 
   \bar "|."
 

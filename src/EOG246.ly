@@ -26,6 +26,7 @@ global = {
 patternA = { c4 c8. c16 c4 c | c2 c }
 patternB = { c4 c8. c16 c4 c | c2. c4 }
 patternC = { c4 c8. c16 c4 c | c4.( c8) c2 }
+patternD = { c4 c8  c8  c4 c | c2. c4 }
 
 notesSoprano = {
 \global
@@ -34,12 +35,12 @@ notesSoprano = {
   \changePitch \patternA { c a bes c c | d c }
   \changePitch \patternB { f, f f f g | a r }
   \changePitch \patternA { c a bes c c | d c }
-  \changePitch \patternB { f, f g a g | f r }
+  \changePitch \patternD { f, f g a g | f r }
 
   \changePitch \patternC { g g g g a | bes a g }
   \changePitch \patternB { a^\markup{\italic cres.} a a a b | c r }
   \changePitch \patternA { c a bes c c | d c }
-  \changePitch \patternB { f, f g a g | f r }
+  \changePitch \patternD { f, f g a g | f r }
 
   \bar "|."
 
@@ -53,12 +54,12 @@ notesAlto = {
   \changePitch \patternA { a f g a a | bes a }
   \changePitch \patternB { f f f f e | f r }
   \changePitch \patternA { a f g a a | bes a }
-  \changePitch \patternB { f f f f e | f r }
+  \changePitch \patternD { f f f f e | f r }
 
   \changePitch \patternC { e e e e f | g f e }
   \changePitch \patternB { f f f f f | e r }
   \changePitch \patternA { a f g a a | bes a }
-  \changePitch \patternB { f f f f e | f r }
+  \changePitch \patternD { f f f f e | f r }
 
 }
 }
@@ -70,12 +71,12 @@ notesTenor = {
   \changePitch \patternA { f f f f f | f f }
   \changePitch \patternB { a a a a c | c r }
   \changePitch \patternA { f, f f f f | f f }
-  \changePitch \patternB { c' c d c bes | a r }
+  \changePitch \patternD { c' c d c bes | a r }
 
   \changePitch \patternA { c c c c c | c c }
   \changePitch \patternB { c c c a f | g r }
   \changePitch \patternA { f f f f f | f f }
-  \changePitch \patternB { c' c d c bes | a r }
+  \changePitch \patternD { c' c d c bes | a r }
 
 }
 }
@@ -87,12 +88,12 @@ notesBass = {
   \changePitch \patternA { f f f f f | bes, f' }
   \changePitch \patternB { f f f f c | f r }
   \changePitch \patternA { f f f f f | bes, f' }
-  \changePitch \patternB { a a bes c c, | f r }
+  \changePitch \patternD { a a bes c c, | f r }
 
   \changePitch \patternA { c c c c c | c c }
   \changePitch \patternB { f f f f d | c r }
   \changePitch \patternA { f f f f f | bes, f' }
-  \changePitch \patternB { a a bes c c, | f r }
+  \changePitch \patternD { a a bes c c, | f r }
 
 }
 }

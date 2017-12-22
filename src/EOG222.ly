@@ -31,6 +31,7 @@ global = {
 patternA = { \ta c4 | c8. c16 c4 c | c8. c16 c4 }
 patternB = { \ta c4 | c8. c16 c4 c | c2 }
 patternC = { \ta c4 | c8. c16 c4 c | c4( c) }
+patternD = { \ta c4 | c8. c16 c4 c | c8. c16 \tb c4 \ta }
 
 notesSoprano = {
 \global
@@ -43,7 +44,7 @@ notesSoprano = {
 
   \changePitch \patternA { a | g fis e g | fis g a }
   \changePitch \patternC { d | e cis a g | g fis } \eogbreak
-  \changePitch \patternA { e | fis g a fis | b cis \tb d\fermata \ta }
+  \changePitch \patternD { e | fis g a fis | b cis d\fermata }
   \changePitch \patternB { b | a g fis e | d }
 
   \bar "|."

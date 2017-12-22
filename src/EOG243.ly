@@ -22,6 +22,7 @@ patternB = { \ta c4 c4 c2 }
 patternC = { \ta c4 c8 c c4 c | c4 c c2 }
 patternD = { \ta c4 c8 c c4 c8[ c8] | c4 c c2 }
 patternE = { \ta c4 c4 c2 | c4 c4 c2 }
+patternF = { \ta c4 c4 c2 | c4 c4 \tb c2 \ta }
 
 global = {
   \include "common/overrides.ily"
@@ -45,7 +46,7 @@ notesSoprano = {
   \changePitch \patternA { a^\mf fis g a d | b d a }
   \changePitch \patternD { a g fis e fis g | b a fis }
   \changePitch \patternC { fis fis g a d | b d a }
-  \changePitch \patternB { a^\f a b | cis cis \tb d\fermata \ta }
+  \changePitch \patternF { a^\f a b | cis cis d\fermata }
 
   \bar "|."
 
