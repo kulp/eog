@@ -31,7 +31,7 @@ global = {
 }
 
 patternA = { c4 | c4. c8 c c | c2 }
-patternB = { c4 | c4. c8 c c | \ta c2. \tb }
+patternB = { c4 | c4. c8 c c | c2. }
 patternC = { c4. c8 c c | c2 c4 | c2. ~ | c2 }
 
 notesSoprano = {
@@ -78,7 +78,7 @@ notesLeftHand = {
   d4\rest | d,4 <d' a'> d8[ e] | d,4 <d' fis>
   d4\rest | g,4 d' e8[ d] | g,4 <d' g b>
   d4\rest | g,4 <d' g b> e8[ d] | e,4 <e' gis>
-  d4\rest | a4 <e' g a> e | a, <e' a cis> <a cis e>_\fermata
+  d4\rest | a4 <e' g a> e | a, <e' a cis> \tb <a cis e>_\fermata \ta
   d,4 a' <d, fis> | d4 e <d fis> | g d b | g2
 
 }

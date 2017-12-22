@@ -70,7 +70,7 @@ notesTenor = {
 \global
 \relative a {
 
-  \changePitch \patternAA { g | bes bes bes bes bes bes | g }
+  \changePitch \patternAA { g | bes bes bes bes bes bes | bes }
   \changePitch \patternAA { bes | aes aes aes bes bes bes | bes }
   \changePitch \patternBA { f | bes bes d c | bes }
 

@@ -38,7 +38,7 @@ notesSoprano = {
   << s^\markup { \small \caps "Refrain" }
   { e8 fis | gis4 gis8. gis16 gis4 a8 gis | gis fis fis8. e16 fis4 } >>
   fis8 gis | a a a8. a16 a4 b8. a16 | gis2.
-  gis8 gis | a4 a cis, a'8 a | gis4 gis8[ fis] e4
+  gis4 | a a cis, a' | gis gis8[ fis] e4
   gis4 | fis fis8 e dis a' gis8. fis16 | e2 r4
 
   \bar "|."
@@ -57,7 +57,7 @@ notesAlto = {
 
   e8 fis | e4 e8. e16 e4 e8 e | e dis dis8. e16 dis4
   dis8 e | fis8 fis fis8. fis16 fis4 gis8. fis16 | e2.
-  e8 e | e4 e cis4 e8 e | e4 e e
+  e4 | e e cis e | e e e
   e4 | cis cis8 cis b fis' e8. dis16 | e2 r4
 
 }
@@ -74,7 +74,7 @@ notesTenor = {
 
   gis8 a | b4 b8. b16 b4 cis8 b | b4 b8. gis16 b4
   b8 b | fis' e dis8. cis16 b4 e8. b16 | b4 e8. e16 b4
-  b8 b | cis4 cis a cis8 cis | b4 b8[ a] gis4
+  b4 | cis cis a cis | b b8[ a] gis4
   b4 | a a8 a fis b b8. a16 | gis2 r4
 
 }
@@ -91,7 +91,7 @@ notesBass = {
 
   e8 e | e4 e8. e16 e4 e8 e | b4 b8. b16 b4
   b8 b | b8 b b8. b16 b4 b8. b16 | e4 e8. e16 e4
-  e8 e | a,[ b] cis[ b] a[ b] cis dis | e4 e e
+  e4 | a,8[ b] cis[ b] a[ b] cis[ dis] | e4 e e
   e4 | a, a8 a b b b8. b16 | e2 r4
 
 }
@@ -101,7 +101,7 @@ Refrain = \lyricmode {
 
 And He calls, and He calls all the G -- I -- R -- L -- S, \bar "."
 And He wants all the B -- O -- Y -- S too, \bar "."
-To _ T -- R -- U -- S -- _ T in Him, \bar "." % original has melismata here, but why ? for piano ?
+To T -- R -- U -- S -- T in Him, \bar "." % original has melismata here, but why ? for piano ?
 And have all their sins now washed a -- way. \bar "."
 
 }

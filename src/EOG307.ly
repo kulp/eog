@@ -33,7 +33,7 @@ notesSoprano = {
 
   d4 | g4. a8 b4 c8[ e] | d2.
   g,8[ b] | d4 d c d8[ c] | b2. \eogbreak
-  fis4 | g4. a8 b4 c8[ e] | d2.
+  d,4 | g4. a8 b4 c8[ e] | d2.
   g,8[ b] | d4 d c d8[ c] | b2. \eogbreak
 
   g8[ b] | d4 d d e8[ d] | d[ c] c[ b] c4

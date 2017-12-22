@@ -36,9 +36,9 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternA { b b b c b | b a a }
-  \changePitch \patternB { d a a b a | g( d) }
+  \changePitch \patternB { d, a' a b a | g( d) }
   \changePitch \patternA { b' b b c b | b a a }
-  \changePitch \patternB { d a a b a | g ~ g }
+  \changePitch \patternB { d, a' a b a | g ~ g }
   \changePitch \patternC { b b b c d | e d }
   \changePitch \patternC { b b b c d | e d } \bar ".|:-||"
 
