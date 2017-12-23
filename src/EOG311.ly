@@ -64,11 +64,11 @@ notesTenor = {
 \global
 \relative a {
 
-  bes8. f16 | f4. fis8 << { \voiceOne \tuplet 3/2 { g4 bes8 } } \new Voice { \voiceTwo \tuplet 3/2 { bes,4 bes8 } } >> | bes'2
+  bes8. f16 | f4. fis8 \tupletUp \tuplet 3/2 { <g bes,>4 <bes bes,>8 } | bes2
   a8. bes16 | bes4. ees8 d c | bes2
   a8. a16 | a4. a8 bes a | bes8([ ees] d4)
   a8. a16 | a4. a8 bes a | bes8([ g] f4)
-  f8. f16 | f4. fis8 << { \voiceOne \tuplet 3/2 { g4 bes8 } } \new Voice { \voiceTwo \tuplet 3/2 { f,4 f8 } } >> | bes'2
+  f8. f16 | f4. fis8 \tupletUp \tuplet 3/2 { <g bes,>4 <bes bes,>8 } | bes2
   a8. bes16 | bes4. ees8 d c | bes2
 
 }
