@@ -27,6 +27,7 @@ global = {
 
 patternA = { c8. c16 c8 c c c | c8. c16 c8 c4. }
 patternB = { c8 c c c4 c8 | c4. ~ c4 c8 }
+patternC = { c8. c16 c8 c c c | c8 c c c4. }
 
 notesSoprano = {
 \global
@@ -34,12 +35,12 @@ notesSoprano = {
 
   \changePitch \patternA { d c b b a g | a g e e }
   \changePitch \patternA { d g g g a b | b a g a }
-  \changePitch \patternA { d c b b a g | a g e e }
+  \changePitch \patternC { d c b b a g | a g e e }
   \changePitch \patternB { d g b a g | g g r }
 
   d8^\markup { \small \caps "Refrain" } fis a d4 c8 | b4.( g4) r8 |
   d8 fis a c4 e8 | d4.( b4) r8 |
-  \changePitch \patternA { d c b b a g | a g e e }
+  \changePitch \patternC { d c b b a g | a g e e }
   \changePitch \patternB { d g b a g | g g r }
 
   \bar "|."
@@ -53,12 +54,12 @@ notesAlto = {
 
   \changePitch \patternA { g g g g fis g | e e c c }
   \changePitch \patternA { b d d d d g | g fis g fis }
-  \changePitch \patternA { g g g g fis g | e e c c }
+  \changePitch \patternC { g g g g fis g | e e c c }
   \changePitch \patternB { b d d c b | b b r }
 
   d8 d fis fis4 r8 | g8 d d b4 r8 |
   d8 d fis fis4 r8 | g8 g g g4 r8 |
-  \changePitch \patternA { g g g g fis g | e e c c }
+  \changePitch \patternC { g g g g fis g | e e c c }
   \changePitch \patternB { b d d c b | b b r }
 
 }
@@ -70,12 +71,12 @@ notesTenor = {
 
   \changePitch \patternA { b e d d c b | c g g g }
   \changePitch \patternA { g b b b c d | d c b d }
-  \changePitch \patternA { b e d d c b | c g g g }
+  \changePitch \patternC { b e d d c b | c g g g }
   \changePitch \patternB { g b g fis g | g g r }
 
   fis8 a a a4 r8 | g8 g g g4 r8 |
   fis8 a a a4 r8 | b8 b b d4 r8
-  \changePitch \patternA { b e d d c b | c g g g }
+  \changePitch \patternC { b e d d c b | c g g g }
   \changePitch \patternB { g b g fis g | g g r }
 
 }
@@ -87,12 +88,12 @@ notesBass = {
 
   \changePitch \patternA { g g g g g g | c, c c c }
   \changePitch \patternA { g' g g g g g | d d d d }
-  \changePitch \patternA { g g g g g g | c, c c c }
+  \changePitch \patternC { g g g g g g | c, c c c }
   \changePitch \patternB { d d d d g, | g g r }
 
   d'8 d d d4 r8 | g,8 g g g4 r8 |
   d'8 d d d4 r8 | g8 g g g4 r8 |
-  \changePitch \patternA { g g g g g g | c, c c c }
+  \changePitch \patternC { g g g g g g | c, c c c }
   \changePitch \patternB { d d d d g, | g g r }
 
 }
