@@ -37,7 +37,7 @@ notesSoprano = {
   a8 a c | c4. d8 a c | c4. \bar "."
   c8 c bes | bes c e4. d8 | c4. \bar "."
   a8 a c | c4. d8 a c | c4. \bar "."
-  c8 c f, | f bes a4.^\markup{rit.} g8 | f4. \bar "|." % original has dots after rit.
+  c8 c f, | f bes a4.^\markup{\italic rit.} g8 | f4. \bar "|." % original has dots after rit.
   % TODO ritard. in MIDI
 
 }
