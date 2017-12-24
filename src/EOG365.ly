@@ -112,8 +112,8 @@ notesTenor = {
   r4 |
   \changePitch \patternD { a a a | }
   \changePitch \patternD { a a a | }
-  \changePitch \patternD { e e e | }
-  \changePitch \patternD { a a a | }
+  \changePitch \patternD { e' e e | }
+  \changePitch \patternD { a, a a | }
   \changePitch \patternD { a a a | }
   \changePitch \patternD { a a } a4
   \changePitch \patternB { a a | e' e fis b, | } b4 cis d
