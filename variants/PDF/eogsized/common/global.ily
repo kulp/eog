@@ -19,5 +19,5 @@ onlyEogMusic = #(define-music-function (notes)
 #(define-markup-command
     (onlyEogMarkup layout props mup-yes mup-no) ; params
     (markup? markup?) ; param types
-	(interpret-markup layout props mup-yes))
+    (interpret-markup layout props mup-yes))
 
