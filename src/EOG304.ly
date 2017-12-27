@@ -70,8 +70,14 @@ notesTenor = {
   a4 | c2 d4 d | c4.( bes8) a4
   c4 | bes2 g4 g | a2.
 
-  f4 | a2 bes4 a | g( f) e
+  \stemUp
+  \slurUp
+  \phrasingSlurUp
+  f4 | a2 bes4 a | g\(( f) e\)
   c4 | f( a) g bes | a2( g4)
+  \stemNeutral
+  \slurNeutral
+  \phrasingSlurNeutral
   a4 | c2 d4 d | c4.( bes8) a4
   c4 | a( g) c bes | a2.
 
@@ -93,6 +99,15 @@ notesBass = {
   f4 | c2 c4 c | f2.
 
 }
+}
+
+rests = {
+\global
+
+  \repeat unfold 32 \skip 4
+  r4 | R1 | r2.
+  r4 | R1 | r2.
+
 }
 
 wordsA = \lyricmode {
@@ -154,6 +169,7 @@ To dwell in His love.
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \partcombine #'(2 . 11) \notesTenor \notesBass
+      \context Voice = bassRests { \voiceTwo << \rests >> }
     >>
   >>
   \layout {
