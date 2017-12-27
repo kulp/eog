@@ -186,6 +186,7 @@ What hast thou brought to Me?
   >>
   \layout {
     \include "common/layout.ily"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.5
   }
 }
 

@@ -144,6 +144,7 @@ wordsE = \markuplist {
   >>
   \layout {
     \include "common/layout.ily"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.5
   }
   #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"

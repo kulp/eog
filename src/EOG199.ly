@@ -138,6 +138,7 @@ De -- mands our soul, our life, our all.
   >>
   \layout {
     \include "common/layout.ily"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.5
     \context {
       \Lyrics
       % Compensate for wide lyrics by squashing things a bit
