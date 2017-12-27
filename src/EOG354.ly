@@ -84,7 +84,7 @@ notesBass = {
   c4 | g'2 g4 f2 e4 | d2 g,4 c2
   c4 | d2 d4 d2 d4 | g2. ~ g2
   g4 | g2 g4 g2 g4 | c,2 c4 c2
-  a4 | b2 b4 b2 b4 | e2.( d2)
+  a4 | b2 b4 b2 b4 | e2.\( d2\) % use phrasing slur to force visibility of slurs in both tenor and bass voices
   d4 | c2 c4 c2 c4 | c2 c4 c2
   c'8[ b] | a2 aes4 g2 g4 | c,2. ~ c2
 
