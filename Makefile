@@ -243,8 +243,11 @@ cover: $(COVERS)
 $(COVERS): booklayout/cover-base.tex
 
 $(COVERS): booklayout/leather-green-tiled.jpg
-booklayout/leather-green-tiled.jpg: booklayout/leather-green.jpg
-	montage $<{,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x4 -geometry +0+0 -units PixelsPerInch -density 600 $@
+%-50.jpg: %.jpg
+	convert $< -resize 50% $@
+
+booklayout/leather-green-tiled.jpg: booklayout/leather-green-50.jpg
+	montage $<{,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x4 -geometry +0+0 -units PixelsPerInch -density 300 $@
 
 # If an override file doesn't exist, create an empty one
 vpath override-%.ily $(addsuffix /override,$(wildcard variants/*/*))
