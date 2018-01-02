@@ -111,7 +111,7 @@ wordsC = \lyricmode {
 
 It pass -- eth \italicsOn prais -- es, \italicsOff that dear love of Thine,
 My Je -- sus! Sav -- iour! yet this heart of mine
-Would sing a love so rich_– so full_– so free,
+Would sing a love so rich— so full— so free,
 Which brought a reb -- el sin -- ner, such as me,
 Nigh un -- to God.
 

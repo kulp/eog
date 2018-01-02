@@ -140,7 +140,7 @@ The Mas -- ter has come, He has gone, and once more
 { \mon } He shall { \moff } come in His glo -- ry a -- gain,
 { \mon } In His { \moff } love to take up His re -- deemed ones be -- fore
 His judg -- ments shall fall up -- on men.
-The Mas -- ter has come_– He is com -- ing a -- gain_–
+The Mas -- ter has come— He is com -- ing a -- gain—
 He shall in His glo -- ry ap -- pear:
 Then bow to Him, man, as the Lamb that was slain,
 { \mon } And His { \moff } love shall cast out ev -- ery fear,

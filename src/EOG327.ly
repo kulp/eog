@@ -95,7 +95,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 “For I will re -- ceive them and fold them to My bos -- om;
-I’ll be a shep -- herd to these lambs_– oh, { \mon } drive them { \moff } not a -- way;
+I’ll be a shep -- herd to these lambs— oh, { \mon } drive them { \moff } not a -- way;
 For if their hearts to Me they give,
 They shall with Me in glo -- ry live;
 Suf -- fer the chil -- dren to come un -- to Me.”

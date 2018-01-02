@@ -143,7 +143,7 @@ His the ear -- nest of our por -- tion,
 We must reach the goal at last.
 Yes, He prais -- es; grace re -- count -- ing
 All the path al -- read -- y trod,
-We as -- so -- ci -- a -- ted with Him_–
+We as -- so -- ci -- a -- ted with Him—
 God, our Fa -- ther and our God.
 
 }
@@ -157,7 +157,7 @@ Ev -- ’ry step that we have trod -- den
 Is a tri -- umph of His grace:
 Wheth -- er joy, or wheth -- er tri -- al,
 All can on -- ly work for good,
-For He heal -- eth all_– who loves us,
+For He heal -- eth all— who loves us,
 And hath bought us with His blood.
 
 }

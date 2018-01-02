@@ -113,7 +113,7 @@ notesBass = {
 
 Refrain = \lyricmode {
 
-%{HIDE>%} Are you washed in the blood_– \bar "." %{<HIDE%}
+%{HIDE>%} Are you washed in the blood— \bar "." %{<HIDE%}
 %LYRICS Are you washed ... in the blood ...
 In the soul -- cleans -- ing blood of the Lamb? \bar "."
 Are your gar -- ments spot -- less? Are they white as snow? \bar "."
@@ -166,7 +166,7 @@ Oh, be washed in the blood of the Lamb!
 underWords = \lyricmode {
 
 { \repeat unfold 40 { \skip 4 } }
-Are you washed in the blood_–
+Are you washed in the blood—
 { \repeat unfold 9 { \skip 4 } }
 of the Lamb?
 

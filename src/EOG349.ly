@@ -114,7 +114,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Lis -- ten to the mes -- sage, \bar "." % original has "List -- en"
-Pre -- cious words and true_– \bar "."
+Pre -- cious words and true— \bar "."
 Joy and peace and par -- don \bar "."
 God is of -- fering you. \bar "."
 
@@ -129,7 +129,7 @@ Roll -- ing in its full -- ness \bar "."
 To earth’s far -- thest bound! \bar "."
 News of God’s sal -- va -- tion, \bar "."
 Bless -- ings from a -- bove, \bar "."
-Sav -- ing, help -- ing, cheer -- ing_– \bar "."
+Sav -- ing, help -- ing, cheer -- ing— \bar "."
 Words of life and love. \bar "."
 
 }
@@ -159,7 +159,7 @@ Brought by Christ the Sav -- iour,
 When He came to die;
 Made in Cal -- v’ry’s dark -- ness,
 Sealed with Je -- sus’ blood;
-To the world pro -- claim it_–
+To the world pro -- claim it—
 Per -- fect peace with God.
 
 }
@@ -173,7 +173,7 @@ Not like the at -- trac -- tions
 This world of -- fers you,
 But a joy that rest -- eth
 On foun -- da -- tion sure,
-Joy_– for God hath said it_–
+Joy— for God hath said it—
 Which must e’er en -- dure.
 
 }

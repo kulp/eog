@@ -98,7 +98,7 @@ A life di -- vine be -- low.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Je -- sus_– it speaks a life of love,
+Je -- sus— it speaks a life of love,
 Of sor -- rows meek -- ly borne;
 It tells of sym -- path -- y a -- bove,
 What -- ev -- er makes us mourn.

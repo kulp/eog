@@ -137,7 +137,7 @@ And drink the streams of heaven’s de -- lights,
 Which Christ will give.
 He’ll weep no more on that blest shore;
 No mar -- vel this,
-For joys well up, and fill his cup_–
+For joys well up, and fill his cup—
 There’s naught but bliss.
 
 }

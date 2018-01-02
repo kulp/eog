@@ -144,7 +144,7 @@ Sin -- ner, hear the match -- less sto -- ry,
 Lis -- _ ten sim -- ply and be -- lieve;
 From the ris -- _ en Lord _ in glo -- ry,
 Life, e -- ter -- _ nal life, _ re -- ceive;
-Je -- sus died_– thy con -- _ dem -- na -- tion,
+Je -- sus died— thy con -- _ dem -- na -- tion,
 Thine, be -- liev -- er, Je -- sus bore;
 Con -- quered grave, thy de -- _ so -- la -- tion,
 Rose, and lives to die no more.

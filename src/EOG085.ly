@@ -94,9 +94,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Just as thou art_– with -- out one trace \bar "."
+Just as thou art— with -- out one trace \bar "."
 Of love, or joy, or in -- ward grace, \bar "."
-Or meet -- ness for the heaven -- ly place_– \bar "."
+Or meet -- ness for the heaven -- ly place— \bar "."
 O guilt -- y sin -- ner, come! \bar "."
 
 }
@@ -106,7 +106,7 @@ wordsB = \lyricmode {
 
 Bur -- dened with guilt, wouldst thou be blest?
 Trust not the world; it gives no rest;
-Christ brings re -- lief to hearts op -- pressed_–
+Christ brings re -- lief to hearts op -- pressed—
 O wear -- y sin -- ner, come!
 
 }
@@ -116,7 +116,7 @@ wordsC = \lyricmode {
 
 Come, leave thy bur -- den at the cross;
 Count all thy gains but emp -- ty dross;
-His grace o’er -- pays all earth -- ly loss_–
+His grace o’er -- pays all earth -- ly loss—
 O need -- y sin -- ner, come!
 
 }

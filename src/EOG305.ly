@@ -134,7 +134,7 @@ wordsB = \markuplist {
         \vspace #3 \line { \bold 2 \column { \wordsB } }
       }
     }
-    \vspace #3 \fill-line { \smaller { "May be sung to tune No. 304 – opposite page" } }
+    \vspace #3 \fill-line { \smaller { "May be sung to tune No. 304 on opposite page" } }
   }
 }
 

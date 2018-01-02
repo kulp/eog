@@ -91,7 +91,7 @@ wordsB = \lyricmode {
 
 Moth -- ers then the Sav -- iour sought,
 In the pla -- ces where He taught,
-And to Him their chil -- dren brought_–
+And to Him their chil -- dren brought—
 Lit -- tle ones like me.
 
 }
@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Did the Sav -- iour say them nay?
-No; He kind -- ly bade them stay_–
+No; He kind -- ly bade them stay—
 Suf -- fered none to turn a -- way
 Lit -- tle ones like me.
 

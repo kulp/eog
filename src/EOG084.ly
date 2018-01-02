@@ -129,9 +129,9 @@ Grace has re -- deemed us once for all. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Now are we free_– there’s no con -- dem -- na -- tion;
+Now are we free— there’s no con -- dem -- na -- tion;
 Je -- sus pro -- vides a per -- fect  sal -- va -- tion;
-“Come un -- to Me”_– oh, hear His sweet call,
+“Come un -- to Me”— oh, hear His sweet call,
 Come, and He saves us once for all.
 
 \Refrain

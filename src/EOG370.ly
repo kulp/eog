@@ -156,7 +156,7 @@ wordsB = \lyricmode {
 
 Shun e -- vil com -- pan -- ions,
 Bad lan -- guage dis -- dain;
-God’s name hold in rev -- erence_–
+God’s name hold in rev -- erence—
 Don’t take it in vain;
 Be thought -- ful and ear -- nest,
 Kind -- heart -- ed and true;

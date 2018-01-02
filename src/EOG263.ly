@@ -148,7 +148,7 @@ My Fa -- ther’s care is o’er me,
 His prais -- es I would tell.
 The love of Christ con -- strain -- eth me,
 His blood hath washed me white,
-Where Je -- sus is in glo -- ry_–
+Where Je -- sus is in glo -- ry—
 ’Tis home, and love, and light!
 
 }

@@ -107,7 +107,7 @@ Thy will -- ing mind to save. \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-O God of mer -- cy_– Fa -- ther;
+O God of mer -- cy— Fa -- ther;
 The one un -- chang -- ing claim,
 The bright -- est hopes we gath -- er
 From Christ’s most pre -- cious name;

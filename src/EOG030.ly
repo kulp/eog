@@ -126,9 +126,9 @@ Pass -- ing on -- ward, quick -- ly pass -- ing, \bar "."
 Yes, but whith -- er, whith -- er bound? \bar "." \eogbreak
 Is it to the man -- y man -- sions \bar "."
 Where e -- ter -- nal rest is found? \bar "." \eogbreak
-Pass -- ing on -- ward_– \bar "."
+Pass -- ing on -- ward— \bar "."
 Yes, but whith -- er, whith -- er bound? \bar "." \eogbreak
-Pass -- ing on -- ward_– \bar "."
+Pass -- ing on -- ward— \bar "."
 Yes, but whith -- er, whith -- er bound? \bar "." \eogbreak
 
 }
@@ -140,9 +140,9 @@ Pass -- ing on -- ward, quick -- ly pass -- ing,
 Naught the wheels of time can stay;
 Sweet the thought that some are go -- ing
 To the realms of per -- fect day;
-Pass -- ing on -- ward_–
+Pass -- ing on -- ward—
 Christ their lead -- er, Christ their way.
-Pass -- ing on -- ward_–
+Pass -- ing on -- ward—
 Christ their lead -- er, Christ their way.
 
 }
@@ -154,9 +154,9 @@ Pass -- ing on -- ward, quick -- ly pass -- ing,
 Man -- y on the down -- ward road;
 Care -- less of their souls im -- mor -- tal,
 Heed -- ing not the call of God,
-Pass -- ing on -- ward_–
+Pass -- ing on -- ward—
 Tramp -- ling on the Sav -- iour’s blood.
-Pass -- ing on -- ward_–
+Pass -- ing on -- ward—
 Tramp -- ling on the Sav -- iour’s blood.
 
 }
@@ -167,7 +167,7 @@ wordsD = \lyricmode {
 Pass -- ing on -- ward, quick -- ly pass -- ing,
 Time its course will quick -- ly run;
 Still we hear the fond en -- treat -- y
-Of the ev -- er -- gra -- cious One_–
+Of the ev -- er -- gra -- cious One—
 “Come and wel -- come,
 ’Tis by { \italicsOn } Me { \italicsOff } that life is won.”
 “Come and wel -- come,

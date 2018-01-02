@@ -170,7 +170,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Tell me the sto -- ry slow -- ly,
-That I may take it in_–
+That I may take it in—
 That won -- der -- ful re -- demp -- tion,
 God’s rem -- e -- dy for sin.
 Tell me the sto -- ry oft -- en,

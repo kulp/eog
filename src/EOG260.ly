@@ -147,7 +147,7 @@ wordsD = \lyricmode {
 
 \italicsOn “Trust,” \italicsOff O Sav -- iour, Lord, I trust Thee,
 Is the an -- swering word of faith
-Of my soul_– till now so wear -- y_–
+Of my soul— till now so wear -- y—
 To Thy match -- less, per -- fect grace;
 And thus trust -- ing, sim -- ply trust -- ing,
 Joy and peace my heart pos -- sess;

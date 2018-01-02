@@ -110,7 +110,7 @@ wordsA = \lyricmode {
 
 I know not why God’s won -- drous grace \bar "."
 To me He hath made known; \bar "."
-Nor why_– un -- wor -- thy as I am_– \bar "."
+Nor why— un -- wor -- thy as I am— \bar "."
 He claimed me for His own. \bar "."
 
 }

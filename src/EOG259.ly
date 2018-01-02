@@ -107,7 +107,7 @@ Not the la -- bor of our hands
 Could ful -- fill the law’s de -- mands;
 Could our zeal no res -- pite know,
 Could our tears for -- ev -- er flow,
-Naught for sin could e’er a -- tone_–
+Naught for sin could e’er a -- tone—
 But Thy blood, and Thine a -- lone!
 
 }
@@ -117,7 +117,7 @@ wordsC = \lyricmode {
 
 Found by Thee be -- fore we sought,
 Un -- to Thee in mer -- cy brought,
-We have Thee for right -- eous -- ness_–
+We have Thee for right -- eous -- ness—
 From Thy full -- ness, grace on grace;
 Thou hast washed us in Thy blood,
 Made us live, and live to God.

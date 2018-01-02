@@ -124,7 +124,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Come to that hap -- py land,
-Come, come a -- way_–
+Come, come a -- way—
 Why will you doubt -- ing stand?
 Why still de -- lay?
 Oh! we shall hap -- py be,

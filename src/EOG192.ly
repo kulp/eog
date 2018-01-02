@@ -147,7 +147,7 @@ wordsD = \lyricmode {
 
 Trust -- ing Him while life shall last,
 Trust -- ing Him till earth is past,
-Till with -- in the jas -- per wall_–
+Till with -- in the jas -- per wall—
 Trust -- ing Je -- sus, that is all.
 
 }

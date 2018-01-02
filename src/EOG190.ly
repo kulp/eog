@@ -96,7 +96,7 @@ wordsA = \lyricmode {
 
 Sav -- iour! lead us by Thy pow -- er \bar "."
 Safe in -- to the prom -- ised rest; \bar "."
-Choose the path_– the way what -- ev -- er \bar "."
+Choose the path— the way what -- ev -- er \bar "."
 Seems to Thee, O Lord, the best: \bar "."
 Be our guide in ev -- ery per -- il, \bar "."
 Watch and keep us night and day, \bar "."

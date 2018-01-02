@@ -110,7 +110,7 @@ So fool -- ish, weak and help -- less, \bar "."
 I nev -- er could be -- gin; \bar "."
 But, bless -- ed truth, I know it, \bar "."
 Tho’ ru -- ined by the fall, \bar "."
-Christ has my soul re -- deem -- ed_– \bar "."
+Christ has my soul re -- deem -- ed— \bar "."
 Yes, Christ has done it all! \bar "."
 
 }
@@ -124,7 +124,7 @@ When far from Him I wan -- dered
 In sin and mis -- er -- y;
 He oped my ears, and gave me
 To lis -- ten to His call;
-He sought me and He found me_–
+He sought me and He found me—
 Yes, Christ has done it all!
 
 }
@@ -138,7 +138,7 @@ Un -- less He dai -- ly help me
 His glo -- ry to pur -- sue;
 Still help -- less, and still fee -- ble,
 On His strong arm I fall,
-My strength in press -- ing on -- ward_–
+My strength in press -- ing on -- ward—
 Yes, Christ must do it all!
 
 }
@@ -151,7 +151,7 @@ My ran -- somed soul shall be,
 From sin and all pol -- lu -- tion
 For -- ev -- er, ev -- er free;
 I’ll cast my crown be -- fore Him,
-And loud His grace ex -- tol_–
+And loud His grace ex -- tol—
 “Thou hast Thy -- self re -- deemed me;
 Yes, Thou hast done it all!”
 

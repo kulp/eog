@@ -7,7 +7,7 @@
 
 \header{
   hymnnumber = "270"
-  title = "And Is It So – I Shall Be Like Thy Son?"
+  title = "And Is It So — I Shall Be Like Thy Son?"
   tunename = "Eventide" % see EOG076
   meter = "10. 10. 10. 10."
   poet = "J. N. Darby" % see https://hymnary.org/text/and_is_it_so_i_shall_be_like_thy_son
@@ -87,9 +87,9 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-And is it so_– I shall be like Thy Son? \bar "."
+And is it so— I shall be like Thy Son? \bar "."
 Is this the grace which He for me has won? \bar "."
-Fa -- ther of glo -- ry (thought be -- yond all thought!)_– \bar "."
+Fa -- ther of glo -- ry (thought be -- yond all thought!)— \bar "."
 In glo -- ry, to His own blest like -- ness bro’t! \bar "."
 
 }

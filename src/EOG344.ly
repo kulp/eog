@@ -104,7 +104,7 @@ wordsA = \lyricmode {
 
 Je -- sus, my Sav -- iour, to Beth -- le -- hem came, \bar "."
 Born in a man -- ger to sor -- row and shame; \bar "."
-Oh, it was won -- der -- ful_– blest be His name! \bar "."
+Oh, it was won -- der -- ful— blest be His name! \bar "."
 Seek -- ing for me, for me! \bar "."
 %LYRICS Seeking for me, for me!
 %LYRICS Seeking for me, for me!
@@ -112,7 +112,7 @@ Seek -- ing for me, for me! \bar "."
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "." \eogbreak
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
 %{HIDE>%} Seek -- ing for me! %{<HIDE%} \bar "."
-Oh, it was won -- der -- ful_– blest be His name! \bar "."
+Oh, it was won -- der -- ful— blest be His name! \bar "."
 Seek -- ing for me, for me! \bar "."
 
 }
@@ -122,7 +122,7 @@ wordsB = \lyricmode {
 
 Je -- sus, my Sav -- iour, on Cal -- va -- ry’s tree,
 Paid the great debt, and my soul He set free;
-Oh, it was won -- der -- ful_– how could it be?
+Oh, it was won -- der -- ful— how could it be?
 Dy -- ing for me, for me!
 %LYRICS Dying for me, for me!
 %LYRICS Dying for me, for me!
@@ -130,7 +130,7 @@ Dy -- ing for me, for me!
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
 %{HIDE>%} Dy -- ing for me! %{<HIDE%}
-Oh, it was won -- der -- ful_– how could it be?
+Oh, it was won -- der -- ful— how could it be?
 Dy -- ing for me, for me!
 
 }

@@ -110,11 +110,11 @@ wordsA = \lyricmode {
 
 Oh bless -- ed gos -- pel sound! \bar "."
 “Yet there is room”! \bar "."
-It tells to all a -- round_– \bar "."
+It tells to all a -- round— \bar "."
 “Yet there is room”! \bar "."
 The guilt -- y may draw near; \bar "."
 Tho’ vile, they need not fear; \bar "."
-With joy they now may hear_– \bar "."
+With joy they now may hear— \bar "."
 “Yet there is room”! \bar "."
 
 }
@@ -122,13 +122,13 @@ With joy they now may hear_– \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-God’s love in Christ we see_–
+God’s love in Christ we see—
 “Yet there is room”!
-Great -- er it could not be_–
+Great -- er it could not be—
 “Yet there is room”!
 His on -- ly Son He gave;
 He’s will -- ing now to save
-All who in Him be -- lieve_–
+All who in Him be -- lieve—
 “Yet there is room”!
 
 }
@@ -138,11 +138,11 @@ wordsC = \lyricmode {
 
 “All things are read -- y, come”!
 “Yet there is room”!
-Christ ev -- ’ry -- thing hath done_–
+Christ ev -- ’ry -- thing hath done—
 “Yet there is room”!
 The work is now com -- plete,
 “Be -- fore the mer -- cy -- seat”
-A Sav -- iour you will meet_–
+A Sav -- iour you will meet—
 “Yet there is room”!
 
 }
@@ -150,13 +150,13 @@ A Sav -- iour you will meet_–
 wordsD = \lyricmode {
 \set stanza = "4."
 
-God’s house is fill -- ing fast_–
+God’s house is fill -- ing fast—
 “Yet there is room”!
-Some guest will be the last_–
+Some guest will be the last—
 “Yet there is room”!
 Yes! soon sal -- va -- tion’s day
 From you will pass a -- way,
-Then grace no more will say_–
+Then grace no more will say—
 “Yet there is room”!
 
 }

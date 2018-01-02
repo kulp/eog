@@ -110,7 +110,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 And now He’s gone to heaven a -- gain,
-And sits on glo -- ry’s throne_–
+And sits on glo -- ry’s throne—
 With o -- pen arms and lov -- ing smile,
 He wel -- comes all who come.
 

@@ -93,7 +93,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-A lit -- tle talk with Je -- sus_– \bar "."
+A lit -- tle talk with Je -- sus— \bar "."
 { \mon } How it { \moff } smooths the rug -- ged road, \bar "."
 { \mon } How it { \moff } seems to help me on -- ward, \bar "."
 { \mon } When I { \moff } faint be -- neath my load: \bar "."
@@ -140,7 +140,7 @@ Nor would I if I could;
 He is my dai -- ly por -- tion,
 My med -- icine and my food:
 He’s al -- to -- geth -- er love -- ly,
-None can with Him com -- pare_–
+None can with Him com -- pare—
 The chief a -- mong ten thou -- sand,
 The fair -- est of the fair.
 

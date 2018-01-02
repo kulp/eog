@@ -111,8 +111,8 @@ He showed the spear -- mark in His side,
 The nail -- print on His palm;
 Said, “Look on Me, the Cru -- ci -- fied;
 Why trem -- ble thus? Be calm!
-All pow’r is Mine_– I set thee free_–
-Be not a -- fraid_– Ab -- sol -- vo te.”
+All pow’r is Mine— I set thee free—
+Be not a -- fraid— Ab -- sol -- vo te.”
 
 }
 

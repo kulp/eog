@@ -158,7 +158,7 @@ He is the ris -- en Sav -- iour,
 A -- live for -- ev -- er -- more;
 He loves to ease the bur -- dened heart
 Of each whose sins He bore.
-Be -- lieve_– and God’s sal -- va -- tion sure
+Be -- lieve— and God’s sal -- va -- tion sure
 Is free to ev -- ery one;
 In man -- i -- fest -- ed right -- eous -- ness
 He hon -- ors thus His Son.

@@ -173,7 +173,7 @@ wordsB = \lyricmode {
 
 Thro’ death in -- to life ev -- er -- last -- ing
 He passed, and we fol -- low Him there;
-{ \mon } O -- ver { \moff } us sin no more hath do -- min -- ion_–
+{ \mon } O -- ver { \moff } us sin no more hath do -- min -- ion—
 For more than con -- querors we are!
 
 \Refrain
@@ -183,7 +183,7 @@ For more than con -- querors we are!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-His word shall not fail you_– He prom -- ised;
+His word shall not fail you— He prom -- ised;
 Be -- lieve Him, and all will be well;
 Then go to a world that is dy -- ing,
 His { \mon } per -- fect { \moff } sal -- va -- tion to tell!

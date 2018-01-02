@@ -95,7 +95,7 @@ At what price the Sav -- iour bought thee; \bar "."
 To re -- deem thee, home to bring thee, \bar "."
 From the throne He came and sought thee. \bar "."
 Glo -- ry’s splen -- dor He sur -- ren -- dered, \bar "."
-Shame de -- spis -- ing for thy priz -- ing_– \bar "."
+Shame de -- spis -- ing for thy priz -- ing— \bar "."
 Oh, re -- mem -- ber! \bar "."
 
 }
@@ -107,8 +107,8 @@ Oh, re -- mem -- ber! Oh, re -- mem -- ber!
 What that night thy sins pre -- pared Him,
 Deep a -- base -- ment, sore a -- maze -- ment,
 Not one tithe of an -- guish spared Him.
-Wrath’s a -- wak -- ing_– God’s for -- sak -- ing_–
-Thou didst earn it, He has borne it_–
+Wrath’s a -- wak -- ing— God’s for -- sak -- ing—
+Thou didst earn it, He has borne it—
 Oh, re -- mem -- ber!
 
 }
@@ -118,10 +118,10 @@ wordsC = \lyricmode {
 
 Oh, re -- mem -- ber! Oh, re -- mem -- ber!
 He Him -- self in death has giv -- en
-To re -- deem thee, home to bring thee_–
-Child of wrath_– as heir of heav -- en.
+To re -- deem thee, home to bring thee—
+Child of wrath— as heir of heav -- en.
 From earth’s sor -- row, judg -- ment’s mor -- row,
-He has drawn thee, mer -- cy shown thee_–
+He has drawn thee, mer -- cy shown thee—
 Oh, re -- mem -- ber!
 
 }

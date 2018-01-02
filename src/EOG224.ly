@@ -89,7 +89,7 @@ wordsA = \lyricmode {
 
 He is com -- ing! Who is com -- ing? \bar "."
 Is it One whom I shall fear? \bar "."
-No! The bless -- ed Sav -- iour, Je -- sus_– \bar "."
+No! The bless -- ed Sav -- iour, Je -- sus— \bar "."
 He who suf -- fered for me here; \bar "."
 He is com -- ing! He is com -- ing! \bar "."
 In the clouds He will ap -- pear. \bar "."

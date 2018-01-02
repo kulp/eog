@@ -112,11 +112,11 @@ wordsA = \lyricmode {
 The Fa -- ther, from e -- ter -- ni -- ty, \bar "."
 Chose us, O Je -- sus Christ, in Thee, \bar "."
 In Thee, His well -- be -- lov -- ed; \bar "."
-And we, as giv’n to Thee_– Thy bride, \bar "."
+And we, as giv’n to Thee— Thy bride, \bar "."
 In Thee, Lord Je -- sus, can con -- fide; \bar "."
 Thy love re -- mains un -- mov -- ed. \bar "."
 From Thee dai -- ly \bar "."
-Strength re -- ceiv -- ing_– to Thee cleav -- ing, \bar "."
+Strength re -- ceiv -- ing— to Thee cleav -- ing, \bar "."
 Bless -- ed Sav -- iour, \bar "."
 May we all show forth Thy prais -- es. \bar "."
 
@@ -132,7 +132,7 @@ And soon Thou’lt bring us to that place
 Where we shall see Thee face to face,
 And, glo -- ri -- fied, a -- dore Thee.
 A -- men! Be then
-Praise and bless -- ing_– nev -- er ceas -- ing
+Praise and bless -- ing— nev -- er ceas -- ing
 To Thee giv -- en
 Here and when we come to heav -- en.
 

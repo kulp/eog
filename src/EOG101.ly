@@ -105,7 +105,7 @@ Refrain = \lyricmode {
 
 Match -- less Sav -- iour! match -- less Sav -- iour! \bar "."
 Je -- sus all the work has done. __ \bar "."
-Come to Je -- sus, come to Je -- sus_– \bar "."
+Come to Je -- sus, come to Je -- sus— \bar "."
 Je -- sus, God’s be -- lov -- ed Son. \bar "."
 
 }

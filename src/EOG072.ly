@@ -109,7 +109,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Par -- don is of -- fered, par -- don is of -- fered;
-A par -- don_– full, pres -- ent and free;
+A par -- don— full, pres -- ent and free;
 The might -- y debt was paid,
 When on Cal -- v’ry Je -- sus died
 To a -- tone for a reb -- el like thee.

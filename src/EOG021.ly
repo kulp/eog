@@ -138,7 +138,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 No room for Thee, Thou bless -- ed One, \bar "."
-The Fa -- ther’s ho -- ly Child_– \bar "." \eogbreak
+The Fa -- ther’s ho -- ly Child— \bar "." \eogbreak
 His well -- be -- lov -- ed on -- ly Son, \bar "."
 The Sav -- iour un -- de -- filed! \bar "." \eogbreak
 No room for Thee in crowd -- ed inn \bar "."
@@ -153,7 +153,7 @@ wordsB = \lyricmode {
 
 No room for Thee! Thy love did seek
 To win Thine own in vain;
-For they were proud and Thou wast meek_–
+For they were proud and Thou wast meek—
 They would not let Thee reign.
 No room at last on earth for Thee,
 As neath the start -- led sky,
@@ -170,7 +170,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 No room for Thee! Ah, still ’tis true!
-Men cast Thy claims a -- side_–
+Men cast Thy claims a -- side—
 The rec -- ord old is ev -- er new;
 They hate the Cru -- ci -- fied!
 No room for Thee in bus -- y marts;

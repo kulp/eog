@@ -118,7 +118,7 @@ Hear the Lord Him -- self de -- clar -- ing
 All per -- formed He came to do;
 Sin -- ners, in your -- selves des -- pair -- ing,
 This is joy -- ful news for you;
-Je -- sus speaks it, Je -- sus speaks it_–
+Je -- sus speaks it, Je -- sus speaks it—
 His are faith -- ful words and true.
 
 }

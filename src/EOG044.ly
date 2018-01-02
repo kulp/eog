@@ -98,7 +98,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-Just as I am_– with -- out one plea, \bar "."
+Just as I am— with -- out one plea, \bar "."
 But that Thy blood was shed for me, \bar "." \eogbreak
 And that Thou bid’st me come to Thee: \bar "."
 O Lamb of God, I come! I come! \bar "." \eogbreak
@@ -108,7 +108,7 @@ O Lamb of God, I come! I come! \bar "." \eogbreak
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Just as I am_– and wait -- ing not
+Just as I am— and wait -- ing not
 To rid my soul of one dark blot,
 To Thee, whose blood can cleanse each spot:
 O Lamb of God, I come! I come!
@@ -118,7 +118,7 @@ O Lamb of God, I come! I come!
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Just as I am_– poor, wretch -- ed, blind,
+Just as I am— poor, wretch -- ed, blind,
 Sight, rich -- es, heal -- ing of the mind,
 Yea, all I need in Thee to find:
 O Lamb of God, I come! I come!
@@ -128,7 +128,7 @@ O Lamb of God, I come! I come!
 wordsD = \lyricmode {
 \set stanza = "4."
 
-Just as I am_– Thou wilt re -- ceive,
+Just as I am— Thou wilt re -- ceive,
 Wilt wel -- come, par -- don, cleanse, re -- lieve;
 Be -- cause Thy prom -- ise I be -- lieve:
 O Lamb of God, I come! I come!
@@ -138,7 +138,7 @@ O Lamb of God, I come! I come!
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Just as I am_– Thy love, I own,
+Just as I am— Thy love, I own,
 Has bro -- ken ev -- ’ry bar -- rier down:
 Now to be Thine, yea, Thine a -- lone,
 O Lamb of God, I come! I come!

@@ -155,7 +155,7 @@ Refrain = \lyricmode {
 
 { \mon } I am re -- { \moff } deemed, __ but not with sil -- ver; \bar "."
 I am bought, __ but not with gold; \bar "."
-{ \mon } Bought with a { \moff } price_– the blood of Je -- sus, \bar "."
+{ \mon } Bought with a { \moff } price— the blood of Je -- sus, \bar "."
 Pre -- cious price of love un -- told. \bar "."
 
 }
@@ -205,7 +205,7 @@ underWords = \lyricmode {
 { \repeat unfold 46 \skip 4 }
 { \mon } I am re -- deemed, I am re -- deemed, { \moff } but not with sil -- ver;
 I am bought, I am bought, but not with gold;
-{ \mon } Bought with a { \moff } price_– the pre -- cious blood of Je -- sus,
+{ \mon } Bought with a { \moff } price— the pre -- cious blood of Je -- sus,
 
 }
 

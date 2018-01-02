@@ -101,7 +101,7 @@ wordsC = \lyricmode {
 
 This we know, and cease to mourn,
 Pa -- tient wait His sure re -- turn;
-For His saints with Him shall reign_–
+For His saints with Him shall reign—
 “Come, Lord Je -- sus, come! A -- men!”
 
 }

@@ -135,7 +135,7 @@ Be -- fore E -- li -- sha’s door, to stand
 With high and haught -- y mien.
 “Go, wash in Jor -- dan, and be clean,”
 The proph -- et’s mes -- sage giv’n;
-But this ill suits the war -- rior’s mind_–
+But this ill suits the war -- rior’s mind—
 His char -- iot back is driven.
 
 }

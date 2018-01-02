@@ -97,7 +97,7 @@ wordsB = \lyricmode {
   But My love than death is stron -- ger,
   I My pre -- cious blood have spilt:
   Tho’ your heart has long been har -- dened,
-  Look on Me_– it soft shall grow;
+  Look on Me— it soft shall grow;
   Your trans -- gres -- sions shall be par -- doned,
   And I’ll wash you white as snow.”
 }
@@ -108,7 +108,7 @@ wordsC = \lyricmode {
   “I have seen what you were do -- ing,
   Tho’ you lit -- tle thought of Me;
   You were mad -- ly bent on ru -- in,
-  But, I said_– it shall not be;
+  But, I said— it shall not be;
   You had been for -- ev -- er wretch -- ed,
   Had I not es -- poused your part;
   Now be -- hold My arms out -- stretch -- ed

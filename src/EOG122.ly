@@ -128,7 +128,7 @@ wordsB = \lyricmode {
 
 Our sins were on Him laid,
 He bowed be -- neath the load,
-By Him the might -- y debt was paid_–
+By Him the might -- y debt was paid—
 The debt we owed;
 Now see Him on the throne
 Who once on Cal -- v’ry bled,
@@ -146,7 +146,7 @@ The robe, the ring, the san -- daled feet,
 Tell what He’s done;
 “The fat -- ted calf bring here,
 ’Tis meet we mer -- ry be,
-My son far off, is now brought near_–
+My son far off, is now brought near—
 Re -- joice with Me.”
 
 }

@@ -97,7 +97,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Sav -- iour, I come to Thee!
-O Lamb of God, I pray_–
+O Lamb of God, I pray—
 Cleanse me and save me,
 Cleanse me and save me,
 Take all my sins a -- way.

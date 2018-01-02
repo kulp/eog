@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 
 The sands of time are sink -- ing, \bar "."
 The dawn of heav -- en breaks, \bar "."
-The sum -- mer morn I’ve sighed for_– \bar "."
+The sum -- mer morn I’ve sighed for— \bar "."
 The fair, sweet morn a -- wakes. \bar "."
 Dark, dark hath been the mid -- night, \bar "."
 But day -- spring is at hand, \bar "."

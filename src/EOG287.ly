@@ -119,7 +119,7 @@ wordsE = \lyricmode {
 \set stanza = "5."
 
 Je -- sus, Sav -- iour, we a -- dore Thee!
-Christ of God_– a -- noint -- ed Son;
+Christ of God— a -- noint -- ed Son;
 We con -- fess Thee, Lord of glo -- ry,
 Fruits of vic -- t’ry Thou hast won!
 

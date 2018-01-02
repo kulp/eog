@@ -94,7 +94,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 We are by Christ re -- deemed; \bar "."
-The cost_– His pre -- cious blood; \bar "."
+The cost— His pre -- cious blood; \bar "."
 Be noth -- ing by our souls es -- teemed \bar "."
 Like this great good. \bar "."
 Were the vast world our own \bar "."

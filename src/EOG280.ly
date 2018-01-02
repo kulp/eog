@@ -102,7 +102,7 @@ And right -- eous ev -- er -- more.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-So Je -- sus died for sin_–
+So Je -- sus died for sin—
 Up -- on the cross He died;
 God’s right -- eous -- ness was there dis -- played,
 And jus -- tice sat -- is -- fied.

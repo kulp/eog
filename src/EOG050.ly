@@ -108,7 +108,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 But faith’s one look at Christ
-Ex -- pir -- ing on the tree_–
+Ex -- pir -- ing on the tree—
 One heart -- be -- liev -- ing glance at Him
 Can set the sin -- ner free.
 

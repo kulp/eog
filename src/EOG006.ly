@@ -146,7 +146,7 @@ TenorRefrainA = \lyricmode {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-  “Come un -- to Me.” It is the Sav -- iour’s voice_– \bar "."
+  “Come un -- to Me.” It is the Sav -- iour’s voice— \bar "."
   The Lord of life, who bids thy heart re -- joice; \bar "."
   O wear -- y heart, with heav -- y cares op -- pressed, \bar "."
   “Come un -- to Me,” and I will give you rest. \bar "."
@@ -169,7 +169,7 @@ wordsC = \lyricmode {
 
   O dy -- ing man, with guilt and sin dis -- mayed,
   With con -- science wak -- ened, of thy God a -- fraid;
-  ’Twixt hopes and fears_– oh, end the anx -- ious strife!
+  ’Twixt hopes and fears— oh, end the anx -- ious strife!
   “Come un -- to Me,” and I will give you life.
 
 }
@@ -178,7 +178,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
   Life, rest and peace, the flow’rs of death -- less bloom,
-  The Sav -- iour gives us_– not be -- yond the tomb,
+  The Sav -- iour gives us— not be -- yond the tomb,
   But here, and now, on earth, the taste is giv’n
   Of joys which wait us thro’ the gates of heaven.
 

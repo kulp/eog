@@ -175,7 +175,7 @@ Tell of the grave where they laid Him;
 Tell how He liv -- eth a -- gain.
 Love in that sto -- ry so ten -- der,
 Clear -- er than ev -- er I see;
-This is the sto -- ry most pre -- cious_–
+This is the sto -- ry most pre -- cious—
 Love paid the ran -- som for me.
 
 }

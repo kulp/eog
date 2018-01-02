@@ -116,7 +116,7 @@ Guilt -- y too be -- fore thy God; \bar "."
 In thy fol -- ly thou hast wan -- dered, \bar "." % original has "has" for "hast"
 Broad the road thy feet have trod. \bar "."
 Death and af -- ter death the judg -- ment \bar "."
-Will o’er -- take thee like a flood_– \bar "."
+Will o’er -- take thee like a flood— \bar "."
 Je -- sus on -- ly can a -- vail thee, \bar "."
 Je -- sus and His pre -- cious blood. \bar "."
 

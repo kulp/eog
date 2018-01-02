@@ -103,7 +103,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Though all the beasts that live and feed \bar "."
-Up -- on a thou -- sand hills should bleed_– \bar "."
+Up -- on a thou -- sand hills should bleed— \bar "."
 Tho’ all their blood should flow, \bar "."
 The sac -- ri -- fice would be in vain, \bar "."
 The stain of sin would still re -- main: \bar "."

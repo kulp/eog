@@ -141,7 +141,7 @@ E’en now, to faith’s trans -- pierc -- ing eye
 Thy gold -- en gates ap -- pear.
 Our thirst -- y spir -- its faint
 To reach the home we love,
-The bright in -- her -- it -- ance of saints_–
+The bright in -- her -- it -- ance of saints—
 Je -- ru -- sa -- lem a -- bove.
 
 \Refrain

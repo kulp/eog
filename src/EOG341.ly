@@ -125,7 +125,7 @@ wordsC = \lyricmode {
 Je -- sus bids us shine
 Next for all a -- round;
 Man -- y kinds of dark -- ness
-In this world a -- bound_–
+In this world a -- bound—
 Sin and want and sor -- row;
 So we must shine,
 You in your small cor -- ner,

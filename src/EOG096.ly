@@ -137,9 +137,9 @@ Whith -- er in my an -- guish I might flee?
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Oh, what emp -- ti -- ness_– with -- out the Sav -- iour
+Oh, what emp -- ti -- ness— with -- out the Sav -- iour
 Mid the sins and sor -- rows here be -- low!
-And e -- ter -- ni -- ty, how dark with -- out Him_–
+And e -- ter -- ni -- ty, how dark with -- out Him—
 On -- ly night and tears and end -- less woe!
 What though I might live with -- out the Sav -- iour,
 When I come to die, how would it be?
@@ -156,7 +156,7 @@ What a balm the bro -- ken heart to heal!
 Ne’er a sin so great, but He can cleanse it,
 Not a sor -- row that He does not feel!
 If I have but Je -- sus, on -- ly Je -- sus,
-Noth -- ing else in all the world be -- side_–
+Noth -- ing else in all the world be -- side—
 Oh, then ev -- ery -- thing is mine in Je -- sus;
 For my needs and more He will pro -- vide.
 

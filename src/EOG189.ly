@@ -112,9 +112,9 @@ Our wants are known to Je -- sus;
 All full -- ness dwells in Him;
 He heal -- eth all dis -- eas -- es
 Who did our souls re -- deem.
-We tell our griefs to Je -- sus_–
+We tell our griefs to Je -- sus—
 Our bur -- dens and our cares;
-He from them all re -- leas -- es_–
+He from them all re -- leas -- es—
 Who all our sor -- row shares.
 
 }

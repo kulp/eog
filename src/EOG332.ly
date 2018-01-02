@@ -138,7 +138,7 @@ In -- to the world to save; \bar "."
 Sing His glo -- ry, His worth, His fame: \bar "."
 Je -- sus a -- lone can save. \bar "."
 No name else is giv -- en, \bar "."
-Search through earth and heav -- en_– % \bar "."
+Search through earth and heav -- en— % \bar "."
 
 }
 
@@ -150,7 +150,7 @@ Je -- sus a -- lone can save;
 Where -- so -- ev -- er His steps we trace,
 Je -- sus a -- lone can save.
 Death and woe dis -- pell -- ing,
-God’s great mer -- cy tell -- ing_–
+God’s great mer -- cy tell -- ing—
 
 \Refrain
 
@@ -164,7 +164,7 @@ Je -- sus a -- lone can save;
 God will ev -- er dead works dis -- dain;
 Je -- sus a -- lone can save.
 Hear His blest voice call -- ing,
-Bless -- ings rich are fall -- ing_–
+Bless -- ings rich are fall -- ing—
 
 }
 
@@ -176,7 +176,7 @@ Je -- sus a -- lone can save;
 He can cleanse them from ev -- ery spot;
 Je -- sus a -- lone can save.
 Now His work’s com -- plet -- ed,
-Now in glo -- ry seat -- ed_–
+Now in glo -- ry seat -- ed—
 
 }
 

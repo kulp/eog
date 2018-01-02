@@ -106,7 +106,7 @@ wordsA = \lyricmode {
 Rise, dear soul! be -- hold the Sav -- iour, \bar "."
 Seat -- ed on the Fa -- ther’s throne; \bar "." \eogbreak
 Ob -- ject of God’s high -- est fa -- vor; \bar "."
-See Him_– God’s be -- lov -- ed Son. \bar "." \eogbreak
+See Him— God’s be -- lov -- ed Son. \bar "." \eogbreak
 
 }
 

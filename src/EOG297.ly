@@ -134,7 +134,7 @@ wordsD = \lyricmode {
 \set stanza = "4."
 
 Christ could not be hid, for the wid -- ow of Nain
-Would point to her son, now re -- stored her a -- gain_–
+Would point to her son, now re -- stored her a -- gain—
 Would say ’twas His love, His com -- pas -- sion and grace,
 Gave back that lost son to a moth -- er’s em -- brace.
 
@@ -143,7 +143,7 @@ Gave back that lost son to a moth -- er’s em -- brace.
 wordsE = \lyricmode {
 \set stanza = "5."
 
-Christ could not be hid, for hark! hark to that shout_–
+Christ could not be hid, for hark! hark to that shout—
 “Ho -- san -- na, ho -- san -- na!” the chil -- dren cry out;
 For us, oh, how bless -- ed! tho’ some would for -- bid
 To tell of the Sav -- iour who could not be hid.

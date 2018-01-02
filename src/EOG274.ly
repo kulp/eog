@@ -112,7 +112,7 @@ Glo -- ry in Thy dy -- ing love. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-First -- fruits of Thy new cre -- a -- tion_–
+First -- fruits of Thy new cre -- a -- tion—
 Faith -- ful, ho -- ly, may we be,
 Joy -- ful in Thy full sal -- va -- tion,
 More and more con -- formed to Thee.

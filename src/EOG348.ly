@@ -101,9 +101,9 @@ Cast you out.”
 wordsC = \lyricmode {
 \set stanza = "3."
 
-His, the blood_– the on -- ly cleans -- ing
+His, the blood— the on -- ly cleans -- ing
 You can ev -- er know, __
-It will make your sins_– now scar -- let_–
+It will make your sins— now scar -- let—
 White as snow.
 
 }

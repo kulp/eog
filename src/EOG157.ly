@@ -111,13 +111,13 @@ Glo -- ry, grace and worth. \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-Then_– oh, won -- drous bless -- ing!
+Then— oh, won -- drous bless -- ing!
 They shall be like Him;
 Nev -- er -- more have sor -- row,
 Ev -- er free from sin.
 Then with Him in glo -- ry
 Bright -- ly they shall shine;
-Know His love more ful -- ly_–
+Know His love more ful -- ly—
 Love so true, di -- vine!
 
 }

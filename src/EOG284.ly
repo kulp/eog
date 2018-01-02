@@ -80,7 +80,7 @@ wordsA = \lyricmode {
 
 Je -- sus, my Lord, who died on the cross, \bar "."
 Love -- ly art Thou to me; \bar "."
-Sil -- ver and gold_– I count them but dross; \bar "."
+Sil -- ver and gold— I count them but dross; \bar "."
 Naught can com -- pare with Thee. \bar "."
 
 }

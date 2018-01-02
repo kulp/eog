@@ -125,8 +125,8 @@ wordsC = \lyricmode {
 “Al -- most per -- suad -- ed,” doom comes at last!
 “Al -- most” can -- not a -- vail;
 “Al -- most” is but to fail!
-Sad, sad, that bit -- ter wail_–
-“Al -- most”_– but lost!
+Sad, sad, that bit -- ter wail—
+“Al -- most”— but lost!
 
 }
 

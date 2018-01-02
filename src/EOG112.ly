@@ -156,7 +156,7 @@ wordsD = \lyricmode {
 
 Suf -- fer a sin -- ner whose heart o -- ver -- flows,
 Lov -- ing his Sav -- iour to tell what he knows;
-Once more to tell it would I em -- brace_–
+Once more to tell it would I em -- brace—
 I’m on -- ly a sin -- ner %LYRICS saved by grace!
 
 }
