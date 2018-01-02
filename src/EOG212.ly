@@ -53,7 +53,7 @@ notesSoprano = {
 \global
 \relative c' {
 
-  d4 | fis e d | a'2 b8. a16 | fis4 e d | \time 4/4 fis e r4
+  d4 | fis e d | a'2 b8. a16 | fis4 e d | \time 4/4 fis^! e^! r4
   e4 | \time 3/4 fis fis a | d4. e8 d4 | cis4 d b | \time 4/4 b-! a-! r4
   a4 | \time 3/4 a b cis | d2 cis8. d16 | e4. d8 e4 | fis4 d
   d8. ~ d16 | d4. cis8 b4 | a4( d) cis | d2. |
@@ -74,6 +74,7 @@ notesAlto = {
 \global
 \relative e' {
 
+  % TODO add accents to alto voice (for MIDI at least)
   \changePitch \patternA { d | d d d | d d d | d d d | d cis r }
   \changePitch \patternB { cis | d d e | fis g fis | e gis gis | a a r }
   \changePitch \patternC { g | fis g g | fis e fis | g fis g | a fis }
@@ -108,6 +109,7 @@ notesBass = {
 \global
 \relative f {
 
+  % TODO add accents to bass voice (for MIDI at least)
   \changePitch \patternA { d | d d d | d d d | d d d | a a r }
   \changePitch \patternB { a | d d cis | b cis d | e e e | a, a r }
   \changePitch \patternC { a | a' g e | d e d | a a a | d d }
