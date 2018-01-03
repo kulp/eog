@@ -9,10 +9,10 @@
   %gospel
   hymnnumber = "125"
   title = "Who Shall Give Me Rest?" % not found at hymnary.org
-  tunename = "" % see https://hymnary.org/tune/was_mein_herz_erfreut_gnac1890
+  tunename = "Was mein Herz erfreut" % see https://hymnary.org/tune/was_mein_herz_erfreut_gnac1890
   meter = "P. M."
-  poet = "Russian Hymn" % hymnary.org makes this doubtful
-  composer = "From the Russian" % hymnary.org makes this doubtful
+  poet = ""
+  composer = "Gesangbuch mit Noten, 1890" % see https://hymnary.org/tune/was_mein_herz_erfreut_gnac1890
   tagline = ##f
 }
 
