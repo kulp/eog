@@ -108,7 +108,7 @@ Re -- ceived His word, and died.
 wordsC = \lyricmode {
 \set stanza = "3."
 
-Thous -- sands be -- sides have looked to Him,
+Thou -- sands be -- sides have looked to Him,
 Who might -- y is to save;
 And proved the truth of God’s own Word:
 The soul that looks shall live.
