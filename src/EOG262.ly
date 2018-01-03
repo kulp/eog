@@ -180,7 +180,7 @@ wordsG = \markuplist {
 \line { { \hspace #4 } Nevermore! }
 \line { { \hspace #2 } Earth’s sad story }
 \line { { \hspace #2 } Closed in glory, }
-\line { { \hspace #2 } Closed in glory }
+\line { { \hspace #2 } Closed in glory, }
 \line { { \hspace #4 } On yon shore. }
 
 }
