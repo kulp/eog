@@ -226,11 +226,12 @@ wordsF = \markuplist {
 }
 
 \markup {
-\vspace #2 % need space between title (evenHeaderMarkup) and verses
+\vspace #1.5 % need space between title (evenHeaderMarkup) and verses
 \fill-line { \column {
   \line{ \bold 5 \column { \wordsE } }
-  \vspace #1
+  \vspace #0.8
   \line{ \bold 6 \column { \wordsF } }
+  \vspace #0.8
 } } }
 
 \markup { \fill-line { \line { Alternate tune: No. 5 in Supplement. } } }
