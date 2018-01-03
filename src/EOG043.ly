@@ -161,7 +161,7 @@ wordsD = \markuplist {
 \line { { \hspace #2 } Jesus, Jesus, Jesus. }
 \line { Now seated on the Father’s throne, }
 \line { Elect and precious cornerstone, }
-\line { On Him we rest — on Him alone. }
+\line { On Him we rest—on Him alone. }
 \line { { \hspace #2 } Jesus, Jesus, Jesus. }
 
 }

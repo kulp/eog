@@ -113,7 +113,7 @@ Has pur -- chased me.
 
 wordsD = \markuplist {
 
-\line { Hear His loving voice — }
+\line { Hear His loving voice—}
 \line { { \hspace #2 } Jesus calleth still, }
 \line { Waits with heaven’s divinest joys }
 \line { { \hspace #2 } Your heart to fill. }

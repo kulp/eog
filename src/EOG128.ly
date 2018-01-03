@@ -138,7 +138,7 @@ Whose glo -- ry knows no bounds.
 wordsD = \markuplist {
 
 \line { Jesus the Christ, on earth His name, }
-\line { He came — in love to sinners came — }
+\line { He came—in love to sinners came—}
 \line { { \hspace #2 } And bowed His head and died; }
 \line { A full atonement now is made, }
 \line { The ransom, by His death, is paid, }

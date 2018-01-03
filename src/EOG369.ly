@@ -185,7 +185,7 @@ extraA = \markuplist {
 \line { He left His bright home, His glorious throne, }
 \line { { \hspace #2 } To die upon Calvary’s tree; }
 \line { His blood there was spilt, to cleanse me from guilt, }
-\line { { \hspace #2 } He died — He lives for me. }
+\line { { \hspace #2 } He died—He lives for me. }
 
 }
 

@@ -131,7 +131,7 @@ wordsF = \markuplist {
 
 \line { And so He died, and rose again; }
 \line { He lives on high at God’s right hand; }
-\line { Soon He’ll return for us from heaven — }
+\line { Soon He’ll return for us from heaven—}
 \line { For those whose sins have been forgiven. }
 
 }

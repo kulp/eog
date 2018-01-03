@@ -121,7 +121,7 @@ wordsD = \markuplist {
 
 \line { But though I cannot tell or sing or know }
 \line { The fullness of Thy love while here below, }
-\line { My empty vessel I may freely bring — }
+\line { My empty vessel I may freely bring—}
 \line { O Thou who art of love the living spring, }
 \line { { \hspace #2 } My vessel fill. }
 
@@ -129,10 +129,10 @@ wordsD = \markuplist {
 
 wordsE = \markuplist {
 
-\line { I \italic am an empty vessel — scarce one thought }
+\line { I \italic am an empty vessel—scarce one thought }
 \line { Or look of love to Thee I’ve ever brought; }
 \line { Yet I \italic may come, and come again to Thee }
-\line { With this, the needy children’s only plea — }
+\line { With this, the needy children’s only plea—}
 % `\italic { }` would get stripped in getlyrics
 \line { { \hspace #2 } \italic “Thou \italic lovest \italic me!” }
 

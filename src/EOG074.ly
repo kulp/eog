@@ -116,7 +116,7 @@ wordsA = \markuplist {
 \line { The Spirit will apply }
 \line { { \hspace #2 } His blood to cleanse each stain, }
 \line { O burdened soul, draw nigh, }
-\line { { \hspace #2 } For none can come in vain — }
+\line { { \hspace #2 } For none can come in vain—}
 \line { { \hspace #4 } Come, come, come. }
 
 }
@@ -130,7 +130,7 @@ wordsB = \markuplist {
 \line { Oh, do not doubt His word, }
 \line { { \hspace #2 } There’s pardon full and free, }
 \line { For justice smote the Lord, }
-\line { { \hspace #2 } And sheathes her sword for thee — }
+\line { { \hspace #2 } And sheathes her sword for thee—}
 \line { { \hspace #4 } Come, come, come. }
 
 }

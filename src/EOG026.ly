@@ -143,7 +143,7 @@ wordsF = \markuplist {
 \line { Which shut up the world to its folly and strife, }
 \line { But opened a passage from death unto life.       }
 \line { Are you ruined and helpless? God offers to you   }
-\line { A free, full salvation — and nothing to do!      }
+\line { A free, full salvation—and nothing to do!        }
 
 }
 

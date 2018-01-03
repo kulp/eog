@@ -120,7 +120,7 @@ wordsD = \markuplist {
 
 \line { Now no barrier to hinder, }
 \line { { \hspace #2 } Jesus has removed it all; }
-\line { God can in His Son receive thee — }
+\line { God can in His Son receive thee—}
 \line { { \hspace #2 } Answer then His loving call. }
 
 }
