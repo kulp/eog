@@ -7,10 +7,10 @@
   %gospel
   hymnnumber = "28"
   title = "Oh, What a Saviour Is Jesus the Lord!"
-  tunename = "Joyfully"
-  meter = "6—10s. Dactylic" % original has 4—10s. Dactylic
-  poet = "Albert Midlane" % inferred ; not found on hymnary.org
-  composer = ""
+  tunename = "Triumph" % see https://hymnary.org/tune/triumph_merrill
+  meter = "P. M. with Refrain" % original has 4—10s. Dactylic
+  poet = "Thomas Kelly" % see https://bibletruthpublishers.com/oh-what-a-saviour-is-jesus-the-lord/thomas-kelly/little-flock-hymnbook/hymnbooks/la79527 ; some sources say "Albert Midlane" but this is probably just the compiler
+  composer = "Abraham D. Merrill" % see https://hymnary.org/person/Merrill_AD
   tagline = ##f
 }
 
