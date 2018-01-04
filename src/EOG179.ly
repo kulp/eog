@@ -89,7 +89,7 @@ wordsB = \lyricmode {
 \set stanza = "2."
 
 Ev -- ’ry -- thing loss for Him be -- low,
-Tak -- ing the cross wher -- e’re we go;
+Tak -- ing the cross wher -- e’er we go;
 Show -- ing to all, where once He trod,
 Noth -- ing but Christ— the Christ of God.
 
