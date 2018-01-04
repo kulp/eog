@@ -90,7 +90,7 @@ wordsA = \lyricmode {
 And is it so— I shall be like Thy Son? \bar "."
 Is this the grace which He for me has won? \bar "."
 Fa -- ther of glo -- ry (thought be -- yond all thought!)— \bar "."
-In glo -- ry, to His own blest like -- ness bro’t! \bar "."
+In glo -- ry, to His own blest like -- ness brought! \bar "."
 
 }
 

@@ -128,7 +128,7 @@ Je -- sus my Shep -- herd is,
 ’Twas He that made me whole:
 ’Twas He that sought the lost,
 That found the wan -- d’ring sheep;
-’Twas He that bro’t me to the fold,
+’Twas He that brought me to the fold,
 ’Tis He that still doth keep.
 
 }

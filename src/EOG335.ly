@@ -142,7 +142,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Je -- sus loves me, and I know I love Him,
-Love bro’t Him down my poor soul to re -- deem;
+Love brought Him down my poor soul to re -- deem;
 Yes, it was love made Him die on the tree;
 Oh, I am cer -- tain that Je -- sus loves me.
 

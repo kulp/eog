@@ -88,7 +88,7 @@ To come to earth to die? \bar "."
 wordsB = \lyricmode {
 \set stanza = "2."
 
-’Twas love, pure love, which bro’t Him from
+’Twas love, pure love, which brought Him from
 A -- bove the bright blue sky;
 ’Twas love, pure love, which made Him come
 To suf -- fer, bleed and die.

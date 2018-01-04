@@ -93,7 +93,7 @@ wordsB = \lyricmode {
 How free is the par -- don His blood has pro -- cured!
 How bless -- ed the wel -- come His name has en -- sured
 To all who con -- fess Him their Sav -- iour and Lord,
-Now bro’t in -- to fa -- vor, be -- liev -- ing His Word.
+Now brought in -- to fa -- vor, be -- liev -- ing His Word.
 
 }
 

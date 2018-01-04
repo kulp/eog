@@ -94,7 +94,7 @@ wordsB = \lyricmode {
 
 By na -- ture and by prac -- tice far,
 How ver -- y far from God!
-Yet now, by grace, bro’t nigh to Him,
+Yet now, by grace, brought nigh to Him,
 Thro’ faith in Je -- sus’ blood.
 
 }

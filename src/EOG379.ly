@@ -100,7 +100,7 @@ wordsC = \lyricmode {
 God is love, I sure -- ly know,
 In the Sav -- iour’s depth of woe,
 In the Sin -- less, in God’s sight,
-Sin is just -- ly bro’t to light.
+Sin is just -- ly brought to light.
 
 }
 

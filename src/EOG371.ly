@@ -135,7 +135,7 @@ wordsC = \lyricmode {
 \set stanza = "3."
 
 Oh! the love that drew sal -- va -- tion’s plan,
-Oh! the grace that bro’t it down to man,
+Oh! the grace that brought it down to man,
 Oh! the might -- y gulf that God did span
 At Cal -- va -- ry.
 

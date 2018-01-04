@@ -83,7 +83,7 @@ notesBass = {
 wordsA = \lyricmode {
 \set stanza = "1."
 
-When moth -- ers of Sa -- lem their chil -- dren bro’t to Je -- sus, \bar "."
+When moth -- ers of Sa -- lem their chil -- dren brought to Je -- sus, \bar "."
 The stern dis -- ci -- ples drove them back and bade them de -- part; \bar "."
 But Je -- sus saw them ere they fled, \bar "."
 And took them in His arms and said, \bar "."
