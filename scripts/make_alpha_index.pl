@@ -11,7 +11,7 @@ my $count = shift;
 my @list;
 my %uniq;
 
-my $width_threshold = 100;
+my $width_threshold = 101;
 my @widths = (
     [ qw() ],
     [ qw(; : ‘ ’ . , !) ],
