@@ -188,7 +188,7 @@ near -- er, near -- er
       \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = basses { \voiceTwo << \notesBass >> }
     >>
-    \new Lyrics \with { alignBelowContext = men } \lyricsto basses \BassRefrain
+    \new Lyrics \with { alignAboveContext = men } \lyricsto basses \BassRefrain
   >>
   \layout {
     \include "common/layout.ily"
