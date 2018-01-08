@@ -102,14 +102,7 @@ notesBass = {
 
   \changePitch \patternBA { d' d   | d b fis g  | d    }
   \changePitch \patternBA { d' d   | d b fis g  | d    }
-  <<
   \changePitch \patternBB { c' c   | c b a gis  | a g! }
-  {
-  \tweak font-size #-4 c,2 |
-  \tweak font-size #-4 c2
-  \tweak font-size #-4 c4
-  \tweak font-size #-4 e4 }
-  >>
   \changePitch \patternBA { fis c' | b g d d    | g    }
 
 }
