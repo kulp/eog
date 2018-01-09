@@ -11,7 +11,7 @@
   title = "Make Room for Him"
   tunename = "" % not found at hymnary.org
   meter = "C. M. D. with Refrain"
-  poet = "A. A. P." % not found at hymnary.org
+  poet = "" % not found at hymnary.org
   composer = "George C. Stebbins" % not found at hymnary.org
   tagline = ##f
 }
