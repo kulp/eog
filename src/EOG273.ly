@@ -16,7 +16,7 @@
 }
 
 ta = { \tempo 4=120 }
-tb = { \tempo 4=60 }
+tb = { \tempo 4=40 } % this fermata feels as though it should be longer than most
 
 global = {
   \include "common/overrides.ily"
@@ -44,7 +44,7 @@ notesSoprano = {
   << s^\markup { \small \caps "Refrain" }
   { c'4. des8 ees4 aes, | aes4. bes8 aes4 des } >>
   des4 bes ges bes | aes2. r4 |
-  f2 ees8 des f ees | des4 des' bes \tb des\fermata \ta | % TODO make the fermata a bit longer ?
+  f2 ees8 des f ees | des4 des' bes \tb des\fermata \ta |
   aes4 f8 des ees4 ees8 des8 | des2. r4 |
 
   \bar "|."
