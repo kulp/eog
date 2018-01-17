@@ -58,7 +58,7 @@ notesAlto = {
   \once \override NoteHead.font-size = #-4 b4 |
   b2 b4 b | d2 b4 d | c2 c4 c | b2 b4
   b4 | b2 d4 g | g2 g4 g | g2 a4 cis, | fis2.
-  b,4 | b2 b4 b | d2 b4 d | c2 c4 c | b2 b4
+  d4 | b2 b4 b | d2 b4 d | c2 c4 c | b2 b4
   b4 | e2 d4 c | b2 cis4 cis | d2 fis4 fis | d2.
 
   g4 | g2 g4 g | g2 g4
