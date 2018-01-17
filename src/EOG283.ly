@@ -35,7 +35,7 @@ notesSoprano = {
   a2 | cis b4( a) | b2 a4( gis) | \tb a2\fermata \ta
   b2 | cis e | d cis | \tb b\fermata \ta \eogbreak
   e,2 | a a4( gis) | fis2 fis | b b4( a) | gis2
-  e2 | fis d' cis b | \tb a\fermata \ta % TODO review this fermata, not in original
+  e2 | fis d' cis b | \tb a\fermata \ta
 
   \bar "|."
 
