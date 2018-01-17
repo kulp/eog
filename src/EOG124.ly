@@ -40,11 +40,11 @@ notesSoprano = {
   d,4 | d2 d4 g | b2 g4 b | b( a) e fis | g2 d4 \eogbreak
   g4 | g2 fis4 e | d2 g4 a | b2 a4 a | g2. \eogbreak
 
-  << s^\markup { \small \caps "Refrain" } % TODO arrange REFRAIN and dynamic forte appropriately
-  { b4^\markup \dynamic f | d2 d4 e d2 b4 } >>
-  b^\markup \dynamic p | b2 b4 c | b2 a4
+  << s^\markup { \small \caps "Refrain" }
+  { b4^\f | d2 d4 e d2 b4 } >>
+  b^\p | b2 b4 c | b2 a4
   g4 | g2 fis4 e | d2 \tb g4 \fermata \ta
-  g4^\markup \dynamic pp | g( fis) e \tb fis \fermata | g1 \fermata \ta |
+  g4^\pp | g( fis) e \tb fis \fermata | g1 \fermata \ta |
 
   \bar "|."
 
