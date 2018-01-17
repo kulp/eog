@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  % TODO increase intra-system spacing
   \include "override/override-EOG328.ily"
 }
 
@@ -135,6 +134,7 @@ Sal -- va -- tion through His blood. \bar "."
   >>
   \layout {
     \include "common/layout.ily"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #4
   }
   #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
