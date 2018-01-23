@@ -11,10 +11,10 @@ our $crop_threshold = 72; # points of smallest reasonable croppable thing
 my $prev_height =  0; # points
 my $prev_clip   = undef; # stringified boolean
 my $prev_name   = "";
-my $scale       = 1.062; # ideally this value would be computed, but for now it is empirical
+my $scale       = 1.083; # ideally this value would be computed, but for now it is empirical
 my $pre_fudge   = 0.25; # compensate for rounding error in ImageMagick
 my $fudge       = 1 + ($pre_fudge * $scale); # empirical adjustment for scaling
-my $max_height  = 9*72-36-36-$fudge; # post-scaled maximum point height (9 inch page minus half-inch borders)
+my $max_height  = 9*72-30-30-$fudge; # post-scaled maximum point height (9 inch page minus top and bottom borders)
 
 print q(\centering), "\n";
 
