@@ -196,16 +196,11 @@ wordsF = \markuplist {
   } #}))
 }
 
-\markup { \vcenter \column {
+\markup { \fill-line { \vcenter \column {
   \vspace #1
-  \fill-line {
-    \null
-    \line{ \bold 5 \column { \wordsE } }
-    \null
-    \line{ \bold 6 \column { \wordsF } }
-    \null
-  }
-} }
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
+  \line{ \bold 6 \column { \wordsF } }
+} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 

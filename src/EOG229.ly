@@ -185,19 +185,16 @@ wordsG = \markuplist {
   } #}))
 }
 
-\markup { \vcenter \fill-line {
-  \null
-  \column {
-  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #1
-  \line{ \bold 5 \column { \wordsE } }
-  }
-  \null
-  \column {
-  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #1
+% Slightly less vspace is used to separate verses than is usual, in order to
+% fit the verses vertically on the page. They could be arranged in two columns,
+% but that leaves a lot of system-system spacing.
+\markup { \fill-line { \vcenter \column {
+  \vspace #1
+  \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.3
+  \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.3
+  \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.3
   \line{ \bold 7 \column { \wordsG } }
-  }
-  \null
-} }
+} } }
 
 \version "2.19.49"  % necessary for upgrading to future LilyPond versions.
 
