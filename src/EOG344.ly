@@ -11,7 +11,7 @@
   tunename = ""
   meter = "P. M. with Refrain"
   poet = "A. N." % see https://hymnary.org/text/jesus_my_savior_to_bethlehem_came
-  composer = "E. E. Hasty (Arr.)" % see https://hymnary.org/tune/jesus_my_savior_to_bethlehem_came_hasty
+  composer = "E. E. Hasty (arr.)" % see https://hymnary.org/tune/jesus_my_savior_to_bethlehem_came_hasty
   tagline = ##f
 }
 

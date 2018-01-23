@@ -9,7 +9,7 @@
   title = "Have You Any Room for Jesus?"
   tunename = "Any Room" % see https://hymnary.org/tune/have_you_any_room_for_jesus_williams
   meter = "8. 7. 8. 7. D."
-  poet = "El Nathan (Arr.)" % aka D. W. Whittle
+  poet = "El Nathan (arr.)" % aka D. W. Whittle
   composer = "C. C. Williams" % see https://hymnary.org/person/Williams_CC
   tagline = ##f
 }

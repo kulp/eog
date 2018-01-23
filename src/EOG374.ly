@@ -10,7 +10,7 @@
   title = "Oh Come to Jesus, Sinner, Come"
   tunename = "None But Christ"
   meter = "C. M. with Refrain"
-  poet = "J. T. Armet (Arr.)" % not found at hymnary.org ; probably John Telford Armet ; see https://bibletruthpublishers.com/john-telford-armet-books/lubl44
+  poet = "J. T. Armet (arr.)" % not found at hymnary.org ; probably John Telford Armet ; see https://bibletruthpublishers.com/john-telford-armet-books/lubl44
   composer = "James McGranahan" % see https://hymnary.org/tune/none_but_christ_mcgranahan
   tagline = ##f
 }
