@@ -140,8 +140,6 @@ Stooped to do and die,
 Ev -- ’ry -- thing was ful -- ly done:
 { \mon } Heark -- en { \moff } to His cry—
 
-\Refrain
-
 }
 
 wordsC = \lyricmode {
@@ -151,6 +149,8 @@ Wear -- y, work -- ing, bur -- dened one,
 Where -- fore toil you so?
 Cease your do -- ing; all was done
 Long, long a -- go.
+
+\Refrain
 
 }
 
