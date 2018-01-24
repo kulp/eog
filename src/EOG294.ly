@@ -114,8 +114,6 @@ Each one will be ar -- rayed!
 Dwell -- ing in ev -- er -- last -- ing light,
 And joys that nev -- er fade,
 
-\Refrain
-
 }
 
 wordsC = \lyricmode {
@@ -125,6 +123,8 @@ What brings them to that world a -- bove,
 That heaven so bright and fair,
 Where all is peace, and joy, and love?
 How came those chil -- dren there?
+
+\Refrain
 
 }
 
