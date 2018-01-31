@@ -238,6 +238,7 @@ COVERS += booklayout/cover-standard-paperback.pdf
 COVERS += booklayout/cover-premium-paperback.pdf
 COVERS += booklayout/cover-coilbound.pdf
 COVERS += booklayout/cover-casewrap.pdf
+COVERS += booklayout/cover-casewrap-ingram.pdf
 cover: $(COVERS)
 
 $(COVERS): booklayout/cover-base.tex
