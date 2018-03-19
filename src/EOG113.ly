@@ -156,7 +156,7 @@ wordsC = \lyricmode {
 
 On -- ly a step to Je -- sus!
 A step from sin to grace;
-What hast thy heart de -- ci -- ded?
+What has thy heart de -- ci -- ded?
 The mo -- ments fly a -- pace.
 
 }
