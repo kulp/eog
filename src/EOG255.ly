@@ -135,7 +135,7 @@ wordsE = \markuplist {
 
     \vspace #1
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \null
 
       \column {

@@ -171,7 +171,7 @@ wordsG = \markuplist {
 
 \noPageBreak
 
-\markup { \vcenter \column {
+\markup { \fontsize #0.3 \vcenter \column {
   \vspace #0.2 % not enough space for \vspace #1
   \fill-line {
     \null

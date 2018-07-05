@@ -162,7 +162,7 @@ wordsF = \markuplist {
   } #}))
 }
 
-\markup { \vcenter \column {
+\markup { \fontsize #0.3 \vcenter \column {
   \vspace #1
   \fill-line {
     \null

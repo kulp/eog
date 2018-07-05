@@ -57,7 +57,7 @@ wordsG = \markuplist {
 
 }
 
-extraVersesMarkup = \markup { \column {
+extraVersesMarkup = \markup { \fontsize #0.3 \column {
   \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
   \line{ \bold 6 \column { \wordsF } } \combine \null \vspace #0.4
   \line{ \bold 7 \column { \wordsG } }

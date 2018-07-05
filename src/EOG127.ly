@@ -155,7 +155,7 @@ wordsC = \markuplist {
       }
     }
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \column {
         \vspace #2 \line { \bold 1 \column { \wordsA } }
         \vspace #2 \line { \column { \italic { Refrain: } \column { \Refrain } } }

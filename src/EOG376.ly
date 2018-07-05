@@ -227,7 +227,7 @@ wordsF = \markuplist {
 
 \markup {
 \vspace #1.5 % need space between title (evenHeaderMarkup) and verses
-\fill-line { \column {
+\fontsize #0.3 \fill-line { \column {
   \line{ \bold 5 \column { \wordsE } }
   \vspace #0.8
   \line{ \bold 6 \column { \wordsF } }

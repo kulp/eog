@@ -165,7 +165,7 @@ wordsF = \markuplist {
 }
 
 \markup { \column {
-  \fill-line { \vcenter \column {
+  \fontsize #0.3 \fill-line { \vcenter \column {
     \vspace #1
     \line{ \bold 5 \column { \wordsE } } \combine \null \vspace #0.4
     \line{ \bold 6 \column { \wordsF } }

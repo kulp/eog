@@ -158,7 +158,7 @@ wordsC = \markuplist {
 
     \vspace #1
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \null
       \line{ \bold 1 \column { \wordsA } }
       \null
@@ -178,7 +178,7 @@ wordsC = \markuplist {
           \line{ \smaller { on opposite page } }
         }
       }
-      \line{ \bold 3 \column { \wordsC } }
+      \fontsize #0.3 \line{ \bold 3 \column { \wordsC } }
       \null
     }
   }

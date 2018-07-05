@@ -164,7 +164,7 @@ wordsD = \markuplist {
 
     \vspace #0.3
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \null
 
       \column {

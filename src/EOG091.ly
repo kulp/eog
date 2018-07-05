@@ -161,7 +161,7 @@ wordsE = \markuplist {
 
 \markup { \vcenter \column {
   \vspace #1
-  \fill-line {
+  \fontsize #0.3 \fill-line {
     \null
     \line{ \bold 4 \column { \wordsD } }
     \null

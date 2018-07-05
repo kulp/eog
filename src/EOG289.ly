@@ -188,7 +188,7 @@ wordsH = \markuplist {
 
 \noPageBreak
 
-\markup { \vcenter \column {
+\markup { \fontsize #0.3 \vcenter \column {
   % no vspace here - empirically the standard #1 was too much
   \fill-line {
     \null

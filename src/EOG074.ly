@@ -164,7 +164,7 @@ wordsC = \markuplist {
 
     \vspace #0.5
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \null
       \line{ \bold 1 \column { \wordsA } }
       \null
@@ -174,7 +174,7 @@ wordsC = \markuplist {
 
     \vspace #0.5
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \hcenter-in #35
       \center-column {
         \vspace #1

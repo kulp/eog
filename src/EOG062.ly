@@ -141,7 +141,7 @@ wordsE = \markuplist {
       }
     }
 
-    \fill-line {
+    \fontsize #0.3 \fill-line {
       \column {
         \vspace #1 \line { \bold 1 \column { \wordsA } }
         \vspace #1 \line { \bold 2 \column { \wordsB } }
