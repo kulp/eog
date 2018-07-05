@@ -151,10 +151,10 @@ wordsE = \markuplist {
 
 \markup { \fontsize #0.3 \column {
   \fill-line { \vcenter \column {
-    \vspace #1
+    \vspace #0.8 % not enough space for \vspace #1
     \line{ \bold 4 \column { \wordsD } } \combine \null \vspace #0.4
     \line{ \bold 5 \column { \wordsE } }
-    \vspace #1
+    \vspace #0.8 % not enough space for \vspace #1
   } }
   \fill-line { \line { Alternate tune: No. 169. } }
 } }
