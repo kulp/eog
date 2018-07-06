@@ -189,7 +189,7 @@ wordsH = \markuplist {
 \noPageBreak
 
 \markup { \fontsize #0.3 \vcenter \column {
-  % no vspace here - empirically the standard #1 was too much
+  \vspace #1
   \fill-line {
     \null
     \column {
