@@ -180,6 +180,7 @@ Sweet peace, the gift of God’s love.
   >>
   \layout {
     \include "common/layout.ily"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.6
   }
   #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
