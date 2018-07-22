@@ -158,18 +158,18 @@ wordsD = \markuplist {
       }
     }
 
-    \vspace #0.3
+    \vspace #0.4
 
     \fill-line \smaller { "Sing to tune No. 57 or No. 58" } % original has "tunes"
 
-    \vspace #0.3
+    \vspace #1
 
     \fontsize #0.3 \fill-line {
       \null
 
       \column {
         \line{ \bold 1 \column { \wordsA } }
-        \vspace #1
+        \vspace #1.2
         \line{ \bold 2 \column { \wordsB } }
       }
 
@@ -177,9 +177,9 @@ wordsD = \markuplist {
 
       \column {
         \line{ \bold 3 \column { \wordsC } }
-        \vspace #1
+        \vspace #1.2
         \line{ \bold 4 \column { \wordsD } }
-        \vspace #0.6
+        \vspace #1.2
         \line{ \hspace #20 "I. Fleming" }
       }
 

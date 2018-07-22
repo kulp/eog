@@ -41,7 +41,7 @@ notesSoprano = {
 \global
 \relative c'' {
 
-  \changePitch \patternAA { bes ees g, | bes( aes) g | f ees f | g } \eogpagebreak
+  \changePitch \patternAA { bes ees g, | bes( aes) g | f ees f | g }
   \changePitch \patternAA { bes ees g, | bes( aes) g | aes g f | g }
   \changePitch \patternBA { f g aes | g aes bes }
   \changePitch \patternAD { c ees d c | bes aes g \fermata }
@@ -95,7 +95,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Why un -- be -- liev -- ing? { \bar "." } Why wilt thou spurn \bar "."
-Love that so gen -- tly { \bar "." } pleads thy re -- turn? \bar "."
+Love that so gen -- tly { \bar "." \eogpagebreak } pleads thy re -- turn? \bar "."
 Come, ere thy fleet -- ing day \bar "."
 Fades in -- to night a -- way; \bar "."
 Now mer -- cy’s call o -- bey; \bar "."
