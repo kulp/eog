@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  \include "override/override-EOG378.ily"
 }
 
 \header{
@@ -158,6 +159,7 @@ Here and when we come to heav -- en.
   >>
   \layout {
     \include "common/layout.ily"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.3
   }
   #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"

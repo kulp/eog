@@ -1,6 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
+  \include "override/override-EOG078.ily"
 }
 
 \header{
@@ -232,7 +233,7 @@ wordsE = \markuplist {
 }
 
 \markup { \fontsize #0.3 \vcenter \column {
-  \vspace #1
+  \vspace #0.9 % not enough space for \vspace #1
   \fill-line {
     \null
     \line{ \bold 4 \column { \wordsD } }
