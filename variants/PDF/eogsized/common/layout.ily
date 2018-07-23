@@ -11,7 +11,7 @@
     % Center lyrics between related staves
     \override VerticalAxisGroup.staff-affinity = #CENTER
     % Keep enough space between lyrics and their notes
-    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #2
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.8
 }
 \context {
     \Voice

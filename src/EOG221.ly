@@ -192,7 +192,6 @@ near -- er, near -- er
   >>
   \layout {
     \include "common/layout.ily"
-    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.9
   }
   #(cond ((ly:get-option 'eog-midi-permitted) #{ \midi{
     \include "common/midi.ily"
