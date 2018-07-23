@@ -238,7 +238,7 @@ headB = \markuplist {
 \line { the preceding, using the same refrain.) }
 }
 
-\markup { \fill-line { \vcenter \center-column {
+\markup { \fontsize #0.3 \fill-line { \vcenter \center-column {
   \vspace #0.8
   \line{ \column { \headA } } \combine \null \vspace #0.4
   \line{ \column { \headB } } \combine \null \vspace #1.2
