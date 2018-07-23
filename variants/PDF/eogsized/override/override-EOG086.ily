@@ -1,1 +1,1 @@
-system-system-spacing.padding = 7
+system-system-spacing.padding = 5
