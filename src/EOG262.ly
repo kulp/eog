@@ -1,7 +1,6 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  ragged-bottom = ##t
 }
 
 \header{
