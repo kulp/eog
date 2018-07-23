@@ -239,7 +239,7 @@ headB = \markuplist {
 }
 
 \markup { \fontsize #0.3 \fill-line { \vcenter \center-column {
-  \vspace #0.8
+  \vspace #1
   \line{ \column { \headA } } \combine \null \vspace #0.4
   \line{ \column { \headB } } \combine \null \vspace #1.2
   \column {
