@@ -39,7 +39,7 @@ notesSoprano = {
   \eogbreak
   << s^\markup { \small \caps "Refrain" }
   { b4 b b | b2 a4 | cis a fis | e2 } >>
-  e4 | e a cis | cis4. b8 a4 | b4. a8 b4 | a2.
+  e4 | fis a d | cis4. b8 a4 | b4. a8 b4 | a2.
 
   \bar "|."
 
@@ -56,7 +56,7 @@ notesAlto = {
   cis4 | cis e e | e4. d8 cis4 | e4. e8 d4 | cis2.
 
   d4 d d | d2 cis4 | cis cis d | cis2
-  cis4 | cis e e | e4. d8 cis4 | e4. e8 d4 | cis2.
+  cis4 | d fis fis | e4. d8 cis4 | e4. e8 d4 | cis2.
 
 }
 }
@@ -86,7 +86,7 @@ notesBass = {
   a4 | a cis a | e'4. e8 e4 | e4. e8 e4 | a,2.
 
   e'4 e e | e2 fis4 | fis fis d | a2
-  a4 | a cis a | e'4. e8 e4 | e4. e8 e4 | a,2.
+  a4 | d d d | e4. e8 e4 | e4. e8 e4 | a,2.
 
 }
 }
