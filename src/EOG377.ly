@@ -108,7 +108,7 @@ wordsD = \markuplist {
 
 \line { “Revive Thy work, O Lord!” }
 \line { { \hspace #2 } Give power unto Thy Word, }
-\line { Grant that Thy blessed gospel may }
+\line { Grant that Thy blessèd gospel may }
 \line { { \hspace #2 } In living faith be heard. }
 
 }
