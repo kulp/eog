@@ -216,6 +216,8 @@ booklayout/revision.tex: FORCE
 booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
+booklayout/ebook.pdf: booklayout/ebook.tex booklayout/letterbook.tex booklayout/ebook_index.tex
+
 booklayout/metrical_insert.tex: booklayout/index.meter
 	@echo "[ INDEX ] $@"
 	scripts/make_metrical_index.pl < $< | scripts/format_metrical_index.pl > $@

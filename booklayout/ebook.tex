@@ -1,0 +1,37 @@
+\documentclass{book}
+\usepackage[margin=0in,paperwidth=8.5in,paperheight=11in]{geometry}
+
+\usepackage{afterpage}
+\usepackage{cabin}
+\usepackage{datetime2}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{luatextra}
+\usepackage[final]{microtype}
+\usepackage{multicol}
+\usepackage{nopageno}
+\usepackage[final]{pdfpages}
+
+\DTMsavenow{now}
+\renewcommand{\year}{\DTMfetchyear{now} }
+
+\hypersetup{
+    pdftitle={Echoes of Grace Hymn Book},
+    pdfauthor={Bible Truth Publishers},
+    colorlinks=false,
+    pageanchor=false
+}
+
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{TeX Gyre Schola}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\input{booklayout/ebook_index}
+
+\input{booklayout/letterbook}
+
+\end{document}
+
