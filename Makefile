@@ -1,6 +1,9 @@
 # All rules are subject to SECONDEXPANSION
 .SECONDEXPANSION:
 
+# Delete output files when recipes exit nonzero
+.DELETE_ON_ERROR:
+
 # Dependencies: lilypond, mp3info2, MP3::Tag (for mp3info2), id3v2, midish, zip, fluidsynth, lame
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
