@@ -40,3 +40,4 @@ booklayout/cover-premium-paperback.pdf
 booklayout/cover-casewrap-ingram.pdf
 variants/*/*/override/override-EOG*.ily
 booklayout/ebook.pdf
+booklayout/ebook_index.tex

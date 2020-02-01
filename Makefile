@@ -216,6 +216,9 @@ booklayout/revision.tex: FORCE
 booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
+CLEANFILES += booklayout/ebook_index.tex
+booklayout/ebook_index.tex: scripts/make_ebook_index.pl
+	$(realpath $<) > $@
 booklayout/ebook.pdf: booklayout/ebook.tex booklayout/letterbook.tex booklayout/ebook_index.tex
 
 booklayout/metrical_insert.tex: booklayout/index.meter
