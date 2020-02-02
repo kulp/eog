@@ -50,10 +50,6 @@ print <<'EOF';
 \hyperlink{metricalindex}{\textsc{Metrical Index of Tunes}}
 
 \hyperlink{firstlinesindex}{\textsc{Index of First Lines}}
-
-\hyperlink{gospelindex}{\textsc{Gospel Hymns}}
-
-\hyperlink{childrensindex}{\textsc{Children’s Hymns and Choruses}}
 EOF
 
 print for @nest;
