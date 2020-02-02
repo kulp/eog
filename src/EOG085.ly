@@ -133,7 +133,7 @@ wordsD = \markuplist {
 wordsE = \markuplist {
 
 \line { “The Spirit and the bride say, Come”; }
-\line { Rejoicing saints reecho, “Come.” }
+\line { Rejoicing saints re-echo, “Come.” }
 \line { Who faints, who thirsts, who will, may come, }
 \line { { \hspace #2 } The Saviour bids thee, come! }
 
