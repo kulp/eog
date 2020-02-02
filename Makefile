@@ -220,6 +220,7 @@ CLEANFILES += booklayout/ebook_index.tex
 booklayout/ebook_index.tex: scripts/make_ebook_index.pl
 	$(realpath $<) > $@
 booklayout/ebook.pdf: booklayout/ebook.tex booklayout/letterbook.tex booklayout/ebook_index.tex
+booklayout/ebook.pdf: $(LYS:%.ly=PDF/letter/%.pdf)
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
 booklayout/metrical_insert.tex: booklayout/index.meter
