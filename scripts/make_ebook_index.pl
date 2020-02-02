@@ -16,7 +16,7 @@ for (my $i = 0; $i <= 379; $i += 10) {
 \\hypertarget{$label}{}
 \\begin{multicols}{2}
 [
-\\section*{Hymns $start -- $end}
+\\section*{\\textsc{Hymns $start -- $end}}
 ]
 EOF
     for my $j (0..9) {
@@ -31,14 +31,14 @@ print <<'EOF';
 \newgeometry{margin=1in}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.5in}
+\setlength{\parskip}{0.3in}
 
 \centering
 \LARGE
 \hypertarget{topindex}{}
 \begin{multicols}{4}
 [
-\section*{All Hymns}
+\section*{\textsc{All Hymns}}
 ]
 EOF
 
@@ -46,6 +46,14 @@ print for @top;
 
 print <<'EOF';
 \end{multicols}
+
+\hyperlink{metricalindex}{\textsc{Metrical Index of Tunes}}
+
+\hyperlink{firstlinesindex}{\textsc{Index of First Lines}}
+
+\hyperlink{gospelindex}{\textsc{Gospel Hymns}}
+
+\hyperlink{childrensindex}{\textsc{Children’s Hymns and Choruses}}
 EOF
 
 print for @nest;

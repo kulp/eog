@@ -33,5 +33,63 @@
 
 \input{booklayout/letterbook}
 
+\newgeometry{tmargin=0.7in,bmargin=0.7in,inner=.5in,outer=.5in}
+
+\setlength{\parskip}{0pt}
+\setlength\topsep{0pt}
+\setlength\headsep{8pt}
+\setlength\partopsep{4pt plus \fill}
+\setlength\headheight{24pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\hypertarget{metricalindex}{}
+\fancyhead[C]{\large\textsc{Metrical Index of Tunes}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{multicols}{3}
+{\large
+\setlength\medskipamount{8pt plus 2pt minus 3pt}
+\setlength\baselineskip{0.2in}
+\input{metrical_insert.tex}
+}
+\end{multicols}
+
+\newpage
+\hypertarget{firstlinesindex}{}
+\fancyhead[C]{\large\textsc{Index of First Lines}}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\columnsep}{12pt}
+\begin{multicols}{2}
+{\large
+\setlength\baselineskip{0.2in}
+\input{first_insert.tex}
+}
+\end{multicols}
+\bigbreak
+
+\hypertarget{gospelindex}{}
+{\hfill\large\textsc{Gospel Hymns}\hfill}
+\begin{multicols}{2}
+{\large
+\setlength\baselineskip{0.2in}
+\input{gospel_insert.tex}
+}
+\end{multicols}
+\bigbreak
+
+\hypertarget{childrensindex}{}
+{\hfill\large\textsc{Children’s Hymns and Choruses}\hfill}
+\begin{multicols}{2}
+{\large
+\setlength\baselineskip{0.2in}
+\input{children_insert.tex}
+}
+\end{multicols}
+\noindent\rule{0.5\textwidth}{.4pt}
+
+\restoregeometry
+
 \end{document}
 
