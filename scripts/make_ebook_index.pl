@@ -27,6 +27,8 @@ EOF
     push @nest, qq(\\end{multicols}\n);
 }
 
+push @top, qq(\\hyperlink{EOGa01}{Add'l tunes}\n\n);
+
 print <<'EOF';
 \newgeometry{margin=1in}
 
