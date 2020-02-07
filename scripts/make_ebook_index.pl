@@ -33,7 +33,7 @@ print <<'EOF';
 \newgeometry{margin=1in}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.3in}
+\setlength{\parskip}{0.4in}
 
 \centering
 \LARGE
