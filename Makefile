@@ -92,7 +92,7 @@ EOG_midi_pdf.zip: $(PDFS) $(MIDIS) README.txt
 # MP3 generation in this Makefile.
 index: vanilla index.html
 CLEANFILES += index.html
-index.html: pdf midi mp3 m3u latin
+index.html: pdf midi mp3 m3u latin ebook
 	@echo "[ HTML ] $@"
 	scripts/make_index.pl > $@ || (rm $@ ; false)
 
@@ -222,6 +222,8 @@ booklayout/ebook_index.tex: scripts/make_ebook_index.pl
 booklayout/ebook.pdf: booklayout/ebook.tex booklayout/letterbook.tex booklayout/ebook_index.tex
 booklayout/ebook.pdf: $(LYS:%.ly=PDF/letter/%.pdf)
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
+
+ebook: booklayout/ebook.pdf
 
 booklayout/metrical_insert.tex: booklayout/index.meter
 	@echo "[ INDEX ] $@"
