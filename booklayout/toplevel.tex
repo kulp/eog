@@ -3,7 +3,6 @@
 
 \usepackage{afterpage}
 \usepackage{cabin}
-\usepackage{datetime2}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
@@ -11,9 +10,6 @@
 \usepackage[final]{microtype}
 \usepackage{multicol}
 \usepackage{nopageno}
-
-\DTMsavenow{now}
-\renewcommand{\year}{\DTMfetchyear{now} }
 
 \hypersetup{
     pdftitle={Echoes of Grace Hymn Book},
@@ -45,7 +41,7 @@
 \vspace*{\fill}
 \begin{center}
 Printed in the U.S.A.\\
-\year Edition\\
+\the\year{} Edition\\
 Revision \input{booklayout/revision}\\
 \url{http://purl.org/echoesofgrace}
 \end{center}
@@ -54,7 +50,7 @@ Revision \input{booklayout/revision}\\
 
 
 \vspace*{1.5in}
-\noindent\hfil{\textbf{Preface for the \year Edition}}\hfil
+\noindent\hfil{\textbf{Preface for the \the\year{} Edition}}\hfil
 
 The {\textit{}Echoes of Grace Hymn Book} is a collection of songs selected for
 use in gospel work with adults and children as well as for the enjoyment and
