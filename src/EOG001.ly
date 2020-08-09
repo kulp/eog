@@ -9,7 +9,7 @@
   title = "“Come!” ’Tis Jesus Gently Calling"
   tunename = "Trust in Jesus" % original has "’Tis So Sweet to Trust in Jesus"
   meter = "8. 7. 8. 7. D."
-  poet = "John J. Overholt" % see https://hymnary.org/text/come_tis_jesus_gently_calling_ye_with_ca % original has "Annie S. Ormsby"
+  poet = "Annie S. Ormsby"
   composer = "William J. Kirkpatrick" % see https://hymnary.org/tune/trust_in_jesus_kirkpatrick
   tagline = ##f
 }
