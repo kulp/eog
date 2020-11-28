@@ -1,4 +1,4 @@
-\version "2.19.49"
+\version "2.20.0"
 %% version Y/M/D = 2014/08/10
 %% for lilypond 2.16 or higher
 %% http://lsr.di.unimi.it/LSR/Item?id=654

@@ -154,6 +154,6 @@ That we with Thee are one.
   } #}))
 }
 
-\version "2.19.49"  % necessary for upgrading to future LilyPond versions.
+\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
