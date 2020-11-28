@@ -145,7 +145,7 @@ Led Thee there to die for me.
 wordsD = \lyricmode {
 \set stanza = "4."
 
-\italicsOn “Trust,” \italicsOff O Sav -- iour, Lord, I trust Thee,
+\italicsOn “Trust,” \italicsOff O Sav -- iour, “Lord, I trust Thee,”
 Is the an -- swering word of faith
 Of my soul— till now so wear -- y—
 To Thy match -- less, per -- fect grace;
