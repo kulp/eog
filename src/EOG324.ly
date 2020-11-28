@@ -25,7 +25,7 @@
 
         \override #'(baseline-skip . 2.5)
         \small \fill-line {
-          \wordwrap { A home missionary visited a dying boy in a gypsy tent; bending over him, he said, “God so loved the world, that He gave His only Son, that whosoever believeth in Him should not perish, but have everlasting life.” The dying boy heard and whispered: “Nobody ever told me.”
+          \justify { A home missionary visited a dying boy in a gypsy tent; bending over him, he said, “God so loved the world, that He gave His only Son, that whosoever believeth in Him should not perish, but have everlasting life.” The dying boy heard and whispered: “Nobody ever told me.”
         } }
       }
     }
