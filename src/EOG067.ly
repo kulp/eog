@@ -126,7 +126,7 @@ wordsB = \lyricmode {
 “Watch ye there -- fore,” for ye know not
 What the hour your Lord will come,
 Wheth -- er in the morn or mid -- night,
-Or _ in the e -- vening gloam.
+Or __ _ in the e -- vening gloam.
 Are your thoughts of Him when toil -- ing
 Mid the bus -- y cares of day?
 As the hours of night are pass -- ing,
