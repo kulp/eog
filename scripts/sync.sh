@@ -13,7 +13,12 @@ aws s3 sync $S3OPTS \
     . $S3DEST/
 aws s3 sync $S3OPTS --content-type "text/plain; charset=utf-8" \
     --exclude "*" \
-    --include "TXT/*/*.txt" \
+    --include "TXT/default/*.txt" \
+    --include "*.m3u" \
+    . $S3DEST/
+aws s3 sync $S3OPTS --content-type "text/plain; charset=iso-8859-1" \
+    --exclude "*" \
+    --include "TXT/latinized/*.txt" \
     --include "*.m3u" \
     . $S3DEST/
 aws s3 sync $S3OPTS --content-type "text/html; charset=utf-8" \
