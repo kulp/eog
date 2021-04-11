@@ -10,7 +10,6 @@ use List::Util qw(pairmap);
 use Perl6::Slurp;
 use Regexp::Common;
 use Text::Trim qw(trim);
-use Text::Aspell;
 
 binmode(STDOUT, ":utf8");
 binmode(STDERR, ":utf8");
@@ -84,7 +83,15 @@ my %lines    = pairmap { $b =~ s/$strips//g; $a => [ grep !/^$/, map trim, split
 my %words    = pairmap { $a => [ map [ split /$wordpat/ ], @$b ]                            } %lines;
 my @unknown;
 
-my $spell = Text::Aspell->new;
+my $spell = do {
+    if ($ENV{SKIP_SPELLCHECK}) {
+        package IgnoreSpelling;
+        sub check { "I think every word is spelled just fine the way it is." }
+        bless []
+    } else {
+        eval "use Text::Aspell; Text::Aspell->new" or die "Cannot load Text::Aspell";
+    }
+};
 
 sub collapse_whitespace
 {
