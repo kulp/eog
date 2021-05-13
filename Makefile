@@ -229,11 +229,6 @@ booklayout/metrical_insert.tex: booklayout/index.meter
 	@echo "[ INDEX ] $@"
 	scripts/make_metrical_index.pl < $< | scripts/format_metrical_index.pl > $@
 
-# Workarounds
-IGNORE_WARNINGS += PDF/eogsized/EOG177.pdf
-IGNORE_WARNINGS += PDF/eogsized/EOG311.pdf
-$(IGNORE_WARNINGS): LYOPTS += --define-default=warning-as-error='\#f'
-
 booklayout/gospel_insert.tex: LYS = $(notdir $(shell grep -l '%gospel' src/EOG*.ly))
 booklayout/children_insert.tex: LYS = $(notdir $(shell grep -l '%children' src/EOG*.ly))
 booklayout/first_insert.tex: export USE_REFRAIN=1
