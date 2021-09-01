@@ -1,4 +1,5 @@
 #!/bin/sh
+export AWS_PROFILE=eog
 S3DEST="s3://eog.kulp.ch"
 S3OPTS="--acl public-read --storage-class REDUCED_REDUNDANCY --exclude .DS_Store"
 before=refs/upload/began-$(date +%s)
