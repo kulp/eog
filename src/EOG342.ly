@@ -7,10 +7,10 @@
   %children
   hymnnumber = "342"
   title = "Jesus Came from Heaven"
-  tunename = ""
-  meter = ""
+  tunename = "Broughton"
+  meter = "6. 5. 6. 5. D."
   poet = ""
-  composer = ""
+  composer = "Thomas Hastings" % see https://hymnary.org/tune/broughton_hastings
   tagline = ##f
 }
 
