@@ -17,25 +17,30 @@
 global = {
   \include "common/overrides.ily"
   \override Staff.TimeSignature.style = #'numbered
-  \time 4/2 % original has impossible 3/2
+  \time 3/4
   \override Score.MetronomeMark.transparent = ##t % hide all fermata changes too
-  \tempo 4=140
-  \key g \major
+  \tempo 4=80
+  \key ees \major
   \autoBeamOff
 }
+
+patternA = { c4. c8 c c | c4 c2 | }
+patternB = { c4. c8 c c | c2. | }
+patternC = { c8 c c4 c | c2. | }
 
 notesSoprano = {
 \global
 \relative c'' {
 
-  g4 d d d d2
-  g4 a | g2 fis fis1 |
-  a4 d, d d d2 a'2 |
-  a4 g g a b1 |
-  b4 c b a g2 d |
-  e4( g) fis e d1 |
-  d4 d g a b d2
-  c4 | b2 a g1 |
+  \changePitch \patternA { bes bes aes g | g f }
+  \changePitch \patternB { aes aes g f | g }
+  \changePitch \patternA { bes bes c d | ees bes }
+  \changePitch \patternC { bes aes g f | ees }
+
+  \changePitch \patternA { d' d c bes | bes a }
+  \changePitch \patternB { c c bes a | bes }
+  \changePitch \patternA { bes bes c d | ees bes }
+  \changePitch \patternC { ees, f g f | ees }
 
   \bar "|."
 
@@ -46,46 +51,49 @@ notesAlto = {
 \global
 \relative e' {
 
-  b4 b b b b2
-  b4 c | b2 c c1 |
-  c4 c c c c2 c |
-  c4 b b c d1 |
-  d4 e d c b2 b |
-  c4( e) d c b1 |
-  b4 b b c d f2
-  e4 | d2 c b1 |
+  \changePitch \patternA { g g f ees | ees d }
+  \changePitch \patternB { f f ees d | ees }
+  \changePitch \patternA { g g aes aes | g g }
+  \changePitch \patternC { g f ees d | ees }
+
+  \changePitch \patternA { f f f f | f f }
+  \changePitch \patternB { ees ees d c | d }
+  \changePitch \patternA { g g aes aes | g g }
+  \changePitch \patternC { ees ees ees d | ees }
 
 }
 }
 
 notesTenor = {
 \global
-\relative a {
+\relative a' {
 
-  g4 g g g g2
-  g4 g | g2 a a1 |
-  fis4 fis fis fis fis2 fis |
-  g4 g g g g1 |
-  g4 g g g g2 g |
-  g2 g4 g g1 |
-  g4 g g g g g2
-  g4 | g2 fis g1 |
+  \changePitch \patternA { ees ees bes bes | bes bes }
+  \changePitch \patternB { d bes bes bes | bes }
+  \changePitch \patternA { ees ees ees bes | bes ees }
+  \changePitch \patternC { ees c bes aes | g }
+
+  \changePitch \patternA { bes bes ees d | d c }
+  \changePitch \patternB { a a bes c | bes }
+  \changePitch \patternA { ees ees ees bes | bes ees }
+  \changePitch \patternC { bes c bes aes | g }
 
 }
 }
 
 notesBass = {
 \global
-\relative f, {
+\relative f {
 
-  g4 g g g g2
-  g4 g | d'2 d d1 |
-  d4 d d d d2 d |
-  g,4 g g g g1 |
-  g4 g g g g2 g |
-  c2 c4 c g1 |
-  g4 g g g g b2
-  c4 | d2 d g,1 |
+  \changePitch \patternA { ees ees d ees | bes bes }
+  \changePitch \patternB { bes bes bes bes | ees }
+  \changePitch \patternA { ees ees ees ees | ees ees }
+  \changePitch \patternC { ees aes bes bes, | ees }
+
+  \changePitch \patternA { bes' bes a bes | f f }
+  \changePitch \patternB { f f f f | bes, }
+  \changePitch \patternA { ees ees ees ees | ees ees }
+  \changePitch \patternC { g aes bes bes, | ees }
 
 }
 }
