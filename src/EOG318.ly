@@ -9,7 +9,7 @@
   title = "Jesus Will Bless the Little Ones" % see https://hymnary.org/text/the_infant_children_christ_received
   tunename = ""
   meter = "C. M. with Refrain"
-  poet = "John"
+  poet = "John" % This abbreviated name is not a mistake -- multiple printings of the old EOG have "JOHN." as the poet.
   composer = "John G. Foote" % see https://hymnary.org/tune/the_infant_children_christ_receiv_foote
   tagline = ##f
 }
