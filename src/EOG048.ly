@@ -18,18 +18,18 @@
 ta = { \tempo 4=80 }
 tb = { \tempo 4=27 }
 
-patternAA = { \ta c8( c8) | c4 c8 ~ c8 c4 c8. c16 | c8[ c8] c8 c8 c4 }
-patternAB = { \ta c8 ~ c8 | c4 c8 ~ c8 c4 c8. c16 | c4      c8 c8 c4 }
+patternAA = { \ta c8( c8) | c4 c8( c8) c4 c8. c16 | c8[ c8] c8 c8 c4 }
+patternAB = { \ta c8( c8) | c4 c8( c8) c4 c8. c16 | c4      c8 c8 c4 }
 patternAC = { \ta c8[ c8] | c4 c8   c8 c4 c8. c16 | c8[ c8] c8 c8 c4 }
 patternAD = { \ta c4      | c4 c8   c8 c4 c8. c16 | c4      c8 c8 c4 }
 patternAE = { \ta c8  c8  | c4 c8   c8 c4 c8. c16 | c8[ c8] c8 c8 c4 }
 patternAF = { \ta c8  c8  | c4 c8   c8 c4 c8. c16 | c4      c8 c8 c4 }
 
 patternBA = { \ta c8( c8) | c4 c8. c16 c8[ c8] c8 c8 | c2. }
-patternBB = { \ta c8 ~ c8 | c4 c8. c16 c8[ c8] c8 c8 | c2. }
+patternBB = { \ta c8( c8) | c4 c8. c16 c8[ c8] c8 c8 | c2. }
 
 patternCA = { \ta c8( c8) | c4 c8 c8 c4 c8. c16 | c2. c4 }
-patternCB = { \ta c8 ~ c8 | c4 c8 c8 c4 c8. c16 | c2. c4 }
+patternCB = { \ta c8( c8) | c4 c8 c8 c4 c8. c16 | c2. c4 }
 patternCC = { \ta c8   c8 | c4 c8 c8 c4 c8. c16 | c2 c4 }
 
 patternDA = { \ta c4 c4 c4 c4 | c4 c4 \tb c4 \ta }
