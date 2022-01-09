@@ -19,7 +19,7 @@
 % for fermata in MIDI
 ta = { \tempo 4=80 }
 tb = { \tempo 4=40 }
-marksegno = { \mark \markup { \musicglyph #"scripts.segno" } }
+marksegno = { \mark \markup { \musicglyph "scripts.segno" } }
 
 patternAAds = { c8. c16 c8. c16 c4 }
 patternAA = { \ta c8. c16 | \patternAAds }
@@ -67,7 +67,7 @@ notesSoprano = {
   \changePitch \patternCA { d c | bes bes bes bes c bes }
   bes8. g16 | f2.
   \changePitch \patternAA { g aes | bes bes bes bes bes }
-  bes8. bes16^\markup { \italic { Dal } \raise #1 \musicglyph #"scripts.segno" }
+  bes8. bes16^\markup { \italic { Dal } \raise #1 \musicglyph "scripts.segno" }
 
   \bar "|."
 
@@ -311,7 +311,7 @@ music = \context ChoirStaff <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
+      \partCombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Voice = altosRests { \voiceTwo << \restsAlto >> }
       \context Voice = altosSecond { \voiceFour << \notesAltoSecond >> }
@@ -325,7 +325,7 @@ music = \context ChoirStaff <<
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesTenor \notesBass
+      \partCombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
       \context Voice = tenorsSecond { \voiceOne << \notesTenorSecond >> }
       \context Voice = bassesSecond { \voiceTwo << \notesBassSecond >> }
@@ -360,6 +360,6 @@ musicDS = \context ChoirStaff <<
 
 \include "score-EOG102.ily"
 
-\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

@@ -132,7 +132,7 @@ Else -- where, noth -- ing but de -- spair.
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
+      \partCombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -144,7 +144,7 @@ Else -- where, noth -- ing but de -- spair.
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesTenor \notesBass
+      \partCombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -155,6 +155,6 @@ Else -- where, noth -- ing but de -- spair.
   } #}))
 }
 
-\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
