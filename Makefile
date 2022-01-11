@@ -240,7 +240,7 @@ booklayout/%_insert.tex: $$(TXTS)
 
 book: cover booklayout/toplevel.pdf
 
-COVERS += booklayout/cover-standard-paperback.pdf
+COVERS += booklayout/cover-paperback.pdf
 COVERS += booklayout/cover-coilbound.pdf
 COVERS += booklayout/cover-casewrap.pdf
 cover: $(COVERS)
