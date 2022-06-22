@@ -94,7 +94,7 @@ index: vanilla index.html
 CLEANFILES += index.html
 index.html: pdf midi mp3 m3u latin ebook
 	@echo "[ HTML ] $@"
-	scripts/make_index.pl > $@ || (rm $@ ; false)
+	scripts/make_index.pl > $@
 
 clean:
 	$(RM) *.log $(CLEANFILES)
@@ -117,13 +117,13 @@ CLOBBERFILES += $(TXTS)
 $(TXTS): TXT/default/%.txt: src/%.ly | scripts/getlyrics.pl transforms.map
 	@echo "[ LYRICS ] $@"
 	@mkdir -p $(@D)
-	scripts/getlyrics.pl $< 2>> transforms.map > $@ || (rm $@ ; false)
+	scripts/getlyrics.pl $< 2>> transforms.map > $@
 
 latin: $(LATINS)
 CLOBBERFILES += $(LATINS)
 TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	@echo "[ LATIN ] $@"
-	scripts/latinize.sh $< > $@ || (rm $@ ; false)
+	scripts/latinize.sh $< > $@
 
 # TODO rewrite this rule (it's rather roundabout and messy)
 $(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
@@ -194,16 +194,16 @@ check: book
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	@echo "[ METRICS ] $@"
-	magick identify -format "%P %@\n" $< > $@ || (rm $@ ; false)
+	magick identify -format "%P %@\n" $< > $@
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
 	@echo "[ BOOK ] $@"
-	scripts/makebook.pl $| > $@ || (rm $@ ; false)
+	scripts/makebook.pl $| > $@
 
 booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
 	@echo "[ METER ] $@"
-	sed -nep $^ | sort -u | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" $^ | cut -d/ -f3 | cut -d. -f1 | tr '\n' ' ' ; echo ; done > $@ || (rm $@ ; false)
+	sed -nep $^ | sort -u | while read b ; do /bin/echo -n "$$b	" ; grep -l "^$$b$$" $^ | cut -d/ -f3 | cut -d. -f1 | tr '\n' ' ' ; echo ; done > $@
 
 %.pdf: %.tex
 	@echo "[ LATEX ] $@"
@@ -211,7 +211,7 @@ booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
 
 .PHONY: FORCE
 booklayout/revision.tex: FORCE
-	git log -1 --format=%h --abbrev=10 > $@ || rm $@
+	git log -1 --format=%h --abbrev=10 > $@
 
 booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
@@ -236,7 +236,7 @@ booklayout/gospel_insert.tex: export USE_REFRAIN=1
 booklayout/children_insert.tex: export USE_REFRAIN=0
 booklayout/%_insert.tex: $$(TXTS)
 	@echo "[ INDEX ] $@"
-	scripts/make_alpha_index.pl $^ > $@ || (rm $@ ; false)
+	scripts/make_alpha_index.pl $^ > $@
 
 book: cover booklayout/toplevel.pdf
 
