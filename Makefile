@@ -238,7 +238,10 @@ booklayout/%_insert.tex: $$(TXTS)
 	@echo "[ INDEX ] $@"
 	scripts/make_alpha_index.pl $^ > $@
 
-book: cover booklayout/toplevel.pdf
+%-shrunk.pdf: %.pdf
+	extractpdfmark $< | gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dPDFDontUseFontObjectNum -dPrinted=false -sOutputFile=$@ $< -
+
+book: cover booklayout/toplevel-shrunk.pdf
 
 COVERS += booklayout/cover-paperback.pdf
 COVERS += booklayout/cover-coilbound.pdf
