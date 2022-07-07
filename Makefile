@@ -223,7 +223,7 @@ booklayout/ebook.pdf: booklayout/ebook.tex booklayout/letterbook.tex booklayout/
 booklayout/ebook.pdf: $(LYS:%.ly=PDF/letter/%.pdf)
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
-ebook: booklayout/ebook.pdf
+ebook: booklayout/ebook-shrunk.pdf
 
 booklayout/metrical_insert.tex: booklayout/index.meter
 	@echo "[ INDEX ] $@"
