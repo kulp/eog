@@ -6,11 +6,14 @@
 
 # Dependencies: lilypond, mp3info2, MP3::Tag (for mp3info2), id3v2, midish, zip, fluidsynth, lame
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
+VARIANTS_SVG  = $(notdir $(wildcard variants/SVG/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
 VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
 SHELL         = /bin/sh # depend on POSIX shell, at least
 LYS           = $(notdir $(wildcard src/EOG???.ly))
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf )))
+# SVGs are not generated for the "additional" tunes.
+SVGS          = $(foreach v,$(VARIANTS_SVG) ,$(addprefix  SVG/$v/,$(filter-out EOGa%,$(LYS:.ly=.svg))))
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(LYS:.ly=.mp3 )))
 LYRICAL_MP3S  = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(STD_LYS:.ly=.mp3)))
@@ -74,6 +77,7 @@ endif
 .PHONY: all pdf midi mp3 m3u index dist zip lyrics preview latin
 all: pdf midi lyrics index mp3 m3u book
 pdf: $(PDFS)
+svg: $(SVGS)
 midi: $(MIDIS)
 mp3: $(MP3S)
 m3u: $(M3US)
@@ -115,6 +119,7 @@ clobber: clean
 CLOBBERFILES += deps
 ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(PDFS:%=deps/%.d)
+-include $(SVGS:%=deps/%.d)
 -include $(MIDIS:%=deps/%.d)
 -include $(MP3S:%=deps/%.d)
 endif
@@ -136,7 +141,7 @@ TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	scripts/latinize.sh $< > $@
 
 # TODO rewrite this rule (it's rather roundabout and messy)
-$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
+$(PDFS:%=deps/%.d) $(SVGS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
 	@echo "[ DEPS ] $@"
 	@mkdir -p $(@D)
 	@echo '$*: \\' > $@
@@ -275,7 +280,7 @@ override-%.ily:
 	mkdir -p $(@D)
 	touch $@
 
-CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
+CLOBBERFILES += $(PDFS) $(SVGS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
 # header files were dumped when there were no active `\layout{ }` blocks)
@@ -286,6 +291,13 @@ PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	@mkdir -p $(@D)
 	@echo "[ PDF ] $*.pdf"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/PDF/$(*D) --output=PDF/$* $<
+
+SVG/%.svg: LYOPTS += --define-default=include-settings=variants/SVG-settings.ily
+SVG/%.svg: LYOPTS += --svg
+SVG/%.svg: src/$$(*F).ly
+	@mkdir -p $(@D)
+	@echo "[ SVG ] $*.svg"
+	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/SVG/$(*D) --output=SVG/$* $<
 
 MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ily
 MIDI/%.midi: LYOPTS += --define-default=no-print-pages

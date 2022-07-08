@@ -11,6 +11,7 @@ PDF/*/EOG*.pdf
 PDF/*/EOG*.poet
 PDF/*/EOG*.title
 PDF/*/EOG*.tunename
+SVG/*/*.svg
 MIDI/*/*.midi
 MP3/*/*.mp3
 WAV/*/*.wav

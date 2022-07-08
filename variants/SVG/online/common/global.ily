@@ -1,4 +1,4 @@
-#(set-default-paper-size "letter")
+#(set-global-staff-size 13)
 italicsOn  = \override LyricText.font-shape = #'italic
 italicsOff = \override LyricText.font-shape = #'upright
 
@@ -7,7 +7,7 @@ italicsOff = \override LyricText.font-shape = #'upright
 mon  = { \set ignoreMelismata = ##t }
 moff = { \unset ignoreMelismata }
 
-svgbreak = { %{NOOP%} }
+svgbreak = { \break }
 eogbreak = { %{NOOP%} }
 eogpagebreak = { %{NOOP%} }
 
