@@ -78,6 +78,8 @@ endif
 all: pdf midi lyrics index mp3 m3u book
 pdf: $(PDFS)
 svg: $(SVGS)
+svg: SVG/online/index.html.gz
+svg: SVG/offline/index.html.gz
 midi: $(MIDIS)
 mp3: $(MP3S)
 m3u: $(M3US)
@@ -296,8 +298,30 @@ SVG/%.svg: LYOPTS += --define-default=include-settings=variants/SVG-settings.ily
 SVG/%.svg: LYOPTS += --svg
 SVG/%.svg: src/$$(*F).ly
 	@mkdir -p $(@D)
-	@echo "[ SVG ] $*.svg"
+	@echo "[ SVG ] $@"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/SVG/$(*D) --output=SVG/$* $<
+	xmlstarlet ed --inplace -N svg=http://www.w3.org/2000/svg --delete /svg:svg/@width --delete /svg:svg/@height $@
+	(xmlstarlet sel -N svg=http://www.w3.org/2000/svg --template --value-of '/svg:svg/@viewBox' $@ | (read _ _ w _; echo $$w); inkscape --query-y --query-height $@) | \
+        (   read w; read y; read h ; \
+            xmlstarlet ed --inplace -N svg=http://www.w3.org/2000/svg \
+                --update /svg:svg/@viewBox --value "0 0 $$w $$(echo "$$y * 2 + $$h" | bc)" \
+                --append /svg:svg --type attr --name preserveAspectRatio --value "XMidYMin" \
+                $@ \
+        )
+	svgo --multipass $@
+
+SVG/online/index.html: scripts/make_svg_index.pl scripts/svg.css | $(SVGS:%=%.gz)
+	@echo "[ INDEX ] $@"
+	$< $| > $@
+	ln -f scripts/svg.css $(@D)/
+
+SVG/offline/index.html: export EMBED_CSS=1
+SVG/offline/index.html: export EMBED_SVG=1
+SVG/offline/index.html: scripts/make_svg_index.pl scripts/svg.css $(SVGS)
+	@echo "[ INDEX ] $@"
+	mkdir -p $(@D)
+	$< $(filter %.svg,$^) > $@
+	ln -f scripts/svg.css $(@D)/
 
 MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ily
 MIDI/%.midi: LYOPTS += --define-default=no-print-pages
@@ -306,3 +330,10 @@ MIDI/%.midi: src/$$(*F).ly
 	@echo "[ MIDI ] $*.midi"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --output=MIDI/$* $<
 
+%.gz: %
+	@echo "[ GZIP ] $@"
+	zopfli --gzip -c $< > $@
+
+%.br: %
+	@echo "[ BROTLI ] $@"
+	brotli --force --output=$@ $<
