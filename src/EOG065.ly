@@ -199,7 +199,7 @@ Thou wilt safely bring Thine own home to the bet -- ter land.
     >>
     \once \omit Staff.TimeSignature
     \once \omit PianoStaff.TimeSignature
-    \pageBreak % forced in all variants to work around gapped system issue
+    \break % forced in all variants to work around gapped system issue
     <<
       \context Staff = upper <<
         \once \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
