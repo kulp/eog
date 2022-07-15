@@ -172,7 +172,7 @@ When Je -- sus re -- ceives “His own.”
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       \dualTime "3" "4" "4"
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
+      \partCombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -183,7 +183,7 @@ When Je -- sus re -- ceives “His own.”
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       \dualTime "3" "4" "4"
-      \partcombine #'(2 . 11) \notesTenor \notesBass
+      \partCombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -198,6 +198,6 @@ When Je -- sus re -- ceives “His own.”
   } #}))
 }
 
-\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

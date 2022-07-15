@@ -211,7 +211,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
     \context Staff = upper <<
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
-      \partcombine #'(2 . 11) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
+      \partCombine #'(2 . 11) { \notesSopranoA \notesSopranoB } { \notesAltoA \notesAltoB }
       \context NullVoice = sopranos { \voiceOne { \notesSopranoA \notesSopranoB } }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -222,7 +222,7 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
+      \partCombine #'(2 . 11) { \notesTenorA \notesTenorB } { \notesBassA \notesBassB }
     >>
   \new Lyrics \with { alignBelowContext = men } \lyricsto sopranos \Refrain
   >>
@@ -233,6 +233,6 @@ In the Sav -- iour’s \markup{ name.{\super{★}}}
 
 \include "score-EOG083.ily"
 
-\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
