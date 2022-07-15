@@ -190,8 +190,8 @@ $(ADDL_MP3S): MP3/%.mp3: WAV/$$(*D)/$$(*F).wav $$(foreach h,$(ADDL_HEADERS),PDF/
 TXT/latinized metrics:
 	mkdir -p $@
 
-check: book PDF/eogsized/EOG302.pdf
-	[[ $$(pdfinfo booklayout/toplevel.pdf | grep Pages: | (read a b ; echo $$b)) = $(TOTAL_PAGE_COUNT) ]]
+check: check_src check_pdf check_book
+check_src:
 	!(git grep -n '\b[A-Z][A-Z][a-z]' src/) # check for initial miscapitalization
 	perl -ne 'die "$$ARGV\n" if /bold (\d+) .*?words(\w+)/g and $$1 != ord($$2) - ord("A") + 1' src/*.ly
 	perl -ne 'next unless ($$written) = /hymnnumber = "(\d+)"/; die $$ARGV if $$written != ($$ARGV =~ /EOGa?(\d+)/)[0]' src/*.ly
@@ -200,7 +200,10 @@ check: book PDF/eogsized/EOG302.pdf
 	for f in src/EOG*.ly ; do perl -F// -lane '$$h{$$_}++ for @F; END{ die $$ARGV if $$h{"("} != $$h{")"} }' $$f ; done
 	for f in src/EOG*.ly ; do perl -F// -lane '$$h{$$_}++ for @F; END{ die $$ARGV if $$h{"["} != $$h{"]"} }' $$f ; done
 	!(grep -q '^\\line.*--' src/EOG*.ly)
+check_pdf: PDF/eogsized/EOG302.pdf
 	pdftotext -raw -layout -nopgbrk PDF/eogsized/EOG302.pdf - | grep --quiet "5 The Bible tells us He will come"
+check_book: book
+	[[ $$(pdfinfo booklayout/toplevel.pdf | grep Pages: | (read a b ; echo $$b)) = $(TOTAL_PAGE_COUNT) ]]
 
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
