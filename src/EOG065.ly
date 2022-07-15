@@ -206,7 +206,7 @@ Thou wilt safely bring Thine own home to the bet -- ter land.
         \set Staff.autoBeaming = ##f
         \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
         \set ChoirStaff.printPartCombineTexts = ##f
-        \partCombine #'(2 . 11) \notesSopranoRefrain \notesAlto
+        \partcombine #'(2 . 11) \notesSopranoRefrain \notesAlto
         \context NullVoice = sopranosRefrain { \voiceOne << \notesSopranoRefrain >> }
         \context Lyrics = one   \lyricsto sopranosRefrain \Refrain
       >>
@@ -216,7 +216,7 @@ Thou wilt safely bring Thine own home to the bet -- ter land.
         \clef bass
         \set ChoirStaff.printPartCombineTexts = ##f
         \override Staff.TimeSignature.stencil = ##f
-        \partCombine #'(2 . 11) \notesTenor \notesBass
+        \partcombine #'(2 . 11) \notesTenor \notesBass
       >>
     >>
   }
@@ -227,6 +227,6 @@ Thou wilt safely bring Thine own home to the bet -- ter land.
 
 \include "score-EOG065.ily"
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

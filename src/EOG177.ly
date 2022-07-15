@@ -53,7 +53,7 @@ notesSopranoRefrain = {
   << s^\markup { \small \caps "Refrain" }
   { \tuplet 3/2 { << { \voiceOne a8 } \new Voice { \voiceTwo a8 } >> << { b cis } { gis g } >> } } >>
 
-  \partCombine
+  \partcombine
   \relative c' {
     | d'2 ~ d8 d8 cis8. b16 | cis4 g2
     g8. g16 | cis2 ~ cis8 cis8 b8. g16 | fis2.
@@ -64,7 +64,7 @@ notesSopranoRefrain = {
   }
 
   \tuplet 3/2 { << { \voiceOne a8 } \new Voice { \voiceTwo a8 } >> << { b cis } { gis g } >> }
-  \partCombine
+  \partcombine
   \relative c'' {
     | d2 ~ d8 d8 e8. d16 | cis4 b2
     b8 b | a4. a8 g4 e |
@@ -74,7 +74,7 @@ notesSopranoRefrain = {
     g8 d | d4. fis8 e4 cis |
   }
   << { \voiceOne d2. } \new Voice { \voiceTwo d2. } >>
-  \partCombine r8 r8
+  \partcombine r8 r8
 
   \bar "|."
 
@@ -112,7 +112,7 @@ notesAlto = {
   \changePitch \patternD { d | cis d e e e e | e e e e }
 
   % excludes refrain (moved to Soprano) due to bad interactions between
-  % \tuplet, \partCombine, and NullVoice
+  % \tuplet, \partcombine, and NullVoice
 
 }
 }
@@ -216,7 +216,7 @@ I am bought, I am bought, but not with gold;
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       {
-        \partCombine #'(2 . 11) \notesSoprano \notesAlto
+        \partcombine #'(2 . 11) \notesSoprano \notesAlto
         \context Voice = sopranosRefrain { \notesSopranoRefrain }
       }
       \context NullVoice = sopranos { \voiceOne \notesSoprano }
@@ -231,7 +231,7 @@ I am bought, I am bought, but not with gold;
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partCombine #'(2 . 11) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
     >>
     \context Lyrics = four \lyricsto tenors \underWords
@@ -244,6 +244,6 @@ I am bought, I am bought, but not with gold;
   } #}))
 }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

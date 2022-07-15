@@ -178,7 +178,7 @@ wordsF = \markuplist {
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partCombine #'(2 . 11) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -195,6 +195,6 @@ wordsF = \markuplist {
   \line{ \bold 6 \column { \wordsF } }
 } } }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

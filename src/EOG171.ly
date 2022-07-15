@@ -126,7 +126,7 @@ In the Lamb’s high glo -- ry there.
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partCombine #'(2 . 11) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -137,7 +137,7 @@ In the Lamb’s high glo -- ry there.
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partCombine #'(2 . 11) \notesTenor \notesBass
+      \partcombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -154,6 +154,6 @@ In the Lamb’s high glo -- ry there.
 
 \markup { \fill-line { \line { Alternate tune: No. 258. } } }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
