@@ -221,7 +221,7 @@ Which is Christ the Lord and King.”
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
+      \partCombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -232,7 +232,7 @@ Which is Christ the Lord and King.”
       \set Staff.autoBeaming = ##f
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesTenor \notesBass
+      \partCombine #'(2 . 11) \notesTenor \notesBass
       \context NullVoice = tenors { \voiceOne << \notesTenor >> }
     >>
   \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \RefrainBottomClef
@@ -245,6 +245,6 @@ Which is Christ the Lord and King.”
   } #}))
 }
 
-\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

@@ -155,7 +155,7 @@ Then bow to Him, man, as the Lamb that was slain,
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
       % allow longer-stretching part-combining to fit five systems on this page
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
+      \partCombine #'(2 . 11) \notesSoprano \notesAlto
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
@@ -166,7 +166,7 @@ Then bow to Him, man, as the Lamb that was slain,
       \clef bass
       \set ChoirStaff.printPartCombineTexts = ##f
       % allow longer-stretching part-combining to fit five systems on this page
-      \partcombine #'(2 . 11) \notesTenor \notesBass
+      \partCombine #'(2 . 11) \notesTenor \notesBass
     >>
   >>
   \layout {
@@ -183,6 +183,6 @@ Then bow to Him, man, as the Lamb that was slain,
   } #}))
 }
 
-\version "2.20.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
