@@ -121,7 +121,7 @@ wordsB = \lyricmode {
   Should dark -- ness seem to veil His face,
   Un -- changed is He, un -- changed His grace;
   In ev -- ’ry high and storm -- y gale
-  Faith’s an -- chor holds with -- in the veil. \eogbreak
+  Faith’s an -- chor holds with -- in the veil. \break
   \Refrain
 }
 

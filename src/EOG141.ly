@@ -85,7 +85,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 How vast, how full, how free, \bar "."
-The mer -- cy of our God! \bar "." \eogbreak
+The mer -- cy of our God! \bar "." \break
 Pro -- claim the bless -- ed news a -- round, \bar "."
 And spread it all a -- broad. \bar "."
 

@@ -108,13 +108,13 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 We have heard the joy -- ful sound, \bar "."
-Je -- sus saves! Je -- sus saves! \bar "." \eogbreak
+Je -- sus saves! Je -- sus saves! \bar "."
 Tell the mes -- sage all a -- round, \bar "."
-Je -- sus saves! Je -- sus saves! \bar "." \eogbreak
+Je -- sus saves! Je -- sus saves! \bar "." \break
 Bear the news to ev -- ’ry land, \bar "."
-Climb the steeps and cross the waves; \bar "." \eogbreak
+Climb the steeps and cross the waves; \bar "."
 On -- ward! ’tis our Lord’s com -- mand, \bar "."
-Je -- sus saves! Je -- sus saves! \bar "." \eogbreak
+Je -- sus saves! Je -- sus saves! \bar "."
 
 }
 

@@ -86,12 +86,12 @@ notesTenor = {
 \relative a, {
 
   \changePitch \patternAC { c c | f f f f e f | f a bes! }
-  \changePitch \patternBA { bes bes | a c c b b | bes } \eogbreak
+  \changePitch \patternBA { bes bes | a c c b b | bes }
   \changePitch \patternAA { c, c | a' a bes c bes a | bes a bes }
-  \changePitch \patternBB { bes bes | a c bes c | a } \eogbreak
+  \changePitch \patternBB { bes bes | a c bes c | a } \break
 
   \changePitch \patternCC { a c | a bes a c bes a | bes }
-  \changePitch \patternBC { bes | a c c b | c } \eogbreak
+  \changePitch \patternBC { bes | a c c b | c } \break
   \changePitch \patternAC { e, e | f f f f e f | f a bes }
   \changePitch \patternBB { aes aes | a! a bes c | a }
 

@@ -110,9 +110,9 @@ notesBass = {
 Refrain = \lyricmode {
 
 With -- out a price may go, \bar "."
-With -- out a price may go; \bar "." \eogbreak
+With -- out a price may go; \bar "."
 Free to that o -- pen foun -- tain all \bar "."
-With -- out a price may go. \bar "." \eogbreak
+With -- out a price may go. \bar "."
 
 }
 
@@ -120,9 +120,9 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 Ho! ye that thirst, ap -- proach the spring \bar "."
-Where liv -- ing wa -- ters flow; \bar "." \eogbreak
+Where liv -- ing wa -- ters flow; \bar "." \break
 Free to that o -- pen foun -- tain all \bar "."
-With -- out a price may go. \bar "." \eogbreak
+With -- out a price may go. \bar "."
 
 }
 
@@ -134,7 +134,7 @@ Will ye in crowds re -- pair?
 How long your strength and sub -- stance waste
 On tri -- fles light as air?
 
-\Refrain
+\break \Refrain
 
 }
 

@@ -36,9 +36,9 @@ notesSoprano = {
 \relative c'' {
 
   g2 | b( a) g | d'1 d2 | c( b) a | b1
-  b2 | a( e') d | g,( c) b | e,( a) g | fis1 \eogbreak
+  b2 | a( e') d | g,( c) b | e,( a) g | fis1 \break
   a2 | b( cis) d | d1 cis2 | d1
-  d2 | d1 d2 | d( c) b | a( b) c | b1 \eogbreak
+  d2 | d1 d2 | d( c) b | a( b) c | b1 \break
   b2 | b1 b2 | e1 \grace { b2( a2) } g2 | d'( c) b | a1
   b2 | c( d) e | d1 fis,2 | g1
 

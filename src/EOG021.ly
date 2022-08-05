@@ -128,7 +128,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Make room for Him! Make room for Him! \bar "."
-He stands out -- side the door; \bar "."
+He stands out -- side the door; \bar "." \break
 He waits a -- mid the shad -- ows dim, \bar "."
 And knocks and calls once more! \bar "."
 
@@ -138,11 +138,11 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 No room for Thee, Thou bless -- ed One, \bar "."
-The Fa -- ther’s ho -- ly Child— \bar "." \eogbreak
+The Fa -- ther’s ho -- ly Child— \bar "."
 His well -- be -- lov -- ed on -- ly Son, \bar "."
-The Sav -- iour un -- de -- filed! \bar "." \eogbreak
+The Sav -- iour un -- de -- filed! \bar "." \break
 No room for Thee in crowd -- ed inn \bar "."
-That e -- vening long a -- go! \bar "." \eogbreak
+That e -- vening long a -- go! \bar "."
 “Be -- hold the Lamb” who bore our sin \bar "."
 Shut out by hearts be -- low! \bar "."
 
@@ -160,7 +160,7 @@ As neath the start -- led sky,
 With cru -- el scourge and mock -- er -- y
 They led Thee forth to die.
 
-{ \eogpagebreak }
+\break
 
 \Refrain
 
