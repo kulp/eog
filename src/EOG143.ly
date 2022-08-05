@@ -16,8 +16,8 @@
 }
 
 % for fermata in MIDI
-ta = { \tempo 2=80 }
-tb = { \tempo 2=40 }
+ta = { \tempo 2=100 }
+tb = { \tempo 2=50 }
 
 global = {
   \include "common/overrides.ily"
