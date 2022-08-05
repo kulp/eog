@@ -141,7 +141,7 @@ Yon -- der’s the gleam of Im -- man -- u -- el’s land!
 Ref -- uge and rest are now of -- fered to thee:
 Sin or sal -- va -- tion— oh, which shall it be?
 
-\Refrain
+\break \Refrain
 
 }
 

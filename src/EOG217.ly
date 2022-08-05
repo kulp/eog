@@ -34,7 +34,7 @@ notesSoprano = {
 \relative c'' {
 
   g4 | aes2 g4 | g2 f4 | \tb ees2\fermata \ta
-  bes'4 | aes2 g4 | c2 f,4 | f2 \eogbreak
+  bes'4 | aes2 g4 | c2 f,4 | f2 \break
   c'4 | bes2 bes4 | ees2 d4 | d2 c4 | \tb bes2\fermata \ta
   g4 | aes2 g4 | g2 f4 | ees2
 

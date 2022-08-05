@@ -43,7 +43,7 @@ notesSoprano = {
   \changePitch \patternB { a | b b a b | cis }
   \changePitch \patternB { cis | cis cis b cis | d } \eogbreak
   d4 | cis e e cis | cis a a
-  fis4 | e a cis4. b8 | a2 \eogbreak
+  fis4 | e a cis4. b8 | a2 \break
 
   << s^\markup { \small \caps "Refrain" }
   { a4. b8 | a2 e'4. d8 | \tb cis4\fermata \ta } >>

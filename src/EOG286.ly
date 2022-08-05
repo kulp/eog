@@ -33,7 +33,7 @@ notesSoprano = {
 \relative c' {
 
   d4 | g a b c | d d b
-  b4 | e d d cis | d2.
+  b4 | e d d cis | d2. \break
   \tb d4\fermata \ta | b d e d | c b a
   b4 | a g g fis | g2.
 

@@ -31,11 +31,11 @@ notesSoprano = {
 \relative c'' {
 
   bes2 d4 d | c2 bes | ees d | c1
-  bes2 d4 ees8[ c] | bes2 a | bes1 \eogbreak
+  bes2 d4 ees8[ c] | bes2 a | bes1 \break
   bes2 d4 d | c2 bes | ees d | c2
-  bes2 | c4 bes a g | f2 \eogbreak
+  bes2 | c4 bes a g | f2 \break
   d'2 | ees4 d c bes | a
-  c4 d ees8[ c] | bes2 a | bes1 \eogbreak
+  c4 d ees8[ c] | bes2 a | bes1 \break
 
   \bar "|."
 

@@ -35,7 +35,7 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { bes | g c bes d | ees }
-  \changePitch \patternAA { ees | d ees d c | bes } \eogbreak
+  \changePitch \patternAA { ees | d ees d c | bes } \break
   \changePitch \patternBA { g | aes bes c bes | aes g f }
   \changePitch \patternAA { d' | ees aes, g f | ees }
 

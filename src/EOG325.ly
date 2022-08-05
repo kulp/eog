@@ -43,9 +43,9 @@ notesSoprano = {
 \relative c' {
 
   \changePitch \patternAA { d fis a b | a fis }
-  \changePitch \patternBA { fis | e a b gis | a } \eogbreak
+  \changePitch \patternBA { fis | e a b gis | a } \break
   \changePitch \patternCA { a | d a a a | b d a }
-  \changePitch \patternDA { fis | a g e a | fis } \eogbreak
+  \changePitch \patternDA { fis | a g e a | fis } \break
   \changePitch \patternEA { d fis g e | a ais b }
   \changePitch \patternFA { b b a fis | g e d }
 

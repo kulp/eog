@@ -32,7 +32,7 @@ notesSoprano = {
 \relative c'' {
 
   g2 | fis4 a a2 a | g4 b b2
-  b2 | a4 b c2 e | d1 \eogpagebreak
+  b2 | a4 b c2 e | d1 \break \eogpagebreak
   b4( d) | d c c2 a4( c) | c b b2
   g4( b) | b a c2 fis,4( a) | g1
 

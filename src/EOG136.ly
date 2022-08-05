@@ -128,7 +128,7 @@ The gos -- pel no mes -- sage de -- clare,
 How canst thou, sin -- ner, bear the deep wail -- ing of woe,
 How suf -- fer the night of de -- spair?
 
-\Refrain
+\break \Refrain
 
 }
 

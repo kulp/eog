@@ -127,7 +127,7 @@ As a shield from ev -- ’ry snare;
 If temp -- ta -- tions round you gath -- er,
 Breathe that ho -- ly name in prayer.
 
-\Refrain
+\break \Refrain
 
 }
 

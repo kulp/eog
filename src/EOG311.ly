@@ -35,7 +35,7 @@ notesSoprano = {
 \relative c'' {
 
   d8. c16 | bes4. a8 \tuplet 3/2 { << \voiceOne { c8[ bes] } \new Voice { \voiceTwo ees,4 } >> <g ees> 8 } | f2
-  ees'8. d16 | d4. c8 bes a | bes2
+  ees'8. d16 | d4. c8 bes a | bes2 \break
   c8. c16 | c4. f,8 g f | bes2
   c8. c16 | c4. f,8 g f | bes2
   d8. c16 | bes4. a8 \tuplet 3/2 { << \voiceOne { c8[ bes] } \new Voice { \voiceTwo ees,4 } >> <g ees> 8 } | f2
