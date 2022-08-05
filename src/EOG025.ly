@@ -120,7 +120,7 @@ notesBass = {
 Refrain = \lyricmode {
 
 Be -- lieve that won -- der -- ful love, \bar "."
-Be -- lieve that won -- der -- ful love, \bar "."
+Be -- lieve that won -- der -- ful love, \bar "." \svgbreak
 The gos -- pel is free, \bar "." God sends it to thee, \bar "."
 Be -- lieve God’s won -- der -- ful love. \bar "."
 
