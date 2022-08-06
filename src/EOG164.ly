@@ -1,8 +1,8 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  \include "override/override-EOG164.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 144, 248." } }
+  \include "override/override-EOG164.ily"
 }
 
 \header{

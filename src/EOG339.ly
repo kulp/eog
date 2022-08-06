@@ -2,8 +2,8 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  \include "override/override-EOG339.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 155 and 308." } }
+  \include "override/override-EOG339.ily"
 }
 
 \header{

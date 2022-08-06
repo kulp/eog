@@ -2,6 +2,7 @@
 \paper {
   \include "common/paper.ily"
   oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 150." } }
+  \include "override/override-EOG195.ily"
 }
 
 \header{
