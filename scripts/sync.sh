@@ -27,6 +27,21 @@ aws s3 sync $S3OPTS --content-type "text/html; charset=utf-8" \
     --exclude "*" \
     --include "index.html" \
     . $S3DEST/
+aws s3 sync $S3OPTS --content-type "image/svg+xml" \
+    --content-encoding gzip \
+    --exclude "*" \
+    --include "SVG/online/*.svg.gz" \
+    . $S3DEST/
+aws s3 cp $S3OPTS --content-type "application/xhtml+xml" \
+    --content-encoding gzip \
+    SVG/online/index.html.gz $S3DEST/SVG/online/index.html
+aws s3 sync $S3OPTS --content-type "text/css" \
+    --exclude "*" \
+    --include "SVG/online/svg.css" \
+    . $S3DEST/
+aws s3 cp $S3OPTS --content-type "application/xhtml+xml" \
+    --content-encoding gzip \
+    SVG/offline/index.html.gz $S3DEST/SVG/offline/index.html
 after=refs/upload/finished-$(date +%s)
 git update-ref $after HEAD
 git update-ref refs/upload/finished-latest $after
