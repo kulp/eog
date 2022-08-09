@@ -9,7 +9,8 @@ aws s3 sync $S3OPTS \
     --include "MIDI/*/*.midi" \
     --include "MP3/*/*.mp3" \
     --include "PDF/*/*.pdf" \
-    --include "scripts/*" \
+    --include "scripts/*.css" \
+    --include "scripts/*.js" \
     --include "booklayout/*.pdf" \
     . $S3DEST/
 aws s3 sync $S3OPTS --content-type "text/plain; charset=utf-8" \
