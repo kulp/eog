@@ -87,9 +87,6 @@ notesSoprano = {
   a16[ bes] | c8. c16 d16[ c] bes[ a] | bes4( f8)
   f8 | d'8. bes16 d16[ c] c[ a] | bes4.
 
-  \override Score.BarLine.layer = 1
-  \onlyEogMusic \customBarLine
-
   \bar "|."
 
 }
@@ -184,7 +181,9 @@ That mer -- cy’s work is done.
       \set Staff.autoBeaming = ##f
       \set ChoirStaff.systemStartDelimiter = #'SystemStartBar
       \set ChoirStaff.printPartCombineTexts = ##f
-      \partcombine #'(2 . 11) \notesSoprano \notesAlto
+      \partcombine #'(2 . 11)
+        { \notesSoprano \onlyEogMusic \customBarLine }
+        { \notesAlto \onlyEogMusic \customBarLine }
       \context NullVoice = sopranos { \voiceOne << \notesSoprano >> }
       \context Lyrics = one   \lyricsto sopranos \wordsA
       \context Lyrics = two   \lyricsto sopranos \wordsB
