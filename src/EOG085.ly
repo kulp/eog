@@ -46,7 +46,7 @@ notesSoprano = {
 \relative c'' {
 
   \changePitch \patternAA { gis a gis | fis fis | fis gis fis | e }
-  \changePitch \patternBA { e | e fis gis | a gis | cis fis, | b }
+  \changePitch \patternBA { e | e fis gis | a gis | cis fis, | b } \svgbreak
   \changePitch \patternBB { b | b a gis | a a | a gis fis | e }
   \changePitch \patternCA { e | gis fis cis | e dis | e }
 

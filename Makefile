@@ -6,11 +6,14 @@
 
 # Dependencies: lilypond, mp3info2, MP3::Tag (for mp3info2), id3v2, midish, zip, fluidsynth, lame
 VARIANTS_PDF  = $(notdir $(wildcard variants/PDF/*))
+VARIANTS_SVG  = $(notdir $(wildcard variants/SVG/*))
 VARIANTS_MIDI = $(notdir $(wildcard variants/MIDI/*))
 VARIANTS_MP3  = $(notdir $(wildcard variants/MP3/*)) # allverses
 SHELL         = /bin/sh # depend on POSIX shell, at least
 LYS           = $(notdir $(wildcard src/EOG???.ly))
 PDFS          = $(foreach v,$(VARIANTS_PDF) ,$(addprefix  PDF/$v/,$(LYS:.ly=.pdf )))
+# SVGs are not generated for the "additional" tunes.
+SVGS          = $(foreach v,$(VARIANTS_SVG) ,$(addprefix  SVG/$v/,$(filter-out EOGa%,$(LYS:.ly=.svg))))
 MIDIS         = $(foreach v,$(VARIANTS_MIDI),$(addprefix MIDI/$v/,$(LYS:.ly=.midi)))
 MP3S          = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(LYS:.ly=.mp3 )))
 LYRICAL_MP3S  = $(foreach v,$(VARIANTS_MP3) ,$(addprefix  MP3/$v/,$(STD_LYS:.ly=.mp3)))
@@ -74,6 +77,9 @@ endif
 .PHONY: all pdf midi mp3 m3u index dist zip lyrics preview latin
 all: pdf midi lyrics index mp3 m3u book
 pdf: $(PDFS)
+svg: $(SVGS)
+svg: SVG/online/index.html.gz
+svg: SVG/offline/index.html.gz
 midi: $(MIDIS)
 mp3: $(MP3S)
 m3u: $(M3US)
@@ -115,6 +121,7 @@ clobber: clean
 CLOBBERFILES += deps
 ifeq ($(words $(filter clean clobber,$(MAKECMDGOALS))),0)
 -include $(PDFS:%=deps/%.d)
+-include $(SVGS:%=deps/%.d)
 -include $(MIDIS:%=deps/%.d)
 -include $(MP3S:%=deps/%.d)
 endif
@@ -136,7 +143,7 @@ TXT/latinized/%.txt: TXT/default/%.txt | TXT/latinized
 	scripts/latinize.sh $< > $@
 
 # TODO rewrite this rule (it's rather roundabout and messy)
-$(PDFS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
+$(PDFS:%=deps/%.d) $(SVGS:%=deps/%.d) $(MIDIS:%=deps/%.d): deps/%.d: src/$$(basename $$(*F)).ly
 	@echo "[ DEPS ] $@"
 	@mkdir -p $(@D)
 	@echo '$*: \\' > $@
@@ -275,7 +282,7 @@ override-%.ily:
 	mkdir -p $(@D)
 	touch $@
 
-CLOBBERFILES += $(PDFS) $(WAVS) $(MIDIS) $(MP3S)
+CLOBBERFILES += $(PDFS) $(SVGS) $(WAVS) $(MIDIS) $(MP3S)
 CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
 # header files were dumped when there were no active `\layout{ }` blocks)
@@ -287,6 +294,35 @@ PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	@echo "[ PDF ] $*.pdf"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/PDF/$(*D) --output=PDF/$* $<
 
+SVG/%.svg: LYOPTS += --define-default=include-settings=variants/SVG-settings.ily
+SVG/%.svg: LYOPTS += --svg
+SVG/%.svg: src/$$(*F).ly
+	@mkdir -p $(@D)
+	@echo "[ SVG ] $@"
+	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/SVG/$(*D) --output=SVG/$* $<
+	xmlstarlet ed --inplace -N svg=http://www.w3.org/2000/svg --delete /svg:svg/@width --delete /svg:svg/@height $@
+	(xmlstarlet sel -N svg=http://www.w3.org/2000/svg --template --value-of '/svg:svg/@viewBox' $@ | (read _ _ w _; echo $$w); inkscape --query-y --query-height $@) | \
+        (   read w; read y; read h ; \
+            xmlstarlet ed --inplace -N svg=http://www.w3.org/2000/svg \
+                --update /svg:svg/@viewBox --value "0 0 $$w $$(echo "$$y * 2 + $$h" | bc)" \
+                --append /svg:svg --type attr --name preserveAspectRatio --value "XMidYMin" \
+                $@ \
+        )
+	svgo --multipass $@
+
+SVG/online/index.html: scripts/make_svg_index.pl scripts/svg.css | $(SVGS:%=%.gz)
+	@echo "[ INDEX ] $@"
+	$< $| > $@
+	ln -f scripts/svg.css $(@D)/
+
+SVG/offline/index.html: export EMBED_CSS=1
+SVG/offline/index.html: export EMBED_SVG=1
+SVG/offline/index.html: scripts/make_svg_index.pl scripts/svg.css $(SVGS)
+	@echo "[ INDEX ] $@"
+	mkdir -p $(@D)
+	$< $(filter %.svg,$^) > $@
+	ln -f scripts/svg.css $(@D)/
+
 MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ily
 MIDI/%.midi: LYOPTS += --define-default=no-print-pages
 MIDI/%.midi: src/$$(*F).ly
@@ -294,3 +330,10 @@ MIDI/%.midi: src/$$(*F).ly
 	@echo "[ MIDI ] $*.midi"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/$(@D) --output=MIDI/$* $<
 
+%.gz: %
+	@echo "[ GZIP ] $@"
+	zopfli --gzip -c $< > $@
+
+%.br: %
+	@echo "[ BROTLI ] $@"
+	brotli --force --output=$@ $<

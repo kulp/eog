@@ -7,6 +7,7 @@ italicsOff = \override LyricText.font-shape = #'upright
 mon  = { \set ignoreMelismata = ##t }
 moff = { \unset ignoreMelismata }
 
+svgbreak = { %{NOOP%} }
 eogbreak = { %{NOOP%} }
 eogpagebreak = { %{NOOP%} }
 

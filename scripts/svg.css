@@ -1,0 +1,67 @@
+@media print {
+div.pad { display: none !important; }
+}
+
+.upon-request { display:none; }
+
+div[id^="k"] { display:none; }
+div:target { display:block; }
+
+div#empty { display: block; }
+div:target ~ #empty { display: none; }
+
+object, svg { width: 100%; max-width: 8in; }
+
+div.pad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.3vw;
+}
+
+div.pad a {
+  display: inline-block;
+  border-radius: max(1vh, 1vw);
+  border: 1px solid gray;
+  padding: 1vw;
+  font-family: sans-serif;
+  font-size: clamp(10pt, 0.3in, 4vw);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  flex-grow: 1;
+}
+
+div.pad a:first-child { margin-right: 2vw; }
+div.pad a:last-child { margin-left: 2vw; }
+div.pad a:first-child, div.pad a:last-child {
+  flex-grow: 1;
+  min-width: 5vw; /* min-width here is a workaround for jittering flexbox */
+  padding-left: 0;
+  padding-right: 0;
+}
+div.pad a.disabled {
+  border: 1px solid #eee;
+  background: #eee;
+  color: gray;
+}
+
+div.pad {
+  width: 100%;
+  text-align: center;
+}
+
+div.keyed {
+  text-align: center;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1in;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
