@@ -139,7 +139,7 @@ And see Him face to face;
 Then with our Sav -- iour, Lord and Friend,
 The one un -- bro -- ken day we’ll spend
 In sing -- ing still His grace.
-%{HIDE>%} Still His _ grace. %{<HIDE%}
+%{HIDE>%} Still His __ _ grace. %{<HIDE%}
 
 }
 
