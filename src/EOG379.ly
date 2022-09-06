@@ -175,7 +175,7 @@ wordsF = \markuplist {
   \center-column {
     \vspace #1
     \override #'(span-factor . 1/2)
-    \fill-line { \null \draw-hline \null }
+    \fill-line { \null { \onlyEogMarkup \draw-hline \null } \null }
   }
 }
 
