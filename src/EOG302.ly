@@ -205,9 +205,8 @@ That mer -- cy’s work is done.
   } #}))
 }
 
-nullMarkup = \markup { }
 wrappedMarkup = \markup { \fill-line { \extraVersesMarkup } }
-\markup { \onlyEogMarkup \nullMarkup \wrappedMarkup }
+\markup { \onlyEogMarkup \null \wrappedMarkup }
 
 \version "2.22.0"  % necessary for upgrading to future LilyPond versions.
 
