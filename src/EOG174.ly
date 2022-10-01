@@ -12,7 +12,7 @@
   tunename = "America" % see https://hymnary.org/tune/america_thesaurusmusicus
   meter = "6. 6. 4. 6. 6. 6. 4."
   poet = "Thomas Kelly" % see https://hymnary.org/text/glory_to_god_on_high_peace_upon_earth_an
-  composer = ""
+  composer = "Samuel A. Ward"
   tagline = ##f
 }
 
