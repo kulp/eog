@@ -244,7 +244,7 @@ booklayout/ebook.pdf: booklayout/ebook.tex booklayout/letterbook.tex booklayout/
 booklayout/ebook.pdf: $(LYS:%.ly=PDF/letter/%.pdf)
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
 
-ebook: booklayout/ebook.pdf
+ebook: booklayout/ebook-shrunk.pdf
 
 booklayout/metrical_insert.tex: booklayout/index.meter
 	@echo "[ INDEX ] $@"
@@ -259,7 +259,10 @@ booklayout/%_insert.tex: $$(TXTS)
 	@echo "[ INDEX ] $@"
 	scripts/make_alpha_index.pl $^ > $@
 
-book: cover booklayout/toplevel.pdf
+%-shrunk.pdf: %.pdf
+	extractpdfmark $< | gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dPDFDontUseFontObjectNum -dPrinted=false -sOutputFile=$@ $< -
+
+book: cover booklayout/toplevel-shrunk.pdf
 
 COVERS += booklayout/cover-paperback.pdf
 COVERS += booklayout/cover-coilbound.pdf
