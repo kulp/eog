@@ -8,7 +8,7 @@
 \header{
   %gospel
   hymnnumber = "47"
-  title = "Rise, Dear Soul! Behold Thy Saviour"
+  title = "Rise, Dear Soul! Behold The Saviour"
   tunename = "Suffield" % not found at hymnary.org
   meter = "8. 7. 8. 7."
   poet = "A. P. Cecil" % see https://hymnary.org/text/trembling_soul_behold_thy_savior
