@@ -320,7 +320,6 @@ music = \context ChoirStaff <<
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
-    \new Lyrics \with { alignAboveContext = men } \lyricsto sopranos \segnoWords
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
       \clef bass
@@ -330,6 +329,7 @@ music = \context ChoirStaff <<
       \context Voice = tenorsSecond { \voiceOne << \notesTenorSecond >> }
       \context Voice = bassesSecond { \voiceTwo << \notesBassSecond >> }
     >>
+    \new Lyrics \with { alignAboveContext = men } \lyricsto sopranos \segnoWords
     \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
   >>
 
