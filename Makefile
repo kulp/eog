@@ -325,6 +325,7 @@ SVG/offline/index.html: scripts/make_svg_index.pl scripts/svg.css $(SVGS)
 
 MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ily
 MIDI/%.midi: LYOPTS += --define-default=no-print-pages
+MIDI/%.midi: LYOPTS += --define-default=eog-midi-permitted
 MIDI/%.midi: src/$$(*F).ly
 	@mkdir -p $(@D)
 	@echo "[ MIDI ] $*.midi"
