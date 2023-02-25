@@ -60,6 +60,6 @@ bookTitleMarkup = \markup { }
 oddHeaderMarkup = \markup
 \fill-line {
   " "
-  \on-the-fly #not-part-first-page \fromproperty #'header:title
+  \unless \on-first-page-of-part \fromproperty #'header:title
 }
 %% evenHeaderMarkup inherits the value of oddHeaderMarkup

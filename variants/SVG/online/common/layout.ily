@@ -17,5 +17,4 @@
     \Voice
     % Make stem direction follow melody
     \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
 }

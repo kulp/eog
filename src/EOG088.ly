@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t % keep markup verses from clinging to bottom of page
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 3 in Supplement." } }
+  oddFooterMarkup = \markup { \fill-line { \if \on-first-page "Alternate tune: No. 3 in Supplement." } }
   \include "override/override-EOG088.ily"
 }
 
@@ -207,6 +207,6 @@ wordsH = \markuplist {
   \vspace #3
 } } }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

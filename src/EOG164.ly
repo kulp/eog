@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No.’s 144, 248." } }
+  oddFooterMarkup = \markup { \fill-line { \if \on-first-page "Alternate tunes: No.’s 144, 248." } }
   \include "override/override-EOG164.ily"
 }
 
@@ -172,6 +172,6 @@ To fol -- low, serve and wait for Thee. %{<HIDE%}
   } #}))
 }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

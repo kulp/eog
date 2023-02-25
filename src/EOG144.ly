@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   ragged-last-bottom = ##t
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tunes: No. 164, No. 4 in Supplement." } }
+  oddFooterMarkup = \markup { \fill-line { \if \on-first-page "Alternate tunes: No. 164, No. 4 in Supplement." } }
   \include "override/override-EOG144.ily"
 }
 
@@ -188,6 +188,6 @@ In ev -- ’ry -- thing con -- formed to Thee!
   } #}))
 }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
