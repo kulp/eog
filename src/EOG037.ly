@@ -178,6 +178,7 @@ For I for -- get so soon;
 The ear -- ly dew of morn -- ing
 Has passed a -- way at noon.
 
+\eogbreak
 \Refrain
 
 }
