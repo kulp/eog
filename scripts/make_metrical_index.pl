@@ -39,6 +39,20 @@ sub munge {
     return @in;
 }
 
+# Translate explicit (UTF-8) quotes into ascii symbols that TeX understands,
+# and do similarly for dashes. This is a workaround for tectonic with TeX Gyre
+# Schola (lualatex with that font works; tectonic with the default font works).
+sub fix_chars {
+    local $_ = shift;
+    s/“/``/g;
+    s/”/''/g;
+    s/‘/`/g;
+    s/’/'/g;
+    s/–/\\textendash{}/g;
+    s/—/\\textemdash{}/g;
+    $_
+}
+
 sub handle {
     my ($rec, $lines, $have) = @_;
     for my $song (sort dictionary keys %$rec) {
@@ -48,6 +62,7 @@ sub handle {
             $song .= "s" if @nums > 1;
             $song = "Also $song" if $$have;
         }
+        $song = fix_chars($song);
         push @$lines, " $song\t" . (join ", ", munge(@nums)) . "\n";
         $$have++;
     }
@@ -61,6 +76,7 @@ for my $meter (sort by_meter keys %meters) {
     my $rec = $meters{$meter};
     print $header, @lines;
     @lines = ();
+    $meter = fix_chars($meter);
     $header = "$meter\n";
     my $have = 0;
     handle($rec, \@lines, \$have);

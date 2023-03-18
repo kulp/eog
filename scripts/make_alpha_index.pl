@@ -29,6 +29,20 @@ sub compute_length {
     return sum map $widths{$_}, split //, shift;
 }
 
+# Translate explicit (UTF-8) quotes into ascii symbols that TeX understands,
+# and do similarly for dashes. This is a workaround for tectonic with TeX Gyre
+# Schola (lualatex with that font works; tectonic with the default font works).
+sub fix_chars {
+    local $_ = shift;
+    s/“/``/g;
+    s/”/''/g;
+    s/‘/`/g;
+    s/’/'/g;
+    s/–/\\textendash{}/g;
+    s/—/\\textemdash{}/g;
+    $_
+}
+
 sub add {
     my $i = shift;
     local $_ = shift;
@@ -37,6 +51,10 @@ sub add {
     pop @F while compute_length("@F $i") > $width_threshold;
     $_ = "@F";
     s/[,:;–—]$//g;
+    # Translate explicit quotes back into implicit quotes; this is a workaround
+    # for tectonic with TeX Gyre Schola (lualatex with that font works;
+    # tectonic with the default font works).
+    $_ = fix_chars($_);
     push @list, [ $_, $i ] unless $uniq{"$_/$i"}++;
 }
 
@@ -59,7 +77,7 @@ my $last_letter = '';
 my $last_title = qr/^$/; # unmatchable to begin with
 for (sort dictionary_order @list) {
     my ($letter) = $_->[0] =~ /(\w)/;
-    print qq(\\smallbreak{\\centering\\textbf{—\u$letter—}\\par}\\nopagebreak\n\n) if $letter ne $last_letter;
+    print qq(\\smallbreak{\\centering\\textbf{\\textemdash{}\u$letter\\textemdash{}}\\par}\\nopagebreak\n\n) if $letter ne $last_letter;
     my $title = $_->[0];
     $title =~ s/ \.\.\.$//; # suppress ellipsis dots that interfere with \dotfill
     # Suppress titles that are merely suffixes (let the prefix just emitted cover both)
