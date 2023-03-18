@@ -1,7 +1,24 @@
 %PDF-1.4
-%�쏢
+%µ¶
+
+1 0 obj
+<</Type/Catalog/Pages 3 0 R/Metadata 9 0 R>>
+endobj
+
+2 0 obj
+<</Producer(GPL Ghostscript 9.19)/CreationDate(D:20170709174447-07'00')/ModDate(D:20170709174447-07'00')/Creator(GPL Ghostscript 919 \(ps2write\))>>
+endobj
+
+3 0 obj
+<</Type/Pages/Kids[4 0 R]/Count 1>>
+endobj
+
+4 0 obj
+<</Type/Page/MediaBox[0 0 2972 1912]/Parent 3 0 R/Resources<</ProcSet[/PDF]/ExtGState 8 0 R>>/Contents 5 0 R>>
+endobj
+
 5 0 obj
-<</Length 6 0 R>>
+<</Length 84097>>
 stream
 q 0.20259 0 0 0.20259 0 0 cm
 /R7 gs
@@ -1881,39 +1898,22 @@ f
 Q
 endstream
 endobj
+
 6 0 obj
 84097
 endobj
-4 0 obj
-<</Type/Page/MediaBox [0 0 2972 1912]
-/Parent 3 0 R
-/Resources<</ProcSet[/PDF]
-/ExtGState 8 0 R
->>
-/Contents 5 0 R
->>
-endobj
-3 0 obj
-<< /Type /Pages /Kids [
-4 0 R
-] /Count 1
->>
-endobj
-1 0 obj
-<</Type /Catalog /Pages 3 0 R
-/Metadata 9 0 R
->>
-endobj
+
 7 0 obj
-<</Type/ExtGState
-/OPM 1>>endobj
-8 0 obj
-<</R7
-7 0 R>>
+<</Type/ExtGState/OPM 1>>
 endobj
+
+8 0 obj
+<</R7 7 0 R>>
+endobj
+
 9 0 obj
-<</Type/Metadata
-/Subtype/XML/Length 1356>>stream
+<</Type/Metadata/Subtype/XML/Length 1356>>
+stream
 <?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
 <?adobe-xap-filters esc="CRLF"?>
 <x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 2.9.1-13, framework 1.6'>
@@ -1931,27 +1931,22 @@ endobj
 <?xpacket end='w'?>
 endstream
 endobj
-2 0 obj
-<</Producer(GPL Ghostscript 9.19)
-/CreationDate(D:20170709174447-07'00')
-/ModDate(D:20170709174447-07'00')
-/Creator(GPL Ghostscript 919 \(ps2write\))>>endobj
+
 xref
 0 10
-0000000000 65535 f 
-0000084375 00000 n 
-0000085941 00000 n 
-0000084316 00000 n 
-0000084183 00000 n 
-0000000015 00000 n 
-0000084162 00000 n 
-0000084439 00000 n 
-0000084480 00000 n 
-0000084509 00000 n 
+0000000000 65536 f 
+0000000016 00000 n 
+0000000077 00000 n 
+0000000242 00000 n 
+0000000294 00000 n 
+0000000421 00000 n 
+0000084570 00000 n 
+0000084592 00000 n 
+0000084634 00000 n 
+0000084664 00000 n 
+
 trailer
-<< /Size 10 /Root 1 0 R /Info 2 0 R
-/ID [<0FC25163787F3943789814704FDAAAFC><0FC25163787F3943789814704FDAAAFC>]
->>
+<</Size 10/Info 2 0 R/Root 1 0 R/ID[<0FC25163787F3943789814704FDAAAFC><0FC25163787F3943789814704FDAAAFC>]>>
 startxref
-86107
+86097
 %%EOF
