@@ -111,7 +111,7 @@ wordsA = \lyricmode {
 \set stanza = "1."
 
 The Fa -- ther, from e -- ter -- ni -- ty, \bar "."
-Chose us, O Je -- sus Christ, in Thee, \bar "."
+Chose us, O Je -- sus Christ, in Thee, \bar "." \eogbreak
 In Thee, His well -- be -- lov -- ed; \bar "."
 And we, as giv’n to Thee— Thy bride, \bar "."
 In Thee, Lord Je -- sus, can con -- fide; \bar "."

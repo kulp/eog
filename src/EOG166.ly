@@ -2,7 +2,7 @@
 \paper {
   \include "common/paper.ily"
   systems-per-page = ##f
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 270." } }
+  oddFooterMarkup = \markup { \fill-line { \if \on-first-page "Alternate tune: No. 270." } }
   \include "override/override-EOG166.ily"
 }
 
@@ -161,6 +161,6 @@ wordsE = \markuplist {
   \vspace #1
 } } }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

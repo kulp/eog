@@ -62,5 +62,5 @@ bookTitleMarkup = \markup { }
 oddHeaderMarkup = \markup { }
 evenHeaderMarkup = \markup
 \fill-line {
-  \on-the-fly #not-part-first-page \lower #3.5 \huge \larger \larger \bold \fromproperty #'header:title
+  \unless \on-first-page-of-part \lower #3.5 \huge \larger \larger \bold \fromproperty #'header:title
 }

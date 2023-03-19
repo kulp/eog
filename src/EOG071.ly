@@ -1,7 +1,7 @@
 \include "common/global.ily"
 \paper {
   \include "common/paper.ily"
-  oddFooterMarkup = \markup { \fill-line { \on-the-fly \first-page "Alternate tune: No. 5." } }
+  oddFooterMarkup = \markup { \fill-line { \if \on-first-page "Alternate tune: No. 5." } }
   \include "override/override-EOG071.ily"
 }
 
@@ -175,6 +175,6 @@ God is love, God is love.
   } #}))
 }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

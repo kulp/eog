@@ -287,14 +287,12 @@ CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
 # header files were dumped when there were no active `\layout{ }` blocks)
 PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --header=$(HEADER_BRACES)
-PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --define-default=include-settings=variants/PDF-settings.ily
 PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --pdf
 PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	@mkdir -p $(@D)
 	@echo "[ PDF ] $*.pdf"
 	$(LILYPOND) $(LYOPTS) --include=$(CURDIR)/variants/PDF/$(*D) --output=PDF/$* $<
 
-SVG/%.svg: LYOPTS += --define-default=include-settings=variants/SVG-settings.ily
 SVG/%.svg: LYOPTS += --svg
 SVG/%.svg: src/$$(*F).ly
 	@mkdir -p $(@D)
@@ -323,8 +321,8 @@ SVG/offline/index.html: scripts/make_svg_index.pl scripts/svg.css $(SVGS)
 	$< $(filter %.svg,$^) > $@
 	ln -f scripts/svg.css $(@D)/
 
-MIDI/%.midi: LYOPTS += --define-default=include-settings=variants/MIDI-settings.ily
 MIDI/%.midi: LYOPTS += --define-default=no-print-pages
+MIDI/%.midi: LYOPTS += --define-default=eog-midi-permitted
 MIDI/%.midi: src/$$(*F).ly
 	@mkdir -p $(@D)
 	@echo "[ MIDI ] $*.midi"

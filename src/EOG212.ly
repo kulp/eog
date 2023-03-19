@@ -15,7 +15,7 @@
 
 dualTime = #(define-music-function (parser location num1 num2 denom) (string? string? string?) #{
     \once\override Staff.TimeSignature.stencil = #(dual-time num1 num2 denom)
-    \once\revert TimeSignature #'break-visibility
+    \once\revert TimeSignature.break-visibility
 #})
 
 \header{
@@ -198,6 +198,6 @@ When Je -- sus re -- ceives “His own.”
   } #}))
 }
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:

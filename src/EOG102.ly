@@ -241,7 +241,7 @@ Be in time!
 segnoWords = \lyricmode {
 
 { \repeat unfold 32 { \skip 4 } }
-\override LyricText #'font-shape = #'italic
+\override LyricText.font-shape = #'italic
 D.S. find no o -- pen gate,
 And your cry be just too late,
 Be in time!
@@ -320,7 +320,6 @@ music = \context ChoirStaff <<
       \context Lyrics = three \lyricsto sopranos \wordsC
       \context Lyrics = four  \lyricsto sopranos \wordsD
     >>
-    \new Lyrics \with { alignAboveContext = men } \lyricsto sopranos \segnoWords
     \context Staff = men <<
       \set Staff.autoBeaming = ##f
       \clef bass
@@ -330,6 +329,7 @@ music = \context ChoirStaff <<
       \context Voice = tenorsSecond { \voiceOne << \notesTenorSecond >> }
       \context Voice = bassesSecond { \voiceTwo << \notesBassSecond >> }
     >>
+    \new Lyrics \with { alignAboveContext = men } \lyricsto sopranos \segnoWords
     \new Lyrics \with { alignAboveContext = men } \lyricsto tenors \underWords
   >>
 
@@ -360,6 +360,6 @@ musicDS = \context ChoirStaff <<
 
 \include "score-EOG102.ily"
 
-\version "2.22.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.24.0"  % necessary for upgrading to future LilyPond versions.
 
 % vi:set et ts=2 sw=2 ai nocindent syntax=lilypond:
