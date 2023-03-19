@@ -7,7 +7,6 @@ use List::Util qw(sum);
 binmode \*STDIN , ":utf8";
 binmode \*STDOUT, ":utf8";
 
-my $count = shift;
 my @list;
 my %uniq;
 
