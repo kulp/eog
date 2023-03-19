@@ -68,8 +68,8 @@ for my $file (@ARGV) {
 }
 
 sub dictionary_order {
-    (my $aa = $a->[0]) =~ s/\p{IsPunct}//g;
-    (my $bb = $b->[0]) =~ s/\p{IsPunct}//g;
+    (my $aa = $a->[0]) =~ s/[[:punct:]]//g;
+    (my $bb = $b->[0]) =~ s/[[:punct:]]//g;
     return $aa cmp $bb;
 }
 
