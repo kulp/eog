@@ -228,7 +228,7 @@ booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
 
 %.pdf: %.tex
 	@echo "[ LATEX ] $@"
-	lualatex --shell-escape --output-directory=$(@D) $<
+	tectonic -Zsearch-path=$(CURDIR) $<
 
 .PHONY: FORCE
 booklayout/revision.tex: FORCE
