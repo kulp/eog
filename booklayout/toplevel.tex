@@ -12,6 +12,14 @@
 \else
   % --------------- XeLaTeX, tectonic or LuaLaTeX
   \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  % From https://github.com/tectonic-typesetting/tectonic/issues/372#issuecomment-488268212
+  \setmainfont{texgyreschola-regular.otf}[
+      Ligatures = TeX,
+      BoldFont = texgyreschola-bold.otf,
+      ItalicFont = texgyreschola-italic.otf,
+      BoldItalicFont = texgyreschola-bolditalic.otf,
+  ]
 \fi
 % ---------------
 
@@ -30,15 +38,6 @@
     colorlinks=false,
     pageanchor=false
 }
-
-\defaultfontfeatures{Ligatures=TeX}
-% From https://github.com/tectonic-typesetting/tectonic/issues/372#issuecomment-488268212
-\setmainfont{texgyreschola-regular.otf}[
-    Ligatures = TeX,
-    BoldFont = texgyreschola-bold.otf,
-    ItalicFont = texgyreschola-italic.otf,
-    BoldItalicFont = texgyreschola-bolditalic.otf,
-]
 
 \setlength{\parindent}{20pt}
 \setlength{\parskip}{10pt}
