@@ -44,6 +44,7 @@ sub munge {
 # Schola (lualatex with that font works; tectonic with the default font works).
 sub fix_chars {
     local $_ = shift;
+    s/^“/\\lllap{``}/;
     s/“/``/g;
     s/”/''/g;
     s/‘/`/g;

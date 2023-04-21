@@ -34,6 +34,7 @@ sub compute_length {
 # Schola (lualatex with that font works; tectonic with the default font works).
 sub fix_chars {
     local $_ = shift;
+    s/^“/\\lllap{``}/;
     s/“/``/g;
     s/”/''/g;
     s/‘/`/g;
@@ -54,8 +55,8 @@ sub add {
     # Translate explicit quotes back into implicit quotes; this is a workaround
     # for tectonic with TeX Gyre Schola (lualatex with that font works;
     # tectonic with the default font works).
-    $_ = fix_chars($_);
-    push @list, [ $_, $i ] unless $uniq{"$_/$i"}++;
+    my $new = fix_chars($_);
+    push @list, [ $_, $i, $new ] unless $uniq{"$_/$i"}++;
 }
 
 for my $file (@ARGV) {
@@ -78,7 +79,7 @@ my $last_title = qr/^$/; # unmatchable to begin with
 for (sort dictionary_order @list) {
     my ($letter) = $_->[0] =~ /(\w)/;
     print qq(\\smallbreak{\\centering\\textbf{\\textemdash{}\u$letter\\textemdash{}}\\par}\\nopagebreak\n\n) if $letter ne $last_letter;
-    my $title = $_->[0];
+    my $title = $_->[2];
     $title =~ s/ \.\.\.$//; # suppress ellipsis dots that interfere with \dotfill
     # Suppress titles that are merely suffixes (let the prefix just emitted cover both)
     printf qq(\\hyperlink{EOG%03d}{%s\\dotfill{}%s}\n\n), $_->[1], $title, $_->[1] unless $title =~ /^$last_title/;
