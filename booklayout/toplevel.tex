@@ -1,16 +1,36 @@
 \documentclass{book}
 \usepackage[tmargin=0.75in,bmargin=0.4in,inner=.75in,outer=.5in,paperwidth=6in,paperheight=9in]{geometry}
 
+% From https://github.com/tectonic-typesetting/tectonic/issues/1026#issuecomment-1517350439
+% --------------- PDFLaTeX, XeLaTeX or LuaLaTeX ?
+\usepackage{iftex}
+\ifPDFTeX
+  % --------------- PDFLaTeX or LaTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{tgschola}
+\else
+  % --------------- XeLaTeX, tectonic or LuaLaTeX
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  % From https://github.com/tectonic-typesetting/tectonic/issues/372#issuecomment-488268212
+  \setmainfont{texgyreschola-regular.otf}[
+      Ligatures = TeX,
+      BoldFont = texgyreschola-bold.otf,
+      ItalicFont = texgyreschola-italic.otf,
+      BoldItalicFont = texgyreschola-bolditalic.otf,
+  ]
+\fi
+% ---------------
+
 \usepackage{afterpage}
 \usepackage{cabin}
 \usepackage{fancyhdr}
-\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
 \usepackage[final]{microtype}
 \usepackage{multicol}
 \usepackage{nopageno}
-\usepackage{tgschola}
 
 \hypersetup{
     pdftitle={Echoes of Grace Hymn Book},
@@ -18,8 +38,6 @@
     colorlinks=false,
     pageanchor=false
 }
-
-\defaultfontfeatures{Ligatures=TeX}
 
 \setlength{\parindent}{20pt}
 \setlength{\parskip}{10pt}
