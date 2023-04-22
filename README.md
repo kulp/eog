@@ -1,12 +1,16 @@
-This project maintains music source files for the hymns in the Echoes of Grace
-hymnbook from Bible Truth Publishers, Addison, Illinois. From these Lilypond
-sources are derived sheet music and audio files in various formats, hosted at
-the URL below.
+This project maintains [Lilypond] source files for the hymns in the Echoes of
+Grace hymnbook published by [Bible Truth Publishers]. From these source files
+are derived sheet music PDFs and audio files, which are [hosted] online for use
+by anyone.
 
 All copyright is expressly disclaimed by the maintainer. Individual hymn
 tunes may be subject to copyright, and efforts have been made not to
 infringe upon such.
 
-Darren Kulp  
-darren@kulp.ch  
-http://purl.org/echoesofgrace/  
+Soli Deo gloria!
+
+Darren Kulp (darren@kulp.ch)
+
+[Bible Truth Publishers]: https://bibletruthpublishers.com
+[hosted]: http://purl.org/echoesofgrace/
+[Lilypond]: https://lilypond.org
