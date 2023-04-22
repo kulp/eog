@@ -10,6 +10,7 @@ on:
 env:
   MAKEFLAGS: --jobs=4
   LILYPOND_VERSION: 2.24.1
+  VARIANTS_PDF: eogsized
 jobs:
   build:
     runs-on: ubuntu-latest
