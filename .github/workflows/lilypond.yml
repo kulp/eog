@@ -8,6 +8,7 @@ on:
     branches:
       - master
 env:
+  MAKEFLAGS: --jobs=4
   LILYPOND_VERSION: 2.24.1
 jobs:
   build:
