@@ -7,7 +7,6 @@ All copyright is expressly disclaimed by the maintainer. Individual hymn
 tunes may be subject to copyright, and efforts have been made not to
 infringe upon such.
 
-Darren Kulp
-darren@kulp.ch
-http://purl.org/echoesofgrace/
-
+Darren Kulp  
+darren@kulp.ch  
+http://purl.org/echoesofgrace/  
