@@ -30,3 +30,7 @@ jobs:
             --workdir ${{ github.workspace }}
           image: my-lilydock:${{ env.LILYPOND_VERSION }}
           run: make --environment-overrides pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pdfs
+          path: PDF/*/*.pdf
