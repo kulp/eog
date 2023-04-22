@@ -50,7 +50,6 @@ LILYPOND ?= docker run --volume $(CURDIR):$(CURDIR) --workdir $(CURDIR) $(DOCKER
 space :=#
 space +=#
 comma :=,
-HEADER_BRACES = {$(subst $(space),$(comma),$(HEADERS))}
 HEADER_PATTERNS = $(foreach h,$(HEADERS),PDF/%.$h)
 
 LYOPTS += --loglevel=WARNING
@@ -283,10 +282,10 @@ override-%.ily:
 	touch $@
 
 CLOBBERFILES += $(PDFS) $(SVGS) $(WAVS) $(MIDIS) $(MP3S)
-CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
+CLOBBERFILES += $(foreach h,$(HEADERS),$(LYS:%.ly=PDF/*/%.$h))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
 # header files were dumped when there were no active `\layout{ }` blocks)
-PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --header=$(HEADER_BRACES)
+PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += $(HEADERS:%=--header=%)
 PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --pdf
 PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	@mkdir -p $(@D)
