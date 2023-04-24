@@ -35,22 +35,11 @@ PRIMARY_FILE_COUNT = 379
 TOTAL_FILE_COUNT = 387
 TOTAL_PAGE_COUNT = 358 # for toplevel
 
-# Fix lilypond version at 2.20.0 until an issue with EOG302 markup verses is
-# understood.
-LILYPOND_VERSION = 2.20.0
-DOCKER_IMAGE_VARIANT =# empty, except for overrides
-DOCKER_IMAGE = jeandeaual/lilypond:$(LILYPOND_VERSION)$(DOCKER_IMAGE_VARIANT)
-LILYPOND ?= docker run --volume $(CURDIR):$(CURDIR) --workdir $(CURDIR) $(DOCKER_IMAGE) lilypond
-
-# Use the `-fonts` variant (though larger) for the Unicode star in EOG083.
-# Avoid using the `-fonts` variant in general, because (at least at version
-# 2.20.0) it takes a very long time to run font configuration.
-%/EOG083.pdf: DOCKER_IMAGE_VARIANT = -fonts
+LILYPOND ?= lilypond
 
 space :=#
 space +=#
 comma :=,
-HEADER_BRACES = {$(subst $(space),$(comma),$(HEADERS))}
 HEADER_PATTERNS = $(foreach h,$(HEADERS),PDF/%.$h)
 
 LYOPTS += --loglevel=WARNING
@@ -283,10 +272,10 @@ override-%.ily:
 	touch $@
 
 CLOBBERFILES += $(PDFS) $(SVGS) $(WAVS) $(MIDIS) $(MP3S)
-CLOBBERFILES += $(LYS:%.ly=PDF/*/%.$(HEADER_BRACES))
+CLOBBERFILES += $(foreach h,$(HEADERS),$(LYS:%.ly=PDF/*/%.$h))
 # PDF rule also creates header files (wanted to do it with MIDI rule but no
 # header files were dumped when there were no active `\layout{ }` blocks)
-PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --header=$(HEADER_BRACES)
+PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += $(HEADERS:%=--header=%)
 PDF/%.pdf $(HEADER_PATTERNS): LYOPTS += --pdf
 PDF/%.pdf $(HEADER_PATTERNS): src/$$(*F).ly
 	@mkdir -p $(@D)

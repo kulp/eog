@@ -1,0 +1,38 @@
+---
+name: build
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+env:
+  MAKEFLAGS: --jobs=4
+  LILYPOND_VERSION: 2.24.1
+  VARIANTS_PDF: eogsized
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v3
+      - name: Build Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: docker/Dockerfile
+          build-args: LILYPOND_VERSION=${{ env.LILYPOND_VERSION }}
+          tags: my-lilydock:${{ env.LILYPOND_VERSION }}
+      - name: Build PDFs
+        uses: addnab/docker-run-action@v3
+        with:
+          options: |
+            --volume ${{ github.workspace }}:${{ github.workspace }}
+            --workdir ${{ github.workspace }}
+          image: my-lilydock:${{ env.LILYPOND_VERSION }}
+          run: make --environment-overrides pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pdfs
+          path: PDF/*/*.pdf
