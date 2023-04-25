@@ -30,6 +30,8 @@ jobs:
           options: |
             --volume ${{ github.workspace }}:${{ github.workspace }}
             --workdir ${{ github.workspace }}
+            --env MAKEFLAGS
+            --env VARIANTS_PDF
           image: my-lilydock:${{ env.LILYPOND_VERSION }}
           run: make --environment-overrides pdf
       - uses: actions/upload-artifact@v3
