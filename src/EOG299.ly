@@ -18,7 +18,7 @@
 }
 
 ta = { \tempo 4=80 }
-tb = { \tempo 4=40 }
+tb = { \tempo 4=60 }
 
 global = {
   \include "common/overrides.ily"
