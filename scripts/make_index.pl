@@ -4,6 +4,7 @@ use warnings;
 
 use CGI qw(:standard); # just for HTML shortcuts
 use File::Basename qw(basename dirname);
+use HTML::Entities qw(encode_entities);
 use List::MoreUtils qw(uniq);
 
 sub get_key ($$)
@@ -31,6 +32,13 @@ my %vcount   = map { $_ => scalar @{ $variants{$_} } } keys %variants;
 
 my $basic = 379;
 my $total = $basic + 8;
+
+sub safe ($)
+{
+    # We specifically name the characters we want to avoid, in order to avoid
+    # mojibake from encoding multibyte UTF-8 sequences as individual entities:
+    return encode_entities($_[0], q(<>&"'));
+}
 
 print
     start_html(-title  => "Echoes of Grace layout project",
@@ -94,10 +102,10 @@ print
 
                 Tr(
                     th({ -class => "index", customkey => $order     } , "$addl$int"),
-                    td({ -class => "title", customkey => $safetitle } , $title),
-                    td({ -class => "poet"                           } , $poet),
-                    td({ -class => "composer"                       } , $composer),
-                    td({ -class => "tunename"                       } , $tunename),
+                    td({ -class => "title", customkey => $safetitle } , safe($title)),
+                    td({ -class => "poet"                           } , safe($poet)),
+                    td({ -class => "composer"                       } , safe($composer)),
+                    td({ -class => "tunename"                       } , safe($tunename)),
                     (map { my $dir = $_; map {
                         my $where = "$dir/$_/$stem.$exts{$dir}";
                         td({ -class => "link" }, (-e $where) ? a({ -href => $where }, $dir) : ""),
