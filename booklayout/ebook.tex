@@ -25,6 +25,9 @@
 \begin{document}
 \pagenumbering{gobble}
 
+% See https://tex.stackexchange.com/a/587488 for '\lllap':
+\newcommand{\lllap}[1]{\makebox[0pt][r]{#1}}
+
 \input{booklayout/ebook_index}
 
 \input{booklayout/letterbook}
