@@ -44,10 +44,8 @@ sub munge {
 # Schola (lualatex with that font works; tectonic with the default font works).
 sub fix_chars {
     local $_ = shift;
-    s/^“/\\lllap{``}/;
-    s/“/``/g;
-    s/”/''/g;
-    s/‘/`/g;
+    die "No support for quotation marks here" if /[“”‘]/;
+    # Apostrophes are supported:
     s/’/'/g;
     s/–/\\textendash{}/g;
     s/—/\\textemdash{}/g;
