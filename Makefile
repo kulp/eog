@@ -65,6 +65,7 @@ endif
 
 .PHONY: all pdf midi mp3 m3u index dist zip lyrics preview latin
 all: pdf midi lyrics index mp3 m3u book
+all: svg
 pdf: $(PDFS)
 svg: $(SVGS)
 svg: SVG/online/index.html.gz
