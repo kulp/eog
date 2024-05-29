@@ -222,7 +222,7 @@ booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
 
 .PHONY: FORCE
 booklayout/revision.tex: FORCE
-	git describe --long --always --match='v*' > $@
+	rev=$$(git describe --long --always --match='v*') && echo '\href{http://purl.org/echoesofgrace/revision/'"$$rev}{Revision $$rev}" > $@
 
 booklayout/toplevel.pdf: booklayout/revision.tex booklayout/book.tex
 booklayout/toplevel.pdf: $(foreach f,metrical first gospel children,booklayout/$f_insert.tex)
