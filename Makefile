@@ -36,6 +36,7 @@ TOTAL_FILE_COUNT = 387
 TOTAL_PAGE_COUNT = 358 # for toplevel
 
 LILYPOND ?= lilypond
+TECTONIC ?= tectonic
 
 space :=#
 space +=#
@@ -218,7 +219,7 @@ booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
 
 %.pdf: %.tex
 	@echo "[ LATEX ] $@"
-	tectonic -Zsearch-path=$(CURDIR) $<
+	$(TECTONIC) -Zsearch-path=$(CURDIR) $<
 
 .PHONY: FORCE
 booklayout/revision.tex: FORCE
