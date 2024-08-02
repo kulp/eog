@@ -33,7 +33,9 @@ jobs:
             --env MAKEFLAGS
             --env VARIANTS_PDF
           image: my-lilydock:${{ env.LILYPOND_VERSION }}
-          run: make --environment-overrides pdf
+          run: |
+            git config --global --add safe.directory '*' &&
+            make --environment-overrides pdf
       - uses: actions/upload-artifact@v4
         with:
           name: pdfs
