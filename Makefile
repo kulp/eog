@@ -205,7 +205,7 @@ check_book: book
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	@echo "[ METRICS ] $@"
-	magick identify -format "%P %@\n" $< > $@
+	identify -format "%P %@\n" $< > $@
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
