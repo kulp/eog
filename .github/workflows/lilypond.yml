@@ -10,6 +10,9 @@ on:
 env:
   MAKEFLAGS: --jobs=4
   LILYPOND_VERSION: 2.24.1
+  # TODO Update TECTONIC_VERSION to 0.15.0 once OpenSSL 3.0 is in the Docker
+  # image:
+  TECTONIC_VERSION: 0.14.1
   VARIANTS_PDF: eogsized
 jobs:
   build:
@@ -24,6 +27,10 @@ jobs:
           file: docker/Dockerfile
           build-args: LILYPOND_VERSION=${{ env.LILYPOND_VERSION }}
           tags: my-lilydock:${{ env.LILYPOND_VERSION }}
+      - uses: wtfjoke/setup-tectonic@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          tectonic-version: ${{ env.TECTONIC_VERSION }}
       - name: Build PDFs
         uses: addnab/docker-run-action@v3
         with:
