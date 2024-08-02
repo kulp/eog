@@ -31,6 +31,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           tectonic-version: ${{ env.TECTONIC_VERSION }}
+      - run: cp -f "$(command -v tectonic)" "${{ github.workspace }}/tectonic"
       - name: Build PDFs
         uses: addnab/docker-run-action@v3
         with:
@@ -42,8 +43,10 @@ jobs:
           image: my-lilydock:${{ env.LILYPOND_VERSION }}
           run: |
             git config --global --add safe.directory '*' &&
-            make --environment-overrides pdf
+            make --environment-overrides booklayout/toplevel.pdf SKIP_SPELLCHECK=1 TECTONIC=${{ github.workspace }}/tectonic
       - uses: actions/upload-artifact@v4
         with:
           name: pdfs
-          path: PDF/*/*.pdf
+          path: |
+            PDF/*/*.pdf
+            booklayout/toplevel.pdf
