@@ -31,3 +31,19 @@ RUN \
     qpdf
 
 RUN apt install -y make
+
+# Install dependencies for book build:
+RUN apt install \
+    git \
+    imagemagick \
+    libarray-group-perl \
+    libfile-slurp-perl \
+    liblingua-stem-perl \
+    libperl6-slurp-perl \
+    libregexp-common-perl \
+    libtext-trim-perl \
+    -y # end of list
+
+# Disable a security workaround for Ghostscript:
+# (see https://stackoverflow.com/a/59193253)
+RUN sed -i '/PDF/{/rights=.*none/d}' /etc/ImageMagick*/policy.xml

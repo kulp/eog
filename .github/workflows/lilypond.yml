@@ -10,6 +10,9 @@ on:
 env:
   MAKEFLAGS: --jobs=4
   LILYPOND_VERSION: 2.24.1
+  # TODO Update TECTONIC_VERSION to 0.15.0 once OpenSSL 3.0 is in the Docker
+  # image:
+  TECTONIC_VERSION: 0.14.1
   VARIANTS_PDF: eogsized
 jobs:
   build:
@@ -24,6 +27,11 @@ jobs:
           file: docker/Dockerfile
           build-args: LILYPOND_VERSION=${{ env.LILYPOND_VERSION }}
           tags: my-lilydock:${{ env.LILYPOND_VERSION }}
+      - uses: wtfjoke/setup-tectonic@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          tectonic-version: ${{ env.TECTONIC_VERSION }}
+      - run: cp -f "$(command -v tectonic)" "${{ github.workspace }}/tectonic"
       - name: Build PDFs
         uses: addnab/docker-run-action@v3
         with:
@@ -33,8 +41,12 @@ jobs:
             --env MAKEFLAGS
             --env VARIANTS_PDF
           image: my-lilydock:${{ env.LILYPOND_VERSION }}
-          run: make --environment-overrides pdf
+          run: |
+            git config --global --add safe.directory '*' &&
+            make --environment-overrides booklayout/toplevel.pdf SKIP_SPELLCHECK=1 TECTONIC=${{ github.workspace }}/tectonic
       - uses: actions/upload-artifact@v4
         with:
           name: pdfs
-          path: PDF/*/*.pdf
+          path: |
+            PDF/*/*.pdf
+            booklayout/toplevel.pdf

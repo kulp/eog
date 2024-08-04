@@ -36,6 +36,7 @@ TOTAL_FILE_COUNT = 387
 TOTAL_PAGE_COUNT = 358 # for toplevel
 
 LILYPOND ?= lilypond
+TECTONIC ?= tectonic
 
 space :=#
 space +=#
@@ -205,7 +206,7 @@ check_book: book
 CLOBBERFILES += metrics/
 metrics/%.metrics: PDF/eogsized/%.pdf | metrics
 	@echo "[ METRICS ] $@"
-	magick identify -format "%P %@\n" $< > $@
+	identify -format "%P %@\n" $< > $@
 
 CLOBBERFILES += booklayout/book.tex booklayout/book.aux booklayout/book.log
 booklayout/book.tex: $(LYS:%.ly=metrics/%.metrics) | $(LYS:%.ly=PDF/eogsized/%.pdf)
@@ -218,7 +219,7 @@ booklayout/index.meter: $(LYS:%.ly=PDF/eogsized/%.meter)
 
 %.pdf: %.tex
 	@echo "[ LATEX ] $@"
-	tectonic -Zsearch-path=$(CURDIR) $<
+	$(TECTONIC) -Zsearch-path=$(CURDIR) $<
 
 .PHONY: FORCE
 booklayout/revision.tex: FORCE
