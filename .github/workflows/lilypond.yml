@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v4
+        with:
+          fetch-tags: true
       - name: Build Docker image
         uses: docker/build-push-action@v5
         with:
