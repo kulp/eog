@@ -273,5 +273,3 @@ what -- e’er	whate’er
 wher -- e’er	where’er
 won -- d’ring	wondering
 wor -- ship -- pers	worshippers
-Can't locate Array/Group.pm in @INC (you may need to install the Array::Group module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/aarch64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at scripts/getlyrics.pl line 7.
-BEGIN failed--compilation aborted at scripts/getlyrics.pl line 7.
