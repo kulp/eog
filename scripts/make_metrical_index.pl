@@ -71,7 +71,8 @@ my $header;
 my @lines;
 my %assorted;
 my $last;
-for my $meter (sort by_meter keys %meters) {
+# Sort twice to ensure stability:
+for my $meter (sort by_meter sort keys %meters) {
     my $rec = $meters{$meter};
     print $header, @lines;
     @lines = ();
