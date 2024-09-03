@@ -8,7 +8,7 @@
   hymnnumber = "74"
   title = "Come to the Blood-Stained Tree"
   tunename = ""
-  meter = "" % sung with P. M.
+  meter = "P. M." % per singing instructions
   poet = ""
   composer = ""
   tagline = ##f

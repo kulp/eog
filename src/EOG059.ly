@@ -8,7 +8,7 @@
   hymnnumber = "59"
   title = "Why Wilt Thou Linger"
   tunename = ""
-  meter = "" % sung with P. M.
+  meter = "P. M." % per singing instructions
   poet = "I. Fleming"
   composer = ""
   tagline = ##f

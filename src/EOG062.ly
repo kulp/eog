@@ -9,7 +9,7 @@
   hymnnumber = "62"
   title = "Behold the Lamb Whose Precious Blood"
   tunename = ""
-  meter = "" % sung with C. M.
+  meter = "C. M." % per singing instructions
   poet = ""
   composer = ""
   tagline = ##f

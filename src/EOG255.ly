@@ -8,7 +8,7 @@
   hymnnumber = "255"
   title = "Not to Ourselves We Owe"
   tunename = ""
-  meter = "" % sung with S. M.
+  meter = "S. M." % per singing instructions
   poet = ""
   composer = ""
   tagline = ##f
