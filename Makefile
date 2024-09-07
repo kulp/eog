@@ -267,6 +267,11 @@ booklayout/leather-green-tiled.jpg: booklayout/leather-green-50.jpg
 	montage $<{,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x4 -geometry +0+0 -units PixelsPerInch -density 300 $@
 
 lyricsbook: booklayout/lyricsonly.pdf
+booklayout/lyricsonly.pdf: booklayout/lyricsonly/poems.tex
+
+booklayout/lyricsonly/poems.tex: scripts/makepoem.pl $(TXTS) $(LYS:%.ly=PDF/*/%.meter)
+	mkdir -p booklayout/lyricsonly/fragments
+	$< $(filter %.txt,$^) > $@
 
 # If an override file doesn't exist, create an empty one
 vpath override-%.ily $(addsuffix /override,$(wildcard variants/*/*))
