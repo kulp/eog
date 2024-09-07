@@ -252,11 +252,13 @@ while (<ARGV>) {
         my $indents = $eog_indent_overrides{$eog} // $meter_map{$lookup}
             // die "Indents indeterminate for $eog";
 
+        my ($num) = $eog =~ /0*(\d+)/;
+
         undef $staged;
         say q(\vfill);
         say q(\input{booklayout/lyricsonly/fragments/) . $eog . q(});
         say $fh q(\renewcommand\thepoemmeter{) . $meter . "}";
-        say $fh q(\titlepoem{\poemblanktitle});
+        say $fh q(\titlepoem{) . $num . q(.});
         if (ref $indents) {
             say $fh q(\def\poemvsindentlines{});
             say $fh q(\setcounter{poemindentevery}{) . $$indents . "}";
