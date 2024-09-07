@@ -266,6 +266,8 @@ $(COVERS): booklayout/leather-green-tiled.jpg
 booklayout/leather-green-tiled.jpg: booklayout/leather-green-50.jpg
 	montage $<{,,,,,,,,,,,,,,,,,,,,,,,} -tile 6x4 -geometry +0+0 -units PixelsPerInch -density 300 $@
 
+lyricsbook: booklayout/lyricsonly.pdf
+
 # If an override file doesn't exist, create an empty one
 vpath override-%.ily $(addsuffix /override,$(wildcard variants/*/*))
 override-%.ily:
